@@ -16,3 +16,7 @@
 - Nová složka `data/kauzy/`: K-001 spory na ochranu osobnosti (5,01 mil. Kč v 2024).
 - Souhrnné CSV RO 2024–2026; obecný validátor `scripts/validate_ro.py`.
 - Registr subjektů: 41 subjektů + osoby z veřejných dokumentů (příjemci podpory).
+
+## 2026-10-22 (4. várka)
+- Závěrečný účet + přezkoumání hospodaření 2024 a 2025; rekonciliace RO vs. ZÚ.
+- Anomálie A-2025-01 a A-2024-01 potvrzeny.

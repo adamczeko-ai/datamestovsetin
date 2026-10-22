@@ -1,0 +1,168 @@
+{
+ "schema": "vsetin-osint/zaverecny-ucet@1",
+ "vytezeno": "2026-10-22 (SELČ)",
+ "zdroj_slozka": "https://mestovsetin.cz/zaverecny%2Ducet%2Dmesta/ds-1076/archiv=0&p1=72085",
+ "roky": {
+  "2025": {
+   "dokumenty": {
+    "zaverecny_ucet": "https://mestovsetin.cz/assets/File.ashx?id_org=18676&id_dokumenty=568728",
+    "zprava_o_prezkoumani": "https://mestovsetin.cz/assets/File.ashx?id_org=18676&id_dokumenty=568729"
+   },
+   "pocet_RO": 24,
+   "rozpocet": {
+    "prijmy": {
+     "schvaleny": 914746594.0,
+     "zmeny": 26489398.41,
+     "upraveny": 941235992.41,
+     "skutecnost": 1003369035.77,
+     "plneni_pct": 106.6
+    },
+    "vydaje": {
+     "schvaleny": 1194299646.0,
+     "zmeny": 154288444.27,
+     "upraveny": 1348588090.27,
+     "skutecnost": 1082275065.54,
+     "plneni_pct": 80.25
+    },
+    "bezne_vydaje": {
+     "schvaleny": 753331646.0,
+     "upraveny": 837014781.54,
+     "skutecnost": 766839186.26,
+     "plneni_pct": 91.62
+    },
+    "kapitalove_vydaje": {
+     "schvaleny": 440968000.0,
+     "upraveny": 511573308.73,
+     "skutecnost": 315435879.28,
+     "plneni_pct": 61.66
+    },
+    "pol_8115": {
+     "schvaleny": 79553052.0,
+     "upraveny": 207352097.86,
+     "skutecnost": 78581756.03
+    },
+    "pol_8213_kratkodoby_uver": {
+     "upraveny": 200000000.0,
+     "skutecnost": 0.0
+    }
+   },
+   "saldo": {
+    "typ": "schodek",
+    "castka": -78906029.77,
+    "kryti": "vlastní finanční prostředky"
+   },
+   "prezkoumani": {
+    "typ": "auditor (zák. 93/2009, AS 52)",
+    "chyby_a_nedostatky": "nezjištěny",
+    "rizika": "nezjištěna",
+    "podil_pohledavek_pct": 2.74,
+    "pohledavky": 27481116.09,
+    "podil_zavazku_pct": 2.63,
+    "zavazky": 26416788.17,
+    "dlouhodobe_zavazky": 40040627.39,
+    "zastaveny_majetek_pct": 0,
+    "majetek": 4081079130.0
+   }
+  },
+  "2024": {
+   "dokumenty": {
+    "zaverecny_ucet": "https://mestovsetin.cz/assets/File.ashx?id_org=18676&id_dokumenty=562186",
+    "zprava_o_prezkoumani": "https://mestovsetin.cz/assets/File.ashx?id_org=18676&id_dokumenty=562187"
+   },
+   "pocet_RO": 22,
+   "rozpocet": {
+    "prijmy": {
+     "schvaleny": 848583111.0,
+     "zmeny": 19056602.7,
+     "upraveny": 867639713.7,
+     "skutecnost": 954467444.47,
+     "plneni_pct": 110.01
+    },
+    "vydaje": {
+     "schvaleny": 1121615527.0,
+     "zmeny": 59045741.23,
+     "upraveny": 1180661268.23,
+     "skutecnost": 933707707.92,
+     "plneni_pct": 79.08
+    },
+    "pol_8115": {
+     "schvaleny": 73032416.0,
+     "upraveny": 113021554.53,
+     "skutecnost": -20876063.32
+    },
+    "pol_8213_kratkodoby_uver": {
+     "upraveny": 200000000.0,
+     "skutecnost": 0.0
+    }
+   },
+   "saldo": {
+    "typ": "přebytek",
+    "castka": 20759736.55
+   },
+   "prezkoumani": {
+    "typ": "auditor (zák. 93/2009, AS 52)",
+    "chyby_a_nedostatky": "nezjištěny",
+    "rizika": "nezjištěna",
+    "podil_pohledavek_pct": 2.79,
+    "pohledavky_tis": 26671.0,
+    "podil_zavazku_pct": 3.34,
+    "zavazky_tis": 31922.0,
+    "dlouhodobe_zavazky_tis": 44535.0,
+    "zastaveny_majetek_pct": 0,
+    "majetek_tis": 3828851.0
+   }
+  }
+ },
+ "rekonciliace_RO_vs_ZU": {
+  "metoda": "Součet změn ze všech zveřejněných RO (data/rozpocet/<rok>/…radky.csv) porovnán se sloupcem 'Změny rozpočtu' v Tabulce 1 ZÚ.",
+  "2025": {
+   "prijmy": {
+    "RO": 26462924.96,
+    "ZU": 26489398.41,
+    "rozdil": 26473.45
+   },
+   "vydaje": {
+    "RO": 154261944.27,
+    "ZU": 154288444.27,
+    "rozdil": 26500.0
+   },
+   "pol_8115": {
+    "RO": 128456115.25,
+    "ZU": 127799045.86,
+    "rozdil": -657069.39
+   },
+   "zaver": "POTVRZENO A-2025-01: zveřejněné RO 4/2025 nadhodnocuje financování (8115) o 657 095,94 Kč; ZÚ odpovídá řetězci RO 5→RO 8. Navíc +26,5 tis. Kč v příjmech i výdajích chybí ve zveřejněných RO (vyrovnané, malé)."
+  },
+  "2024": {
+   "prijmy": {
+    "RO": 27499223.3,
+    "ZU": 19056602.7,
+    "rozdil": -8442620.6,
+    "z_toho": {
+     "tr2_nedanove": -722000.0,
+     "tr4_transfery": -7720620.6
+    }
+   },
+   "vydaje": {
+    "RO": 58252135.38,
+    "ZU": 59045741.23,
+    "rozdil": 793605.85,
+    "z_toho": {
+     "tr5_bezne": 965936.47,
+     "tr6_kapitalove": -172330.62
+    }
+   },
+   "pol_8115": {
+    "RO": 30759512.08,
+    "ZU": 39989138.53,
+    "rozdil": 9229626.45
+   },
+   "zaver": "POTVRZENO A-2024-01: zveřejněná RO 2024 se od zaúčtovaných změn liší o 8,44 mil. Kč v příjmech (zejména transfery) a 0,79 mil. Kč ve výdajích; rozdíl ve financování 9,23 mil. Kč odpovídá skoku řady 8115 mezi RO 6 a RO 9. ZÚ uvádí stejný počet RO (22) → pravděpodobně se zveřejněná verze některého RO liší od schválené/zaúčtované. Ověřit usnesení RM/ZM duben–červen 2024 (RO 7, RO 8)."
+  }
+ },
+ "pozorovani": [
+  "2025: kapitálové výdaje čerpány jen na 61,66 % (315,4 z 511,6 mil. Kč) při schodku 78,9 mil. Kč.",
+  "Krátkodobý úvěr 200 mil. Kč (pol. 8213) byl v rozpočtu 2024 i 2025, ale nebyl čerpán.",
+  "2026: RO 12 a 17 zařazují investiční úvěr 207,5 mil. Kč (pol. 8123) – sledovat čerpání v ZÚ 2026."
+ ]
+}
