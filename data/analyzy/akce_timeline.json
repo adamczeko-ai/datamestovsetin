@@ -1,0 +1,3987 @@
+{
+ "schema": "vsetin-osint/akce-timeline@1",
+ "pocet_akci": 99,
+ "akce": [
+  {
+   "org": "00009770",
+   "nazev": "Sportovní areál Ohrada, I. etapa",
+   "pocet_zmen": 2,
+   "roky": [
+    2025,
+    2026
+   ],
+   "soucet_zmen_Kc": 49000000.0,
+   "navyseni_Kc": 49000000.0,
+   "snizeni_Kc": 0,
+   "posledni_stav": {
+    "rok": 2026,
+    "po": 52000000.0
+   },
+   "udalosti": [
+    {
+     "rok": 2025,
+     "ro": "RO-2025-04",
+     "organ": "ZM",
+     "datum": "2025-04-07",
+     "usneseni": "35/18/ZM/2025",
+     "pol": "6121",
+     "pred": 2000000.0,
+     "zmena": 2000000.0,
+     "po": 4000000.0,
+     "popis": "Sportovní areál Ohrada - PD"
+    },
+    {
+     "rok": 2026,
+     "ro": "RO-2026-12",
+     "organ": "ZM",
+     "datum": "2026-06-22",
+     "usneseni": "24,38/26/ZM/2026",
+     "pol": "6121",
+     "pred": 5000000.0,
+     "zmena": 47000000.0,
+     "po": 52000000.0,
+     "popis": "Sportovní areál Ohrada, I. etapa"
+    }
+   ]
+  },
+  {
+   "org": "00009765",
+   "nazev": "Přednádražní prostor, etapa 1.A, 1.B - stavební práce",
+   "pocet_zmen": 2,
+   "roky": [
+    2024,
+    2025
+   ],
+   "soucet_zmen_Kc": 36000000.0,
+   "navyseni_Kc": 36000000.0,
+   "snizeni_Kc": 0,
+   "posledni_stav": {
+    "rok": 2025,
+    "po": 80000000.0
+   },
+   "udalosti": [
+    {
+     "rok": 2024,
+     "ro": "RO-2024-15",
+     "organ": "ZM",
+     "datum": "2024-09-16",
+     "usneseni": "13/14/ZM/2024",
+     "pol": "6121",
+     "pred": 36416740.0,
+     "zmena": 16000000.0,
+     "po": 52416740.0,
+     "popis": "Přednádražní prostor, etapa 1.A, 1.B - stavební práce"
+    },
+    {
+     "rok": 2025,
+     "ro": "RO-2025-13",
+     "organ": "ZM",
+     "datum": "2025-09-15",
+     "usneseni": "12,31/20/ZM/2025",
+     "pol": "6121",
+     "pred": 60000000.0,
+     "zmena": 20000000.0,
+     "po": 80000000.0,
+     "popis": "Přednádražní prostor - stavební práce"
+    }
+   ]
+  },
+  {
+   "org": "00009899",
+   "nazev": "Fotovoltaická elektrárna na budově ZŠ Ohrada - AD, stavební práce",
+   "pocet_zmen": 2,
+   "roky": [
+    2025,
+    2026
+   ],
+   "soucet_zmen_Kc": 17130000.0,
+   "navyseni_Kc": 35300000.0,
+   "snizeni_Kc": -18170000.0,
+   "posledni_stav": {
+    "rok": 2026,
+    "po": 36300000.0
+   },
+   "udalosti": [
+    {
+     "rok": 2025,
+     "ro": "RO-2025-08",
+     "organ": "ZM",
+     "datum": "2025-06-23",
+     "usneseni": "17,18/19/ZM/2025",
+     "pol": "6121",
+     "pred": 22000000.0,
+     "zmena": -18170000.0,
+     "po": 3830000.0,
+     "popis": "Úspora - přesun do r. 2026"
+    },
+    {
+     "rok": 2026,
+     "ro": "RO-2026-12",
+     "organ": "ZM",
+     "datum": "2026-06-22",
+     "usneseni": "24,38/26/ZM/2026",
+     "pol": "6121",
+     "pred": 1000000.0,
+     "zmena": 35300000.0,
+     "po": 36300000.0,
+     "popis": "Fotovoltaická elektrárna na budově ZŠ Ohrada - AD, stavební práce"
+    }
+   ]
+  },
+  {
+   "org": "00009929",
+   "nazev": "Rekonstrukce hřbitova ve Vsetíně - rozšíření kolumbária, 1. etapa",
+   "pocet_zmen": 2,
+   "roky": [
+    2024,
+    2026
+   ],
+   "soucet_zmen_Kc": 23700000.0,
+   "navyseni_Kc": 25200000.0,
+   "snizeni_Kc": -1500000.0,
+   "posledni_stav": {
+    "rok": 2026,
+    "po": 26200000.0
+   },
+   "udalosti": [
+    {
+     "rok": 2024,
+     "ro": "RO-2024-15",
+     "organ": "ZM",
+     "datum": "2024-09-16",
+     "usneseni": "13/14/ZM/2024",
+     "pol": "6121",
+     "pred": 4000000.0,
+     "zmena": -1500000.0,
+     "po": 2500000.0,
+     "popis": "Rekonstrukce hřbitova - rozšíření kolumbária - snížení"
+    },
+    {
+     "rok": 2026,
+     "ro": "RO-2026-12",
+     "organ": "ZM",
+     "datum": "2026-06-22",
+     "usneseni": "24,38/26/ZM/2026",
+     "pol": "6121",
+     "pred": 1000000.0,
+     "zmena": 25200000.0,
+     "po": 26200000.0,
+     "popis": "Rekonstrukce hřbitova ve Vsetíně - rozšíření kolumbária, 1. etapa"
+    }
+   ]
+  },
+  {
+   "org": "00003213",
+   "nazev": "Stavební úpravy MVK, TIC - neinvestiční část",
+   "pocet_zmen": 9,
+   "roky": [
+    2024,
+    2025
+   ],
+   "soucet_zmen_Kc": 2894000.0,
+   "navyseni_Kc": 16689000.0,
+   "snizeni_Kc": -13795000.0,
+   "posledni_stav": {
+    "rok": 2025,
+    "po": 1503000.0
+   },
+   "udalosti": [
+    {
+     "rok": 2024,
+     "ro": "RO-2024-02",
+     "organ": "ZM",
+     "datum": "2024-02-19",
+     "usneseni": "12/11/ZM/2024",
+     "pol": "5169",
+     "pred": 300000.0,
+     "zmena": 300000.0,
+     "po": 600000.0,
+     "popis": "MVK stěhování - neinvestiční"
+    },
+    {
+     "rok": 2025,
+     "ro": "RO-2025-04",
+     "organ": "ZM",
+     "datum": "2025-04-07",
+     "usneseni": "35/18/ZM/2025",
+     "pol": "5137",
+     "pred": 7115600.0,
+     "zmena": 2550000.0,
+     "po": 9665600.0,
+     "popis": "Stavební úpravy MVK, TIC - neinvestiční část"
+    },
+    {
+     "rok": 2025,
+     "ro": "RO-2025-04",
+     "organ": "ZM",
+     "datum": "2025-04-07",
+     "usneseni": "35/18/ZM/2025",
+     "pol": "5139",
+     "pred": 0.0,
+     "zmena": 700000.0,
+     "po": 700000.0,
+     "popis": "Stavební úpravy MVK, TIC - neinvestiční část"
+    },
+    {
+     "rok": 2025,
+     "ro": "RO-2025-04",
+     "organ": "ZM",
+     "datum": "2025-04-07",
+     "usneseni": "35/18/ZM/2025",
+     "pol": "5167",
+     "pred": 0.0,
+     "zmena": 5000.0,
+     "po": 5000.0,
+     "popis": "Stavební úpravy MVK, TIC - neinvestiční část"
+    },
+    {
+     "rok": 2025,
+     "ro": "RO-2025-04",
+     "organ": "ZM",
+     "datum": "2025-04-07",
+     "usneseni": "35/18/ZM/2025",
+     "pol": "5169",
+     "pred": 600000.0,
+     "zmena": 124000.0,
+     "po": 724000.0,
+     "popis": "Stavební úpravy MVK, TIC - neinvestiční část"
+    },
+    {
+     "rok": 2025,
+     "ro": "RO-2025-04",
+     "organ": "ZM",
+     "datum": "2025-04-07",
+     "usneseni": "35/18/ZM/2025",
+     "pol": "6111",
+     "pred": 1500000.0,
+     "zmena": 1550000.0,
+     "po": 3050000.0,
+     "popis": "Stavební úpravy MVK, TIC - investiční část"
+    },
+    {
+     "rok": 2025,
+     "ro": "RO-2025-04",
+     "organ": "ZM",
+     "datum": "2025-04-07",
+     "usneseni": "35/18/ZM/2025",
+     "pol": "6121",
+     "pred": 19000000.0,
+     "zmena": -13795000.0,
+     "po": 5205000.0,
+     "popis": "Stavební úpravy MVK, TIC - investiční část"
+    },
+    {
+     "rok": 2025,
+     "ro": "RO-2025-04",
+     "organ": "ZM",
+     "datum": "2025-04-07",
+     "usneseni": "35/18/ZM/2025",
+     "pol": "6122",
+     "pred": 2444000.0,
+     "zmena": 11290000.0,
+     "po": 13734000.0,
+     "popis": "Stavební úpravy MVK, TIC - investiční část"
+    },
+    {
+     "rok": 2025,
+     "ro": "RO-2025-04",
+     "organ": "ZM",
+     "datum": "2025-04-07",
+     "usneseni": "35/18/ZM/2025",
+     "pol": "6125",
+     "pred": 1333000.0,
+     "zmena": 170000.0,
+     "po": 1503000.0,
+     "popis": "Stavební úpravy MVK, TIC - investiční část"
+    }
+   ]
+  },
+  {
+   "org": "00009967",
+   "nazev": "Oprava MK Ohrada a U Huti - III. etapa - stavební práce",
+   "pocet_zmen": 3,
+   "roky": [
+    2025
+   ],
+   "soucet_zmen_Kc": 12200000.0,
+   "navyseni_Kc": 16200000.0,
+   "snizeni_Kc": -4000000.0,
+   "posledni_stav": {
+    "rok": 2025,
+    "po": 12000000.0
+   },
+   "udalosti": [
+    {
+     "rok": 2025,
+     "ro": "RO-2025-04",
+     "organ": "ZM",
+     "datum": "2025-04-07",
+     "usneseni": "35/18/ZM/2025",
+     "pol": "5169",
+     "pred": 0.0,
+     "zmena": 200000.0,
+     "po": 200000.0,
+     "popis": "Oprava MK Ohrada a U Huti - III. etapa - stavební práce"
+    },
+    {
+     "rok": 2025,
+     "ro": "RO-2025-04",
+     "organ": "ZM",
+     "datum": "2025-04-07",
+     "usneseni": "35/18/ZM/2025",
+     "pol": "5171",
+     "pred": 0.0,
+     "zmena": 16000000.0,
+     "po": 16000000.0,
+     "popis": "Oprava MK Ohrada a U Huti - III. etapa - stavební práce"
+    },
+    {
+     "rok": 2025,
+     "ro": "RO-2025-08",
+     "organ": "ZM",
+     "datum": "2025-06-23",
+     "usneseni": "17,18/19/ZM/2025",
+     "pol": "5171",
+     "pred": 16000000.0,
+     "zmena": -4000000.0,
+     "po": 12000000.0,
+     "popis": "Úspora po vysoutěžení"
+    }
+   ]
+  },
+  {
+   "org": "00009986",
+   "nazev": "Hřiště Pod Pecníkem - výměna umělého trávníku",
+   "pocet_zmen": 2,
+   "roky": [
+    2026
+   ],
+   "soucet_zmen_Kc": 14900000.0,
+   "navyseni_Kc": 14900000.0,
+   "snizeni_Kc": 0,
+   "posledni_stav": {
+    "rok": 2026,
+    "po": 15200000.0
+   },
+   "udalosti": [
+    {
+     "rok": 2026,
+     "ro": "RO-2026-01",
+     "organ": "RM",
+     "datum": "2026-01-19",
+     "usneseni": "12/87/RM/2026",
+     "pol": "6121",
+     "pred": 300000.0,
+     "zmena": 300000.0,
+     "po": 600000.0,
+     "popis": "Uvolnění rezervy - Hřiště pod Pecníkem"
+    },
+    {
+     "rok": 2026,
+     "ro": "RO-2026-10",
+     "organ": "RM",
+     "datum": "2026-05-11",
+     "usneseni": "19,20/94/RM/2026",
+     "pol": "6121",
+     "pred": 600000.0,
+     "zmena": 14600000.0,
+     "po": 15200000.0,
+     "popis": "Hřiště Pod Pecníkem - výměna umělého trávníku"
+    }
+   ]
+  },
+  {
+   "org": "00009956",
+   "nazev": "Městské lázně 2025 - PD a stavební práce",
+   "pocet_zmen": 2,
+   "roky": [
+    2025,
+    2026
+   ],
+   "soucet_zmen_Kc": 14500000.0,
+   "navyseni_Kc": 14500000.0,
+   "snizeni_Kc": 0,
+   "posledni_stav": {
+    "rok": 2026,
+    "po": 11850000.0
+   },
+   "udalosti": [
+    {
+     "rok": 2025,
+     "ro": "RO-2025-08",
+     "organ": "ZM",
+     "datum": "2025-06-23",
+     "usneseni": "17,18/19/ZM/2025",
+     "pol": "6121",
+     "pred": 350000.0,
+     "zmena": 3000000.0,
+     "po": 3350000.0,
+     "popis": "Městské lázně 2025 - PD a stavební práce"
+    },
+    {
+     "rok": 2026,
+     "ro": "RO-2026-11",
+     "organ": "RM",
+     "datum": "2026-06-08",
+     "usneseni": "44,45,46/98/RM/2026",
+     "pol": "6121",
+     "pred": 350000.0,
+     "zmena": 11500000.0,
+     "po": 11850000.0,
+     "popis": "Městské lázně - vzduchotechnika"
+    }
+   ]
+  },
+  {
+   "org": "00009989",
+   "nazev": "Oprava lávky Vs-01-Bel v Lázkách - stavební práce",
+   "pocet_zmen": 2,
+   "roky": [
+    2026
+   ],
+   "soucet_zmen_Kc": 13350000.0,
+   "navyseni_Kc": 13350000.0,
+   "snizeni_Kc": 0,
+   "posledni_stav": {
+    "rok": 2026,
+    "po": 12800000.0
+   },
+   "udalosti": [
+    {
+     "rok": 2026,
+     "ro": "RO-2026-02",
+     "organ": "ZM",
+     "datum": "2026-02-02",
+     "usneseni": "8/23/ZM/2026",
+     "pol": "5169",
+     "pred": 0.0,
+     "zmena": 550000.0,
+     "po": 550000.0,
+     "popis": "Oprava lávky Vs-01-Bel v Lázkách - diagnostika"
+    },
+    {
+     "rok": 2026,
+     "ro": "RO-2026-12",
+     "organ": "ZM",
+     "datum": "2026-06-22",
+     "usneseni": "24,38/26/ZM/2026",
+     "pol": "5171",
+     "pred": 0.0,
+     "zmena": 12800000.0,
+     "po": 12800000.0,
+     "popis": "Oprava lávky Vs-01-Bel v Lázkách - stavební práce"
+    }
+   ]
+  },
+  {
+   "org": "00009844",
+   "nazev": "Zanádražní prostor - stavební práce",
+   "pocet_zmen": 2,
+   "roky": [
+    2024,
+    2025
+   ],
+   "soucet_zmen_Kc": 13150000.0,
+   "navyseni_Kc": 13150000.0,
+   "snizeni_Kc": 0,
+   "posledni_stav": {
+    "rok": 2025,
+    "po": 6350000.0
+   },
+   "udalosti": [
+    {
+     "rok": 2024,
+     "ro": "RO-2024-15",
+     "organ": "ZM",
+     "datum": "2024-09-16",
+     "usneseni": "13/14/ZM/2024",
+     "pol": "6121",
+     "pred": 50000000.0,
+     "zmena": 13000000.0,
+     "po": 63000000.0,
+     "popis": "Zanádražní prostor - stavební práce"
+    },
+    {
+     "rok": 2025,
+     "ro": "RO-2025-13",
+     "organ": "ZM",
+     "datum": "2025-09-15",
+     "usneseni": "12,31/20/ZM/2025",
+     "pol": "6121",
+     "pred": 6200000.0,
+     "zmena": 150000.0,
+     "po": 6350000.0,
+     "popis": "Zanádražní prostor - věcná břemena"
+    }
+   ]
+  },
+  {
+   "org": "00009970",
+   "nazev": "Vzduchotechnika DK Vsetín (velký sál + kuchyň)",
+   "pocet_zmen": 1,
+   "roky": [
+    2025
+   ],
+   "soucet_zmen_Kc": 12000000.0,
+   "navyseni_Kc": 12000000.0,
+   "snizeni_Kc": 0,
+   "posledni_stav": {
+    "rok": 2025,
+    "po": 12000000.0
+   },
+   "udalosti": [
+    {
+     "rok": 2025,
+     "ro": "RO-2025-08",
+     "organ": "ZM",
+     "datum": "2025-06-23",
+     "usneseni": "17,18/19/ZM/2025",
+     "pol": "6121",
+     "pred": 0.0,
+     "zmena": 12000000.0,
+     "po": 12000000.0,
+     "popis": "Vzduchotechnika DK Vsetín (velký sál + kuchyň)"
+    }
+   ]
+  },
+  {
+   "org": "00003180",
+   "nazev": "Stavební úpravy MVK - navýšení výdajů o rekonstrukci střechy budovy čp. 1356",
+   "pocet_zmen": 4,
+   "roky": [
+    2025
+   ],
+   "soucet_zmen_Kc": 10330000.0,
+   "navyseni_Kc": 10330000.0,
+   "snizeni_Kc": 0,
+   "posledni_stav": {
+    "rok": 2025,
+    "po": 41580000.0
+   },
+   "udalosti": [
+    {
+     "rok": 2025,
+     "ro": "RO-2025-04",
+     "organ": "ZM",
+     "datum": "2025-04-07",
+     "usneseni": "35/18/ZM/2025",
+     "pol": "5137",
+     "pred": 0.0,
+     "zmena": 250000.0,
+     "po": 250000.0,
+     "popis": "Stavební úpravy MVK, TIC - neinvestiční část"
+    },
+    {
+     "rok": 2025,
+     "ro": "RO-2025-04",
+     "organ": "ZM",
+     "datum": "2025-04-07",
+     "usneseni": "35/18/ZM/2025",
+     "pol": "5139",
+     "pred": 0.0,
+     "zmena": 500000.0,
+     "po": 500000.0,
+     "popis": "Stavební úpravy MVK, TIC - neinvestiční část"
+    },
+    {
+     "rok": 2025,
+     "ro": "RO-2025-04",
+     "organ": "ZM",
+     "datum": "2025-04-07",
+     "usneseni": "35/18/ZM/2025",
+     "pol": "6121",
+     "pred": 32000000.0,
+     "zmena": 4580000.0,
+     "po": 36580000.0,
+     "popis": "Stavební úpravy MVK, TIC - investiční část"
+    },
+    {
+     "rok": 2025,
+     "ro": "RO-2025-08",
+     "organ": "ZM",
+     "datum": "2025-06-23",
+     "usneseni": "17,18/19/ZM/2025",
+     "pol": "6121",
+     "pred": 36580000.0,
+     "zmena": 5000000.0,
+     "po": 41580000.0,
+     "popis": "Stavební úpravy MVK - navýšení výdajů o rekonstrukci střechy budovy čp. 1356"
+    }
+   ]
+  },
+  {
+   "org": "00009854",
+   "nazev": "Stavební úpravy budovy MěÚ Vsetín",
+   "pocet_zmen": 4,
+   "roky": [
+    2024,
+    2025,
+    2026
+   ],
+   "soucet_zmen_Kc": 4300000.0,
+   "navyseni_Kc": 8800000.0,
+   "snizeni_Kc": -4500000.0,
+   "posledni_stav": {
+    "rok": 2026,
+    "po": 4800000.0
+   },
+   "udalosti": [
+    {
+     "rok": 2024,
+     "ro": "RO-2024-15",
+     "organ": "ZM",
+     "datum": "2024-09-16",
+     "usneseni": "13/14/ZM/2024",
+     "pol": "6121",
+     "pred": 3000000.0,
+     "zmena": -500000.0,
+     "po": 2500000.0,
+     "popis": "Rekonstrukce budovy MěÚ Vsetín - PD - snížení"
+    },
+    {
+     "rok": 2025,
+     "ro": "RO-2025-08",
+     "organ": "ZM",
+     "datum": "2025-06-23",
+     "usneseni": "17,18/19/ZM/2025",
+     "pol": "5171",
+     "pred": 0.0,
+     "zmena": 4000000.0,
+     "po": 4000000.0,
+     "popis": "Oprava budovy MěÚ, Svárov 1080"
+    },
+    {
+     "rok": 2025,
+     "ro": "RO-2025-08",
+     "organ": "ZM",
+     "datum": "2025-06-23",
+     "usneseni": "17,18/19/ZM/2025",
+     "pol": "6121",
+     "pred": 4000000.0,
+     "zmena": -4000000.0,
+     "po": 0.0,
+     "popis": "Oprava budovy MěÚ, Svárov 1080"
+    },
+    {
+     "rok": 2026,
+     "ro": "RO-2026-10",
+     "organ": "RM",
+     "datum": "2026-05-11",
+     "usneseni": "19,20/94/RM/2026",
+     "pol": "6121",
+     "pred": 0.0,
+     "zmena": 4800000.0,
+     "po": 4800000.0,
+     "popis": "Stavební úpravy budovy MěÚ Vsetín"
+    }
+   ]
+  },
+  {
+   "org": "00009908",
+   "nazev": "Parkovací místa pod nadjezdem",
+   "pocet_zmen": 2,
+   "roky": [
+    2025
+   ],
+   "soucet_zmen_Kc": 5500000.0,
+   "navyseni_Kc": 8000000.0,
+   "snizeni_Kc": -2500000.0,
+   "posledni_stav": {
+    "rok": 2025,
+    "po": 11500000.0
+   },
+   "udalosti": [
+    {
+     "rok": 2025,
+     "ro": "RO-2025-04",
+     "organ": "ZM",
+     "datum": "2025-04-07",
+     "usneseni": "35/18/ZM/2025",
+     "pol": "6121",
+     "pred": 6000000.0,
+     "zmena": 8000000.0,
+     "po": 14000000.0,
+     "popis": "Parkovací místa pod nadjezdem"
+    },
+    {
+     "rok": 2025,
+     "ro": "RO-2025-08",
+     "organ": "ZM",
+     "datum": "2025-06-23",
+     "usneseni": "17,18/19/ZM/2025",
+     "pol": "6121",
+     "pred": 14000000.0,
+     "zmena": -2500000.0,
+     "po": 11500000.0,
+     "popis": "Úspora po vysoutěžení"
+    }
+   ]
+  },
+  {
+   "org": "00009939",
+   "nazev": "Stavební úpravy mostu Vs-15-Jcm (za objektem Trimillu) Červenka - PD",
+   "pocet_zmen": 5,
+   "roky": [
+    2024,
+    2025
+   ],
+   "soucet_zmen_Kc": 4390000.0,
+   "navyseni_Kc": 7800000.0,
+   "snizeni_Kc": -3410000.0,
+   "posledni_stav": {
+    "rok": 2025,
+    "po": 4190000.0
+   },
+   "udalosti": [
+    {
+     "rok": 2024,
+     "ro": "RO-2024-06",
+     "organ": "ZM",
+     "datum": "2024-04-22",
+     "usneseni": "14/12/ZM/2024",
+     "pol": "6121",
+     "pred": 0.0,
+     "zmena": 800000.0,
+     "po": 800000.0,
+     "popis": "Stavební úpravy mostu Vs-15-Jcm (za objektem Trimillu) Červenka - PD"
+    },
+    {
+     "rok": 2025,
+     "ro": "RO-2025-08",
+     "organ": "ZM",
+     "datum": "2025-06-23",
+     "usneseni": "17,18/19/ZM/2025",
+     "pol": "5171",
+     "pred": 0.0,
+     "zmena": 7000000.0,
+     "po": 7000000.0,
+     "popis": "Oprava MK a mostu VS-15-Jcm v Července (za objektem Trimil)"
+    },
+    {
+     "rok": 2025,
+     "ro": "RO-2025-08",
+     "organ": "ZM",
+     "datum": "2025-06-23",
+     "usneseni": "17,18/19/ZM/2025",
+     "pol": "6121",
+     "pred": 600000.0,
+     "zmena": -600000.0,
+     "po": 0.0,
+     "popis": "Oprava MK a mostu VS-15-Jcm v Července (za objektem Trimil)"
+    },
+    {
+     "rok": 2025,
+     "ro": "RO-2025-13",
+     "organ": "ZM",
+     "datum": "2025-09-15",
+     "usneseni": "12,31/20/ZM/2025",
+     "pol": "5171",
+     "pred": 7000000.0,
+     "zmena": -2300000.0,
+     "po": 4700000.0,
+     "popis": "Nerealizovaná investice - přesun do roku 2026"
+    },
+    {
+     "rok": 2025,
+     "ro": "RO-2025-19",
+     "organ": "ZM",
+     "datum": "2025-11-10",
+     "usneseni": "11/21/ZM/2025",
+     "pol": "5171",
+     "pred": 4700000.0,
+     "zmena": -510000.0,
+     "po": 4190000.0,
+     "popis": "Nerealizováno"
+    }
+   ]
+  },
+  {
+   "org": "00009946",
+   "nazev": "Oprava MK Rokytnice - PD a stavební práce",
+   "pocet_zmen": 3,
+   "roky": [
+    2025
+   ],
+   "soucet_zmen_Kc": 7000000.0,
+   "navyseni_Kc": 7600000.0,
+   "snizeni_Kc": -600000.0,
+   "posledni_stav": {
+    "rok": 2025,
+    "po": 600000.0
+   },
+   "udalosti": [
+    {
+     "rok": 2025,
+     "ro": "RO-2025-08",
+     "organ": "ZM",
+     "datum": "2025-06-23",
+     "usneseni": "17,18/19/ZM/2025",
+     "pol": "5171",
+     "pred": 0.0,
+     "zmena": 7000000.0,
+     "po": 7000000.0,
+     "popis": "Oprava MK Rokytnice - PD a stavební práce"
+    },
+    {
+     "rok": 2025,
+     "ro": "RO-2025-19",
+     "organ": "ZM",
+     "datum": "2025-11-10",
+     "usneseni": "11/21/ZM/2025",
+     "pol": "5171",
+     "pred": 6898000.0,
+     "zmena": -600000.0,
+     "po": 6298000.0,
+     "popis": "Změna rozpočtového zatřídění MK Rokytnice"
+    },
+    {
+     "rok": 2025,
+     "ro": "RO-2025-19",
+     "organ": "ZM",
+     "datum": "2025-11-10",
+     "usneseni": "11/21/ZM/2025",
+     "pol": "6121",
+     "pred": 0.0,
+     "zmena": 600000.0,
+     "po": 600000.0,
+     "popis": "Veřejné osvětlení MK Rokytnice"
+    }
+   ]
+  },
+  {
+   "org": "00003185",
+   "nazev": "Chodník pod zámkem - PD a stavební práce",
+   "pocet_zmen": 4,
+   "roky": [
+    2024,
+    2025,
+    2026
+   ],
+   "soucet_zmen_Kc": 4506050.0,
+   "navyseni_Kc": 7006050.0,
+   "snizeni_Kc": -2500000.0,
+   "posledni_stav": {
+    "rok": 2026,
+    "po": 856050.0
+   },
+   "udalosti": [
+    {
+     "rok": 2024,
+     "ro": "RO-2024-15",
+     "organ": "ZM",
+     "datum": "2024-09-16",
+     "usneseni": "13/14/ZM/2024",
+     "pol": "6121",
+     "pred": 3300000.0,
+     "zmena": -2000000.0,
+     "po": 1300000.0,
+     "popis": "Chodník pod zámkem - PD a stavební práce - snížení"
+    },
+    {
+     "rok": 2025,
+     "ro": "RO-2025-04",
+     "organ": "ZM",
+     "datum": "2025-04-07",
+     "usneseni": "35/18/ZM/2025",
+     "pol": "6121",
+     "pred": 5000000.0,
+     "zmena": 7000000.0,
+     "po": 12000000.0,
+     "popis": "Chodník pod zámkem - PD a stavební práce"
+    },
+    {
+     "rok": 2025,
+     "ro": "RO-2025-08",
+     "organ": "ZM",
+     "datum": "2025-06-23",
+     "usneseni": "17,18/19/ZM/2025",
+     "pol": "6121",
+     "pred": 12000000.0,
+     "zmena": -500000.0,
+     "po": 11500000.0,
+     "popis": "Úspora po vysoutěžení"
+    },
+    {
+     "rok": 2026,
+     "ro": "RO-2026-05",
+     "organ": "RM",
+     "datum": "2026-02-26",
+     "usneseni": "4/90/RM/2026",
+     "pol": "6121",
+     "pred": 850000.0,
+     "zmena": 6050.0,
+     "po": 856050.0,
+     "popis": "Chodník pod zámkem - věcná břemena"
+    }
+   ]
+  },
+  {
+   "org": "00003162",
+   "nazev": "Odstranění lávky VS-01-Bol přes silnici I/57 a III/05736, Vsetín, Bobrky",
+   "pocet_zmen": 2,
+   "roky": [
+    2024,
+    2025
+   ],
+   "soucet_zmen_Kc": 5600000.0,
+   "navyseni_Kc": 5600000.0,
+   "snizeni_Kc": 0,
+   "posledni_stav": {
+    "rok": 2025,
+    "po": 5400000.0
+   },
+   "udalosti": [
+    {
+     "rok": 2024,
+     "ro": "RO-2024-06",
+     "organ": "ZM",
+     "datum": "2024-04-22",
+     "usneseni": "14/12/ZM/2024",
+     "pol": "5169",
+     "pred": 0.0,
+     "zmena": 600000.0,
+     "po": 600000.0,
+     "popis": "Odstranění lávky ev.č. Vs-01-Bol přes silnici I/57"
+    },
+    {
+     "rok": 2025,
+     "ro": "RO-2025-04",
+     "organ": "ZM",
+     "datum": "2025-04-07",
+     "usneseni": "35/18/ZM/2025",
+     "pol": "5169",
+     "pred": 400000.0,
+     "zmena": 5000000.0,
+     "po": 5400000.0,
+     "popis": "Odstranění lávky VS-01-Bol přes silnici I/57 a III/05736, Vsetín, Bobrky"
+    }
+   ]
+  },
+  {
+   "org": "00009957",
+   "nazev": "Stavební úpravy DPS 1579/1580 ul. Pod Žamboškou",
+   "pocet_zmen": 1,
+   "roky": [
+    2025
+   ],
+   "soucet_zmen_Kc": 4500000.0,
+   "navyseni_Kc": 4500000.0,
+   "snizeni_Kc": 0,
+   "posledni_stav": {
+    "rok": 2025,
+    "po": 8500000.0
+   },
+   "udalosti": [
+    {
+     "rok": 2025,
+     "ro": "RO-2025-08",
+     "organ": "ZM",
+     "datum": "2025-06-23",
+     "usneseni": "17,18/19/ZM/2025",
+     "pol": "6121",
+     "pred": 4000000.0,
+     "zmena": 4500000.0,
+     "po": 8500000.0,
+     "popis": "Stavební úpravy DPS 1579/1580 ul. Pod Žamboškou"
+    }
+   ]
+  },
+  {
+   "org": "00009954",
+   "nazev": "Vzduchotechnika ve velkém sále DK Vsetín, PD a stavební práce",
+   "pocet_zmen": 2,
+   "roky": [
+    2025
+   ],
+   "soucet_zmen_Kc": -2000000.0,
+   "navyseni_Kc": 4000000.0,
+   "snizeni_Kc": -6000000.0,
+   "posledni_stav": {
+    "rok": 2025,
+    "po": 0.0
+   },
+   "udalosti": [
+    {
+     "rok": 2025,
+     "ro": "RO-2025-04",
+     "organ": "ZM",
+     "datum": "2025-04-07",
+     "usneseni": "35/18/ZM/2025",
+     "pol": "6121",
+     "pred": 2000000.0,
+     "zmena": 4000000.0,
+     "po": 6000000.0,
+     "popis": "Vzduchotechnika ve velkém sále DK Vsetín, PD a stavební práce"
+    },
+    {
+     "rok": 2025,
+     "ro": "RO-2025-08",
+     "organ": "ZM",
+     "datum": "2025-06-23",
+     "usneseni": "17,18/19/ZM/2025",
+     "pol": "6121",
+     "pred": 6000000.0,
+     "zmena": -6000000.0,
+     "po": 0.0,
+     "popis": "Vzduchotechnika DK Vsetín (velký sál + kuchyň)"
+    }
+   ]
+  },
+  {
+   "org": "00003902",
+   "nazev": "Projekt Zvýšení turistické atraktivity Vsetína",
+   "pocet_zmen": 1,
+   "roky": [
+    2026
+   ],
+   "soucet_zmen_Kc": 3766407.0,
+   "navyseni_Kc": 3766407.0,
+   "snizeni_Kc": 0,
+   "posledni_stav": {
+    "rok": 2026,
+    "po": 3766407.0
+   },
+   "udalosti": [
+    {
+     "rok": 2026,
+     "ro": "RO-2026-12",
+     "organ": "ZM",
+     "datum": "2026-06-22",
+     "usneseni": "24,38/26/ZM/2026",
+     "pol": "6122",
+     "pred": 0.0,
+     "zmena": 3766407.0,
+     "po": 3766407.0,
+     "popis": "Projekt Zvýšení turistické atraktivity Vsetína"
+    }
+   ]
+  },
+  {
+   "org": "00009895",
+   "nazev": "Chodník Dělnická - stavební práce",
+   "pocet_zmen": 1,
+   "roky": [
+    2024
+   ],
+   "soucet_zmen_Kc": 3750000.0,
+   "navyseni_Kc": 3750000.0,
+   "snizeni_Kc": 0,
+   "posledni_stav": {
+    "rok": 2024,
+    "po": 4000000.0
+   },
+   "udalosti": [
+    {
+     "rok": 2024,
+     "ro": "RO-2024-06",
+     "organ": "ZM",
+     "datum": "2024-04-22",
+     "usneseni": "14/12/ZM/2024",
+     "pol": "6121",
+     "pred": 250000.0,
+     "zmena": 3750000.0,
+     "po": 4000000.0,
+     "popis": "Chodník Dělnická - stavební práce"
+    }
+   ]
+  },
+  {
+   "org": "00009918",
+   "nazev": "Stavební úpravy MVK, TIC - neinvestiční část",
+   "pocet_zmen": 7,
+   "roky": [
+    2025
+   ],
+   "soucet_zmen_Kc": 3576000.0,
+   "navyseni_Kc": 3676000.0,
+   "snizeni_Kc": -100000.0,
+   "posledni_stav": {
+    "rok": 2025,
+    "po": 0.0
+   },
+   "udalosti": [
+    {
+     "rok": 2025,
+     "ro": "RO-2025-04",
+     "organ": "ZM",
+     "datum": "2025-04-07",
+     "usneseni": "35/18/ZM/2025",
+     "pol": "5137",
+     "pred": 647900.0,
+     "zmena": 650000.0,
+     "po": 1297900.0,
+     "popis": "Stavební úpravy MVK, TIC - neinvestiční část"
+    },
+    {
+     "rok": 2025,
+     "ro": "RO-2025-04",
+     "organ": "ZM",
+     "datum": "2025-04-07",
+     "usneseni": "35/18/ZM/2025",
+     "pol": "5139",
+     "pred": 0.0,
+     "zmena": 260000.0,
+     "po": 260000.0,
+     "popis": "Stavební úpravy MVK, TIC - neinvestiční část"
+    },
+    {
+     "rok": 2025,
+     "ro": "RO-2025-04",
+     "organ": "ZM",
+     "datum": "2025-04-07",
+     "usneseni": "35/18/ZM/2025",
+     "pol": "5167",
+     "pred": 0.0,
+     "zmena": 1000.0,
+     "po": 1000.0,
+     "popis": "Stavební úpravy MVK, TIC - neinvestiční část"
+    },
+    {
+     "rok": 2025,
+     "ro": "RO-2025-04",
+     "organ": "ZM",
+     "datum": "2025-04-07",
+     "usneseni": "35/18/ZM/2025",
+     "pol": "5169",
+     "pred": 60500.0,
+     "zmena": 60000.0,
+     "po": 120500.0,
+     "popis": "Stavební úpravy MVK, TIC - neinvestiční část"
+    },
+    {
+     "rok": 2025,
+     "ro": "RO-2025-04",
+     "organ": "ZM",
+     "datum": "2025-04-07",
+     "usneseni": "35/18/ZM/2025",
+     "pol": "6121",
+     "pred": 7500000.0,
+     "zmena": 1420000.0,
+     "po": 8920000.0,
+     "popis": "Stavební úpravy MVK, TIC - investiční část"
+    },
+    {
+     "rok": 2025,
+     "ro": "RO-2025-04",
+     "organ": "ZM",
+     "datum": "2025-04-07",
+     "usneseni": "35/18/ZM/2025",
+     "pol": "6122",
+     "pred": 256000.0,
+     "zmena": 1285000.0,
+     "po": 1541000.0,
+     "popis": "Stavební úpravy MVK, TIC - investiční část"
+    },
+    {
+     "rok": 2025,
+     "ro": "RO-2025-04",
+     "organ": "ZM",
+     "datum": "2025-04-07",
+     "usneseni": "35/18/ZM/2025",
+     "pol": "6125",
+     "pred": 100000.0,
+     "zmena": -100000.0,
+     "po": 0.0,
+     "popis": "Stavební úpravy MVK, TIC - investiční část"
+    }
+   ]
+  },
+  {
+   "org": "00009938",
+   "nazev": "Stavební úpravy mostu VS-07-Rom (most do vnitrobloku budovy č.p. 413)",
+   "pocet_zmen": 2,
+   "roky": [
+    2024,
+    2026
+   ],
+   "soucet_zmen_Kc": 3300000.0,
+   "navyseni_Kc": 3300000.0,
+   "snizeni_Kc": 0,
+   "posledni_stav": {
+    "rok": 2026,
+    "po": 3710000.0
+   },
+   "udalosti": [
+    {
+     "rok": 2024,
+     "ro": "RO-2024-06",
+     "organ": "ZM",
+     "datum": "2024-04-22",
+     "usneseni": "14/12/ZM/2024",
+     "pol": "6121",
+     "pred": 0.0,
+     "zmena": 800000.0,
+     "po": 800000.0,
+     "popis": "Stavební úpravy mostu Vs-07-Rom (most do vnitrobloku č.p. 413) - PD"
+    },
+    {
+     "rok": 2026,
+     "ro": "RO-2026-05",
+     "organ": "RM",
+     "datum": "2026-02-26",
+     "usneseni": "4/90/RM/2026",
+     "pol": "6121",
+     "pred": 1210000.0,
+     "zmena": 2500000.0,
+     "po": 3710000.0,
+     "popis": "Stavební úpravy mostu VS-07-Rom (most do vnitrobloku budovy č.p. 413)"
+    }
+   ]
+  },
+  {
+   "org": "00009965",
+   "nazev": "Rekonstrukce výměníkové stanice v objektu čp. 1356 - stavební práce",
+   "pocet_zmen": 2,
+   "roky": [
+    2025
+   ],
+   "soucet_zmen_Kc": 3250000.0,
+   "navyseni_Kc": 3250000.0,
+   "snizeni_Kc": 0,
+   "posledni_stav": {
+    "rok": 2025,
+    "po": 3250000.0
+   },
+   "udalosti": [
+    {
+     "rok": 2025,
+     "ro": "RO-2025-02",
+     "organ": "ZM",
+     "datum": "2025-02-03",
+     "usneseni": "11/17,24/ZM/2025",
+     "pol": "6121",
+     "pred": 0.0,
+     "zmena": 250000.0,
+     "po": 250000.0,
+     "popis": "Rekonstrukce výměníkové stanice v č.p. 1356 - PD"
+    },
+    {
+     "rok": 2025,
+     "ro": "RO-2025-04",
+     "organ": "ZM",
+     "datum": "2025-04-07",
+     "usneseni": "35/18/ZM/2025",
+     "pol": "6121",
+     "pred": 250000.0,
+     "zmena": 3000000.0,
+     "po": 3250000.0,
+     "popis": "Rekonstrukce výměníkové stanice v objektu čp. 1356 - stavební práce"
+    }
+   ]
+  },
+  {
+   "org": "00009962",
+   "nazev": "Sanace svahu ul. Palackého za centrem Archa - PD a stavební práce",
+   "pocet_zmen": 2,
+   "roky": [
+    2025,
+    2026
+   ],
+   "soucet_zmen_Kc": 3240000.0,
+   "navyseni_Kc": 3240000.0,
+   "snizeni_Kc": 0,
+   "posledni_stav": {
+    "rok": 2026,
+    "po": 190000.0
+   },
+   "udalosti": [
+    {
+     "rok": 2025,
+     "ro": "RO-2025-08",
+     "organ": "ZM",
+     "datum": "2025-06-23",
+     "usneseni": "17,18/19/ZM/2025",
+     "pol": "6121",
+     "pred": 500000.0,
+     "zmena": 3100000.0,
+     "po": 3600000.0,
+     "popis": "Sanace svahu ul. Palackého za centrem Archa - PD a stavební práce"
+    },
+    {
+     "rok": 2026,
+     "ro": "RO-2026-06",
+     "organ": "RM",
+     "datum": "2026-03-16",
+     "usneseni": "39/91/RM/2026",
+     "pol": "6121",
+     "pred": 50000.0,
+     "zmena": 140000.0,
+     "po": 190000.0,
+     "popis": "Sanace svahu ul. Palackého za centrem Archa"
+    }
+   ]
+  },
+  {
+   "org": "00009942",
+   "nazev": "Oprava mostu VS-06-Rom",
+   "pocet_zmen": 3,
+   "roky": [
+    2025,
+    2026
+   ],
+   "soucet_zmen_Kc": 2168711.0,
+   "navyseni_Kc": 3233711.0,
+   "snizeni_Kc": -1065000.0,
+   "posledni_stav": {
+    "rok": 2026,
+    "po": 2733711.0
+   },
+   "udalosti": [
+    {
+     "rok": 2025,
+     "ro": "RO-2025-02",
+     "organ": "ZM",
+     "datum": "2025-02-03",
+     "usneseni": "11/17,24/ZM/2025",
+     "pol": "5169",
+     "pred": 600000.0,
+     "zmena": 500000.0,
+     "po": 1100000.0,
+     "popis": "Oprava mostu VS-06-Rom"
+    },
+    {
+     "rok": 2026,
+     "ro": "RO-2026-07",
+     "organ": "ZM",
+     "datum": "2026-03-30",
+     "usneseni": "24/24/ZM/2026",
+     "pol": "5169",
+     "pred": 1065000.0,
+     "zmena": -1065000.0,
+     "po": 0.0,
+     "popis": "Oprava mostu VS-06-Rom - PD - změna rozpočtového zatřídění + přeložky"
+    },
+    {
+     "rok": 2026,
+     "ro": "RO-2026-07",
+     "organ": "ZM",
+     "datum": "2026-03-30",
+     "usneseni": "24/24/ZM/2026",
+     "pol": "6121",
+     "pred": 0.0,
+     "zmena": 2733711.0,
+     "po": 2733711.0,
+     "popis": "Stavební úpravy mostu VS-06-Rom - PD - změna rozpočtového zatřídění + přeložky"
+    }
+   ]
+  },
+  {
+   "org": "00009928",
+   "nazev": "Rekonstrukce bytů v domě Tyršova 1271 - PD",
+   "pocet_zmen": 2,
+   "roky": [
+    2026
+   ],
+   "soucet_zmen_Kc": 2100000.0,
+   "navyseni_Kc": 2100000.0,
+   "snizeni_Kc": 0,
+   "posledni_stav": {
+    "rok": 2026,
+    "po": 17600000.0
+   },
+   "udalosti": [
+    {
+     "rok": 2026,
+     "ro": "RO-2026-02",
+     "organ": "ZM",
+     "datum": "2026-02-02",
+     "usneseni": "8/23/ZM/2026",
+     "pol": "6121",
+     "pred": 15500000.0,
+     "zmena": 1500000.0,
+     "po": 17000000.0,
+     "popis": "Rekonstrukce bytů v domě Tyršova 1271"
+    },
+    {
+     "rok": 2026,
+     "ro": "RO-2026-11",
+     "organ": "RM",
+     "datum": "2026-06-08",
+     "usneseni": "44,45,46/98/RM/2026",
+     "pol": "6121",
+     "pred": 17000000.0,
+     "zmena": 600000.0,
+     "po": 17600000.0,
+     "popis": "Rekonstrukce bytů v domě Tyršova 1271 - PD"
+    }
+   ]
+  },
+  {
+   "org": "00009933",
+   "nazev": "Parkovací stání a zpevněné plochy pro popelnice - Ohrada PD",
+   "pocet_zmen": 4,
+   "roky": [
+    2024,
+    2025,
+    2026
+   ],
+   "soucet_zmen_Kc": 1200000.0,
+   "navyseni_Kc": 1500000.0,
+   "snizeni_Kc": -300000.0,
+   "posledni_stav": {
+    "rok": 2026,
+    "po": 350000.0
+   },
+   "udalosti": [
+    {
+     "rok": 2024,
+     "ro": "RO-2024-02",
+     "organ": "ZM",
+     "datum": "2024-02-19",
+     "usneseni": "12/11/ZM/2024",
+     "pol": "6121",
+     "pred": 0.0,
+     "zmena": 350000.0,
+     "po": 350000.0,
+     "popis": "Parkovací stání a zpevněné plochy pro popelnice - Ohrada PD"
+    },
+    {
+     "rok": 2025,
+     "ro": "RO-2025-04",
+     "organ": "ZM",
+     "datum": "2025-04-07",
+     "usneseni": "35/18/ZM/2025",
+     "pol": "5169",
+     "pred": 300000.0,
+     "zmena": -300000.0,
+     "po": 0.0,
+     "popis": "Změna rozpočtového zatřídění - MK a parkoviště Ohrada"
+    },
+    {
+     "rok": 2025,
+     "ro": "RO-2025-04",
+     "organ": "ZM",
+     "datum": "2025-04-07",
+     "usneseni": "35/18/ZM/2025",
+     "pol": "6121",
+     "pred": 0.0,
+     "zmena": 800000.0,
+     "po": 800000.0,
+     "popis": "Stavební úpravy MK a parkovišť Ohrada"
+    },
+    {
+     "rok": 2026,
+     "ro": "RO-2026-07",
+     "organ": "ZM",
+     "datum": "2026-03-30",
+     "usneseni": "24/24/ZM/2026",
+     "pol": "5169",
+     "pred": 0.0,
+     "zmena": 350000.0,
+     "po": 350000.0,
+     "popis": "Oprava MK a parkovišť Ohrada - PD"
+    }
+   ]
+  },
+  {
+   "org": "00009851",
+   "nazev": "Cyklostezka Rokytenka II od visuté lávky",
+   "pocet_zmen": 1,
+   "roky": [
+    2026
+   ],
+   "soucet_zmen_Kc": 1475000.0,
+   "navyseni_Kc": 1475000.0,
+   "snizeni_Kc": 0,
+   "posledni_stav": {
+    "rok": 2026,
+    "po": 4325000.0
+   },
+   "udalosti": [
+    {
+     "rok": 2026,
+     "ro": "RO-2026-09",
+     "organ": "RM",
+     "datum": "2026-04-20",
+     "usneseni": "16,17/93/RM/2026",
+     "pol": "6121",
+     "pred": 2850000.0,
+     "zmena": 1475000.0,
+     "po": 4325000.0,
+     "popis": "Cyklostezka Rokytenka II od visuté lávky"
+    }
+   ]
+  },
+  {
+   "org": "00009642",
+   "nazev": "Sportovní hala na Lapači - architektonická studie",
+   "pocet_zmen": 2,
+   "roky": [
+    2026
+   ],
+   "soucet_zmen_Kc": 1255000.0,
+   "navyseni_Kc": 1255000.0,
+   "snizeni_Kc": 0,
+   "posledni_stav": {
+    "rok": 2026,
+    "po": 1255000.0
+   },
+   "udalosti": [
+    {
+     "rok": 2026,
+     "ro": "RO-2026-05",
+     "organ": "RM",
+     "datum": "2026-02-26",
+     "usneseni": "4/90/RM/2026",
+     "pol": "6121",
+     "pred": 0.0,
+     "zmena": 650000.0,
+     "po": 650000.0,
+     "popis": "Sportovní hala Na lapači - studie"
+    },
+    {
+     "rok": 2026,
+     "ro": "RO-2026-09",
+     "organ": "RM",
+     "datum": "2026-04-20",
+     "usneseni": "16,17/93/RM/2026",
+     "pol": "6121",
+     "pred": 650000.0,
+     "zmena": 605000.0,
+     "po": 1255000.0,
+     "popis": "Sportovní hala na Lapači - architektonická studie"
+    }
+   ]
+  },
+  {
+   "org": "00009382",
+   "nazev": "Podzemní parkoviště - úprava výstupu",
+   "pocet_zmen": 1,
+   "roky": [
+    2024
+   ],
+   "soucet_zmen_Kc": 1250000.0,
+   "navyseni_Kc": 1250000.0,
+   "snizeni_Kc": 0,
+   "posledni_stav": {
+    "rok": 2024,
+    "po": 1250000.0
+   },
+   "udalosti": [
+    {
+     "rok": 2024,
+     "ro": "RO-2024-06",
+     "organ": "ZM",
+     "datum": "2024-04-22",
+     "usneseni": "14/12/ZM/2024",
+     "pol": "6121",
+     "pred": 0.0,
+     "zmena": 1250000.0,
+     "po": 1250000.0,
+     "popis": "Podzemní parkoviště - úprava výstupu"
+    }
+   ]
+  },
+  {
+   "org": "00009966",
+   "nazev": "Participativní rozpočet 2025 - Mlžné brány",
+   "pocet_zmen": 4,
+   "roky": [
+    2025
+   ],
+   "soucet_zmen_Kc": 1000000.0,
+   "navyseni_Kc": 1150000.0,
+   "snizeni_Kc": -150000.0,
+   "posledni_stav": {
+    "rok": 2025,
+    "po": 850000.0
+   },
+   "udalosti": [
+    {
+     "rok": 2025,
+     "ro": "RO-2025-02",
+     "organ": "ZM",
+     "datum": "2025-02-03",
+     "usneseni": "11/17,24/ZM/2025",
+     "pol": "6121",
+     "pred": 0.0,
+     "zmena": 1000000.0,
+     "po": 1000000.0,
+     "popis": "Participativní rozpočet 2025 - Mlžné brány"
+    },
+    {
+     "rok": 2025,
+     "ro": "RO-2025-08",
+     "organ": "ZM",
+     "datum": "2025-06-23",
+     "usneseni": "17,18/19/ZM/2025",
+     "pol": "5137",
+     "pred": 0.0,
+     "zmena": 120000.0,
+     "po": 120000.0,
+     "popis": "Participativní rozpočet - Mlžné brány"
+    },
+    {
+     "rok": 2025,
+     "ro": "RO-2025-08",
+     "organ": "ZM",
+     "datum": "2025-06-23",
+     "usneseni": "17,18/19/ZM/2025",
+     "pol": "5171",
+     "pred": 0.0,
+     "zmena": 30000.0,
+     "po": 30000.0,
+     "popis": "Participativní rozpočet - Mlžné brány"
+    },
+    {
+     "rok": 2025,
+     "ro": "RO-2025-08",
+     "organ": "ZM",
+     "datum": "2025-06-23",
+     "usneseni": "17,18/19/ZM/2025",
+     "pol": "6121",
+     "pred": 1000000.0,
+     "zmena": -150000.0,
+     "po": 850000.0,
+     "popis": "Participativní rozpočet - Mlžné brány"
+    }
+   ]
+  },
+  {
+   "org": "00009925",
+   "nazev": "Participativní rozpočet - Balanční hřiště pro radost - PD a stavební práce",
+   "pocet_zmen": 2,
+   "roky": [
+    2024,
+    2025
+   ],
+   "soucet_zmen_Kc": 1031000.0,
+   "navyseni_Kc": 1031000.0,
+   "snizeni_Kc": 0,
+   "posledni_stav": {
+    "rok": 2025,
+    "po": 31000.0
+   },
+   "udalosti": [
+    {
+     "rok": 2024,
+     "ro": "RO-2024-02",
+     "organ": "ZM",
+     "datum": "2024-02-19",
+     "usneseni": "12/11/ZM/2024",
+     "pol": "6121",
+     "pred": 0.0,
+     "zmena": 1000000.0,
+     "po": 1000000.0,
+     "popis": "Participativní rozpočet - Balanční hřiště pro radost - PD a stavební práce"
+    },
+    {
+     "rok": 2025,
+     "ro": "RO-2025-02",
+     "organ": "ZM",
+     "datum": "2025-02-03",
+     "usneseni": "11/17,24/ZM/2025",
+     "pol": "6121",
+     "pred": 0.0,
+     "zmena": 31000.0,
+     "po": 31000.0,
+     "popis": "Participativní rozpočet - balanční hřiště pro radost - pozastávka"
+    }
+   ]
+  },
+  {
+   "org": "00009923",
+   "nazev": "Dodávka pružných mantinelů a ochranných plexiskel na ZS - PD a dodávka",
+   "pocet_zmen": 2,
+   "roky": [
+    2024
+   ],
+   "soucet_zmen_Kc": 1030000.0,
+   "navyseni_Kc": 1030000.0,
+   "snizeni_Kc": 0,
+   "posledni_stav": {
+    "rok": 2024,
+    "po": 8030000.0
+   },
+   "udalosti": [
+    {
+     "rok": 2024,
+     "ro": "RO-2024-06",
+     "organ": "ZM",
+     "datum": "2024-04-22",
+     "usneseni": "14/12/ZM/2024",
+     "pol": "6121",
+     "pred": 7000000.0,
+     "zmena": 660000.0,
+     "po": 7660000.0,
+     "popis": "Dodávka pružných mantinelů a ochranných plexiskel na ZS - PD a dodávka"
+    },
+    {
+     "rok": 2024,
+     "ro": "RO-2024-10",
+     "organ": "ZM",
+     "datum": "2024-06-24",
+     "usneseni": "15,16/13/ZM/2024",
+     "pol": "6121",
+     "pred": 7660000.0,
+     "zmena": 370000.0,
+     "po": 8030000.0,
+     "popis": "Dodávka pružných mantinelů - LED obrazovky"
+    }
+   ]
+  },
+  {
+   "org": "00009936",
+   "nazev": "Veřejné osvětlení přechodů - PD a stavební práce",
+   "pocet_zmen": 2,
+   "roky": [
+    2024
+   ],
+   "soucet_zmen_Kc": 1000000.0,
+   "navyseni_Kc": 1000000.0,
+   "snizeni_Kc": 0,
+   "posledni_stav": {
+    "rok": 2024,
+    "po": 1000000.0
+   },
+   "udalosti": [
+    {
+     "rok": 2024,
+     "ro": "RO-2024-02",
+     "organ": "ZM",
+     "datum": "2024-02-19",
+     "usneseni": "12/11/ZM/2024",
+     "pol": "6121",
+     "pred": 0.0,
+     "zmena": 400000.0,
+     "po": 400000.0,
+     "popis": "Veřejné osvětlení přechodů - Vsetín"
+    },
+    {
+     "rok": 2024,
+     "ro": "RO-2024-10",
+     "organ": "ZM",
+     "datum": "2024-06-24",
+     "usneseni": "15,16/13/ZM/2024",
+     "pol": "6121",
+     "pred": 400000.0,
+     "zmena": 600000.0,
+     "po": 1000000.0,
+     "popis": "Veřejné osvětlení přechodů - PD a stavební práce"
+    }
+   ]
+  },
+  {
+   "org": "00009859",
+   "nazev": "Stavební úpravy Dolního náměstí, Vsetín - PD",
+   "pocet_zmen": 1,
+   "roky": [
+    2024
+   ],
+   "soucet_zmen_Kc": 1000000.0,
+   "navyseni_Kc": 1000000.0,
+   "snizeni_Kc": 0,
+   "posledni_stav": {
+    "rok": 2024,
+    "po": 3600000.0
+   },
+   "udalosti": [
+    {
+     "rok": 2024,
+     "ro": "RO-2024-06",
+     "organ": "ZM",
+     "datum": "2024-04-22",
+     "usneseni": "14/12/ZM/2024",
+     "pol": "6121",
+     "pred": 2600000.0,
+     "zmena": 1000000.0,
+     "po": 3600000.0,
+     "popis": "Stavební úpravy Dolního náměstí, Vsetín - PD"
+    }
+   ]
+  },
+  {
+   "org": "00009834",
+   "nazev": "Úprava dopravního řešení ul. Na Lapači, Vsetín",
+   "pocet_zmen": 1,
+   "roky": [
+    2025
+   ],
+   "soucet_zmen_Kc": 1000000.0,
+   "navyseni_Kc": 1000000.0,
+   "snizeni_Kc": 0,
+   "posledni_stav": {
+    "rok": 2025,
+    "po": 2000000.0
+   },
+   "udalosti": [
+    {
+     "rok": 2025,
+     "ro": "RO-2025-02",
+     "organ": "ZM",
+     "datum": "2025-02-03",
+     "usneseni": "11/17,24/ZM/2025",
+     "pol": "6121",
+     "pred": 1000000.0,
+     "zmena": 1000000.0,
+     "po": 2000000.0,
+     "popis": "Úprava dopravního řešení ul. Na Lapači, Vsetín"
+    }
+   ]
+  },
+  {
+   "org": "00009968",
+   "nazev": "Stavební úpravy chodníků v zanádražním prostoru",
+   "pocet_zmen": 1,
+   "roky": [
+    2025
+   ],
+   "soucet_zmen_Kc": 1000000.0,
+   "navyseni_Kc": 1000000.0,
+   "snizeni_Kc": 0,
+   "posledni_stav": {
+    "rok": 2025,
+    "po": 1000000.0
+   },
+   "udalosti": [
+    {
+     "rok": 2025,
+     "ro": "RO-2025-04",
+     "organ": "ZM",
+     "datum": "2025-04-07",
+     "usneseni": "35/18/ZM/2025",
+     "pol": "6121",
+     "pred": 0.0,
+     "zmena": 1000000.0,
+     "po": 1000000.0,
+     "popis": "Stavební úpravy chodníků v zanádražním prostoru"
+    }
+   ]
+  },
+  {
+   "org": "00009974",
+   "nazev": "MVK - oprava po zatečení",
+   "pocet_zmen": 1,
+   "roky": [
+    2025
+   ],
+   "soucet_zmen_Kc": 1000000.0,
+   "navyseni_Kc": 1000000.0,
+   "snizeni_Kc": 0,
+   "posledni_stav": {
+    "rok": 2025,
+    "po": 1000000.0
+   },
+   "udalosti": [
+    {
+     "rok": 2025,
+     "ro": "RO-2025-13",
+     "organ": "ZM",
+     "datum": "2025-09-15",
+     "usneseni": "12,31/20/ZM/2025",
+     "pol": "5171",
+     "pred": 0.0,
+     "zmena": 1000000.0,
+     "po": 1000000.0,
+     "popis": "MVK - oprava po zatečení"
+    }
+   ]
+  },
+  {
+   "org": "00000252",
+   "nazev": "Oprava bytu po požáru",
+   "pocet_zmen": 2,
+   "roky": [
+    2024
+   ],
+   "soucet_zmen_Kc": 980000.0,
+   "navyseni_Kc": 980000.0,
+   "snizeni_Kc": 0,
+   "posledni_stav": {
+    "rok": 2024,
+    "po": 1240000.0
+   },
+   "udalosti": [
+    {
+     "rok": 2024,
+     "ro": "RO-2024-10",
+     "organ": "ZM",
+     "datum": "2024-06-24",
+     "usneseni": "15,16/13/ZM/2024",
+     "pol": "5171",
+     "pred": 340000.0,
+     "zmena": 800000.0,
+     "po": 1140000.0,
+     "popis": "Oprava bytu 37/252"
+    },
+    {
+     "rok": 2024,
+     "ro": "RO-2024-15",
+     "organ": "ZM",
+     "datum": "2024-09-16",
+     "usneseni": "13/14/ZM/2024",
+     "pol": "5171",
+     "pred": 1060000.0,
+     "zmena": 180000.0,
+     "po": 1240000.0,
+     "popis": "Oprava bytu po požáru"
+    }
+   ]
+  },
+  {
+   "org": "00009937",
+   "nazev": "Cyklostezky včetně lávky VS-03-ROL (lávka u SBD) - PD",
+   "pocet_zmen": 3,
+   "roky": [
+    2024,
+    2025,
+    2026
+   ],
+   "soucet_zmen_Kc": -430000.0,
+   "navyseni_Kc": 970000.0,
+   "snizeni_Kc": -1400000.0,
+   "posledni_stav": {
+    "rok": 2026,
+    "po": 8600000.0
+   },
+   "udalosti": [
+    {
+     "rok": 2024,
+     "ro": "RO-2024-06",
+     "organ": "ZM",
+     "datum": "2024-04-22",
+     "usneseni": "14/12/ZM/2024",
+     "pol": "6121",
+     "pred": 0.0,
+     "zmena": 600000.0,
+     "po": 600000.0,
+     "popis": "Cyklostezky včetně lávky VS-03-ROL (lávka u SBD) - PD"
+    },
+    {
+     "rok": 2025,
+     "ro": "RO-2025-08",
+     "organ": "ZM",
+     "datum": "2025-06-23",
+     "usneseni": "17,18/19/ZM/2025",
+     "pol": "6121",
+     "pred": 120000.0,
+     "zmena": 370000.0,
+     "po": 490000.0,
+     "popis": "Cyklostezka včetně lávky VS-03-ROL (lávka u SBD)"
+    },
+    {
+     "rok": 2026,
+     "ro": "RO-2026-12",
+     "organ": "ZM",
+     "datum": "2026-06-22",
+     "usneseni": "24,38/26/ZM/2026",
+     "pol": "6121",
+     "pred": 10000000.0,
+     "zmena": -1400000.0,
+     "po": 8600000.0,
+     "popis": "Úspora"
+    }
+   ]
+  },
+  {
+   "org": "00009919",
+   "nazev": "Propojení cyklostezky Rokytenka a cyklostezky Přednádražní prostor - PD",
+   "pocet_zmen": 1,
+   "roky": [
+    2026
+   ],
+   "soucet_zmen_Kc": 968000.0,
+   "navyseni_Kc": 968000.0,
+   "snizeni_Kc": 0,
+   "posledni_stav": {
+    "rok": 2026,
+    "po": 968000.0
+   },
+   "udalosti": [
+    {
+     "rok": 2026,
+     "ro": "RO-2026-14",
+     "organ": "RM",
+     "datum": "2026-07-20",
+     "usneseni": "23,24/102/RM/2026",
+     "pol": "6121",
+     "pred": 0.0,
+     "zmena": 968000.0,
+     "po": 968000.0,
+     "popis": "Propojení cyklostezky Rokytenka a cyklostezky Přednádražní prostor - PD"
+    }
+   ]
+  },
+  {
+   "org": "00009975",
+   "nazev": "Technická studie lávky přes Bečvu v Panské zahradě",
+   "pocet_zmen": 1,
+   "roky": [
+    2025
+   ],
+   "soucet_zmen_Kc": 800000.0,
+   "navyseni_Kc": 800000.0,
+   "snizeni_Kc": 0,
+   "posledni_stav": {
+    "rok": 2025,
+    "po": 800000.0
+   },
+   "udalosti": [
+    {
+     "rok": 2025,
+     "ro": "RO-2025-13",
+     "organ": "ZM",
+     "datum": "2025-09-15",
+     "usneseni": "12,31/20/ZM/2025",
+     "pol": "6121",
+     "pred": 0.0,
+     "zmena": 800000.0,
+     "po": 800000.0,
+     "popis": "Technická studie lávky přes Bečvu v Panské zahradě"
+    }
+   ]
+  },
+  {
+   "org": "00009991",
+   "nazev": "Přípojka elektro pro zázemí DK Vsetín",
+   "pocet_zmen": 1,
+   "roky": [
+    2026
+   ],
+   "soucet_zmen_Kc": 800000.0,
+   "navyseni_Kc": 800000.0,
+   "snizeni_Kc": 0,
+   "posledni_stav": {
+    "rok": 2026,
+    "po": 800000.0
+   },
+   "udalosti": [
+    {
+     "rok": 2026,
+     "ro": "RO-2026-12",
+     "organ": "ZM",
+     "datum": "2026-06-22",
+     "usneseni": "24,38/26/ZM/2026",
+     "pol": "6121",
+     "pred": 0.0,
+     "zmena": 800000.0,
+     "po": 800000.0,
+     "popis": "Přípojka elektro pro zázemí DK Vsetín"
+    }
+   ]
+  },
+  {
+   "org": "00009971",
+   "nazev": "Prodloužení kanalizace ul. Na Lapači, k.ú. Rokytnice u Vsetína - PD a stavební práce",
+   "pocet_zmen": 1,
+   "roky": [
+    2025
+   ],
+   "soucet_zmen_Kc": 750000.0,
+   "navyseni_Kc": 750000.0,
+   "snizeni_Kc": 0,
+   "posledni_stav": {
+    "rok": 2025,
+    "po": 750000.0
+   },
+   "udalosti": [
+    {
+     "rok": 2025,
+     "ro": "RO-2025-08",
+     "organ": "ZM",
+     "datum": "2025-06-23",
+     "usneseni": "17,18/19/ZM/2025",
+     "pol": "6121",
+     "pred": 0.0,
+     "zmena": 750000.0,
+     "po": 750000.0,
+     "popis": "Prodloužení kanalizace ul. Na Lapači, k.ú. Rokytnice u Vsetína - PD a stavební práce"
+    }
+   ]
+  },
+  {
+   "org": "00009862",
+   "nazev": "Stavební úpravy lávky Vs-02-Bel u Kablovky - dokončení PD, stavební práce",
+   "pocet_zmen": 3,
+   "roky": [
+    2024,
+    2025
+   ],
+   "soucet_zmen_Kc": 704000.0,
+   "navyseni_Kc": 704000.0,
+   "snizeni_Kc": 0,
+   "posledni_stav": {
+    "rok": 2025,
+    "po": 29000.0
+   },
+   "udalosti": [
+    {
+     "rok": 2024,
+     "ro": "RO-2024-06",
+     "organ": "ZM",
+     "datum": "2024-04-22",
+     "usneseni": "14/12/ZM/2024",
+     "pol": "6121",
+     "pred": 9000000.0,
+     "zmena": 400000.0,
+     "po": 9400000.0,
+     "popis": "Stavební úpravy lávky Vs-02-Bel u Kablovky - dokončení PD, stavební práce"
+    },
+    {
+     "rok": 2024,
+     "ro": "RO-2024-15",
+     "organ": "ZM",
+     "datum": "2024-09-16",
+     "usneseni": "13/14/ZM/2024",
+     "pol": "6121",
+     "pred": 9400000.0,
+     "zmena": 300000.0,
+     "po": 9700000.0,
+     "popis": "Stavební úpravy lávky Vs-02-Bel u Kablovky - stavební práce"
+    },
+    {
+     "rok": 2025,
+     "ro": "RO-2025-02",
+     "organ": "ZM",
+     "datum": "2025-02-03",
+     "usneseni": "11/17,24/ZM/2025",
+     "pol": "6121",
+     "pred": 25000.0,
+     "zmena": 4000.0,
+     "po": 29000.0,
+     "popis": "Věcné břemeno - stavební úpravy lávky Vs-02-Bel"
+    }
+   ]
+  },
+  {
+   "org": "00009977",
+   "nazev": "Stavební úpravy prostor pro JSDH Vsetín v Rokytnici",
+   "pocet_zmen": 3,
+   "roky": [
+    2025,
+    2026
+   ],
+   "soucet_zmen_Kc": 498000.0,
+   "navyseni_Kc": 650000.0,
+   "snizeni_Kc": -152000.0,
+   "posledni_stav": {
+    "rok": 2026,
+    "po": 0.0
+   },
+   "udalosti": [
+    {
+     "rok": 2025,
+     "ro": "RO-2025-19",
+     "organ": "ZM",
+     "datum": "2025-11-10",
+     "usneseni": "11/21/ZM/2025",
+     "pol": "6121",
+     "pred": 0.0,
+     "zmena": 150000.0,
+     "po": 150000.0,
+     "popis": "Stavební úpravy garáže - SDH Vsetín - město"
+    },
+    {
+     "rok": 2026,
+     "ro": "RO-2026-08",
+     "organ": "RM",
+     "datum": "2026-03-30",
+     "usneseni": "25/92/RM/2026",
+     "pol": "6121",
+     "pred": 0.0,
+     "zmena": 500000.0,
+     "po": 500000.0,
+     "popis": "Stavební úpravy prostor pro JSDH Vsetín v Rokytnici"
+    },
+    {
+     "rok": 2026,
+     "ro": "RO-2026-08",
+     "organ": "RM",
+     "datum": "2026-03-30",
+     "usneseni": "25/92/RM/2026",
+     "pol": "6121",
+     "pred": 152000.0,
+     "zmena": -152000.0,
+     "po": 0.0,
+     "popis": "Změna rozpočtového zatřídění na ORJ 0002"
+    }
+   ]
+  },
+  {
+   "org": "00009920",
+   "nazev": "Autobusová zastávka v průmyslové zóně Bobrky II",
+   "pocet_zmen": 1,
+   "roky": [
+    2025
+   ],
+   "soucet_zmen_Kc": 600000.0,
+   "navyseni_Kc": 600000.0,
+   "snizeni_Kc": 0,
+   "posledni_stav": {
+    "rok": 2025,
+    "po": 1100000.0
+   },
+   "udalosti": [
+    {
+     "rok": 2025,
+     "ro": "RO-2025-04",
+     "organ": "ZM",
+     "datum": "2025-04-07",
+     "usneseni": "35/18/ZM/2025",
+     "pol": "6121",
+     "pred": 500000.0,
+     "zmena": 600000.0,
+     "po": 1100000.0,
+     "popis": "Autobusová zastávka v průmyslové zóně Bobrky II"
+    }
+   ]
+  },
+  {
+   "org": "00009948",
+   "nazev": "Stavební úpravy Horního náměstí III. etapa - PD",
+   "pocet_zmen": 3,
+   "roky": [
+    2024,
+    2025,
+    2026
+   ],
+   "soucet_zmen_Kc": -5200000.0,
+   "navyseni_Kc": 500000.0,
+   "snizeni_Kc": -5700000.0,
+   "posledni_stav": {
+    "rok": 2026,
+    "po": 7000000.0
+   },
+   "udalosti": [
+    {
+     "rok": 2024,
+     "ro": "RO-2024-15",
+     "organ": "ZM",
+     "datum": "2024-09-16",
+     "usneseni": "13/14/ZM/2024",
+     "pol": "6121",
+     "pred": 0.0,
+     "zmena": 500000.0,
+     "po": 500000.0,
+     "popis": "Stavební úpravy Horního náměstí III. etapa - PD"
+    },
+    {
+     "rok": 2025,
+     "ro": "RO-2025-08",
+     "organ": "ZM",
+     "datum": "2025-06-23",
+     "usneseni": "17,18/19/ZM/2025",
+     "pol": "6121",
+     "pred": 4400000.0,
+     "zmena": -3700000.0,
+     "po": 700000.0,
+     "popis": "Úspora - přesun do r. 2026"
+    },
+    {
+     "rok": 2026,
+     "ro": "RO-2026-12",
+     "organ": "ZM",
+     "datum": "2026-06-22",
+     "usneseni": "24,38/26/ZM/2026",
+     "pol": "6121",
+     "pred": 9000000.0,
+     "zmena": -2000000.0,
+     "po": 7000000.0,
+     "popis": "Úspora"
+    }
+   ]
+  },
+  {
+   "org": "00009955",
+   "nazev": "Tréninková hokejová střelnice Na Lapači, Vsetín",
+   "pocet_zmen": 1,
+   "roky": [
+    2025
+   ],
+   "soucet_zmen_Kc": 500000.0,
+   "navyseni_Kc": 500000.0,
+   "snizeni_Kc": 0,
+   "posledni_stav": {
+    "rok": 2025,
+    "po": 1000000.0
+   },
+   "udalosti": [
+    {
+     "rok": 2025,
+     "ro": "RO-2025-04",
+     "organ": "ZM",
+     "datum": "2025-04-07",
+     "usneseni": "35/18/ZM/2025",
+     "pol": "6121",
+     "pred": 500000.0,
+     "zmena": 500000.0,
+     "po": 1000000.0,
+     "popis": "Tréninková hokejová střelnice Na Lapači, Vsetín"
+    }
+   ]
+  },
+  {
+   "org": "00009896",
+   "nazev": "MVK - stavební úpravy knihoven - Rokytnice - změna rozpočtového zatřídění",
+   "pocet_zmen": 2,
+   "roky": [
+    2025
+   ],
+   "soucet_zmen_Kc": 0.0,
+   "navyseni_Kc": 500000.0,
+   "snizeni_Kc": -500000.0,
+   "posledni_stav": {
+    "rok": 2025,
+    "po": 14500000.0
+   },
+   "udalosti": [
+    {
+     "rok": 2025,
+     "ro": "RO-2025-08",
+     "organ": "ZM",
+     "datum": "2025-06-23",
+     "usneseni": "17,18/19/ZM/2025",
+     "pol": "5169",
+     "pred": 0.0,
+     "zmena": 500000.0,
+     "po": 500000.0,
+     "popis": "MVK - stavební úpravy knihoven - Rokytnice - změna rozpočtového zatřídění"
+    },
+    {
+     "rok": 2025,
+     "ro": "RO-2025-08",
+     "organ": "ZM",
+     "datum": "2025-06-23",
+     "usneseni": "17,18/19/ZM/2025",
+     "pol": "6121",
+     "pred": 15000000.0,
+     "zmena": -500000.0,
+     "po": 14500000.0,
+     "popis": "MVK - stavební úpravy knihoven - Rokytnice - změna rozpočtového zatřídění"
+    }
+   ]
+  },
+  {
+   "org": "00009992",
+   "nazev": "Stavební úpravy bočního schodiště DK Vsetín - PD",
+   "pocet_zmen": 1,
+   "roky": [
+    2026
+   ],
+   "soucet_zmen_Kc": 500000.0,
+   "navyseni_Kc": 500000.0,
+   "snizeni_Kc": 0,
+   "posledni_stav": {
+    "rok": 2026,
+    "po": 500000.0
+   },
+   "udalosti": [
+    {
+     "rok": 2026,
+     "ro": "RO-2026-12",
+     "organ": "ZM",
+     "datum": "2026-06-22",
+     "usneseni": "24,38/26/ZM/2026",
+     "pol": "6121",
+     "pred": 0.0,
+     "zmena": 500000.0,
+     "po": 500000.0,
+     "popis": "Stavební úpravy bočního schodiště DK Vsetín - PD"
+    }
+   ]
+  },
+  {
+   "org": "00009983",
+   "nazev": "MVK Dolní náměstí - rampa",
+   "pocet_zmen": 1,
+   "roky": [
+    2026
+   ],
+   "soucet_zmen_Kc": 500000.0,
+   "navyseni_Kc": 500000.0,
+   "snizeni_Kc": 0,
+   "posledni_stav": {
+    "rok": 2026,
+    "po": 1500000.0
+   },
+   "udalosti": [
+    {
+     "rok": 2026,
+     "ro": "RO-2026-16",
+     "organ": "RM",
+     "datum": "2026-09-07",
+     "usneseni": "21,22/105/RM/2026",
+     "pol": "6121",
+     "pred": 1000000.0,
+     "zmena": 500000.0,
+     "po": 1500000.0,
+     "popis": "MVK Dolní náměstí - rampa"
+    }
+   ]
+  },
+  {
+   "org": "00009947",
+   "nazev": "Rekonstrukce plynové kotelny v čp. 464, Rokytnice",
+   "pocet_zmen": 1,
+   "roky": [
+    2024
+   ],
+   "soucet_zmen_Kc": 420000.0,
+   "navyseni_Kc": 420000.0,
+   "snizeni_Kc": 0,
+   "posledni_stav": {
+    "rok": 2024,
+    "po": 420000.0
+   },
+   "udalosti": [
+    {
+     "rok": 2024,
+     "ro": "RO-2024-15",
+     "organ": "ZM",
+     "datum": "2024-09-16",
+     "usneseni": "13/14/ZM/2024",
+     "pol": "6121",
+     "pred": 0.0,
+     "zmena": 420000.0,
+     "po": 420000.0,
+     "popis": "Rekonstrukce plynové kotelny v čp. 464, Rokytnice"
+    }
+   ]
+  },
+  {
+   "org": "00009941",
+   "nazev": "Městské lázně - střecha přístavby + fotovoltaika - PD",
+   "pocet_zmen": 1,
+   "roky": [
+    2024
+   ],
+   "soucet_zmen_Kc": 400000.0,
+   "navyseni_Kc": 400000.0,
+   "snizeni_Kc": 0,
+   "posledni_stav": {
+    "rok": 2024,
+    "po": 400000.0
+   },
+   "udalosti": [
+    {
+     "rok": 2024,
+     "ro": "RO-2024-06",
+     "organ": "ZM",
+     "datum": "2024-04-22",
+     "usneseni": "14/12/ZM/2024",
+     "pol": "6121",
+     "pred": 0.0,
+     "zmena": 400000.0,
+     "po": 400000.0,
+     "popis": "Městské lázně - střecha přístavby + fotovoltaika - PD"
+    }
+   ]
+  },
+  {
+   "org": "00009912",
+   "nazev": "Demolice objektů na parcele č. 494/1",
+   "pocet_zmen": 1,
+   "roky": [
+    2024
+   ],
+   "soucet_zmen_Kc": 400000.0,
+   "navyseni_Kc": 400000.0,
+   "snizeni_Kc": 0,
+   "posledni_stav": {
+    "rok": 2024,
+    "po": 1400000.0
+   },
+   "udalosti": [
+    {
+     "rok": 2024,
+     "ro": "RO-2024-10",
+     "organ": "ZM",
+     "datum": "2024-06-24",
+     "usneseni": "15,16/13/ZM/2024",
+     "pol": "5169",
+     "pred": 1000000.0,
+     "zmena": 400000.0,
+     "po": 1400000.0,
+     "popis": "Demolice objektů na parcele č. 494/1"
+    }
+   ]
+  },
+  {
+   "org": "00009990",
+   "nazev": "Autobusová zastávka Vesník, včetně cyklostezky",
+   "pocet_zmen": 1,
+   "roky": [
+    2026
+   ],
+   "soucet_zmen_Kc": 370000.0,
+   "navyseni_Kc": 370000.0,
+   "snizeni_Kc": 0,
+   "posledni_stav": {
+    "rok": 2026,
+    "po": 370000.0
+   },
+   "udalosti": [
+    {
+     "rok": 2026,
+     "ro": "RO-2026-07",
+     "organ": "ZM",
+     "datum": "2026-03-30",
+     "usneseni": "24/24/ZM/2026",
+     "pol": "6121",
+     "pred": 0.0,
+     "zmena": 370000.0,
+     "po": 370000.0,
+     "popis": "Autobusová zastávka Vesník, včetně cyklostezky"
+    }
+   ]
+  },
+  {
+   "org": "00009875",
+   "nazev": "Zimní stadion - studie",
+   "pocet_zmen": 1,
+   "roky": [
+    2026
+   ],
+   "soucet_zmen_Kc": 370000.0,
+   "navyseni_Kc": 370000.0,
+   "snizeni_Kc": 0,
+   "posledni_stav": {
+    "rok": 2026,
+    "po": 370000.0
+   },
+   "udalosti": [
+    {
+     "rok": 2026,
+     "ro": "RO-2026-07",
+     "organ": "ZM",
+     "datum": "2026-03-30",
+     "usneseni": "24/24/ZM/2026",
+     "pol": "6121",
+     "pred": 0.0,
+     "zmena": 370000.0,
+     "po": 370000.0,
+     "popis": "Zimní stadion - studie"
+    }
+   ]
+  },
+  {
+   "org": "00009978",
+   "nazev": "Parkování MK Hlásenka - PD",
+   "pocet_zmen": 1,
+   "roky": [
+    2025
+   ],
+   "soucet_zmen_Kc": 360000.0,
+   "navyseni_Kc": 360000.0,
+   "snizeni_Kc": 0,
+   "posledni_stav": {
+    "rok": 2025,
+    "po": 360000.0
+   },
+   "udalosti": [
+    {
+     "rok": 2025,
+     "ro": "RO-2025-19",
+     "organ": "ZM",
+     "datum": "2025-11-10",
+     "usneseni": "11/21/ZM/2025",
+     "pol": "6121",
+     "pred": 0.0,
+     "zmena": 360000.0,
+     "po": 360000.0,
+     "popis": "Parkování MK Hlásenka - PD"
+    }
+   ]
+  },
+  {
+   "org": "00009964",
+   "nazev": "Klimatizace do kanceláří č.p. 1356",
+   "pocet_zmen": 1,
+   "roky": [
+    2025
+   ],
+   "soucet_zmen_Kc": 350000.0,
+   "navyseni_Kc": 350000.0,
+   "snizeni_Kc": 0,
+   "posledni_stav": {
+    "rok": 2025,
+    "po": 350000.0
+   },
+   "udalosti": [
+    {
+     "rok": 2025,
+     "ro": "RO-2025-02",
+     "organ": "ZM",
+     "datum": "2025-02-03",
+     "usneseni": "11/17,24/ZM/2025",
+     "pol": "6121",
+     "pred": 0.0,
+     "zmena": 350000.0,
+     "po": 350000.0,
+     "popis": "Klimatizace do kanceláří č.p. 1356"
+    }
+   ]
+  },
+  {
+   "org": "00009906",
+   "nazev": "Revitalizace u ZŠ Trávníky a čp. 1816 - PD",
+   "pocet_zmen": 1,
+   "roky": [
+    2025
+   ],
+   "soucet_zmen_Kc": 350000.0,
+   "navyseni_Kc": 350000.0,
+   "snizeni_Kc": 0,
+   "posledni_stav": {
+    "rok": 2025,
+    "po": 350000.0
+   },
+   "udalosti": [
+    {
+     "rok": 2025,
+     "ro": "RO-2025-13",
+     "organ": "ZM",
+     "datum": "2025-09-15",
+     "usneseni": "12,31/20/ZM/2025",
+     "pol": "6121",
+     "pred": 0.0,
+     "zmena": 350000.0,
+     "po": 350000.0,
+     "popis": "Revitalizace u ZŠ Trávníky a čp. 1816 - PD"
+    }
+   ]
+  },
+  {
+   "org": "00009961",
+   "nazev": "FVE elektrárna Bobrky",
+   "pocet_zmen": 1,
+   "roky": [
+    2026
+   ],
+   "soucet_zmen_Kc": 347000.0,
+   "navyseni_Kc": 347000.0,
+   "snizeni_Kc": 0,
+   "posledni_stav": {
+    "rok": 2026,
+    "po": 1547000.0
+   },
+   "udalosti": [
+    {
+     "rok": 2026,
+     "ro": "RO-2026-06",
+     "organ": "RM",
+     "datum": "2026-03-16",
+     "usneseni": "39/91/RM/2026",
+     "pol": "6121",
+     "pred": 1200000.0,
+     "zmena": 347000.0,
+     "po": 1547000.0,
+     "popis": "FVE elektrárna Bobrky"
+    }
+   ]
+  },
+  {
+   "org": "00003611",
+   "nazev": "ZŠ Sychrov - investiční příspěvek na připojení zařízení k distribuční soustavě",
+   "pocet_zmen": 2,
+   "roky": [
+    2025,
+    2026
+   ],
+   "soucet_zmen_Kc": 335175.0,
+   "navyseni_Kc": 335175.0,
+   "snizeni_Kc": 0,
+   "posledni_stav": {
+    "rok": 2026,
+    "po": 1276550.0
+   },
+   "udalosti": [
+    {
+     "rok": 2025,
+     "ro": "RO-2025-08",
+     "organ": "ZM",
+     "datum": "2025-06-23",
+     "usneseni": "17,18/19/ZM/2025",
+     "pol": "6351",
+     "pred": 0.0,
+     "zmena": 58625.0,
+     "po": 58625.0,
+     "popis": "ZŠ Sychrov - investiční příspěvek na připojení zařízení k distribuční soustavě"
+    },
+    {
+     "rok": 2026,
+     "ro": "RO-2026-11",
+     "organ": "RM",
+     "datum": "2026-06-08",
+     "usneseni": "44,45,46/98/RM/2026",
+     "pol": "6121",
+     "pred": 1000000.0,
+     "zmena": 276550.0,
+     "po": 1276550.0,
+     "popis": "ZŠ Sychrov 97 - snížení energetické náročnosti"
+    }
+   ]
+  },
+  {
+   "org": "00000337",
+   "nazev": "ZŠ Integra Vsetín - pořízení konvektomatu",
+   "pocet_zmen": 1,
+   "roky": [
+    2026
+   ],
+   "soucet_zmen_Kc": 325000.0,
+   "navyseni_Kc": 325000.0,
+   "snizeni_Kc": 0,
+   "posledni_stav": {
+    "rok": 2026,
+    "po": 325000.0
+   },
+   "udalosti": [
+    {
+     "rok": 2026,
+     "ro": "RO-2026-12",
+     "organ": "ZM",
+     "datum": "2026-06-22",
+     "usneseni": "24,38/26/ZM/2026",
+     "pol": "6329",
+     "pred": 0.0,
+     "zmena": 325000.0,
+     "po": 325000.0,
+     "popis": "ZŠ Integra Vsetín - pořízení konvektomatu"
+    }
+   ]
+  },
+  {
+   "org": "00009943",
+   "nazev": "Změna rozpočtového zatřídění - Stavební úpravy MK Amerika - PD",
+   "pocet_zmen": 2,
+   "roky": [
+    2025
+   ],
+   "soucet_zmen_Kc": 0.0,
+   "navyseni_Kc": 300000.0,
+   "snizeni_Kc": -300000.0,
+   "posledni_stav": {
+    "rok": 2025,
+    "po": 300000.0
+   },
+   "udalosti": [
+    {
+     "rok": 2025,
+     "ro": "RO-2025-04",
+     "organ": "ZM",
+     "datum": "2025-04-07",
+     "usneseni": "35/18/ZM/2025",
+     "pol": "5169",
+     "pred": 300000.0,
+     "zmena": -300000.0,
+     "po": 0.0,
+     "popis": "Změna rozpočtového zatřídění - Stavební úpravy MK Amerika - PD"
+    },
+    {
+     "rok": 2025,
+     "ro": "RO-2025-04",
+     "organ": "ZM",
+     "datum": "2025-04-07",
+     "usneseni": "35/18/ZM/2025",
+     "pol": "6121",
+     "pred": 0.0,
+     "zmena": 300000.0,
+     "po": 300000.0,
+     "popis": "Změna rozpočtového zatřídění - Stavební úpravy MK Amerika - PD"
+    }
+   ]
+  },
+  {
+   "org": "00001580",
+   "nazev": "Výměna rozvaděče výtahu čp. 1580, Pod Žamboškou",
+   "pocet_zmen": 1,
+   "roky": [
+    2024
+   ],
+   "soucet_zmen_Kc": 220000.0,
+   "navyseni_Kc": 220000.0,
+   "snizeni_Kc": 0,
+   "posledni_stav": {
+    "rok": 2024,
+    "po": 482000.0
+   },
+   "udalosti": [
+    {
+     "rok": 2024,
+     "ro": "RO-2024-15",
+     "organ": "ZM",
+     "datum": "2024-09-16",
+     "usneseni": "13/14/ZM/2024",
+     "pol": "5171",
+     "pred": 262000.0,
+     "zmena": 220000.0,
+     "po": 482000.0,
+     "popis": "Výměna rozvaděče výtahu čp. 1580, Pod Žamboškou"
+    }
+   ]
+  },
+  {
+   "org": "00009940",
+   "nazev": "Stavební úpravy MK a chodníků Podsedky - studie proveditelnosti",
+   "pocet_zmen": 1,
+   "roky": [
+    2024
+   ],
+   "soucet_zmen_Kc": 200000.0,
+   "navyseni_Kc": 200000.0,
+   "snizeni_Kc": 0,
+   "posledni_stav": {
+    "rok": 2024,
+    "po": 200000.0
+   },
+   "udalosti": [
+    {
+     "rok": 2024,
+     "ro": "RO-2024-06",
+     "organ": "ZM",
+     "datum": "2024-04-22",
+     "usneseni": "14/12/ZM/2024",
+     "pol": "6121",
+     "pred": 0.0,
+     "zmena": 200000.0,
+     "po": 200000.0,
+     "popis": "Stavební úpravy MK a chodníků Podsedky - studie proveditelnosti"
+    }
+   ]
+  },
+  {
+   "org": "00009922",
+   "nazev": "Mlýnský náhon Vsetín - optimalizace toku",
+   "pocet_zmen": 2,
+   "roky": [
+    2024,
+    2026
+   ],
+   "soucet_zmen_Kc": -2800000.0,
+   "navyseni_Kc": 200000.0,
+   "snizeni_Kc": -3000000.0,
+   "posledni_stav": {
+    "rok": 2026,
+    "po": 700000.0
+   },
+   "udalosti": [
+    {
+     "rok": 2024,
+     "ro": "RO-2024-15",
+     "organ": "ZM",
+     "datum": "2024-09-16",
+     "usneseni": "13/14/ZM/2024",
+     "pol": "6121",
+     "pred": 4500000.0,
+     "zmena": -3000000.0,
+     "po": 1500000.0,
+     "popis": "Mlýnský náhon, PD a stavební práce - snížení"
+    },
+    {
+     "rok": 2026,
+     "ro": "RO-2026-14",
+     "organ": "RM",
+     "datum": "2026-07-20",
+     "usneseni": "23,24/102/RM/2026",
+     "pol": "6121",
+     "pred": 500000.0,
+     "zmena": 200000.0,
+     "po": 700000.0,
+     "popis": "Mlýnský náhon Vsetín - optimalizace toku"
+    }
+   ]
+  },
+  {
+   "org": "00001484",
+   "nazev": "Pasportizace budovy čp. 1484",
+   "pocet_zmen": 1,
+   "roky": [
+    2025
+   ],
+   "soucet_zmen_Kc": 195000.0,
+   "navyseni_Kc": 195000.0,
+   "snizeni_Kc": 0,
+   "posledni_stav": {
+    "rok": 2025,
+    "po": 731000.0
+   },
+   "udalosti": [
+    {
+     "rok": 2025,
+     "ro": "RO-2025-08",
+     "organ": "ZM",
+     "datum": "2025-06-23",
+     "usneseni": "17,18/19/ZM/2025",
+     "pol": "5169",
+     "pred": 536000.0,
+     "zmena": 195000.0,
+     "po": 731000.0,
+     "popis": "Pasportizace budovy čp. 1484"
+    }
+   ]
+  },
+  {
+   "org": "00000330",
+   "nazev": "Vyúčtování závazného ukazatele za energie",
+   "pocet_zmen": 1,
+   "roky": [
+    2025
+   ],
+   "soucet_zmen_Kc": 155413.08,
+   "navyseni_Kc": 155413.08,
+   "snizeni_Kc": 0,
+   "posledni_stav": {
+    "rok": 2025,
+    "po": 155413.08
+   },
+   "udalosti": [
+    {
+     "rok": 2025,
+     "ro": "RO-2025-03",
+     "organ": "RM",
+     "datum": "2025-03-10",
+     "usneseni": "27/59/RM/2025",
+     "pol": "5331",
+     "pred": 0.0,
+     "zmena": 155413.08,
+     "po": 155413.08,
+     "popis": "Vyúčtování závazného ukazatele za energie"
+    }
+   ]
+  },
+  {
+   "org": "00001627",
+   "nazev": "Pojistné plnění",
+   "pocet_zmen": 1,
+   "roky": [
+    2026
+   ],
+   "soucet_zmen_Kc": 151597.0,
+   "navyseni_Kc": 151597.0,
+   "snizeni_Kc": 0,
+   "posledni_stav": {
+    "rok": 2026,
+    "po": 251597.0
+   },
+   "udalosti": [
+    {
+     "rok": 2026,
+     "ro": "RO-2026-06",
+     "organ": "RM",
+     "datum": "2026-03-16",
+     "usneseni": "39/91/RM/2026",
+     "pol": "5171",
+     "pred": 100000.0,
+     "zmena": 151597.0,
+     "po": 251597.0,
+     "popis": "Pojistné plnění"
+    }
+   ]
+  },
+  {
+   "org": "00001318",
+   "nazev": "Vyúčtování závazného ukazatele za energie",
+   "pocet_zmen": 1,
+   "roky": [
+    2025
+   ],
+   "soucet_zmen_Kc": 146285.96,
+   "navyseni_Kc": 146285.96,
+   "snizeni_Kc": 0,
+   "posledni_stav": {
+    "rok": 2025,
+    "po": 146285.96
+   },
+   "udalosti": [
+    {
+     "rok": 2025,
+     "ro": "RO-2025-03",
+     "organ": "RM",
+     "datum": "2025-03-10",
+     "usneseni": "27/59/RM/2025",
+     "pol": "5331",
+     "pred": 0.0,
+     "zmena": 146285.96,
+     "po": 146285.96,
+     "popis": "Vyúčtování závazného ukazatele za energie"
+    }
+   ]
+  },
+  {
+   "org": "00001303",
+   "nazev": "Vyúčtování závazného ukazatele za energie",
+   "pocet_zmen": 1,
+   "roky": [
+    2025
+   ],
+   "soucet_zmen_Kc": 132314.4,
+   "navyseni_Kc": 132314.4,
+   "snizeni_Kc": 0,
+   "posledni_stav": {
+    "rok": 2025,
+    "po": 132314.4
+   },
+   "udalosti": [
+    {
+     "rok": 2025,
+     "ro": "RO-2025-03",
+     "organ": "RM",
+     "datum": "2025-03-10",
+     "usneseni": "27/59/RM/2025",
+     "pol": "5331",
+     "pred": 0.0,
+     "zmena": 132314.4,
+     "po": 132314.4,
+     "popis": "Vyúčtování závazného ukazatele za energie"
+    }
+   ]
+  },
+  {
+   "org": "00009972",
+   "nazev": "Oprava odvodnění komunikace Na Lapači",
+   "pocet_zmen": 1,
+   "roky": [
+    2025
+   ],
+   "soucet_zmen_Kc": 120000.0,
+   "navyseni_Kc": 120000.0,
+   "snizeni_Kc": 0,
+   "posledni_stav": {
+    "rok": 2025,
+    "po": 120000.0
+   },
+   "udalosti": [
+    {
+     "rok": 2025,
+     "ro": "RO-2025-08",
+     "organ": "ZM",
+     "datum": "2025-06-23",
+     "usneseni": "17,18/19/ZM/2025",
+     "pol": "5171",
+     "pred": 0.0,
+     "zmena": 120000.0,
+     "po": 120000.0,
+     "popis": "Oprava odvodnění komunikace Na Lapači"
+    }
+   ]
+  },
+  {
+   "org": "00009934",
+   "nazev": "Alcedo - SEN - energetický posudek přepracování",
+   "pocet_zmen": 2,
+   "roky": [
+    2026
+   ],
+   "soucet_zmen_Kc": 105055.0,
+   "navyseni_Kc": 105055.0,
+   "snizeni_Kc": 0,
+   "posledni_stav": {
+    "rok": 2026,
+    "po": 105055.0
+   },
+   "udalosti": [
+    {
+     "rok": 2026,
+     "ro": "RO-2026-11",
+     "organ": "RM",
+     "datum": "2026-06-08",
+     "usneseni": "44,45,46/98/RM/2026",
+     "pol": "6121",
+     "pred": 0.0,
+     "zmena": 55055.0,
+     "po": 55055.0,
+     "popis": "Alcedo Vsetín - snížení energetické náročnosti, ORJ 0003"
+    },
+    {
+     "rok": 2026,
+     "ro": "RO-2026-18",
+     "organ": "RM",
+     "datum": "2026-09-21",
+     "usneseni": "8,9/106/RM/2026",
+     "pol": "6121",
+     "pred": 55055.0,
+     "zmena": 50000.0,
+     "po": 105055.0,
+     "popis": "Alcedo - SEN - energetický posudek přepracování"
+    }
+   ]
+  },
+  {
+   "org": "00000355",
+   "nazev": "Dotace z rozpočtu Zlínského kraje - terénní sociální práce",
+   "pocet_zmen": 10,
+   "roky": [
+    2024,
+    2025,
+    2026
+   ],
+   "soucet_zmen_Kc": -3322000.0,
+   "navyseni_Kc": 80000.0,
+   "snizeni_Kc": -3402000.0,
+   "posledni_stav": {
+    "rok": 2026,
+    "po": 0.0
+   },
+   "udalosti": [
+    {
+     "rok": 2024,
+     "ro": "RO-2024-09",
+     "organ": "RM",
+     "datum": "2024-06-10",
+     "usneseni": "15,16/43/RM/2024",
+     "pol": "5011",
+     "pred": 1610000.0,
+     "zmena": -838000.0,
+     "po": 772000.0,
+     "popis": "Oprava ÚZ"
+    },
+    {
+     "rok": 2024,
+     "ro": "RO-2024-09",
+     "organ": "RM",
+     "datum": "2024-06-10",
+     "usneseni": "15,16/43/RM/2024",
+     "pol": "5031",
+     "pred": 398000.0,
+     "zmena": -208000.0,
+     "po": 190000.0,
+     "popis": "Oprava ÚZ"
+    },
+    {
+     "rok": 2024,
+     "ro": "RO-2024-09",
+     "organ": "RM",
+     "datum": "2024-06-10",
+     "usneseni": "15,16/43/RM/2024",
+     "pol": "5032",
+     "pred": 144000.0,
+     "zmena": -76000.0,
+     "po": 68000.0,
+     "popis": "Oprava ÚZ"
+    },
+    {
+     "rok": 2024,
+     "ro": "RO-2024-12",
+     "organ": "RM",
+     "datum": "2024-07-15",
+     "usneseni": "13/45/RM/2024",
+     "pol": "5011",
+     "pred": 213000.0,
+     "zmena": -52500.0,
+     "po": 160500.0,
+     "popis": "Dotace ZK - sociální služby"
+    },
+    {
+     "rok": 2024,
+     "ro": "RO-2024-12",
+     "organ": "RM",
+     "datum": "2024-07-15",
+     "usneseni": "13/45/RM/2024",
+     "pol": "5031",
+     "pred": 51000.0,
+     "zmena": -20500.0,
+     "po": 30500.0,
+     "popis": "Dotace ZK - sociální služby"
+    },
+    {
+     "rok": 2024,
+     "ro": "RO-2024-12",
+     "organ": "RM",
+     "datum": "2024-07-15",
+     "usneseni": "13/45/RM/2024",
+     "pol": "5032",
+     "pred": 18000.0,
+     "zmena": -7000.0,
+     "po": 11000.0,
+     "popis": "Dotace ZK - sociální služby"
+    },
+    {
+     "rok": 2025,
+     "ro": "RO-2025-07",
+     "organ": "RM",
+     "datum": "2025-06-02",
+     "usneseni": "34/66/RM/2025",
+     "pol": "5901",
+     "pred": 0.0,
+     "zmena": 80000.0,
+     "po": 80000.0,
+     "popis": "Výkon sociální práce"
+    },
+    {
+     "rok": 2026,
+     "ro": "RO-2026-14",
+     "organ": "RM",
+     "datum": "2026-07-20",
+     "usneseni": "23,24/102/RM/2026",
+     "pol": "5011",
+     "pred": 1643500.0,
+     "zmena": -1643500.0,
+     "po": 0.0,
+     "popis": "Dotace z rozpočtu Zlínského kraje - terénní sociální práce"
+    },
+    {
+     "rok": 2026,
+     "ro": "RO-2026-14",
+     "organ": "RM",
+     "datum": "2026-07-20",
+     "usneseni": "23,24/102/RM/2026",
+     "pol": "5031",
+     "pred": 408100.0,
+     "zmena": -408100.0,
+     "po": 0.0,
+     "popis": "Dotace z rozpočtu Zlínského kraje - terénní sociální práce"
+    },
+    {
+     "rok": 2026,
+     "ro": "RO-2026-14",
+     "organ": "RM",
+     "datum": "2026-07-20",
+     "usneseni": "23,24/102/RM/2026",
+     "pol": "5032",
+     "pred": 148400.0,
+     "zmena": -148400.0,
+     "po": 0.0,
+     "popis": "Dotace z rozpočtu Zlínského kraje - terénní sociální práce"
+    }
+   ]
+  },
+  {
+   "org": "00001416",
+   "nazev": "2. splátka dotace",
+   "pocet_zmen": 3,
+   "roky": [
+    2024
+   ],
+   "soucet_zmen_Kc": 61192.8,
+   "navyseni_Kc": 61192.8,
+   "snizeni_Kc": 0,
+   "posledni_stav": {
+    "rok": 2024,
+    "po": 11045.0
+   },
+   "udalosti": [
+    {
+     "rok": 2024,
+     "ro": "RO-2024-08",
+     "organ": "RM",
+     "datum": "2024-05-20",
+     "usneseni": "22,23/42/RM/2024",
+     "pol": "5011",
+     "pred": 80154.0,
+     "zmena": 46878.0,
+     "po": 127032.0,
+     "popis": "2. splátka dotace"
+    },
+    {
+     "rok": 2024,
+     "ro": "RO-2024-08",
+     "organ": "RM",
+     "datum": "2024-05-20",
+     "usneseni": "22,23/42/RM/2024",
+     "pol": "5031",
+     "pred": 19678.0,
+     "zmena": 10410.8,
+     "po": 30088.8,
+     "popis": "2. splátka dotace"
+    },
+    {
+     "rok": 2024,
+     "ro": "RO-2024-08",
+     "organ": "RM",
+     "datum": "2024-05-20",
+     "usneseni": "22,23/42/RM/2024",
+     "pol": "5032",
+     "pred": 7141.0,
+     "zmena": 3904.0,
+     "po": 11045.0,
+     "popis": "2. splátka dotace"
+    }
+   ]
+  },
+  {
+   "org": "00009980",
+   "nazev": "Zázemí pro turistické cíle Semetín - PD",
+   "pocet_zmen": 1,
+   "roky": [
+    2025
+   ],
+   "soucet_zmen_Kc": 55000.0,
+   "navyseni_Kc": 55000.0,
+   "snizeni_Kc": 0,
+   "posledni_stav": {
+    "rok": 2025,
+    "po": 55000.0
+   },
+   "udalosti": [
+    {
+     "rok": 2025,
+     "ro": "RO-2025-22",
+     "organ": "ZM",
+     "datum": "2025-12-15",
+     "usneseni": "23/22/ZM/2025",
+     "pol": "6121",
+     "pred": 0.0,
+     "zmena": 55000.0,
+     "po": 55000.0,
+     "popis": "Zázemí pro turistické cíle Semetín - PD"
+    }
+   ]
+  },
+  {
+   "org": "00009910",
+   "nazev": "Přestavba mostu VS-04-Rom na lávku Vs-04-Rol",
+   "pocet_zmen": 2,
+   "roky": [
+    2024,
+    2026
+   ],
+   "soucet_zmen_Kc": -4950000.0,
+   "navyseni_Kc": 50000.0,
+   "snizeni_Kc": -5000000.0,
+   "posledni_stav": {
+    "rok": 2026,
+    "po": 550000.0
+   },
+   "udalosti": [
+    {
+     "rok": 2024,
+     "ro": "RO-2024-15",
+     "organ": "ZM",
+     "datum": "2024-09-16",
+     "usneseni": "13/14/ZM/2024",
+     "pol": "6121",
+     "pred": 6015000.0,
+     "zmena": -5000000.0,
+     "po": 1015000.0,
+     "popis": "Přestavba mostu - snížení"
+    },
+    {
+     "rok": 2026,
+     "ro": "RO-2026-09",
+     "organ": "RM",
+     "datum": "2026-04-20",
+     "usneseni": "16,17/93/RM/2026",
+     "pol": "6121",
+     "pred": 500000.0,
+     "zmena": 50000.0,
+     "po": 550000.0,
+     "popis": "Přestavba mostu VS-04-Rom na lávku Vs-04-Rol"
+    }
+   ]
+  },
+  {
+   "org": "00001320",
+   "nazev": "Vyúčtování závazného ukazatele za energie",
+   "pocet_zmen": 1,
+   "roky": [
+    2025
+   ],
+   "soucet_zmen_Kc": 49677.84,
+   "navyseni_Kc": 49677.84,
+   "snizeni_Kc": 0,
+   "posledni_stav": {
+    "rok": 2025,
+    "po": 49677.84
+   },
+   "udalosti": [
+    {
+     "rok": 2025,
+     "ro": "RO-2025-03",
+     "organ": "RM",
+     "datum": "2025-03-10",
+     "usneseni": "27/59/RM/2025",
+     "pol": "5331",
+     "pred": 0.0,
+     "zmena": 49677.84,
+     "po": 49677.84,
+     "popis": "Vyúčtování závazného ukazatele za energie"
+    }
+   ]
+  },
+  {
+   "org": "00001417",
+   "nazev": "2. splátka dotace",
+   "pocet_zmen": 7,
+   "roky": [
+    2024
+   ],
+   "soucet_zmen_Kc": 24477.14,
+   "navyseni_Kc": 24477.14,
+   "snizeni_Kc": 0,
+   "posledni_stav": {
+    "rok": 2024,
+    "po": 4379.0
+   },
+   "udalosti": [
+    {
+     "rok": 2024,
+     "ro": "RO-2024-08",
+     "organ": "RM",
+     "datum": "2024-05-20",
+     "usneseni": "22,23/42/RM/2024",
+     "pol": "5038",
+     "pred": 0.0,
+     "zmena": 50.0,
+     "po": 50.0,
+     "popis": "2. splátka dotace"
+    },
+    {
+     "rok": 2024,
+     "ro": "RO-2024-08",
+     "organ": "RM",
+     "datum": "2024-05-20",
+     "usneseni": "22,23/42/RM/2024",
+     "pol": "5134",
+     "pred": 5540.0,
+     "zmena": 4000.0,
+     "po": 9540.0,
+     "popis": "2. splátka dotace"
+    },
+    {
+     "rok": 2024,
+     "ro": "RO-2024-08",
+     "organ": "RM",
+     "datum": "2024-05-20",
+     "usneseni": "22,23/42/RM/2024",
+     "pol": "5137",
+     "pred": 781.0,
+     "zmena": 5000.0,
+     "po": 5781.0,
+     "popis": "2. splátka dotace"
+    },
+    {
+     "rok": 2024,
+     "ro": "RO-2024-08",
+     "organ": "RM",
+     "datum": "2024-05-20",
+     "usneseni": "22,23/42/RM/2024",
+     "pol": "5139",
+     "pred": 546.0,
+     "zmena": 5777.14,
+     "po": 6323.14,
+     "popis": "2. splátka dotace"
+    },
+    {
+     "rok": 2024,
+     "ro": "RO-2024-08",
+     "organ": "RM",
+     "datum": "2024-05-20",
+     "usneseni": "22,23/42/RM/2024",
+     "pol": "5162",
+     "pred": 3454.0,
+     "zmena": 750.0,
+     "po": 4204.0,
+     "popis": "2. splátka dotace"
+    },
+    {
+     "rok": 2024,
+     "ro": "RO-2024-08",
+     "organ": "RM",
+     "datum": "2024-05-20",
+     "usneseni": "22,23/42/RM/2024",
+     "pol": "5169",
+     "pred": 2949.0,
+     "zmena": 6350.0,
+     "po": 9299.0,
+     "popis": "2. splátka dotace"
+    },
+    {
+     "rok": 2024,
+     "ro": "RO-2024-08",
+     "organ": "RM",
+     "datum": "2024-05-20",
+     "usneseni": "22,23/42/RM/2024",
+     "pol": "5175",
+     "pred": 1829.0,
+     "zmena": 2550.0,
+     "po": 4379.0,
+     "popis": "2. splátka dotace"
+    }
+   ]
+  },
+  {
+   "org": "00001305",
+   "nazev": "Vyúčtování závazného ukazatele za energie",
+   "pocet_zmen": 1,
+   "roky": [
+    2025
+   ],
+   "soucet_zmen_Kc": 18379.3,
+   "navyseni_Kc": 18379.3,
+   "snizeni_Kc": 0,
+   "posledni_stav": {
+    "rok": 2025,
+    "po": 18379.3
+   },
+   "udalosti": [
+    {
+     "rok": 2025,
+     "ro": "RO-2025-03",
+     "organ": "RM",
+     "datum": "2025-03-10",
+     "usneseni": "27/59/RM/2025",
+     "pol": "5331",
+     "pred": 0.0,
+     "zmena": 18379.3,
+     "po": 18379.3,
+     "popis": "Vyúčtování závazného ukazatele za energie"
+    }
+   ]
+  },
+  {
+   "org": "00009816",
+   "nazev": "Bezpečnost silničního provozu - sítě pro měření rychlosti, radar Luh",
+   "pocet_zmen": 1,
+   "roky": [
+    2024
+   ],
+   "soucet_zmen_Kc": 15000.0,
+   "navyseni_Kc": 15000.0,
+   "snizeni_Kc": 0,
+   "posledni_stav": {
+    "rok": 2024,
+    "po": 15000.0
+   },
+   "udalosti": [
+    {
+     "rok": 2024,
+     "ro": "RO-2024-10",
+     "organ": "ZM",
+     "datum": "2024-06-24",
+     "usneseni": "15,16/13/ZM/2024",
+     "pol": "6122",
+     "pred": 0.0,
+     "zmena": 15000.0,
+     "po": 15000.0,
+     "popis": "Bezpečnost silničního provozu - sítě pro měření rychlosti, radar Luh"
+    }
+   ]
+  },
+  {
+   "org": "00001309",
+   "nazev": "Vyúčtování závazného ukazatele za energie",
+   "pocet_zmen": 1,
+   "roky": [
+    2025
+   ],
+   "soucet_zmen_Kc": 4931.94,
+   "navyseni_Kc": 4931.94,
+   "snizeni_Kc": 0,
+   "posledni_stav": {
+    "rok": 2025,
+    "po": 4931.94
+   },
+   "udalosti": [
+    {
+     "rok": 2025,
+     "ro": "RO-2025-03",
+     "organ": "RM",
+     "datum": "2025-03-10",
+     "usneseni": "27/59/RM/2025",
+     "pol": "5331",
+     "pred": 0.0,
+     "zmena": 4931.94,
+     "po": 4931.94,
+     "popis": "Vyúčtování závazného ukazatele za energie"
+    }
+   ]
+  },
+  {
+   "org": "00003204",
+   "nazev": "Úspora",
+   "pocet_zmen": 1,
+   "roky": [
+    2024
+   ],
+   "soucet_zmen_Kc": -600000.0,
+   "navyseni_Kc": 0,
+   "snizeni_Kc": -600000.0,
+   "posledni_stav": {
+    "rok": 2024,
+    "po": 5400000.0
+   },
+   "udalosti": [
+    {
+     "rok": 2024,
+     "ro": "RO-2024-10",
+     "organ": "ZM",
+     "datum": "2024-06-24",
+     "usneseni": "15,16/13/ZM/2024",
+     "pol": "5171",
+     "pred": 6000000.0,
+     "zmena": -600000.0,
+     "po": 5400000.0,
+     "popis": "Úspora"
+    }
+   ]
+  },
+  {
+   "org": "00009911",
+   "nazev": "Úspora",
+   "pocet_zmen": 1,
+   "roky": [
+    2024
+   ],
+   "soucet_zmen_Kc": -300000.0,
+   "navyseni_Kc": 0,
+   "snizeni_Kc": -300000.0,
+   "posledni_stav": {
+    "rok": 2024,
+    "po": 1200000.0
+   },
+   "udalosti": [
+    {
+     "rok": 2024,
+     "ro": "RO-2024-10",
+     "organ": "ZM",
+     "datum": "2024-06-24",
+     "usneseni": "15,16/13/ZM/2024",
+     "pol": "6121",
+     "pred": 1500000.0,
+     "zmena": -300000.0,
+     "po": 1200000.0,
+     "popis": "Úspora"
+    }
+   ]
+  },
+  {
+   "org": "00009828",
+   "nazev": "Revitalizace území u SPŠS - přesunuto r. 2025",
+   "pocet_zmen": 1,
+   "roky": [
+    2024
+   ],
+   "soucet_zmen_Kc": -3800000.0,
+   "navyseni_Kc": 0,
+   "snizeni_Kc": -3800000.0,
+   "posledni_stav": {
+    "rok": 2024,
+    "po": 400000.0
+   },
+   "udalosti": [
+    {
+     "rok": 2024,
+     "ro": "RO-2024-15",
+     "organ": "ZM",
+     "datum": "2024-09-16",
+     "usneseni": "13/14/ZM/2024",
+     "pol": "6121",
+     "pred": 4200000.0,
+     "zmena": -3800000.0,
+     "po": 400000.0,
+     "popis": "Revitalizace území u SPŠS - přesunuto r. 2025"
+    }
+   ]
+  },
+  {
+   "org": "00009841",
+   "nazev": "Sportovní hala (gymnastická) PD - odloženo",
+   "pocet_zmen": 1,
+   "roky": [
+    2024
+   ],
+   "soucet_zmen_Kc": -2000000.0,
+   "navyseni_Kc": 0,
+   "snizeni_Kc": -2000000.0,
+   "posledni_stav": {
+    "rok": 2024,
+    "po": 0.0
+   },
+   "udalosti": [
+    {
+     "rok": 2024,
+     "ro": "RO-2024-15",
+     "organ": "ZM",
+     "datum": "2024-09-16",
+     "usneseni": "13/14/ZM/2024",
+     "pol": "6121",
+     "pred": 2000000.0,
+     "zmena": -2000000.0,
+     "po": 0.0,
+     "popis": "Sportovní hala (gymnastická) PD - odloženo"
+    }
+   ]
+  },
+  {
+   "org": "00009897",
+   "nazev": "Částečná rekonstrukce VZT Zimní stadion - snížení",
+   "pocet_zmen": 1,
+   "roky": [
+    2024
+   ],
+   "soucet_zmen_Kc": -800000.0,
+   "navyseni_Kc": 0,
+   "snizeni_Kc": -800000.0,
+   "posledni_stav": {
+    "rok": 2024,
+    "po": 1200000.0
+   },
+   "udalosti": [
+    {
+     "rok": 2024,
+     "ro": "RO-2024-15",
+     "organ": "ZM",
+     "datum": "2024-09-16",
+     "usneseni": "13/14/ZM/2024",
+     "pol": "6121",
+     "pred": 2000000.0,
+     "zmena": -800000.0,
+     "po": 1200000.0,
+     "popis": "Částečná rekonstrukce VZT Zimní stadion - snížení"
+    }
+   ]
+  },
+  {
+   "org": "00009898",
+   "nazev": "Instalace OPS do objektu Sportovní haly - stavební práce",
+   "pocet_zmen": 1,
+   "roky": [
+    2024
+   ],
+   "soucet_zmen_Kc": -500000.0,
+   "navyseni_Kc": 0,
+   "snizeni_Kc": -500000.0,
+   "posledni_stav": {
+    "rok": 2024,
+    "po": 1000000.0
+   },
+   "udalosti": [
+    {
+     "rok": 2024,
+     "ro": "RO-2024-15",
+     "organ": "ZM",
+     "datum": "2024-09-16",
+     "usneseni": "13/14/ZM/2024",
+     "pol": "6121",
+     "pred": 1500000.0,
+     "zmena": -500000.0,
+     "po": 1000000.0,
+     "popis": "Instalace OPS do objektu Sportovní haly - stavební práce"
+    }
+   ]
+  },
+  {
+   "org": "00009926",
+   "nazev": "Stavební úpravy DPS 1579, 1580 - snížení",
+   "pocet_zmen": 1,
+   "roky": [
+    2024
+   ],
+   "soucet_zmen_Kc": -700000.0,
+   "navyseni_Kc": 0,
+   "snizeni_Kc": -700000.0,
+   "posledni_stav": {
+    "rok": 2024,
+    "po": 2800000.0
+   },
+   "udalosti": [
+    {
+     "rok": 2024,
+     "ro": "RO-2024-15",
+     "organ": "ZM",
+     "datum": "2024-09-16",
+     "usneseni": "13/14/ZM/2024",
+     "pol": "6121",
+     "pred": 3500000.0,
+     "zmena": -700000.0,
+     "po": 2800000.0,
+     "popis": "Stavební úpravy DPS 1579, 1580 - snížení"
+    }
+   ]
+  },
+  {
+   "org": "00009944",
+   "nazev": "Oprava MK a mostu VS-15-Jcm v Července (za objektem Trimil)",
+   "pocet_zmen": 1,
+   "roky": [
+    2025
+   ],
+   "soucet_zmen_Kc": -300000.0,
+   "navyseni_Kc": 0,
+   "snizeni_Kc": -300000.0,
+   "posledni_stav": {
+    "rok": 2025,
+    "po": 0.0
+   },
+   "udalosti": [
+    {
+     "rok": 2025,
+     "ro": "RO-2025-08",
+     "organ": "ZM",
+     "datum": "2025-06-23",
+     "usneseni": "17,18/19/ZM/2025",
+     "pol": "5169",
+     "pred": 300000.0,
+     "zmena": -300000.0,
+     "po": 0.0,
+     "popis": "Oprava MK a mostu VS-15-Jcm v Července (za objektem Trimil)"
+    }
+   ]
+  },
+  {
+   "org": "00009325",
+   "nazev": "Přesun",
+   "pocet_zmen": 1,
+   "roky": [
+    2025
+   ],
+   "soucet_zmen_Kc": -55000.0,
+   "navyseni_Kc": 0,
+   "snizeni_Kc": -55000.0,
+   "posledni_stav": {
+    "rok": 2025,
+    "po": 1025000.0
+   },
+   "udalosti": [
+    {
+     "rok": 2025,
+     "ro": "RO-2025-22",
+     "organ": "ZM",
+     "datum": "2025-12-15",
+     "usneseni": "23/22/ZM/2025",
+     "pol": "5171",
+     "pred": 1080000.0,
+     "zmena": -55000.0,
+     "po": 1025000.0,
+     "popis": "Přesun"
+    }
+   ]
+  },
+  {
+   "org": "00003190",
+   "nazev": "Úspora",
+   "pocet_zmen": 1,
+   "roky": [
+    2026
+   ],
+   "soucet_zmen_Kc": -500000.0,
+   "navyseni_Kc": 0,
+   "snizeni_Kc": -500000.0,
+   "posledni_stav": {
+    "rok": 2026,
+    "po": 4340000.0
+   },
+   "udalosti": [
+    {
+     "rok": 2026,
+     "ro": "RO-2026-12",
+     "organ": "ZM",
+     "datum": "2026-06-22",
+     "usneseni": "24,38/26/ZM/2026",
+     "pol": "6121",
+     "pred": 4840000.0,
+     "zmena": -500000.0,
+     "po": 4340000.0,
+     "popis": "Úspora"
+    }
+   ]
+  },
+  {
+   "org": "00009921",
+   "nazev": "Úspora",
+   "pocet_zmen": 1,
+   "roky": [
+    2026
+   ],
+   "soucet_zmen_Kc": -1500000.0,
+   "navyseni_Kc": 0,
+   "snizeni_Kc": -1500000.0,
+   "posledni_stav": {
+    "rok": 2026,
+    "po": 4550000.0
+   },
+   "udalosti": [
+    {
+     "rok": 2026,
+     "ro": "RO-2026-12",
+     "organ": "ZM",
+     "datum": "2026-06-22",
+     "usneseni": "24,38/26/ZM/2026",
+     "pol": "6121",
+     "pred": 6050000.0,
+     "zmena": -1500000.0,
+     "po": 4550000.0,
+     "popis": "Úspora"
+    }
+   ]
+  },
+  {
+   "org": "00009976",
+   "nazev": "Úspora",
+   "pocet_zmen": 1,
+   "roky": [
+    2026
+   ],
+   "soucet_zmen_Kc": -800000.0,
+   "navyseni_Kc": 0,
+   "snizeni_Kc": -800000.0,
+   "posledni_stav": {
+    "rok": 2026,
+    "po": 3000000.0
+   },
+   "udalosti": [
+    {
+     "rok": 2026,
+     "ro": "RO-2026-12",
+     "organ": "ZM",
+     "datum": "2026-06-22",
+     "usneseni": "24,38/26/ZM/2026",
+     "pol": "6121",
+     "pred": 3800000.0,
+     "zmena": -800000.0,
+     "po": 3000000.0,
+     "popis": "Úspora"
+    }
+   ]
+  },
+  {
+   "org": "00009959",
+   "nazev": "Úspora",
+   "pocet_zmen": 1,
+   "roky": [
+    2026
+   ],
+   "soucet_zmen_Kc": -7000000.0,
+   "navyseni_Kc": 0,
+   "snizeni_Kc": -7000000.0,
+   "posledni_stav": {
+    "rok": 2026,
+    "po": 4000000.0
+   },
+   "udalosti": [
+    {
+     "rok": 2026,
+     "ro": "RO-2026-12",
+     "organ": "ZM",
+     "datum": "2026-06-22",
+     "usneseni": "24,38/26/ZM/2026",
+     "pol": "6121",
+     "pred": 11000000.0,
+     "zmena": -7000000.0,
+     "po": 4000000.0,
+     "popis": "Úspora"
+    }
+   ]
+  },
+  {
+   "org": "00009988",
+   "nazev": "Úspora",
+   "pocet_zmen": 1,
+   "roky": [
+    2026
+   ],
+   "soucet_zmen_Kc": -900000.0,
+   "navyseni_Kc": 0,
+   "snizeni_Kc": -900000.0,
+   "posledni_stav": {
+    "rok": 2026,
+    "po": 950000.0
+   },
+   "udalosti": [
+    {
+     "rok": 2026,
+     "ro": "RO-2026-12",
+     "organ": "ZM",
+     "datum": "2026-06-22",
+     "usneseni": "24,38/26/ZM/2026",
+     "pol": "6121",
+     "pred": 1850000.0,
+     "zmena": -900000.0,
+     "po": 950000.0,
+     "popis": "Úspora"
+    }
+   ]
+  }
+ ]
+}

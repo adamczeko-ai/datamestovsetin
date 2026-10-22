@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="cs">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>VSETÍN OSINT – data rozpočtu</title>
+<meta name="description" content="Ověřitelná paměť rozhodnutí města Vsetín: rozpočtová opatření, akce, kauzy a signály k ověření.">
+<style>
+:root{--bg:#fff;--fg:#1a1a1a;--muted:#555;--line:#d6d6d6;--accent:#0b5cad;--hi:#b3261e;--mid:#8a5a00;--lo:#2e6b30;--card:#f6f7f9}
+@media (prefers-color-scheme:dark){:root{--bg:#121417;--fg:#ececec;--muted:#a9b0b8;--line:#33383e;--accent:#79b4ff;--hi:#ff8a80;--mid:#ffcc66;--lo:#8fd694;--card:#1b1f24}}
+*{box-sizing:border-box}
+body{margin:0;font:16px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background:var(--bg);color:var(--fg)}
+a{color:var(--accent)}
+.skip{position:absolute;left:-999px;top:0;background:var(--accent);color:#fff;padding:.5rem 1rem;z-index:10}
+.skip:focus{left:1rem}
+header,main,footer{max-width:1100px;margin:0 auto;padding:1rem}
+h1{font-size:1.6rem;margin:.2rem 0}
+nav ul{list-style:none;padding:0;display:flex;flex-wrap:wrap;gap:.5rem}
+nav button{font:inherit;padding:.5rem .9rem;border:1px solid var(--line);background:var(--card);color:var(--fg);border-radius:6px;cursor:pointer;min-height:44px}
+nav button[aria-selected="true"]{border-color:var(--accent);outline:2px solid var(--accent)}
+:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:.75rem;margin:1rem 0}
+.kpi{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:.75rem}
+.kpi b{display:block;font-size:1.4rem}
+label{font-weight:600}
+input[type=search],select{font:inherit;padding:.5rem;border:1px solid var(--line);border-radius:6px;background:var(--bg);color:var(--fg);min-height:44px;width:100%;max-width:420px}
+.filters{display:flex;flex-wrap:wrap;gap:1rem;align-items:end;margin:.5rem 0 1rem}
+.tbl{overflow-x:auto;border:1px solid var(--line);border-radius:8px}
+table{border-collapse:collapse;width:100%;font-size:.95rem}
+caption{text-align:left;padding:.5rem;font-weight:600}
+th,td{padding:.45rem .6rem;border-bottom:1px solid var(--line);vertical-align:top;text-align:left}
+th{background:var(--card);position:sticky;top:0}
+td.num{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+.neg{color:var(--hi)}
+.badge{display:inline-block;padding:.05rem .45rem;border-radius:999px;font-size:.8rem;border:1px solid currentColor}
+.vysoka{color:var(--hi)}.stredni{color:var(--mid)}.nizka{color:var(--lo)}
+details{border:1px solid var(--line);border-radius:8px;margin:.5rem 0;background:var(--card)}
+summary{cursor:pointer;padding:.6rem .8rem;min-height:44px}
+details>div{padding:0 .8rem .8rem}
+.muted{color:var(--muted)}
+[hidden]{display:none!important}
+</style>
+</head>
+<body>
+<a class="skip" href="#obsah">Přeskočit na obsah</a>
+<header>
+  <p class="muted">VSETÍN OSINT · datový repozitář</p>
+  <h1>Rozhodnutí → peníze → výsledky</h1>
+  <p>Data vytěžená z veřejných dokumentů města Vsetín (rozpočtová opatření 2024–2026, závěrečné účty, usnesení). Každý údaj má odkaz na zdrojový dokument.</p>
+  <nav aria-label="Sekce"><ul role="tablist">
+    <li><button role="tab" aria-selected="true" aria-controls="p-akce" id="t-akce">Akce</button></li>
+    <li><button role="tab" aria-selected="false" aria-controls="p-flags" id="t-flags">Signály k ověření</button></li>
+    <li><button role="tab" aria-selected="false" aria-controls="p-kauzy" id="t-kauzy">Kauzy</button></li>
+    <li><button role="tab" aria-selected="false" aria-controls="p-radky" id="t-radky">Všechny řádky RO</button></li>
+  </ul></nav>
+</header>
+<main id="obsah" tabindex="-1">
+  <div class="kpis" id="kpis" aria-live="polite"></div>
+
+  <section id="p-akce" role="tabpanel" aria-labelledby="t-akce">
+    <h2>Akce města napříč roky</h2>
+    <div class="filters"><div><label for="q-akce">Hledat akci</label><br><input id="q-akce" type="search" placeholder="např. lávka, Ohrada, lázně"></div></div>
+    <div id="akce-list"></div>
+  </section>
+
+  <section id="p-flags" role="tabpanel" aria-labelledby="t-flags" hidden>
+    <h2>Signály k ověření</h2>
+    <p class="muted">Pravidlové signály pro prioritizaci ověřování. Nejde o zjištění pochybení.</p>
+    <div class="filters"><div><label for="f-zav">Závažnost</label><br><select id="f-zav"><option value="">vše</option><option>vysoka</option><option>stredni</option><option>nizka</option></select></div></div>
+    <div class="tbl"><table><caption>Seznam signálů</caption><thead><tr><th scope="col">Závažnost</th><th scope="col">Pravidlo</th><th scope="col">Popis</th><th scope="col">Částka</th><th scope="col">Zdroj</th></tr></thead><tbody id="flags-body"></tbody></table></div>
+  </section>
+
+  <section id="p-kauzy" role="tabpanel" aria-labelledby="t-kauzy" hidden>
+    <h2>Kauzy</h2>
+    <div id="kauzy-list"></div>
+  </section>
+
+  <section id="p-radky" role="tabpanel" aria-labelledby="t-radky" hidden>
+    <h2>Řádky rozpočtových opatření 2024–2026</h2>
+    <div class="filters"><div><label for="q-radky">Hledat v popisu, ORG nebo usnesení</label><br><input id="q-radky" type="search"></div><p class="muted" id="radky-count" aria-live="polite"></p></div>
+    <div class="tbl"><table><caption>Prvních 300 odpovídajících řádků</caption><thead><tr><th scope="col">Rok/RO</th><th scope="col">Orgán</th><th scope="col">Typ</th><th scope="col">ODPA/POL</th><th scope="col">ORG</th><th scope="col">Změna</th><th scope="col">Popis</th></tr></thead><tbody id="radky-body"></tbody></table></div>
+  </section>
+</main>
+<footer class="muted"><p>Zdroj: mestovsetin.cz. Data a skripty: <a href="https://github.com/adamczeko-ai/datamestovsetin">github.com/adamczeko-ai/datamestovsetin</a>. Čísla v Kč.</p></footer>
+<script>
+const fmt=n=>n==null?'':new Intl.NumberFormat('cs-CZ',{maximumFractionDigits:0}).format(n)+' Kč';
+const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const RO_URL={};
+async function j(p){const r=await fetch(p);if(!r.ok)throw new Error(p);return r.json()}
+function tabs(){const btns=[...document.querySelectorAll('[role=tab]')];
+ btns.forEach((b,i)=>{b.addEventListener('click',()=>sel(b));b.addEventListener('keydown',e=>{if(e.key==='ArrowRight'||e.key==='ArrowLeft'){const n=btns[(i+(e.key==='ArrowRight'?1:btns.length-1))%btns.length];n.focus();sel(n)}})});
+ function sel(b){btns.forEach(x=>{x.setAttribute('aria-selected',x===b);document.getElementById(x.getAttribute('aria-controls')).hidden=x!==b});}}
+(async()=>{
+ tabs();
+ const [ak,fl,r24,r25,r26]=await Promise.all([j('data/analyzy/akce_timeline.json'),j('data/analyzy/red_flags.json'),j('data/rozpocet/2024/rozpoctova_opatreni_2024.json'),j('data/rozpocet/2025/rozpoctova_opatreni_2025.json'),j('data/rozpocet/2026/rozpoctova_opatreni_2026.json')]);
+ const rows=[];for(const [y,d] of [[2024,r24],[2025,r25],[2026,r26]])for(const o of d.opatreni){RO_URL[o.id]=o.url;for(const r of o.radky)rows.push({...r,rok:y,ro:o.id,organ:o.organ,usn:o.usneseni})}
+ const link=id=>RO_URL[id]?`<a href="${RO_URL[id]}">${esc(id)}</a>`:esc(id);
+ document.getElementById('kpis').innerHTML=[['Rozpočtových opatření',r24.opatreni.length+r25.opatreni.length+r26.opatreni.length],['Řádků změn',rows.length],['Sledovaných akcí',ak.pocet_akci],['Signálů k ověření',fl.signaly.length]].map(([k,v])=>`<div class="kpi"><span class="muted">${k}</span><b>${v}</b></div>`).join('');
+ const renderAkce=q=>{q=(q||'').toLowerCase();document.getElementById('akce-list').innerHTML=ak.akce.filter(a=>!q||a.nazev.toLowerCase().includes(q)||a.org.includes(q)).slice(0,60).map(a=>`<details><summary><strong>${esc(a.nazev)}</strong> · ORG ${a.org} · ${a.roky.join(', ')} · navýšení ${fmt(a.navyseni_Kc)}</summary><div><table><caption class="muted">Časová osa změn</caption><thead><tr><th scope="col">RO</th><th scope="col">Orgán / usnesení</th><th scope="col">Před</th><th scope="col">Změna</th><th scope="col">Po</th><th scope="col">Popis</th></tr></thead><tbody>${a.udalosti.map(u=>`<tr><td>${link(u.ro)}</td><td>${esc(u.organ||'')} ${esc(u.usneseni||'')}</td><td class="num">${fmt(u.pred)}</td><td class="num ${u.zmena<0?'neg':''}">${fmt(u.zmena)}</td><td class="num">${fmt(u.po)}</td><td>${esc(u.popis)}</td></tr>`).join('')}</tbody></table></div></details>`).join('')||'<p>Nic nenalezeno.</p>'};
+ renderAkce();document.getElementById('q-akce').addEventListener('input',e=>renderAkce(e.target.value));
+ const renderFlags=z=>{document.getElementById('flags-body').innerHTML=fl.signaly.filter(f=>!z||f.zavaznost===z).map(f=>`<tr><td><span class="badge ${f.zavaznost}">${f.zavaznost}</span></td><td>${esc(f.kod)}</td><td>${esc(f.popis)}</td><td class="num">${fmt(f.castka_Kc)}</td><td>${f.odkazy.filter(Boolean).map(x=>/^RO-/.test(x)?link(x):esc(x)).join(', ')}</td></tr>`).join('')};
+ renderFlags('');document.getElementById('f-zav').addEventListener('change',e=>renderFlags(e.target.value));
+ const kz=[];for(const p of ['data/kauzy/K-001_spory_ochrana_osobnosti.json','data/kauzy/K-002_tribuna_ohrada_TJ_MEZ.json']){try{kz.push(await j(p))}catch(e){}}
+ document.getElementById('kauzy-list').innerHTML=kz.map(k=>`<details><summary><strong>${esc(k.id)}</strong> – ${esc(k.nazev)}</summary><div><ol>${(k.casova_osa||k.udalosti||[]).map(u=>`<li><strong>${esc(u.datum)}</strong> ${u.usneseni?'('+esc(u.usneseni)+') ':''}${esc(u.popis)}</li>`).join('')}</ol>${k.pozorovani?'<h3>Pozorování</h3><ul>'+k.pozorovani.map(p=>`<li>${esc(p)}</li>`).join('')+'</ul>':''}<h3>Další krok</h3><ul>${(k.dalsi_krok||[]).map(p=>`<li>${esc(p)}</li>`).join('')}</ul></div></details>`).join('');
+ const renderRows=q=>{q=(q||'').toLowerCase();const f=rows.filter(r=>!q||(r.popis||'').toLowerCase().includes(q)||(r.org||'').includes(q)||(r.usn||'').toLowerCase().includes(q));
+  document.getElementById('radky-count').textContent=`${f.length} řádků`;
+  document.getElementById('radky-body').innerHTML=f.slice(0,300).map(r=>`<tr><td>${link(r.ro)}</td><td>${esc(r.organ||'')}</td><td>${r.typ}</td><td>${esc(r.odpa||'')}/${esc(r.pol)}</td><td>${esc(r.org||'')}</td><td class="num ${r.zmena<0?'neg':''}">${fmt(r.zmena)}</td><td>${esc(r.popis)}</td></tr>`).join('')};
+ renderRows('');document.getElementById('q-radky').addEventListener('input',e=>renderRows(e.target.value));
+})().catch(e=>{document.getElementById('kpis').innerHTML=`<p role="alert">Data se nepodařilo načíst (${esc(e.message)}). Stránku otevřete přes GitHub Pages nebo lokální server.</p>`});
+</script>
+</body>
+</html>

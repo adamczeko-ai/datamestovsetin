@@ -1,0 +1,830 @@
+{
+ "schema": "vsetin-osint/red-flags@1",
+ "upozorneni": "Signály jsou pravidlové a slouží k prioritizaci ověřování. Nejsou zjištěním pochybení.",
+ "souhrn": {
+  "R1-velke-navyseni": 34,
+  "R7-dofinancovani-PO": 2,
+  "R6-soudni-spory": 2,
+  "R2-opakovane-navysovani": 8,
+  "R4-nakup-nemovitosti": 6,
+  "R5-dotace-subjektu": 18,
+  "R3-RM-velka-investice": 9
+ },
+ "signaly": [
+  {
+   "kod": "R1-velke-navyseni",
+   "zavaznost": "vysoka",
+   "popis": "Sportovní areál Ohrada  I. etapa: 5 000 000 → 52 000 000 Kč",
+   "castka_Kc": 47000000.0,
+   "odkazy": [
+    "RO-2026-12",
+    "24,38/26/ZM/2026"
+   ]
+  },
+  {
+   "kod": "R1-velke-navyseni",
+   "zavaznost": "vysoka",
+   "popis": "Fotovoltaická elektrárna na budově ZŠ Ohrada - AD  stavební práce: 1 000 000 → 36 300 000 Kč",
+   "castka_Kc": 35300000.0,
+   "odkazy": [
+    "RO-2026-12",
+    "24,38/26/ZM/2026"
+   ]
+  },
+  {
+   "kod": "R1-velke-navyseni",
+   "zavaznost": "vysoka",
+   "popis": "Rekonstrukce hřbitova ve Vsetíně - rozšíření kolumbária  1. etapa: 1 000 000 → 26 200 000 Kč",
+   "castka_Kc": 25200000.0,
+   "odkazy": [
+    "RO-2026-12",
+    "24,38/26/ZM/2026"
+   ]
+  },
+  {
+   "kod": "R1-velke-navyseni",
+   "zavaznost": "vysoka",
+   "popis": "Přednádražní prostor - stavební práce: 60 000 000 → 80 000 000 Kč",
+   "castka_Kc": 20000000.0,
+   "odkazy": [
+    "RO-2025-13",
+    "12,31/20/ZM/2025"
+   ]
+  },
+  {
+   "kod": "R1-velke-navyseni",
+   "zavaznost": "vysoka",
+   "popis": "Dotace TJ Zbrojovka Vsetín  z.s. - výstavba tenisové haly: 0 → 20 000 000 Kč",
+   "castka_Kc": 20000000.0,
+   "odkazy": [
+    "RO-2026-07",
+    "24/24/ZM/2026"
+   ]
+  },
+  {
+   "kod": "R7-dofinancovani-PO",
+   "zavaznost": "vysoka",
+   "popis": "TS - dofinancování minulých let: +7 500 000 Kč",
+   "castka_Kc": 7500000.0,
+   "odkazy": [
+    "RO-2024-10",
+    "15,16/13/ZM/2024"
+   ]
+  },
+  {
+   "kod": "R6-soudni-spory",
+   "zavaznost": "vysoka",
+   "popis": "Náklady řízení ve sporech na ochranu osobnosti: +3 159 962 Kč",
+   "castka_Kc": 3159962.0,
+   "odkazy": [
+    "RO-2024-15",
+    "13/14/ZM/2024"
+   ]
+  },
+  {
+   "kod": "R7-dofinancovani-PO",
+   "zavaznost": "vysoka",
+   "popis": "Individuální dotace - NA CESTĚ  z.s. - dofinancování vícenákladů: +2 000 000 Kč",
+   "castka_Kc": 2000000.0,
+   "odkazy": [
+    "RO-2026-12",
+    "24,38/26/ZM/2026"
+   ]
+  },
+  {
+   "kod": "R6-soudni-spory",
+   "zavaznost": "vysoka",
+   "popis": "Peněžité satisfakce ve sporu na ochranu osobnosti: +1 850 000 Kč",
+   "castka_Kc": 1850000.0,
+   "odkazy": [
+    "RO-2024-02",
+    "12/11/ZM/2024"
+   ]
+  },
+  {
+   "kod": "R2-opakovane-navysovani",
+   "zavaznost": "stredni",
+   "popis": "Stavební úpravy MVK  TIC - neinvestiční část (ORG 00003213): 8× navýšeno  celkem +16 689 000 Kč",
+   "castka_Kc": 16689000.0,
+   "odkazy": [
+    "RO-2024-02",
+    "RO-2025-04",
+    "RO-2025-04",
+    "RO-2025-04",
+    "RO-2025-04",
+    "RO-2025-04",
+    "RO-2025-04",
+    "RO-2025-04",
+    "RO-2025-04"
+   ]
+  },
+  {
+   "kod": "R1-velke-navyseni",
+   "zavaznost": "stredni",
+   "popis": "Přednádražní prostor  etapa 1.A  1.B - stavební práce: 36 416 740 → 52 416 740 Kč",
+   "castka_Kc": 16000000.0,
+   "odkazy": [
+    "RO-2024-15",
+    "13/14/ZM/2024"
+   ]
+  },
+  {
+   "kod": "R1-velke-navyseni",
+   "zavaznost": "stredni",
+   "popis": "Oprava MK Ohrada a U Huti - III. etapa - stavební práce: 0 → 16 000 000 Kč",
+   "castka_Kc": 16000000.0,
+   "odkazy": [
+    "RO-2025-04",
+    "35/18/ZM/2025"
+   ]
+  },
+  {
+   "kod": "R1-velke-navyseni",
+   "zavaznost": "stredni",
+   "popis": "Hřiště Pod Pecníkem - výměna umělého trávníku: 600 000 → 15 200 000 Kč",
+   "castka_Kc": 14600000.0,
+   "odkazy": [
+    "RO-2026-10",
+    "19,20/94/RM/2026"
+   ]
+  },
+  {
+   "kod": "R1-velke-navyseni",
+   "zavaznost": "stredni",
+   "popis": "Dotace Domeček pro MŠ a ZŠ Luh: 0 → 14 151 325 Kč",
+   "castka_Kc": 14151325.03,
+   "odkazy": [
+    "RO-2026-03",
+    "6/88/RM/2026"
+   ]
+  },
+  {
+   "kod": "R1-velke-navyseni",
+   "zavaznost": "stredni",
+   "popis": "Zanádražní prostor - stavební práce: 50 000 000 → 63 000 000 Kč",
+   "castka_Kc": 13000000.0,
+   "odkazy": [
+    "RO-2024-15",
+    "13/14/ZM/2024"
+   ]
+  },
+  {
+   "kod": "R1-velke-navyseni",
+   "zavaznost": "stredni",
+   "popis": "Oprava lávky Vs-01-Bel v Lázkách - stavební práce: 0 → 12 800 000 Kč",
+   "castka_Kc": 12800000.0,
+   "odkazy": [
+    "RO-2026-12",
+    "24,38/26/ZM/2026"
+   ]
+  },
+  {
+   "kod": "R1-velke-navyseni",
+   "zavaznost": "stredni",
+   "popis": "Vzduchotechnika DK Vsetín (velký sál + kuchyň): 0 → 12 000 000 Kč",
+   "castka_Kc": 12000000.0,
+   "odkazy": [
+    "RO-2025-08",
+    "17,18/19/ZM/2025"
+   ]
+  },
+  {
+   "kod": "R1-velke-navyseni",
+   "zavaznost": "stredni",
+   "popis": "Městské lázně - vzduchotechnika: 350 000 → 11 850 000 Kč",
+   "castka_Kc": 11500000.0,
+   "odkazy": [
+    "RO-2026-11",
+    "44,45,46/98/RM/2026"
+   ]
+  },
+  {
+   "kod": "R1-velke-navyseni",
+   "zavaznost": "stredni",
+   "popis": "Stavební úpravy MVK  TIC - investiční část: 2 444 000 → 13 734 000 Kč",
+   "castka_Kc": 11290000.0,
+   "odkazy": [
+    "RO-2025-04",
+    "35/18/ZM/2025"
+   ]
+  },
+  {
+   "kod": "R2-opakovane-navysovani",
+   "zavaznost": "stredni",
+   "popis": "Stavební úpravy MVK - navýšení výdajů o rekonstrukci střechy budovy čp. 1356 (ORG 00003180): 4× navýšeno  celkem +10 330 000 Kč",
+   "castka_Kc": 10330000.0,
+   "odkazy": [
+    "RO-2025-04",
+    "RO-2025-04",
+    "RO-2025-04",
+    "RO-2025-08"
+   ]
+  },
+  {
+   "kod": "R1-velke-navyseni",
+   "zavaznost": "stredni",
+   "popis": "Výkup pozemku s tribunou + přístavba - Ohrada: 23 002 000 → 33 152 000 Kč",
+   "castka_Kc": 10150000.0,
+   "odkazy": [
+    "RO-2025-04",
+    "35/18/ZM/2025"
+   ]
+  },
+  {
+   "kod": "R4-nakup-nemovitosti",
+   "zavaznost": "stredni",
+   "popis": "Výkup pozemku s tribunou + přístavba - Ohrada: +10 150 000 Kč",
+   "castka_Kc": 10150000.0,
+   "odkazy": [
+    "RO-2025-04",
+    "35/18/ZM/2025"
+   ]
+  },
+  {
+   "kod": "R1-velke-navyseni",
+   "zavaznost": "stredni",
+   "popis": "Parkovací místa pod nadjezdem: 6 000 000 → 14 000 000 Kč",
+   "castka_Kc": 8000000.0,
+   "odkazy": [
+    "RO-2025-04",
+    "35/18/ZM/2025"
+   ]
+  },
+  {
+   "kod": "R1-velke-navyseni",
+   "zavaznost": "stredni",
+   "popis": "TS - dofinancování minulých let: 0 → 7 500 000 Kč",
+   "castka_Kc": 7500000.0,
+   "odkazy": [
+    "RO-2024-10",
+    "15,16/13/ZM/2024"
+   ]
+  },
+  {
+   "kod": "R1-velke-navyseni",
+   "zavaznost": "stredni",
+   "popis": "Zvýšení limitu na platy+odvody: 111 345 000 → 118 768 000 Kč",
+   "castka_Kc": 7423000.0,
+   "odkazy": [
+    "RO-2026-08",
+    "25/92/RM/2026"
+   ]
+  },
+  {
+   "kod": "R1-velke-navyseni",
+   "zavaznost": "stredni",
+   "popis": "Chodník pod zámkem - PD a stavební práce: 5 000 000 → 12 000 000 Kč",
+   "castka_Kc": 7000000.0,
+   "odkazy": [
+    "RO-2025-04",
+    "35/18/ZM/2025"
+   ]
+  },
+  {
+   "kod": "R1-velke-navyseni",
+   "zavaznost": "stredni",
+   "popis": "Oprava MK a mostu VS-15-Jcm v Července (za objektem Trimil): 0 → 7 000 000 Kč",
+   "castka_Kc": 7000000.0,
+   "odkazy": [
+    "RO-2025-08",
+    "17,18/19/ZM/2025"
+   ]
+  },
+  {
+   "kod": "R1-velke-navyseni",
+   "zavaznost": "stredni",
+   "popis": "Oprava MK Rokytnice - PD a stavební práce: 0 → 7 000 000 Kč",
+   "castka_Kc": 7000000.0,
+   "odkazy": [
+    "RO-2025-08",
+    "17,18/19/ZM/2025"
+   ]
+  },
+  {
+   "kod": "R1-velke-navyseni",
+   "zavaznost": "stredni",
+   "popis": "Daň z příjmu právnických osob hrazená městem Vsetín: 16 000 000 → 22 737 000 Kč",
+   "castka_Kc": 6737000.0,
+   "odkazy": [
+    "RO-2025-08",
+    "17,18/19/ZM/2025"
+   ]
+  },
+  {
+   "kod": "R1-velke-navyseni",
+   "zavaznost": "stredni",
+   "popis": "Nabytí pozemků včetně objektu občanské vybavenosti (hospoda U Marka): 0 → 6 014 500 Kč",
+   "castka_Kc": 6014500.0,
+   "odkazy": [
+    "RO-2026-09",
+    "16,17/93/RM/2026"
+   ]
+  },
+  {
+   "kod": "R1-velke-navyseni",
+   "zavaznost": "stredni",
+   "popis": "Navýšení neinvestičního příspěvku: 7 500 000 → 12 750 000 Kč",
+   "castka_Kc": 5250000.0,
+   "odkazy": [
+    "RO-2024-10",
+    "15,16/13/ZM/2024"
+   ]
+  },
+  {
+   "kod": "R1-velke-navyseni",
+   "zavaznost": "stredni",
+   "popis": "Odstranění lávky VS-01-Bol přes silnici I/57 a III/05736  Vsetín  Bobrky: 400 000 → 5 400 000 Kč",
+   "castka_Kc": 5000000.0,
+   "odkazy": [
+    "RO-2025-04",
+    "35/18/ZM/2025"
+   ]
+  },
+  {
+   "kod": "R1-velke-navyseni",
+   "zavaznost": "stredni",
+   "popis": "Stavební úpravy MVK - navýšení výdajů o rekonstrukci střechy budovy čp. 1356: 36 580 000 → 41 580 000 Kč",
+   "castka_Kc": 5000000.0,
+   "odkazy": [
+    "RO-2025-08",
+    "17,18/19/ZM/2025"
+   ]
+  },
+  {
+   "kod": "R1-velke-navyseni",
+   "zavaznost": "stredni",
+   "popis": "Účelový investiční příspěvek - vánoční osvětlení: 0 → 5 000 000 Kč",
+   "castka_Kc": 5000000.0,
+   "odkazy": [
+    "RO-2025-13",
+    "12,31/20/ZM/2025"
+   ]
+  },
+  {
+   "kod": "R1-velke-navyseni",
+   "zavaznost": "stredni",
+   "popis": "Stavební úpravy DPS 1579/1580 ul. Pod Žamboškou: 4 000 000 → 8 500 000 Kč",
+   "castka_Kc": 4500000.0,
+   "odkazy": [
+    "RO-2025-08",
+    "17,18/19/ZM/2025"
+   ]
+  },
+  {
+   "kod": "R1-velke-navyseni",
+   "zavaznost": "stredni",
+   "popis": "Vzduchotechnika ve velkém sále DK Vsetín  PD a stavební práce: 2 000 000 → 6 000 000 Kč",
+   "castka_Kc": 4000000.0,
+   "odkazy": [
+    "RO-2025-04",
+    "35/18/ZM/2025"
+   ]
+  },
+  {
+   "kod": "R2-opakovane-navysovani",
+   "zavaznost": "stredni",
+   "popis": "Stavební úpravy MVK  TIC - neinvestiční část (ORG 00009918): 6× navýšeno  celkem +3 676 000 Kč",
+   "castka_Kc": 3676000.0,
+   "odkazy": [
+    "RO-2025-04",
+    "RO-2025-04",
+    "RO-2025-04",
+    "RO-2025-04",
+    "RO-2025-04",
+    "RO-2025-04",
+    "RO-2025-04"
+   ]
+  },
+  {
+   "kod": "R1-velke-navyseni",
+   "zavaznost": "stredni",
+   "popis": "Náklady řízení ve sporech na ochranu osobnosti: 2 050 000 → 5 209 962 Kč",
+   "castka_Kc": 3159962.0,
+   "odkazy": [
+    "RO-2024-15",
+    "13/14/ZM/2024"
+   ]
+  },
+  {
+   "kod": "R4-nakup-nemovitosti",
+   "zavaznost": "stredni",
+   "popis": "Nabytí pozemků včetně objektu občanské vybavenosti (hospoda U Marka): +2 987 500 Kč",
+   "castka_Kc": 2987500.0,
+   "odkazy": [
+    "RO-2026-09",
+    "16,17/93/RM/2026"
+   ]
+  },
+  {
+   "kod": "R1-velke-navyseni",
+   "zavaznost": "stredni",
+   "popis": "Stavební úpravy mostu VS-07-Rom (most do vnitrobloku budovy č.p. 413): 1 210 000 → 3 710 000 Kč",
+   "castka_Kc": 2500000.0,
+   "odkazy": [
+    "RO-2026-05",
+    "4/90/RM/2026"
+   ]
+  },
+  {
+   "kod": "R1-velke-navyseni",
+   "zavaznost": "stredni",
+   "popis": "Sportovní areál Ohrada - PD: 2 000 000 → 4 000 000 Kč",
+   "castka_Kc": 2000000.0,
+   "odkazy": [
+    "RO-2025-04",
+    "35/18/ZM/2025"
+   ]
+  },
+  {
+   "kod": "R1-velke-navyseni",
+   "zavaznost": "stredni",
+   "popis": "Stavební úpravy MVK  TIC - investiční část: 1 500 000 → 3 050 000 Kč",
+   "castka_Kc": 1550000.0,
+   "odkazy": [
+    "RO-2025-04",
+    "35/18/ZM/2025"
+   ]
+  },
+  {
+   "kod": "R2-opakovane-navysovani",
+   "zavaznost": "stredni",
+   "popis": "Parkovací stání a zpevněné plochy pro popelnice - Ohrada PD (ORG 00009933): 3× navýšeno  celkem +1 500 000 Kč",
+   "castka_Kc": 1500000.0,
+   "odkazy": [
+    "RO-2024-02",
+    "RO-2025-04",
+    "RO-2025-04",
+    "RO-2026-07"
+   ]
+  },
+  {
+   "kod": "R2-opakovane-navysovani",
+   "zavaznost": "stredni",
+   "popis": "Participativní rozpočet 2025 - Mlžné brány (ORG 00009966): 3× navýšeno  celkem +1 150 000 Kč",
+   "castka_Kc": 1150000.0,
+   "odkazy": [
+    "RO-2025-02",
+    "RO-2025-08",
+    "RO-2025-08",
+    "RO-2025-08"
+   ]
+  },
+  {
+   "kod": "R1-velke-navyseni",
+   "zavaznost": "stredni",
+   "popis": "Úprava dopravního řešení ul. Na Lapači  Vsetín: 1 000 000 → 2 000 000 Kč",
+   "castka_Kc": 1000000.0,
+   "odkazy": [
+    "RO-2025-02",
+    "11/17,24/ZM/2025"
+   ]
+  },
+  {
+   "kod": "R4-nakup-nemovitosti",
+   "zavaznost": "stredni",
+   "popis": "Nabytí spoluvlastnických podílů: +750 000 Kč",
+   "castka_Kc": 750000.0,
+   "odkazy": [
+    "RO-2025-08",
+    "17,18/19/ZM/2025"
+   ]
+  },
+  {
+   "kod": "R2-opakovane-navysovani",
+   "zavaznost": "stredni",
+   "popis": "Stavební úpravy lávky Vs-02-Bel u Kablovky - dokončení PD  stavební práce (ORG 00009862): 3× navýšeno  celkem +704 000 Kč",
+   "castka_Kc": 704000.0,
+   "odkazy": [
+    "RO-2024-06",
+    "RO-2024-15",
+    "RO-2025-02"
+   ]
+  },
+  {
+   "kod": "R4-nakup-nemovitosti",
+   "zavaznost": "stredni",
+   "popis": "Nabytí nemovitostí v elektronické aukci - garážové boxy + pozemky Velký Skalník: +500 000 Kč",
+   "castka_Kc": 500000.0,
+   "odkazy": [
+    "RO-2026-17",
+    "24/27/ZM/2026"
+   ]
+  },
+  {
+   "kod": "R4-nakup-nemovitosti",
+   "zavaznost": "stredni",
+   "popis": "Výkup pozemku pro realizaci cyklostezky Rokytnice - Lhota u Vsetína: +323 000 Kč",
+   "castka_Kc": 323000.0,
+   "odkazy": [
+    "RO-2024-10",
+    "15,16/13/ZM/2024"
+   ]
+  },
+  {
+   "kod": "R4-nakup-nemovitosti",
+   "zavaznost": "stredni",
+   "popis": "Výkup pozemků pro propojení cyklostezky: +170 000 Kč",
+   "castka_Kc": 170000.0,
+   "odkazy": [
+    "RO-2024-06",
+    "14/12/ZM/2024"
+   ]
+  },
+  {
+   "kod": "R2-opakovane-navysovani",
+   "zavaznost": "stredni",
+   "popis": "2. splátka dotace (ORG 00001416): 3× navýšeno  celkem +61 193 Kč",
+   "castka_Kc": 61192.8,
+   "odkazy": [
+    "RO-2024-08",
+    "RO-2024-08",
+    "RO-2024-08"
+   ]
+  },
+  {
+   "kod": "R2-opakovane-navysovani",
+   "zavaznost": "stredni",
+   "popis": "2. splátka dotace (ORG 00001417): 7× navýšeno  celkem +24 477 Kč",
+   "castka_Kc": 24477.14,
+   "odkazy": [
+    "RO-2024-08",
+    "RO-2024-08",
+    "RO-2024-08",
+    "RO-2024-08",
+    "RO-2024-08",
+    "RO-2024-08",
+    "RO-2024-08"
+   ]
+  },
+  {
+   "kod": "R5-dotace-subjektu",
+   "zavaznost": "nizka",
+   "popis": "Dotace TJ Zbrojovka Vsetín  z.s. - výstavba tenisové haly: +20 000 000 Kč",
+   "castka_Kc": 20000000.0,
+   "odkazy": [
+    "RO-2026-07",
+    "24/24/ZM/2026"
+   ]
+  },
+  {
+   "kod": "R3-RM-velka-investice",
+   "zavaznost": "nizka",
+   "popis": "RM rozhodla o +14 600 000 Kč: Hřiště Pod Pecníkem - výměna umělého trávníku",
+   "castka_Kc": 14600000.0,
+   "odkazy": [
+    "RO-2026-10",
+    "19,20/94/RM/2026"
+   ]
+  },
+  {
+   "kod": "R3-RM-velka-investice",
+   "zavaznost": "nizka",
+   "popis": "RM rozhodla o +14 151 325 Kč: Dotace Domeček pro MŠ a ZŠ Luh",
+   "castka_Kc": 14151325.03,
+   "odkazy": [
+    "RO-2026-03",
+    "6/88/RM/2026"
+   ]
+  },
+  {
+   "kod": "R3-RM-velka-investice",
+   "zavaznost": "nizka",
+   "popis": "RM rozhodla o +11 500 000 Kč: Městské lázně - vzduchotechnika",
+   "castka_Kc": 11500000.0,
+   "odkazy": [
+    "RO-2026-11",
+    "44,45,46/98/RM/2026"
+   ]
+  },
+  {
+   "kod": "R3-RM-velka-investice",
+   "zavaznost": "nizka",
+   "popis": "RM rozhodla o +6 014 500 Kč: Nabytí pozemků včetně objektu občanské vybavenosti (hospoda U Marka)",
+   "castka_Kc": 6014500.0,
+   "odkazy": [
+    "RO-2026-09",
+    "16,17/93/RM/2026"
+   ]
+  },
+  {
+   "kod": "R3-RM-velka-investice",
+   "zavaznost": "nizka",
+   "popis": "RM rozhodla o +4 800 000 Kč: Stavební úpravy budovy MěÚ Vsetín",
+   "castka_Kc": 4800000.0,
+   "odkazy": [
+    "RO-2026-10",
+    "19,20/94/RM/2026"
+   ]
+  },
+  {
+   "kod": "R3-RM-velka-investice",
+   "zavaznost": "nizka",
+   "popis": "RM rozhodla o +3 900 000 Kč: ZŠ Rokytnice - Školní hřiště",
+   "castka_Kc": 3900000.0,
+   "odkazy": [
+    "RO-2026-11",
+    "44,45,46/98/RM/2026"
+   ]
+  },
+  {
+   "kod": "R3-RM-velka-investice",
+   "zavaznost": "nizka",
+   "popis": "RM rozhodla o +2 987 500 Kč: Nabytí pozemků včetně objektu občanské vybavenosti (hospoda U Marka)",
+   "castka_Kc": 2987500.0,
+   "odkazy": [
+    "RO-2026-09",
+    "16,17/93/RM/2026"
+   ]
+  },
+  {
+   "kod": "R3-RM-velka-investice",
+   "zavaznost": "nizka",
+   "popis": "RM rozhodla o +2 971 778 Kč: Dotace Domeček pro MŠ a ZŠ Luh",
+   "castka_Kc": 2971777.86,
+   "odkazy": [
+    "RO-2026-03",
+    "6/88/RM/2026"
+   ]
+  },
+  {
+   "kod": "R3-RM-velka-investice",
+   "zavaznost": "nizka",
+   "popis": "RM rozhodla o +2 500 000 Kč: Stavební úpravy mostu VS-07-Rom (most do vnitrobloku budovy č.p. 413)",
+   "castka_Kc": 2500000.0,
+   "odkazy": [
+    "RO-2026-05",
+    "4/90/RM/2026"
+   ]
+  },
+  {
+   "kod": "R5-dotace-subjektu",
+   "zavaznost": "nizka",
+   "popis": "TJ Zbrojovka - výstavba tenisové haly: +2 500 000 Kč",
+   "castka_Kc": 2500000.0,
+   "odkazy": [
+    "RO-2026-17",
+    "24/27/ZM/2026"
+   ]
+  },
+  {
+   "kod": "R5-dotace-subjektu",
+   "zavaznost": "nizka",
+   "popis": "Individuální dotace - NA CESTĚ  z.s. - dofinancování vícenákladů: +2 000 000 Kč",
+   "castka_Kc": 2000000.0,
+   "odkazy": [
+    "RO-2026-12",
+    "24,38/26/ZM/2026"
+   ]
+  },
+  {
+   "kod": "R5-dotace-subjektu",
+   "zavaznost": "nizka",
+   "popis": "Investiční dotace - Diakonie ČCE - středisko Vsetín: +1 500 000 Kč",
+   "castka_Kc": 1500000.0,
+   "odkazy": [
+    "RO-2025-08",
+    "17,18/19/ZM/2025"
+   ]
+  },
+  {
+   "kod": "R5-dotace-subjektu",
+   "zavaznost": "nizka",
+   "popis": "Závazek veřejné služby - veřejná linková doprava: +1 357 717 Kč",
+   "castka_Kc": 1357717.0,
+   "odkazy": [
+    "RO-2026-09",
+    "16,17/93/RM/2026"
+   ]
+  },
+  {
+   "kod": "R5-dotace-subjektu",
+   "zavaznost": "nizka",
+   "popis": "Pilotní program - Sdílená kola - dotace 50% nákladů: +1 350 000 Kč",
+   "castka_Kc": 1350000.0,
+   "odkazy": [
+    "RO-2025-04",
+    "35/18/ZM/2025"
+   ]
+  },
+  {
+   "kod": "R5-dotace-subjektu",
+   "zavaznost": "nizka",
+   "popis": "Sdílená kola: +827 015 Kč",
+   "castka_Kc": 827015.0,
+   "odkazy": [
+    "RO-2025-13",
+    "12,31/20/ZM/2025"
+   ]
+  },
+  {
+   "kod": "R5-dotace-subjektu",
+   "zavaznost": "nizka",
+   "popis": "Žádost o dotaci FC Fastav: +600 000 Kč",
+   "castka_Kc": 600000.0,
+   "odkazy": [
+    "RO-2025-08",
+    "17,18/19/ZM/2025"
+   ]
+  },
+  {
+   "kod": "R5-dotace-subjektu",
+   "zavaznost": "nizka",
+   "popis": "TJ Zbrojovka - rekonstrukce asfaltového kurtu: +500 000 Kč",
+   "castka_Kc": 500000.0,
+   "odkazy": [
+    "RO-2024-15",
+    "13/14/ZM/2024"
+   ]
+  },
+  {
+   "kod": "R5-dotace-subjektu",
+   "zavaznost": "nizka",
+   "popis": "Finanční podpora na vybavení zubní ordinace: +500 000 Kč",
+   "castka_Kc": 500000.0,
+   "odkazy": [
+    "RO-2024-18",
+    "11,12/15/ZM/2024"
+   ]
+  },
+  {
+   "kod": "R5-dotace-subjektu",
+   "zavaznost": "nizka",
+   "popis": "Finanční podpora na vybavení zubní ordinace MDDr. Kozárková: +500 000 Kč",
+   "castka_Kc": 500000.0,
+   "odkazy": [
+    "RO-2025-08",
+    "17,18/19/ZM/2025"
+   ]
+  },
+  {
+   "kod": "R5-dotace-subjektu",
+   "zavaznost": "nizka",
+   "popis": "Dotace - Cyklostezka Bečva  z.s. - projekt Sdílená kola: +434 437 Kč",
+   "castka_Kc": 434436.88,
+   "odkazy": [
+    "RO-2026-12",
+    "24,38/26/ZM/2026"
+   ]
+  },
+  {
+   "kod": "R5-dotace-subjektu",
+   "zavaznost": "nizka",
+   "popis": "Dotace FC Vsetín - rozvoj činnosti: +400 000 Kč",
+   "castka_Kc": 400000.0,
+   "odkazy": [
+    "RO-2024-18",
+    "11,12/15/ZM/2024"
+   ]
+  },
+  {
+   "kod": "R5-dotace-subjektu",
+   "zavaznost": "nizka",
+   "popis": "FC Fastav Vsetín - navýšení výdaje na hřiště Pod Pecníkem: +350 000 Kč",
+   "castka_Kc": 350000.0,
+   "odkazy": [
+    "RO-2026-12",
+    "24,38/26/ZM/2026"
+   ]
+  },
+  {
+   "kod": "R5-dotace-subjektu",
+   "zavaznost": "nizka",
+   "popis": "Finanční příspěvek - MUDr. Adéla Jenerál Chmelařová: +300 000 Kč",
+   "castka_Kc": 300000.0,
+   "odkazy": [
+    "RO-2024-15",
+    "13/14/ZM/2024"
+   ]
+  },
+  {
+   "kod": "R5-dotace-subjektu",
+   "zavaznost": "nizka",
+   "popis": "Dotace - FC Fastav Vsetín  z.s.: +300 000 Kč",
+   "castka_Kc": 300000.0,
+   "odkazy": [
+    "RO-2025-04",
+    "35/18/ZM/2025"
+   ]
+  },
+  {
+   "kod": "R5-dotace-subjektu",
+   "zavaznost": "nizka",
+   "popis": "Převod zlepšeného výsledku hospodaření do peněžních fondů: +300 000 Kč",
+   "castka_Kc": 300000.0,
+   "odkazy": [
+    "RO-2025-08",
+    "17,18/19/ZM/2025"
+   ]
+  },
+  {
+   "kod": "R5-dotace-subjektu",
+   "zavaznost": "nizka",
+   "popis": "Dotace - UNITED 3P  z.s.: +300 000 Kč",
+   "castka_Kc": 300000.0,
+   "odkazy": [
+    "RO-2026-12",
+    "24,38/26/ZM/2026"
+   ]
+  }
+ ]
+}

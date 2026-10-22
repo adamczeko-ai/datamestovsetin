@@ -25,3 +25,9 @@
 - Kauza K-002: nabytí Tribuny na Ohradě od TJ MEZ (33,15 mil. Kč; cena v materiálech pro ZM nevyplněná).
 - Opraveno vysvětlení A-2025-01: úprava bodu 5 rozdíl nevysvětluje (zůstává otevřené).
 - Index balíčků materiálů ZM 2025–2026 (ZIP).
+
+## 2026-10-23 (7. várka – autonomní)
+- Analytika: časová osa 99 akcí, 79 signálů k ověření (scripts/analyzy.py).
+- Přístupný prohlížeč dat index.html (GitHub Pages).
+- K-002 doplněna o smlouvy z registru (kupní smlouva 33,15 mil., historie dotací TJ MEZ 2016–2026).
+- README, roadmapa funkcí podle Hlídače státu, CityVizoru, Councilmaticu a zIndexu.
