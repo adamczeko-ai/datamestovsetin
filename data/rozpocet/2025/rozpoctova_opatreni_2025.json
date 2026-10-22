@@ -1,0 +1,5115 @@
+{
+ "schema": "vsetin-osint/rozpoctove-opatreni@1",
+ "zdroj_slozka": "https://mestovsetin.cz/2025%2Drozpoctova%2Dopatreni/ds-19876/archiv=0&p1=72085",
+ "vytezeno": "2026-10-22 (SELČ)",
+ "metoda": "stejná jako 2026 (pdf.js v prohlížeči + regex); ověřeno: počty řádků, součty, pred+zmena=po, návaznost řad 6409/81xx",
+ "anomalie": [
+  {
+   "id": "A-2025-01",
+   "zavaznost": "vysoka",
+   "popis": "RO 4/2025 (ZM 35/18/ZM/2025) není vyrovnané: příjmy 1 533 699,66 + financování 75 896 000 ≠ výdaje 76 772 603,72; rozdíl 657 095,94 Kč.",
+   "doklad": "Stejný rozdíl se objevuje v řadě pol. 8115: RO 5 končí na 150 190 284,54, RO 8 začíná na 149 533 188,60 (−657 095,94). Skutečně zaúčtované financování RO 4 tedy pravděpodobně bylo 75 238 904,06 Kč; zveřejněné PDF neodpovídá.",
+   "dalsi_krok": "Porovnat se zápisem/usnesením ZM 18. zasedání a se závěrečným účtem 2025."
+  },
+  {
+   "id": "A-2025-02",
+   "zavaznost": "nizka",
+   "popis": "Pol. 8115: RO 13 končí 188 973 734,25, RO 15 začíná 188 975 734,25 (+2 000) a RO 16 začíná 188 903 434,25 (o 2 000 méně než konec RO 15).",
+   "doklad": "Kompenzující se odchylka ±2 000 Kč – pravděpodobně překlep v RO 15.",
+   "dalsi_krok": "Ověřit v závěrečném účtu."
+  },
+  {
+   "id": "A-2025-03",
+   "zavaznost": "stredni",
+   "popis": "RO 1/2025 je zveřejněno jako 'neschváleno', ale PDF je prázdná stránka – obsah neschváleného návrhu není dohledatelný.",
+   "dalsi_krok": "Dohledat v materiálech RM (leden 2025)."
+  },
+  {
+   "id": "A-2025-04",
+   "zavaznost": "nizka",
+   "popis": "Překlepy v číslech usnesení na podpisových stranách: '34/66/rM/2025' (RO 7), '8/84/RRM/2025' (RO 23); RO 23 datováno 08.12.2025 je zveřejněno za RO 22 z 15.12.2025."
+  }
+ ],
+ "opatreni": [
+  {
+   "id": "RO-2025-01",
+   "cislo": 1,
+   "organ": "RM",
+   "datum": null,
+   "usneseni": null,
+   "id_dokumenty": 561357,
+   "url": "https://mestovsetin.cz/assets/File.ashx?id_org=18676&id_dokumenty=561357",
+   "hlavni_body": [
+    "Dokument označen 'neschváleno'; zveřejněné PDF je prázdná stránka (1 str., bez textu)."
+   ],
+   "bilance": {
+    "prijmy": 0,
+    "vydaje": 0,
+    "financovani": 0,
+    "kontrola_P_plus_F_minus_V": 0
+   },
+   "radky": []
+  },
+  {
+   "id": "RO-2025-02",
+   "cislo": 2,
+   "organ": "ZM",
+   "datum": "2025-02-03",
+   "usneseni": "11/17,24/ZM/2025",
+   "id_dokumenty": 563307,
+   "url": "https://mestovsetin.cz/assets/File.ashx?id_org=18676&id_dokumenty=563307",
+   "hlavni_body": [
+    "Mimořádný členský příspěvek MMAS z.s. (+300 tis.)",
+    "Klimatizace čp. 1356",
+    "Výměníková stanice čp. 1356 (Kreml) – PD",
+    "Participativní rozpočet: Balanční hřiště, Mlžné brány",
+    "Úprava dopravního řešení ul. Na Lapači",
+    "Lávka Vs-02-Bel u Kablovky – VB",
+    "Most Vs-06-Rom – PD",
+    "Vratka dotace ZK – Cyklostezka Rokytenka I."
+   ],
+   "bilance": {
+    "prijmy": 0,
+    "vydaje": 2536730.0,
+    "financovani": 2536730.0,
+    "kontrola_P_plus_F_minus_V": 0.0
+   },
+   "radky": [
+    {
+     "typ": "V",
+     "odpa": "2212",
+     "pol": "5169",
+     "org": "00009942",
+     "orj": "0004",
+     "pred": 600000.0,
+     "zmena": 500000.0,
+     "po": 1100000.0,
+     "popis": "Oprava mostu VS-06-Rom"
+    },
+    {
+     "typ": "V",
+     "odpa": "3639",
+     "pol": "5179",
+     "org": null,
+     "orj": "0001",
+     "pred": 175000.0,
+     "zmena": 300000.0,
+     "po": 475000.0,
+     "popis": "Mimořádný členský příspěvek MMAS z.s."
+    },
+    {
+     "typ": "V",
+     "odpa": "3639",
+     "pol": "5901",
+     "org": null,
+     "orj": "0004",
+     "pred": 1000000.0,
+     "zmena": -1000000.0,
+     "po": 0.0,
+     "popis": "Uvolnění rezervy - participativní rozpočet 2025"
+    },
+    {
+     "typ": "V",
+     "odpa": "6409",
+     "pol": "5904",
+     "org": "17519 00003150",
+     "orj": "0018",
+     "pred": 0.0,
+     "zmena": 101730.0,
+     "po": 101730.0,
+     "popis": "Vrácení části dotace - Cyklostezka"
+    },
+    {
+     "typ": "V",
+     "odpa": "2212",
+     "pol": "6121",
+     "org": "00009834",
+     "orj": "0004",
+     "pred": 1000000.0,
+     "zmena": 1000000.0,
+     "po": 2000000.0,
+     "popis": "Úprava dopravního řešení ul. Na Lapači, Vsetín"
+    },
+    {
+     "typ": "V",
+     "odpa": "2212",
+     "pol": "6121",
+     "org": "00009862",
+     "orj": "0004",
+     "pred": 25000.0,
+     "zmena": 4000.0,
+     "po": 29000.0,
+     "popis": "Věcné břemeno - stavební úpravy lávky Vs-02-Bel"
+    },
+    {
+     "typ": "V",
+     "odpa": "3314",
+     "pol": "6121",
+     "org": "00009965",
+     "orj": "0004",
+     "pred": 0.0,
+     "zmena": 250000.0,
+     "po": 250000.0,
+     "popis": "Rekonstrukce výměníkové stanice v č.p. 1356 - PD"
+    },
+    {
+     "typ": "V",
+     "odpa": "3613",
+     "pol": "6121",
+     "org": "00009964",
+     "orj": "0002",
+     "pred": 0.0,
+     "zmena": 350000.0,
+     "po": 350000.0,
+     "popis": "Klimatizace do kanceláří č.p. 1356"
+    },
+    {
+     "typ": "V",
+     "odpa": "3639",
+     "pol": "6121",
+     "org": "00009925",
+     "orj": "0004",
+     "pred": 0.0,
+     "zmena": 31000.0,
+     "po": 31000.0,
+     "popis": "Participativní rozpočet - balanční hřiště pro radost - pozastávka"
+    },
+    {
+     "typ": "V",
+     "odpa": "3639",
+     "pol": "6121",
+     "org": "00009966",
+     "orj": "0004",
+     "pred": 0.0,
+     "zmena": 1000000.0,
+     "po": 1000000.0,
+     "popis": "Participativní rozpočet 2025 - Mlžné brány"
+    },
+    {
+     "typ": "F",
+     "odpa": null,
+     "pol": "8115",
+     "org": null,
+     "orj": null,
+     "pred": 79553052.0,
+     "zmena": 2536730.0,
+     "po": 82089782.0,
+     "popis": "Financování"
+    }
+   ]
+  },
+  {
+   "id": "RO-2025-03",
+   "cislo": 3,
+   "organ": "RM",
+   "datum": "2025-03-10",
+   "usneseni": "27/59/RM/2025",
+   "id_dokumenty": 563309,
+   "url": "https://mestovsetin.cz/assets/File.ashx?id_org=18676&id_dokumenty=563309",
+   "hlavni_body": [
+    "Vyúčtování energií PO 2024",
+    "MVK – regionální funkce knihoven",
+    "Pěstounská péče",
+    "Energetické společenství města Vsetín – dotace",
+    "Cyklostezka Rokytenka II – okolo HZ",
+    "Mantinely zimního stadionu – dotace Fondu ZK"
+   ],
+   "bilance": {
+    "prijmy": 8520559.05,
+    "vydaje": 6408970.93,
+    "financovani": -2111588.12,
+    "kontrola_P_plus_F_minus_V": 0.0
+   },
+   "radky": [
+    {
+     "typ": "P",
+     "odpa": "3111",
+     "pol": "2229",
+     "org": "00001302",
+     "orj": "0003",
+     "pred": 0.0,
+     "zmena": 80671.3,
+     "po": 80671.3,
+     "popis": "Vyúčtování závazného ukazatele za energie"
+    },
+    {
+     "typ": "P",
+     "odpa": "3111",
+     "pol": "2229",
+     "org": "00001307",
+     "orj": "0003",
+     "pred": 0.0,
+     "zmena": 12433.48,
+     "po": 12433.48,
+     "popis": "Vyúčtování závazného ukazatele za energie"
+    },
+    {
+     "typ": "P",
+     "odpa": "3111",
+     "pol": "2229",
+     "org": "00001311",
+     "orj": "0003",
+     "pred": 0.0,
+     "zmena": 91262.53,
+     "po": 91262.53,
+     "popis": "Vyúčtování závazného ukazatele za energie"
+    },
+    {
+     "typ": "P",
+     "odpa": "3111",
+     "pol": "2229",
+     "org": "00001317",
+     "orj": "0003",
+     "pred": 0.0,
+     "zmena": 399111.34,
+     "po": 399111.34,
+     "popis": "Vyúčtování závazného ukazatele za energie"
+    },
+    {
+     "typ": "P",
+     "odpa": "3113",
+     "pol": "2229",
+     "org": "00000332",
+     "orj": "0003",
+     "pred": 0.0,
+     "zmena": 50070.91,
+     "po": 50070.91,
+     "popis": "Vyúčtování závazného ukazatele za energie"
+    },
+    {
+     "typ": "P",
+     "odpa": "3113",
+     "pol": "2229",
+     "org": "00000334",
+     "orj": "0003",
+     "pred": 0.0,
+     "zmena": 414127.03,
+     "po": 414127.03,
+     "popis": "Vyúčtování závazného ukazatele za energie"
+    },
+    {
+     "typ": "P",
+     "odpa": "3113",
+     "pol": "2229",
+     "org": "00000335",
+     "orj": "0003",
+     "pred": 0.0,
+     "zmena": 737400.59,
+     "po": 737400.59,
+     "popis": "Vyúčtování závazného ukazatele za energie"
+    },
+    {
+     "typ": "P",
+     "odpa": "3113",
+     "pol": "2229",
+     "org": "00000342",
+     "orj": "0003",
+     "pred": 0.0,
+     "zmena": 195081.86,
+     "po": 195081.86,
+     "popis": "Vyúčtování závazného ukazatele za energie"
+    },
+    {
+     "typ": "P",
+     "odpa": "3421",
+     "pol": "2229",
+     "org": null,
+     "orj": "0003",
+     "pred": 0.0,
+     "zmena": 345911.89,
+     "po": 345911.89,
+     "popis": "Vyúčtování příspěvku na energie"
+    },
+    {
+     "typ": "P",
+     "odpa": null,
+     "pol": "4113",
+     "org": "170590008 18000008",
+     "orj": "0018",
+     "pred": 1200000.0,
+     "zmena": 600000.0,
+     "po": 1800000.0,
+     "popis": "Energetické společenství města Vsetín"
+    },
+    {
+     "typ": "P",
+     "odpa": null,
+     "pol": "4116",
+     "org": "149517085 00003186",
+     "orj": "0018",
+     "pred": 167000.0,
+     "zmena": 23281.46,
+     "po": 190281.46,
+     "popis": "Cyklostezka Rokytenka - okolo HZ"
+    },
+    {
+     "typ": "P",
+     "odpa": null,
+     "pol": "4116",
+     "org": "13010",
+     "orj": "0005",
+     "pred": 2019600.0,
+     "zmena": 271900.0,
+     "po": 2291500.0,
+     "popis": "Státní příspěvek na výkon pěstounské péče"
+    },
+    {
+     "typ": "P",
+     "odpa": null,
+     "pol": "4122",
+     "org": "00090",
+     "orj": "0003",
+     "pred": 0.0,
+     "zmena": 3811000.0,
+     "po": 3811000.0,
+     "popis": "MVK - Regionální funkce knihoven"
+    },
+    {
+     "typ": "P",
+     "odpa": null,
+     "pol": "4216",
+     "org": "149517519 00003186",
+     "orj": "0018",
+     "pred": 2230000.0,
+     "zmena": 488306.66,
+     "po": 2718306.66,
+     "popis": "Cyklostezka Rokytenka - okolo HZ"
+    },
+    {
+     "typ": "P",
+     "odpa": null,
+     "pol": "4222",
+     "org": "00150",
+     "orj": "0018",
+     "pred": 0.0,
+     "zmena": 1000000.0,
+     "po": 1000000.0,
+     "popis": "Rekonstrukce mantinelů na zimním stadioně Na Lapači"
+    },
+    {
+     "typ": "V",
+     "odpa": "3111",
+     "pol": "5331",
+     "org": "00001309",
+     "orj": "0003",
+     "pred": 0.0,
+     "zmena": 4931.94,
+     "po": 4931.94,
+     "popis": "Vyúčtování závazného ukazatele za energie"
+    },
+    {
+     "typ": "V",
+     "odpa": "3111",
+     "pol": "5331",
+     "org": "00001318",
+     "orj": "0003",
+     "pred": 0.0,
+     "zmena": 146285.96,
+     "po": 146285.96,
+     "popis": "Vyúčtování závazného ukazatele za energie"
+    },
+    {
+     "typ": "V",
+     "odpa": "3111",
+     "pol": "5331",
+     "org": "00001320",
+     "orj": "0003",
+     "pred": 0.0,
+     "zmena": 49677.84,
+     "po": 49677.84,
+     "popis": "Vyúčtování závazného ukazatele za energie"
+    },
+    {
+     "typ": "V",
+     "odpa": "3113",
+     "pol": "5331",
+     "org": "00000330",
+     "orj": "0003",
+     "pred": 0.0,
+     "zmena": 155413.08,
+     "po": 155413.08,
+     "popis": "Vyúčtování závazného ukazatele za energie"
+    },
+    {
+     "typ": "V",
+     "odpa": "3113",
+     "pol": "5331",
+     "org": "00001303",
+     "orj": "0003",
+     "pred": 0.0,
+     "zmena": 132314.4,
+     "po": 132314.4,
+     "popis": "Vyúčtování závazného ukazatele za energie"
+    },
+    {
+     "typ": "V",
+     "odpa": "3113",
+     "pol": "5331",
+     "org": "00001305",
+     "orj": "0003",
+     "pred": 0.0,
+     "zmena": 18379.3,
+     "po": 18379.3,
+     "popis": "Vyúčtování závazného ukazatele za energie"
+    },
+    {
+     "typ": "V",
+     "odpa": "3314",
+     "pol": "5336",
+     "org": "00090 00000400",
+     "orj": "0003",
+     "pred": 0.0,
+     "zmena": 3811000.0,
+     "po": 3811000.0,
+     "popis": "MVK - Regionální funkce knihoven"
+    },
+    {
+     "typ": "V",
+     "odpa": "4339",
+     "pol": "5011",
+     "org": "13010",
+     "orj": "0005",
+     "pred": 1080000.0,
+     "zmena": 70000.0,
+     "po": 1150000.0,
+     "popis": "Státní příspěvek na výkon pěstounské péče"
+    },
+    {
+     "typ": "V",
+     "odpa": "4339",
+     "pol": "5031",
+     "org": "13010",
+     "orj": "0005",
+     "pred": 280500.0,
+     "zmena": 5000.0,
+     "po": 285500.0,
+     "popis": "Státní příspěvek na výkon pěstounské péče"
+    },
+    {
+     "typ": "V",
+     "odpa": "4339",
+     "pol": "5032",
+     "org": "13010",
+     "orj": "0005",
+     "pred": 102000.0,
+     "zmena": 1500.0,
+     "po": 103500.0,
+     "popis": "Státní příspěvek na výkon pěstounské péče"
+    },
+    {
+     "typ": "V",
+     "odpa": "4339",
+     "pol": "5139",
+     "org": "13010",
+     "orj": "0005",
+     "pred": 11800.0,
+     "zmena": 8200.0,
+     "po": 20000.0,
+     "popis": "Státní příspěvek na výkon pěstounské péče"
+    },
+    {
+     "typ": "V",
+     "odpa": "4339",
+     "pol": "5156",
+     "org": "13010",
+     "orj": "0005",
+     "pred": 6000.0,
+     "zmena": 4000.0,
+     "po": 10000.0,
+     "popis": "Státní příspěvek na výkon pěstounské péče"
+    },
+    {
+     "typ": "V",
+     "odpa": "4339",
+     "pol": "5169",
+     "org": "13010",
+     "orj": "0005",
+     "pred": 236800.0,
+     "zmena": 13200.0,
+     "po": 250000.0,
+     "popis": "Státní příspěvek na výkon pěstounské péče"
+    },
+    {
+     "typ": "V",
+     "odpa": "4339",
+     "pol": "5901",
+     "org": "13010",
+     "orj": "0005",
+     "pred": 0.0,
+     "zmena": 170000.0,
+     "po": 170000.0,
+     "popis": "Státní příspěvek na výkon pěstounské péče"
+    },
+    {
+     "typ": "V",
+     "odpa": "6409",
+     "pol": "5901",
+     "org": null,
+     "orj": "0003",
+     "pred": 1500000.0,
+     "zmena": 1819068.41,
+     "po": 3319068.41,
+     "popis": "Rezerva z vyúčtování energií"
+    },
+    {
+     "typ": "F",
+     "odpa": null,
+     "pol": "8115",
+     "org": null,
+     "orj": null,
+     "pred": 82089782.0,
+     "zmena": -2111588.12,
+     "po": 79978193.88,
+     "popis": "Financování"
+    }
+   ]
+  },
+  {
+   "id": "RO-2025-04",
+   "cislo": 4,
+   "organ": "ZM",
+   "datum": "2025-04-07",
+   "usneseni": "35/18/ZM/2025",
+   "id_dokumenty": 564065,
+   "url": "https://mestovsetin.cz/assets/File.ashx?id_org=18676&id_dokumenty=564065",
+   "hlavni_body": [
+    "Výkup pozemku s tribunou na Ohradě od TJ Mez + přístavba (+10,15 mil.)",
+    "Odstranění lávky VS-01-Bol přes I/57 (Bobrky) (+5 mil.)",
+    "Stavební úpravy MVK, TIC – Dolní náměstí",
+    "Chodník pod zámkem, Parkovací místa pod nadjezdem",
+    "Oprava MK Ohrada a U Huti III. etapa (16 mil.)",
+    "VZT velký sál DK, hokejová střelnice, Sportovní areál Ohrada – PD",
+    "Sdílená kola (Cyklostezka Bečva, z.s.)",
+    "FC Fastav Vsetín – dotace",
+    "Navýšení prostředků na dotace (+1,7 mil.)"
+   ],
+   "bilance": {
+    "prijmy": 1533699.66,
+    "vydaje": 76772603.72,
+    "financovani": 75896000.0,
+    "kontrola_P_plus_F_minus_V": 657095.94
+   },
+   "radky": [
+    {
+     "typ": "P",
+     "odpa": "3111",
+     "pol": "2122",
+     "org": null,
+     "orj": "0003",
+     "pred": 1600000.0,
+     "zmena": 632920.0,
+     "po": 2232920.0,
+     "popis": "MŠ Rokytnice - odvod z odpisů"
+    },
+    {
+     "typ": "P",
+     "odpa": "3421",
+     "pol": "2122",
+     "org": null,
+     "orj": "0003",
+     "pred": 472000.0,
+     "zmena": 10000.0,
+     "po": 482000.0,
+     "popis": "Alcedo - odvod z odpisů"
+    },
+    {
+     "typ": "P",
+     "odpa": "3631",
+     "pol": "2322",
+     "org": null,
+     "orj": "0001",
+     "pred": 0.0,
+     "zmena": 50263.0,
+     "po": 50263.0,
+     "popis": "Pojistné plnění za opravu sloupu VO"
+    },
+    {
+     "typ": "V",
+     "odpa": "2212",
+     "pol": "5169",
+     "org": "00003162",
+     "orj": "0004",
+     "pred": 400000.0,
+     "zmena": 5000000.0,
+     "po": 5400000.0,
+     "popis": "Odstranění lávky VS-01-Bol přes silnici I/57 a III/05736, Vsetín, Bobrky"
+    },
+    {
+     "typ": "V",
+     "odpa": "2212",
+     "pol": "5169",
+     "org": "00009933",
+     "orj": "0004",
+     "pred": 300000.0,
+     "zmena": -300000.0,
+     "po": 0.0,
+     "popis": "Změna rozpočtového zatřídění - MK a parkoviště Ohrada"
+    },
+    {
+     "typ": "V",
+     "odpa": "2212",
+     "pol": "5169",
+     "org": "00009943",
+     "orj": "0004",
+     "pred": 300000.0,
+     "zmena": -300000.0,
+     "po": 0.0,
+     "popis": "Změna rozpočtového zatřídění - Stavební úpravy MK Amerika - PD"
+    },
+    {
+     "typ": "V",
+     "odpa": "2212",
+     "pol": "5169",
+     "org": "00009967",
+     "orj": "0004",
+     "pred": 0.0,
+     "zmena": 200000.0,
+     "po": 200000.0,
+     "popis": "Oprava MK Ohrada a U Huti - III. etapa - stavební práce"
+    },
+    {
+     "typ": "V",
+     "odpa": "2212",
+     "pol": "5171",
+     "org": "00009967",
+     "orj": "0004",
+     "pred": 0.0,
+     "zmena": 16000000.0,
+     "po": 16000000.0,
+     "popis": "Oprava MK Ohrada a U Huti - III. etapa - stavební práce"
+    },
+    {
+     "typ": "V",
+     "odpa": "2219",
+     "pol": "5154",
+     "org": null,
+     "orj": "0002",
+     "pred": 500000.0,
+     "zmena": 230000.0,
+     "po": 730000.0,
+     "popis": "El. energie - eskalátory podzemní parkoviště"
+    },
+    {
+     "typ": "V",
+     "odpa": "2219",
+     "pol": "5169",
+     "org": null,
+     "orj": "0002",
+     "pred": 2418000.0,
+     "zmena": 56000.0,
+     "po": 2474000.0,
+     "popis": "Poplatek za zrušení služby blokace připojení nových OM u cyklostezky"
+    },
+    {
+     "typ": "V",
+     "odpa": "2219",
+     "pol": "5222",
+     "org": null,
+     "orj": "0002",
+     "pred": 0.0,
+     "zmena": 1350000.0,
+     "po": 1350000.0,
+     "popis": "Pilotní program - Sdílená kola - dotace 50% nákladů"
+    },
+    {
+     "typ": "V",
+     "odpa": "2321",
+     "pol": "5171",
+     "org": null,
+     "orj": "0002",
+     "pred": 0.0,
+     "zmena": 1000000.0,
+     "po": 1000000.0,
+     "popis": "Oprava splaškové kanalizace - Bobrky"
+    },
+    {
+     "typ": "V",
+     "odpa": "3111",
+     "pol": "5331",
+     "org": "00131703",
+     "orj": "0003",
+     "pred": 137000.0,
+     "zmena": 632920.0,
+     "po": 769920.0,
+     "popis": "MŠ Rokytnice - příspěvek na odpisy"
+    },
+    {
+     "typ": "V",
+     "odpa": "3113",
+     "pol": "5331",
+     "org": "25034203",
+     "orj": "0003",
+     "pred": 40000.0,
+     "zmena": -40000.0,
+     "po": 0.0,
+     "popis": "Změna rozpočtového zatřídění - kroužek MENSA"
+    },
+    {
+     "typ": "V",
+     "odpa": "3119",
+     "pol": "5229",
+     "org": null,
+     "orj": "0003",
+     "pred": 0.0,
+     "zmena": 40000.0,
+     "po": 40000.0,
+     "popis": "Změna rozpočtového zatřídění - kroužek MENSA"
+    },
+    {
+     "typ": "V",
+     "odpa": "3314",
+     "pol": "5137",
+     "org": "00003180",
+     "orj": "0004",
+     "pred": 0.0,
+     "zmena": 250000.0,
+     "po": 250000.0,
+     "popis": "Stavební úpravy MVK, TIC - neinvestiční část"
+    },
+    {
+     "typ": "V",
+     "odpa": "3314",
+     "pol": "5137",
+     "org": "00003213",
+     "orj": "0004",
+     "pred": 7115600.0,
+     "zmena": 2550000.0,
+     "po": 9665600.0,
+     "popis": "Stavební úpravy MVK, TIC - neinvestiční část"
+    },
+    {
+     "typ": "V",
+     "odpa": "3314",
+     "pol": "5137",
+     "org": "00009918",
+     "orj": "0004",
+     "pred": 647900.0,
+     "zmena": 650000.0,
+     "po": 1297900.0,
+     "popis": "Stavební úpravy MVK, TIC - neinvestiční část"
+    },
+    {
+     "typ": "V",
+     "odpa": "3314",
+     "pol": "5139",
+     "org": "00003180",
+     "orj": "0004",
+     "pred": 0.0,
+     "zmena": 500000.0,
+     "po": 500000.0,
+     "popis": "Stavební úpravy MVK, TIC - neinvestiční část"
+    },
+    {
+     "typ": "V",
+     "odpa": "3314",
+     "pol": "5139",
+     "org": "00003213",
+     "orj": "0004",
+     "pred": 0.0,
+     "zmena": 700000.0,
+     "po": 700000.0,
+     "popis": "Stavební úpravy MVK, TIC - neinvestiční část"
+    },
+    {
+     "typ": "V",
+     "odpa": "3314",
+     "pol": "5139",
+     "org": "00009918",
+     "orj": "0004",
+     "pred": 0.0,
+     "zmena": 260000.0,
+     "po": 260000.0,
+     "popis": "Stavební úpravy MVK, TIC - neinvestiční část"
+    },
+    {
+     "typ": "V",
+     "odpa": "3314",
+     "pol": "5167",
+     "org": "00003213",
+     "orj": "0004",
+     "pred": 0.0,
+     "zmena": 5000.0,
+     "po": 5000.0,
+     "popis": "Stavební úpravy MVK, TIC - neinvestiční část"
+    },
+    {
+     "typ": "V",
+     "odpa": "3314",
+     "pol": "5167",
+     "org": "00009918",
+     "orj": "0004",
+     "pred": 0.0,
+     "zmena": 1000.0,
+     "po": 1000.0,
+     "popis": "Stavební úpravy MVK, TIC - neinvestiční část"
+    },
+    {
+     "typ": "V",
+     "odpa": "3314",
+     "pol": "5169",
+     "org": "00003213",
+     "orj": "0004",
+     "pred": 600000.0,
+     "zmena": 124000.0,
+     "po": 724000.0,
+     "popis": "Stavební úpravy MVK, TIC - neinvestiční část"
+    },
+    {
+     "typ": "V",
+     "odpa": "3314",
+     "pol": "5169",
+     "org": "00009918",
+     "orj": "0004",
+     "pred": 60500.0,
+     "zmena": 60000.0,
+     "po": 120500.0,
+     "popis": "Stavební úpravy MVK, TIC - neinvestiční část"
+    },
+    {
+     "typ": "V",
+     "odpa": "3412",
+     "pol": "5154",
+     "org": null,
+     "orj": "0002",
+     "pred": 150000.0,
+     "zmena": 210000.0,
+     "po": 360000.0,
+     "popis": "El. energie - šatny pod Pecníkem"
+    },
+    {
+     "typ": "V",
+     "odpa": "3419",
+     "pol": "5222",
+     "org": null,
+     "orj": "0003",
+     "pred": 18809000.0,
+     "zmena": 300000.0,
+     "po": 19109000.0,
+     "popis": "Dotace - FC Fastav Vsetín, z.s."
+    },
+    {
+     "typ": "V",
+     "odpa": "3421",
+     "pol": "5331",
+     "org": "00032903",
+     "orj": "0003",
+     "pred": 472000.0,
+     "zmena": 10000.0,
+     "po": 482000.0,
+     "popis": "Alcedo - příspěvek na odpisy"
+    },
+    {
+     "typ": "V",
+     "odpa": "3613",
+     "pol": "5171",
+     "org": null,
+     "orj": "0002",
+     "pred": 405000.0,
+     "zmena": 1600000.0,
+     "po": 2005000.0,
+     "popis": "Výměna oken a dveří a nátěr fasády čp. 413"
+    },
+    {
+     "typ": "V",
+     "odpa": "3631",
+     "pol": "5331",
+     "org": null,
+     "orj": "0017",
+     "pred": 0.0,
+     "zmena": 50263.0,
+     "po": 50263.0,
+     "popis": "Pojistné plnění za opravu sloupu VO"
+    },
+    {
+     "typ": "V",
+     "odpa": "3636",
+     "pol": "5493",
+     "org": null,
+     "orj": "0031",
+     "pred": 300000.0,
+     "zmena": 1700000.0,
+     "po": 2000000.0,
+     "popis": "Navýšení objemu finančních prostředků na dotace"
+    },
+    {
+     "typ": "V",
+     "odpa": "2212",
+     "pol": "6121",
+     "org": "00009933",
+     "orj": "0004",
+     "pred": 0.0,
+     "zmena": 800000.0,
+     "po": 800000.0,
+     "popis": "Stavební úpravy MK a parkovišť Ohrada"
+    },
+    {
+     "typ": "V",
+     "odpa": "2212",
+     "pol": "6121",
+     "org": "00009943",
+     "orj": "0004",
+     "pred": 0.0,
+     "zmena": 300000.0,
+     "po": 300000.0,
+     "popis": "Změna rozpočtového zatřídění - Stavební úpravy MK Amerika - PD"
+    },
+    {
+     "typ": "V",
+     "odpa": "2219",
+     "pol": "6121",
+     "org": "00003185",
+     "orj": "0004",
+     "pred": 5000000.0,
+     "zmena": 7000000.0,
+     "po": 12000000.0,
+     "popis": "Chodník pod zámkem - PD a stavební práce"
+    },
+    {
+     "typ": "V",
+     "odpa": "2219",
+     "pol": "6121",
+     "org": "00009908",
+     "orj": "0004",
+     "pred": 6000000.0,
+     "zmena": 8000000.0,
+     "po": 14000000.0,
+     "popis": "Parkovací místa pod nadjezdem"
+    },
+    {
+     "typ": "V",
+     "odpa": "2219",
+     "pol": "6121",
+     "org": "00009968",
+     "orj": "0004",
+     "pred": 0.0,
+     "zmena": 1000000.0,
+     "po": 1000000.0,
+     "popis": "Stavební úpravy chodníků v zanádražním prostoru"
+    },
+    {
+     "typ": "V",
+     "odpa": "2221",
+     "pol": "6121",
+     "org": "00009920",
+     "orj": "0004",
+     "pred": 500000.0,
+     "zmena": 600000.0,
+     "po": 1100000.0,
+     "popis": "Autobusová zastávka v průmyslové zóně Bobrky II"
+    },
+    {
+     "typ": "V",
+     "odpa": "3314",
+     "pol": "6111",
+     "org": "00003213",
+     "orj": "0004",
+     "pred": 1500000.0,
+     "zmena": 1550000.0,
+     "po": 3050000.0,
+     "popis": "Stavební úpravy MVK, TIC - investiční část"
+    },
+    {
+     "typ": "V",
+     "odpa": "3314",
+     "pol": "6121",
+     "org": "00003180",
+     "orj": "0004",
+     "pred": 32000000.0,
+     "zmena": 4580000.0,
+     "po": 36580000.0,
+     "popis": "Stavební úpravy MVK, TIC - investiční část"
+    },
+    {
+     "typ": "V",
+     "odpa": "3314",
+     "pol": "6121",
+     "org": "00003213",
+     "orj": "0004",
+     "pred": 19000000.0,
+     "zmena": -13795000.0,
+     "po": 5205000.0,
+     "popis": "Stavební úpravy MVK, TIC - investiční část"
+    },
+    {
+     "typ": "V",
+     "odpa": "3314",
+     "pol": "6121",
+     "org": "00009918",
+     "orj": "0004",
+     "pred": 7500000.0,
+     "zmena": 1420000.0,
+     "po": 8920000.0,
+     "popis": "Stavební úpravy MVK, TIC - investiční část"
+    },
+    {
+     "typ": "V",
+     "odpa": "3314",
+     "pol": "6121",
+     "org": "00009965",
+     "orj": "0004",
+     "pred": 250000.0,
+     "zmena": 3000000.0,
+     "po": 3250000.0,
+     "popis": "Rekonstrukce výměníkové stanice v objektu čp. 1356 - stavební práce"
+    },
+    {
+     "typ": "V",
+     "odpa": "3314",
+     "pol": "6122",
+     "org": "00003213",
+     "orj": "0004",
+     "pred": 2444000.0,
+     "zmena": 11290000.0,
+     "po": 13734000.0,
+     "popis": "Stavební úpravy MVK, TIC - investiční část"
+    },
+    {
+     "typ": "V",
+     "odpa": "3314",
+     "pol": "6122",
+     "org": "00009918",
+     "orj": "0004",
+     "pred": 256000.0,
+     "zmena": 1285000.0,
+     "po": 1541000.0,
+     "popis": "Stavební úpravy MVK, TIC - investiční část"
+    },
+    {
+     "typ": "V",
+     "odpa": "3314",
+     "pol": "6125",
+     "org": "00003213",
+     "orj": "0004",
+     "pred": 1333000.0,
+     "zmena": 170000.0,
+     "po": 1503000.0,
+     "popis": "Stavební úpravy MVK, TIC - investiční část"
+    },
+    {
+     "typ": "V",
+     "odpa": "3314",
+     "pol": "6125",
+     "org": "00009918",
+     "orj": "0004",
+     "pred": 100000.0,
+     "zmena": -100000.0,
+     "po": 0.0,
+     "popis": "Stavební úpravy MVK, TIC - investiční část"
+    },
+    {
+     "typ": "V",
+     "odpa": "3319",
+     "pol": "6121",
+     "org": "00009954",
+     "orj": "0004",
+     "pred": 2000000.0,
+     "zmena": 4000000.0,
+     "po": 6000000.0,
+     "popis": "Vzduchotechnika ve velkém sále DK Vsetín, PD a stavební práce"
+    },
+    {
+     "typ": "V",
+     "odpa": "3412",
+     "pol": "6121",
+     "org": "00009770",
+     "orj": "0004",
+     "pred": 2000000.0,
+     "zmena": 2000000.0,
+     "po": 4000000.0,
+     "popis": "Sportovní areál Ohrada - PD"
+    },
+    {
+     "typ": "V",
+     "odpa": "3412",
+     "pol": "6121",
+     "org": "00009955",
+     "orj": "0004",
+     "pred": 500000.0,
+     "zmena": 500000.0,
+     "po": 1000000.0,
+     "popis": "Tréninková hokejová střelnice Na Lapači, Vsetín"
+    },
+    {
+     "typ": "V",
+     "odpa": "3639",
+     "pol": "6130",
+     "org": "25036391",
+     "orj": "0002",
+     "pred": 23002000.0,
+     "zmena": 10150000.0,
+     "po": 33152000.0,
+     "popis": "Výkup pozemku s tribunou + přístavba - Ohrada"
+    },
+    {
+     "typ": "F",
+     "odpa": null,
+     "pol": "8115",
+     "org": null,
+     "orj": null,
+     "pred": 79978193.88,
+     "zmena": 75896000.0,
+     "po": 155874193.88,
+     "popis": "Financování"
+    },
+    {
+     "typ": "P",
+     "odpa": null,
+     "pol": "4111",
+     "org": "98193",
+     "orj": "0011",
+     "pred": 0.0,
+     "zmena": 35632.17,
+     "po": 35632.17,
+     "popis": "Žádost o doplatek - volby do senátu a zastupitelstev krajů"
+    },
+    {
+     "typ": "P",
+     "odpa": null,
+     "pol": "4111",
+     "org": "98348",
+     "orj": "0011",
+     "pred": 0.0,
+     "zmena": 227449.61,
+     "po": 227449.61,
+     "popis": "Žádost o doplatek - volby do Evropského parlamentu"
+    },
+    {
+     "typ": "P",
+     "odpa": null,
+     "pol": "4116",
+     "org": "13024",
+     "orj": "0005",
+     "pred": 11507300.0,
+     "zmena": 577434.88,
+     "po": 12084734.88,
+     "popis": "Žádost o doplatek - sociálně právní ochrana dětí"
+    },
+    {
+     "typ": "V",
+     "odpa": "6402",
+     "pol": "5364",
+     "org": "13010",
+     "orj": "0005",
+     "pred": 0.0,
+     "zmena": 183420.72,
+     "po": 183420.72,
+     "popis": "Vyúčtování státního příspěvku na výkon pěstounské péče - vratka"
+    }
+   ]
+  },
+  {
+   "id": "RO-2025-05",
+   "cislo": 5,
+   "organ": "RM",
+   "datum": "2025-04-07",
+   "usneseni": "24/61/RM/2025",
+   "id_dokumenty": 563311,
+   "url": "https://mestovsetin.cz/assets/File.ashx?id_org=18676&id_dokumenty=563311",
+   "hlavni_body": [
+    "Pojistná událost – Městské lázně po povodni",
+    "MVK Literární Vsetín",
+    "Cyklostezka Rokytenka I. – od Kotrly po Irisu (dotace)",
+    "Kotlíkové dotace ZK"
+   ],
+   "bilance": {
+    "prijmy": 6197055.34,
+    "vydaje": 513146.0,
+    "financovani": -5683909.34,
+    "kontrola_P_plus_F_minus_V": 0.0
+   },
+   "radky": [
+    {
+     "typ": "P",
+     "odpa": "3412",
+     "pol": "2322",
+     "org": null,
+     "orj": "0001",
+     "pred": 0.0,
+     "zmena": 379746.0,
+     "po": 379746.0,
+     "popis": "Opravy v Městských lázních po povodních - pojistné plnění"
+    },
+    {
+     "typ": "P",
+     "odpa": "6171",
+     "pol": "2111",
+     "org": null,
+     "orj": "0018",
+     "pred": 0.0,
+     "zmena": 94000.0,
+     "po": 94000.0,
+     "popis": "Program Kotlíkové dotace Zlínského kraje"
+    },
+    {
+     "typ": "P",
+     "odpa": null,
+     "pol": "4116",
+     "org": "149517085 00009855",
+     "orj": "0018",
+     "pred": 1190000.0,
+     "zmena": 293994.06,
+     "po": 1483994.06,
+     "popis": "Přijatá dotace - Cyklostezka Rokytenka - od Kotrly po Irisu"
+    },
+    {
+     "typ": "P",
+     "odpa": null,
+     "pol": "4122",
+     "org": "00090",
+     "orj": "0003",
+     "pred": 3811000.0,
+     "zmena": 29900.0,
+     "po": 3840900.0,
+     "popis": "Dotace Zlínského kraje - MVK Literární Vsetín"
+    },
+    {
+     "typ": "P",
+     "odpa": null,
+     "pol": "4122",
+     "org": "148500120",
+     "orj": "0018",
+     "pred": 0.0,
+     "zmena": 9500.0,
+     "po": 9500.0,
+     "popis": "Program Kotlíkové dotace Zlínského kraje"
+    },
+    {
+     "typ": "P",
+     "odpa": null,
+     "pol": "4216",
+     "org": "149517519 00009855",
+     "orj": "0018",
+     "pred": 15810000.0,
+     "zmena": 5389915.28,
+     "po": 21199915.28,
+     "popis": "Přijatá dotace - Cyklostezka Rokytenka - od Kotrly po Irisu"
+    },
+    {
+     "typ": "V",
+     "odpa": "3314",
+     "pol": "5336",
+     "org": "00090 00000400",
+     "orj": "0003",
+     "pred": 3811000.0,
+     "zmena": 29900.0,
+     "po": 3840900.0,
+     "popis": "Dotace Zlínského kraje - MVK Literární Vsetín"
+    },
+    {
+     "typ": "V",
+     "odpa": "3412",
+     "pol": "5171",
+     "org": "25341216",
+     "orj": "0002",
+     "pred": 0.0,
+     "zmena": 379746.0,
+     "po": 379746.0,
+     "popis": "Opravy v Městských lázních po povodních - pojistné plnění"
+    },
+    {
+     "typ": "V",
+     "odpa": "6171",
+     "pol": "5021",
+     "org": "18000004",
+     "orj": "0018",
+     "pred": 0.0,
+     "zmena": 94000.0,
+     "po": 94000.0,
+     "popis": "Program Kotlíkové dotace Zlínského kraje"
+    },
+    {
+     "typ": "V",
+     "odpa": "6171",
+     "pol": "5021",
+     "org": "148500120 18000004",
+     "orj": "0018",
+     "pred": 0.0,
+     "zmena": 9500.0,
+     "po": 9500.0,
+     "popis": "Program Kotlíkové dotace Zlínského kraje"
+    },
+    {
+     "typ": "F",
+     "odpa": null,
+     "pol": "8115",
+     "org": null,
+     "orj": null,
+     "pred": 155874193.88,
+     "zmena": -5683909.34,
+     "po": 150190284.54,
+     "popis": "Financování"
+    }
+   ]
+  },
+  {
+   "id": "RO-2025-06",
+   "cislo": 6,
+   "organ": "RM",
+   "datum": "2025-05-12",
+   "usneseni": "22,23/64/RM/2025",
+   "id_dokumenty": 563314,
+   "url": "https://mestovsetin.cz/assets/File.ashx?id_org=18676&id_dokumenty=563314",
+   "hlavni_body": [
+    "Zimní stadion – nátěr podhledu střechy",
+    "Vyúčtování SOHZ 2024 (vratka 3,14 mil.)",
+    "ZŠ Sychrov – havárie střechy",
+    "DS ALCEDO Klubíčko – požární schodiště",
+    "Vyúčtování energií TS",
+    "NZÚ Light"
+   ],
+   "bilance": {
+    "prijmy": 6031147.57,
+    "vydaje": 6031147.57,
+    "financovani": 0,
+    "kontrola_P_plus_F_minus_V": 0.0
+   },
+   "radky": [
+    {
+     "typ": "P",
+     "odpa": "3412",
+     "pol": "2229",
+     "org": null,
+     "orj": "0003",
+     "pred": 0.0,
+     "zmena": 3138005.0,
+     "po": 3138005.0,
+     "popis": "Přijatá vratka z vyúčtování příspěvku na kompenzaci nákladů veřejné služby"
+    },
+    {
+     "typ": "P",
+     "odpa": "3639",
+     "pol": "2229",
+     "org": null,
+     "orj": "0017",
+     "pred": 0.0,
+     "zmena": 2579897.84,
+     "po": 2579897.84,
+     "popis": "Vyúčtování energií TS"
+    },
+    {
+     "typ": "P",
+     "odpa": null,
+     "pol": "4113",
+     "org": "170590008 18000002",
+     "orj": "0018",
+     "pred": 1000000.0,
+     "zmena": 26000.0,
+     "po": 1026000.0,
+     "popis": "NZÚ Light"
+    },
+    {
+     "typ": "P",
+     "odpa": null,
+     "pol": "4116",
+     "org": "170113502",
+     "orj": "0003",
+     "pred": 0.0,
+     "zmena": 314.8,
+     "po": 314.8,
+     "popis": "Dotace Alcedo - Klubíčko - přístavba požárního schodiště"
+    },
+    {
+     "typ": "P",
+     "odpa": null,
+     "pol": "4116",
+     "org": "170513502",
+     "orj": "0003",
+     "pred": 0.0,
+     "zmena": 1500.2,
+     "po": 1500.2,
+     "popis": "Dotace Alcedo - Klubíčko - přístavba požárního schodiště"
+    },
+    {
+     "typ": "P",
+     "odpa": null,
+     "pol": "4122",
+     "org": "00150",
+     "orj": "0003",
+     "pred": 0.0,
+     "zmena": 46000.0,
+     "po": 46000.0,
+     "popis": "Dotace ZK - ZŠ Rokytnice - Pythagoriáda"
+    },
+    {
+     "typ": "P",
+     "odpa": null,
+     "pol": "4216",
+     "org": "170113502",
+     "orj": "0003",
+     "pred": 0.0,
+     "zmena": 41528.07,
+     "po": 41528.07,
+     "popis": "Dotace Alcedo - Klubíčko - přístavba požárního schodiště"
+    },
+    {
+     "typ": "P",
+     "odpa": null,
+     "pol": "4216",
+     "org": "170513502",
+     "orj": "0003",
+     "pred": 0.0,
+     "zmena": 197901.66,
+     "po": 197901.66,
+     "popis": "Dotace Alcedo - Klubíčko - přístavba požárního schodiště"
+    },
+    {
+     "typ": "V",
+     "odpa": "3113",
+     "pol": "5331",
+     "org": "25033503",
+     "orj": "0003",
+     "pred": 0.0,
+     "zmena": 57610.0,
+     "po": 57610.0,
+     "popis": "Neinvestiční příspěvek ZŠ Sychrov - havárie střechy pavilonu TD 2"
+    },
+    {
+     "typ": "V",
+     "odpa": "3113",
+     "pol": "5336",
+     "org": "00150 00000342",
+     "orj": "0003",
+     "pred": 0.0,
+     "zmena": 46000.0,
+     "po": 46000.0,
+     "popis": "ZŠ Rokytnice - Pythagoriáda"
+    },
+    {
+     "typ": "V",
+     "odpa": "3412",
+     "pol": "5171",
+     "org": "25341217",
+     "orj": "0002",
+     "pred": 0.0,
+     "zmena": 1500000.0,
+     "po": 1500000.0,
+     "popis": "Oprava nátěru podhledu střechy zimního stadionu"
+    },
+    {
+     "typ": "V",
+     "odpa": "3421",
+     "pol": "5336",
+     "org": "170113502",
+     "orj": "0003",
+     "pred": 0.0,
+     "zmena": 314.8,
+     "po": 314.8,
+     "popis": "Dotace Alcedo - Klubíčko - přístavba požárního schodiště"
+    },
+    {
+     "typ": "V",
+     "odpa": "3421",
+     "pol": "5336",
+     "org": "170513502",
+     "orj": "0003",
+     "pred": 0.0,
+     "zmena": 1500.2,
+     "po": 1500.2,
+     "popis": "Dotace Alcedo - Klubíčko - přístavba požárního schodiště"
+    },
+    {
+     "typ": "V",
+     "odpa": "6171",
+     "pol": "5166",
+     "org": "170590008 18000002",
+     "orj": "0018",
+     "pred": 1000000.0,
+     "zmena": 26000.0,
+     "po": 1026000.0,
+     "popis": "NZÚ Light"
+    },
+    {
+     "typ": "V",
+     "odpa": "6409",
+     "pol": "5901",
+     "org": null,
+     "orj": "0003",
+     "pred": 3319068.41,
+     "zmena": -57610.0,
+     "po": 3261458.41,
+     "popis": "Uvolnění rezervy"
+    },
+    {
+     "typ": "V",
+     "odpa": "6409",
+     "pol": "5901",
+     "org": "10000003",
+     "orj": "0001",
+     "pred": 0.0,
+     "zmena": 4217902.84,
+     "po": 4217902.84,
+     "popis": "Tvorba rezervy (oprava střechy zimního stadionu)"
+    },
+    {
+     "typ": "V",
+     "odpa": "3421",
+     "pol": "6356",
+     "org": "170113502",
+     "orj": "0003",
+     "pred": 0.0,
+     "zmena": 41528.07,
+     "po": 41528.07,
+     "popis": "Dotace Alcedo - Klubíčko - přístavba požárního schodiště"
+    },
+    {
+     "typ": "V",
+     "odpa": "3421",
+     "pol": "6356",
+     "org": "170513502",
+     "orj": "0003",
+     "pred": 0.0,
+     "zmena": 197901.66,
+     "po": 197901.66,
+     "popis": "Dotace Alcedo - Klubíčko - přístavba požárního schodiště"
+    }
+   ]
+  },
+  {
+   "id": "RO-2025-07",
+   "cislo": 7,
+   "organ": "RM",
+   "datum": "2025-06-02",
+   "usneseni": "34/66/RM/2025",
+   "id_dokumenty": 563315,
+   "url": "https://mestovsetin.cz/assets/File.ashx?id_org=18676&id_dokumenty=563315",
+   "hlavni_body": [
+    "Zimní stadion – nátěr podhledu (navýšení)",
+    "Dotace ZK pro ZŠ Sychrov, ALCEDO, MVK",
+    "Vyúčtování energií MVK",
+    "Výkon sociální práce",
+    "Sekací rameno za traktor – havárie"
+   ],
+   "bilance": {
+    "prijmy": 435697.26,
+    "vydaje": 435697.26,
+    "financovani": 0,
+    "kontrola_P_plus_F_minus_V": 0.0
+   },
+   "radky": [
+    {
+     "typ": "P",
+     "odpa": "3314",
+     "pol": "2229",
+     "org": "00000400",
+     "orj": "0003",
+     "pred": 0.0,
+     "zmena": 123197.26,
+     "po": 123197.26,
+     "popis": "Vyúčtování závazného ukazatele na energie"
+    },
+    {
+     "typ": "P",
+     "odpa": "6171",
+     "pol": "2111",
+     "org": null,
+     "orj": "0018",
+     "pred": 94000.0,
+     "zmena": 4500.0,
+     "po": 98500.0,
+     "popis": "Program Kotlíkové dotace ZK"
+    },
+    {
+     "typ": "P",
+     "odpa": null,
+     "pol": "4116",
+     "org": "34070",
+     "orj": "0003",
+     "pred": 0.0,
+     "zmena": 40000.0,
+     "po": 40000.0,
+     "popis": "Dotace MVK - Dny seniorů a osob se zdravotním postižením"
+    },
+    {
+     "typ": "P",
+     "odpa": null,
+     "pol": "4116",
+     "org": "13010",
+     "orj": "0005",
+     "pred": 2291500.0,
+     "zmena": -44000.0,
+     "po": 2247500.0,
+     "popis": "Snížení státního příspěvku na výkon pěstounské péče"
+    },
+    {
+     "typ": "P",
+     "odpa": null,
+     "pol": "4122",
+     "org": "00090",
+     "orj": "0003",
+     "pred": 3840900.0,
+     "zmena": 211000.0,
+     "po": 4051900.0,
+     "popis": "Dotace MVK - Regionální funkce knihoven"
+    },
+    {
+     "typ": "P",
+     "odpa": null,
+     "pol": "4122",
+     "org": "00150",
+     "orj": "0003",
+     "pred": 46000.0,
+     "zmena": 21000.0,
+     "po": 67000.0,
+     "popis": "Dotace ZŠ Sychrov - Přírodovědný klokan; Dotace Alcedo - Soutěž v programování"
+    },
+    {
+     "typ": "P",
+     "odpa": null,
+     "pol": "4122",
+     "org": "00100",
+     "orj": "0005",
+     "pred": 1980000.0,
+     "zmena": 80000.0,
+     "po": 2060000.0,
+     "popis": "Dotace - výkon sociální práce"
+    },
+    {
+     "typ": "V",
+     "odpa": "3113",
+     "pol": "5336",
+     "org": "00150 00000335",
+     "orj": "0003",
+     "pred": 0.0,
+     "zmena": 10000.0,
+     "po": 10000.0,
+     "popis": "ZŠ Sychrov - Přírodovědný klokan"
+    },
+    {
+     "typ": "V",
+     "odpa": "3314",
+     "pol": "5331",
+     "org": "00040001",
+     "orj": "0003",
+     "pred": 19489000.0,
+     "zmena": 240000.0,
+     "po": 19729000.0,
+     "popis": "MVK - uvolnění rezervy - nájem 6,7"
+    },
+    {
+     "typ": "V",
+     "odpa": "3314",
+     "pol": "5336",
+     "org": "00090 00000400",
+     "orj": "0003",
+     "pred": 3840900.0,
+     "zmena": 211000.0,
+     "po": 4051900.0,
+     "popis": "MVK - Regionální funkce knihoven"
+    },
+    {
+     "typ": "V",
+     "odpa": "3314",
+     "pol": "5336",
+     "org": "34070 00000400",
+     "orj": "0003",
+     "pred": 0.0,
+     "zmena": 40000.0,
+     "po": 40000.0,
+     "popis": "MVK - Dny seniorů a osob se zdravotním postižením"
+    },
+    {
+     "typ": "V",
+     "odpa": "3314",
+     "pol": "5901",
+     "org": "25040002",
+     "orj": "0003",
+     "pred": 240000.0,
+     "zmena": -240000.0,
+     "po": 0.0,
+     "popis": "Uvolnění rezervy - nájem 6,7"
+    },
+    {
+     "typ": "V",
+     "odpa": "3412",
+     "pol": "5171",
+     "org": "25341217",
+     "orj": "0002",
+     "pred": 1500000.0,
+     "zmena": 230000.0,
+     "po": 1730000.0,
+     "popis": "Oprava - nátěr podhledu zimního stadionu"
+    },
+    {
+     "typ": "V",
+     "odpa": "3421",
+     "pol": "5336",
+     "org": "00150 00000329",
+     "orj": "0003",
+     "pred": 0.0,
+     "zmena": 11000.0,
+     "po": 11000.0,
+     "popis": "Alcedo - Soutěž v programování"
+    },
+    {
+     "typ": "V",
+     "odpa": "4339",
+     "pol": "5901",
+     "org": "13010",
+     "orj": "0005",
+     "pred": 120000.0,
+     "zmena": -44000.0,
+     "po": 76000.0,
+     "popis": "Snížení státního příspěvku na výkon pěstounské péče"
+    },
+    {
+     "typ": "V",
+     "odpa": "4342",
+     "pol": "5901",
+     "org": "00000355",
+     "orj": "0005",
+     "pred": 0.0,
+     "zmena": 80000.0,
+     "po": 80000.0,
+     "popis": "Výkon sociální práce"
+    },
+    {
+     "typ": "V",
+     "odpa": "6171",
+     "pol": "5021",
+     "org": "18000004",
+     "orj": "0018",
+     "pred": 94000.0,
+     "zmena": 4500.0,
+     "po": 98500.0,
+     "popis": "Program Kotlíkové dotace ZK"
+    },
+    {
+     "typ": "V",
+     "odpa": "6409",
+     "pol": "5901",
+     "org": null,
+     "orj": "0003",
+     "pred": 3261458.41,
+     "zmena": 123197.26,
+     "po": 3384655.67,
+     "popis": "Tvorba rezervy"
+    },
+    {
+     "typ": "V",
+     "odpa": "6409",
+     "pol": "5901",
+     "org": "10000003",
+     "orj": "0001",
+     "pred": 4217902.84,
+     "zmena": -1030000.0,
+     "po": 3187902.84,
+     "popis": "Uvolnění rezervy"
+    },
+    {
+     "typ": "V",
+     "odpa": "3639",
+     "pol": "6351",
+     "org": "25176008",
+     "orj": "0017",
+     "pred": 0.0,
+     "zmena": 800000.0,
+     "po": 800000.0,
+     "popis": "Nákup sekacího ramene za traktor - havarijní stav"
+    }
+   ]
+  },
+  {
+   "id": "RO-2025-08",
+   "cislo": 8,
+   "organ": "ZM",
+   "datum": "2025-06-23",
+   "usneseni": "17,18/19/ZM/2025",
+   "id_dokumenty": 563513,
+   "url": "https://mestovsetin.cz/assets/File.ashx?id_org=18676&id_dokumenty=563513",
+   "hlavni_body": [
+    "Daň z příjmu PO hrazená městem (+6,74 mil.)",
+    "Nabytí spoluvlastnických podílů k pozemkům",
+    "Zubní ordinace: MDDr. Kozárková 500 tis., MDDr. Sušeň s.r.o.",
+    "Redigitalizace kina",
+    "FC Fastav – dotace (+600 tis.)",
+    "DPS Pod Žamboškou (+4,5 mil.)",
+    "VZT DK Vsetín (12 mil.)",
+    "Městské lázně 2025 (+3 mil.)",
+    "MVK – střecha čp. 1356 (+5 mil.)",
+    "FVE ZŠ Ohrada a další – přesun do 2026 (−21,9 mil.)",
+    "Diakonie ČCE – investiční dotace 1,5 mil.",
+    "Opěrná zeď Semetín"
+   ],
+   "bilance": {
+    "prijmy": 6817000.0,
+    "vydaje": 17627405.95,
+    "financovani": 10810405.95,
+    "kontrola_P_plus_F_minus_V": 0.0
+   },
+   "radky": [
+    {
+     "typ": "P",
+     "odpa": null,
+     "pol": "1122",
+     "org": null,
+     "orj": "0001",
+     "pred": 15000000.0,
+     "zmena": 6737000.0,
+     "po": 21737000.0,
+     "popis": "Daň z příjmu právnických osob hrazená městem Vsetín"
+    },
+    {
+     "typ": "P",
+     "odpa": "2219",
+     "pol": "2111",
+     "org": null,
+     "orj": "0002",
+     "pred": 7100000.0,
+     "zmena": 80000.0,
+     "po": 7180000.0,
+     "popis": "Příjem za odstavené autovraky"
+    },
+    {
+     "typ": "V",
+     "odpa": "2212",
+     "pol": "5169",
+     "org": "00009944",
+     "orj": "0004",
+     "pred": 300000.0,
+     "zmena": -300000.0,
+     "po": 0.0,
+     "popis": "Oprava MK a mostu VS-15-Jcm v Července (za objektem Trimil)"
+    },
+    {
+     "typ": "V",
+     "odpa": "2212",
+     "pol": "5171",
+     "org": "00009939",
+     "orj": "0004",
+     "pred": 0.0,
+     "zmena": 7000000.0,
+     "po": 7000000.0,
+     "popis": "Oprava MK a mostu VS-15-Jcm v Července (za objektem Trimil)"
+    },
+    {
+     "typ": "V",
+     "odpa": "2212",
+     "pol": "5171",
+     "org": "00009946",
+     "orj": "0004",
+     "pred": 0.0,
+     "zmena": 7000000.0,
+     "po": 7000000.0,
+     "popis": "Oprava MK Rokytnice - PD a stavební práce"
+    },
+    {
+     "typ": "V",
+     "odpa": "2212",
+     "pol": "5171",
+     "org": "00009967",
+     "orj": "0004",
+     "pred": 16000000.0,
+     "zmena": -4000000.0,
+     "po": 12000000.0,
+     "popis": "Úspora po vysoutěžení"
+    },
+    {
+     "typ": "V",
+     "odpa": "2219",
+     "pol": "5169",
+     "org": null,
+     "orj": "0002",
+     "pred": 2474000.0,
+     "zmena": 80000.0,
+     "po": 2554000.0,
+     "popis": "Odstavení autovraků"
+    },
+    {
+     "typ": "V",
+     "odpa": "2219",
+     "pol": "5904",
+     "org": "00120",
+     "orj": "0018",
+     "pred": 0.0,
+     "zmena": 13680.95,
+     "po": 13680.95,
+     "popis": "Vrácení části dotace poskytnuté Zlínským krajem"
+    },
+    {
+     "typ": "V",
+     "odpa": "2321",
+     "pol": "5171",
+     "org": "00009972",
+     "orj": "0004",
+     "pred": 0.0,
+     "zmena": 120000.0,
+     "po": 120000.0,
+     "popis": "Oprava odvodnění komunikace Na Lapači"
+    },
+    {
+     "typ": "V",
+     "odpa": "3314",
+     "pol": "5169",
+     "org": "00009896",
+     "orj": "0004",
+     "pred": 0.0,
+     "zmena": 500000.0,
+     "po": 500000.0,
+     "popis": "MVK - stavební úpravy knihoven - Rokytnice - změna rozpočtového zatřídění"
+    },
+    {
+     "typ": "V",
+     "odpa": "3419",
+     "pol": "5222",
+     "org": null,
+     "orj": "0003",
+     "pred": 19149000.0,
+     "zmena": 600000.0,
+     "po": 19749000.0,
+     "popis": "Žádost o dotaci FC Fastav"
+    },
+    {
+     "typ": "V",
+     "odpa": "3613",
+     "pol": "5169",
+     "org": "00001484",
+     "orj": "0002",
+     "pred": 536000.0,
+     "zmena": 195000.0,
+     "po": 731000.0,
+     "popis": "Pasportizace budovy čp. 1484"
+    },
+    {
+     "typ": "V",
+     "odpa": "3613",
+     "pol": "5171",
+     "org": "00009854",
+     "orj": "0004",
+     "pred": 0.0,
+     "zmena": 4000000.0,
+     "po": 4000000.0,
+     "popis": "Oprava budovy MěÚ, Svárov 1080"
+    },
+    {
+     "typ": "V",
+     "odpa": "3639",
+     "pol": "5137",
+     "org": "00009966",
+     "orj": "0002",
+     "pred": 0.0,
+     "zmena": 120000.0,
+     "po": 120000.0,
+     "popis": "Participativní rozpočet - Mlžné brány"
+    },
+    {
+     "typ": "V",
+     "odpa": "3639",
+     "pol": "5171",
+     "org": "00009966",
+     "orj": "0002",
+     "pred": 0.0,
+     "zmena": 30000.0,
+     "po": 30000.0,
+     "popis": "Participativní rozpočet - Mlžné brány"
+    },
+    {
+     "typ": "V",
+     "odpa": "3639",
+     "pol": "5331",
+     "org": "25175001",
+     "orj": "0017",
+     "pred": 7000000.0,
+     "zmena": 600000.0,
+     "po": 7600000.0,
+     "popis": "Účelový neinvestiční příspěvek na havarijní opravu opěrné zdi v Semetíně"
+    },
+    {
+     "typ": "V",
+     "odpa": "5512",
+     "pol": "5492",
+     "org": null,
+     "orj": "0007",
+     "pred": 0.0,
+     "zmena": 207100.0,
+     "po": 207100.0,
+     "popis": "Finanční dary pro JSDH"
+    },
+    {
+     "typ": "V",
+     "odpa": "6171",
+     "pol": "5171",
+     "org": null,
+     "orj": "0002",
+     "pred": 1000000.0,
+     "zmena": 460000.0,
+     "po": 1460000.0,
+     "popis": "Oprava rozvodů pitné a požární vody v budově čp. 1080"
+    },
+    {
+     "typ": "V",
+     "odpa": "6399",
+     "pol": "5365",
+     "org": null,
+     "orj": "0001",
+     "pred": 16000000.0,
+     "zmena": 6737000.0,
+     "po": 22737000.0,
+     "popis": "Daň z příjmu právnických osob hrazená městem Vsetín"
+    },
+    {
+     "typ": "V",
+     "odpa": "2212",
+     "pol": "6121",
+     "org": "00009939",
+     "orj": "0004",
+     "pred": 600000.0,
+     "zmena": -600000.0,
+     "po": 0.0,
+     "popis": "Oprava MK a mostu VS-15-Jcm v Července (za objektem Trimil)"
+    },
+    {
+     "typ": "V",
+     "odpa": "2219",
+     "pol": "6121",
+     "org": "00003185",
+     "orj": "0004",
+     "pred": 12000000.0,
+     "zmena": -500000.0,
+     "po": 11500000.0,
+     "popis": "Úspora po vysoutěžení"
+    },
+    {
+     "typ": "V",
+     "odpa": "2219",
+     "pol": "6121",
+     "org": "00009908",
+     "orj": "0004",
+     "pred": 14000000.0,
+     "zmena": -2500000.0,
+     "po": 11500000.0,
+     "popis": "Úspora po vysoutěžení"
+    },
+    {
+     "typ": "V",
+     "odpa": "2219",
+     "pol": "6121",
+     "org": "00009937",
+     "orj": "0004",
+     "pred": 120000.0,
+     "zmena": 370000.0,
+     "po": 490000.0,
+     "popis": "Cyklostezka včetně lávky VS-03-ROL (lávka u SBD)"
+    },
+    {
+     "typ": "V",
+     "odpa": "2321",
+     "pol": "6121",
+     "org": "00009971",
+     "orj": "0004",
+     "pred": 0.0,
+     "zmena": 750000.0,
+     "po": 750000.0,
+     "popis": "Prodloužení kanalizace ul. Na Lapači, k.ú. Rokytnice u Vsetína - PD a stavební práce"
+    },
+    {
+     "typ": "V",
+     "odpa": "3113",
+     "pol": "6351",
+     "org": "00003611",
+     "orj": "0003",
+     "pred": 0.0,
+     "zmena": 58625.0,
+     "po": 58625.0,
+     "popis": "ZŠ Sychrov - investiční příspěvek na připojení zařízení k distribuční soustavě"
+    },
+    {
+     "typ": "V",
+     "odpa": "3314",
+     "pol": "6121",
+     "org": "00003180",
+     "orj": "0004",
+     "pred": 36580000.0,
+     "zmena": 5000000.0,
+     "po": 41580000.0,
+     "popis": "Stavební úpravy MVK - navýšení výdajů o rekonstrukci střechy budovy čp. 1356"
+    },
+    {
+     "typ": "V",
+     "odpa": "3314",
+     "pol": "6121",
+     "org": "00009896",
+     "orj": "0004",
+     "pred": 15000000.0,
+     "zmena": -500000.0,
+     "po": 14500000.0,
+     "popis": "MVK - stavební úpravy knihoven - Rokytnice - změna rozpočtového zatřídění"
+    },
+    {
+     "typ": "V",
+     "odpa": "3319",
+     "pol": "6121",
+     "org": "00009954",
+     "orj": "0004",
+     "pred": 6000000.0,
+     "zmena": -6000000.0,
+     "po": 0.0,
+     "popis": "Vzduchotechnika DK Vsetín (velký sál + kuchyň)"
+    },
+    {
+     "typ": "V",
+     "odpa": "3319",
+     "pol": "6121",
+     "org": "00009970",
+     "orj": "0004",
+     "pred": 0.0,
+     "zmena": 12000000.0,
+     "po": 12000000.0,
+     "popis": "Vzduchotechnika DK Vsetín (velký sál + kuchyň)"
+    },
+    {
+     "typ": "V",
+     "odpa": "3319",
+     "pol": "6121",
+     "org": "00033192",
+     "orj": "0002",
+     "pred": 1700000.0,
+     "zmena": -1700000.0,
+     "po": 0.0,
+     "popis": "Vzduchotechnika DK Vsetín (velký sál + kuchyň)"
+    },
+    {
+     "typ": "V",
+     "odpa": "3319",
+     "pol": "6122",
+     "org": "00033193",
+     "orj": "0002",
+     "pred": 2100000.0,
+     "zmena": 256000.0,
+     "po": 2356000.0,
+     "popis": "Redigitalizace kina - DPH"
+    },
+    {
+     "typ": "V",
+     "odpa": "3412",
+     "pol": "6121",
+     "org": "00009956",
+     "orj": "0004",
+     "pred": 350000.0,
+     "zmena": 3000000.0,
+     "po": 3350000.0,
+     "popis": "Městské lázně 2025 - PD a stavební práce"
+    },
+    {
+     "typ": "V",
+     "odpa": "3511",
+     "pol": "6313",
+     "org": "00035112",
+     "orj": "0002",
+     "pred": 0.0,
+     "zmena": 300000.0,
+     "po": 300000.0,
+     "popis": "Převod zlepšeného výsledku hospodaření do peněžních fondů"
+    },
+    {
+     "typ": "V",
+     "odpa": "3511",
+     "pol": "6313",
+     "org": "00035113",
+     "orj": "0002",
+     "pred": 0.0,
+     "zmena": 500000.0,
+     "po": 500000.0,
+     "popis": "Finanční podpora na vybavení zubní ordinace MDDr. Kozárková"
+    },
+    {
+     "typ": "V",
+     "odpa": "3612",
+     "pol": "6121",
+     "org": "00009957",
+     "orj": "0004",
+     "pred": 4000000.0,
+     "zmena": 4500000.0,
+     "po": 8500000.0,
+     "popis": "Stavební úpravy DPS 1579/1580 ul. Pod Žamboškou"
+    },
+    {
+     "typ": "V",
+     "odpa": "3613",
+     "pol": "6121",
+     "org": "00009854",
+     "orj": "0004",
+     "pred": 4000000.0,
+     "zmena": -4000000.0,
+     "po": 0.0,
+     "popis": "Oprava budovy MěÚ, Svárov 1080"
+    },
+    {
+     "typ": "V",
+     "odpa": "3632",
+     "pol": "6130",
+     "org": "25036321",
+     "orj": "0002",
+     "pred": 0.0,
+     "zmena": 750000.0,
+     "po": 750000.0,
+     "popis": "Nabytí spoluvlastnických podílů"
+    },
+    {
+     "typ": "V",
+     "odpa": "3639",
+     "pol": "6121",
+     "org": "00009899",
+     "orj": "0004",
+     "pred": 22000000.0,
+     "zmena": -18170000.0,
+     "po": 3830000.0,
+     "popis": "Úspora - přesun do r. 2026"
+    },
+    {
+     "typ": "V",
+     "odpa": "3639",
+     "pol": "6121",
+     "org": "00009948",
+     "orj": "0004",
+     "pred": 4400000.0,
+     "zmena": -3700000.0,
+     "po": 700000.0,
+     "popis": "Úspora - přesun do r. 2026"
+    },
+    {
+     "typ": "V",
+     "odpa": "3639",
+     "pol": "6121",
+     "org": "00009962",
+     "orj": "0004",
+     "pred": 500000.0,
+     "zmena": 3100000.0,
+     "po": 3600000.0,
+     "popis": "Sanace svahu ul. Palackého za centrem Archa - PD a stavební práce"
+    },
+    {
+     "typ": "V",
+     "odpa": "3639",
+     "pol": "6121",
+     "org": "00009966",
+     "orj": "0004",
+     "pred": 1000000.0,
+     "zmena": -150000.0,
+     "po": 850000.0,
+     "popis": "Participativní rozpočet - Mlžné brány"
+    },
+    {
+     "typ": "V",
+     "odpa": "4359",
+     "pol": "6323",
+     "org": null,
+     "orj": "0005",
+     "pred": 0.0,
+     "zmena": 1500000.0,
+     "po": 1500000.0,
+     "popis": "Investiční dotace - Diakonie ČCE - středisko Vsetín"
+    },
+    {
+     "typ": "F",
+     "odpa": null,
+     "pol": "8115",
+     "org": null,
+     "orj": null,
+     "pred": 149533188.6,
+     "zmena": 10810405.95,
+     "po": 160343594.55,
+     "popis": "Financování"
+    }
+   ]
+  },
+  {
+   "id": "RO-2025-09",
+   "cislo": 9,
+   "organ": "RM",
+   "datum": "2025-06-26",
+   "usneseni": "2/68/RM/2025",
+   "id_dokumenty": 563514,
+   "url": "https://mestovsetin.cz/assets/File.ashx?id_org=18676&id_dokumenty=563514",
+   "hlavni_body": [
+    "ZŠ Trávníky – žákovské šatny (+470 tis.)"
+   ],
+   "bilance": {
+    "prijmy": 0,
+    "vydaje": 0.0,
+    "financovani": 0,
+    "kontrola_P_plus_F_minus_V": 0.0
+   },
+   "radky": [
+    {
+     "typ": "V",
+     "odpa": "6409",
+     "pol": "5901",
+     "org": null,
+     "orj": "0003",
+     "pred": 3384655.67,
+     "zmena": -470000.0,
+     "po": 2914655.67,
+     "popis": "Uvolnění rezervy"
+    },
+    {
+     "typ": "V",
+     "odpa": "3113",
+     "pol": "6351",
+     "org": "25033220",
+     "orj": "0003",
+     "pred": 5657000.0,
+     "zmena": 470000.0,
+     "po": 6127000.0,
+     "popis": "ZŠ Trávníky - investiční příspěvek - rekonstrukce žákovských šaten - navýšení"
+    }
+   ]
+  },
+  {
+   "id": "RO-2025-10",
+   "cislo": 10,
+   "organ": "RM",
+   "datum": "2025-07-14",
+   "usneseni": "16/70/RM/2025",
+   "id_dokumenty": 563738,
+   "url": "https://mestovsetin.cz/assets/File.ashx?id_org=18676&id_dokumenty=563738",
+   "hlavni_body": [
+    "MVK – robotická výuka",
+    "Dar Kayaku Safety Systems Europe",
+    "Odvod ALCEDO – požární schodiště",
+    "OSPOD, pěstounská péče",
+    "Volby do PS ČR",
+    "Cyklostezka Rokytenka II – dotace ZK"
+   ],
+   "bilance": {
+    "prijmy": 1359875.3,
+    "vydaje": 545000.0,
+    "financovani": -814875.3,
+    "kontrola_P_plus_F_minus_V": 0.0
+   },
+   "radky": [
+    {
+     "typ": "P",
+     "odpa": "3421",
+     "pol": "2122",
+     "org": null,
+     "orj": "0003",
+     "pred": 482000.0,
+     "zmena": 795615.3,
+     "po": 1277615.3,
+     "popis": "Nařízený odvod Alcedo - požární schodiště"
+    },
+    {
+     "typ": "P",
+     "odpa": "3792",
+     "pol": "2321",
+     "org": null,
+     "orj": "0003",
+     "pred": 0.0,
+     "zmena": 20000.0,
+     "po": 20000.0,
+     "popis": "Příjem daru Kayaku Safety System"
+    },
+    {
+     "typ": "P",
+     "odpa": null,
+     "pol": "4111",
+     "org": "98071",
+     "orj": "0011",
+     "pred": 820000.0,
+     "zmena": 12500.0,
+     "po": 832500.0,
+     "popis": "Dotace - volby do Poslanecké sněmovny Parlamentu ČR"
+    },
+    {
+     "typ": "P",
+     "odpa": null,
+     "pol": "4116",
+     "org": "34053",
+     "orj": "0003",
+     "pred": 0.0,
+     "zmena": 52000.0,
+     "po": 52000.0,
+     "popis": "MVK - Robotická výuka a rozvoj kreativity"
+    },
+    {
+     "typ": "P",
+     "odpa": null,
+     "pol": "4116",
+     "org": "13010",
+     "orj": "0005",
+     "pred": 2247500.0,
+     "zmena": 44000.0,
+     "po": 2291500.0,
+     "popis": "Zvýšení státního příspěvku na výkon pěstounské péče"
+    },
+    {
+     "typ": "P",
+     "odpa": null,
+     "pol": "4116",
+     "org": "13024",
+     "orj": "0005",
+     "pred": 12084734.88,
+     "zmena": 416500.0,
+     "po": 12501234.88,
+     "popis": "Dotace OSPOD"
+    },
+    {
+     "typ": "P",
+     "odpa": null,
+     "pol": "4222",
+     "org": "00120 00003186",
+     "orj": "0018",
+     "pred": 140000.0,
+     "zmena": 19260.0,
+     "po": 159260.0,
+     "popis": "Dotace Cyklostezka Rokytenka - úsek okolo hasičské zbrojnice"
+    },
+    {
+     "typ": "V",
+     "odpa": "3314",
+     "pol": "5336",
+     "org": "34053 00000400",
+     "orj": "0003",
+     "pred": 0.0,
+     "zmena": 52000.0,
+     "po": 52000.0,
+     "popis": "MVK - Robotická výuka a rozvoj kreativity"
+    },
+    {
+     "typ": "V",
+     "odpa": "3792",
+     "pol": "5139",
+     "org": null,
+     "orj": "0003",
+     "pred": 68000.0,
+     "zmena": 10000.0,
+     "po": 78000.0,
+     "popis": "DPNK - do práce na kole"
+    },
+    {
+     "typ": "V",
+     "odpa": "3792",
+     "pol": "5175",
+     "org": null,
+     "orj": "0003",
+     "pred": 50000.0,
+     "zmena": 10000.0,
+     "po": 60000.0,
+     "popis": "DPNK - do práce na kole"
+    },
+    {
+     "typ": "V",
+     "odpa": "4329",
+     "pol": "5154",
+     "org": "13024",
+     "orj": "0005",
+     "pred": 50000.0,
+     "zmena": 6500.0,
+     "po": 56500.0,
+     "popis": "Dotace OSPOD"
+    },
+    {
+     "typ": "V",
+     "odpa": "4329",
+     "pol": "5901",
+     "org": "13024",
+     "orj": "0005",
+     "pred": 0.0,
+     "zmena": 410000.0,
+     "po": 410000.0,
+     "popis": "Dotace OSPOD"
+    },
+    {
+     "typ": "V",
+     "odpa": "4339",
+     "pol": "5901",
+     "org": "13010",
+     "orj": "0005",
+     "pred": 76000.0,
+     "zmena": 44000.0,
+     "po": 120000.0,
+     "popis": "Zvýšení státního příspěvku na výkon pěstounské péče"
+    },
+    {
+     "typ": "V",
+     "odpa": "6114",
+     "pol": "5021",
+     "org": "98071",
+     "orj": "0011",
+     "pred": 219500.0,
+     "zmena": 12500.0,
+     "po": 232000.0,
+     "popis": "Dotace - volby do Poslanecké sněmovny Parlamentu ČR"
+    },
+    {
+     "typ": "F",
+     "odpa": null,
+     "pol": "8115",
+     "org": null,
+     "orj": null,
+     "pred": 160343594.55,
+     "zmena": -814875.3,
+     "po": 159528719.25,
+     "popis": "Financování"
+    }
+   ]
+  },
+  {
+   "id": "RO-2025-11",
+   "cislo": 11,
+   "organ": "RM",
+   "datum": "2025-08-18",
+   "usneseni": "14/73/RM/2025",
+   "id_dokumenty": 564275,
+   "url": "https://mestovsetin.cz/assets/File.ashx?id_org=18676&id_dokumenty=564275",
+   "hlavni_body": [
+    "Pojistná událost – vrata LCO",
+    "OP JAK – MŠ Trávníky, Jasenka, Na Kopečku",
+    "Vratky Obědy do škol IV.",
+    "Terénní a výkon sociální práce",
+    "TS – oprava ulice Lidická (+1,64 mil.)"
+   ],
+   "bilance": {
+    "prijmy": 1279049.15,
+    "vydaje": 1279049.15,
+    "financovani": 0,
+    "kontrola_P_plus_F_minus_V": 0.0
+   },
+   "radky": [
+    {
+     "typ": "P",
+     "odpa": "3113",
+     "pol": "2229",
+     "org": "00200 00000330",
+     "orj": "0003",
+     "pred": 0.0,
+     "zmena": 43086.0,
+     "po": 43086.0,
+     "popis": "Vratka dotace Obědy do škol IV. - ZŠ Ohrada"
+    },
+    {
+     "typ": "P",
+     "odpa": "3113",
+     "pol": "2229",
+     "org": "00200 00000332",
+     "orj": "0003",
+     "pred": 0.0,
+     "zmena": 37892.0,
+     "po": 37892.0,
+     "popis": "Vratka dotace Obědy do škol IV. - ZŠ Trávníky"
+    },
+    {
+     "typ": "P",
+     "odpa": "3113",
+     "pol": "2229",
+     "org": "00200 00000334",
+     "orj": "0003",
+     "pred": 0.0,
+     "zmena": 20132.0,
+     "po": 20132.0,
+     "popis": "Vratka dotace Obědy do škol IV. - ZŠ Luh"
+    },
+    {
+     "typ": "P",
+     "odpa": "3113",
+     "pol": "2229",
+     "org": "00200 00000342",
+     "orj": "0003",
+     "pred": 0.0,
+     "zmena": 10962.0,
+     "po": 10962.0,
+     "popis": "Vratka dotace Obědy do škol IV. - ZŠ Rokytnice"
+    },
+    {
+     "typ": "P",
+     "odpa": null,
+     "pol": "4116",
+     "org": "143133092 00001307",
+     "orj": "0003",
+     "pred": 0.0,
+     "zmena": 73060.0,
+     "po": 73060.0,
+     "popis": "OP JAK - MŠ Trávníky"
+    },
+    {
+     "typ": "P",
+     "odpa": null,
+     "pol": "4116",
+     "org": "143533092 00001307",
+     "orj": "0003",
+     "pred": 0.0,
+     "zmena": 306940.0,
+     "po": 306940.0,
+     "popis": "OP JAK - MŠ Trávníky"
+    },
+    {
+     "typ": "P",
+     "odpa": null,
+     "pol": "4116",
+     "org": "143133092 00001311",
+     "orj": "0003",
+     "pred": 0.0,
+     "zmena": 62101.0,
+     "po": 62101.0,
+     "popis": "OP JAK - MŠ Jasenka"
+    },
+    {
+     "typ": "P",
+     "odpa": null,
+     "pol": "4116",
+     "org": "143533092 00001311",
+     "orj": "0003",
+     "pred": 0.0,
+     "zmena": 260899.0,
+     "po": 260899.0,
+     "popis": "OP JAK - MŠ Jasenka"
+    },
+    {
+     "typ": "P",
+     "odpa": null,
+     "pol": "4116",
+     "org": "143133092 00001320",
+     "orj": "0003",
+     "pred": 0.0,
+     "zmena": 64821.94,
+     "po": 64821.94,
+     "popis": "OP JAK - MŠ Na Kopečku"
+    },
+    {
+     "typ": "P",
+     "odpa": null,
+     "pol": "4116",
+     "org": "143533092 00001320",
+     "orj": "0003",
+     "pred": 0.0,
+     "zmena": 272330.21,
+     "po": 272330.21,
+     "popis": "OP JAK - MŠ Na Kopečku"
+    },
+    {
+     "typ": "P",
+     "odpa": null,
+     "pol": "4116",
+     "org": "13010",
+     "orj": "0005",
+     "pred": 2291500.0,
+     "zmena": 110000.0,
+     "po": 2401500.0,
+     "popis": "Státní příspěvek na výkon pěstounské péče"
+    },
+    {
+     "typ": "P",
+     "odpa": null,
+     "pol": "4116",
+     "org": "13015",
+     "orj": "0005",
+     "pred": 1605276.0,
+     "zmena": -123175.0,
+     "po": 1482101.0,
+     "popis": "Dotace SR - Výkon sociální práce"
+    },
+    {
+     "typ": "P",
+     "odpa": null,
+     "pol": "4122",
+     "org": "00100",
+     "orj": "0005",
+     "pred": 2060000.0,
+     "zmena": 140000.0,
+     "po": 2200000.0,
+     "popis": "Dotace ZK - Terénní sociální práce"
+    },
+    {
+     "typ": "V",
+     "odpa": "3111",
+     "pol": "5336",
+     "org": "143133092 00001307",
+     "orj": "0003",
+     "pred": 0.0,
+     "zmena": 73060.0,
+     "po": 73060.0,
+     "popis": "OP JAK - MŠ Trávníky"
+    },
+    {
+     "typ": "V",
+     "odpa": "3111",
+     "pol": "5336",
+     "org": "143533092 00001307",
+     "orj": "0003",
+     "pred": 0.0,
+     "zmena": 306940.0,
+     "po": 306940.0,
+     "popis": "OP JAK - MŠ Trávníky"
+    },
+    {
+     "typ": "V",
+     "odpa": "3111",
+     "pol": "5336",
+     "org": "143133092 00001311",
+     "orj": "0003",
+     "pred": 0.0,
+     "zmena": 62101.0,
+     "po": 62101.0,
+     "popis": "OP JAK - MŠ Jasenka"
+    },
+    {
+     "typ": "V",
+     "odpa": "3111",
+     "pol": "5336",
+     "org": "143533092 00001311",
+     "orj": "0003",
+     "pred": 0.0,
+     "zmena": 260899.0,
+     "po": 260899.0,
+     "popis": "OP JAK - MŠ Jasenka"
+    },
+    {
+     "typ": "V",
+     "odpa": "3111",
+     "pol": "5336",
+     "org": "143133092 00001320",
+     "orj": "0003",
+     "pred": 0.0,
+     "zmena": 64821.94,
+     "po": 64821.94,
+     "popis": "OP JAK - MŠ Na Kopečku"
+    },
+    {
+     "typ": "V",
+     "odpa": "3111",
+     "pol": "5336",
+     "org": "143533092 00001320",
+     "orj": "0003",
+     "pred": 0.0,
+     "zmena": 272330.21,
+     "po": 272330.21,
+     "popis": "OP JAK - MŠ Na Kopečku"
+    },
+    {
+     "typ": "V",
+     "odpa": "3639",
+     "pol": "5331",
+     "org": "25175001",
+     "orj": "0017",
+     "pred": 7600000.0,
+     "zmena": 1640000.0,
+     "po": 9240000.0,
+     "popis": "Navýšení účelového příspěvku o opravu ulice Lidická"
+    },
+    {
+     "typ": "V",
+     "odpa": "4311",
+     "pol": "5011",
+     "org": "13015",
+     "orj": "0005",
+     "pred": 1196000.0,
+     "zmena": -91500.0,
+     "po": 1104500.0,
+     "popis": "Dotace SR - Výkon sociální práce"
+    },
+    {
+     "typ": "V",
+     "odpa": "4311",
+     "pol": "5031",
+     "org": "13015",
+     "orj": "0005",
+     "pred": 296608.0,
+     "zmena": -22692.0,
+     "po": 273916.0,
+     "popis": "Dotace SR - Výkon sociální práce"
+    },
+    {
+     "typ": "V",
+     "odpa": "4311",
+     "pol": "5032",
+     "org": "13015",
+     "orj": "0005",
+     "pred": 107640.0,
+     "zmena": -8235.0,
+     "po": 99405.0,
+     "popis": "Dotace SR - Výkon sociální práce"
+    },
+    {
+     "typ": "V",
+     "odpa": "4311",
+     "pol": "5038",
+     "org": "13015",
+     "orj": "0005",
+     "pred": 5028.0,
+     "zmena": -748.0,
+     "po": 4280.0,
+     "popis": "Dotace SR - Výkon sociální práce"
+    },
+    {
+     "typ": "V",
+     "odpa": "4339",
+     "pol": "5901",
+     "org": "13010",
+     "orj": "0005",
+     "pred": 120000.0,
+     "zmena": 110000.0,
+     "po": 230000.0,
+     "popis": "Státní příspěvek na výkon pěstounské péče"
+    },
+    {
+     "typ": "V",
+     "odpa": "4342",
+     "pol": "5011",
+     "org": "00100",
+     "orj": "0005",
+     "pred": 0.0,
+     "zmena": 104500.0,
+     "po": 104500.0,
+     "popis": "Dotace ZK - Terénní sociální práce"
+    },
+    {
+     "typ": "V",
+     "odpa": "4342",
+     "pol": "5031",
+     "org": "00100",
+     "orj": "0005",
+     "pred": 0.0,
+     "zmena": 26100.0,
+     "po": 26100.0,
+     "popis": "Dotace ZK - Terénní sociální práce"
+    },
+    {
+     "typ": "V",
+     "odpa": "4342",
+     "pol": "5032",
+     "org": "00100",
+     "orj": "0005",
+     "pred": 0.0,
+     "zmena": 9400.0,
+     "po": 9400.0,
+     "popis": "Dotace ZK - Terénní sociální práce"
+    },
+    {
+     "typ": "V",
+     "odpa": "6402",
+     "pol": "5366",
+     "org": "00200 00000330",
+     "orj": "0003",
+     "pred": 0.0,
+     "zmena": 43086.0,
+     "po": 43086.0,
+     "popis": "Vratka dotace Obědy do škol IV. - ZŠ Ohrada"
+    },
+    {
+     "typ": "V",
+     "odpa": "6402",
+     "pol": "5366",
+     "org": "00200 00000332",
+     "orj": "0003",
+     "pred": 0.0,
+     "zmena": 37892.0,
+     "po": 37892.0,
+     "popis": "Vratka dotace Obědy do škol IV. - ZŠ Trávníky"
+    },
+    {
+     "typ": "V",
+     "odpa": "6402",
+     "pol": "5366",
+     "org": "00200 00000334",
+     "orj": "0003",
+     "pred": 0.0,
+     "zmena": 20132.0,
+     "po": 20132.0,
+     "popis": "Vratka dotace Obědy do škol IV. - ZŠ Luh"
+    },
+    {
+     "typ": "V",
+     "odpa": "6402",
+     "pol": "5366",
+     "org": "00200 00000342",
+     "orj": "0003",
+     "pred": 0.0,
+     "zmena": 10962.0,
+     "po": 10962.0,
+     "popis": "Vratka dotace Obědy do škol IV. - ZŠ Rokytnice"
+    },
+    {
+     "typ": "V",
+     "odpa": "6409",
+     "pol": "5901",
+     "org": "10000003",
+     "orj": "0001",
+     "pred": 3187902.84,
+     "zmena": -1640000.0,
+     "po": 1547902.84,
+     "popis": "Uvolnění rezervy"
+    }
+   ]
+  },
+  {
+   "id": "RO-2025-12",
+   "cislo": 12,
+   "organ": "RM",
+   "datum": "2025-09-01",
+   "usneseni": "8/74/RM/2025",
+   "id_dokumenty": 564379,
+   "url": "https://mestovsetin.cz/assets/File.ashx?id_org=18676&id_dokumenty=564379",
+   "hlavni_body": [
+    "ZŠ a MŠ Luh – zvýšení příspěvku",
+    "Obědy do škol VII – 4 ZŠ",
+    "MVK – TIC",
+    "Kotlíkové dotace"
+   ],
+   "bilance": {
+    "prijmy": 1178672.0,
+    "vydaje": 1178672.0,
+    "financovani": 0,
+    "kontrola_P_plus_F_minus_V": 0.0
+   },
+   "radky": [
+    {
+     "typ": "P",
+     "odpa": "6171",
+     "pol": "2111",
+     "org": null,
+     "orj": "0018",
+     "pred": 98500.0,
+     "zmena": 15000.0,
+     "po": 113500.0,
+     "popis": "Program Kotlíky Zl. kraj"
+    },
+    {
+     "typ": "P",
+     "odpa": null,
+     "pol": "4122",
+     "org": "144100200 00000330",
+     "orj": "0003",
+     "pred": 0.0,
+     "zmena": 5068.8,
+     "po": 5068.8,
+     "popis": "Obědy do škol ve Zlínském kraji VII"
+    },
+    {
+     "typ": "P",
+     "odpa": null,
+     "pol": "4122",
+     "org": "144500200 00000330",
+     "orj": "0003",
+     "pred": 0.0,
+     "zmena": 45619.2,
+     "po": 45619.2,
+     "popis": "Obědy do škol ve Zlínském kraji VII"
+    },
+    {
+     "typ": "P",
+     "odpa": null,
+     "pol": "4122",
+     "org": "144100200 00000332",
+     "orj": "0003",
+     "pred": 0.0,
+     "zmena": 19123.2,
+     "po": 19123.2,
+     "popis": "Obědy do škol ve Zlínském kraji VII"
+    },
+    {
+     "typ": "P",
+     "odpa": null,
+     "pol": "4122",
+     "org": "144500200 00000332",
+     "orj": "0003",
+     "pred": 0.0,
+     "zmena": 172108.8,
+     "po": 172108.8,
+     "popis": "Obědy do škol ve Zlínském kraji VII"
+    },
+    {
+     "typ": "P",
+     "odpa": null,
+     "pol": "4122",
+     "org": "144100200 00000334",
+     "orj": "0003",
+     "pred": 0.0,
+     "zmena": 43240.8,
+     "po": 43240.8,
+     "popis": "Obědy do škol ve Zlínském kraji VII"
+    },
+    {
+     "typ": "P",
+     "odpa": null,
+     "pol": "4122",
+     "org": "144500200 00000334",
+     "orj": "0003",
+     "pred": 0.0,
+     "zmena": 389167.2,
+     "po": 389167.2,
+     "popis": "Obědy do škol ve Zlínském kraji VII"
+    },
+    {
+     "typ": "P",
+     "odpa": null,
+     "pol": "4122",
+     "org": "144100200 00000342",
+     "orj": "0003",
+     "pred": 0.0,
+     "zmena": 27014.4,
+     "po": 27014.4,
+     "popis": "Obědy do škol ve Zlínském kraji VII"
+    },
+    {
+     "typ": "P",
+     "odpa": null,
+     "pol": "4122",
+     "org": "144500200 00000342",
+     "orj": "0003",
+     "pred": 0.0,
+     "zmena": 243129.6,
+     "po": 243129.6,
+     "popis": "Obědy do škol ve Zlínském kraji VII"
+    },
+    {
+     "typ": "P",
+     "odpa": null,
+     "pol": "4122",
+     "org": "00120",
+     "orj": "0003",
+     "pred": 27500.0,
+     "zmena": 219200.0,
+     "po": 246700.0,
+     "popis": "Dotace ZK - MVK - podpora činnosti turistického informačního centra"
+    },
+    {
+     "typ": "V",
+     "odpa": "3113",
+     "pol": "5331",
+     "org": "25130502",
+     "orj": "0003",
+     "pred": 280625.0,
+     "zmena": 208000.0,
+     "po": 488625.0,
+     "popis": "Zvýšení neinvestičního účelového příspěvku - ZŠ a MŠ Luh"
+    },
+    {
+     "typ": "V",
+     "odpa": "3113",
+     "pol": "5336",
+     "org": "144100200 00000330",
+     "orj": "0003",
+     "pred": 0.0,
+     "zmena": 5068.8,
+     "po": 5068.8,
+     "popis": "Obědy do škol ve Zlínském kraji VII"
+    },
+    {
+     "typ": "V",
+     "odpa": "3113",
+     "pol": "5336",
+     "org": "144500200 00000330",
+     "orj": "0003",
+     "pred": 0.0,
+     "zmena": 45619.2,
+     "po": 45619.2,
+     "popis": "Obědy do škol ve Zlínském kraji VII"
+    },
+    {
+     "typ": "V",
+     "odpa": "3113",
+     "pol": "5336",
+     "org": "144100200 00000332",
+     "orj": "0003",
+     "pred": 0.0,
+     "zmena": 19123.2,
+     "po": 19123.2,
+     "popis": "Obědy do škol ve Zlínském kraji VII"
+    },
+    {
+     "typ": "V",
+     "odpa": "3113",
+     "pol": "5336",
+     "org": "144500200 00000332",
+     "orj": "0003",
+     "pred": 0.0,
+     "zmena": 172108.8,
+     "po": 172108.8,
+     "popis": "Obědy do škol ve Zlínském kraji VII"
+    },
+    {
+     "typ": "V",
+     "odpa": "3113",
+     "pol": "5336",
+     "org": "144100200 00000334",
+     "orj": "0003",
+     "pred": 0.0,
+     "zmena": 43240.8,
+     "po": 43240.8,
+     "popis": "Obědy do škol ve Zlínském kraji VII"
+    },
+    {
+     "typ": "V",
+     "odpa": "3113",
+     "pol": "5336",
+     "org": "144500200 00000334",
+     "orj": "0003",
+     "pred": 0.0,
+     "zmena": 389167.2,
+     "po": 389167.2,
+     "popis": "Obědy do škol ve Zlínském kraji VII"
+    },
+    {
+     "typ": "V",
+     "odpa": "3113",
+     "pol": "5336",
+     "org": "144100200 00000342",
+     "orj": "0003",
+     "pred": 0.0,
+     "zmena": 27014.4,
+     "po": 27014.4,
+     "popis": "Obědy do škol ve Zlínském kraji VII"
+    },
+    {
+     "typ": "V",
+     "odpa": "3113",
+     "pol": "5336",
+     "org": "144500200 00000342",
+     "orj": "0003",
+     "pred": 0.0,
+     "zmena": 243129.6,
+     "po": 243129.6,
+     "popis": "Obědy do škol ve Zlínském kraji VII"
+    },
+    {
+     "typ": "V",
+     "odpa": "3314",
+     "pol": "5336",
+     "org": "00120 00000400",
+     "orj": "0003",
+     "pred": 0.0,
+     "zmena": 219200.0,
+     "po": 219200.0,
+     "popis": "Dotace ZK - MVK - podpora činnosti turistického informačního centra"
+    },
+    {
+     "typ": "V",
+     "odpa": "6171",
+     "pol": "5021",
+     "org": "18000004",
+     "orj": "0018",
+     "pred": 98500.0,
+     "zmena": 15000.0,
+     "po": 113500.0,
+     "popis": "Program Kotlíky Zl. kraj"
+    },
+    {
+     "typ": "V",
+     "odpa": "6409",
+     "pol": "5901",
+     "org": null,
+     "orj": "0003",
+     "pred": 2914655.67,
+     "zmena": -208000.0,
+     "po": 2706655.67,
+     "popis": "Uvolnění rezervy"
+    }
+   ]
+  },
+  {
+   "id": "RO-2025-13",
+   "cislo": 13,
+   "organ": "ZM",
+   "datum": "2025-09-15",
+   "usneseni": "12,31/20/ZM/2025",
+   "id_dokumenty": 564804,
+   "url": "https://mestovsetin.cz/assets/File.ashx?id_org=18676&id_dokumenty=564804",
+   "hlavni_body": [
+    "Přednádražní prostor I.A, I.B – stavební práce (+20 mil. → 80 mil.)",
+    "Technická studie nové lávky přes Bečvu v Panské zahradě (800 tis.)",
+    "Vánoční osvětlení – investiční příspěvek TS (5 mil.)",
+    "Hokejbalový klub Vsetín – dotace",
+    "Sdílená kola – změna (Cyklostezka Bečva)",
+    "Zimní stadion – osvětlení (2,2 mil.)",
+    "Obec přátelská rodině a seniorům 2025",
+    "TSMV – provozní příspěvek (+1,7 mil.)",
+    "Fond sociálních služeb"
+   ],
+   "bilance": {
+    "prijmy": 1588900.0,
+    "vydaje": 31033915.0,
+    "financovani": 29445015.0,
+    "kontrola_P_plus_F_minus_V": 0.0
+   },
+   "radky": [
+    {
+     "typ": "P",
+     "odpa": "3631",
+     "pol": "3121",
+     "org": "00009936",
+     "orj": "0018",
+     "pred": 0.0,
+     "zmena": 120000.0,
+     "po": 120000.0,
+     "popis": "Veřejné osvětlení přechodů - dotace z nadace ČEZ"
+    },
+    {
+     "typ": "P",
+     "odpa": null,
+     "pol": "4116",
+     "org": "34002",
+     "orj": "0003",
+     "pred": 0.0,
+     "zmena": 182000.0,
+     "po": 182000.0,
+     "popis": "Účelový finanční příspěvek - oprava"
+    },
+    {
+     "typ": "P",
+     "odpa": null,
+     "pol": "4116",
+     "org": "13025",
+     "orj": "0005",
+     "pred": 0.0,
+     "zmena": 666820.0,
+     "po": 666820.0,
+     "popis": "Dotace Obec přátelská rodině a seniorům 2025"
+    },
+    {
+     "typ": "P",
+     "odpa": null,
+     "pol": "4121",
+     "org": "00003058",
+     "orj": "0032",
+     "pred": 38550.0,
+     "zmena": 38050.0,
+     "po": 76600.0,
+     "popis": "Fond sociálních služeb"
+    },
+    {
+     "typ": "P",
+     "odpa": null,
+     "pol": "4129",
+     "org": "00003067",
+     "orj": "0032",
+     "pred": 652450.0,
+     "zmena": -33550.0,
+     "po": 618900.0,
+     "popis": "Fond sociálních služeb"
+    },
+    {
+     "typ": "P",
+     "odpa": null,
+     "pol": "4129",
+     "org": "00003068",
+     "orj": "0032",
+     "pred": 0.0,
+     "zmena": 615580.0,
+     "po": 615580.0,
+     "popis": "Fond sociálních služeb"
+    },
+    {
+     "typ": "V",
+     "odpa": "2212",
+     "pol": "5171",
+     "org": "00009939",
+     "orj": "0004",
+     "pred": 7000000.0,
+     "zmena": -2300000.0,
+     "po": 4700000.0,
+     "popis": "Nerealizovaná investice - přesun do roku 2026"
+    },
+    {
+     "typ": "V",
+     "odpa": "2219",
+     "pol": "5222",
+     "org": null,
+     "orj": "0002",
+     "pred": 1350000.0,
+     "zmena": -1350000.0,
+     "po": 0.0,
+     "popis": "Sdílená kola"
+    },
+    {
+     "typ": "V",
+     "odpa": "3314",
+     "pol": "5171",
+     "org": "00009974",
+     "orj": "0004",
+     "pred": 0.0,
+     "zmena": 1000000.0,
+     "po": 1000000.0,
+     "popis": "MVK - oprava po zatečení"
+    },
+    {
+     "typ": "V",
+     "odpa": "3412",
+     "pol": "5171",
+     "org": "25034121",
+     "orj": "0002",
+     "pred": 985000.0,
+     "zmena": 608000.0,
+     "po": 1593000.0,
+     "popis": "Průběžné opravy sportovišť ve správě Vsetínské sportovní"
+    },
+    {
+     "typ": "V",
+     "odpa": "3412",
+     "pol": "5171",
+     "org": "25341218",
+     "orj": "0002",
+     "pred": 0.0,
+     "zmena": 2200000.0,
+     "po": 2200000.0,
+     "popis": "Oprava osvětlení nad ledovou plochou zimního stadionu Lapač"
+    },
+    {
+     "typ": "V",
+     "odpa": "3419",
+     "pol": "5222",
+     "org": null,
+     "orj": "0003",
+     "pred": 19859000.0,
+     "zmena": 70000.0,
+     "po": 19929000.0,
+     "popis": "Dotace Hokejbalový klub - plastový sportovní povrch hřiště"
+    },
+    {
+     "typ": "V",
+     "odpa": "3429",
+     "pol": "5222",
+     "org": null,
+     "orj": "0003",
+     "pred": 0.0,
+     "zmena": 827015.0,
+     "po": 827015.0,
+     "popis": "Sdílená kola"
+    },
+    {
+     "typ": "V",
+     "odpa": "3639",
+     "pol": "5331",
+     "org": "01736391",
+     "orj": "0017",
+     "pred": 88934263.0,
+     "zmena": 1700000.0,
+     "po": 90634263.0,
+     "popis": "Zvýšení provozního příspěvku"
+    },
+    {
+     "typ": "V",
+     "odpa": "3639",
+     "pol": "5331",
+     "org": "25175001",
+     "orj": "0017",
+     "pred": 9240000.0,
+     "zmena": 1700000.0,
+     "po": 10940000.0,
+     "popis": "Zvýšení příspěvku - oprava 2 cest Červenka"
+    },
+    {
+     "typ": "V",
+     "odpa": "3639",
+     "pol": "5331",
+     "org": "25175003",
+     "orj": "0017",
+     "pred": 2400000.0,
+     "zmena": -1280000.0,
+     "po": 1120000.0,
+     "popis": "Úspora akce"
+    },
+    {
+     "typ": "V",
+     "odpa": "4349",
+     "pol": "5021",
+     "org": "13025",
+     "orj": "0005",
+     "pred": 0.0,
+     "zmena": 245300.0,
+     "po": 245300.0,
+     "popis": "Dotace Obec přátelská rodině a seniorům 2025"
+    },
+    {
+     "typ": "V",
+     "odpa": "4349",
+     "pol": "5031",
+     "org": "13025",
+     "orj": "0005",
+     "pred": 0.0,
+     "zmena": 33800.0,
+     "po": 33800.0,
+     "popis": "Dotace Obec přátelská rodině a seniorům 2025"
+    },
+    {
+     "typ": "V",
+     "odpa": "4349",
+     "pol": "5032",
+     "org": "13025",
+     "orj": "0005",
+     "pred": 0.0,
+     "zmena": 23660.0,
+     "po": 23660.0,
+     "popis": "Dotace Obec přátelská rodině a seniorům 2025"
+    },
+    {
+     "typ": "V",
+     "odpa": "4349",
+     "pol": "5038",
+     "org": "13025",
+     "orj": "0005",
+     "pred": 0.0,
+     "zmena": 1000.0,
+     "po": 1000.0,
+     "popis": "Dotace Obec přátelská rodině a seniorům 2025"
+    },
+    {
+     "typ": "V",
+     "odpa": "4349",
+     "pol": "5137",
+     "org": "13025",
+     "orj": "0005",
+     "pred": 0.0,
+     "zmena": 144880.0,
+     "po": 144880.0,
+     "popis": "Dotace Obec přátelská rodině a seniorům 2025"
+    },
+    {
+     "typ": "V",
+     "odpa": "4349",
+     "pol": "5139",
+     "org": "13025",
+     "orj": "0005",
+     "pred": 0.0,
+     "zmena": 35000.0,
+     "po": 35000.0,
+     "popis": "Dotace Obec přátelská rodině a seniorům 2025"
+    },
+    {
+     "typ": "V",
+     "odpa": "4349",
+     "pol": "5164",
+     "org": "13025",
+     "orj": "0005",
+     "pred": 0.0,
+     "zmena": 87800.0,
+     "po": 87800.0,
+     "popis": "Dotace Obec přátelská rodině a seniorům 2025"
+    },
+    {
+     "typ": "V",
+     "odpa": "4349",
+     "pol": "5169",
+     "org": "13025",
+     "orj": "0005",
+     "pred": 0.0,
+     "zmena": 95380.0,
+     "po": 95380.0,
+     "popis": "Dotace Obec přátelská rodině a seniorům 2025"
+    },
+    {
+     "typ": "V",
+     "odpa": "4359",
+     "pol": "5901",
+     "org": null,
+     "orj": "0032",
+     "pred": 689000.0,
+     "zmena": 620080.0,
+     "po": 1309080.0,
+     "popis": "Fond sociálních služeb"
+    },
+    {
+     "typ": "V",
+     "odpa": "6409",
+     "pol": "5901",
+     "org": null,
+     "orj": "0001",
+     "pred": 107913.0,
+     "zmena": 500000.0,
+     "po": 607913.0,
+     "popis": "Navýšení účelové rezervy na dotace v kompetenci Rady města Vsetín"
+    },
+    {
+     "typ": "V",
+     "odpa": "2212",
+     "pol": "6121",
+     "org": "00009844",
+     "orj": "0004",
+     "pred": 6200000.0,
+     "zmena": 150000.0,
+     "po": 6350000.0,
+     "popis": "Zanádražní prostor - věcná břemena"
+    },
+    {
+     "typ": "V",
+     "odpa": "2212",
+     "pol": "6121",
+     "org": "00009975",
+     "orj": "0004",
+     "pred": 0.0,
+     "zmena": 800000.0,
+     "po": 800000.0,
+     "popis": "Technická studie lávky přes Bečvu v Panské zahradě"
+    },
+    {
+     "typ": "V",
+     "odpa": "2219",
+     "pol": "6122",
+     "org": null,
+     "orj": "0002",
+     "pred": 0.0,
+     "zmena": 200000.0,
+     "po": 200000.0,
+     "popis": "Informační radar v lokalitě Luh"
+    },
+    {
+     "typ": "V",
+     "odpa": "3412",
+     "pol": "6121",
+     "org": "25341211",
+     "orj": "0002",
+     "pred": 150000.0,
+     "zmena": -108000.0,
+     "po": 42000.0,
+     "popis": "Změna účelu využití finančních prostředků - Vsetínská sportovní"
+    },
+    {
+     "typ": "V",
+     "odpa": "3412",
+     "pol": "6122",
+     "org": "25341214",
+     "orj": "0002",
+     "pred": 500000.0,
+     "zmena": -500000.0,
+     "po": 0.0,
+     "popis": "Změna účelu využití finančních prostředků - Vsetínská sportovní"
+    },
+    {
+     "typ": "V",
+     "odpa": "3419",
+     "pol": "6322",
+     "org": null,
+     "orj": "0003",
+     "pred": 0.0,
+     "zmena": 180000.0,
+     "po": 180000.0,
+     "popis": "Dotace Hokejbalový klub - plastový sportovní povrch hřiště"
+    },
+    {
+     "typ": "V",
+     "odpa": "3631",
+     "pol": "6122",
+     "org": "25363101",
+     "orj": "0017",
+     "pred": 0.0,
+     "zmena": 5000000.0,
+     "po": 5000000.0,
+     "popis": "Účelový investiční příspěvek - vánoční osvětlení"
+    },
+    {
+     "typ": "V",
+     "odpa": "3639",
+     "pol": "6121",
+     "org": "00009765",
+     "orj": "0004",
+     "pred": 60000000.0,
+     "zmena": 20000000.0,
+     "po": 80000000.0,
+     "popis": "Přednádražní prostor - stavební práce"
+    },
+    {
+     "typ": "V",
+     "odpa": "3639",
+     "pol": "6121",
+     "org": "00009906",
+     "orj": "0004",
+     "pred": 0.0,
+     "zmena": 350000.0,
+     "po": 350000.0,
+     "popis": "Revitalizace u ZŠ Trávníky a čp. 1816 - PD"
+    },
+    {
+     "typ": "F",
+     "odpa": null,
+     "pol": "8115",
+     "org": null,
+     "orj": null,
+     "pred": 159528719.25,
+     "zmena": 29445015.0,
+     "po": 188973734.25,
+     "popis": "Financování"
+    }
+   ]
+  },
+  {
+   "id": "RO-2025-14",
+   "cislo": 14,
+   "organ": "RM",
+   "datum": "2025-09-15",
+   "usneseni": "28/75/RM/2025",
+   "id_dokumenty": 564664,
+   "url": "https://mestovsetin.cz/assets/File.ashx?id_org=18676&id_dokumenty=564664",
+   "hlavni_body": [
+    "ZŠ Trávníky – žákovské šatny (+640 tis.)"
+   ],
+   "bilance": {
+    "prijmy": 0,
+    "vydaje": 0.0,
+    "financovani": 0,
+    "kontrola_P_plus_F_minus_V": 0.0
+   },
+   "radky": [
+    {
+     "typ": "V",
+     "odpa": "6409",
+     "pol": "5901",
+     "org": null,
+     "orj": "0003",
+     "pred": 2706655.67,
+     "zmena": -640000.0,
+     "po": 2066655.67,
+     "popis": "Uvolnění rezervy"
+    },
+    {
+     "typ": "V",
+     "odpa": "3113",
+     "pol": "6351",
+     "org": "25033220",
+     "orj": "0003",
+     "pred": 6127000.0,
+     "zmena": 640000.0,
+     "po": 6767000.0,
+     "popis": "Zvýšení účelového investičního příspěvku - rekonstrukce žákovských šaten"
+    }
+   ]
+  },
+  {
+   "id": "RO-2025-15",
+   "cislo": 15,
+   "organ": "RM",
+   "datum": "2025-09-24",
+   "usneseni": "2/77/RM/2025",
+   "id_dokumenty": 564781,
+   "url": "https://mestovsetin.cz/assets/File.ashx?id_org=18676&id_dokumenty=564781",
+   "hlavni_body": [
+    "OP JAK – ALCEDO, ZŠ Luh",
+    "Náhrada LHO 3 136 320 Kč (vazba na RO 2/2026 – vratka 1 393 920 Kč)",
+    "JSDH – povodně"
+   ],
+   "bilance": {
+    "prijmy": 5920186.7,
+    "vydaje": 5849886.7,
+    "financovani": -70300.0,
+    "kontrola_P_plus_F_minus_V": 0.0
+   },
+   "radky": [
+    {
+     "typ": "P",
+     "odpa": null,
+     "pol": "4116",
+     "org": "143133092 00000329",
+     "orj": "0003",
+     "pred": 0.0,
+     "zmena": 159216.93,
+     "po": 159216.93,
+     "popis": "OP JAK - Alcedo"
+    },
+    {
+     "typ": "P",
+     "odpa": null,
+     "pol": "4116",
+     "org": "143533092 00000329",
+     "orj": "0003",
+     "pred": 0.0,
+     "zmena": 668902.83,
+     "po": 668902.83,
+     "popis": "OP JAK - Alcedo"
+    },
+    {
+     "typ": "P",
+     "odpa": null,
+     "pol": "4116",
+     "org": "143133092 00000334",
+     "orj": "0003",
+     "pred": 0.0,
+     "zmena": 362501.98,
+     "po": 362501.98,
+     "popis": "OP JAK - ZŠ a MŠ Luh"
+    },
+    {
+     "typ": "P",
+     "odpa": null,
+     "pol": "4116",
+     "org": "143533092 00000334",
+     "orj": "0003",
+     "pred": 0.0,
+     "zmena": 1522944.96,
+     "po": 1522944.96,
+     "popis": "OP JAK - ZŠ a MŠ Luh"
+    },
+    {
+     "typ": "P",
+     "odpa": null,
+     "pol": "4116",
+     "org": "14022",
+     "orj": "0007",
+     "pred": 0.0,
+     "zmena": 70300.0,
+     "po": 70300.0,
+     "popis": "Příjem dotace - výdaje spojené se zásahem JSDH při povodních"
+    },
+    {
+     "typ": "P",
+     "odpa": null,
+     "pol": "4171",
+     "org": "29005",
+     "orj": "0007",
+     "pred": 0.0,
+     "zmena": 3136320.0,
+     "po": 3136320.0,
+     "popis": "Náhrada nákladů za zpracování lesních hospodářských osnov"
+    },
+    {
+     "typ": "V",
+     "odpa": "1036",
+     "pol": "5169",
+     "org": "29005",
+     "orj": "0007",
+     "pred": 0.0,
+     "zmena": 3136320.0,
+     "po": 3136320.0,
+     "popis": "Náhrada nákladů na zpracování lesních hospodářských osnov"
+    },
+    {
+     "typ": "V",
+     "odpa": "3113",
+     "pol": "5336",
+     "org": "143133092 00000334",
+     "orj": "0003",
+     "pred": 0.0,
+     "zmena": 362501.98,
+     "po": 362501.98,
+     "popis": "OP JAK - ZŠ a MŠ Luh"
+    },
+    {
+     "typ": "V",
+     "odpa": "3113",
+     "pol": "5336",
+     "org": "143533092 00000334",
+     "orj": "0003",
+     "pred": 0.0,
+     "zmena": 1522944.96,
+     "po": 1522944.96,
+     "popis": "OP JAK - ZŠ a MŠ Luh"
+    },
+    {
+     "typ": "V",
+     "odpa": "3421",
+     "pol": "5336",
+     "org": "143133092 00000329",
+     "orj": "0003",
+     "pred": 0.0,
+     "zmena": 159216.93,
+     "po": 159216.93,
+     "popis": "OP JAK - Alcedo"
+    },
+    {
+     "typ": "V",
+     "odpa": "3421",
+     "pol": "5336",
+     "org": "143533092 00000329",
+     "orj": "0003",
+     "pred": 0.0,
+     "zmena": 668902.83,
+     "po": 668902.83,
+     "popis": "OP JAK - Alcedo"
+    },
+    {
+     "typ": "F",
+     "odpa": null,
+     "pol": "8115",
+     "org": null,
+     "orj": null,
+     "pred": 188975734.25,
+     "zmena": -70300.0,
+     "po": 188905434.25,
+     "popis": "Financování"
+    }
+   ]
+  },
+  {
+   "id": "RO-2025-16",
+   "cislo": 16,
+   "organ": "RM",
+   "datum": "2025-10-13",
+   "usneseni": "10,11/79/RM/2025",
+   "id_dokumenty": 565157,
+   "url": "https://mestovsetin.cz/assets/File.ashx?id_org=18676&id_dokumenty=565157",
+   "hlavni_body": [
+    "Příspěvky ZŠ Sychrov, Rokytnice, MŠ Jasenka, Sychrov",
+    "MVK – nájem",
+    "JSDH – odměny",
+    "Prevence Vsetín II",
+    "Zanádražní prostor – dotace ZK (−186 tis.)"
+   ],
+   "bilance": {
+    "prijmy": -124176.16,
+    "vydaje": -110776.16,
+    "financovani": 13400.0,
+    "kontrola_P_plus_F_minus_V": 0.0
+   },
+   "radky": [
+    {
+     "typ": "P",
+     "odpa": null,
+     "pol": "4116",
+     "org": "14022",
+     "orj": "0007",
+     "pred": 70300.0,
+     "zmena": 172600.0,
+     "po": 242900.0,
+     "popis": "Neinvestiční dotace ze státního rozpočtu - odměny členů JSDH"
+    },
+    {
+     "typ": "P",
+     "odpa": null,
+     "pol": "4116",
+     "org": "144113021",
+     "orj": "0010",
+     "pred": 302385.0,
+     "zmena": -16327.51,
+     "po": 286057.49,
+     "popis": "Neinvestiční dotace ze státního rozpočtu - Projekt Prevence Vsetín II"
+    },
+    {
+     "typ": "P",
+     "odpa": null,
+     "pol": "4116",
+     "org": "144513021",
+     "orj": "0010",
+     "pred": 1749226.0,
+     "zmena": -94448.65,
+     "po": 1654777.35,
+     "popis": "Neinvestiční dotace ze státního rozpočtu - Projekt Prevence Vsetín II"
+    },
+    {
+     "typ": "P",
+     "odpa": null,
+     "pol": "4222",
+     "org": "00120 00009844",
+     "orj": "0018",
+     "pred": 24263000.0,
+     "zmena": -186000.0,
+     "po": 24077000.0,
+     "popis": "Investiční dotace ZK - Zanádražní prostor Vsetín"
+    },
+    {
+     "typ": "V",
+     "odpa": "3111",
+     "pol": "5331",
+     "org": "25131103",
+     "orj": "0003",
+     "pred": 0.0,
+     "zmena": 67854.0,
+     "po": 67854.0,
+     "popis": "MŠ Jasenka - nákup počítače a notebooku"
+    },
+    {
+     "typ": "V",
+     "odpa": "3111",
+     "pol": "5331",
+     "org": "25131803",
+     "orj": "0003",
+     "pred": 0.0,
+     "zmena": 70100.0,
+     "po": 70100.0,
+     "popis": "MŠ Sychrov - nákup dvou počítačů"
+    },
+    {
+     "typ": "V",
+     "odpa": "3113",
+     "pol": "5331",
+     "org": "25033504",
+     "orj": "0003",
+     "pred": 0.0,
+     "zmena": 165000.0,
+     "po": 165000.0,
+     "popis": "ZŠ Sychrov - neinvestiční účelový příspěvek - oprava střechy"
+    },
+    {
+     "typ": "V",
+     "odpa": "3113",
+     "pol": "5331",
+     "org": "25034205",
+     "orj": "0003",
+     "pred": 0.0,
+     "zmena": 52284.0,
+     "po": 52284.0,
+     "popis": "ZŠ Rokytnice - havárie bojleru"
+    },
+    {
+     "typ": "V",
+     "odpa": "3113",
+     "pol": "5331",
+     "org": "25034206",
+     "orj": "0003",
+     "pred": 0.0,
+     "zmena": 68728.0,
+     "po": 68728.0,
+     "popis": "ZŠ Rokytnice - výměna 2 ks dataprojektoru"
+    },
+    {
+     "typ": "V",
+     "odpa": "3314",
+     "pol": "5331",
+     "org": "00040001",
+     "orj": "0003",
+     "pred": 19729000.0,
+     "zmena": 120000.0,
+     "po": 19849000.0,
+     "popis": "MVK - zvýšení provozního příspěvku - nájem říjen"
+    },
+    {
+     "typ": "V",
+     "odpa": "4349",
+     "pol": "5901",
+     "org": null,
+     "orj": "0010",
+     "pred": 1179494.76,
+     "zmena": -110776.16,
+     "po": 1068718.6,
+     "popis": "Neinvestiční dotace ze státního rozpočtu - Projekt Prevence Vsetín II"
+    },
+    {
+     "typ": "V",
+     "odpa": "6409",
+     "pol": "5901",
+     "org": null,
+     "orj": "0003",
+     "pred": 2066655.67,
+     "zmena": -543966.0,
+     "po": 1522689.67,
+     "popis": "Uvolnění rezervy"
+    },
+    {
+     "typ": "F",
+     "odpa": null,
+     "pol": "8115",
+     "org": null,
+     "orj": null,
+     "pred": 188903434.25,
+     "zmena": 13400.0,
+     "po": 188916834.25,
+     "popis": "Financování"
+    }
+   ]
+  },
+  {
+   "id": "RO-2025-17",
+   "cislo": 17,
+   "organ": "RM",
+   "datum": "2025-10-20",
+   "usneseni": "2/80/RM/2025",
+   "id_dokumenty": 565158,
+   "url": "https://mestovsetin.cz/assets/File.ashx?id_org=18676&id_dokumenty=565158",
+   "hlavni_body": [
+    "NZÚ Light – energetická osvěta (+742 tis.)"
+   ],
+   "bilance": {
+    "prijmy": 742000.0,
+    "vydaje": 742000.0,
+    "financovani": 0,
+    "kontrola_P_plus_F_minus_V": 0.0
+   },
+   "radky": [
+    {
+     "typ": "P",
+     "odpa": null,
+     "pol": "4113",
+     "org": "170590008 18000002",
+     "orj": "0018",
+     "pred": 1026000.0,
+     "zmena": 742000.0,
+     "po": 1768000.0,
+     "popis": "Energetická osvěta a poradenství - NZÚ Light"
+    },
+    {
+     "typ": "V",
+     "odpa": "6171",
+     "pol": "5166",
+     "org": "170590008 18000002",
+     "orj": "0018",
+     "pred": 1026000.0,
+     "zmena": 742000.0,
+     "po": 1768000.0,
+     "popis": "Energetická osvěta a poradenství - NZÚ Light"
+    }
+   ]
+  },
+  {
+   "id": "RO-2025-18",
+   "cislo": 18,
+   "organ": "RM",
+   "datum": "2025-10-27",
+   "usneseni": "6/81/RM/2025",
+   "id_dokumenty": 565406,
+   "url": "https://mestovsetin.cz/assets/File.ashx?id_org=18676&id_dokumenty=565406",
+   "hlavni_body": [
+    "Příspěvky MŠ Na Kopečku, ZŠ Sychrov, MŠ Rokytnice"
+   ],
+   "bilance": {
+    "prijmy": 45793.0,
+    "vydaje": 45793.0,
+    "financovani": 0,
+    "kontrola_P_plus_F_minus_V": 0.0
+   },
+   "radky": [
+    {
+     "typ": "P",
+     "odpa": "3113",
+     "pol": "2322",
+     "org": null,
+     "orj": "0001",
+     "pred": 0.0,
+     "zmena": 45793.0,
+     "po": 45793.0,
+     "popis": "Přijaté pojistné plnění - ZŠ Sychrov"
+    },
+    {
+     "typ": "V",
+     "odpa": "3111",
+     "pol": "5331",
+     "org": "25131703",
+     "orj": "0003",
+     "pred": 0.0,
+     "zmena": 26000.0,
+     "po": 26000.0,
+     "popis": "MŠ Rokytnice - nákup pračky"
+    },
+    {
+     "typ": "V",
+     "odpa": "3111",
+     "pol": "5331",
+     "org": "25132002",
+     "orj": "0003",
+     "pred": 0.0,
+     "zmena": 33270.0,
+     "po": 33270.0,
+     "popis": "MŠ Na Kopečku - nákup počítače"
+    },
+    {
+     "typ": "V",
+     "odpa": "3113",
+     "pol": "5331",
+     "org": "00033501",
+     "orj": "0003",
+     "pred": 1716000.0,
+     "zmena": 45793.0,
+     "po": 1761793.0,
+     "popis": "ZŠ Sychrov - pojistné plnění"
+    },
+    {
+     "typ": "V",
+     "odpa": "3113",
+     "pol": "5331",
+     "org": "25033505",
+     "orj": "0003",
+     "pred": 0.0,
+     "zmena": 33270.0,
+     "po": 33270.0,
+     "popis": "ZŠ Sychrov - nákup počítače"
+    },
+    {
+     "typ": "V",
+     "odpa": "6409",
+     "pol": "5901",
+     "org": null,
+     "orj": "0003",
+     "pred": 1522689.67,
+     "zmena": -92540.0,
+     "po": 1430149.67,
+     "popis": "Uvolnění rezervy"
+    }
+   ]
+  },
+  {
+   "id": "RO-2025-19",
+   "cislo": 19,
+   "organ": "ZM",
+   "datum": "2025-11-10",
+   "usneseni": "11/21/ZM/2025",
+   "id_dokumenty": 565757,
+   "url": "https://mestovsetin.cz/assets/File.ashx?id_org=18676&id_dokumenty=565757",
+   "hlavni_body": [
+    "Mimořádný členský příspěvek Energetickému společenství Vsetín, z.s. (200 tis.)",
+    "Garáž SDH Vsetín-město – PD",
+    "Parkování MK Hlásenka – PD",
+    "VO MK Rokytnice",
+    "Úsekové měření → Valašská Polanka"
+   ],
+   "bilance": {
+    "prijmy": 0,
+    "vydaje": 703000.0,
+    "financovani": 703000.0,
+    "kontrola_P_plus_F_minus_V": 0.0
+   },
+   "radky": [
+    {
+     "typ": "V",
+     "odpa": "2212",
+     "pol": "5171",
+     "org": "00009939",
+     "orj": "0004",
+     "pred": 4700000.0,
+     "zmena": -510000.0,
+     "po": 4190000.0,
+     "popis": "Nerealizováno"
+    },
+    {
+     "typ": "V",
+     "odpa": "2212",
+     "pol": "5171",
+     "org": "00009946",
+     "orj": "0004",
+     "pred": 6898000.0,
+     "zmena": -600000.0,
+     "po": 6298000.0,
+     "popis": "Změna rozpočtového zatřídění MK Rokytnice"
+    },
+    {
+     "typ": "V",
+     "odpa": "3613",
+     "pol": "5179",
+     "org": null,
+     "orj": "0002",
+     "pred": 0.0,
+     "zmena": 200000.0,
+     "po": 200000.0,
+     "popis": "Poskytnutí mimořádného členského příspěvku Energetickému společenství Vsetín, z.s."
+    },
+    {
+     "typ": "V",
+     "odpa": "2219",
+     "pol": "6121",
+     "org": "00009978",
+     "orj": "0004",
+     "pred": 0.0,
+     "zmena": 360000.0,
+     "po": 360000.0,
+     "popis": "Parkování MK Hlásenka - PD"
+    },
+    {
+     "typ": "V",
+     "odpa": "3631",
+     "pol": "6121",
+     "org": "00009946",
+     "orj": "0004",
+     "pred": 0.0,
+     "zmena": 600000.0,
+     "po": 600000.0,
+     "popis": "Veřejné osvětlení MK Rokytnice"
+    },
+    {
+     "typ": "V",
+     "odpa": "5311",
+     "pol": "6122",
+     "org": null,
+     "orj": "0010",
+     "pred": 80000.0,
+     "zmena": 503000.0,
+     "po": 583000.0,
+     "popis": "Přesun dopravních systémů úsekového měření do obce Valašská Polanka"
+    },
+    {
+     "typ": "V",
+     "odpa": "5512",
+     "pol": "6121",
+     "org": "00009977",
+     "orj": "0004",
+     "pred": 0.0,
+     "zmena": 150000.0,
+     "po": 150000.0,
+     "popis": "Stavební úpravy garáže - SDH Vsetín - město"
+    },
+    {
+     "typ": "F",
+     "odpa": null,
+     "pol": "8115",
+     "org": null,
+     "orj": null,
+     "pred": 188916834.25,
+     "zmena": 703000.0,
+     "po": 189619834.25,
+     "popis": "Financování"
+    }
+   ]
+  },
+  {
+   "id": "RO-2025-20",
+   "cislo": 20,
+   "organ": "RM",
+   "datum": "2025-11-10",
+   "usneseni": "14/82/RM/2025",
+   "id_dokumenty": 565759,
+   "url": "https://mestovsetin.cz/assets/File.ashx?id_org=18676&id_dokumenty=565759",
+   "hlavni_body": [
+    "ZŠ Rokytnice – rekuperace",
+    "Kotlíkové dotace"
+   ],
+   "bilance": {
+    "prijmy": 12500.0,
+    "vydaje": 12500.0,
+    "financovani": 0,
+    "kontrola_P_plus_F_minus_V": 0.0
+   },
+   "radky": [
+    {
+     "typ": "P",
+     "odpa": "6171",
+     "pol": "2111",
+     "org": null,
+     "orj": "0018",
+     "pred": 113500.0,
+     "zmena": 12500.0,
+     "po": 126000.0,
+     "popis": "Program kotlíkové dotace Zl. kraje"
+    },
+    {
+     "typ": "V",
+     "odpa": "3113",
+     "pol": "5331",
+     "org": "25034207",
+     "orj": "0003",
+     "pred": 0.0,
+     "zmena": 81000.0,
+     "po": 81000.0,
+     "popis": "Neinvestiční účelový příspěvek - oprava 5 ks rekuperačních jednotek"
+    },
+    {
+     "typ": "V",
+     "odpa": "6171",
+     "pol": "5021",
+     "org": "18000004",
+     "orj": "0018",
+     "pred": 113500.0,
+     "zmena": 12500.0,
+     "po": 126000.0,
+     "popis": "Program kotlíkové dotace Zl. kraje"
+    },
+    {
+     "typ": "V",
+     "odpa": "6409",
+     "pol": "5901",
+     "org": null,
+     "orj": "0003",
+     "pred": 1430149.67,
+     "zmena": -81000.0,
+     "po": 1349149.67,
+     "popis": "Uvolnění rezervy"
+    }
+   ]
+  },
+  {
+   "id": "RO-2025-21",
+   "cislo": 21,
+   "organ": "RM",
+   "datum": "2025-12-01",
+   "usneseni": "20,21/83/RM/2025",
+   "id_dokumenty": 566083,
+   "url": "https://mestovsetin.cz/assets/File.ashx?id_org=18676&id_dokumenty=566083",
+   "hlavni_body": [
+    "OP JAK – MŠ Ohrada, Benátky, Sychrov, ZŠ Ohrada",
+    "Dary 70 tis.: FUSION Architects, FORM, LPT System, H & B delta",
+    "MVK – servis IT",
+    "ZŠ a MŠ Luh – konvektomat"
+   ],
+   "bilance": {
+    "prijmy": 2763019.15,
+    "vydaje": 2763019.15,
+    "financovani": 0,
+    "kontrola_P_plus_F_minus_V": 0.0
+   },
+   "radky": [
+    {
+     "typ": "P",
+     "odpa": "3319",
+     "pol": "2321",
+     "org": null,
+     "orj": "0003",
+     "pred": 0.0,
+     "zmena": 70000.0,
+     "po": 70000.0,
+     "popis": "Příjem darů"
+    },
+    {
+     "typ": "P",
+     "odpa": null,
+     "pol": "4116",
+     "org": "143133092 00000330",
+     "orj": "0003",
+     "pred": 0.0,
+     "zmena": 294197.64,
+     "po": 294197.64,
+     "popis": "Dotace SR - OP Jan Amos Komenský - ZŠ Ohrada"
+    },
+    {
+     "typ": "P",
+     "odpa": null,
+     "pol": "4116",
+     "org": "143533092 00000330",
+     "orj": "0003",
+     "pred": 0.0,
+     "zmena": 1235984.46,
+     "po": 1235984.46,
+     "popis": "Dotace SR - OP Jan Amos Komenský - ZŠ Ohrada"
+    },
+    {
+     "typ": "P",
+     "odpa": null,
+     "pol": "4116",
+     "org": "143133092 00001302",
+     "orj": "0003",
+     "pred": 0.0,
+     "zmena": 70539.24,
+     "po": 70539.24,
+     "popis": "Dotace SR - OP Jan Amos Komenský - MŠ Ohrada"
+    },
+    {
+     "typ": "P",
+     "odpa": null,
+     "pol": "4116",
+     "org": "143533092 00001302",
+     "orj": "0003",
+     "pred": 0.0,
+     "zmena": 296349.81,
+     "po": 296349.81,
+     "popis": "Dotace SR - OP Jan Amos Komenský - MŠ Ohrada"
+    },
+    {
+     "typ": "P",
+     "odpa": null,
+     "pol": "4116",
+     "org": "143133092 00001309",
+     "orj": "0003",
+     "pred": 0.0,
+     "zmena": 74927.41,
+     "po": 74927.41,
+     "popis": "Dotace SR - OP Jan Amos Komenský - MŠ Benátky"
+    },
+    {
+     "typ": "P",
+     "odpa": null,
+     "pol": "4116",
+     "org": "143533092 00001309",
+     "orj": "0003",
+     "pred": 0.0,
+     "zmena": 314785.39,
+     "po": 314785.39,
+     "popis": "Dotace SR - OP Jan Amos Komenský - MŠ Benátky"
+    },
+    {
+     "typ": "P",
+     "odpa": null,
+     "pol": "4116",
+     "org": "143133092 00001318",
+     "orj": "0003",
+     "pred": 0.0,
+     "zmena": 78104.06,
+     "po": 78104.06,
+     "popis": "Dotace SR - OP Jan Amos Komenský - MŠ Sychrov"
+    },
+    {
+     "typ": "P",
+     "odpa": null,
+     "pol": "4116",
+     "org": "143533092 00001318",
+     "orj": "0003",
+     "pred": 0.0,
+     "zmena": 328131.14,
+     "po": 328131.14,
+     "popis": "Dotace SR - OP Jan Amos Komenský - MŠ Sychrov"
+    },
+    {
+     "typ": "V",
+     "odpa": "3111",
+     "pol": "5336",
+     "org": "143133092 00001302",
+     "orj": "0003",
+     "pred": 0.0,
+     "zmena": 70539.24,
+     "po": 70539.24,
+     "popis": "Dotace SR - OP Jan Amos Komenský - MŠ Ohrada"
+    },
+    {
+     "typ": "V",
+     "odpa": "3111",
+     "pol": "5336",
+     "org": "143533092 00001302",
+     "orj": "0003",
+     "pred": 0.0,
+     "zmena": 296349.81,
+     "po": 296349.81,
+     "popis": "Dotace SR - OP Jan Amos Komenský - MŠ Ohrada"
+    },
+    {
+     "typ": "V",
+     "odpa": "3111",
+     "pol": "5336",
+     "org": "143133092 00001309",
+     "orj": "0003",
+     "pred": 0.0,
+     "zmena": 74927.41,
+     "po": 74927.41,
+     "popis": "Dotace SR - OP Jan Amos Komenský - MŠ Benátky"
+    },
+    {
+     "typ": "V",
+     "odpa": "3111",
+     "pol": "5336",
+     "org": "143533092 00001309",
+     "orj": "0003",
+     "pred": 0.0,
+     "zmena": 314785.39,
+     "po": 314785.39,
+     "popis": "Dotace SR - OP Jan Amos Komenský - MŠ Benátky"
+    },
+    {
+     "typ": "V",
+     "odpa": "3111",
+     "pol": "5336",
+     "org": "143133092 00001318",
+     "orj": "0003",
+     "pred": 0.0,
+     "zmena": 78104.06,
+     "po": 78104.06,
+     "popis": "Dotace SR - OP Jan Amos Komenský - MŠ Sychrov"
+    },
+    {
+     "typ": "V",
+     "odpa": "3111",
+     "pol": "5336",
+     "org": "143533092 00001318",
+     "orj": "0003",
+     "pred": 0.0,
+     "zmena": 328131.14,
+     "po": 328131.14,
+     "popis": "Dotace SR - OP Jan Amos Komenský - MŠ Sychrov"
+    },
+    {
+     "typ": "V",
+     "odpa": "3113",
+     "pol": "5331",
+     "org": "25130503",
+     "orj": "0003",
+     "pred": 0.0,
+     "zmena": 50000.0,
+     "po": 50000.0,
+     "popis": "ZŠ a MŠ Luh - oprava konvektomatu Kobzáňova"
+    },
+    {
+     "typ": "V",
+     "odpa": "3113",
+     "pol": "5336",
+     "org": "143133092 00000330",
+     "orj": "0003",
+     "pred": 0.0,
+     "zmena": 294197.64,
+     "po": 294197.64,
+     "popis": "Dotace SR - OP Jan Amos Komenský - ZŠ Ohrada"
+    },
+    {
+     "typ": "V",
+     "odpa": "3113",
+     "pol": "5336",
+     "org": "143533092 00000330",
+     "orj": "0003",
+     "pred": 0.0,
+     "zmena": 1235984.46,
+     "po": 1235984.46,
+     "popis": "Dotace SR - OP Jan Amos Komenský - ZŠ Ohrada"
+    },
+    {
+     "typ": "V",
+     "odpa": "3314",
+     "pol": "5331",
+     "org": "00040001",
+     "orj": "0003",
+     "pred": 19849000.0,
+     "zmena": 87000.0,
+     "po": 19936000.0,
+     "popis": "MVK, servis IT vybavení"
+    },
+    {
+     "typ": "V",
+     "odpa": "3319",
+     "pol": "5169",
+     "org": null,
+     "orj": "0003",
+     "pred": 489000.0,
+     "zmena": 70000.0,
+     "po": 559000.0,
+     "popis": "Kultura - služby"
+    },
+    {
+     "typ": "V",
+     "odpa": "6409",
+     "pol": "5901",
+     "org": null,
+     "orj": "0003",
+     "pred": 1349149.67,
+     "zmena": -137000.0,
+     "po": 1212149.67,
+     "popis": "Uvolnění rezervy"
+    }
+   ]
+  },
+  {
+   "id": "RO-2025-22",
+   "cislo": 22,
+   "organ": "ZM",
+   "datum": "2025-12-15",
+   "usneseni": "23/22/ZM/2025",
+   "id_dokumenty": 566173,
+   "url": "https://mestovsetin.cz/assets/File.ashx?id_org=18676&id_dokumenty=566173",
+   "hlavni_body": [
+    "Úprava příspěvků na odpisy PO",
+    "Hokejbalový klub Vsetín – návratná finanční výpomoc 220 tis.",
+    "Semetín – zázemí pro turistické cíle – PD"
+   ],
+   "bilance": {
+    "prijmy": -119347.0,
+    "vydaje": -105816.0,
+    "financovani": 13531.0,
+    "kontrola_P_plus_F_minus_V": 0.0
+   },
+   "radky": [
+    {
+     "typ": "P",
+     "odpa": "3111",
+     "pol": "2122",
+     "org": null,
+     "orj": "0003",
+     "pred": 2232920.0,
+     "zmena": 21770.0,
+     "po": 2254690.0,
+     "popis": "MŠ, odvod z odpisů"
+    },
+    {
+     "typ": "P",
+     "odpa": "3113",
+     "pol": "2122",
+     "org": null,
+     "orj": "0003",
+     "pred": 22508000.0,
+     "zmena": 23678.0,
+     "po": 22531678.0,
+     "popis": "ZŠ, odvod z odpisů"
+    },
+    {
+     "typ": "P",
+     "odpa": "3314",
+     "pol": "2122",
+     "org": null,
+     "orj": "0003",
+     "pred": 488000.0,
+     "zmena": -4307.0,
+     "po": 483693.0,
+     "popis": "MVK, odvod z odpisů"
+    },
+    {
+     "typ": "P",
+     "odpa": "3421",
+     "pol": "2122",
+     "org": null,
+     "orj": "0003",
+     "pred": 1277615.3,
+     "zmena": 8012.0,
+     "po": 1285627.3,
+     "popis": "ALCEDO, odvod z odpisů"
+    },
+    {
+     "typ": "P",
+     "odpa": "3639",
+     "pol": "2122",
+     "org": null,
+     "orj": "0017",
+     "pred": 6050000.0,
+     "zmena": -168500.0,
+     "po": 5881500.0,
+     "popis": "TS, odvod z odpisů"
+    },
+    {
+     "typ": "V",
+     "odpa": "2143",
+     "pol": "5171",
+     "org": "00009325",
+     "orj": "0003",
+     "pred": 1080000.0,
+     "zmena": -55000.0,
+     "po": 1025000.0,
+     "popis": "Přesun"
+    },
+    {
+     "typ": "V",
+     "odpa": "3111",
+     "pol": "5331",
+     "org": "00130201",
+     "orj": "0003",
+     "pred": 345000.0,
+     "zmena": -15740.0,
+     "po": 329260.0,
+     "popis": "MŠ Ohrada, příspěvek na provoz"
+    },
+    {
+     "typ": "V",
+     "odpa": "3111",
+     "pol": "5331",
+     "org": "00130203",
+     "orj": "0003",
+     "pred": 392000.0,
+     "zmena": 5449.0,
+     "po": 397449.0,
+     "popis": "MŠ Ohrada, příspěvek na odpisy"
+    },
+    {
+     "typ": "V",
+     "odpa": "3111",
+     "pol": "5331",
+     "org": "00130701",
+     "orj": "0003",
+     "pred": 320000.0,
+     "zmena": -23346.0,
+     "po": 296654.0,
+     "popis": "MŠ Trávníky, příspěvek na provoz"
+    },
+    {
+     "typ": "V",
+     "odpa": "3111",
+     "pol": "5331",
+     "org": "00130703",
+     "orj": "0003",
+     "pred": 110000.0,
+     "zmena": 6944.0,
+     "po": 116944.0,
+     "popis": "MŠ Trávníky, příspěvek na odpisy"
+    },
+    {
+     "typ": "V",
+     "odpa": "3111",
+     "pol": "5331",
+     "org": "00130901",
+     "orj": "0003",
+     "pred": 360000.0,
+     "zmena": -4324.0,
+     "po": 355676.0,
+     "popis": "MŠ Benátky, příspěvek na provoz"
+    },
+    {
+     "typ": "V",
+     "odpa": "3111",
+     "pol": "5331",
+     "org": "00130903",
+     "orj": "0003",
+     "pred": 252000.0,
+     "zmena": 2314.0,
+     "po": 254314.0,
+     "popis": "MŠ Benátky, příspěvek na odpisy"
+    },
+    {
+     "typ": "V",
+     "odpa": "3111",
+     "pol": "5331",
+     "org": "00131101",
+     "orj": "0003",
+     "pred": 331000.0,
+     "zmena": -13412.0,
+     "po": 317588.0,
+     "popis": "MŠ Jasenka, příspěvek na provoz"
+    },
+    {
+     "typ": "V",
+     "odpa": "3111",
+     "pol": "5331",
+     "org": "00131103",
+     "orj": "0003",
+     "pred": 186000.0,
+     "zmena": 2515.0,
+     "po": 188515.0,
+     "popis": "MŠ Jasenka, příspěvek na odpisy"
+    },
+    {
+     "typ": "V",
+     "odpa": "3111",
+     "pol": "5331",
+     "org": "00131701",
+     "orj": "0003",
+     "pred": 490000.0,
+     "zmena": -4660.0,
+     "po": 485340.0,
+     "popis": "MŠ Rokytnice, příspěvek na provoz"
+    },
+    {
+     "typ": "V",
+     "odpa": "3111",
+     "pol": "5331",
+     "org": "00131801",
+     "orj": "0003",
+     "pred": 437000.0,
+     "zmena": -12230.0,
+     "po": 424770.0,
+     "popis": "MŠ Sychrov, příspěvek na provoz"
+    },
+    {
+     "typ": "V",
+     "odpa": "3111",
+     "pol": "5331",
+     "org": "00131803",
+     "orj": "0003",
+     "pred": 219000.0,
+     "zmena": -332.0,
+     "po": 218668.0,
+     "popis": "MŠ Sychrov, příspěvek na odpisy"
+    },
+    {
+     "typ": "V",
+     "odpa": "3111",
+     "pol": "5331",
+     "org": "00132001",
+     "orj": "0003",
+     "pred": 325000.0,
+     "zmena": -6580.0,
+     "po": 318420.0,
+     "popis": "MŠ Na Kopečku, příspěvek na provoz"
+    },
+    {
+     "typ": "V",
+     "odpa": "3111",
+     "pol": "5331",
+     "org": "00132003",
+     "orj": "0003",
+     "pred": 304000.0,
+     "zmena": 4880.0,
+     "po": 308880.0,
+     "popis": "MŠ Na Kopečku, příspěvek na odpisy"
+    },
+    {
+     "typ": "V",
+     "odpa": "3113",
+     "pol": "5331",
+     "org": "00033003",
+     "orj": "0003",
+     "pred": 1972000.0,
+     "zmena": -801.0,
+     "po": 1971199.0,
+     "popis": "ZŠ Ohrada, příspěvek na odpisy"
+    },
+    {
+     "typ": "V",
+     "odpa": "3113",
+     "pol": "5331",
+     "org": "00033203",
+     "orj": "0003",
+     "pred": 1364000.0,
+     "zmena": 41092.0,
+     "po": 1405092.0,
+     "popis": "ZŠ Trávníky, příspěvek na odpisy"
+    },
+    {
+     "typ": "V",
+     "odpa": "3113",
+     "pol": "5331",
+     "org": "00033403",
+     "orj": "0003",
+     "pred": 1918000.0,
+     "zmena": -77821.0,
+     "po": 1840179.0,
+     "popis": "ZŠ Luh, příspěvek na odpisy"
+    },
+    {
+     "typ": "V",
+     "odpa": "3113",
+     "pol": "5331",
+     "org": "00033503",
+     "orj": "0003",
+     "pred": 3620000.0,
+     "zmena": 39460.0,
+     "po": 3659460.0,
+     "popis": "ZŠ Sychrov, příspěvek na odpisy"
+    },
+    {
+     "typ": "V",
+     "odpa": "3113",
+     "pol": "5331",
+     "org": "00034203",
+     "orj": "0003",
+     "pred": 2779000.0,
+     "zmena": 21748.0,
+     "po": 2800748.0,
+     "popis": "ZŠ Rokytnice, příspěvek na odpisy"
+    },
+    {
+     "typ": "V",
+     "odpa": "3113",
+     "pol": "5331",
+     "org": "00130301",
+     "orj": "0003",
+     "pred": 380000.0,
+     "zmena": -55596.0,
+     "po": 324404.0,
+     "popis": "MŠ Luh, příspěvek na provoz"
+    },
+    {
+     "typ": "V",
+     "odpa": "3113",
+     "pol": "5331",
+     "org": "00130501",
+     "orj": "0003",
+     "pred": 467500.0,
+     "zmena": -70581.0,
+     "po": 396919.0,
+     "popis": "MŠ Kobzáňova, příspěvek na provoz"
+    },
+    {
+     "typ": "V",
+     "odpa": "3314",
+     "pol": "5331",
+     "org": "00040003",
+     "orj": "0003",
+     "pred": 488000.0,
+     "zmena": -4307.0,
+     "po": 483693.0,
+     "popis": "MVK, příspěvek na odpisy"
+    },
+    {
+     "typ": "V",
+     "odpa": "3421",
+     "pol": "5331",
+     "org": "00032903",
+     "orj": "0003",
+     "pred": 482000.0,
+     "zmena": 8012.0,
+     "po": 490012.0,
+     "popis": "ALCEDO, příspěvek na odpisy"
+    },
+    {
+     "typ": "V",
+     "odpa": "3639",
+     "pol": "5331",
+     "org": "01736391",
+     "orj": "0017",
+     "pred": 90634263.0,
+     "zmena": -168500.0,
+     "po": 90465763.0,
+     "popis": "TS, příspěvek na odpisy"
+    },
+    {
+     "typ": "V",
+     "odpa": "2143",
+     "pol": "6121",
+     "org": "00009980",
+     "orj": "0003",
+     "pred": 0.0,
+     "zmena": 55000.0,
+     "po": 55000.0,
+     "popis": "Zázemí pro turistické cíle Semetín - PD"
+    },
+    {
+     "typ": "V",
+     "odpa": "3419",
+     "pol": "6422",
+     "org": null,
+     "orj": "0003",
+     "pred": 0.0,
+     "zmena": 220000.0,
+     "po": 220000.0,
+     "popis": "Hokejbalový klub - návratná finanční výpomoc"
+    },
+    {
+     "typ": "F",
+     "odpa": null,
+     "pol": "8115",
+     "org": null,
+     "orj": null,
+     "pred": 189619834.25,
+     "zmena": 13531.0,
+     "po": 189633365.25,
+     "popis": "Financování"
+    }
+   ]
+  },
+  {
+   "id": "RO-2025-23",
+   "cislo": 23,
+   "organ": "RM",
+   "datum": "2025-12-08",
+   "usneseni": "8/84/RRM/2025",
+   "id_dokumenty": 566174,
+   "url": "https://mestovsetin.cz/assets/File.ashx?id_org=18676&id_dokumenty=566174",
+   "hlavni_body": [
+    "Vánoční osvětlení (+370 tis.)"
+   ],
+   "bilance": {
+    "prijmy": 0,
+    "vydaje": 0.0,
+    "financovani": 0,
+    "kontrola_P_plus_F_minus_V": 0.0
+   },
+   "radky": [
+    {
+     "typ": "V",
+     "odpa": "6409",
+     "pol": "5901",
+     "org": "10000003",
+     "orj": "0001",
+     "pred": 1547902.84,
+     "zmena": -370000.0,
+     "po": 1177902.84,
+     "popis": "Uvolnění rezervy"
+    },
+    {
+     "typ": "V",
+     "odpa": "3631",
+     "pol": "6351",
+     "org": "25363101",
+     "orj": "0017",
+     "pred": 5000000.0,
+     "zmena": 370000.0,
+     "po": 5370000.0,
+     "popis": "Navýšení investičního příspěvku (vánoční osvětlení)"
+    }
+   ]
+  },
+  {
+   "id": "RO-2025-24",
+   "cislo": 24,
+   "organ": "RM",
+   "datum": "2025-12-15",
+   "usneseni": "14/85/RM/2025",
+   "id_dokumenty": 566233,
+   "url": "https://mestovsetin.cz/assets/File.ashx?id_org=18676&id_dokumenty=566233",
+   "hlavni_body": [
+    "Vánoční osvětlení (+130 tis.)",
+    "Úprava přijatých dotací dle skutečnosti (MVK/TIC −15,3 mil. v pol. 4216; nevyúčtovaná dotace 4,36 mil.)"
+   ],
+   "bilance": {
+    "prijmy": -17718706.06,
+    "vydaje": 0.0,
+    "financovani": 17718706.06,
+    "kontrola_P_plus_F_minus_V": 0.0
+   },
+   "radky": [
+    {
+     "typ": "P",
+     "odpa": null,
+     "pol": "4116",
+     "org": "170522024 00000101",
+     "orj": "0018",
+     "pred": 500000.0,
+     "zmena": -500000.0,
+     "po": 0.0,
+     "popis": "Nepřiznaná dotace"
+    },
+    {
+     "typ": "P",
+     "odpa": null,
+     "pol": "4116",
+     "org": "149517085 00003180",
+     "orj": "0018",
+     "pred": 1540000.0,
+     "zmena": 408330.8,
+     "po": 1948330.8,
+     "popis": "Oprava výše dotace dle plnění"
+    },
+    {
+     "typ": "P",
+     "odpa": null,
+     "pol": "4116",
+     "org": "149517085 00003213",
+     "orj": "0018",
+     "pred": 1190000.0,
+     "zmena": 1519970.14,
+     "po": 2709970.14,
+     "popis": "Oprava výše dotace dle plnění"
+    },
+    {
+     "typ": "P",
+     "odpa": null,
+     "pol": "4116",
+     "org": "149517085 00009918",
+     "orj": "0018",
+     "pred": 420000.0,
+     "zmena": -175302.64,
+     "po": 244697.36,
+     "popis": "Oprava výše dotace dle plnění"
+    },
+    {
+     "typ": "P",
+     "odpa": null,
+     "pol": "4116",
+     "org": "148515016 18000001",
+     "orj": "0018",
+     "pred": 4355911.0,
+     "zmena": -4355911.0,
+     "po": 0.0,
+     "popis": "Nevyúčtovaná dotace"
+    },
+    {
+     "typ": "P",
+     "odpa": null,
+     "pol": "4216",
+     "org": "149517519 00003180",
+     "orj": "0018",
+     "pred": 25460000.0,
+     "zmena": 2373297.3,
+     "po": 27833297.3,
+     "popis": "Oprava výše dotace dle plnění"
+    },
+    {
+     "typ": "P",
+     "odpa": null,
+     "pol": "4216",
+     "org": "149517519 00003213",
+     "orj": "0018",
+     "pred": 15810000.0,
+     "zmena": -15296267.24,
+     "po": 513732.76,
+     "popis": "Oprava výše dotace dle plnění"
+    },
+    {
+     "typ": "P",
+     "odpa": null,
+     "pol": "4216",
+     "org": "149517519 00009918",
+     "orj": "0018",
+     "pred": 5580000.0,
+     "zmena": -2084323.42,
+     "po": 3495676.58,
+     "popis": "Oprava výše dotace dle plnění"
+    },
+    {
+     "typ": "P",
+     "odpa": null,
+     "pol": "4216",
+     "org": "170514504",
+     "orj": "0018",
+     "pred": 0.0,
+     "zmena": 391500.0,
+     "po": 391500.0,
+     "popis": "Oprava výše dotace dle plnění"
+    },
+    {
+     "typ": "V",
+     "odpa": "6409",
+     "pol": "5901",
+     "org": "10000003",
+     "orj": "0001",
+     "pred": 1177902.84,
+     "zmena": -130000.0,
+     "po": 1047902.84,
+     "popis": "Uvolnění rezervy"
+    },
+    {
+     "typ": "V",
+     "odpa": "3631",
+     "pol": "6351",
+     "org": "25363101",
+     "orj": "0017",
+     "pred": 5370000.0,
+     "zmena": 130000.0,
+     "po": 5500000.0,
+     "popis": "Vánoční osvětlení"
+    },
+    {
+     "typ": "F",
+     "odpa": null,
+     "pol": "8115",
+     "org": null,
+     "orj": null,
+     "pred": 189633365.25,
+     "zmena": 17718706.06,
+     "po": 207352071.31,
+     "popis": "Financování"
+    }
+   ]
+  }
+ ]
+}

@@ -50,5 +50,12 @@
   "Výsledek diagnostiky (závěrečná zpráva 04/2026) – kde zveřejněna?",
   "Veřejná zakázka na stavební práce – dodavatel, cena, smlouva v registru smluv?",
   "Skutečné čerpání v závěrečném účtu 2026."
- ]
+ ],
+ "dalsi_lavky_v_rozpoctu_2025": [
+  "Odstranění lávky VS-01-Bol přes silnici I/57 a III/05736, Bobrky – +5 000 000 Kč (RO 4/2025, ZM) – POZOR: jiná lávka (Bol ≠ Bel)",
+  "Stavební úpravy lávky Vs-02-Bel u Kablovky – věcné břemeno +4 000 Kč (RO 2/2025, ZM)",
+  "Cyklostezka včetně lávky VS-03-ROL (lávka u SBD) – PD +370 000 Kč (RO 8/2025, ZM)",
+  "Technická studie nové lávky přes Bečvu v Panské zahradě – 800 000 Kč (RO 13/2025, ZM)"
+ ],
+ "poznamka": "V RO 2025 se lávka Vs-01-Bel v Lázkách nevyskytuje; první peníze jsou až v RO 2/2026."
 }
