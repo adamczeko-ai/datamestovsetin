@@ -20,3 +20,8 @@
 ## 2026-10-22 (4. várka)
 - Závěrečný účet + přezkoumání hospodaření 2024 a 2025; rekonciliace RO vs. ZÚ.
 - Anomálie A-2025-01 a A-2024-01 potvrzeny.
+
+## 2026-10-22 (6. várka)
+- Kauza K-002: nabytí Tribuny na Ohradě od TJ MEZ (33,15 mil. Kč; cena v materiálech pro ZM nevyplněná).
+- Opraveno vysvětlení A-2025-01: úprava bodu 5 rozdíl nevysvětluje (zůstává otevřené).
+- Index balíčků materiálů ZM 2025–2026 (ZIP).

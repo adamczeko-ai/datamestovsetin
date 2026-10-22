@@ -3,7 +3,8 @@
  "vytezeno": "2026-10-22 (SELČ)",
  "zdroje": {
   "ZM_vypis_slozka": "https://mestovsetin.cz/usneseni%2Dzastupitelstva%2Dmesta%2Dvsetin%2Dvypis/ds-1004/p1=72157",
-  "RM_vypis_slozka": "https://mestovsetin.cz/usneseni%2Drady%2Dmesta%2Dvsetin%2Dvypis/ds-1006/p1=72149"
+  "RM_vypis_slozka": "https://mestovsetin.cz/usneseni%2Drady%2Dmesta%2Dvsetin%2Dvypis/ds-1006/p1=72149",
+  "ZM_materialy_balicky": "https://mestovsetin.cz/materialy%2Dzastupitelstva%2Dmesta%2Dvsetin%2Dpro%2Dverejnost/ds-19121/p1=72158"
  },
  "index_ZM": [
   {
@@ -296,7 +297,7 @@
    "datum": "2025-04-07",
    "ro": "RO-2025-04",
    "text": "ZM schválilo RO 4/2025 'podle upravené důvodové zprávy' s 'úpravou bod 5' (ORJ 0002); text usnesení navíc chybně uvádí 'formou rozpočtového opatření č. 2'.",
-   "dusledek": "Zveřejněné PDF RO 4/2025 je zřejmě neupravený návrh → vysvětluje A-2025-01 (657 095,94 Kč). Částku úpravy ověřit v zápisu."
+   "dusledek": "Bod 5 = výkup Tribuny: v balíčku ZM navrženo +11,0 mil. (cena 34,0 mil.), zveřejněné PDF RO 4 má +10,15 mil. → zveřejněna je UPRAVENÁ verze bodu 5. Rozdíl A-2025-01 (657 095,94 Kč) tím vysvětlen NENÍ."
   },
   {
    "id": "U-04",
@@ -306,5 +307,67 @@
    "vazba_RO": "RO 4/2025 řádek 3639/6130 ORG 25036391: 23 002 000 → 33 152 000 Kč (rozdíl 2 000 Kč oproti kupní ceně)."
   }
  ],
- "zaver": "Město ve složkách RO zveřejňuje předložené návrhy, ne verze ve znění schváleném zastupitelstvem (úpravy, stažené body, dodatky). To vysvětluje nesoulad zveřejněných RO se závěrečným účtem (A-2024-01, A-2025-01)."
+ "zaver": "Zveřejněná RO nejsou vždy shodná se schváleným zněním (RO 6/2024 stažené body, RO 10/2024 nezveřejněný dodatek). U RO 4/2025 je zveřejněna upravená verze bodu 5; rozdíl 657 095,94 Kč proti ZÚ zůstává nevysvětlen.",
+ "balicky_ZM": [
+  {
+   "zasedani": 27,
+   "datum": "2026-09-21",
+   "id_dokumenty": 570297,
+   "format": "ZIP (HTML návrhy usnesení + důvodové zprávy)"
+  },
+  {
+   "zasedani": 26,
+   "datum": "2026-06-22",
+   "id_dokumenty": 568683,
+   "format": "ZIP (HTML návrhy usnesení + důvodové zprávy)"
+  },
+  {
+   "zasedani": 25,
+   "datum": "2026-04-20",
+   "id_dokumenty": 567697,
+   "format": "ZIP (HTML návrhy usnesení + důvodové zprávy)"
+  },
+  {
+   "zasedani": 24,
+   "datum": "2026-03-30",
+   "id_dokumenty": 567470,
+   "format": "ZIP (HTML návrhy usnesení + důvodové zprávy)"
+  },
+  {
+   "zasedani": 23,
+   "datum": "2026-02-02",
+   "id_dokumenty": 566599,
+   "format": "ZIP (HTML návrhy usnesení + důvodové zprávy)"
+  },
+  {
+   "zasedani": 21,
+   "datum": "2025-11-10",
+   "id_dokumenty": 565428,
+   "format": "ZIP (HTML návrhy usnesení + důvodové zprávy)"
+  },
+  {
+   "zasedani": 20,
+   "datum": "2025-09-15",
+   "id_dokumenty": 564540,
+   "format": "ZIP (HTML návrhy usnesení + důvodové zprávy)"
+  },
+  {
+   "zasedani": 19,
+   "datum": "2025-06-23",
+   "id_dokumenty": 563242,
+   "format": "ZIP (HTML návrhy usnesení + důvodové zprávy)"
+  },
+  {
+   "zasedani": 18,
+   "datum": "2025-04-07",
+   "id_dokumenty": 562068,
+   "format": "ZIP (HTML návrhy usnesení + důvodové zprávy)"
+  },
+  {
+   "zasedani": 17,
+   "datum": "2025-02-03",
+   "id_dokumenty": 561279,
+   "format": "ZIP (HTML návrhy usnesení + důvodové zprávy)"
+  }
+ ]
 }
