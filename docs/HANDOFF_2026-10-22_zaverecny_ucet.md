@@ -30,3 +30,11 @@ Rozdíl v roce 2024 vzniká hlavně v **přijatých transferech, kde činí −7
 1. Usnesení RM/ZM duben–červen 2024: najít, které RO 2024 se liší (7, 8?).
 2. Usnesení ZM 35/18/ZM/2025 (RO 4/2025): schválená verze.
 3. RO 2023 a ZÚ 2023.
+
+## Doplněk: usnesení ZM vysvětlují rozdíly
+- **14/12/ZM/2024 (RO 6/2024):** schváleno „podle upravené důvodové zprávy“ a se **stažením bodů 13 a 15**. Zveřejněný je původní návrh.
+- **16/13/ZM/2024:** schválen **„RO 10 – DODATEK“** (ORJ 0001), který ve složce RO není zveřejněn.
+- **35/18/ZM/2025 (RO 4/2025):** schváleno „podle upravené důvodové zprávy“ s **úpravou bodu 5**. Usnesení navíc chybně uvádí „RO č. 2“.
+- **34/18/ZM/2025:** město koupilo Objekt Tribuna a pozemky Na Ohradě od TJ MEZ za **33,15 mil. Kč**.
+
+**Závěr:** město zveřejňuje návrhy RO, ne jejich schválené znění. Pro náš web proto doporučuji u každého RO odkazovat na usnesení a označovat „zveřejněno = návrh“.

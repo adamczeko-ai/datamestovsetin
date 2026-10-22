@@ -1,0 +1,310 @@
+{
+ "schema": "vsetin-osint/usneseni-vazby@1",
+ "vytezeno": "2026-10-22 (SELČ)",
+ "zdroje": {
+  "ZM_vypis_slozka": "https://mestovsetin.cz/usneseni%2Dzastupitelstva%2Dmesta%2Dvsetin%2Dvypis/ds-1004/p1=72157",
+  "RM_vypis_slozka": "https://mestovsetin.cz/usneseni%2Drady%2Dmesta%2Dvsetin%2Dvypis/ds-1006/p1=72149"
+ },
+ "index_ZM": [
+  {
+   "zasedani": 27,
+   "datum": "2026-09-21",
+   "id_dokumenty": 570501,
+   "url": "https://mestovsetin.cz/assets/File.ashx?id_org=18676&id_dokumenty=570501"
+  },
+  {
+   "zasedani": 26,
+   "datum": "2026-06-22",
+   "id_dokumenty": 569002,
+   "url": "https://mestovsetin.cz/assets/File.ashx?id_org=18676&id_dokumenty=569002"
+  },
+  {
+   "zasedani": 25,
+   "datum": "2026-04-20",
+   "id_dokumenty": 567842,
+   "url": "https://mestovsetin.cz/assets/File.ashx?id_org=18676&id_dokumenty=567842"
+  },
+  {
+   "zasedani": 24,
+   "datum": "2026-03-30",
+   "id_dokumenty": 567593,
+   "url": "https://mestovsetin.cz/assets/File.ashx?id_org=18676&id_dokumenty=567593"
+  },
+  {
+   "zasedani": 23,
+   "datum": "2026-02-02",
+   "id_dokumenty": 566849,
+   "url": "https://mestovsetin.cz/assets/File.ashx?id_org=18676&id_dokumenty=566849"
+  },
+  {
+   "zasedani": 22,
+   "datum": "2025-12-15",
+   "id_dokumenty": 566246,
+   "url": "https://mestovsetin.cz/assets/File.ashx?id_org=18676&id_dokumenty=566246"
+  },
+  {
+   "zasedani": 21,
+   "datum": "2025-11-10",
+   "id_dokumenty": 565621,
+   "url": "https://mestovsetin.cz/assets/File.ashx?id_org=18676&id_dokumenty=565621"
+  },
+  {
+   "zasedani": 20,
+   "datum": "2025-09-15",
+   "id_dokumenty": 564636,
+   "url": "https://mestovsetin.cz/assets/File.ashx?id_org=18676&id_dokumenty=564636"
+  },
+  {
+   "zasedani": 19,
+   "datum": "2025-06-23",
+   "id_dokumenty": 563398,
+   "url": "https://mestovsetin.cz/assets/File.ashx?id_org=18676&id_dokumenty=563398"
+  },
+  {
+   "zasedani": 18,
+   "datum": "2025-04-07",
+   "id_dokumenty": 562339,
+   "url": "https://mestovsetin.cz/assets/File.ashx?id_org=18676&id_dokumenty=562339"
+  },
+  {
+   "zasedani": 17,
+   "datum": "2025-02-03",
+   "id_dokumenty": 561491,
+   "url": "https://mestovsetin.cz/assets/File.ashx?id_org=18676&id_dokumenty=561491"
+  },
+  {
+   "zasedani": 16,
+   "datum": "2024-12-16",
+   "id_dokumenty": 560888,
+   "url": "https://mestovsetin.cz/assets/File.ashx?id_org=18676&id_dokumenty=560888"
+  },
+  {
+   "zasedani": 15,
+   "datum": "2024-11-04",
+   "id_dokumenty": 560250,
+   "url": "https://mestovsetin.cz/assets/File.ashx?id_org=18676&id_dokumenty=560250"
+  },
+  {
+   "zasedani": 14,
+   "datum": "2024-09-16",
+   "id_dokumenty": 559651,
+   "url": "https://mestovsetin.cz/assets/File.ashx?id_org=18676&id_dokumenty=559651"
+  },
+  {
+   "zasedani": 13,
+   "datum": "2024-06-24",
+   "id_dokumenty": 558719,
+   "url": "https://mestovsetin.cz/assets/File.ashx?id_org=18676&id_dokumenty=558719"
+  },
+  {
+   "zasedani": 12,
+   "datum": "2024-04-22",
+   "id_dokumenty": 557971,
+   "url": "https://mestovsetin.cz/assets/File.ashx?id_org=18676&id_dokumenty=557971"
+  },
+  {
+   "zasedani": 11,
+   "datum": "2024-02-19",
+   "id_dokumenty": 557331,
+   "url": "https://mestovsetin.cz/assets/File.ashx?id_org=18676&id_dokumenty=557331"
+  },
+  {
+   "zasedani": 10,
+   "datum": "2023-12-18",
+   "id_dokumenty": 556699,
+   "url": "https://mestovsetin.cz/assets/File.ashx?id_org=18676&id_dokumenty=556699"
+  },
+  {
+   "zasedani": 9,
+   "datum": "2023-10-30",
+   "id_dokumenty": 555955,
+   "url": "https://mestovsetin.cz/assets/File.ashx?id_org=18676&id_dokumenty=555955"
+  },
+  {
+   "zasedani": 8,
+   "datum": "2023-09-04",
+   "id_dokumenty": 555269,
+   "url": "https://mestovsetin.cz/assets/File.ashx?id_org=18676&id_dokumenty=555269"
+  },
+  {
+   "zasedani": 7,
+   "datum": "2023-06-26",
+   "id_dokumenty": 554548,
+   "url": "https://mestovsetin.cz/assets/File.ashx?id_org=18676&id_dokumenty=554548"
+  },
+  {
+   "zasedani": 6,
+   "datum": "2023-05-29",
+   "id_dokumenty": 554168,
+   "url": "https://mestovsetin.cz/assets/File.ashx?id_org=18676&id_dokumenty=554168"
+  },
+  {
+   "zasedani": 5,
+   "datum": "2023-04-24",
+   "id_dokumenty": 553851,
+   "url": "https://mestovsetin.cz/assets/File.ashx?id_org=18676&id_dokumenty=553851"
+  },
+  {
+   "zasedani": 4,
+   "datum": "2023-02-20",
+   "id_dokumenty": 553193,
+   "url": "https://mestovsetin.cz/assets/File.ashx?id_org=18676&id_dokumenty=553193"
+  }
+ ],
+ "index_RM_2026": [
+  {
+   "schuze": 108,
+   "datum": "2026-10-12",
+   "id_dokumenty": 570851
+  },
+  {
+   "schuze": 107,
+   "datum": "2026-10-02",
+   "id_dokumenty": 570689
+  },
+  {
+   "schuze": 106,
+   "datum": "2026-09-21",
+   "id_dokumenty": 570499
+  },
+  {
+   "schuze": 105,
+   "datum": "2026-09-07",
+   "id_dokumenty": 570223
+  },
+  {
+   "schuze": 104,
+   "datum": "2026-08-31",
+   "id_dokumenty": 570089
+  },
+  {
+   "schuze": 103,
+   "datum": "2026-08-17",
+   "id_dokumenty": 569782
+  },
+  {
+   "schuze": 102,
+   "datum": "2026-07-20",
+   "id_dokumenty": 569394
+  },
+  {
+   "schuze": 101,
+   "datum": "2026-06-29",
+   "id_dokumenty": 568978
+  },
+  {
+   "schuze": 100,
+   "datum": "2026-06-22",
+   "id_dokumenty": 568764
+  },
+  {
+   "schuze": 99,
+   "datum": "2026-06-08",
+   "id_dokumenty": 568454
+  },
+  {
+   "schuze": 98,
+   "datum": "2026-06-08",
+   "id_dokumenty": 568715
+  },
+  {
+   "schuze": 97,
+   "datum": "2026-06-01",
+   "id_dokumenty": 568328
+  },
+  {
+   "schuze": 96,
+   "datum": "2026-05-19",
+   "id_dokumenty": 568159
+  },
+  {
+   "schuze": 95,
+   "datum": "2026-05-18",
+   "id_dokumenty": 568157
+  },
+  {
+   "schuze": 94,
+   "datum": "2026-05-11",
+   "id_dokumenty": 568064
+  },
+  {
+   "schuze": 93,
+   "datum": "2026-04-20",
+   "id_dokumenty": 567840
+  },
+  {
+   "schuze": 92,
+   "datum": "2026-03-30",
+   "id_dokumenty": 567562
+  },
+  {
+   "schuze": 91,
+   "datum": "2026-03-16",
+   "id_dokumenty": 567460
+  },
+  {
+   "schuze": 90,
+   "datum": "2026-02-26",
+   "id_dokumenty": 567115
+  },
+  {
+   "schuze": 89,
+   "datum": "2026-02-16",
+   "id_dokumenty": 567006
+  },
+  {
+   "schuze": 88,
+   "datum": "2026-02-02",
+   "id_dokumenty": 566729
+  },
+  {
+   "schuze": 87,
+   "datum": "2026-01-19",
+   "id_dokumenty": 566570
+  },
+  {
+   "schuze": 86,
+   "datum": "2026-01-12",
+   "id_dokumenty": 566524
+  },
+  {
+   "schuze": 85,
+   "datum": "2025-12-15",
+   "id_dokumenty": 566221
+  }
+ ],
+ "zjisteni": [
+  {
+   "id": "U-01",
+   "usneseni": "14/12/ZM/2024",
+   "datum": "2024-04-22",
+   "ro": "RO-2024-06",
+   "text": "ZM schválilo RO 6/2024 'podle upravené důvodové zprávy' se 'stažením bodů 13, 15' (ORJ 0004).",
+   "dusledek": "Zveřejněné PDF RO 6/2024 je původní návrh – obsahuje body, které ZM stáhlo (bod 13 = Stavební úpravy lávky Vs-02-Bel, +400 tis. Kč dle číslování v PDF; číslování k ověření v zápisu)."
+  },
+  {
+   "id": "U-02",
+   "usneseni": "16/13/ZM/2024",
+   "datum": "2024-06-24",
+   "ro": "RO-2024-10",
+   "text": "Samostatně schváleno 'Rozpočtové opatření č. 10 – DODATEK' (ORJ 0001 – Odbor finanční), doplněno na program až na zasedání.",
+   "dusledek": "Dodatek není ve složce RO 2024 zveřejněn jako samostatný dokument – kandidát na vysvětlení rozdílu A-2024-01."
+  },
+  {
+   "id": "U-03",
+   "usneseni": "35/18/ZM/2025",
+   "datum": "2025-04-07",
+   "ro": "RO-2025-04",
+   "text": "ZM schválilo RO 4/2025 'podle upravené důvodové zprávy' s 'úpravou bod 5' (ORJ 0002); text usnesení navíc chybně uvádí 'formou rozpočtového opatření č. 2'.",
+   "dusledek": "Zveřejněné PDF RO 4/2025 je zřejmě neupravený návrh → vysvětluje A-2025-01 (657 095,94 Kč). Částku úpravy ověřit v zápisu."
+  },
+  {
+   "id": "U-04",
+   "usneseni": "34/18/ZM/2025",
+   "datum": "2025-04-07",
+   "text": "Nabytí 'Objekt Tribuna' (čp. 2052, čp. 2464) a pozemků na Ohradě od TJ MEZ Vsetín – spolek (IČO 00533815) za 33 150 000 Kč; jednáním pověřen starosta Jiří Čunek.",
+   "vazba_RO": "RO 4/2025 řádek 3639/6130 ORG 25036391: 23 002 000 → 33 152 000 Kč (rozdíl 2 000 Kč oproti kupní ceně)."
+  }
+ ],
+ "zaver": "Město ve složkách RO zveřejňuje předložené návrhy, ne verze ve znění schváleném zastupitelstvem (úpravy, stažené body, dodatky). To vysvětluje nesoulad zveřejněných RO se závěrečným účtem (A-2024-01, A-2025-01)."
+}
