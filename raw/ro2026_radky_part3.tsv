@@ -1,0 +1,136 @@
+13	V	3113	5331	00034201	0003	9748000	31000	9779000	ZŠ Rokytnice - zvýšení provozního příspěvku
+13	V	6409	5901	30000001	0003	1137542.07	-31000	1106542.07	Uvolnění rezervy
+14	P	3639	2122		0017	5700000	175000	5875000	Vyúčtování investičního příspěvku na elektrovozidlo (TS)
+14	P	3792	2321		0003	0	20000	20000	Příjem daru od společnosti Kayaku Safety
+14	P	6402	2229	144100200	0003	0	6984.9	6984.9	Vratka dotace ZŠ a MŠ Luh - Obědy do škol ve Zlínském kraji VII, r.2025
+14	P	6402	2229	144500200	0003	0	62864.1	62864.1	Vratka dotace ZŠ a MŠ Luh - Obědy do škol ve Zlínském kraji VII, r.2025
+14	P		4111	98071	0011	0	453487.08	453487.08	Doplatek voleb do parlamentu ČR
+14	P		4113	170590008 18000002	0018	1000000	-156000	844000	NZÚ Light - úprava výše dotace
+14	P		4116	34053	0003	0	122000	122000	Dotace SR - MVK - Kreativní dílna a technologické hřiště v MVK Vsetín
+14	P		4116	34070	0003	0	46000	46000	Dotace SR - MVK - Dny seniorů a osob se zdravotním postižením ve Vsetíně 2026
+14	P		4116	13010	0005	2560000	38500	2598500	Zvýšení státního příspěvku na výkon pěstounské péče
+14	P		4116	13015	0005	1482101	17251	1499352	Dotace ze státního rozpočtu na výkon sociální práce
+14	P		4116	170514041	0018	210089	-34589	175500	Zvýšení kyberbezpečnosti - úprava výše dotace dle skutečného plnění
+14	P		4122	00150 00000334	0003	0	50000	50000	Dotace ZK - ZŠ a MŠ Luh - Společně k úspěchu
+14	P		4122	144100200 00000334	0003	10156.5	-1855.2	8301.3	Vratka dotace ZŠ a MŠ Luh - Obědy do škol ve Zlínském kraji VII, r.2026
+14	P		4122	144513021 00000334	0003	91408.5	-16696.8	74711.7	Vratka dotace ZŠ a MŠ Luh - Obědy do škol ve Zlínském kraji VII, r.2026
+14	P		4122	00110	0002	2348254	181400	2529654	Finanční příspěvek ZK na zajištění dopravní obslužnosti
+14	P		4122	00120	0003	27500	112500	140000	Dotace ZK - MVK - Podpora rozvoje činnosti TIC
+14	P		4122	00100	0005	2200000	-2200000	0	Dotace z rozpočtu Zlínského kraje - terénní sociální práce
+14	P		4122	13305	0005	0	2235000	2235000	Dotace z rozpočtu Zlínského kraje - terénní sociální práce
+14	P		4216	170514504	0018	3645000	3244100	6889100	Zvýšení kyberbezpečnosti - úprava výše dotace dle skutečného plnění
+14	P		4216	17531	0018	0	500000	500000	Kolumbárium PD - úprava výše dotace
+14	V	3113	5331	00033001	0003	14904500	49150	14953650	ZŠ Ohrada - zvýšení o zákonné odvody / snížení příspěvku - odvod FKSP
+14	V	3113	5331	00033501	0003	11207000	-200	11206800	Snížení příspěvku - odvod FKSP
+14	V	3113	5331	00034201	0003	9779000	29100	9808100	Snížení příspěvku - odvod FKSP / zvýšení neinvestičního příspěvku - OON
+14	V	3113	5331	26033006	0003	0	5000	5000	ZŠ Ohrada - kompenzační/podpůrné pomůcky
+14	V	3113	5331	26033205	0003	0	5916	5916	ZŠ Trávníky - kompenzační/podpůrné pomůcky
+14	V	3113	5331	26033505	0003	0	24669	24669	ZŠ Sychrov - kompenzační/podpůrné pomůcky
+14	V	3113	5331	26034205	0003	0	20000	20000	ZŠ Rokytnice - kompenzační/podpůrné pomůcky
+14	V	3113	5336	00150 00000334	0003	0	50000	50000	Dotace ZK - ZŠ a MŠ Luh - Společně k úspěchu
+14	V	3113	5336	144100200 00000334	0003	10156.5	-1855.2	8301.3	Vratka dotace ZŠ a MŠ Luh - Obědy do škol ve Zlínském kraji VII, r.2026
+14	V	3113	5336	144513021 00000334	0003	91408.5	-16696.8	74711.7	Vratka dotace ZŠ a MŠ Luh - Obědy do škol ve Zlínském kraji VII, r.2026
+14	V	3314	5331	00040001	0003	21308000	120000	21428000	MVK - finanční dokrytí projektu pro TIC
+14	V	3314	5336	00120 00000400	0003	0	112500	112500	Dotace ZK - MVK - Podpora rozvoje činnosti TIC
+14	V	3314	5336	34053 00000400	0003	0	122000	122000	Dotace SR - MVK - Kreativní dílna a technologické hřiště v MVK Vsetín
+14	V	3314	5336	34070 00000400	0003	0	46000	46000	Dotace SR - MVK - Dny seniorů a osob se zdravotním postižením ve Vsetíně 2026
+14	V	3639	5331	26175004	0017	300000	-300000	0	Změna a navýšení účelového příspěvku TS
+14	V	3792	5169		0003	200000	10000	210000	Příjem daru od společnosti Kayaku Safety
+14	V	3792	5175		0003	50000	10000	60000	Příjem daru od společnosti Kayaku Safety
+14	V	4311	5011	13015	0005	1104500	12500	1117000	Dotace ze státního rozpočtu na výkon sociální práce
+14	V	4311	5031	13015	0005	273916	3184	277100	Dotace ze státního rozpočtu na výkon sociální práce
+14	V	4311	5032	13015	0005	99405	1195	100600	Dotace ze státního rozpočtu na výkon sociální práce
+14	V	4311	5038	13015	0005	4280	372	4652	Dotace ze státního rozpočtu na výkon sociální práce
+14	V	4339	5901	13010	0005	23100	38500	61600	Zvýšení státního příspěvku na výkon pěstounské péče
+14	V	4342	5011	00000355	0005	1643500	-1643500	0	Dotace z rozpočtu Zlínského kraje - terénní sociální práce
+14	V	4342	5011	13305 00000355	0005	0	1669500	1669500	Dotace z rozpočtu Zlínského kraje - terénní sociální práce
+14	V	4342	5031	00000355	0005	408100	-408100	0	Dotace z rozpočtu Zlínského kraje - terénní sociální práce
+14	V	4342	5031	13305 00000355	0005	0	415000	415000	Dotace z rozpočtu Zlínského kraje - terénní sociální práce
+14	V	4342	5032	00000355	0005	148400	-148400	0	Dotace z rozpočtu Zlínského kraje - terénní sociální práce
+14	V	4342	5032	13305 00000355	0005	0	150500	150500	Dotace z rozpočtu Zlínského kraje - terénní sociální práce
+14	V	6402	5366	144100200	0003	0	6984.9	6984.9	Vratka dotace ZŠ a MŠ Luh - Obědy do škol ve Zlínském kraji VII, r.2025
+14	V	6402	5366	144500200	0003	0	62864.1	62864.1	Vratka dotace ZŠ a MŠ Luh - Obědy do škol ve Zlínském kraji VII, r.2025
+14	V	6409	5901	10000002	0001	6614883	-30000	6584883	Uvolnění rezervy (ZŠ Rokytnice - zvýšení OON)
+14	V	6409	5901	10000003	0001	6184616.81	-785000	5399616.81	Uvolnění rezervy
+14	V	6409	5901	30000001	0003	1106542.07	-769924	336618.07	Uvolnění rezervy
+14	V	6409	5901	30000002	0003	1000000	-55585	944415	Uvolnění rezervy
+14	V	2219	6121	00009919	0004	0	968000	968000	Propojení cyklostezky Rokytenka a cyklostezky Přednádražní prostor - PD
+14	V	2333	6121	00009922	0004	500000	200000	700000	Mlýnský náhon Vsetín - optimalizace toku
+14	V	3113	6351	26033220	0003	850000	93924	943924	ZŠ Trávníky - navýšení účelového investičního příspěvku - pořízení myčky
+14	V	3113	6351	26033222	0003	0	506000	506000	ZŠ Trávníky - účelový investiční příspěvek na pořízení konvektomatu
+14	V	3412	6121	26034128	0002	180000	-46000	134000	Úspora
+14	V	3412	6121	26341217	0002	0	314000	314000	Navýšení výdajů na fotbalové hřiště Pod Pecníkem
+14	V	3412	6122	26341215	0002	600000	46000	646000	Pořízení vstupního odbavovacího zařízení na koupaliště
+14	V	3613	6121	26362001	0002	1220000	487000	1707000	Rekonstrukce elektroinstalace v čp. 362 - prostory klubu 3 opice
+14	V	3639	6351	26175004	0017	0	771000	771000	Změna a navýšení účelového příspěvku TS
+14	V	6409	6901	10000004	0001	22733345	-1655000	21078345	Uvolnění rezervy
+14	F		8115			122823292.94	-4365348.08	118457944.86	Financování
+15	P	6171	2111		0018	30000	7500	37500	Program kotlíkové dotace ZK
+15	P	6402	2229	144100200	0003	6984.9	13094.1	20079	ZŠ Trávníky - vratka transferu ZK
+15	P	6402	2229	144500200	0003	62864.1	117846.9	180711	ZŠ Trávníky - vratka transferu ZK
+15	P		4122	144100200 00000330	0003	2134	-448.8	1685.2	ZŠ a MŠ Ohrada - vratka dotace ZK 2026
+15	P		4122	144513021 00000330	0003	19206	-4039.2	15166.8	ZŠ a MŠ Ohrada - vratka dotace ZK 2026
+15	P		4122	00120	0003	140000	23000	163000	Dotace ZK - MVK - podpora rozvoje činnosti turistického informačního centra
+15	V	3113	5336	144100200 00000330	0003	2134	-448.8	1685.2	ZŠ a MŠ Ohrada - vratka dotace ZK 2026
+15	V	3113	5336	144513021 00000330	0003	19206	-4039.2	15166.8	ZŠ a MŠ Ohrada - vratka dotace ZK 2026
+15	V	3314	5336	00120 00000400	0003	112500	23000	135500	Dotace ZK - MVK - podpora rozvoje činnosti turistického informačního centra
+15	V	3412	5171	26034124	0002	2037000	737000	2774000	Oprava kompresoru technologie chlazení ZS - navýšení rozpočtu
+15	V	3412	5171	26034127	0002	210000	10000	220000	Výměna pojistných ventilů technologie chlazení ZS
+15	V	6171	5021	18000004	0018	30000	7500	37500	Program kotlíkové dotace ZK
+15	V	6402	5366	144100200	0003	6984.9	13094.1	20079	Vratka transferu ZK
+15	V	6402	5366	144500200	0003	62864.1	117846.9	180711	Vratka transferu ZK
+15	V	6409	5901	10000003	0001	5399616.81	-747000	4652616.81	Uvolnění rezervy
+16	P		4111	98074	0011	832500	-832500	0	Dotace - volby do zastupitelstev obcí - oprava ÚZ
+16	P		4111	98187	0011	0	1070000	1070000	Dotace - volby do zastupitelstev obcí
+16	P		4122	00100	0005	0	145000	145000	Dotace ZK - Terénní sociální práce
+16	V	3639	5189		0002	0	400000	400000	Kauce pro účast na dražbě nemovitých věcí
+16	V	3639	5331	26175001	0017	8000000	421000	8421000	Havarijní oprava propadu na Dolním náměstí
+16	V	4342	5011	00100	0005	0	110000	110000	Dotace ZK - Terénní sociální práce
+16	V	4342	5031	00100	0005	0	24500	24500	Dotace ZK - Terénní sociální práce
+16	V	4342	5032	00100	0005	0	10500	10500	Dotace ZK - Terénní sociální práce
+16	V	6115	5021	98187	0011	0	237500	237500	Dotace - volby do zastupitelstev obcí
+16	V	6310	5141		0001	0	1500000	1500000	Úroky z čerpané částky investičního úvěrového rámce
+16	V	6409	5901	10000002	0001	6584883	-1900000	4684883	Uvolnění rezervy
+16	V	6409	5901	10000003	0001	4652616.81	-421000	4231616.81	Uvolnění rezervy
+16	V	3314	6121	00009983	0004	1000000	500000	1500000	MVK Dolní náměstí - rampa
+16	V	6409	6901	10000004	0001	21078345	-500000	20578345	Uvolnění prostředků z rezervy
+17	P	3314	2122	00040003	0003	1111000	104608	1215608	MVK - odpisy
+17	P		4121	00003058	0032	0	75500	75500	Příspěvek do FSS
+17	P		4121		0032	76600	-76600	0	Příspěvek do FSS
+17	P		4129	00003067	0032	0	678645	678645	Příspěvek do FSS
+17	P		4129	00003069	0032	0	615790	615790	Příspěvek do FSS
+17	P		4129		0032	1234480	-1234480	0	Příspěvek do FSS
+17	V	3314	5331	00040003	0003	1555000	104608	1659608	MVK - odpisy
+17	V	4359	5901		0032	1309080	58855	1367935	Navýšení příspěvků do FSS
+17	V	6409	5901	10000001	0001	846200	300000	1146200	Navýšení účelové rezervy pro dotace v kompetenci Rady města Vsetín
+17	V	3419	6322		0003	20000000	2500000	22500000	TJ Zbrojovka - výstavba tenisové haly
+17	V	3639	6121	26363902	0002	0	3502000	3502000	Nabytí nemovitostí v elektronické aukci - garážové boxy + pozemky Velký Skalník
+17	V	3639	6130	26363902	0002	0	500000	500000	Nabytí nemovitostí v elektronické aukci - garážové boxy + pozemky Velký Skalník
+17	V	6409	6901	10000004	0001	20578345	-4002000	16576345	Uvolnění rezervy
+17	F		8113			200000000	-100000000	100000000	Úprava financování rozpočtu na rok 2026
+17	F		8115			118457944.86	2800000	121257944.86	Financování
+17	F		8123			107500000	100000000	207500000	Úprava financování rozpočtu na rok 2026
+18	P		4116	13010	0005	2598500	27500	2626000	Zvýšení státního příspěvku na výkon pěstounské péče
+18	P		4122	144100200 00000330	0003	1685.2	15073.5	16758.7	ZŠ Ohrada - Obědy do škol ve ZK
+18	P		4122	144513021 00000330	0003	15166.8	135661.5	150828.3	ZŠ Ohrada - Obědy do škol ve ZK
+18	P		4122	144100200 00000332	0003	0	25720.5	25720.5	ZŠ Trávníky - Obědy do škol ve ZK
+18	P		4122	144513021 00000332	0003	0	231484.5	231484.5	ZŠ Trávníky - Obědy do škol ve ZK
+18	P		4122	144100200 00000334	0003	8301.3	71829.5	80130.8	ZŠ Luh - Obědy do škol ve ZK
+18	P		4122	144513021 00000334	0003	74711.7	646465.5	721177.2	ZŠ Luh - Obědy do škol ve ZK
+18	P		4122	144100200 00000342	0003	0	41340	41340	ZŠ Rokytnice - Obědy do škol ve ZK
+18	P		4122	144513021 00000342	0003	0	372060	372060	ZŠ Rokytnice - Obědy do škol ve ZK
+18	V	3113	5336	144100200 00000330	0003	1685.2	15073.5	16758.7	ZŠ Ohrada - Obědy do škol ve ZK
+18	V	3113	5336	144513021 00000330	0003	15166.8	135661.5	150828.3	ZŠ Ohrada - Obědy do škol ve ZK
+18	V	3113	5336	144100200 00000332	0003	0	25720.5	25720.5	ZŠ Trávníky - Obědy do škol ve ZK
+18	V	3113	5336	144513021 00000332	0003	0	231484.5	231484.5	ZŠ Trávníky - Obědy do škol ve ZK
+18	V	3113	5336	144100200 00000334	0003	8301.3	71829.5	80130.8	ZŠ Luh - Obědy do škol ve ZK
+18	V	3113	5336	144513021 00000334	0003	74711.7	646465.5	721177.2	ZŠ Luh - Obědy do škol ve ZK
+18	V	3113	5336	144100200 00000342	0003	0	41340	41340	ZŠ Rokytnice - Obědy do škol ve ZK
+18	V	3113	5336	144513021 00000342	0003	0	372060	372060	ZŠ Rokytnice - Obědy do škol ve ZK
+18	V	3741	5169		0007	470000	500000	970000	Předběžná náhradní péče o týraná zvířata
+18	V	4339	5901	13010	0005	61600	27500	89100	Zvýšení státního příspěvku na výkon pěstounské péče
+18	V	6409	5901	10000002	0001	4684883	-500000	4184883	Uvolnění rezervy
+18	V	6409	5901	10000003	0001	4231616.81	-513000	3718616.81	Uvolnění rezervy
+18	V	3113	6351	26034222	0003	17600000	513000	18113000	Zvýšení účelového investičního příspěvku - ZŠ Rokytnice - školní hřiště
+18	V	3421	6121	00009934	0003	55055	50000	105055	Alcedo - SEN - energetický posudek přepracování
+18	V	6409	6901	10000004	0001	16576345	-50000	16526345	Uvolnění rezervy

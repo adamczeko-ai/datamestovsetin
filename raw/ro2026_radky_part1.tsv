@@ -1,0 +1,113 @@
+ro	typ	odpa	pol	org	orj	pred	zmena	po	popis
+1	V	3412	6121	00009986	0004	300000	300000	600000	Uvolnění rezervy - Hřiště pod Pecníkem
+1	V	6409	6901	10000004	0001	70000000	-300000	69700000	uvolnění rezervy
+2	V	2212	5169	00009989	0004	0	550000	550000	Oprava lávky Vs-01-Bel v Lázkách - diagnostika
+2	V	6402	5364	29005	0007	0	1393920	1393920	Vrácení nevyčerpané náhrady - LHO
+2	V	3612	6121	00009928	0004	15500000	1500000	17000000	Rekonstrukce bytů v domě Tyršova 1271
+2	F		8115			84599000	3443920	88042920	Financování
+3	P		4116	170113502	0003	0	1050	1050	Dotace Domeček pro MŠ a ZŠ Luh
+3	P		4116	170513502	0003	0	5000	5000	Dotace Domeček pro MŠ a ZŠ Luh
+3	P		4116	13010	0005	2401500	82500	2484000	Státní příspěvek na výkon pěstounské péče
+3	P		4216	170113502	0003	0	2971777.86	2971777.86	Dotace Domeček pro MŠ a ZŠ Luh
+3	P		4216	170513502	0003	0	14151325.03	14151325.03	Dotace Domeček pro MŠ a ZŠ Luh
+3	V	3113	5336	170113502	0003	0	1050	1050	Dotace Domeček pro MŠ a ZŠ Luh
+3	V	3113	5336	170513502	0003	0	5000	5000	Dotace Domeček pro MŠ a ZŠ Luh
+3	V	4339	5011	13010	0005	1150000	150000	1300000	Výkon pěstounské péče
+3	V	4339	5031	13010	0005	285500	36900	322400	Výkon pěstounské péče
+3	V	4339	5032	13010	0005	103500	13500	117000	Výkon pěstounské péče
+3	V	4339	5038	13010	0005	5000	1000	6000	Výkon pěstounské péče
+3	V	4339	5901	13010	0005	230000	-118900	111100	Výkon pěstounské péče
+3	V	3113	6356	170113502	0003	0	2971777.86	2971777.86	Dotace Domeček pro MŠ a ZŠ Luh
+3	V	3113	6356	170513502	0003	0	14151325.03	14151325.03	Dotace Domeček pro MŠ a ZŠ Luh
+4	P		4116	13010	0005	2484000	66000	2550000	Zvýšení státního příspěvku na výkon pěstounské péče
+4	P		4122	144100200 00000330	0003	0	2134	2134	ZŠ Ohrada - dotace Obědy do škol ve Zlínském kraji VII
+4	P		4122	144513021 00000330	0003	0	19206	19206	ZŠ Ohrada - dotace Obědy do škol ve Zlínském kraji VII
+4	P		4122	144100200 00000334	0003	0	10156.5	10156.5	ZŠ Luh - dotace Obědy do škol ve Zlínském kraji VII
+4	P		4122	144513021 00000334	0003	0	91408.5	91408.5	ZŠ Luh - dotace Obědy do škol ve Zlínském kraji VII
+4	V	3113	5336	144100200 00000330	0003	0	2134	2134	ZŠ Ohrada - dotace Obědy do škol ve Zlínském kraji VII
+4	V	3113	5336	144513021 00000330	0003	0	19206	19206	ZŠ Ohrada - dotace Obědy do škol ve Zlínském kraji VII
+4	V	3113	5336	144100200 00000334	0003	0	10156.5	10156.5	ZŠ Luh - dotace Obědy do škol ve Zlínském kraji VII
+4	V	3113	5336	144513021 00000334	0003	0	91408.5	91408.5	ZŠ Luh - dotace Obědy do škol ve Zlínském kraji VII
+4	V	4339	5901	13010	0005	111100	66000	177100	Zvýšení státního příspěvku na výkon pěstounské péče
+4	V	6402	5364	13025	0005	0	3758.31	3758.31	Vratka části dotace - projekt Obec přátelská rodině a seniorům 2025
+4	V	6409	5901	30000001	0003	1500000	-122000	1378000	uvolnění rezervy
+4	V	3113	6351	26131122	0003	0	55000	55000	ZŠ Trávníky - investiční příspěvek - internetové kabelové připojení v MŠ Jasenka
+4	V	3113	6351	26131123	0003	0	67000	67000	ZŠ Trávníky - investiční příspěvek - myčka nádobí pro MŠ Jasenka
+4	F		8115			88042920	3758.31	88046678.31	Financování
+5	P	3111	2229	00130202	0003	0	125754.75	125754.75	Vyúčtování závazného ukazatele na energie
+5	P	3111	2229	00130702	0003	0	237517.38	237517.38	Vyúčtování závazného ukazatele na energie
+5	P	3111	2229	00130902	0003	0	66068.54	66068.54	Vyúčtování závazného ukazatele na energie
+5	P	3111	2229	00131102	0003	0	52632.55	52632.55	Vyúčtování závazného ukazatele na energie
+5	P	3111	2229	00131702	0003	0	156531.05	156531.05	Vyúčtování závazného ukazatele na energie
+5	P	3111	2229	00131802	0003	0	153346.13	153346.13	Vyúčtování závazného ukazatele na energie
+5	P	3111	2229	00132002	0003	0	15799.21	15799.21	Vyúčtování závazného ukazatele na energie
+5	P	3113	2229	00033002	0003	0	446120.88	446120.88	Vyúčtování závazného ukazatele na energie
+5	P	3113	2229	00033202	0003	0	327269.97	327269.97	Vyúčtování závazného ukazatele na energie
+5	P	3113	2229	00033402	0003	0	1310822.58	1310822.58	Vyúčtování závazného ukazatele na energie
+5	P	3113	2229	00033502	0003	0	516327.96	516327.96	Vyúčtování závazného ukazatele na energie
+5	P	3113	2229	00034202	0003	0	272513.39	272513.39	Vyúčtování závazného ukazatele na energie
+5	P	3421	2229	00032902	0003	0	392933.19	392933.19	Vyúčtování závazného ukazatele na energie
+5	P		4116	143133092 00000332	0003	0	256481.51	256481.51	Dotace pro ZŠ Trávníky - OP JAK
+5	P		4116	143533092 00000332	0003	0	1077531.29	1077531.29	Dotace pro ZŠ Trávníky - OP JAK
+5	P		4116	143133092 00000335	0003	0	250090.22	250090.22	Dotace pro ZŠ Sychrov - OP JAK
+5	P		4116	143533092 00000335	0003	0	1050680.18	1050680.18	Dotace pro ZŠ Sychrov - OP JAK
+5	P		4116	143133092 00000342	0003	0	232514.91	232514.91	Dotace pro ZŠ Rokytnice - OP JAK
+5	P		4116	143533092 00000342	0003	0	976842.68	976842.68	Dotace pro ZŠ Rokytnice - OP JAK
+5	P		4122	00090	0003	0	4023000	4023000	MVK - dotace na regionální funkce knihoven 2026
+5	V	2219	5169		0002	3225000	-300000	2925000	doplnění org.
+5	V	2219	5169	26022191	0002	0	470000	470000	Rezidentní parkování - přípravná a technická dokumentace
+5	V	3113	5336	143133092 00000332	0003	0	256481.51	256481.51	Dotace pro ZŠ Trávníky - OP JAK
+5	V	3113	5336	143533092 00000332	0003	0	1077531.29	1077531.29	Dotace pro ZŠ Trávníky - OP JAK
+5	V	3113	5336	143133092 00000335	0003	0	250090.22	250090.22	Dotace pro ZŠ Sychrov - OP JAK
+5	V	3113	5336	143533092 00000335	0003	0	1050680.18	1050680.18	Dotace pro ZŠ Sychrov - OP JAK
+5	V	3113	5336	143133092 00000342	0003	0	232514.91	232514.91	Dotace pro ZŠ Rokytnice - OP JAK
+5	V	3113	5336	143533092 00000342	0003	0	976842.68	976842.68	Dotace pro ZŠ Rokytnice - OP JAK
+5	V	3314	5336	00090 00000400	0003	0	4023000	4023000	MVK - dotace na regionální funkce knihoven 2026
+5	V	6402	5364	13010	0005	0	277125.03	277125.03	Vratka části dotace - výkon pěstounské péče
+5	V	6409	5901	10000002	0001	28000000	-170000	27830000	Uvolnění rezervy
+5	V	6409	5901	30000001	0003	1378000	4073637.58	5451637.58	tvorba rezervy
+5	V	2212	6121	00009938	0004	1210000	2500000	3710000	Stavební úpravy mostu VS-07-Rom (most do vnitrobloku budovy č.p. 413)
+5	V	2219	6121	00003185	0004	850000	6050	856050	Chodník pod zámkem - věcná břemena
+5	V	3412	6121	00009642	0004	0	650000	650000	Sportovní hala Na lapači - studie
+5	V	3412	6121	26341210	0002	400000	12000	412000	Pořízení nových saunových parních generátorů na ML
+5	V	6409	6901	10000004	0001	69700000	-3168050	66531950	Uvolnění rezervy
+5	F		8115			88046678.31	277125.03	88323803.34	Financování
+6	P	3113	2122		0003	29325000	1129152.89	30454152.89	Vyúčtování investiční akce Dětské skupiny Domeček - dopočet odvodu
+6	P	3613	2322		0001	0	151597	151597	Pojistné plnění
+6	P	6402	2229	143133092	0003	0	10696.78	10696.78	ZŠ Ohrada, vratka dotace MŠMT
+6	P	6402	2229	143533092	0003	0	35281.22	35281.22	ZŠ Ohrada, vratka dotace MŠMT
+6	V	3613	5171	00001627	0002	100000	151597	251597	Pojistné plnění
+6	V	6402	5364	143133092	0003	0	10696.78	10696.78	ZŠ Ohrada, vratka dotace MŠMT
+6	V	6402	5364	143533092	0003	0	35281.22	35281.22	ZŠ Ohrada, vratka dotace MŠMT
+6	V	3639	6121	00009961	0004	1200000	347000	1547000	FVE elektrárna Bobrky
+6	V	3639	6121	00009962	0004	50000	140000	190000	Sanace svahu ul. Palackého za centrem Archa
+6	V	6409	6901	10000004	0001	66531950	-487000	66044950	Uvolnění rezervy
+6	F		8115			88323803.34	-1129152.89	87194650.45	Financování
+7	P	3314	2122	00040003	0003	0	1111000	1111000	MVK - úprava odvodu z odpisů
+7	V	2143	5137	18000014	0018	0	228000	228000	FMP - Inovace, pohyb, tradice
+7	V	2143	5139	18000014	0018	0	11300	11300	FMP - Inovace, pohyb, tradice
+7	V	2143	5169	18000014	0018	0	223700	223700	FMP - Inovace, pohyb, tradice
+7	V	2143	5175	18000014	0018	0	190000	190000	FMP - Inovace, pohyb, tradice
+7	V	2212	5169	00009933	0004	0	350000	350000	Oprava MK a parkovišť Ohrada - PD
+7	V	2212	5169	00009942	0004	1065000	-1065000	0	Oprava mostu VS-06-Rom - PD - změna rozpočtového zatřídění + přeložky
+7	V	3113	5137		0003	3500000	-3500000	0	Nákup PC - změna rozpočtového zatřídění
+7	V	3113	5331	26033003	0003	0	822647	822647	ZŠ a MŠ Ohrada - neinvesti. účelový příspěvek - digitalizace
+7	V	3113	5331	26033203	0003	0	733670	733670	ZŠ a MŠ Trávníky - neinvesti. účelový příspěvek - digitalizace
+7	V	3113	5331	26033403	0003	0	626199	626199	ZŠ a MŠ Luh - neinvesti. účelový příspěvek - digitalizace
+7	V	3113	5331	26033503	0003	0	672791	672791	ZŠ Sychrov - neinvesti. účelový příspěvek - digitalizace
+7	V	3113	5331	26034203	0003	0	644693	644693	ZŠ Rokytnice - neinvesti. účelový příspěvek - digitalizace
+7	V	3314	5331	00040003	0003	444000	1111000	1555000	MVK - úprava příspěvku na odpisy
+7	V	3613	5171	26135601	0002	0	460000	460000	Oprava venkovních žaluzií na objektu čp. 1356
+7	V	3613	5171	26135603	0002	0	435000	435000	Oprava VZT v čp. 1356
+7	V	3635	5171	26135602	0002	0	850000	850000	Oprava kanalizace v čp. 1356, pod MVK
+7	V	4376	5222		0005	348400	91489	439889	Individuální dotace - AGARTA, z.s. - 5% spoluúčast na dotaci
+7	V	5311	5169		0010	694500	503000	1197500	Přesun dopravních systémů úsekového měření do obce Valašská Polanka
+7	V	5512	5171		0007	184000	465000	649000	Oprava cisterny CAS 20 JSDH Jasenka
+7	V	2212	6121	00009942	0004	0	2733711	2733711	Stavební úpravy mostu VS-06-Rom - PD - změna rozpočtového zatřídění + přeložky
+7	V	2221	6121	00009990	0004	0	370000	370000	Autobusová zastávka Vesník, včetně cyklostezky
+7	V	3113	6351	26033221	0003	0	65000	65000	ZŠ a MŠ Trávníky - žíněnka
+7	V	3412	6121	00009875	0004	0	370000	370000	Zimní stadion - studie
+7	V	3419	6322		0003	0	20000000	20000000	Dotace TJ Zbrojovka Vsetín, z.s. - výstavba tenisové haly
+7	V	3613	6121	26362001	0002	0	1220000	1220000	Rekonstrukce elektroinstalace v čp. 362 - prostory klubu 3 opice
+7	V	6171	6127		0002	0	190000	190000	Pořízení kulturního předmětu - obrazu z pozůstalosti Josefa Sousedíka
+7	F		8115			87194650.45	27691200	114885850.45	Financování

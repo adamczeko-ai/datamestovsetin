@@ -1,0 +1,54 @@
+{
+ "schema": "vsetin-osint/vazba@1",
+ "akce": "Oprava lávky Vs-01-Bel v Lázkách",
+ "org_kod": "00009989",
+ "odpa": "2212",
+ "orj": "0004 (OSMISR – úsek investic)",
+ "udalosti": [
+  {
+   "datum": "2025",
+   "typ": "stav",
+   "popis": "Mostní prohlídka: stavební stav nosné konstrukce VII – havarijní (ocelová lana); lávka uzavřena pro chodce a cyklisty.",
+   "zdroj": "RO-2026-02"
+  },
+  {
+   "datum": "2025-12",
+   "typ": "nabidka",
+   "popis": "Nabídka diagnostiky (opěry, lana, mostovka, pylony, závěrečná zpráva) 532 279 Kč vč. DPH; termín 03–04/2026.",
+   "zdroj": "RO-2026-02"
+  },
+  {
+   "datum": "2026-02-02",
+   "typ": "rozhodnuti",
+   "organ": "ZM",
+   "usneseni": "8/23/ZM/2026",
+   "penize": {
+    "pol": "5169",
+    "zmena": 550000
+   },
+   "popis": "Zařazení 550 000 Kč na diagnostiku.",
+   "zdroj": "RO-2026-02"
+  },
+  {
+   "datum": "2026-06-22",
+   "typ": "rozhodnuti",
+   "organ": "ZM",
+   "usneseni": "24,38/26/ZM/2026",
+   "penize": {
+    "pol": "5171",
+    "zmena": 12800000
+   },
+   "popis": "Oprava lávky – stavební práce 12 800 000 Kč, financováno v rámci RO 12 (investiční úvěr 107,5 mil.).",
+   "zdroj": "RO-2026-12"
+  }
+ ],
+ "souvisi": [
+  "Cyklostezka Rokytenka II od visuté lávky (RO 9, +1 475 000 Kč)",
+  "Přestavba mostu VS-04-Rom na lávku Vs-04-Rol (RO 9, +50 000 Kč)"
+ ],
+ "otevrene_otazky": [
+  "Výsledek diagnostiky (závěrečná zpráva 04/2026) – kde zveřejněna?",
+  "Veřejná zakázka na stavební práce – dodavatel, cena, smlouva v registru smluv?",
+  "Skutečné čerpání v závěrečném účtu 2026."
+ ]
+}

@@ -1,0 +1,257 @@
+{
+  "zdroj": "https://mestovsetin.cz/rozpocet-mesta-vsetin/ds-1010/p1=72085",
+  "slozka_ds": 1010,
+  "id_org": 18676,
+  "vytezeno": "2026-10-22 21:20 SELČ (19:20 UTC)",
+  "rozpocty": [
+    {
+      "rok": 2026,
+      "typ": "schvaleny_rozpocet",
+      "format": "PDF",
+      "velikost": "541 kB",
+      "zverejneno": null,
+      "id_dokumenty": "566171",
+      "url": "https://mestovsetin.cz/assets/File.ashx?id_org=18676&id_dokumenty=566171"
+    },
+    {
+      "rok": 2025,
+      "typ": "schvaleny_rozpocet",
+      "format": "PDF",
+      "velikost": "348 kB",
+      "zverejneno": null,
+      "id_dokumenty": "560951",
+      "url": "https://mestovsetin.cz/assets/File.ashx?id_org=18676&id_dokumenty=560951"
+    },
+    {
+      "rok": 2024,
+      "typ": "schvaleny_rozpocet",
+      "format": "PDF",
+      "velikost": "569 kB",
+      "zverejneno": null,
+      "id_dokumenty": "556628",
+      "url": "https://mestovsetin.cz/assets/File.ashx?id_org=18676&id_dokumenty=556628"
+    },
+    {
+      "rok": 2023,
+      "typ": "schvaleny_rozpocet",
+      "format": "PDF",
+      "velikost": "790 kB",
+      "zverejneno": null,
+      "id_dokumenty": "553351",
+      "url": "https://mestovsetin.cz/assets/File.ashx?id_org=18676&id_dokumenty=553351"
+    },
+    {
+      "rok": 2022,
+      "typ": "schvaleny_rozpocet",
+      "format": "PDF",
+      "velikost": "754 kB",
+      "zverejneno": null,
+      "id_dokumenty": "547816",
+      "url": "https://mestovsetin.cz/assets/File.ashx?id_org=18676&id_dokumenty=547816"
+    },
+    {
+      "rok": 2021,
+      "typ": "schvaleny_rozpocet",
+      "format": "PDF",
+      "velikost": "743 kB",
+      "zverejneno": null,
+      "id_dokumenty": "543547",
+      "url": "https://mestovsetin.cz/assets/File.ashx?id_org=18676&id_dokumenty=543547"
+    },
+    {
+      "rok": 2020,
+      "typ": "schvaleny_rozpocet",
+      "format": "PDF",
+      "velikost": "1 MB",
+      "zverejneno": null,
+      "id_dokumenty": "538581",
+      "url": "https://mestovsetin.cz/assets/File.ashx?id_org=18676&id_dokumenty=538581"
+    },
+    {
+      "rok": 2019,
+      "typ": "schvaleny_rozpocet",
+      "format": "PDF",
+      "velikost": "1,2 MB",
+      "zverejneno": "2018-12-19",
+      "id_dokumenty": "533424",
+      "url": "https://mestovsetin.cz/assets/File.ashx?id_org=18676&id_dokumenty=533424"
+    },
+    {
+      "rok": 2018,
+      "typ": "schvaleny_rozpocet",
+      "format": "PDF",
+      "velikost": "1,3 MB",
+      "zverejneno": "2017-12-27",
+      "id_dokumenty": "528252",
+      "url": "https://mestovsetin.cz/assets/File.ashx?id_org=18676&id_dokumenty=528252"
+    },
+    {
+      "rok": 2017,
+      "typ": "schvaleny_rozpocet",
+      "format": "PDF",
+      "velikost": "995 kB",
+      "zverejneno": "2016-12-20",
+      "id_dokumenty": "523561",
+      "url": "https://mestovsetin.cz/assets/File.ashx?id_org=18676&id_dokumenty=523561"
+    },
+    {
+      "rok": 2016,
+      "typ": "schvaleny_rozpocet",
+      "format": "PDF",
+      "velikost": "836 kB",
+      "zverejneno": "2016-01-05",
+      "id_dokumenty": "519246",
+      "url": "https://mestovsetin.cz/assets/File.ashx?id_org=18676&id_dokumenty=519246"
+    },
+    {
+      "rok": 2015,
+      "typ": "schvaleny_rozpocet",
+      "format": "HTML_detail",
+      "zverejneno": "2014-12-30",
+      "url": "https://mestovsetin.cz/rozpocet%2Dmesta%2Dvsetin%2Dna%2Drok%2D2015/d-515531/p1=72085",
+      "pozn": "detail dokumentu, přílohy nutno dotěžit"
+    },
+    {
+      "rok": 2014,
+      "typ": "schvaleny_rozpocet",
+      "format": "PDF",
+      "velikost": "538 kB",
+      "zverejneno": "2013-12-12",
+      "id_dokumenty": "511663",
+      "url": "https://mestovsetin.cz/assets/File.ashx?id_org=18676&id_dokumenty=511663"
+    },
+    {
+      "rok": 2013,
+      "typ": "schvaleny_rozpocet",
+      "format": "PDF",
+      "velikost": "448 kB",
+      "zverejneno": "2012-12-19",
+      "id_dokumenty": "507718",
+      "url": "https://mestovsetin.cz/assets/File.ashx?id_org=18676&id_dokumenty=507718"
+    },
+    {
+      "rok": 2012,
+      "typ": "schvaleny_rozpocet",
+      "format": "PDF",
+      "velikost": "636 kB",
+      "zverejneno": "2011-12-15",
+      "id_dokumenty": "503023",
+      "url": "https://mestovsetin.cz/assets/File.ashx?id_org=18676&id_dokumenty=503023"
+    },
+    {
+      "rok": 2011,
+      "typ": "schvaleny_rozpocet",
+      "format": "DOC",
+      "velikost": "11,3 MB",
+      "zverejneno": "2011-01-03",
+      "id_dokumenty": "498255",
+      "url": "https://mestovsetin.cz/assets/File.ashx?id_org=18676&id_dokumenty=498255"
+    },
+    {
+      "rok": 2010,
+      "typ": "schvaleny_rozpocet",
+      "format": "DOC",
+      "velikost": "2,3 MB",
+      "zverejneno": "2010-01-06",
+      "id_dokumenty": "492564",
+      "url": "https://mestovsetin.cz/assets/File.ashx?id_org=18676&id_dokumenty=492564"
+    },
+    {
+      "rok": 2009,
+      "typ": "schvaleny_rozpocet",
+      "format": "XLS",
+      "velikost": "274 kB",
+      "zverejneno": "2009-01-06",
+      "id_dokumenty": "486190",
+      "url": "https://mestovsetin.cz/assets/File.ashx?id_org=18676&id_dokumenty=486190"
+    },
+    {
+      "rok": 2008,
+      "typ": "schvaleny_rozpocet",
+      "format": "DOC",
+      "velikost": "588 kB",
+      "zverejneno": "2008-01-04",
+      "id_dokumenty": "479201",
+      "url": "https://mestovsetin.cz/assets/File.ashx?id_org=18676&id_dokumenty=479201"
+    },
+    {
+      "rok": 2007,
+      "typ": "schvaleny_rozpocet",
+      "format": "DOC",
+      "velikost": "3,7 MB",
+      "zverejneno": "2007-04-02",
+      "id_dokumenty": "474950",
+      "url": "https://mestovsetin.cz/assets/File.ashx?id_org=18676&id_dokumenty=474950"
+    },
+    {
+      "rok": 2006,
+      "typ": "schvaleny_rozpocet",
+      "format": "HTML_detail",
+      "zverejneno": "2006-01-09",
+      "url": "https://mestovsetin.cz/rozpocet%2Dmesta%2Dvsetin%2Dna%2Drok%2D2006/d-260666/p1=72085",
+      "pozn": "detail dokumentu, přílohy nutno dotěžit"
+    },
+    {
+      "rok": 2005,
+      "typ": "schvaleny_rozpocet",
+      "format": "HTML_detail",
+      "zverejneno": "2005-01-06",
+      "url": "https://mestovsetin.cz/rozpocet%2Dmesta%2Dvsetin%2Dna%2Drok%2D2005/d-180991/p1=72085",
+      "pozn": "detail dokumentu, přílohy nutno dotěžit"
+    },
+    {
+      "rok": 2004,
+      "typ": "schvaleny_rozpocet",
+      "format": "XLS",
+      "zverejneno": "2004-01-05",
+      "url": "http://vismo.obce.cz/soubory/18676/pvf_vyveseni.xls",
+      "pozn": "externí legacy doména – ověřit dostupnost"
+    },
+    {
+      "rok": 2003,
+      "typ": "schvaleny_rozpocet",
+      "format": "HTML_detail",
+      "zverejneno": "2004-01-05",
+      "url": "https://mestovsetin.cz/rozpocet%2D2003/d-75216/p1=72085",
+      "pozn": "detail dokumentu, přílohy nutno dotěžit"
+    },
+    {
+      "rok": 2002,
+      "typ": "schvaleny_rozpocet",
+      "format": "HTML_detail",
+      "zverejneno": "2002-05-14",
+      "url": "https://mestovsetin.cz/rozpocet%2D2002/d-44097/p1=72085",
+      "pozn": "detail dokumentu, přílohy nutno dotěžit"
+    },
+    {
+      "rok": 2001,
+      "typ": "schvaleny_rozpocet",
+      "format": "HTML_detail",
+      "zverejneno": "2001-01-12",
+      "url": "https://mestovsetin.cz/rozpocet%2D2001/d-1210/p1=72085",
+      "pozn": "detail dokumentu, přílohy nutno dotěžit"
+    }
+  ],
+  "fronta_dalsich_slozek": {
+    "rozpoctova_opatreni_rocni_ds": {
+      "2026": "https://mestovsetin.cz/2026%2Drozpoctova%2Dopatreni/ds-19928",
+      "2025": "https://mestovsetin.cz/2025%2Drozpoctova%2Dopatreni/ds-19876",
+      "2024": "https://mestovsetin.cz/2024%2Drozpoctova%2Dopatreni/ds-19802",
+      "2023": "https://mestovsetin.cz/2023%2Drozpoctova%2Dopatreni/ds-19725",
+      "2022": "https://mestovsetin.cz/2022%2Drozpoctova%2Dopatreni/ds-19647",
+      "2021": "https://mestovsetin.cz/2021%2Drozpoctova%2Dopatreni/ds-19587",
+      "2020": "https://mestovsetin.cz/2020%2Drozpoctova%2Dopatreni/ds-19502",
+      "2019": "https://mestovsetin.cz/2019%2Drozpoctova%2Dopatreni/ds-19393",
+      "2018": "https://mestovsetin.cz/2018%2Drozpoctova%2Dopatreni/ds-19318",
+      "2017": "https://mestovsetin.cz/2017%2Drozpoctova%2Dopatreni/ds-19252"
+    },
+    "strednedoby_vyhled_ds_19253": "https://mestovsetin.cz/strednedoby%2Dvyhled%2Drozpoctu/ds-19253/p1=72084",
+    "zaverecny_ucet_ds_1076": "https://mestovsetin.cz/zaverecny%2Ducet%2Dmesta/ds-1076/archiv=1",
+    "prezkoumani_hospodareni_ds_19046": "https://mestovsetin.cz/prezkoumani%2Dhospodareni/ds-19046/p1=72081",
+    "rozklikavaci_rozpocet_d_544266": "https://mestovsetin.cz/rozklikavaci%2Drozpocet%2Dmesta/d-544266/p1=72080",
+    "verejne_zakazky_d_495101": "https://mestovsetin.cz/verejne%2Dzakazky/d-495101/p1=72079",
+    "dotace_ms_72070": "https://mestovsetin.cz/dotace/ms-72070/p1=72070",
+    "stret_zajmu_ms_72063": "https://mestovsetin.cz/stret%2Dzajmu/ms-72063/p1=72063",
+    "archiv_ds_1010": "https://mestovsetin.cz/rozpocet%2Dmesta%2Dvsetin/ds-1010/p1=72085&archiv=1"
+  }
+}

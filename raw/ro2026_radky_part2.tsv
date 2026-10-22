@@ -1,0 +1,130 @@
+8	P		4116	13010	0005	2550000	5500	2555500	Státní příspěvek na výkon pěstounské péče
+8	V	3111	5331	00130901	0003	2589000	151000	2740000	Zvýšení limitu na platy+odvody
+8	V	3111	5331	00131701	0003	3587000	210000	3797000	Zvýšení limitu na platy+odvody
+8	V	3111	5331	00131801	0003	3410000	205000	3615000	Zvýšení limitu na platy+odvody
+8	V	3111	5331	00132001	0003	1770000	171000	1941000	Zvýšení limitu na platy+odvody
+8	V	3113	5331	00033001	0003	14168500	736000	14904500	Zvýšení limitu na platy+odvody
+8	V	3113	5331	00033201	0003	16470000	903000	17373000	Zvýšení limitu na platy+odvody
+8	V	3113	5331	00033401	0003	17464000	882000	18346000	Zvýšení limitu na platy+odvody
+8	V	3113	5331	00033501	0003	10652000	555000	11207000	Zvýšení limitu na platy+odvody
+8	V	3113	5331	00034201	0003	9173000	575000	9748000	Zvýšení limitu na platy+odvody
+8	V	3113	5331	26033504	0003	0	70000	70000	ZŠ Sychrov - neinvestiční účelový příspěvek - havárie kanalizačního potrubí
+8	V	3314	5331	00040001	0003	20302000	1006000	21308000	Zvýšení limitu na platy+odvody
+8	V	3421	5331	00032901	0003	6086000	267000	6353000	Zvýšení limitu na platy+odvody
+8	V	3639	5331	17036391	0017	60307000	587000	60894000	Zvýšení limitu na platy+odvody
+8	V	3639	5331	17036392	0017	32109000	1648000	33757000	zvýšení limitu na platy
+8	V	4339	5901	13010	0005	177100	5500	182600	Státní příspěvek na výkon pěstounské péče
+8	V	5311	5011		0010	17188000	1146000	18334000	Zvýšení limitu na platy+odvody
+8	V	5311	5031		0010	4235000	283000	4518000	Zvýšení limitu na platy+odvody
+8	V	5311	5032		0010	1537000	103000	1640000	Zvýšení limitu na platy+odvody
+8	V	5311	5038		0010	80000	5400	85400	Zvýšení limitu na platy+odvody
+8	V	6171	5011		0001	111345000	7423000	118768000	Zvýšení limitu na platy+odvody
+8	V	6171	5031		0001	27837000	1856000	29693000	Zvýšení limitu na platy+odvody
+8	V	6171	5032		0001	10022000	669000	10691000	Zvýšení limitu na platy+odvody
+8	V	6171	5038		0001	468000	32000	500000	Zvýšení limitu na platy+odvody
+8	V	6409	5901	10000002	0001	27830000	-19413400	8416600	Uvolnění rezervy
+8	V	6409	5901	30000001	0003	5451637.58	-70000	5381637.58	Uvolnění rezervy
+8	V	5512	6121	00009977	0002	0	500000	500000	Stavební úpravy prostor pro JSDH Vsetín v Rokytnici
+8	V	5512	6121	00009977	0004	152000	-152000	0	Změna rozpočtového zatřídění na ORJ 0002
+8	V	6409	6901	10000004	0001	66044950	-348000	65696950	Uvolnění rezervy
+9	P	3319	2229		0003	0	281390.05	281390.05	Vyúčtování závazku veřejné služby - DK
+9	P	3412	2229		0003	0	4476080.92	4476080.92	Vyúčtování závazku veřejné služby - Vsetínská sportovní
+9	P	6171	2111		0018	0	25000	25000	Program kotlíkové dotace ZK
+9	P	6402	2229	143133092	0003	10696.78	13453.69	24150.47	Vratka transferu MŠMT přes ZK
+9	P	6402	2229	143533092	0003	35281.22	44374.31	79655.53	Vratka transferu MŠMT přes ZK
+9	P		4116	13010	0005	2555500	-49500	2506000	Snížení státního příspěvku na výkon pěstounské péče
+9	P		4116	07001	0010	419330	-419330	0	Projekt Prevence Vsetín II
+9	P		4116	144113021	0010	0	73482.27	73482.27	Projekt Prevence Vsetín II
+9	P		4116	144513021	0010	0	425078.21	425078.21	Projekt Prevence Vsetín II
+9	P		4122		0002	2900000	-2900000	0	(bez popisu – zrušení původní položky)
+9	P		4122	00110	0002	0	2348254	2348254	Neinvestiční dotace na zajištění dopravní obslužnosti
+9	P		4122	00090	0003	4023000	30000	4053000	MVK Literární Vsetín
+9	V	2292	5213		0002	33500000	1357717	34857717	Závazek veřejné služby - veřejná linková doprava
+9	V	3113	5331	26033504	0003	70000	7575.22	77575.22	ZŠ Sychrov - zvýšení účelového příspěvku
+9	V	3314	5336	00090 00000400	0003	4023000	30000	4053000	MVK Literární Vsetín
+9	V	4339	5901	13010	0005	182600	-49500	133100	Snížení státního příspěvku na výkon pěstounské péče
+9	V	4349	5901	13021	0010	466344	87612.09	553956.09	Projekt Prevence Vsetín II
+9	V	6171	5021	18000004	0018	0	25000	25000	Program kotlíkové dotace ZK
+9	V	6402	5364	143133092	0003	10696.78	13453.69	24150.47	Vratka transferu MŠMT přes ZK
+9	V	6402	5364	143533092	0003	35281.22	44374.31	79655.53	Vratka transferu MŠMT přes ZK
+9	V	6409	5901	10000002	0001	8416600	-1357717	7058883	Uvolnění rezervy
+9	V	6409	5901	10000003	0001	0	4757470.97	4757470.97	Tvorba rezervy
+9	V	6409	5901	30000001	0003	5381637.58	-7575.22	5374062.36	Uvolnění rezervy
+9	V	2212	6121	00009910	0004	500000	50000	550000	Přestavba mostu VS-04-Rom na lávku Vs-04-Rol
+9	V	2219	6121	00009851	0004	2850000	1475000	4325000	Cyklostezka Rokytenka II od visuté lávky
+9	V	3412	6121	00009642	0004	650000	605000	1255000	Sportovní hala na Lapači - architektonická studie
+9	V	3639	6121	26363901	0002	0	6014500	6014500	Nabytí pozemků včetně objektu občanské vybavenosti (hospoda U Marka)
+9	V	3639	6130	26363901	0002	0	2987500	2987500	Nabytí pozemků včetně objektu občanské vybavenosti (hospoda U Marka)
+9	V	6409	6901	10000004	0001	65696950	-11132000	54564950	Uvolnění rezervy
+9	F		8115			114885850.45	560127.61	115445978.06	Financování
+10	P	3314	2229		0003	0	345546.71	345546.71	MVK, vyúčtování závazného příspěvku na energie
+10	P	3639	2229		0017	0	1427145.84	1427145.84	TS - vyúčtování příspěvku na energie
+10	P	6171	2111		0018	25000	5000	30000	Program kotlíky ZK
+10	P	6402	2229	143133092	0003	24150.47	16100.32	40250.79	ZŠ Trávníky, vratka dotace MŠMT
+10	P	6402	2229	143533092	0003	79655.53	53103.68	132759.21	ZŠ Trávníky, vratka dotace MŠMT
+10	V	3113	5331	26033004	0003	0	177229	177229	ZŠ a MŠ Ohrada, neinvestiční příspěvek - oprava vodovodního potrubí
+10	V	3113	5331	26033005	0003	0	87000	87000	ZŠ a MŠ Ohrada, neinvestiční příspěvek - inventarizace
+10	V	3113	5331	26033204	0003	0	108041	108041	ZŠ a MŠ Trávníky - neinvestiční příspěvek na výměnu stravovacích terminálů
+10	V	3113	5331	26034204	0003	0	118677	118677	ZŠ Rokytnice - neinvestiční příspěvek na opravu solárního systému
+10	V	6171	5021	18000004	0018	25000	5000	30000	Program kotlíky ZK
+10	V	6402	5364	143133092	0003	24150.47	16100.32	40250.79	ZŠ Trávníky, vratka dotace MŠMT
+10	V	6402	5364	143533092	0003	79655.53	53103.68	132759.21	ZŠ Trávníky, vratka dotace MŠMT
+10	V	6409	5901	10000003	0001	4757470.97	1427145.84	6184616.81	Tvorba rezervy
+10	V	6409	5901	30000001	0003	5374062.36	-145400.29	5228662.07	Tvorba rezervy / Uvolnění rezervy
+10	V	3412	6121	00009986	0004	600000	14600000	15200000	Hřiště Pod Pecníkem - výměna umělého trávníku
+10	V	3613	6121	00009854	0004	0	4800000	4800000	Stavební úpravy budovy MěÚ Vsetín
+10	V	6409	6901	10000004	0001	54564950	-19400000	35164950	Uvolnění rezervy
+11	P	6402	2229	143133092	0003	40250.79	4203.54	44454.33	ZŠ Rokytnice, vratka dotace MŠMT
+11	P	6402	2229	143533092	0003	132759.21	13864.46	146623.67	ZŠ Rokytnice, vratka dotace MŠMT
+11	P		4116	13010	0005	2506000	54000	2560000	Zvýšení státního příspěvku na výkon pěstounské péče
+11	P		4116	13024	0005	11923800	812600	12736400	Transfer - sociálně právní ochrana dětí
+11	P		4122	33166 00000342	0003	0	46000	46000	ZŠ Rokytnice - Matematická olympiáda a Pythagoriáda
+11	P		4122	00090	0003	4053000	174000	4227000	MVK - Regionální funkce knihoven
+11	P		4122	33166	0003	0	21000	21000	ZŠ Sychrov - Přírodovědný klokan
+11	V	3111	5331	26132003	0003	0	99120	99120	MŠ Na Kopečku - neinvestiční příspěvek - oprava střechy domku na školní zahradě
+11	V	3113	5336	33166 00000335	0003	0	10000	10000	ZŠ Sychrov - Přírodovědný klokan
+11	V	3113	5336	33166 00000342	0003	0	46000	46000	ZŠ Rokytnice - Matematická olympiáda a Pythagoriáda
+11	V	3314	5336	00090 00000400	0003	4053000	174000	4227000	MVK - Regionální funkce knihoven
+11	V	3421	5336	33166 00000329	0003	0	11000	11000	Alcedo - Soutěž v programování kategorie ZŠ a SŠ
+11	V	3741	5169		0007	120000	350000	470000	Navýšení prostředků na předběžnou náhradní péči o týraná zvířata
+11	V	4329	5011	13024	0005	7848000	605500	8453500	Transfer - sociálně právní ochrana dětí
+11	V	4329	5021	13024	0005	0	150500	150500	Transfer - sociálně právní ochrana dětí
+11	V	4329	5032	13024	0005	706500	54500	761000	Transfer - sociálně právní ochrana dětí
+11	V	4329	5038	13024	0005	31500	2100	33600	Transfer - sociálně právní ochrana dětí
+11	V	4339	5169	13010	0005	330000	54000	384000	Zvýšení státního příspěvku na výkon pěstounské péče
+11	V	6171	5166		0003	0	94000	94000	Navýšení prostředků na znalečné ORJ 0006
+11	V	6402	5364	143133092	0003	40250.79	4203.54	44454.33	ZŠ Rokytnice, vratka dotace MŠMT
+11	V	6402	5364	143533092	0003	132759.21	13864.46	146623.67	ZŠ Rokytnice, vratka dotace MŠMT
+11	V	6409	5901	10000002	0001	7058883	-444000	6614883	Uvolnění rezervy
+11	V	6409	5901	30000001	0003	5228662.07	-4091120	1137542.07	Uvolnění rezervy
+11	V	3113	6121	00003611	0003	1000000	276550	1276550	ZŠ Sychrov 97 - snížení energetické náročnosti
+11	V	3113	6351	26034220	0003	510000	-510000	0	sloučení investičních příspěvků
+11	V	3113	6351	26034221	0003	1170000	602000	1772000	sloučení investičních příspěvků + navýšení
+11	V	3113	6351	26034222	0003	13700000	3900000	17600000	ZŠ Rokytnice - Školní hřiště
+11	V	3412	6121	00009956	0004	350000	11500000	11850000	Městské lázně - vzduchotechnika
+11	V	3421	6121	00009934	0003	0	55055	55055	Alcedo Vsetín - snížení energetické náročnosti, ORJ 0003
+11	V	3612	6121	00009928	0004	17000000	600000	17600000	Rekonstrukce bytů v domě Tyršova 1271 - PD
+11	V	6409	6901	10000004	0001	35164950	-12431605	22733345	Uvolnění rezervy
+12	V	2212	5171	00009989	0004	0	12800000	12800000	Oprava lávky Vs-01-Bel v Lázkách - stavební práce
+12	V	3319	5222		0003	3589000	300000	3889000	Dotace - UNITED 3P, z.s.
+12	V	3419	5222		0003	19486000	350000	19836000	FC Fastav Vsetín - navýšení výdaje na hřiště Pod Pecníkem
+12	V	3421	5331	26032901	0003	0	70000	70000	ALCEDO - neinvestiční úč. příspěvek - Mistrovství Evropy v rope skippingu
+12	V	3429	5222		0003	678810	434436.88	1113246.88	Dotace - Cyklostezka Bečva, z.s. - projekt Sdílená kola
+12	V	6409	5363		0002	0	131471	131471	Porušení rozpočtové kázně
+12	V	2117	6121	00009991	0004	0	800000	800000	Přípojka elektro pro zázemí DK Vsetín
+12	V	2143	6122	00003902	0003	0	3766407	3766407	Projekt Zvýšení turistické atraktivity Vsetína
+12	V	2219	6121	00009937	0004	10000000	-1400000	8600000	Úspora
+12	V	2221	6121	00003190	0004	4840000	-500000	4340000	Úspora
+12	V	2221	6121	00009921	0004	6050000	-1500000	4550000	Úspora
+12	V	3113	6329	00000337	0003	0	325000	325000	ZŠ Integra Vsetín - pořízení konvektomatu
+12	V	3319	6121	00009992	0004	0	500000	500000	Stavební úpravy bočního schodiště DK Vsetín - PD
+12	V	3412	6121	00009770	0004	5000000	47000000	52000000	Sportovní areál Ohrada, I. etapa
+12	V	3612	6121	00009976	0004	3800000	-800000	3000000	Úspora
+12	V	3613	6121	00009959	0004	11000000	-7000000	4000000	Úspora
+12	V	3631	6121	00009988	0004	1850000	-900000	950000	Úspora
+12	V	3632	6121	00009929	0004	1000000	25200000	26200000	Rekonstrukce hřbitova ve Vsetíně - rozšíření kolumbária, 1. etapa
+12	V	3639	6121	00009899	0004	1000000	35300000	36300000	Fotovoltaická elektrárna na budově ZŠ Ohrada - AD, stavební práce
+12	V	3639	6121	00009948	0004	9000000	-2000000	7000000	Úspora
+12	V	4376	6322		0005	0	2000000	2000000	Individuální dotace - NA CESTĚ, z.s. - dofinancování vícenákladů
+12	F		8115			115445978.06	7377314.88	122823292.94	Financování
+12	F		8123			0	107500000	107500000	Financování investičním úvěrem
