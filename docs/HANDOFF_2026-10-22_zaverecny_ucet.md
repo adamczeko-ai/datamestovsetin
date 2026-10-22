@@ -1,6 +1,6 @@
 # Předávací zpráva: závěrečný účet 2024 a 2025, rekonciliace s RO
 
-**Data:** `data/zaverecny_ucet/zaverecny_ucet_2024_2025.json`
+**Data:** `data/zaverecny_ucet/zaverecny_ucet_2023_2025.json`
 
 ## Rekonciliace: zveřejněná RO proti závěrečnému účtu
 

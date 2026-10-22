@@ -28,6 +28,14 @@
   {
    "datum": "2023-12-18",
    "organ": "ZM",
+   "usneseni": "18,36/10/ZM/2023",
+   "penize": 745000,
+   "pol": "5192",
+   "popis": "RO 21/2023: 'Spor na ochranu osobnosti' +745 000 Kč (položka 3612/5192: 200 000 → 945 000)."
+  },
+  {
+   "datum": "2023-12-18",
+   "organ": "ZM",
    "popis": "RO 2023 reagující na první dva rozsudky NS (nenabyly právní moci do konce 2023)."
   },
   {
@@ -61,5 +69,6 @@
   "Stáhnout rozsudky NS (nsoud.cz – vyhledávání podle sp. zn.)",
   "Ověřit ústavní stížnosti města (nalus.usoud.cz)",
   "Dohledat částky v RO 2023 a ZÚ 2023/2024"
- ]
+ ],
+ "soucet_2023_2024_Kc": 5754962
 }

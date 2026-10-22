@@ -111,6 +111,43 @@
     "zastaveny_majetek_pct": 0,
     "majetek_tis": 3828851.0
    }
+  },
+  "2023": {
+   "dokumenty": {
+    "zaverecny_ucet": "https://mestovsetin.cz/assets/File.ashx?id_org=18676&id_dokumenty=557961",
+    "zprava_o_prezkoumani": "https://mestovsetin.cz/assets/File.ashx?id_org=18676&id_dokumenty=557962"
+   },
+   "pocet_RO": 22,
+   "rozpocet": {
+    "prijmy": {
+     "schvaleny": 673778000.0,
+     "zmeny_tisk": 108879329.93,
+     "zmeny_spravne": 42078329.93,
+     "upraveny": 715856329.93
+    },
+    "vydaje": {
+     "schvaleny": 799729000.0,
+     "zmeny": 153797840.42,
+     "upraveny": 953526840.42
+    },
+    "pol_8115": {
+     "schvaleny": 25951000.0,
+     "upraveny": 137670510.49,
+     "skutecnost": -50139639.56
+    },
+    "pol_8213_kratkodoby_uver": {
+     "upraveny": 100000000.0,
+     "skutecnost": 0.0
+    }
+   },
+   "saldo": {
+    "typ": "přebytek",
+    "castka_text": "49,8 mil. Kč (přesná částka v dokumentu)"
+   },
+   "prezkoumani": {
+    "chyby_a_nedostatky": "nezjištěny"
+   },
+   "schvaleni_ZM": "12/12/ZM/2024 – souhlas bez výhrad (22.4.2024)"
   }
  },
  "rekonciliace_RO_vs_ZU": {
@@ -158,11 +195,35 @@
     "rozdil": 9229626.45
    },
    "zaver": "POTVRZENO A-2024-01: zveřejněná RO 2024 se od zaúčtovaných změn liší o 8,44 mil. Kč v příjmech (zejména transfery) a 0,79 mil. Kč ve výdajích; rozdíl ve financování 9,23 mil. Kč odpovídá skoku řady 8115 mezi RO 6 a RO 9. ZÚ uvádí stejný počet RO (22) → pravděpodobně se zveřejněná verze některého RO liší od schválené/zaúčtované. Ověřit usnesení RM/ZM duben–červen 2024 (RO 7, RO 8)."
+  },
+  "2023": {
+   "prijmy": {
+    "RO": 42370043.83,
+    "ZU": 42078329.93,
+    "rozdil": -291713.9
+   },
+   "vydaje": {
+    "RO": 153791687.11,
+    "ZU": 153797840.42,
+    "rozdil": 6153.31
+   },
+   "pol_8115": {
+    "RO": 111286721.18,
+    "ZU": 111719510.49,
+    "rozdil": 432789.31
+   },
+   "zaver": "Menší nesoulad (0,43 mil. Kč ve financování). Vzorec stejný jako 2024/2025: zveřejněná RO ≠ zaúčtované změny."
   }
  },
  "pozorovani": [
   "2025: kapitálové výdaje čerpány jen na 61,66 % (315,4 z 511,6 mil. Kč) při schodku 78,9 mil. Kč.",
   "Krátkodobý úvěr 200 mil. Kč (pol. 8213) byl v rozpočtu 2024 i 2025, ale nebyl čerpán.",
   "2026: RO 12 a 17 zařazují investiční úvěr 207,5 mil. Kč (pol. 8123) – sledovat čerpání v ZÚ 2026."
- ]
+ ],
+ "souhrn_nesouladu_RO_ZU": {
+  "2023": 432789.31,
+  "2024": 9229626.45,
+  "2025": -657069.39,
+  "pozn": "rozdíl ZÚ − součet zveřejněných RO v pol. 8115 (Kč)"
+ }
 }

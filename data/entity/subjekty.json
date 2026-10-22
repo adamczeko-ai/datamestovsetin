@@ -380,7 +380,7 @@
   {
    "ico": "25835661",
    "nazev": "H & B delta, s.r.o.",
-   "role": "dárce (MVK)",
+   "role": "dárce MVK (RO 21/2025); dodavatel FVE ZŠ Ohrada 2026 (2,26 mil. Kč + smlouva bez uvedené hodnoty)",
    "adresa": "Bobrky 382, Vsetín",
    "vyskyt_RO_2025": [
     21
@@ -426,6 +426,38 @@
    "role": "smluvní strana (ZM 12/2024)",
    "adresa": "Jasenická 1106, Vsetín",
    "zdroj": "ZM 22.4.2024"
+  },
+  {
+   "ico": null,
+   "nazev": "Agentura pro ekonomický rozvoj Vsetínska (AERV)",
+   "role": "peněžitý vklad 3,6 mil. Kč (RO 21/2023); 'Dohoda o narovnání AERV' 3 848 880 Kč (RO 8/2023)",
+   "zdroj": "RO 8/2023, RO 21/2023",
+   "k_overeni": "IČO, vlastnická struktura, předmět narovnání"
+  },
+  {
+   "ico": null,
+   "nazev": "DN Vsetín s.r.o.",
+   "role": "zápůjčka 1 000 000 Kč + vklad 1 000 Kč (RO 13/2023) – zřejmě nově založená městská společnost",
+   "zdroj": "RO 13/2023",
+   "k_overeni": "IČO, účel (DN = ?)"
+  },
+  {
+   "ico": "62587978",
+   "nazev": "VERA, spol. s r.o. (dle ORG kódu – k ověření)",
+   "role": "Rozšíření IS Radnice VERA 475 000 Kč",
+   "zdroj": "RO 13/2023"
+  },
+  {
+   "ico": null,
+   "nazev": "Farní sbor Českobratrské církve evangelické (Vsetín)",
+   "role": "dotace ZM 600 000 Kč",
+   "zdroj": "RO 5/2023"
+  },
+  {
+   "ico": null,
+   "nazev": "MUNIPOLIS (mobilní rozhlas)",
+   "role": "služba mobilního rozhlasu, navýšení 28 615 Kč",
+   "zdroj": "RO 8/2023"
   }
  ],
  "vazby_k_overeni": [
@@ -433,6 +465,11 @@
    "typ": "darce→dodavatel",
    "ico": "25845420",
    "popis": "LPT System, s.r.o. poskytla dar MVK (RO 21/2025, prosinec 2025) a v únoru 2026 byla vybrána jako nejlevnější ze 3 nabídek pro příspěvkovou organizaci ZŠ Trávníky (RO 4/2026). Samo o sobě nic nedokazuje (malé částky, jiné organizace), jen evidovat."
+  },
+  {
+   "typ": "darce→dodavatel",
+   "ico": "25835661",
+   "popis": "H & B delta, s.r.o.: dar MVK 12/2025 → dodavatel FVE ZŠ Ohrada 07–10/2026."
   }
  ],
  "osoby_z_verejnych_dokumentu": [

@@ -1,0 +1,202 @@
+{
+ "schema": "vsetin-osint/parovani-smluv@1",
+ "zdroj": "Hlídač státu – hledání smluv (registr smluv)",
+ "stav_k": "2026-10-23",
+ "metoda": "dotaz ico:00304450 + klíčová slova akce; ručně vybrány relevantní smlouvy",
+ "upozorneni": "Fulltextové párování – relevance ověřena jen podle názvu dodavatele/částky.",
+ "akce": [
+  {
+   "akce": "Oprava lávky Vs-01-Bel v Lázkách",
+   "org": "00009989",
+   "dotaz": "ico:00304450 lávk* Lázk*",
+   "nalezeno": 11,
+   "klicove": [
+    {
+     "id": "37251477",
+     "podpis": "2026-03-12",
+     "dodavatel": "Damostis s.r.o.",
+     "Kc": 532279,
+     "pozn": "PŘESNĚ odpovídá nabídce diagnostiky z RO 2/2026 (532 279 Kč s DPH)",
+     "url": "https://www.hlidacstatu.cz/Detail/37251477"
+    },
+    {
+     "id": "38819378",
+     "podpis": "2026-07-16",
+     "dodavatel": "Ing. Miroslav Macek",
+     "Kc": 217800,
+     "url": "https://www.hlidacstatu.cz/Detail/38819378"
+    },
+    {
+     "id": "39548425",
+     "podpis": "2026-09-15",
+     "dodavatel": "Damostis s.r.o.",
+     "Kc": 119790,
+     "url": "https://www.hlidacstatu.cz/Detail/39548425"
+    },
+    {
+     "id": "39554985",
+     "podpis": "2026-09-15",
+     "dodavatel": "Ing. Miroslav Macek",
+     "Kc": 78650,
+     "url": "https://www.hlidacstatu.cz/Detail/39554985"
+    }
+   ],
+   "chybi": "smlouva na stavební práce (RO 12/2026: 12,8 mil. Kč) – k 23.10.2026 nenalezena"
+  },
+  {
+   "akce": "Rekonstrukce hřbitova – rozšíření kolumbária",
+   "org": "00009929",
+   "dotaz": "ico:00304450 kolumbári*",
+   "nalezeno": 5,
+   "klicove": [
+    {
+     "id": "39450769",
+     "podpis": "2026-09-07",
+     "dodavatel": "Martin Urban",
+     "Kc": 46920679,
+     "pozn": "Max. hodnota smlouvy 46,9 mil. Kč vs. rozpočet 2026 po RO 12: 26,2 mil. Kč (1. etapa) – ověřit vícelet. financování/etapy",
+     "url": "https://www.hlidacstatu.cz/Detail/39450769"
+    },
+    {
+     "id": "31260860",
+     "podpis": "2024-12-04",
+     "dodavatel": "Ing. PETR BRAVENEC projektová kancelář s.r.o.",
+     "Kc": 1936000,
+     "pozn": "projektová dokumentace",
+     "url": "https://www.hlidacstatu.cz/Detail/31260860"
+    },
+    {
+     "id": "39512277",
+     "podpis": "2026-09-09",
+     "dodavatel": "Ing. PETR BRAVENEC projektová kancelář s.r.o.",
+     "Kc": 229900,
+     "url": "https://www.hlidacstatu.cz/Detail/39512277"
+    }
+   ]
+  },
+  {
+   "akce": "Městské lázně – vzduchotechnika",
+   "org": "00009956",
+   "dotaz": "ico:00304450 \"městské lázně\" vzduchotechnik*",
+   "nalezeno": 10,
+   "klicove": [
+    {
+     "id": "38370901",
+     "podpis": "2026-06-15",
+     "dodavatel": "JASY Vsetín s.r.o.",
+     "Kc": 11355309,
+     "pozn": "odpovídá RO 11/2026 (+11,5 mil. → 11,85 mil.)",
+     "url": "https://www.hlidacstatu.cz/Detail/38370901"
+    },
+    {
+     "id": "39763845",
+     "podpis": "2026-10-01",
+     "dodavatel": "JASY Vsetín s.r.o.",
+     "Kc": 503274,
+     "url": "https://www.hlidacstatu.cz/Detail/39763845"
+    },
+    {
+     "id": "25054015",
+     "podpis": "2023-07-07",
+     "dodavatel": "TESP Contract s.r.o.",
+     "Kc": 7779173,
+     "pozn": "Městské lázně 2023",
+     "url": "https://www.hlidacstatu.cz/Detail/25054015"
+    }
+   ]
+  },
+  {
+   "akce": "Fotovoltaická elektrárna na budově ZŠ Ohrada",
+   "org": "00009899",
+   "dotaz": "ico:00304450 fotovoltaick* \"ZŠ Ohrada\"",
+   "nalezeno": 10,
+   "klicove": [
+    {
+     "id": "39793809",
+     "podpis": "2026-10-02",
+     "dodavatel": "H & B delta, s.r.o.",
+     "Kc": 2257416,
+     "url": "https://www.hlidacstatu.cz/Detail/39793809"
+    },
+    {
+     "id": "38646664",
+     "podpis": "2026-07-03",
+     "dodavatel": "H & B delta, s.r.o.",
+     "Kc": null,
+     "pozn": "hodnota neuvedena",
+     "url": "https://www.hlidacstatu.cz/Detail/38646664"
+    },
+    {
+     "id": "32832428",
+     "podpis": "2025-04-08",
+     "dodavatel": "Zero Emission Consulting, s.r.o.",
+     "Kc": 333960,
+     "url": "https://www.hlidacstatu.cz/Detail/32832428"
+    },
+    {
+     "id": "26733911",
+     "podpis": "2023-12-04",
+     "dodavatel": "Zero Emission Consulting, s.r.o.",
+     "Kc": 822800,
+     "url": "https://www.hlidacstatu.cz/Detail/26733911"
+    },
+    {
+     "id": "36270289",
+     "podpis": "2025-12-15",
+     "dodavatel": "Státní fond životního prostředí ČR",
+     "Kc": null,
+     "pozn": "dotace",
+     "url": "https://www.hlidacstatu.cz/Detail/36270289"
+    }
+   ],
+   "chybi": "hlavní smlouva na stavbu (rozpočet 36,3 mil. Kč po RO 12/2026) – k ověření, zda je některá z H & B delta"
+  },
+  {
+   "akce": "Zanádražní prostor",
+   "org": "00009844",
+   "dotaz": "ico:00304450 \"zanádražní prostor\"",
+   "nalezeno": 32,
+   "klicove": [
+    {
+     "id": "31486764",
+     "podpis": "2024-12-17",
+     "dodavatel": "PORR a.s.",
+     "Kc": 5349227,
+     "pozn": "dodatek/ část – hlavní smlouvu dohledat",
+     "url": "https://www.hlidacstatu.cz/Detail/31486764"
+    }
+   ]
+  },
+  {
+   "akce": "Sportovní areál Ohrada",
+   "org": "00009770",
+   "dotaz": "ico:00304450 \"sportovní areál\" Ohrada",
+   "nalezeno": 19,
+   "klicove": [
+    {
+     "id": "16012899",
+     "podpis": "2021-03-25",
+     "dodavatel": "CHVÁLEK ATELIÉR s.r.o.",
+     "Kc": null,
+     "url": "https://www.hlidacstatu.cz/Detail/16012899"
+    },
+    {
+     "id": "20262115",
+     "podpis": "2022-05-06",
+     "dodavatel": "CHVÁLEK ATELIÉR s.r.o.",
+     "Kc": 82280,
+     "url": "https://www.hlidacstatu.cz/Detail/20262115"
+    }
+   ],
+   "chybi": "smlouva na I. etapu (rozpočet 52 mil. Kč po RO 12/2026)"
+  }
+ ],
+ "vazby_k_overeni": [
+  {
+   "typ": "darce→dodavatel",
+   "nazev": "H & B delta, s.r.o.",
+   "ico": "25835661",
+   "popis": "Dar MVK (RO 21/2025) a v r. 2026 dodavatel u FVE ZŠ Ohrada (smlouvy 38646664, 39793809). Stejný vzorec jako LPT System."
+  }
+ ]
+}

@@ -4,7 +4,7 @@
 - red_flags.json: pravidlové signály k ověření (ne obvinění)
 Použití: python3 scripts/analyzy.py"""
 import json,collections,re
-ROKY=(2024,2025,2026)
+ROKY=(2023,2024,2025,2026)
 ops=[]
 for y in ROKY:
     d=json.load(open(f"data/rozpocet/{y}/rozpoctova_opatreni_{y}.json"))

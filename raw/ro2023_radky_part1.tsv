@@ -1,0 +1,210 @@
+1	P		4111	98008	0011	0	980000	980000	Dotace - volby
+1	P		4116	13010	0005	2065000	132800	2197800	Státní příspěvek na výkon pěstounské péče
+1	V	4339	5011	13010	0005	1100000	30000	1130000	Státní příspěvek na výkon pěstounské péče
+1	V	4339	5031	13010	0005	273000	7500	280500	Státní příspěvek na výkon pěstounské péče
+1	V	4339	5032	13010	0005	99000	3000	102000	Státní příspěvek na výkon pěstounské péče
+1	V	4339	5038	13010	0005	4000	1000	5000	Státní příspěvek na výkon pěstounské péče
+1	V	4339	5139	13010	0005	10000	1800	11800	Státní příspěvek na výkon pěstounské péče
+1	V	4339	5162	13010	0005	3000	4000	7000	Státní příspěvek na výkon pěstounské péče
+1	V	4339	5164	13010	0005	126000	16000	142000	Státní příspěvek na výkon pěstounské péče
+1	V	4339	5167	13010	0005	18500	13500	32000	Státní příspěvek na výkon pěstounské péče
+1	V	4339	5901	13010	0005	0	56000	56000	Státní příspěvek na výkon pěstounské péče
+1	V	6118	5011	98008	0011	0	60000	60000	Dotace - volby
+1	V	6118	5019	98008	0011	0	10000	10000	Dotace - volby
+1	V	6118	5021	98008	0011	0	282000	282000	Dotace - volby
+1	V	6118	5031	98008	0011	0	18000	18000	Dotace - volby
+1	V	6118	5032	98008	0011	0	8000	8000	Dotace - volby
+1	V	6118	5139	98008	0011	0	30000	30000	Dotace - volby
+1	V	6118	5156	98008	0011	0	1000	1000	Dotace - volby
+1	V	6118	5161	98008	0011	0	280000	280000	Dotace - volby
+1	V	6118	5164	98008	0011	0	31000	31000	Dotace - volby
+1	V	6118	5169	98008	0011	0	260000	260000	Dotace - volby
+2	P		2451	00000342	0003	0	429624	429624	ZŠ Rokytnice, vratka návratné finanční výpomoci
+2	P		4112		0001	51040000	2527600	53567600	Dotace SR - přenesený výkon
+2	V	2212	5169	00003149	0004	10000000	-10000000	0	Lávka přes Bečvu Vs-04-Bel
+2	V	2212	5169	00003203	0004	38000	-38000	0	PD oprava MD Na Stráni
+2	V	3113	5331	00034207	0003	0	203000	203000	ZŠ Rokytnice - havárie kanalizace
+2	V	3314	5331	00040001	0003	17796000	70000	17866000	MVK - příspěvek na provoz a limit na platy
+2	V	3314	5331	00040002	0003	1996000	395000	2391000	MVK - spotřeba energií
+2	V	3639	5901		0004	1000000	-1000000	0	Participativní rozpočet
+2	V	4349	5021	13016	0005	0	34740	34740	Projekt Vsetínský senior
+2	V	4349	5031	13016	0005	0	5893	5893	Projekt Vsetínský senior
+2	V	4349	5032	13016	0005	0	2138	2138	Projekt Vsetínský senior
+2	V	4349	5169	13016	0005	0	22606	22606	Projekt Vsetínský senior
+2	V	6171	5021	00120 18000004	0018	0	66000	66000	Program Kotlíkové dotace Zl. kraje
+2	V	6171	5169	00003164	0018	45850	-9500	36350	Přívětivý a efektivní MěÚ Vsetín PN
+2	V	6171	5169	104113013 00003164	0018	91700	-19000	72700	Přívětivý a efektivní MěÚ Vsetín PN
+2	V	6171	5169	104513013 00003164	0018	779450	-161500	617950	Přívětivý a efektivní MěÚ Vsetín PN
+2	V	6409	5909	15974	0001	0	77911.87	77911.87	Vrácení dotace MŠ Ohrada
+2	V	2212	6121	00003149	0004	0	10000000	10000000	Lávka u průmyslovky Vs-04-Bel
+2	V	2219	6121	00003186	0004	250000	-77000	173000	Cyklostezka Rokytenka - okolo HZ
+2	V	2221	6121	00003189	0004	30000	-30000	0	Autobusové zastávky - Trávníky - MŠ PD
+2	V	2221	6121	00003190	0004	25000	-25000	0	Autobusové zastávky - Ohrada - ul. G. Klapky
+2	V	2221	6121	00003192	0004	200000	170000	370000	Studie - autobusové dopravy Sychrov
+2	V	3639	6121	00009859	0004	0	3000000	3000000	Revitalizace Dolního náměstí ve Vsetíně, PD
+2	V	3639	6121	00009901	0004	0	1000000	1000000	Stezka bosou nohou v arboretu Semetín - participativní rozpočet
+2	V	3639	6351	01736395	0017	0	1500000	1500000	Účelový investiční příspěvek - úpravy obřadní síně u hřbitova
+2	V	6171	6111	00003164	0018	65000	9500	74500	Přívětivý a efektivní MěÚ Vsetín PN
+2	V	6171	6111	104113013 00003164	0018	130000	19000	149000	Přívětivý a efektivní MěÚ Vsetín PN
+2	V	6171	6111	104513013 00003164	0018	1105000	161500	1266500	Přívětivý a efektivní MěÚ Vsetín PN
+2	V	6171	6125		0019	0	240000	240000	Server pro terminálový přístup mimo budovu MěÚ
+2	V	6171	6125	19202101	0019	4800000	-240000	4560000	Kyberbezpečnost projekt (dotace)
+2	F		8115			25951000	2420064.87	28371064.87	Financování
+3	P		4122	00090 00040000	0003	0	3571000	3571000	MVK - regionální funkce knihoven
+3	V	3314	5336	00090 00040000	0003	0	3571000	3571000	MVK - regionální funkce knihoven
+4	P		4116	170534033 00040006	0003	0	133000	133000	Dotace SR - MVK - Kreativní učení
+4	P		4116	13010	0005	2197800	-54450	2143350	Vratka státního příspěvku
+4	P		4116	22024	0018	300000	100000	400000	Dotace SR - MPO - EKIS 2023
+4	P		4122	00120	0003	0	27497	27497	Dotace ZK - Bezpečně na kole
+4	P		4122	00150 00033409	0003	0	35000	35000	Dotace ZK - ZŠ Luh, Učíme se sebeobraně
+4	P		4122	00090 00040005	0003	0	28300	28300	Dotace ZK - MVK - Literární Vsetín
+4	V	2223	5139	00120	0003	0	27497	27497	Dotace ZK - Bezpečně na kole
+4	V	3113	5336	00150 00033409	0003	0	35000	35000	Dotace ZK - ZŠ Luh, Učíme se sebeobraně
+4	V	3314	5336	00090 00040005	0003	0	28300	28300	Dotace ZK - MVK - Literární Vsetín
+4	V	3314	5336	170534033 00040006	0003	0	133000	133000	Dotace SR - MVK - Kreativní učení
+4	V	4339	5169	13010	0005	313500	-54450	259050	Vratka státního příspěvku
+4	V	6171	5169	22024 00000101	0018	300000	100000	400000	Dotace SR - MPO - EKIS 2023
+5	P	3113	2322	00000330	0001	0	84178	84178	Pojistné plnění ZŠ Vsetín Ohrada
+5	P		4111	98187	0011	0	215397.69	215397.69	Vypořádání se SR - volby do zastupitelstev
+5	V	3113	5021	00003211	0003	19500	6400	25900	Projekt MAP III; přímé výdaje
+5	V	3113	5021	103133063 00003211	0003	39000	12800	51800	Projekt MAP III; přímé výdaje
+5	V	3113	5021	103533063 00003211	0003	331500	108800	440300	Projekt MAP III; přímé výdaje
+5	V	3113	5137	00003210	0003	0	2500	2500	Projekt MAP III; nepřímé výdaje
+5	V	3113	5137	103133063 00003210	0003	0	5000	5000	Projekt MAP III; nepřímé výdaje
+5	V	3113	5175	00003210	0003	1900	100	2000	Projekt MAP III; nepřímé výdaje
+5	V	3113	5175	103133063 00003210	0003	3800	200	4000	Projekt MAP III; nepřímé výdaje
+5	V	3113	5175	103533063 00003210	0003	32300	1700	34000	Projekt MAP III; nepřímé výdaje
+5	V	3113	5331	00033007	0003	0	84178	84178	Pojistné plnění ZŠ Vsetín Ohrada
+5	V	3313	5137	103533063 00003210	0003	0	42500	42500	Projekt MAP III; nepřímé výdaje
+5	V	3330	5223		0003	0	600000	600000	Dotace ZM - Farní sbor Českobratrské církve evangelické
+5	V	2212	6121	00003206	0004	1200000	350000	1550000	Oprava rampového schodiště u mostu 05737
+5	V	2219	6121	00003150	0004	100000	6500000	6600000	Cyklostezka Rokytenka I. část
+5	V	2219	6121	00003186	0004	173000	6000000	6173000	Cyklostezka Rokytenka - okolo HZ
+5	V	2219	6121	00009855	0004	200000	9500000	9700000	Cyklostezka Rokytenka od Kotrly po hranici
+5	V	3412	6121	00003155	0004	350000	-350000	0	Technologie Městských lázní II. etapa - parní kabina
+5	V	3412	6121	00003205	0004	0	10000000	10000000	Městské lázně 2023
+5	V	3612	6121	00009903	0004	0	3800000	3800000	Stavební úpravy DPS 1846
+5	V	3612	6121	00009907	0004	0	2100000	2100000	Stavební úpravy DPS 1580
+5	V	3613	6121	00009902	0004	0	250000	250000	Stavební úpravy objektu KOTOVO
+5	V	3631	6121	00009905	0004	0	60000	60000	Veřejné osvětlení přechodu u SŠ Kostka
+5	V	3639	6121	00009865	0004	11000000	1500000	12500000	Volnočasový areál Horní Jasenka
+5	V	3639	6121	00009906	0004	0	65000	65000	Studie proveditelnosti dopravního řešení na p.č. 2324 - Trávníky
+5	F		8115			28371064.87	40339602.31	68710667.18	Financování
+6	P	3111	2229	00001303	0003	0	38660	38660	Vratka za energie
+6	P	3111	2229	00001307	0003	0	15011	15011	Vratka za energie
+6	P	3111	2229	00001311	0003	0	9503	9503	Vratka za energie
+6	P	3111	2229	00001317	0003	0	41425	41425	Vratka za energie
+6	P	3111	2229	00001320	0003	0	5536.02	5536.02	Vratka za energie
+6	P	3113	2229	00000330	0003	0	152678.96	152678.96	Vratka za energie
+6	P	3113	2229	00000332	0003	0	102106.29	102106.29	Vratka za energie
+6	P	3113	2229	00000334	0003	0	200000	200000	Vratka za energie
+6	P	3113	2229	00000335	0003	0	50000	50000	Vratka za energie
+6	P	3113	2229	00000342	0003	0	78692	78692	Vratka za energie
+6	P	4311	2329		0005	1627000	-1627000	0	Převod na ÚZ
+6	P	6402	2229		0001	0	1749725.59	1749725.59	Vyúčtování transferu - Vsetínská sportovní
+6	P		4111	98074	0011	0	10000	10000	Dotace na doplňující volby do zastupitelstev ÚSC
+6	P		4116	13010	0005	2143350	-99000	2044350	Vratka státního příspěvku
+6	P		4116	13015	0005	0	1698368	1698368	Dotace na výkon sociální práce
+6	P		4116	22023	0018	0	68000	68000	Dotace SR/MPO - NEO 2023
+6	V	4311	5011		0005	1213000	-1213000	0	Převod na ÚZ
+6	V	4311	5011	13015	0005	0	1265500	1265500	Dotace na výkon sociální práce
+6	V	4311	5031		0005	300000	-300000	0	Převod na ÚZ
+6	V	4311	5031	13015	0005	0	313844	313844	Dotace na výkon sociální práce
+6	V	4311	5032		0005	110000	-110000	0	Převod na ÚZ
+6	V	4311	5032	13015	0005	0	113895	113895	Dotace na výkon sociální práce
+6	V	4311	5038		0005	5000	-4000	1000	Převod na ÚZ
+6	V	4311	5038	13015	0005	0	5129	5129	Dotace na výkon sociální práce
+6	V	4339	5167	13010	0005	32000	-13500	18500	Vratka státního příspěvku
+6	V	4339	5169	13010	0005	259050	-85500	173550	Vratka státního příspěvku
+6	V	6115	5021	98074	0011	0	7000	7000	Doplňující volby (bez popisu)
+6	V	6115	5161	98074	0011	0	3000	3000	Doplňující volby (bez popisu)
+6	V	6171	5166	18000003	0018	200000	-68000	132000	Návrh energetických opatření
+6	V	6171	5166	22023 18000003	0018	0	68000	68000	Dotace SR/MPO - NEO
+6	V	6402	5901		0001	0	2443337.86	2443337.86	Nespecifická rezerva - vratky energií a vratka transferu
+7	P	2143	2321		0003	0	20000	20000	Přijetí daru - Kayaku Safety System
+7	P		4116	34070	0003	0	20000	20000	Dotace SR - MVK - Knihovna 21. století za rok 2023
+7	P		4116	13010	0005	2044350	49500	2093850	Státní příspěvek na výkon pěstounské péče
+7	P		4122	00120	0003	27497	27588	55085	Dotace ZK - Podnikni to
+7	V	2143	5169		0003	518000	9000	527000	Kampaň Do práce na kole
+7	V	2143	5194		0003	60000	11000	71000	Kampaň Do práce na kole
+7	V	2510	5166	00003179	0003	276000	-27588	248412	Dotace ZK - Podnikni to - přeúčtování
+7	V	2510	5166	00120 00003179	0003	0	27588	27588	Dotace ZK - Podnikni to
+7	V	3314	5336	34070 00040007	0003	0	20000	20000	Dotace SR - MVK - Knihovna 21. století za rok 2023
+7	V	4339	5169	13010	0005	173550	49500	223050	Státní příspěvek na výkon pěstounské péče
+7	V	6171	5901		0001	68000	27588	95588	Nespecifická rezerva (Podnikni to)
+8	P	3113	2122	00033203	0003	1681000	-57310	1623690	ZŠ Trávníky, odvod z odpisů
+8	P	3113	2122	00033503	0003	1400000	1978646	3378646	ZŠ Sychrov, odvod z odpisů
+8	P	3314	2122	00040003	0003	309000	182130	491130	MVK, odvod z odpisů
+8	V	3113	5331	00033203	0003	1681000	-57310	1623690	ZŠ Trávníky, neinvestiční příspěvek na odpisy
+8	V	3113	5331	00033503	0003	1400000	1978646	3378646	ZŠ Sychrov, neinvestiční příspěvek na odpisy
+8	V	3314	5331	00040003	0003	309000	182130	491130	MVK, neinvestiční příspěvek na odpisy
+8	V	3319	5222		0003	3364000	170000	3534000	UNITED 3P, z.s. - dotace
+8	V	3341	5042		0003	160000	28615	188615	MUNIPOLIS, mobilní rozhlas
+8	V	3613	5171		0002	1425000	-12000	1413000	Přesun na investice
+8	V	3639	5331	01736392	0017	5000000	2000000	7000000	Účelový neinvestiční příspěvek TS
+8	V	3639	5331	01736398	0017	0	700000	700000	Účelový neinvestiční příspěvek - křižovatka u Růžičků
+8	V	3639	5331	01736399	0017	0	800000	800000	Účelový neinvestiční příspěvek - oprava komunikace Na Rybníkách
+8	V	6399	5362		0001	8000000	-3848880	4151120	Nárok na odpočet AERV
+8	V	3613	6121	00036131	0002	210000	12000	222000	Klimatizace kanceláře 4. patro čp. 1356
+8	V	3639	6121		0001	0	3848880	3848880	Dohoda o narovnání AERV
+8	V	3639	6351	01736396	0017	0	300000	300000	Účelový investiční příspěvek TS - ojeté vozidlo pro MK
+8	V	3639	6351	01736397	0017	0	78000	78000	Účelový investiční příspěvek TS - traktor pro hřbitov
+8	F		8115			69148970.49	4076615	73225585.49	Financování
+9	P	4329	2329	13024	0005	10591000	-10591000	0	Transfer SR - OSPOD - předpoklad
+9	P		4116	34053	0003	0	140000	140000	Dotace SR - MVK Veřejné informační služby knihoven
+9	P		4116	34070	0003	20000	37000	57000	Dotace SR - MVK - projekt Dny seniorů a osob se zdravotním postižením
+9	P		4116	13010	0005	2093850	-34650	2059200	Snížení státního příspěvku na výkon pěstounské péče
+9	P		4116	13024	0005	0	11764000	11764000	Transfer SR - OSPOD
+9	P		4122	00090 00040000	0003	3571000	475500	4046500	Dotace ZK - Regionální funkce knihoven
+9	P		4122	00100	0005	0	1110000	1110000	Finanční podpora ZK - dotace pro poskytovatele SSL
+9	V	3314	5336	00090 00040000	0003	3571000	475500	4046500	Dotace ZK - Regionální funkce knihoven
+9	V	3314	5336	34070 00040008	0003	0	37000	37000	Dotace SR - MVK - projekt Dny seniorů a osob se zdravotním postižením
+9	V	3314	5336	34053 00040009	0003	0	140000	140000	Dotace SR - MVK Veřejné informační služby knihoven
+9	V	4329	5011	13024	0005	6704000	935000	7639000	Transfer SR - OSPOD
+9	V	4329	5031	13024	0005	1663000	224500	1887500	Transfer SR - OSPOD
+9	V	4329	5032	13024	0005	604000	84000	688000	Transfer SR - OSPOD
+9	V	4329	5038	13024	0005	28000	4000	32000	Transfer SR - OSPOD
+9	V	4329	5139	13024	0005	80000	3500	83500	Transfer SR - OSPOD
+9	V	4329	5154	13024	0005	38000	11000	49000	Transfer SR - OSPOD
+9	V	4329	5156	13024	0005	60000	40000	100000	Transfer SR - OSPOD
+9	V	4329	5162	13024	0005	45000	5000	50000	Transfer SR - OSPOD
+9	V	4329	5168	13024	0005	34000	-34000	0	Transfer SR - OSPOD
+9	V	4329	5424	13024	0005	300000	-100000	200000	Transfer SR - OSPOD
+9	V	4339	5169	13010	0005	223050	-34650	188400	Snížení státního příspěvku na výkon pěstounské péče
+9	V	4342	5011	00100	0005	0	830000	830000	Finanční podpora ZK - dotace pro poskytovatele SSL
+9	V	4342	5031	00100	0005	0	205000	205000	Finanční podpora ZK - dotace pro poskytovatele SSL
+9	V	4342	5032	00100	0005	0	75000	75000	Finanční podpora ZK - dotace pro poskytovatele SSL
+10	V	2212	5166		0004	400000	-30000	370000	Zásobník - studie, posudky
+10	V	2212	5169	00009909	0004	0	200000	200000	Oprava MK včetně chodníku podél I/69 (Kotovo) - PD
+10	V	2212	5171	00003204	0004	0	10000000	10000000	Oprava MK Ohrada + U Huti, I. etapa
+10	V	2212	5171	00003207	0004	4500000	-500000	4000000	Oprava - posílení mostu Vs-03-Vem, Vesník
+10	V	2212	5171	00009904	0004	0	2500000	2500000	Oprava MK Potůčky II. část
+10	V	2212	5171	00009909	0004	0	4000000	4000000	Oprava MK včetně chodníku podél I/69 (Kotovo) - stavební práce
+10	V	2212	5171		0004	7911000	-7911000	0	Zásobník oprav MK a mostů
+10	V	2333	5171		0002	40000	560000	600000	Oprava stavidel mlýnského náhonu
+10	V	3111	5331	00131705	0003	0	150000	150000	MŠ Rokytnice - nákup zařízení do školní kuchyně
+10	V	3113	5331	00033406	0003	330000	-60000	270000	Změna účelového příspěvku - malování
+10	V	3113	5331	00033410	0003	0	60000	60000	ZŠ Luh - oprava dlažby v chodbách školy
+10	V	3113	5331	00033411	0003	0	47000	47000	ZŠ Luh - výměna plotu
+10	V	3639	5169	00009912	0004	0	4000000	4000000	Demolice objektů na parcele č. 494/1 k.ú. Rokytnice u Vsetína
+10	V	3726	5171		0002	250000	110000	360000	Oprava LCO Bobrky
+10	V	4350	5223		0005	1330900	26000	1356900	Charita Valašské Meziříčí - Dům pokojného stáří ve Valašské Bystřici
+10	V	4357	5223		0005	369600	28000	397600	Diakonie Valašské Meziříčí - Domov se zvláštním režimem
+10	V	4359	5223		0005	478000	26000	504000	Diakonie Valašské Meziříčí - pobytová odlehčovací služba, hospic CITADELA
+10	V	5212	5169		0002	95000	87000	182000	Revize CO krytů
+10	V	6171	5171	00009914	0004	0	4000000	4000000	Oprava fasády zasedací místnosti a příprava na rekonstrukci čp. 1080
+10	V	6171	5171		0002	1320000	-440000	880000	Oprava obkladu na fasádě budovy čp. 1080
+10	V	6402	5901		0001	2443337.86	-958000	1485337.86	Rezerva
+10	V	2212	6121	00009910	0004	0	600000	600000	Přestavba mostu ev.č. Vs-04-Rom na lávku Vs-04-Rol a přeložka vodovodu, PD
+10	V	2219	6121	00009908	0004	0	600000	600000	Parkovací místa pod nadjezdem, Rokytnice, PD
+10	V	2221	6121	00003192	0004	370000	30000	400000	Studie - autobusové dopravy Sychrov, PD
+10	V	2221	6121	00009911	0004	0	3200000	3200000	Revitalizace autobusových zastávek
+10	V	3111	6121	00003610	0003	0	25000000	25000000	MŠ Rokytnice - snížení energetické náročnosti
+10	V	3314	6121	00003180	0004	500000	100000	600000	MVK - stavební úpravy knihoven
+10	V	3314	6121	00009896	0004	150000	-100000	50000	MVK - stavební úpravy knihoven - Rokytnice
+10	V	3612	6121	00009913	0004	0	1000000	1000000	Rekonstrukce bytu DPS 1579 - byt 2+kk
+10	V	3613	6121	00036133	0002	216000	4000	220000	Maják - zápočet
+10	V	3631	6121	00009905	0004	60000	350000	410000	Veřejné osvětlení přechodu u SŠ Kostka
+10	V	3639	6121	00009865	0004	12500000	120000	12620000	Volnočasový areál Horní Jasenka
+10	V	3639	6121	00009901	0004	1000000	1000000	2000000	Stezka bosou nohou v arboretu Semetín
+10	F		8115			73225585.49	47799000	121024585.49	Financování

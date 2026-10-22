@@ -2,12 +2,12 @@
  "schema": "vsetin-osint/red-flags@1",
  "upozorneni": "Signály jsou pravidlové a slouží k prioritizaci ověřování. Nejsou zjištěním pochybení.",
  "souhrn": {
-  "R1-velke-navyseni": 34,
+  "R1-velke-navyseni": 44,
   "R7-dofinancovani-PO": 2,
-  "R6-soudni-spory": 2,
-  "R2-opakovane-navysovani": 8,
+  "R6-soudni-spory": 3,
+  "R2-opakovane-navysovani": 10,
   "R4-nakup-nemovitosti": 6,
-  "R5-dotace-subjektu": 18,
+  "R5-dotace-subjektu": 19,
   "R3-RM-velka-investice": 9
  },
  "signaly": [
@@ -39,6 +39,16 @@
    "odkazy": [
     "RO-2026-12",
     "24,38/26/ZM/2026"
+   ]
+  },
+  {
+   "kod": "R1-velke-navyseni",
+   "zavaznost": "vysoka",
+   "popis": "MŠ Rokytnice - snížení energetické náročnosti: 0 → 25 000 000 Kč",
+   "castka_Kc": 25000000.0,
+   "odkazy": [
+    "RO-2023-10",
+    "19,20/7/ZM/2023"
    ]
   },
   {
@@ -99,6 +109,16 @@
    "odkazy": [
     "RO-2024-02",
     "12/11/ZM/2024"
+   ]
+  },
+  {
+   "kod": "R6-soudni-spory",
+   "zavaznost": "vysoka",
+   "popis": "Spor na ochranu osobnosti: +745 000 Kč",
+   "castka_Kc": 745000.0,
+   "odkazy": [
+    "RO-2023-21",
+    "18,36/10/ZM/2023"
    ]
   },
   {
@@ -211,9 +231,10 @@
   {
    "kod": "R2-opakovane-navysovani",
    "zavaznost": "stredni",
-   "popis": "Stavební úpravy MVK - navýšení výdajů o rekonstrukci střechy budovy čp. 1356 (ORG 00003180): 4× navýšeno  celkem +10 330 000 Kč",
-   "castka_Kc": 10330000.0,
+   "popis": "Stavební úpravy MVK - navýšení výdajů o rekonstrukci střechy budovy čp. 1356 (ORG 00003180): 5× navýšeno  celkem +10 430 000 Kč",
+   "castka_Kc": 10430000.0,
    "odkazy": [
+    "RO-2023-10",
     "RO-2025-04",
     "RO-2025-04",
     "RO-2025-04",
@@ -238,6 +259,46 @@
    "odkazy": [
     "RO-2025-04",
     "35/18/ZM/2025"
+   ]
+  },
+  {
+   "kod": "R1-velke-navyseni",
+   "zavaznost": "stredni",
+   "popis": "Lávka u průmyslovky Vs-04-Bel: 0 → 10 000 000 Kč",
+   "castka_Kc": 10000000.0,
+   "odkazy": [
+    "RO-2023-02",
+    "12,24/4/ZM/2023"
+   ]
+  },
+  {
+   "kod": "R1-velke-navyseni",
+   "zavaznost": "stredni",
+   "popis": "Městské lázně 2023: 0 → 10 000 000 Kč",
+   "castka_Kc": 10000000.0,
+   "odkazy": [
+    "RO-2023-05",
+    "19/5/ZM/2023"
+   ]
+  },
+  {
+   "kod": "R1-velke-navyseni",
+   "zavaznost": "stredni",
+   "popis": "Oprava MK Ohrada + U Huti  I. etapa: 0 → 10 000 000 Kč",
+   "castka_Kc": 10000000.0,
+   "odkazy": [
+    "RO-2023-10",
+    "19,20/7/ZM/2023"
+   ]
+  },
+  {
+   "kod": "R1-velke-navyseni",
+   "zavaznost": "stredni",
+   "popis": "Cyklostezka Rokytenka od Kotrly po hranici: 200 000 → 9 700 000 Kč",
+   "castka_Kc": 9500000.0,
+   "odkazy": [
+    "RO-2023-05",
+    "19/5/ZM/2023"
    ]
   },
   {
@@ -313,11 +374,31 @@
   {
    "kod": "R1-velke-navyseni",
    "zavaznost": "stredni",
+   "popis": "Cyklostezka Rokytenka I. část: 100 000 → 6 600 000 Kč",
+   "castka_Kc": 6500000.0,
+   "odkazy": [
+    "RO-2023-05",
+    "19/5/ZM/2023"
+   ]
+  },
+  {
+   "kod": "R1-velke-navyseni",
+   "zavaznost": "stredni",
    "popis": "Nabytí pozemků včetně objektu občanské vybavenosti (hospoda U Marka): 0 → 6 014 500 Kč",
    "castka_Kc": 6014500.0,
    "odkazy": [
     "RO-2026-09",
     "16,17/93/RM/2026"
+   ]
+  },
+  {
+   "kod": "R1-velke-navyseni",
+   "zavaznost": "stredni",
+   "popis": "Cyklostezka Rokytenka - okolo HZ: 173 000 → 6 173 000 Kč",
+   "castka_Kc": 6000000.0,
+   "odkazy": [
+    "RO-2023-05",
+    "19/5/ZM/2023"
    ]
   },
   {
@@ -416,6 +497,17 @@
    ]
   },
   {
+   "kod": "R2-opakovane-navysovani",
+   "zavaznost": "stredni",
+   "popis": "ZŠ Sychrov - investiční příspěvek na připojení zařízení k distribuční soustavě (ORG 00003611): 3× navýšeno  celkem +2 635 175 Kč",
+   "castka_Kc": 2635175.0,
+   "odkazy": [
+    "RO-2023-13",
+    "RO-2025-08",
+    "RO-2026-11"
+   ]
+  },
+  {
    "kod": "R1-velke-navyseni",
    "zavaznost": "stredni",
    "popis": "Stavební úpravy mostu VS-07-Rom (most do vnitrobloku budovy č.p. 413): 1 210 000 → 3 710 000 Kč",
@@ -428,11 +520,31 @@
   {
    "kod": "R1-velke-navyseni",
    "zavaznost": "stredni",
+   "popis": "Úsekové měření rychlosti v Ústí u Vsetína: 1 000 000 → 3 091 000 Kč",
+   "castka_Kc": 2091000.0,
+   "odkazy": [
+    "RO-2023-13",
+    "19,35/8/ZM/2023"
+   ]
+  },
+  {
+   "kod": "R1-velke-navyseni",
+   "zavaznost": "stredni",
    "popis": "Sportovní areál Ohrada - PD: 2 000 000 → 4 000 000 Kč",
    "castka_Kc": 2000000.0,
    "odkazy": [
     "RO-2025-04",
     "35/18/ZM/2025"
+   ]
+  },
+  {
+   "kod": "R1-velke-navyseni",
+   "zavaznost": "stredni",
+   "popis": "ZŠ Sychrov  neinvestiční příspěvek na odpisy: 1 400 000 → 3 378 646 Kč",
+   "castka_Kc": 1978646.0,
+   "odkazy": [
+    "RO-2023-08",
+    "12/6/ZM/2023"
    ]
   },
   {
@@ -472,11 +584,33 @@
   {
    "kod": "R1-velke-navyseni",
    "zavaznost": "stredni",
+   "popis": "Stezka bosou nohou v arboretu Semetín: 1 000 000 → 2 000 000 Kč",
+   "castka_Kc": 1000000.0,
+   "odkazy": [
+    "RO-2023-10",
+    "19,20/7/ZM/2023"
+   ]
+  },
+  {
+   "kod": "R1-velke-navyseni",
+   "zavaznost": "stredni",
    "popis": "Úprava dopravního řešení ul. Na Lapači  Vsetín: 1 000 000 → 2 000 000 Kč",
    "castka_Kc": 1000000.0,
    "odkazy": [
     "RO-2025-02",
     "11/17,24/ZM/2025"
+   ]
+  },
+  {
+   "kod": "R2-opakovane-navysovani",
+   "zavaznost": "stredni",
+   "popis": "Stavební úpravy lávky Vs-02-Bel u Kablovky - dokončení PD  stavební práce (ORG 00009862): 4× navýšeno  celkem +764 000 Kč",
+   "castka_Kc": 764000.0,
+   "odkazy": [
+    "RO-2023-17",
+    "RO-2024-06",
+    "RO-2024-15",
+    "RO-2025-02"
    ]
   },
   {
@@ -492,12 +626,12 @@
   {
    "kod": "R2-opakovane-navysovani",
    "zavaznost": "stredni",
-   "popis": "Stavební úpravy lávky Vs-02-Bel u Kablovky - dokončení PD  stavební práce (ORG 00009862): 3× navýšeno  celkem +704 000 Kč",
-   "castka_Kc": 704000.0,
+   "popis": "Veřejné osvětlení přechodu u SŠ Kostka - stavební práce (ORG 00009905): 3× navýšeno  celkem +530 000 Kč",
+   "castka_Kc": 530000.0,
    "odkazy": [
-    "RO-2024-06",
-    "RO-2024-15",
-    "RO-2025-02"
+    "RO-2023-05",
+    "RO-2023-10",
+    "RO-2023-13"
    ]
   },
   {
@@ -521,6 +655,20 @@
    ]
   },
   {
+   "kod": "R2-opakovane-navysovani",
+   "zavaznost": "stredni",
+   "popis": "Projekt Prevence Vsetín II (ORG 00001416): 6× navýšeno  celkem +203 725 Kč",
+   "castka_Kc": 203724.7,
+   "odkazy": [
+    "RO-2023-13",
+    "RO-2023-13",
+    "RO-2023-13",
+    "RO-2024-08",
+    "RO-2024-08",
+    "RO-2024-08"
+   ]
+  },
+  {
    "kod": "R4-nakup-nemovitosti",
    "zavaznost": "stredni",
    "popis": "Výkup pozemků pro propojení cyklostezky: +170 000 Kč",
@@ -533,20 +681,22 @@
   {
    "kod": "R2-opakovane-navysovani",
    "zavaznost": "stredni",
-   "popis": "2. splátka dotace (ORG 00001416): 3× navýšeno  celkem +61 193 Kč",
-   "castka_Kc": 61192.8,
+   "popis": "Projekt Prevence Vsetín II (ORG 00001417): 20× navýšeno  celkem +81 945 Kč",
+   "castka_Kc": 81945.24,
    "odkazy": [
-    "RO-2024-08",
-    "RO-2024-08",
-    "RO-2024-08"
-   ]
-  },
-  {
-   "kod": "R2-opakovane-navysovani",
-   "zavaznost": "stredni",
-   "popis": "2. splátka dotace (ORG 00001417): 7× navýšeno  celkem +24 477 Kč",
-   "castka_Kc": 24477.14,
-   "odkazy": [
+    "RO-2023-13",
+    "RO-2023-13",
+    "RO-2023-13",
+    "RO-2023-13",
+    "RO-2023-13",
+    "RO-2023-13",
+    "RO-2023-13",
+    "RO-2023-13",
+    "RO-2023-13",
+    "RO-2023-13",
+    "RO-2023-13",
+    "RO-2023-13",
+    "RO-2023-13",
     "RO-2024-08",
     "RO-2024-08",
     "RO-2024-08",
@@ -624,6 +774,16 @@
    "odkazy": [
     "RO-2026-11",
     "44,45,46/98/RM/2026"
+   ]
+  },
+  {
+   "kod": "R5-dotace-subjektu",
+   "zavaznost": "nizka",
+   "popis": "Peněžitý vklad - Agentura pro ekonomický rozvoj Vsetínska: +3 600 000 Kč",
+   "castka_Kc": 3600000.0,
+   "odkazy": [
+    "RO-2023-21",
+    "18,36/10/ZM/2023"
    ]
   },
   {

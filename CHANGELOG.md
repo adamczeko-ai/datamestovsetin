@@ -31,3 +31,8 @@
 - Přístupný prohlížeč dat index.html (GitHub Pages).
 - K-002 doplněna o smlouvy z registru (kupní smlouva 33,15 mil., historie dotací TJ MEZ 2016–2026).
 - README, roadmapa funkcí podle Hlídače státu, CityVizoru, Councilmaticu a zIndexu.
+
+## 2026-10-23 (8. várka – autonomní)
+- RO 2023 (22 RO, 471 řádků) + ZÚ 2023, rekonciliace; chyba v Tabulce 1 ZÚ 2023.
+- Párování 6 akcí se smlouvami (Hlídač státu); vazba dárce→dodavatel H & B delta.
+- K-001 +745 tis. (2023). Analytika a prohlížeč rozšířeny o 2023.

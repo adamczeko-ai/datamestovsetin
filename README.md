@@ -6,8 +6,8 @@ Ověřitelná paměť rozhodnutí města Vsetín: **rozhodnutí → peníze → 
 
 | Složka | Obsah |
 |---|---|
-| `data/rozpocet/` | schválené rozpočty 2001–2026 (index), rozpočtová opatření 2024–2026 (JSON + CSV), anomálie |
-| `data/zaverecny_ucet/` | ZÚ a přezkoumání hospodaření 2024–2025, rekonciliace s RO |
+| `data/rozpocet/` | schválené rozpočty 2001–2026 (index), rozpočtová opatření 2023–2026 (JSON + CSV), anomálie |
+| `data/zaverecny_ucet/` | ZÚ a přezkoumání hospodaření 2023–2025, rekonciliace s RO |
 | `data/usneseni/` | vazby usnesení ZM na RO, index výpisů a balíčků ZM |
 | `data/kauzy/` | K-001 spory na ochranu osobnosti, K-002 Tribuna Na Ohradě |
 | `data/entity/` | registr subjektů (IČO) a osob z veřejných dokumentů |
