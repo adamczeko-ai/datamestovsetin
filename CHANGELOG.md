@@ -10,3 +10,9 @@
 - Přidána rozpočtová opatření 2025 č. 1–24 (411 řádků, validováno) + 4 anomálie ve zdroji.
 - Registr subjektů sloučen do `data/entity/subjekty.json` (38 subjektů, výskyty 2025/2026).
 - Vazba Lávka doplněna o další lávky z rozpočtu 2025.
+
+## 2026-10-22 (3. várka)
+- RO 2024 č. 1–22 (406 řádků, validováno) + 4 anomálie.
+- Nová složka `data/kauzy/`: K-001 spory na ochranu osobnosti (5,01 mil. Kč v 2024).
+- Souhrnné CSV RO 2024–2026; obecný validátor `scripts/validate_ro.py`.
+- Registr subjektů: 41 subjektů + osoby z veřejných dokumentů (příjemci podpory).

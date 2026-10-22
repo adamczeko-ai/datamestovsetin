@@ -1,6 +1,6 @@
 {
  "schema": "vsetin-osint/subjekty@1",
- "zdroj": "rozpočtová opatření 2025 a 2026 (text PDF)",
+ "zdroj": "rozpočtová opatření 2024–2026 (text PDF)",
  "poznamka": "IČO převzata z textu dokumentů, neověřena v ARES; role popsána dle kontextu dokumentu.",
  "subjekty": [
   {
@@ -140,6 +140,9 @@
    "vyskyt_RO_2026": [
     7,
     17
+   ],
+   "vyskyt_RO_2024": [
+    15
    ]
   },
   {
@@ -204,6 +207,9 @@
    "adresa": null,
    "vyskyt_RO_2026": [
     12
+   ],
+   "vyskyt_RO_2024": [
+    10
    ]
   },
   {
@@ -238,6 +244,9 @@
    "vyskyt_RO_2025": [
     4,
     8
+   ],
+   "vyskyt_RO_2024": [
+    18
    ]
   },
   {
@@ -376,6 +385,33 @@
    "vyskyt_RO_2025": [
     21
    ]
+  },
+  {
+   "ico": "64086712",
+   "nazev": "VASMO s.r.o.",
+   "role": "prodávající pozemků pro cyklostezku Rokytnice–Lhota",
+   "adresa": "Rokytnice 194, Vsetín",
+   "vyskyt_RO_2024": [
+    6
+   ]
+  },
+  {
+   "ico": "26805375",
+   "nazev": "JH KOVO s.r.o.",
+   "role": "prodávající pozemků pro cyklostezku Rokytnice–Lhota",
+   "adresa": "Družstevní 1180, Vsetín",
+   "vyskyt_RO_2024": [
+    6
+   ]
+  },
+  {
+   "ico": "19957050",
+   "nazev": "Stomatologické centrum Univerzitní s.r.o.",
+   "role": "příjemce podpory – vybavení zubní ordinace (500 tis.)",
+   "adresa": null,
+   "vyskyt_RO_2024": [
+    18
+   ]
   }
  ],
  "vazby_k_overeni": [
@@ -383,6 +419,18 @@
    "typ": "darce→dodavatel",
    "ico": "25845420",
    "popis": "LPT System, s.r.o. poskytla dar MVK (RO 21/2025, prosinec 2025) a v únoru 2026 byla vybrána jako nejlevnější ze 3 nabídek pro příspěvkovou organizaci ZŠ Trávníky (RO 4/2026). Samo o sobě nic nedokazuje (malé částky, jiné organizace), jen evidovat."
+  }
+ ],
+ "osoby_z_verejnych_dokumentu": [
+  {
+   "jmeno": "MUDr. Adéla Jenerál Chmelařová",
+   "role": "příjemkyně příspěvku 300 tis. Kč na rekonstrukci psychiatrické ordinace (Pravidla podpory společensky potřebných profesí, ZM 2022)",
+   "zdroj": "RO 15/2024"
+  },
+  {
+   "jmeno": "MDDr. Helena Kozárková",
+   "role": "příjemkyně podpory 500 tis. Kč – zubní ordinace",
+   "zdroj": "RO 8/2025"
   }
  ]
 }

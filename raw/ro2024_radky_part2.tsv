@@ -1,0 +1,219 @@
+12	P	4342	2329	00000355	0005	80000	-80000	0	Dotace ZK - sociální služby
+12	P		4113	170590008	0018	832000	932000	1764000	Dotace NZÚ Light
+12	P		4116	13015	0005	1698368	-93092	1605276	Úprava výše dotace dle rozhodnutí
+12	P		4116	13024	0005	11855402.92	-256700	11598702.92	Úprava výše dotace dle rozhodnutí
+12	P		4122	00100	0005	1870000	110000	1980000	Dotace ZK - sociální služby
+12	V	4311	5011	13015	0005	1265500	-69500	1196000	Úprava výše dotace dle rozhodnutí
+12	V	4311	5031	13015	0005	313844	-17236	296608	Úprava výše dotace dle rozhodnutí
+12	V	4311	5032	13015	0005	113895	-6255	107640	Úprava výše dotace dle rozhodnutí
+12	V	4311	5038	13015	0005	5129	-101	5028	Úprava výše dotace dle rozhodnutí
+12	V	4329	5011	13024	0005	7783000	-256700	7526300	Úprava výše dotace dle rozhodnutí
+12	V	4342	5011	00000355	0005	213000	-52500	160500	Dotace ZK - sociální služby
+12	V	4342	5011	00100	0005	0	82500	82500	Dotace ZK - sociální služby
+12	V	4342	5031	00000355	0005	51000	-20500	30500	Dotace ZK - sociální služby
+12	V	4342	5031	00100	0005	0	20500	20500	Dotace ZK - sociální služby
+12	V	4342	5032	00000355	0005	18000	-7000	11000	Dotace ZK - sociální služby
+12	V	4342	5032	00100	0005	0	7000	7000	Dotace ZK - sociální služby
+12	V	6171	5166	170590008 18000002	0018	1432000	932000	2364000	Dotace NZÚ Light
+13	P	6171	2111		0018	30000	5000	35000	Program Kotlíkové dotace ZK - vyúčtování
+13	P	6409	2229	00200 00000334	0003	0	7912	7912	Vratka dotace ZK
+13	P	6409	2229	00200 00000342	0003	0	13716	13716	Vratka dotace ZK
+13	P		4122	00120	0018	12500	2500	15000	Program kotlíkové dotace ZK
+13	V	6171	5021	18000004	0018	30000	5000	35000	Program Kotlíkové dotace ZK - vyúčtování
+13	V	6171	5021	00120 18000004	0018	17500	2500	20000	Program kotlíkové dotace ZK
+13	V	6409	5366	00200 00000334	0003	0	7912	7912	Vratka dotace ZK
+13	V	6409	5366	00200 00000342	0003	0	13716	13716	Vratka dotace ZK
+14	P		4111	98193	0011	0	1220000	1220000	Volby do 1/3 Senátu PČR a zastupitelstev krajů
+14	V	6115	5011	98193	0011	0	120000	120000	Volby do 1/3 Senátu PČR a zastupitelstev krajů
+14	V	6115	5019	98193	0011	0	20000	20000	Volby do 1/3 Senátu PČR a zastupitelstev krajů
+14	V	6115	5021	98193	0011	0	432500	432500	Volby do 1/3 Senátu PČR a zastupitelstev krajů
+14	V	6115	5031	98193	0011	0	30000	30000	Volby do 1/3 Senátu PČR a zastupitelstev krajů
+14	V	6115	5032	98193	0011	0	10000	10000	Volby do 1/3 Senátu PČR a zastupitelstev krajů
+14	V	6115	5039	98193	0011	0	4000	4000	Volby do 1/3 Senátu PČR a zastupitelstev krajů
+14	V	6115	5139	98193	0011	0	26000	26000	Volby do 1/3 Senátu PČR a zastupitelstev krajů
+14	V	6115	5156	98193	0011	0	2000	2000	Volby do 1/3 Senátu PČR a zastupitelstev krajů
+14	V	6115	5161	98193	0011	0	255000	255000	Volby do 1/3 Senátu PČR a zastupitelstev krajů
+14	V	6115	5162	98193	0011	0	500	500	Volby do 1/3 Senátu PČR a zastupitelstev krajů
+14	V	6115	5164	98193	0011	0	60000	60000	Volby do 1/3 Senátu PČR a zastupitelstev krajů
+14	V	6115	5169	98193	0011	0	240000	240000	Volby do 1/3 Senátu PČR a zastupitelstev krajů
+14	V	6115	5175	98193	0011	0	20000	20000	Volby do 1/3 Senátu PČR a zastupitelstev krajů
+15	P	3349	2111		0021	200000	310000	510000	Městský stolní kalendář 2025
+15	P		4121		0032	38450	100	38550	Příspěvky do FSS
+15	P		4129		0032	495300	157150	652450	Příspěvky do FSS
+15	V	2115	5011	18000008	0018	0	125000	125000	Zakládání energetických společenství
+15	V	2115	5031	18000008	0018	0	31000	31000	Zakládání energetických společenství
+15	V	2115	5032	18000008	0018	0	11250	11250	Zakládání energetických společenství
+15	V	2115	5137	18000008	0018	0	60000	60000	Zakládání energetických společenství
+15	V	2115	5139	18000008	0018	0	70000	70000	Zakládání energetických společenství
+15	V	2115	5166	18000008	0018	0	670000	670000	Zakládání energetických společenství
+15	V	2115	5169	18000008	0018	0	32750	32750	Zakládání energetických společenství
+15	V	2212	5171		0004	13250000	-10000000	3250000	Zásobník - MK - rozpuštění
+15	V	2219	5169		0002	2224000	71000	2295000	Ochranný nátěr maleb přechodů u nádraží a křivačkárny
+15	V	3113	5331	24034204	0003	459800	22122	481922	Neinvestiční příspěvek na dokrytí nákladů na opravu kanalizace - havárie
+15	V	3113	5331	24034205	0003	0	123057	123057	Neinvestiční příspěvek - oprava poruchy na jednotkách vzduchotechniky
+15	V	3314	5331	00040001	0003	17999457	53000	18052457	Navýšení provozního příspěvku - projekt
+15	V	3349	5169		0021	767000	310000	1077000	Městský stolní kalendář 2025
+15	V	3412	5171	00034128	0002	400000	-113000	287000	Zahradní traktor pro údržbu sportovního areálu Semetín
+15	V	3612	5171	00000252	0002	1060000	180000	1240000	Oprava bytu po požáru
+15	V	3612	5171	00001580	0002	262000	220000	482000	Výměna rozvaděče výtahu čp. 1580, Pod Žamboškou
+15	V	3612	5192		0016	2050000	3159962	5209962	Náklady řízení ve sporech na ochranu osobnosti
+15	V	3639	5331	01736401	0017	12750000	500000	13250000	Oprava opěrné zdi v Semetíně - navýšení neinvestičního příspěvku
+15	V	4311	5339		0032	0	2300	2300	Poskytnuté dotace (FSS)
+15	V	4312	5221		0032	0	7800	7800	Poskytnuté dotace (FSS)
+15	V	4312	5339		0032	0	5800	5800	Poskytnuté dotace (FSS)
+15	V	4344	5221		0032	0	6600	6600	Poskytnuté dotace (FSS)
+15	V	4344	5223		0032	0	25000	25000	Poskytnuté dotace (FSS)
+15	V	4350	5222		0032	0	22955	22955	Poskytnuté dotace (FSS)
+15	V	4350	5223		0032	0	8200	8200	Poskytnuté dotace (FSS)
+15	V	4350	5339		0032	0	68700	68700	Poskytnuté dotace (FSS)
+15	V	4351	5221		0032	0	54200	54200	Poskytnuté dotace (FSS)
+15	V	4351	5222		0032	0	8000	8000	Poskytnuté dotace (FSS)
+15	V	4351	5223		0032	0	146500	146500	Poskytnuté dotace (FSS)
+15	V	4356	5221		0032	0	36300	36300	Poskytnuté dotace (FSS)
+15	V	4356	5222		0032	0	100900	100900	Poskytnuté dotace (FSS)
+15	V	4356	5223		0032	0	8800	8800	Poskytnuté dotace (FSS)
+15	V	4357	5222		0032	0	15403	15403	Poskytnuté dotace (FSS)
+15	V	4357	5223		0032	0	4900	4900	Poskytnuté dotace (FSS)
+15	V	4357	5339		0032	0	14500	14500	Poskytnuté dotace (FSS)
+15	V	4359	5223		0032	0	6400	6400	Poskytnuté dotace (FSS)
+15	V	4359	5339		0032	0	4100	4100	Poskytnuté dotace (FSS)
+15	V	4359	5901		0032	531750	-531750	0	Uvolnění rezervy na poskytnuté dotace (FSS)
+15	V	4371	5221		0032	0	43782	43782	Poskytnuté dotace (FSS)
+15	V	4371	5222		0032	0	2000	2000	Poskytnuté dotace (FSS)
+15	V	4374	5221		0032	0	25500	25500	Poskytnuté dotace (FSS)
+15	V	4377	5221		0032	0	18700	18700	Poskytnuté dotace (FSS)
+15	V	4377	5222		0032	0	14200	14200	Poskytnuté dotace (FSS)
+15	V	4378	5221		0032	0	2100	2100	Poskytnuté dotace (FSS)
+15	V	4379	5221		0032	0	33800	33800	Poskytnuté dotace (FSS)
+15	V	4379	5222		0032	0	2300	2300	Poskytnuté dotace (FSS)
+15	V	5311	5011		0010	15914000	80000	15994000	Zvýšení osobních výdajů zaměstnanců
+15	V	5311	5031		0010	3949000	22000	3971000	Zvýšení osobních výdajů zaměstnanců
+15	V	5311	5032		0010	1433000	8000	1441000	Zvýšení osobních výdajů zaměstnanců
+15	V	6171	5011		0001	99510000	800000	100310000	Zvýšení osobních výdajů zaměstnanců
+15	V	6171	5031		0001	24979000	200000	25179000	Zvýšení osobních výdajů zaměstnanců
+15	V	6171	5032		0001	9064000	80000	9144000	Zvýšení osobních výdajů zaměstnanců
+15	V	6171	5161		0011	3600000	500000	4100000	Poštovní služby - navýšení
+15	V	6310	5163		0032	2000	-740	1260	Uvolnění prostředků pro poskytnuté dotace
+15	V	6409	5901		0003	848358.03	-512179	336179.03	Uvolnění rezervy
+15	V	2212	6121	00009844	0004	50000000	13000000	63000000	Zanádražní prostor - stavební práce
+15	V	2212	6121	00009862	0004	9400000	300000	9700000	Stavební úpravy lávky Vs-02-Bel u Kablovky - stavební práce
+15	V	2212	6121	00009910	0004	6015000	-5000000	1015000	Přestavba mostu - snížení
+15	V	2219	6121	00003185	0004	3300000	-2000000	1300000	Chodník pod zámkem - PD a stavební práce - snížení
+15	V	2333	6121	00009922	0004	4500000	-3000000	1500000	Mlýnský náhon, PD a stavební práce - snížení
+15	V	3319	6121	00033192	0002	1000000	700000	1700000	Rekonstrukce vzduchotechniky v kuchyni restaurace čp. 1055, Svárov (Dům kultury)
+15	V	3412	6121	00009828	0004	4200000	-3800000	400000	Revitalizace území u SPŠS - přesunuto r. 2025
+15	V	3412	6121	00009841	0004	2000000	-2000000	0	Sportovní hala (gymnastická) PD - odloženo
+15	V	3412	6121	00009897	0004	2000000	-800000	1200000	Částečná rekonstrukce VZT Zimní stadion - snížení
+15	V	3412	6121	00009898	0004	1500000	-500000	1000000	Instalace OPS do objektu Sportovní haly - stavební práce
+15	V	3412	6122		0002	0	113000	113000	Zahradní traktor pro údržbu sportovního areálu Semetín
+15	V	3419	6322		0003	0	500000	500000	TJ Zbrojovka - rekonstrukce asfaltového kurtu
+15	V	3421	6351	24032920	0003	550000	314000	864000	Navýšení investičního příspěvku - požární schodiště
+15	V	3511	6313		0002	0	300000	300000	Finanční příspěvek - MUDr. Adéla Jenerál Chmelařová
+15	V	3612	6121	00009926	0004	3500000	-700000	2800000	Stavební úpravy DPS 1579, 1580 - snížení
+15	V	3612	6121	00009947	0002	0	420000	420000	Rekonstrukce plynové kotelny v čp. 464, Rokytnice
+15	V	3613	6121	00009854	0004	3000000	-500000	2500000	Rekonstrukce budovy MěÚ Vsetín - PD - snížení
+15	V	3632	6121	00009929	0004	4000000	-1500000	2500000	Rekonstrukce hřbitova - rozšíření kolumbária - snížení
+15	V	3639	6121	00009765	0004	36416740	16000000	52416740	Přednádražní prostor, etapa 1.A, 1.B - stavební práce
+15	V	3639	6121	00009948	0004	0	500000	500000	Stavební úpravy Horního náměstí III. etapa - PD
+15	F		8115			100430043.3	8740962	109171005.3	Financování
+16	P		4122	00200 00000332	0003	0	168192	168192	ZŠ Trávníky - Obědy do škol
+16	P		4122	00200 00000334	0003	0	103104	103104	ZŠ Luh - Obědy do škol
+16	P		4122	00200 00000342	0003	0	102912	102912	ZŠ Rokytnice - Obědy do škol
+16	V	3113	5336	00200 00000332	0003	0	168192	168192	ZŠ Trávníky - Obědy do škol
+16	V	3113	5336	00200 00000334	0003	0	103104	103104	ZŠ Luh - Obědy do škol
+16	V	3113	5336	00200 00000342	0003	0	102912	102912	ZŠ Rokytnice - Obědy do škol
+17	P		4122	00200 00000330	0003	0	66048	66048	ZŠ Ohrada - Obědy do škol
+17	P		4122	00120	0003	0	109800	109800	MVK - Podpora TIC
+17	V	3113	5336	00200 00000330	0003	0	66048	66048	ZŠ Ohrada - Obědy do škol
+17	V	3314	5336	00120 00000400	0003	0	109800	109800	MVK - Podpora TIC
+18	P	3113	2322	00000342	0001	0	46856	46856	Příjem z pojistného plnění
+18	P	3631	3121		0018	0	120000	120000	Příjem dotace z Nadace ČEZ - Oranžové přechody
+18	P		4116	147515016	0018	0	414984.79	414984.79	Příjem dotace Školní gastro provoz - ZŠ Sychrov
+18	P		4213	91628	0018	0	17757661	17757661	Příjem dotace - Přednádražní prostor Vsetín - I.A etapa - podchod
+18	P		4216	147515501	0018	0	11856708.33	11856708.33	Příjem dotace Školní gastro provoz - ZŠ Sychrov
+18	V	3111	5331	24131804	0003	0	27358	27358	MŠ Sychrov, neinvestiční příspěvek, el. ohřevná stolička
+18	V	3113	5331	24034206	0003	0	46856	46856	ZŠ Rokytnice, neinvestiční příspěvek, pojistné plnění
+18	V	3419	5222		0003	17966000	400000	18366000	Dotace FC Vsetín - rozvoj činnosti
+18	V	3639	5331	01736401	0017	13250000	-690000	12560000	Změna účelu využití účelového neinvestičního příspěvku
+18	V	3639	5331	01736402	0017	3000000	500000	3500000	Zvýšení neinvestičního příspěvku - opravy cest bez rozpisu
+18	V	3639	5331	01736418	0017	0	190000	190000	Neinvestiční příspěvek - zábradlí hřbitov
+18	V	6409	5901		0003	276779.03	-80477	196302.03	Uvolnění rezervy
+18	V	3111	6351	24130903	0003	0	53119	53119	MŠ Benátky, investiční příspěvek - myčka na nádobí
+18	V	3511	6313		0002	300000	500000	800000	Finanční podpora na vybavení zubní ordinace
+18	V	3639	6351	01736417	0017	4000000	-1800000	2200000	Změna účelu využití investičního příspěvku
+18	V	3639	6351	01736419	0017	0	1800000	1800000	Investiční příspěvek - oprava budovy pro strojní techniku + posuvné dveře
+18	F		8115			109171005.3	-29249354.12	79921651.18	Financování
+19	P	6171	2111		0018	35000	4500	39500	Program kotlíkové dotace Zl. kraje
+19	P		4116	13010	0005	2019600	14850	2034450	Státní příspěvek na výkon pěstounské péče
+19	P		4116	170522023	0018	350000	-767	349233	Nevyčerpaná dotace - EKIS 2024
+19	V	4339	5169	13010	0005	276800	14850	291650	Státní příspěvek na výkon pěstounské péče
+19	V	6171	5021	18000004	0018	35000	4500	39500	Program kotlíkové dotace Zl. kraje
+19	V	6171	5166	170522023 00000101	0018	350000	-767	349233	Nevyčerpaná dotace - EKIS 2024
+20	P	6171	2111		0018	39500	2500	42000	Program kotlíky Zl. kraje
+20	P		4116	170534033	0003	0	200000	200000	Dotace MVK - Kreativní učení
+20	P		4122	00120	0018	15000	2000	17000	Program kotlíky Zl. kraje
+20	V	3314	5336	170534033 00000400	0003	0	200000	200000	Dotace MVK - Kreativní učení
+20	V	6171	5021	18000004	0018	39500	2500	42000	Program kotlíky Zl. kraje
+20	V	6171	5021	00120 18000004	0018	20000	2000	22000	Program kotlíky Zl. kraje
+21	P	3111	2122	00130203	0003	418000	-14629	403371	MŠ Ohrada, odvod z odpisů
+21	P	3111	2122	00130703	0003	100000	4638	104638	MŠ Trávníky, odvod z odpisů
+21	P	3111	2122	00130903	0003	249000	2850	251850	MŠ Benátky, odvod z odpisů
+21	P	3111	2122	00131103	0003	170000	13032	183032	MŠ Jasenka, odvod z odpisů
+21	P	3111	2122	00131803	0003	199000	19676	218676	MŠ Sychrov, odvod z odpisů
+21	P	3111	2122	00132003	0003	304000	200	304200	MŠ Na Kopečku, odvod z odpisů
+21	P	3111	2322	00001303	0001	0	32568	32568	MŠ Luh - příjem pojistného plnění
+21	P	3113	2122	00033003	0003	1994000	-8905	1985095	ZŠ Ohrada, odvod z odpisů
+21	P	3113	2122	00033203	0003	1603000	-146211	1456789	ZŠ Trávníky, odvod z odpisů
+21	P	3113	2122	00033403	0003	1997000	-41269	1955731	ZŠ Luh, odvod z odpisů
+21	P	3113	2122	00033503	0003	3615000	8477	3623477	ZŠ Sychrov, odvod z odpisů
+21	P	3113	2122	00034203	0003	2758000	15589	2773589	ZŠ Rokytnice, odvod z odpisů
+21	P	3314	2122	00040003	0003	492000	-888	491112	MVK, odvod z odpisů
+21	V	3111	5331	00130201	0003	345000	-24750	320250	MŠ Ohrada - úprava příspěvku na provoz, úplata
+21	V	3111	5331	00130203	0003	418000	-14629	403371	MŠ Ohrada, příspěvek na odpisy
+21	V	3111	5331	00130301	0003	445000	-13603	431397	MŠ Luh - úprava příspěvku na provoz, úplata
+21	V	3111	5331	00130501	0003	445000	-8096	436904	MŠ Kobzáňova - úprava příspěvku na provoz, úplata
+21	V	3111	5331	00130701	0003	345000	-23499	321501	MŠ Trávníky - úprava příspěvku na provoz, úplata
+21	V	3111	5331	00130703	0003	100000	4638	104638	MŠ Trávníky, příspěvek na odpisy
+21	V	3111	5331	00130901	0003	385000	-7208	377792	MŠ Benátky - úprava příspěvku na provoz, úplata
+21	V	3111	5331	00130903	0003	249000	2850	251850	MŠ Benátky, příspěvek na odpisy
+21	V	3111	5331	00131101	0003	320000	-21502	298498	MŠ Jasenka - úprava příspěvku na provoz, úplata
+21	V	3111	5331	00131103	0003	170000	13032	183032	MŠ Jasenka, příspěvek na odpisy
+21	V	3111	5331	00131801	0003	490000	-14793	475207	MŠ Sychrov - úprava příspěvku na provoz, úplata
+21	V	3111	5331	00131803	0003	199000	19676	218676	MŠ Sychrov, příspěvek na odpisy
+21	V	3111	5331	00132001	0003	310000	23822	333822	MŠ Na Kopečku - úprava příspěvku na provoz, úplata
+21	V	3111	5331	00132003	0003	304000	200	304200	MŠ Na Kopečku, příspěvek na odpisy
+21	V	3111	5331	24130302	0003	0	32568	32568	MŠ Luh - pojistné plnění
+21	V	3113	5331	00033003	0003	1994000	-8905	1985095	ZŠ Ohrada, příspěvek na odpisy
+21	V	3113	5331	00033203	0003	1603000	-146211	1456789	ZŠ Trávníky, příspěvek na odpisy
+21	V	3113	5331	00033403	0003	1997000	-41269	1955731	ZŠ Luh, příspěvek na odpisy
+21	V	3113	5331	00033503	0003	3615000	8477	3623477	ZŠ Sychrov, příspěvek na odpisy
+21	V	3113	5331	00034203	0003	2758000	15589	2773589	ZŠ Rokytnice, příspěvek na odpisy
+21	V	3113	5331	24033403	0003	0	72300	72300	ZŠ Luh - opravy expanzomat, cirkulační čerpadla, sklo dveří
+21	V	3113	5331	24034207	0003	0	37000	37000	ZŠ Luh - pořízení dvoudřezu
+21	V	3314	5331	00040003	0003	492000	-888	491112	MVK, příspěvek na odpisy
+21	V	3421	5331	24032902	0003	0	75000	75000	ALCEDO, havárie na Hájence - tepelné čerpadlo
+21	V	3639	5331	01736391	0017	80868000	-800000	80068000	Provozní příspěvek TSMV
+21	V	6409	5901		0003	196302.03	-196302.03	0	Uvolnění rezervy
+21	V	3113	6351	24033521	0003	0	58625	58625	ZŠ Sychrov, připojení ČEZ v rámci SEN
+21	V	3745	6351	01736400	0017	0	800000	800000	TSMV středisko zeleně - traktorová sekačka
+21	F		8115			79921651.18	-43006.03	79878645.15	Financování
+22	P		4116	14004	0007	0	6600	6600	Dotace Sbor dobrovolných hasičů
+22	P		4116	144113021	0010	302385	-39368.1	263016.9	Úprava výše dotace
+22	P		4116	144513021	0010	1749226	-227733.17	1521492.83	Úprava výše dotace
+22	P		4116	143133092	0018	578269.9	449876.19	1028146.09	MAP rozvoje vzdělávání Vsetínsko IV
+22	P		4116	143533092	0018	2429430.1	1890022.02	4319452.12	MAP rozvoje vzdělávání Vsetínsko IV
+22	P		4116	22024	0018	0	23833	23833	Dotace 2024 - EKIS Městský úřad Vsetín
+22	P		4213	170590505	0003	0	13428712.95	13428712.95	Úprava výše dotace
+22	P		4213	90505	0003	10000000	-10000000	0	Úprava výše dotace
+22	P		4216	149517519 00003180	0018	22306961.18	-19549263.71	2757697.47	Úprava výše dotace
+22	P		4216	149517519 00003186	0018	2500000	-2500000	0	Úprava výše dotace
+22	P		4216	149517519 00003213	0018	7500000	-7500000	0	Úprava výše dotace
+22	P		4216	149517519 00009855	0018	19292401.95	-9183858.36	10108543.59	Úprava výše dotace
+22	P		4216	17526	0018	664.2	-664.2	0	Úprava výše dotace
+22	P		4222	00120 00009855	0018	1800000	55355	1855355	Úprava výše dotace
+22	V	5512	5156		0007	160000	-3000	157000	Doplnění ÚZ
+22	V	5512	5156	14004	0007	0	3000	3000	Doplnění ÚZ
+22	V	5512	5169		0007	78000	-3600	74400	Doplnění ÚZ
+22	V	5512	5169	14004	0007	0	3600	3600	Doplnění ÚZ
+22	V	6171	5166	22024 00000101	0018	0	23833	23833	Dotace 2024 - EKIS Městský úřad Vsetín
+22	F		8115			79878645.15	33176921.38	113055566.53	Financování

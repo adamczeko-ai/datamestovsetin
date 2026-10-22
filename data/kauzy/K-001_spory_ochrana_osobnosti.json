@@ -1,0 +1,65 @@
+{
+ "schema": "vsetin-osint/kauza@1",
+ "id": "K-001",
+ "nazev": "Spory na ochranu osobnosti vedené proti městu Vsetín (ORJ 0016 – právní oddělení)",
+ "zdroj": "RO 2/2024 a RO 15/2024 (text odůvodnění)",
+ "spisove_znacky": {
+  "KS_Ostrava": [
+   "23 C 310/2007",
+   "23 C 311/2007",
+   "23 C 312/2007",
+   "23 C 313/2007"
+  ],
+  "VS_Olomouc": [
+   "1 Co 1/2021-1175",
+   "1 Co 6/2021-550",
+   "1 Co 4/2021-569",
+   "1 Co 3/2021-631 (vše 14.4.2021)"
+  ],
+  "NS": [
+   "25 Cdo 55/2022-663 (29.11.2023)",
+   "25 Cdo 177/2022-1294 (29.11.2023)",
+   "25 Cdo 268/2022-696 (6.12.2023)",
+   "25 Cdo 338/2022-759 (24.1.2024)"
+  ]
+ },
+ "pravni_zastupce_zalobcu": "JUDr. Zdeňka Poláková",
+ "udalosti": [
+  {
+   "datum": "2023-12-18",
+   "organ": "ZM",
+   "popis": "RO 2023 reagující na první dva rozsudky NS (nenabyly právní moci do konce 2023)."
+  },
+  {
+   "datum": "2024-02-19",
+   "organ": "ZM",
+   "usneseni": "12/11/ZM/2024",
+   "penize": 1850000,
+   "pol": "5192",
+   "popis": "Dodatečná peněžitá satisfakce žalobcům po rozsudcích NS; město připravuje ústavní stížnosti."
+  },
+  {
+   "datum": "2024-03-21..05-06",
+   "popis": "KS Ostrava – usnesení o nákladech řízení ve všech 4 věcech; odvolání podali žalobci i město."
+  },
+  {
+   "datum": "2024-07-23",
+   "popis": "Rozhodnutí VS Olomouc ve všech 4 sporech (o nákladech řízení)."
+  },
+  {
+   "datum": "2024-09-16",
+   "organ": "ZM",
+   "usneseni": "13/14/ZM/2024",
+   "penize": 3159962,
+   "pol": "5192",
+   "popis": "Náklady řízení; položka 3612/5192 celkem 5 209 962 Kč."
+  }
+ ],
+ "soucet_2024_Kc": 5009962,
+ "poznamka": "Spory vedené od roku 2007 (sp. zn. 23 C 31x/2007). Souvislost s konkrétní historickou událostí zde neuvádíme bez ověření ze soudních rozhodnutí. Jména žalobců neevidujeme.",
+ "dalsi_krok": [
+  "Stáhnout rozsudky NS (nsoud.cz – vyhledávání podle sp. zn.)",
+  "Ověřit ústavní stížnosti města (nalus.usoud.cz)",
+  "Dohledat částky v RO 2023 a ZÚ 2023/2024"
+ ]
+}
