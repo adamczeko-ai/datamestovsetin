@@ -1,0 +1,40 @@
+{
+ "schema": "vsetin-osint/retezec-rozhodnuti-penize@1",
+ "id": "UVER-2011-CSOB-KONTOKORENT",
+ "nazev": "Kontokorentní úvěr ČSOB č. 2053/10/5625 (smlouva 611/1S/2011)",
+ "vytezeno": "2026-10-23 10:30 SELČ",
+ "retezec": [
+  {
+   "datum": "2011-01-05",
+   "typ": "smlouva",
+   "id": "č. 2053/10/5625 (interně 611/1S/2011)",
+   "text": "Kontokorentní úvěr, úvěrový limit 100 000 000 Kč; úrok 7denní PRIBOR + marže 0,6 % p.a.; bez zajištění; na dobu neurčitou s výpovědí (konečná splatnost = konec 3měsíční výpovědní lhůty)",
+   "zdroj": "https://smlouvy.gov.cz/smlouva/23638677",
+   "priloha": "https://smlouvy.gov.cz/smlouva/soubor/29309089/0611_2011_A.pdf",
+   "overeni": "text PDF (sken s OCR, pdftotext)"
+  },
+  {
+   "datum": "2023-02-24",
+   "typ": "dodatek č. 1",
+   "id": "registr smluv verze 23638677 (zveřejněno 3. 3. 2023)",
+   "text": "marže se mění na 0,3 % p.a.; doplněno prohlášení o povinnosti uveřejnění v registru smluv. Výše limitu se dodatkem č. 1 NEMĚNÍ.",
+   "zdroj": "https://smlouvy.gov.cz/smlouva/23638677",
+   "priloha": "https://smlouvy.gov.cz/smlouva/soubor/29309093/D1_0611_2011_A.pdf",
+   "overeni": "text PDF"
+  },
+  {
+   "datum": "2026-09-21",
+   "typ": "usnesení ZM",
+   "id": "23/27/ZM/2026",
+   "text": "ZM schvaluje uzavření Dodatku č. 3 ke smlouvě o úvěru č. 2053/10/5625 s ČSOB (obsah v důvodové zprávě – nevytěženo)",
+   "zdroj": "https://mestovsetin.cz/assets/File.ashx?id_org=18676&id_dokumenty=570501",
+   "overeni": "text PDF usnesení"
+  }
+ ],
+ "zjisteni": [
+  "FAKT: Registr smluv (vyhledávání Město Vsetín × ČSOB IČO 00001350, 23. 10. 2026) obsahuje jen původní smlouvu (jako přílohu dodatku 1), dodatek č. 1 a nový úvěr 2026006012 – dodatek č. 2 ani dodatek č. 3 v registru NEJSOU.",
+  "FAKT: rozpočty uvádějí pol. 8113 (krátkodobé úvěry) 100 mil. Kč v letech 2020–2023 a 200 mil. Kč v letech 2024–2026; MONITOR ukazuje výsledek 8113 = 0 ve všech letech 2020–2025 (kontokorent na konci roku nečerpán).",
+  "HYPOTÉZA (neověřeno): navýšení rozpočtované částky na 200 mil. od 2024 souvisí s dodatkem č. 2 (zvýšení limitu?), který není v registru dohledatelný. Ověřit: důvodová zpráva k 23/27/ZM/2026 (balíček ZM 27), dotaz na finanční odbor.",
+  "POZN.: neuveřejnění dodatku v registru smluv je jen nesoulad k vysvětlení (dodatek mohl být uzavřen před 1. 7. 2016 nebo mohou platit výjimky zákona 340/2015 Sb.) – nejde o zjištění pochybení."
+ ]
+}
