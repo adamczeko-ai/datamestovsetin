@@ -1,0 +1,535 @@
+{
+ "schema": "vsetin-osint/vr-organy@1",
+ "zdroj": "ARES REST /ekonomicke-subjekty-vr/{ico} (data Veřejného rejstříku)",
+ "stazeno": "2026-10-23 08:15 SELČ",
+ "minimalizace": "Uloženo jen jméno, titul, funkce a data. Data narození a adresy bydliště fyzických osob záměrně neukládána.",
+ "subjekty": [
+  {
+   "ico": "00536024",
+   "nazev": "TJ Zbrojovka Vsetín, z.s.",
+   "spisova_znacka": [
+    "L 66 KSOS"
+   ],
+   "spolecnici_aktualni": [],
+   "organy_aktualni": [
+    {
+     "organ": "Statutární orgán -  výbor",
+     "typ": "FO",
+     "jmeno": "Ing. Bohdan Kašpar",
+     "funkce": "Předseda výboru",
+     "vznik_funkce": "2024-10-04",
+     "zapsano": "2024-10-16"
+    },
+    {
+     "organ": "Statutární orgán -  výbor",
+     "typ": "FO",
+     "jmeno": "Mgr. Petr Bačo",
+     "funkce": "Člen výboru",
+     "vznik_funkce": null,
+     "zapsano": "2024-10-16"
+    },
+    {
+     "organ": "Statutární orgán -  výbor",
+     "typ": "FO",
+     "jmeno": "Mgr. Daniel Jokeš",
+     "funkce": "Člen výboru",
+     "vznik_funkce": null,
+     "zapsano": "2024-10-16"
+    }
+   ],
+   "predchozi_nazvy": [
+    "Tělovýchovná jednota Zbrojovka Vsetín, spolek",
+    "Tělovýchovná jednota Zbrojovka Vsetín"
+   ]
+  },
+  {
+   "ico": "19690711",
+   "nazev": "DN Vsetín s.r.o.",
+   "spisova_znacka": [
+    "C 93582 KSOS"
+   ],
+   "spolecnici_aktualni": [
+    {
+     "typ": "PO",
+     "nazev": "Město Vsetín",
+     "ico": "00304450",
+     "podil": "100 %",
+     "zapsano": "2023-09-05"
+    }
+   ],
+   "organy_aktualni": [
+    {
+     "organ": "Statutární orgán",
+     "typ": "FO",
+     "jmeno": "Petr Kudlík",
+     "funkce": "Jednatel",
+     "vznik_funkce": "2023-09-05",
+     "zapsano": "2023-09-05"
+    },
+    {
+     "organ": "Dozorčí rada",
+     "typ": "FO",
+     "jmeno": "Mgr. Petr Kořenek",
+     "funkce": "Předseda dozorčí rady",
+     "vznik_funkce": "2023-09-05",
+     "zapsano": "2023-09-05"
+    },
+    {
+     "organ": "Dozorčí rada",
+     "typ": "FO",
+     "jmeno": "Bc. Iveta Táborská",
+     "funkce": "Člen dozorčí rady",
+     "vznik_funkce": null,
+     "zapsano": "2023-09-05"
+    },
+    {
+     "organ": "Dozorčí rada",
+     "typ": "FO",
+     "jmeno": "Mgr. Simona Hlaváčová",
+     "funkce": "Člen dozorčí rady",
+     "vznik_funkce": null,
+     "zapsano": "2023-09-05"
+    }
+   ]
+  },
+  {
+   "ico": "25399985",
+   "nazev": "VHK Vsetín s.r.o.",
+   "spisova_znacka": [
+    "C 18595 KSOS"
+   ],
+   "spolecnici_aktualni": [
+    {
+     "typ": "PO",
+     "nazev": "VALAŠSKÝ HOKEJOVÝ KLUB, z. s.",
+     "ico": "22676759",
+     "podil": "100 %",
+     "zapsano": "2016-06-24"
+    }
+   ],
+   "organy_aktualni": [
+    {
+     "organ": "Statutární orgán",
+     "typ": "FO",
+     "jmeno": "Petr Neumann",
+     "funkce": "jednatel",
+     "vznik_funkce": "2022-05-04",
+     "zapsano": "2022-05-04"
+    }
+   ],
+   "predchozi_nazvy": [
+    "P.M.B. Moravia, s.r.o."
+   ]
+  },
+  {
+   "ico": "26782596",
+   "nazev": "Technické služby Vsetín, s.r.o.",
+   "spisova_znacka": [
+    "C 27115 KSOS"
+   ],
+   "spolecnici_aktualni": [
+    {
+     "typ": "PO",
+     "nazev": "Město Vsetín",
+     "ico": "00304450",
+     "podil": "100 %",
+     "zapsano": "2014-08-21"
+    }
+   ],
+   "organy_aktualni": [
+    {
+     "organ": "Statutární orgán",
+     "typ": "FO",
+     "jmeno": "Mgr. Simona Hlaváčová",
+     "funkce": "Jednatel",
+     "vznik_funkce": "2022-11-01",
+     "zapsano": "2022-12-13"
+    },
+    {
+     "organ": "Statutární orgán",
+     "typ": "FO",
+     "jmeno": "Ing. arch. Martina Hovořáková",
+     "funkce": "jednatel",
+     "vznik_funkce": "2015-09-30",
+     "zapsano": "2016-02-10"
+    },
+    {
+     "organ": "Statutární orgán",
+     "typ": "FO",
+     "jmeno": "Ing. Jan Štěpaník",
+     "funkce": "Jednatel",
+     "vznik_funkce": "2012-10-05",
+     "zapsano": "2014-08-21"
+    },
+    {
+     "organ": "Dozorčí rada",
+     "typ": "FO",
+     "jmeno": "Mgr. Karel Neubauer",
+     "funkce": "Předseda dozorčí rady",
+     "vznik_funkce": "2024-01-24",
+     "zapsano": "2024-03-05"
+    },
+    {
+     "organ": "Dozorčí rada",
+     "typ": "FO",
+     "jmeno": "MUDr. Daniel Bělov",
+     "funkce": "Člen dozorčí rady",
+     "vznik_funkce": null,
+     "zapsano": "2024-03-05"
+    },
+    {
+     "organ": "Dozorčí rada",
+     "typ": "FO",
+     "jmeno": "Radovan Kocúrek",
+     "funkce": "Člen dozorčí rady",
+     "vznik_funkce": null,
+     "zapsano": "2024-03-05"
+    },
+    {
+     "organ": "Dozorčí rada",
+     "typ": "FO",
+     "jmeno": "Libor Otevřel",
+     "funkce": "Člen dozorčí rady",
+     "vznik_funkce": null,
+     "zapsano": "2024-03-05"
+    },
+    {
+     "organ": "Dozorčí rada",
+     "typ": "FO",
+     "jmeno": "Miroslav Mikulenčák",
+     "funkce": "Člen dozorčí rady",
+     "vznik_funkce": null,
+     "zapsano": "2024-03-05"
+    }
+   ]
+  },
+  {
+   "ico": "28593987",
+   "nazev": "Vsetínská sportovní, s.r.o.",
+   "spisova_znacka": [
+    "C 33684 KSOS"
+   ],
+   "spolecnici_aktualni": [
+    {
+     "typ": "PO",
+     "nazev": "Město Vsetín",
+     "ico": "00304450",
+     "podil": "100 %",
+     "zapsano": "2009-07-20"
+    }
+   ],
+   "organy_aktualni": [
+    {
+     "organ": "Statutární orgán",
+     "typ": "FO",
+     "jmeno": "Mgr. Pavel Bartoň",
+     "funkce": "jednatel",
+     "vznik_funkce": "2022-10-25",
+     "zapsano": "2022-12-20"
+    },
+    {
+     "organ": "Statutární orgán",
+     "typ": "FO",
+     "jmeno": "Tomáš Blabla",
+     "funkce": "Jednatel",
+     "vznik_funkce": "2026-03-01",
+     "zapsano": "2026-05-12"
+    },
+    {
+     "organ": "Dozorčí rada",
+     "typ": "FO",
+     "jmeno": "Petr Babovec",
+     "funkce": "Předseda dozorčí rady",
+     "vznik_funkce": "2024-01-15",
+     "zapsano": "2024-03-02"
+    },
+    {
+     "organ": "Dozorčí rada",
+     "typ": "FO",
+     "jmeno": "Petr Gryger",
+     "funkce": "člen dozorčí rady",
+     "vznik_funkce": null,
+     "zapsano": "2024-03-02"
+    },
+    {
+     "organ": "Dozorčí rada",
+     "typ": "FO",
+     "jmeno": "Radim Kotrla",
+     "funkce": "člen dozorčí rady",
+     "vznik_funkce": null,
+     "zapsano": "2024-03-02"
+    },
+    {
+     "organ": "Dozorčí rada",
+     "typ": "FO",
+     "jmeno": "Daniel Tobola",
+     "funkce": "člen dozorčí rady",
+     "vznik_funkce": null,
+     "zapsano": "2024-03-02"
+    },
+    {
+     "organ": "Dozorčí rada",
+     "typ": "FO",
+     "jmeno": "Daniel Fojtů",
+     "funkce": "člen dozorčí rady",
+     "vznik_funkce": null,
+     "zapsano": "2025-02-06"
+    }
+   ]
+  },
+  {
+   "ico": "47674652",
+   "nazev": "Vodovody a kanalizace Vsetín, a.s.",
+   "spisova_znacka": [
+    "B 682 KSOS"
+   ],
+   "spolecnici_aktualni": [],
+   "organy_aktualni": [
+    {
+     "organ": "Statutární orgán - představenstvo",
+     "typ": "FO",
+     "jmeno": "Jiří Čunek",
+     "funkce": "Předseda představenstva",
+     "vznik_funkce": "2023-06-08",
+     "zapsano": "2023-07-20"
+    },
+    {
+     "organ": "Statutární orgán - představenstvo",
+     "typ": "FO",
+     "jmeno": "Mgr. Robert Stržínek",
+     "funkce": "Místopředseda představenstva",
+     "vznik_funkce": "2023-06-08",
+     "zapsano": "2023-07-20"
+    },
+    {
+     "organ": "Statutární orgán - představenstvo",
+     "typ": "FO",
+     "jmeno": "Bc. Radim Přikryl",
+     "funkce": "Člen představenstva",
+     "vznik_funkce": null,
+     "zapsano": "2023-07-20"
+    },
+    {
+     "organ": "Statutární orgán - představenstvo",
+     "typ": "FO",
+     "jmeno": "Antonín Koňařík",
+     "funkce": "Člen představenstva",
+     "vznik_funkce": null,
+     "zapsano": "2023-07-20"
+    },
+    {
+     "organ": "Statutární orgán - představenstvo",
+     "typ": "FO",
+     "jmeno": "Mgr., Ing. Jiří Růžička",
+     "funkce": "Člen představenstva",
+     "vznik_funkce": null,
+     "zapsano": "2023-07-20"
+    },
+    {
+     "organ": "Statutární orgán - představenstvo",
+     "typ": "FO",
+     "jmeno": "Ing. Vojtěch Ryza",
+     "funkce": "Člen představenstva",
+     "vznik_funkce": null,
+     "zapsano": "2023-07-20"
+    },
+    {
+     "organ": "Statutární orgán - představenstvo",
+     "typ": "FO",
+     "jmeno": "Jaromír Koryčanský",
+     "funkce": "Člen představenstva",
+     "vznik_funkce": null,
+     "zapsano": "2023-07-20"
+    },
+    {
+     "organ": "Dozorčí rada",
+     "typ": "FO",
+     "jmeno": "Ing. arch. Martina Hovořáková",
+     "funkce": "Předseda dozorčí rady",
+     "vznik_funkce": "2023-06-08",
+     "zapsano": "2023-07-20"
+    },
+    {
+     "organ": "Dozorčí rada",
+     "typ": "FO",
+     "jmeno": "Ing. Stanislava Špruncová",
+     "funkce": "Místopředseda dozorčí rady",
+     "vznik_funkce": "2023-06-08",
+     "zapsano": "2023-07-20"
+    },
+    {
+     "organ": "Dozorčí rada",
+     "typ": "FO",
+     "jmeno": "Ing. Milan Daňa",
+     "funkce": "Člen dozorčí rady",
+     "vznik_funkce": null,
+     "zapsano": "2023-07-20"
+    },
+    {
+     "organ": "Dozorčí rada",
+     "typ": "FO",
+     "jmeno": "Mgr. Jiljí Kubrický",
+     "funkce": "Člen dozorčí rady",
+     "vznik_funkce": null,
+     "zapsano": "2023-07-20"
+    },
+    {
+     "organ": "Dozorčí rada",
+     "typ": "FO",
+     "jmeno": "Mgr. Tomáš Randýsek",
+     "funkce": "Člen dozorčí rady",
+     "vznik_funkce": null,
+     "zapsano": "2023-07-20"
+    },
+    {
+     "organ": "Dozorčí rada",
+     "typ": "FO",
+     "jmeno": "Jakub Strkáč",
+     "funkce": "Člen dozorčí rady",
+     "vznik_funkce": null,
+     "zapsano": "2023-07-20"
+    },
+    {
+     "organ": "Dozorčí rada",
+     "typ": "FO",
+     "jmeno": "Petr Nachtmann",
+     "funkce": "Člen dozorčí rady",
+     "vznik_funkce": null,
+     "zapsano": "2023-12-13"
+    }
+   ]
+  },
+  {
+   "ico": "47678054",
+   "nazev": "Městské lesy Vsetín, s. r. o.",
+   "spisova_znacka": [
+    "C 4188 KSOS"
+   ],
+   "spolecnici_aktualni": [
+    {
+     "typ": "PO",
+     "nazev": "Město Vsetín",
+     "ico": "00304450",
+     "podil": "100 %",
+     "zapsano": "2014-08-06"
+    }
+   ],
+   "organy_aktualni": [
+    {
+     "organ": "Statutární orgán",
+     "typ": "FO",
+     "jmeno": "Ing. Bohumila Holeňová",
+     "funkce": "Jednatel",
+     "vznik_funkce": "2015-02-01",
+     "zapsano": "2015-04-04"
+    },
+    {
+     "organ": "Statutární orgán",
+     "typ": "FO",
+     "jmeno": "Ing. Vít Zgarba",
+     "funkce": "Jednatel",
+     "vznik_funkce": "2015-02-01",
+     "zapsano": "2015-04-04"
+    },
+    {
+     "organ": "Dozorčí rada",
+     "typ": "FO",
+     "jmeno": "Marek Chytka",
+     "funkce": "člen dozorčí rady",
+     "vznik_funkce": null,
+     "zapsano": "2024-03-12"
+    },
+    {
+     "organ": "Dozorčí rada",
+     "typ": "FO",
+     "jmeno": "Josef Slovák",
+     "funkce": "člen dozorčí rady",
+     "vznik_funkce": null,
+     "zapsano": "2024-03-12"
+    },
+    {
+     "organ": "Dozorčí rada",
+     "typ": "FO",
+     "jmeno": "RNDr. Bořek Navrátil",
+     "funkce": "předseda dozorčí rady",
+     "vznik_funkce": "2025-01-29",
+     "zapsano": "2025-03-15"
+    },
+    {
+     "organ": "Dozorčí rada",
+     "typ": "FO",
+     "jmeno": "Mgr. Pavlína Matějčková MBA",
+     "funkce": "členka dozorčí rady",
+     "vznik_funkce": null,
+     "zapsano": "2025-03-15"
+    },
+    {
+     "organ": "Dozorčí rada",
+     "typ": "FO",
+     "jmeno": "Jiří Bartoň",
+     "funkce": "člen dozorčí rady",
+     "vznik_funkce": null,
+     "zapsano": "2026-10-19"
+    }
+   ]
+  },
+  {
+   "ico": "47972114",
+   "nazev": "Dům kultury Vsetín, spol. s r. o.",
+   "spisova_znacka": [
+    "C 5321 KSOS"
+   ],
+   "spolecnici_aktualni": [
+    {
+     "typ": "PO",
+     "nazev": "Město Vsetín",
+     "ico": "00304450",
+     "podil": "100 %",
+     "zapsano": "2014-08-14"
+    }
+   ],
+   "organy_aktualni": [
+    {
+     "organ": "Statutární orgán",
+     "typ": "FO",
+     "jmeno": "Mgr. Petra Vaňková",
+     "funkce": "jednatel",
+     "vznik_funkce": "2016-01-01",
+     "zapsano": "2019-01-11"
+    },
+    {
+     "organ": "Statutární orgán",
+     "typ": "FO",
+     "jmeno": "Mgr. Pavel Bartoň",
+     "funkce": "Jednatel",
+     "vznik_funkce": "2019-02-01",
+     "zapsano": "2019-05-16"
+    },
+    {
+     "organ": "Dozorčí rada",
+     "typ": "FO",
+     "jmeno": "PhDr. Helena Gajdušková",
+     "funkce": "člen dozorčí rady",
+     "vznik_funkce": null,
+     "zapsano": "2024-02-15"
+    },
+    {
+     "organ": "Dozorčí rada",
+     "typ": "FO",
+     "jmeno": "Ing. Roman Bláha",
+     "funkce": "člen dozorčí rady",
+     "vznik_funkce": null,
+     "zapsano": "2024-02-15"
+    },
+    {
+     "organ": "Dozorčí rada",
+     "typ": "FO",
+     "jmeno": "Petr Gryger",
+     "funkce": "předseda dozorčí rady",
+     "vznik_funkce": "2024-01-10",
+     "zapsano": "2024-02-15"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,687 @@
+{
+ "zdroj": "ARES REST ekonomicke-subjekty",
+ "overeno_utc": "2026-10-22T22:08:06Z",
+ "vysledky": [
+  {
+   "ico": "00304450",
+   "nazev_zdroj": "Město Vsetín",
+   "http": 200,
+   "ares_nazev": "Město Vsetín",
+   "pravni_forma": "801",
+   "sidlo": "Svárov 1080, 75501 Vsetín",
+   "datum_vzniku": null,
+   "datum_zaniku": null,
+   "zdroje": [
+    "stavZdrojeRos",
+    "stavZdrojeRes",
+    "stavZdrojeRzp",
+    "stavZdrojeDph",
+    "stavZdrojeRed",
+    "stavZdrojeMonitor"
+   ],
+   "sha256": "31f97252016f5bf0a341ccee20e1a6c940c7d893e6d5b61eb2fa1481011168fc"
+  },
+  {
+   "ico": "60990406",
+   "nazev_zdroj": "ZŠ a MŠ Vsetín, Luh 1544, p. o.",
+   "http": 200,
+   "ares_nazev": "Základní škola a Mateřská škola Vsetín, Luh 1544, příspěvková organizace",
+   "pravni_forma": "331",
+   "sidlo": "Jasenická 1544, 75501 Vsetín",
+   "datum_vzniku": "1966-09-01",
+   "datum_zaniku": null,
+   "zdroje": [
+    "stavZdrojeRos",
+    "stavZdrojeRes",
+    "stavZdrojeRzp",
+    "stavZdrojeRs",
+    "stavZdrojeRed",
+    "stavZdrojeMonitor"
+   ],
+   "sha256": "4e8779069d69b9f2572a218a5fd2ae123188581bf330260bb21a056538da7309"
+  },
+  {
+   "ico": "60990368",
+   "nazev_zdroj": "ZŠ a MŠ Vsetín, Ohrada 1876, p. o.",
+   "http": 200,
+   "ares_nazev": "Základní škola a Mateřská škola Vsetín, Ohrada 1876, příspěvková organizace",
+   "pravni_forma": "331",
+   "sidlo": "Nad Školou 1876, 75501 Vsetín",
+   "datum_vzniku": "1976-09-01",
+   "datum_zaniku": null,
+   "zdroje": [
+    "stavZdrojeRos",
+    "stavZdrojeRes",
+    "stavZdrojeRzp",
+    "stavZdrojeRs",
+    "stavZdrojeRed",
+    "stavZdrojeMonitor"
+   ],
+   "sha256": "ce47b14062587f61177ff1b41c44e45f47aa18fd09288afd7cef7a56c4269e0c"
+  },
+  {
+   "ico": "60990449",
+   "nazev_zdroj": "ZŠ a MŠ Vsetín, Trávníky 1217, p. o.",
+   "http": 200,
+   "ares_nazev": "Základní škola a Mateřská škola Vsetín, Trávníky 1217, příspěvková organizace",
+   "pravni_forma": "331",
+   "sidlo": "Matouše Václavka 1217, 75501 Vsetín",
+   "datum_vzniku": "1953-09-01",
+   "datum_zaniku": null,
+   "zdroje": [
+    "stavZdrojeRos",
+    "stavZdrojeRes",
+    "stavZdrojeRzp",
+    "stavZdrojeRs",
+    "stavZdrojeRed",
+    "stavZdrojeMonitor"
+   ],
+   "sha256": "49b88b27d5ea475e03d303e1daf713e25bb0f2684285a6850a8c251b0d9e16d3"
+  },
+  {
+   "ico": "60990457",
+   "nazev_zdroj": "ZŠ Vsetín, Rokytnice 436, p. o.",
+   "http": 200,
+   "ares_nazev": "Základní škola Vsetín, Rokytnice 436, příspěvková organizace",
+   "pravni_forma": "331",
+   "sidlo": "Michala Urbánka 436, Rokytnice, 75501 Vsetín",
+   "datum_vzniku": "1979-09-03",
+   "datum_zaniku": null,
+   "zdroje": [
+    "stavZdrojeRos",
+    "stavZdrojeRes",
+    "stavZdrojeRzp",
+    "stavZdrojeRs",
+    "stavZdrojeRed",
+    "stavZdrojeMonitor"
+   ],
+   "sha256": "79454f5f6812210b4ccb0aaaf97a75e847d6cc5b5f2330b2ba66c41cfd651a00"
+  },
+  {
+   "ico": "70322783",
+   "nazev_zdroj": "Ing. Jiří Macháček – INPRAISE",
+   "http": 200,
+   "ares_nazev": "Jiří Macháček",
+   "pravni_forma": "105",
+   "sidlo": "Bratří Hlaviců 80, 75501 Vsetín",
+   "datum_vzniku": "2000-04-26",
+   "datum_zaniku": null,
+   "zdroje": [
+    "stavZdrojeRos",
+    "stavZdrojeRes",
+    "stavZdrojeRzp",
+    "stavZdrojeDph",
+    "stavZdrojeRed"
+   ],
+   "sha256": "7ec8490e3aa072785a38cc44eae299ac3f1593b6a6a17388681723e9b683d705"
+  },
+  {
+   "ico": "26378191",
+   "nazev_zdroj": "ČEZNET, s.r.o. (pobočka INTERNEXT)",
+   "http": 200,
+   "ares_nazev": "ČEZNET s.r.o.",
+   "pravni_forma": "112",
+   "sidlo": "Duhová 1531/3, Michle, 14000 Praha 4",
+   "datum_vzniku": "2005-09-20",
+   "datum_zaniku": null,
+   "zdroje": [
+    "stavZdrojeRos",
+    "stavZdrojeVr",
+    "stavZdrojeRes",
+    "stavZdrojeRzp",
+    "stavZdrojeDph",
+    "stavZdrojeRed"
+   ],
+   "sha256": "322ae0cebce7692ea9a78e3d7a041fcf0843b8f54b116dc15a4332893b9f4329"
+  },
+  {
+   "ico": "25845420",
+   "nazev_zdroj": "LPT System, s.r.o.",
+   "http": 200,
+   "ares_nazev": "LPT System, s.r.o.",
+   "pravni_forma": "112",
+   "sidlo": "Jasenická 1734, 75501 Vsetín",
+   "datum_vzniku": "1999-10-12",
+   "datum_zaniku": null,
+   "zdroje": [
+    "stavZdrojeRos",
+    "stavZdrojeVr",
+    "stavZdrojeRes",
+    "stavZdrojeRzp",
+    "stavZdrojeDph",
+    "stavZdrojeRed"
+   ],
+   "sha256": "cfd4cae8d02d5f3b1c0968b00e0bb5f8bad45a4e281a10b140af3926df5acf8d"
+  },
+  {
+   "ico": "27822371",
+   "nazev_zdroj": "Trend gastronomie s.r.o.",
+   "http": 200,
+   "ares_nazev": "TREND gastronomie s.r.o.",
+   "pravni_forma": "112",
+   "sidlo": "Hluboké 657, 75501 Vsetín",
+   "datum_vzniku": "2007-12-28",
+   "datum_zaniku": null,
+   "zdroje": [
+    "stavZdrojeRos",
+    "stavZdrojeVr",
+    "stavZdrojeRes",
+    "stavZdrojeRzp",
+    "stavZdrojeDph",
+    "stavZdrojeRed"
+   ],
+   "sha256": "46a040a1798ed814a6513d9b8127153d2a10af10fe210a018652d65ea07df2bc"
+  },
+  {
+   "ico": "26686503",
+   "nazev_zdroj": "M.O.Z. Consult s. r. o.",
+   "http": 200,
+   "ares_nazev": "M.O.Z. Consult s.r.o.",
+   "pravni_forma": "112",
+   "sidlo": "Radimova 2342/36, Břevnov, 16900 Praha 6",
+   "datum_vzniku": "2002-03-18",
+   "datum_zaniku": null,
+   "zdroje": [
+    "stavZdrojeRos",
+    "stavZdrojeVr",
+    "stavZdrojeRes",
+    "stavZdrojeRzp",
+    "stavZdrojeDph"
+   ],
+   "sha256": "00cf579f95fcaa179ae406b2ed9ef35e69955ab0395439241b753d608632cc2f"
+  },
+  {
+   "ico": "45272956",
+   "nazev_zdroj": "Generali Česká pojišťovna a.s.",
+   "http": 200,
+   "ares_nazev": "Generali Česká pojišťovna a.s.",
+   "pravni_forma": "121",
+   "sidlo": "Spálená 75/16, Nové Město, 11000 Praha 1",
+   "datum_vzniku": "1992-05-01",
+   "datum_zaniku": null,
+   "zdroje": [
+    "stavZdrojeRos",
+    "stavZdrojeVr",
+    "stavZdrojeRes",
+    "stavZdrojeSkDph",
+    "stavZdrojeRed"
+   ],
+   "sha256": "64ca43559a7848e37cf0c0f8271544eb9920eea9397420b407c7a77059130c1c"
+  },
+  {
+   "ico": "25396269",
+   "nazev_zdroj": "SIDAR-plus s.r.o.",
+   "http": 200,
+   "ares_nazev": "SIDAR - plus s.r.o.",
+   "pravni_forma": "112",
+   "sidlo": "V Zahrádkách č.ev. 24, 75501 Vsetín",
+   "datum_vzniku": "1998-04-23",
+   "datum_zaniku": null,
+   "zdroje": [
+    "stavZdrojeRos",
+    "stavZdrojeVr",
+    "stavZdrojeRes",
+    "stavZdrojeRzp",
+    "stavZdrojeDph"
+   ],
+   "sha256": "5cba7e480502508cd1df44828453394b4fedf51c22f7784843d922f3afc21c99"
+  },
+  {
+   "ico": "00536024",
+   "nazev_zdroj": "TJ Zbrojovka Vsetín, z.s.",
+   "http": 200,
+   "ares_nazev": "TJ Zbrojovka Vsetín, z.s.",
+   "pravni_forma": "706",
+   "sidlo": "Tyršova 1456, 75501 Vsetín",
+   "datum_vzniku": "1990-05-23",
+   "datum_zaniku": null,
+   "zdroje": [
+    "stavZdrojeRos",
+    "stavZdrojeVr",
+    "stavZdrojeRes",
+    "stavZdrojeRzp",
+    "stavZdrojeDph",
+    "stavZdrojeRed"
+   ],
+   "sha256": "93438d227f6193f87c5c5ad72b63f6b0984bc82c6f987a2c2d300493f255bc1a"
+  },
+  {
+   "ico": "70887306",
+   "nazev_zdroj": "HZS Zlínského kraje",
+   "http": 200,
+   "ares_nazev": "Hasičský záchranný sbor Zlínského kraje",
+   "pravni_forma": "325",
+   "sidlo": "Přílucká 213, Příluky, 76001 Zlín",
+   "datum_vzniku": "2001-01-01",
+   "datum_zaniku": null,
+   "zdroje": [
+    "stavZdrojeRos",
+    "stavZdrojeRes",
+    "stavZdrojeDph",
+    "stavZdrojeMonitor"
+   ],
+   "sha256": "036cf3f589c7c204b257e96b906baf49e8b91e932f90040e02b729dfea6939d8"
+  },
+  {
+   "ico": "68349742",
+   "nazev_zdroj": "Pavel Škrabánek",
+   "http": 200,
+   "ares_nazev": "Pavel Škrabánek",
+   "pravni_forma": "101",
+   "sidlo": "Rokytnice 240, Rokytnice, 75501 Vsetín",
+   "datum_vzniku": "1998-09-23",
+   "datum_zaniku": null,
+   "zdroje": [
+    "stavZdrojeRos",
+    "stavZdrojeRes",
+    "stavZdrojeRzp",
+    "stavZdrojeDph"
+   ],
+   "sha256": "b9b696590c311f00b44640ba6341e6cf154c99dcba02b6329434d16d77b378dc"
+  },
+  {
+   "ico": "45192120",
+   "nazev_zdroj": "Z-Group bus a.s.",
+   "http": 200,
+   "ares_nazev": "Z-Group bus a.s.",
+   "pravni_forma": "121",
+   "sidlo": "Pasecká 3369, 76001 Zlín",
+   "datum_vzniku": "1992-04-30",
+   "datum_zaniku": null,
+   "zdroje": [
+    "stavZdrojeRos",
+    "stavZdrojeVr",
+    "stavZdrojeRes",
+    "stavZdrojeRzp",
+    "stavZdrojeSkDph",
+    "stavZdrojeRed"
+   ],
+   "sha256": "8d6bdf03d98d7ad380d3d6580a7276287b675f0f08644683c8577761ba32dd37"
+  },
+  {
+   "ico": "41084837",
+   "nazev_zdroj": "ZETEX, spol. s r.o.",
+   "http": 200,
+   "ares_nazev": "ZETEX spol. s r.o.",
+   "pravni_forma": "112",
+   "sidlo": "Horní náměstí 3, 75501 Vsetín",
+   "datum_vzniku": "1991-07-23",
+   "datum_zaniku": null,
+   "zdroje": [
+    "stavZdrojeRos",
+    "stavZdrojeVr",
+    "stavZdrojeRes",
+    "stavZdrojeRzp"
+   ],
+   "sha256": "42282e1bd5cad4c45a99fbc11bceed7481de0c2e9e90eee97a2cce9d4effffa5"
+  },
+  {
+   "ico": "28593987",
+   "nazev_zdroj": "Vsetínská sportovní, s.r.o.",
+   "http": 200,
+   "ares_nazev": "Vsetínská sportovní, s.r.o.",
+   "pravni_forma": "112",
+   "sidlo": "Na Lapači 394, Rokytnice, 75501 Vsetín",
+   "datum_vzniku": "2009-07-20",
+   "datum_zaniku": null,
+   "zdroje": [
+    "stavZdrojeRos",
+    "stavZdrojeVr",
+    "stavZdrojeRes",
+    "stavZdrojeRzp",
+    "stavZdrojeDph",
+    "stavZdrojeRed"
+   ],
+   "sha256": "2b58d248da83076a483aacc16dca9609f4ed9b64799fd1dda8197cc2673239a2"
+  },
+  {
+   "ico": "47972114",
+   "nazev_zdroj": "Dům kultury Vsetín, spol. s r.o.",
+   "http": 200,
+   "ares_nazev": "Dům kultury Vsetín, spol. s r. o.",
+   "pravni_forma": "112",
+   "sidlo": "Svárov 1055, 75501 Vsetín",
+   "datum_vzniku": "1993-01-01",
+   "datum_zaniku": null,
+   "zdroje": [
+    "stavZdrojeRos",
+    "stavZdrojeVr",
+    "stavZdrojeRes",
+    "stavZdrojeRzp",
+    "stavZdrojeDph",
+    "stavZdrojeRed"
+   ],
+   "sha256": "9404c3116563658869e051f44b462390a07d5cc03e1e03aadf259592afb67bf4"
+  },
+  {
+   "ico": "03642259",
+   "nazev_zdroj": "UNITED 3P, z. s.",
+   "http": 200,
+   "ares_nazev": "UNITED 3P, z. s.",
+   "pravni_forma": "706",
+   "sidlo": "Podsedky 950, 75501 Vsetín",
+   "datum_vzniku": "2014-12-18",
+   "datum_zaniku": null,
+   "zdroje": [
+    "stavZdrojeRos",
+    "stavZdrojeVr",
+    "stavZdrojeRes",
+    "stavZdrojeRzp",
+    "stavZdrojeRed"
+   ],
+   "sha256": "1de2cd879b8360ba2233d70bbcdac9b6fc5754c80482561c8fea3dc25bdd0619"
+  },
+  {
+   "ico": "22851593",
+   "nazev_zdroj": "Cyklostezka Bečva, z.s.",
+   "http": 200,
+   "ares_nazev": "Cyklostezka Bečva, z.s.",
+   "pravni_forma": "706",
+   "sidlo": "Boční 551, 78372 Velký Týnec",
+   "datum_vzniku": "2010-10-22",
+   "datum_zaniku": null,
+   "zdroje": [
+    "stavZdrojeRos",
+    "stavZdrojeVr",
+    "stavZdrojeRes",
+    "stavZdrojeRed"
+   ],
+   "sha256": "18b28bc571a15adf571a698176ee4d0b38e9ae8005eccce1d610d611aa46ab75"
+  },
+  {
+   "ico": "69211612",
+   "nazev_zdroj": "Základní škola Integra Vsetín",
+   "http": 200,
+   "ares_nazev": "Základní škola Integra Vsetín",
+   "pravni_forma": "751",
+   "sidlo": "Na Rybníkách 1628, 75501 Vsetín",
+   "datum_vzniku": "1999-01-26",
+   "datum_zaniku": null,
+   "zdroje": [
+    "stavZdrojeRos",
+    "stavZdrojeVr",
+    "stavZdrojeRes",
+    "stavZdrojeRs",
+    "stavZdrojeRed"
+   ],
+   "sha256": "6af35ec33d0a84121913c6788bbfc159b6a474bce5253252e2151de14450441a"
+  },
+  {
+   "ico": "62334697",
+   "nazev_zdroj": "FC Fastav Vsetín, z.s.",
+   "http": 200,
+   "ares_nazev": "FC Fastav Vsetín, z.s.",
+   "pravni_forma": "706",
+   "sidlo": "Tyršova 2237, 75501 Vsetín",
+   "datum_vzniku": "1995-07-13",
+   "datum_zaniku": null,
+   "zdroje": [
+    "stavZdrojeRos",
+    "stavZdrojeVr",
+    "stavZdrojeRes",
+    "stavZdrojeRed"
+   ],
+   "sha256": "cee28788d6542a8129c8ad6a720c20d948ad9fb146095d52faffc715c260ef85"
+  },
+  {
+   "ico": "16361539",
+   "nazev_zdroj": "SEVEZA spol. s r.o.",
+   "http": 200,
+   "ares_nazev": "SEVEZA spol. s r.o.",
+   "pravni_forma": "112",
+   "sidlo": "č.p. 365, 68703 Huštěnovice",
+   "datum_vzniku": "1991-09-16",
+   "datum_zaniku": null,
+   "zdroje": [
+    "stavZdrojeRos",
+    "stavZdrojeVr",
+    "stavZdrojeRes",
+    "stavZdrojeRzp",
+    "stavZdrojeDph",
+    "stavZdrojeRed"
+   ],
+   "sha256": "b9b9cbc9ace870afec298a5b35818bbb566f453db120398bfba18584dd5f7a1e"
+  },
+  {
+   "ico": "25114638",
+   "nazev_zdroj": "Kayaku Safety Systems Europe a. s.",
+   "http": 200,
+   "ares_nazev": "Kayaku Safety Systems Europe a.s.",
+   "pravni_forma": "121",
+   "sidlo": "Bobrky 2271, 75501 Vsetín",
+   "datum_vzniku": "1997-03-20",
+   "datum_zaniku": null,
+   "zdroje": [
+    "stavZdrojeRos",
+    "stavZdrojeVr",
+    "stavZdrojeRes",
+    "stavZdrojeRzp",
+    "stavZdrojeDph",
+    "stavZdrojeRed"
+   ],
+   "sha256": "19e9861724e62ffa5a41b84f49a4fcf82ec09836f8d3291d50b86fb91277b5bd"
+  },
+  {
+   "ico": "27796477",
+   "nazev_zdroj": "OPEN RE-ECO, s.r.o.",
+   "http": 200,
+   "ares_nazev": "OPEN RE-ECO. s.r.o.",
+   "pravni_forma": "112",
+   "sidlo": "Jiráskova 2498, 75501 Vsetín",
+   "datum_vzniku": "2007-04-26",
+   "datum_zaniku": null,
+   "zdroje": [
+    "stavZdrojeRos",
+    "stavZdrojeVr",
+    "stavZdrojeRes",
+    "stavZdrojeRzp",
+    "stavZdrojeDph",
+    "stavZdrojeRed"
+   ],
+   "sha256": "e9c4bb7fdffc3eb9c9a0fe49e52500cc5fc74f5ee73a4d76f000c63e867fff56"
+  },
+  {
+   "ico": "02536986",
+   "nazev_zdroj": "MDDr. Helena Kozárková",
+   "http": 200,
+   "ares_nazev": "MDDr. Helena Kozárková",
+   "pravni_forma": "105",
+   "sidlo": "Rokytnice 413, Rokytnice, 75501 Vsetín",
+   "datum_vzniku": "2014-03-01",
+   "datum_zaniku": null,
+   "zdroje": [
+    "stavZdrojeRos",
+    "stavZdrojeRes",
+    "stavZdrojeNrpzs",
+    "stavZdrojeRed"
+   ],
+   "sha256": "9471d350b5720c2abe914bc14560ce1fd6e46d15acc6d2ab2b655d04a67a496d"
+  },
+  {
+   "ico": "22233300",
+   "nazev_zdroj": "MDDr. Daniel Sušeň s.r.o.",
+   "http": 200,
+   "ares_nazev": "MDDr. Daniel Sušeň s.r.o.",
+   "pravni_forma": "112",
+   "sidlo": "Josefa Sousedíka 1432, 75501 Vsetín",
+   "datum_vzniku": "2024-11-06",
+   "datum_zaniku": null,
+   "zdroje": [
+    "stavZdrojeRos",
+    "stavZdrojeVr",
+    "stavZdrojeRes",
+    "stavZdrojeRzp",
+    "stavZdrojeNrpzs"
+   ],
+   "sha256": "b1bc1e2507bc09a182db54033d4f8d6a0324ce976775185a6abcf7fefa2a66c1"
+  },
+  {
+   "ico": "60042354",
+   "nazev_zdroj": "MŠ Vsetín, Trávníky 1218, p. o.",
+   "http": 404
+  },
+  {
+   "ico": "70872236",
+   "nazev_zdroj": "MŠ Vsetín, Na Kopečku 13, p. o.",
+   "http": 200,
+   "ares_nazev": "Mateřská škola Vsetín, Na Kopečku 13, příspěvková organizace",
+   "pravni_forma": "331",
+   "sidlo": "Na Kopečku 13, 75501 Vsetín",
+   "datum_vzniku": "2001-09-14",
+   "datum_zaniku": null,
+   "zdroje": [
+    "stavZdrojeRos",
+    "stavZdrojeVr",
+    "stavZdrojeRes",
+    "stavZdrojeRs",
+    "stavZdrojeRed",
+    "stavZdrojeMonitor"
+   ],
+   "sha256": "b32eba5c53a94dd42345b7b2f64ff48a7b9ebefe517197921ff24adca13d0978"
+  },
+  {
+   "ico": "00851817",
+   "nazev_zdroj": "Masarykova veřejná knihovna Vsetín, p. o.",
+   "http": 200,
+   "ares_nazev": "Masarykova veřejná knihovna Vsetín, příspěvková organizace",
+   "pravni_forma": "331",
+   "sidlo": "Dolní náměstí 1356, 75501 Vsetín",
+   "datum_vzniku": "1993-01-01",
+   "datum_zaniku": null,
+   "zdroje": [
+    "stavZdrojeRos",
+    "stavZdrojeRes",
+    "stavZdrojeRzp",
+    "stavZdrojeDph",
+    "stavZdrojeRed",
+    "stavZdrojeMonitor"
+   ],
+   "sha256": "38e0f27c4df5e0c93063c9b8a7ecbc997a970574ce23bae69f7f6d06cd13e776"
+  },
+  {
+   "ico": "66184606",
+   "nazev_zdroj": "Hokejbalový klub Vsetín, z.s.",
+   "http": 200,
+   "ares_nazev": "Hokejbalový klub Vsetín, z.s.",
+   "pravni_forma": "706",
+   "sidlo": "Dolní Jasenka 770, 75501 Vsetín",
+   "datum_vzniku": "1997-07-23",
+   "datum_zaniku": null,
+   "zdroje": [
+    "stavZdrojeRos",
+    "stavZdrojeVr",
+    "stavZdrojeRes",
+    "stavZdrojeRed"
+   ],
+   "sha256": "aec2d05a4701fa393e88e079719837f1afdf997e1fb9352f0d70ff7c8ef7b77d"
+  },
+  {
+   "ico": "60609249",
+   "nazev_zdroj": "MŠ Vsetín, Ohrada 1879, p. o.",
+   "http": 200,
+   "ares_nazev": "Mateřská škola Vsetín, Ohrada 1879, příspěvková organizace",
+   "pravni_forma": "331",
+   "sidlo": "Ohrada 1879, 75501 Vsetín",
+   "datum_vzniku": "2001-09-21",
+   "datum_zaniku": null,
+   "zdroje": [
+    "stavZdrojeVr",
+    "stavZdrojeRed",
+    "stavZdrojeMonitor"
+   ],
+   "sha256": "0f8aeada3f3ad1ea26957174a19a537fe77f6814ca7067883468744a4ea1382e"
+  },
+  {
+   "ico": "60042389",
+   "nazev_zdroj": "MŠ Vsetín, Benátky 1175, p. o.",
+   "http": 200,
+   "ares_nazev": "Mateřská škola Vsetín, Benátky 1175, příspěvková organizace",
+   "pravni_forma": "331",
+   "sidlo": "Benátky 1175, 75501 Vsetín",
+   "datum_vzniku": "1962-02-01",
+   "datum_zaniku": null,
+   "zdroje": [
+    "stavZdrojeRos",
+    "stavZdrojeRes",
+    "stavZdrojeRs",
+    "stavZdrojeRed",
+    "stavZdrojeMonitor"
+   ],
+   "sha256": "48267bd61ef825232cfb027ea69d5e6cca43ad13399d783f8f7f5102ee9928a0"
+  },
+  {
+   "ico": "60042362",
+   "nazev_zdroj": "MŠ Vsetín, Sychrov 96, p. o.",
+   "http": 200,
+   "ares_nazev": "Mateřská škola Vsetín, Sychrov 96, příspěvková organizace",
+   "pravni_forma": "331",
+   "sidlo": "MUDr. Františka Sovy 96, 75501 Vsetín",
+   "datum_vzniku": "1984-01-02",
+   "datum_zaniku": null,
+   "zdroje": [
+    "stavZdrojeRos",
+    "stavZdrojeRes",
+    "stavZdrojeRs",
+    "stavZdrojeRed",
+    "stavZdrojeMonitor"
+   ],
+   "sha256": "5ad7fe23c091c9bf4d27782b41a4d762f302bf5176f26ee9c017b391b22d7e48"
+  },
+  {
+   "ico": "24726443",
+   "nazev_zdroj": "FUSION Architects s.r.o.",
+   "http": 200,
+   "ares_nazev": "FUSION ARCHITECTS s.r.o.",
+   "pravni_forma": "112",
+   "sidlo": "Na Maninách 1092/20, Holešovice, 17000 Praha 7",
+   "datum_vzniku": "2010-09-01",
+   "datum_zaniku": null,
+   "zdroje": [
+    "stavZdrojeRos",
+    "stavZdrojeVr",
+    "stavZdrojeRes",
+    "stavZdrojeRzp",
+    "stavZdrojeDph"
+   ],
+   "sha256": "2ed4d04b82bd4725c293922ea8d69ef5860c148db9a899263aeac8fce634e88e"
+  },
+  {
+   "ico": "43964532",
+   "nazev_zdroj": "FORM, spol. s r.o.",
+   "http": 200,
+   "ares_nazev": "FORM, spol. s r.o.",
+   "pravni_forma": "112",
+   "sidlo": "Poručíka Hoši 512/2a, 74711 Kozmice",
+   "datum_vzniku": "1991-12-17",
+   "datum_zaniku": null,
+   "zdroje": [
+    "stavZdrojeRos",
+    "stavZdrojeVr",
+    "stavZdrojeRes",
+    "stavZdrojeRzp",
+    "stavZdrojeDph",
+    "stavZdrojeRed"
+   ],
+   "sha256": "344f2e6d1b60bfd5611f4696fe883fb3f1f144953e173f633d8926f36dce56c7"
+  },
+  {
+   "ico": "25835661",
+   "nazev_zdroj": "H & B delta, s.r.o.",
+   "http": 200,
+   "ares_nazev": "H  & B delta, s.r.o.",
+   "pravni_forma": "112",
+   "sidlo": "Bobrky 382, 75501 Vsetín",
+   "datum_vzniku": "1999-04-26",
+   "datum_zaniku": null,
+   "zdroje": [
+    "stavZdrojeRos",
+    "stavZdrojeVr",
+    "stavZdrojeRes",
+    "stavZdrojeRzp",
+    "stavZdrojeDph",
+    "stavZdrojeRed"
+   ],
+   "sha256": "f2c76d26443396f6abd4b56e6a2d6a73fd033c0d509abb6cda1198778b63ebd0"
+  }
+ ]
+}
