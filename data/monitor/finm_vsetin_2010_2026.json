@@ -1,0 +1,2758 @@
+{
+ "schema": "vsetin-osint/monitor-finm-souhrn@1",
+ "ico": "00304450",
+ "licence": "Zdroj dat: Ministerstvo financí ČR, portál MONITOR (https://monitor.statnipokladna.gov.cz/datovy-katalog/licence)",
+ "vytezeno": "2026-10-23 (SELČ)",
+ "metoda": "Open data FIN 2-12 M (CSV v ZIP) staženo a filtrováno v prohlížeči (ZC_ICO=00304450). Pro období ≤2025: tabulky 000100 (příjmy), 000200 (výdaje), 000300 (financování, bez souhrnu 8000). Pro 2026: FINM01_UJ tabulka 000100. Záporné hodnoty mají ve zdroji znaménko za číslem (např. 530000000.00-). Do roku 2012 je IČO ve zdroji desetimístné (0000304450) – párováno po odstranění úvodních nul.",
+ "pozn_konsolidace": "Konsolidace = odečtení pol. 534x (převody vlastním fondům a účtům) z příjmů i výdajů; výsledek se shoduje s hodnotami UI MONITORu (např. 2025: P 1 003 369 035,77; V 1 082 275 065,54).",
+ "obdobi": {
+  "2010-12": {
+   "zdroj": {
+    "url": "https://monitor.statnipokladna.gov.cz/data/extrakty/csv/FinM/2010_12_Data_CSUIS_FINM.zip",
+    "bytes": 12967379,
+    "sha256": "8c558829aaac76cbe40eb9ab193b72c2dbdb5322dc5f07086e7dbdd634bc965b",
+    "radku_vsetin": 773
+   },
+   "prijmy_tr1_4": {
+    "schvaleny": 632913000,
+    "po_zmenach": 684332000,
+    "skutecnost": 1589752920
+   },
+   "vydaje_tr5_6": {
+    "schvaleny": 813282000,
+    "po_zmenach": 864701000,
+    "skutecnost": 1640065960
+   },
+   "financovani_tr8": {
+    "schvaleny": 180369000,
+    "po_zmenach": 180369000,
+    "skutecnost": 50313040
+   },
+   "konsolidace_pol_534x": {
+    "schvaleny": 0,
+    "po_zmenach": 0,
+    "skutecnost": 976440900
+   },
+   "prijmy_konsolidovane": {
+    "schvaleny": 632913000,
+    "po_zmenach": 684332000,
+    "skutecnost": 613312020
+   },
+   "vydaje_konsolidovane": {
+    "schvaleny": 813282000,
+    "po_zmenach": 864701000,
+    "skutecnost": 663625060
+   },
+   "kontrola_P_plus_F_minus_V": {
+    "schvaleny": 0,
+    "po_zmenach": 0,
+    "skutecnost": 0
+   },
+   "financovani_polozky": {
+    "8113": {
+     "schvaleny": 100000000,
+     "po_zmenach": 100000000,
+     "skutecnost": 0
+    },
+    "8115": {
+     "schvaleny": 82171000,
+     "po_zmenach": 82171000,
+     "skutecnost": 52120240
+    },
+    "8124": {
+     "schvaleny": -1802000,
+     "po_zmenach": -1802000,
+     "skutecnost": -1802200
+    },
+    "8901": {
+     "schvaleny": 0,
+     "po_zmenach": 0,
+     "skutecnost": -5000
+    }
+   },
+   "top15_paragrafu_vydaju_bez_534x": [
+    {
+     "paragraf": "4195",
+     "schvaleny": 117100000.0,
+     "po_zmenach": 139147000.0,
+     "skutecnost": 136988500.0
+    },
+    {
+     "paragraf": "6171",
+     "schvaleny": 105985000.0,
+     "po_zmenach": 107755000.0,
+     "skutecnost": 93737910.0
+    },
+    {
+     "paragraf": "3412",
+     "schvaleny": 69298000.0,
+     "po_zmenach": 59353000.0,
+     "skutecnost": 44954630.0
+    },
+    {
+     "paragraf": "3113",
+     "schvaleny": 46092000.0,
+     "po_zmenach": 45475000.0,
+     "skutecnost": 42781090.0
+    },
+    {
+     "paragraf": "2212",
+     "schvaleny": 64476000.0,
+     "po_zmenach": 63547000.0,
+     "skutecnost": 36811150.0
+    },
+    {
+     "paragraf": "4171",
+     "schvaleny": 14500000.0,
+     "po_zmenach": 19200000.0,
+     "skutecnost": 19716110.0
+    },
+    {
+     "paragraf": "3314",
+     "schvaleny": 15143000.0,
+     "po_zmenach": 16573000.0,
+     "skutecnost": 16651090.0
+    },
+    {
+     "paragraf": "6399",
+     "schvaleny": 17500000.0,
+     "po_zmenach": 19545000.0,
+     "skutecnost": 15880210.0
+    },
+    {
+     "paragraf": "3745",
+     "schvaleny": 17690000.0,
+     "po_zmenach": 18053000.0,
+     "skutecnost": 15500820.0
+    },
+    {
+     "paragraf": "2221",
+     "schvaleny": 15300000.0,
+     "po_zmenach": 15300000.0,
+     "skutecnost": 15243130.0
+    },
+    {
+     "paragraf": "3111",
+     "schvaleny": 14582000.0,
+     "po_zmenach": 15742000.0,
+     "skutecnost": 15089650.0
+    },
+    {
+     "paragraf": "3319",
+     "schvaleny": 12941000.0,
+     "po_zmenach": 13087000.0,
+     "skutecnost": 13127520.0
+    },
+    {
+     "paragraf": "2219",
+     "schvaleny": 4288000.0,
+     "po_zmenach": 15424000.0,
+     "skutecnost": 13103190.0
+    },
+    {
+     "paragraf": "5311",
+     "schvaleny": 13017000.0,
+     "po_zmenach": 13017000.0,
+     "skutecnost": 12127710.0
+    },
+    {
+     "paragraf": "3639",
+     "schvaleny": 12999000.0,
+     "po_zmenach": 13079000.0,
+     "skutecnost": 11782190.0
+    }
+   ]
+  },
+  "2011-12": {
+   "zdroj": {
+    "url": "https://monitor.statnipokladna.gov.cz/data/extrakty/csv/FinM/2011_12_Data_CSUIS_FINM.zip",
+    "bytes": 13575155,
+    "sha256": "32f4215ce2b7fc88b0a94f76e82d5ee2d8fb0c73b544c32ecbdd0099b6fa64f9",
+    "radku_vsetin": 742
+   },
+   "prijmy_tr1_4": {
+    "schvaleny": 691293000,
+    "po_zmenach": 721108000,
+    "skutecnost": 1542958837.56
+   },
+   "vydaje_tr5_6": {
+    "schvaleny": 789491000,
+    "po_zmenach": 819306000,
+    "skutecnost": 1584282902.46
+   },
+   "financovani_tr8": {
+    "schvaleny": 98198000,
+    "po_zmenach": 98198000,
+    "skutecnost": 41324064.9
+   },
+   "konsolidace_pol_534x": {
+    "schvaleny": 0,
+    "po_zmenach": 0,
+    "skutecnost": 939681147.99
+   },
+   "prijmy_konsolidovane": {
+    "schvaleny": 691293000,
+    "po_zmenach": 721108000,
+    "skutecnost": 603277689.57
+   },
+   "vydaje_konsolidovane": {
+    "schvaleny": 789491000,
+    "po_zmenach": 819306000,
+    "skutecnost": 644601754.47
+   },
+   "kontrola_P_plus_F_minus_V": {
+    "schvaleny": 0,
+    "po_zmenach": 0,
+    "skutecnost": 0.0
+   },
+   "financovani_polozky": {
+    "8113": {
+     "schvaleny": 100000000,
+     "po_zmenach": 100000000,
+     "skutecnost": 31926379.5
+    },
+    "8115": {
+     "schvaleny": 0,
+     "po_zmenach": 0,
+     "skutecnost": 10994541.55
+    },
+    "8123": {
+     "schvaleny": 0,
+     "po_zmenach": 0,
+     "skutecnost": 205343.85
+    },
+    "8124": {
+     "schvaleny": -1802000,
+     "po_zmenach": -1802000,
+     "skutecnost": -1802200
+    }
+   },
+   "top15_paragrafu_vydaju_bez_534x": [
+    {
+     "paragraf": "4195",
+     "schvaleny": 136000000.0,
+     "po_zmenach": 132500000.0,
+     "skutecnost": 131425600.0
+    },
+    {
+     "paragraf": "6171",
+     "schvaleny": 109394000.0,
+     "po_zmenach": 110430000.0,
+     "skutecnost": 96873182.0
+    },
+    {
+     "paragraf": "3113",
+     "schvaleny": 47021000.0,
+     "po_zmenach": 54895000.0,
+     "skutecnost": 47557240.0
+    },
+    {
+     "paragraf": "2212",
+     "schvaleny": 53695000.0,
+     "po_zmenach": 50093000.0,
+     "skutecnost": 34035241.0
+    },
+    {
+     "paragraf": "3412",
+     "schvaleny": 30755000.0,
+     "po_zmenach": 30626000.0,
+     "skutecnost": 25725114.0
+    },
+    {
+     "paragraf": "4171",
+     "schvaleny": 21000000.0,
+     "po_zmenach": 21400000.0,
+     "skutecnost": 20917224.0
+    },
+    {
+     "paragraf": "3726",
+     "schvaleny": 56324000.0,
+     "po_zmenach": 56161000.0,
+     "skutecnost": 20365842.0
+    },
+    {
+     "paragraf": "3745",
+     "schvaleny": 20181000.0,
+     "po_zmenach": 21071000.0,
+     "skutecnost": 18854130.0
+    },
+    {
+     "paragraf": "3314",
+     "schvaleny": 15111000.0,
+     "po_zmenach": 16795000.0,
+     "skutecnost": 16794428.0
+    },
+    {
+     "paragraf": "3111",
+     "schvaleny": 41832000.0,
+     "po_zmenach": 30876000.0,
+     "skutecnost": 16334118.0
+    },
+    {
+     "paragraf": "3419",
+     "schvaleny": 11401000.0,
+     "po_zmenach": 16579000.0,
+     "skutecnost": 15730949.0
+    },
+    {
+     "paragraf": "2221",
+     "schvaleny": 15760000.0,
+     "po_zmenach": 15760000.0,
+     "skutecnost": 15529060.0
+    },
+    {
+     "paragraf": "3319",
+     "schvaleny": 13741000.0,
+     "po_zmenach": 14405000.0,
+     "skutecnost": 13818743.0
+    },
+    {
+     "paragraf": "5311",
+     "schvaleny": 12948000.0,
+     "po_zmenach": 12967000.0,
+     "skutecnost": 12512631.0
+    },
+    {
+     "paragraf": "3639",
+     "schvaleny": 12501000.0,
+     "po_zmenach": 12831000.0,
+     "skutecnost": 11608880.0
+    }
+   ]
+  },
+  "2012-12": {
+   "zdroj": {
+    "url": "https://monitor.statnipokladna.gov.cz/data/extrakty/csv/FinM/2012_12_Data_CSUIS_FINM.zip",
+    "bytes": 13885969,
+    "sha256": "f3b5affc1ec6b83fec0e7a306d431cf5aa1d34541e94005804a0eb4fc3d1b929",
+    "radku_vsetin": 719
+   },
+   "prijmy_tr1_4": {
+    "schvaleny": 466913000,
+    "po_zmenach": 490277367,
+    "skutecnost": 1278835578.6
+   },
+   "vydaje_tr5_6": {
+    "schvaleny": 505111000,
+    "po_zmenach": 530306367,
+    "skutecnost": 1240872293.92
+   },
+   "financovani_tr8": {
+    "schvaleny": 38198000,
+    "po_zmenach": 40029000,
+    "skutecnost": -37963284.68
+   },
+   "konsolidace_pol_534x": {
+    "schvaleny": 0,
+    "po_zmenach": 0,
+    "skutecnost": 794044727.38
+   },
+   "prijmy_konsolidovane": {
+    "schvaleny": 466913000,
+    "po_zmenach": 490277367,
+    "skutecnost": 484790851.22
+   },
+   "vydaje_konsolidovane": {
+    "schvaleny": 505111000,
+    "po_zmenach": 530306367,
+    "skutecnost": 446827566.54
+   },
+   "kontrola_P_plus_F_minus_V": {
+    "schvaleny": 0,
+    "po_zmenach": 0,
+    "skutecnost": -0.0
+   },
+   "financovani_polozky": {
+    "8114": {
+     "schvaleny": 0,
+     "po_zmenach": 0,
+     "skutecnost": -31926379.5
+    },
+    "8115": {
+     "schvaleny": 0,
+     "po_zmenach": 0,
+     "skutecnost": -6402066.44
+    },
+    "8123": {
+     "schvaleny": 0,
+     "po_zmenach": 2415000,
+     "skutecnost": 2692477.3
+    },
+    "8124": {
+     "schvaleny": -1802000,
+     "po_zmenach": -2386000,
+     "skutecnost": -2385728
+    },
+    "8901": {
+     "schvaleny": 0,
+     "po_zmenach": 0,
+     "skutecnost": 58411.96
+    },
+    "8905": {
+     "schvaleny": 40000000,
+     "po_zmenach": 40000000,
+     "skutecnost": 0
+    }
+   },
+   "top15_paragrafu_vydaju_bez_534x": [
+    {
+     "paragraf": "6171",
+     "schvaleny": 107786000.0,
+     "po_zmenach": 111261654.0,
+     "skutecnost": 97469434.0
+    },
+    {
+     "paragraf": "3726",
+     "schvaleny": 39373000.0,
+     "po_zmenach": 39267000.0,
+     "skutecnost": 39193906.0
+    },
+    {
+     "paragraf": "2212",
+     "schvaleny": 46534000.0,
+     "po_zmenach": 41334000.0,
+     "skutecnost": 35397775.0
+    },
+    {
+     "paragraf": "3111",
+     "schvaleny": 29462000.0,
+     "po_zmenach": 27621418.0,
+     "skutecnost": 26269471.0
+    },
+    {
+     "paragraf": "3113",
+     "schvaleny": 20253000.0,
+     "po_zmenach": 23527138.0,
+     "skutecnost": 22953508.0
+    },
+    {
+     "paragraf": "3745",
+     "schvaleny": 46788000.0,
+     "po_zmenach": 46878000.0,
+     "skutecnost": 17956474.0
+    },
+    {
+     "paragraf": "4351",
+     "schvaleny": 15846000.0,
+     "po_zmenach": 15783000.0,
+     "skutecnost": 15592872.0
+    },
+    {
+     "paragraf": "2221",
+     "schvaleny": 15530000.0,
+     "po_zmenach": 15530000.0,
+     "skutecnost": 15510720.0
+    },
+    {
+     "paragraf": "3314",
+     "schvaleny": 12014000.0,
+     "po_zmenach": 15527521.0,
+     "skutecnost": 15480188.0
+    },
+    {
+     "paragraf": "3639",
+     "schvaleny": 14465000.0,
+     "po_zmenach": 15552630.0,
+     "skutecnost": 14451398.0
+    },
+    {
+     "paragraf": "3412",
+     "schvaleny": 16300000.0,
+     "po_zmenach": 17440000.0,
+     "skutecnost": 14049968.0
+    },
+    {
+     "paragraf": "5311",
+     "schvaleny": 11757000.0,
+     "po_zmenach": 11755000.0,
+     "skutecnost": 11439616.0
+    },
+    {
+     "paragraf": "6399",
+     "schvaleny": 16000000.0,
+     "po_zmenach": 16000000.0,
+     "skutecnost": 10516802.0
+    },
+    {
+     "paragraf": "3319",
+     "schvaleny": 10050000.0,
+     "po_zmenach": 10211000.0,
+     "skutecnost": 10002369.0
+    },
+    {
+     "paragraf": "3419",
+     "schvaleny": 8064000.0,
+     "po_zmenach": 10082000.0,
+     "skutecnost": 9983745.0
+    }
+   ]
+  },
+  "2013-12": {
+   "zdroj": {
+    "url": "https://monitor.statnipokladna.gov.cz/data/extrakty/csv/FinM/2013_12_Data_CSUIS_FINM.zip",
+    "bytes": 17780375,
+    "sha256": "47af03028bd5f8de5ef65521ff98b550d45ef4407c51fd619e6927e7ee0798f8",
+    "radku_vsetin": 754
+   },
+   "prijmy_tr1_4": {
+    "schvaleny": 421691000,
+    "po_zmenach": 474031989,
+    "skutecnost": 1411035255.69
+   },
+   "vydaje_tr5_6": {
+    "schvaleny": 487247000,
+    "po_zmenach": 545887989,
+    "skutecnost": 1382338564.46
+   },
+   "financovani_tr8": {
+    "schvaleny": 65556000,
+    "po_zmenach": 71856000,
+    "skutecnost": -28696691.23
+   },
+   "konsolidace_pol_534x": {
+    "schvaleny": 0,
+    "po_zmenach": 0,
+    "skutecnost": 926010803.95
+   },
+   "prijmy_konsolidovane": {
+    "schvaleny": 421691000,
+    "po_zmenach": 474031989,
+    "skutecnost": 485024451.74
+   },
+   "vydaje_konsolidovane": {
+    "schvaleny": 487247000,
+    "po_zmenach": 545887989,
+    "skutecnost": 456327760.51
+   },
+   "kontrola_P_plus_F_minus_V": {
+    "schvaleny": 0,
+    "po_zmenach": 0,
+    "skutecnost": 0.0
+   },
+   "financovani_polozky": {
+    "8115": {
+     "schvaleny": 5000000,
+     "po_zmenach": 11300000,
+     "skutecnost": -26966566.05
+    },
+    "8124": {
+     "schvaleny": -2383000,
+     "po_zmenach": -2383000,
+     "skutecnost": -2385283
+    },
+    "8901": {
+     "schvaleny": 0,
+     "po_zmenach": 0,
+     "skutecnost": 516554.48
+    },
+    "8902": {
+     "schvaleny": 0,
+     "po_zmenach": 0,
+     "skutecnost": 138603.34
+    },
+    "8905": {
+     "schvaleny": 62939000,
+     "po_zmenach": 62939000,
+     "skutecnost": 0
+    }
+   },
+   "top15_paragrafu_vydaju_bez_534x": [
+    {
+     "paragraf": "6171",
+     "schvaleny": 106125000.0,
+     "po_zmenach": 106378646.0,
+     "skutecnost": 97555189.0
+    },
+    {
+     "paragraf": "3639",
+     "schvaleny": 52662000.0,
+     "po_zmenach": 70589600.0,
+     "skutecnost": 69697010.0
+    },
+    {
+     "paragraf": "3412",
+     "schvaleny": 18829000.0,
+     "po_zmenach": 29272910.0,
+     "skutecnost": 28668442.0
+    },
+    {
+     "paragraf": "3113",
+     "schvaleny": 26362000.0,
+     "po_zmenach": 29142502.0,
+     "skutecnost": 25723921.0
+    },
+    {
+     "paragraf": "2212",
+     "schvaleny": 26311000.0,
+     "po_zmenach": 25382250.0,
+     "skutecnost": 21461860.0
+    },
+    {
+     "paragraf": "2219",
+     "schvaleny": 46231000.0,
+     "po_zmenach": 36610900.0,
+     "skutecnost": 18565576.0
+    },
+    {
+     "paragraf": "3314",
+     "schvaleny": 12255000.0,
+     "po_zmenach": 17016568.0,
+     "skutecnost": 16887370.0
+    },
+    {
+     "paragraf": "2221",
+     "schvaleny": 15530000.0,
+     "po_zmenach": 15530000.0,
+     "skutecnost": 15488320.0
+    },
+    {
+     "paragraf": "3111",
+     "schvaleny": 12550000.0,
+     "po_zmenach": 16638351.0,
+     "skutecnost": 14960579.0
+    },
+    {
+     "paragraf": "3612",
+     "schvaleny": 17316000.0,
+     "po_zmenach": 17199006.0,
+     "skutecnost": 14826446.0
+    },
+    {
+     "paragraf": "6399",
+     "schvaleny": 16000000.0,
+     "po_zmenach": 16034200.0,
+     "skutecnost": 13554210.0
+    },
+    {
+     "paragraf": "5311",
+     "schvaleny": 12322000.0,
+     "po_zmenach": 12359600.0,
+     "skutecnost": 11841147.0
+    },
+    {
+     "paragraf": "3319",
+     "schvaleny": 9620000.0,
+     "po_zmenach": 10891600.0,
+     "skutecnost": 10656208.0
+    },
+    {
+     "paragraf": "3419",
+     "schvaleny": 8064000.0,
+     "po_zmenach": 10165250.0,
+     "skutecnost": 9987297.0
+    },
+    {
+     "paragraf": "3722",
+     "schvaleny": 9756000.0,
+     "po_zmenach": 9436000.0,
+     "skutecnost": 9472459.0
+    }
+   ]
+  },
+  "2014-12": {
+   "zdroj": {
+    "url": "https://monitor.statnipokladna.gov.cz/data/extrakty/csv/FinM/2014_12_Data_CSUIS_FINM.zip",
+    "bytes": 18236832,
+    "sha256": "71ca7860e95f5aa50fd6ab4933e0d7afe17f8cc3fdc777f3387dea491761e737",
+    "radku_vsetin": 766
+   },
+   "prijmy_tr1_4": {
+    "schvaleny": 488288900,
+    "po_zmenach": 522005258,
+    "skutecnost": 1656389263.19
+   },
+   "vydaje_tr5_6": {
+    "schvaleny": 598704900,
+    "po_zmenach": 644457465,
+    "skutecnost": 1654346059.98
+   },
+   "financovani_tr8": {
+    "schvaleny": 110416000,
+    "po_zmenach": 122452207,
+    "skutecnost": -2043203.21
+   },
+   "konsolidace_pol_534x": {
+    "schvaleny": 0,
+    "po_zmenach": 0,
+    "skutecnost": 1090788722.66
+   },
+   "prijmy_konsolidovane": {
+    "schvaleny": 488288900,
+    "po_zmenach": 522005258,
+    "skutecnost": 565600540.53
+   },
+   "vydaje_konsolidovane": {
+    "schvaleny": 598704900,
+    "po_zmenach": 644457465,
+    "skutecnost": 563557337.32
+   },
+   "kontrola_P_plus_F_minus_V": {
+    "schvaleny": 0,
+    "po_zmenach": 0,
+    "skutecnost": 0.0
+   },
+   "financovani_polozky": {
+    "8115": {
+     "schvaleny": 11000000,
+     "po_zmenach": 23036207,
+     "skutecnost": -1076066.43
+    },
+    "8124": {
+     "schvaleny": -584000,
+     "po_zmenach": -584000,
+     "skutecnost": -583528
+    },
+    "8901": {
+     "schvaleny": 0,
+     "po_zmenach": 0,
+     "skutecnost": -410763.36
+    },
+    "8902": {
+     "schvaleny": 0,
+     "po_zmenach": 0,
+     "skutecnost": 27154.58
+    },
+    "8905": {
+     "schvaleny": 100000000,
+     "po_zmenach": 100000000,
+     "skutecnost": 0
+    }
+   },
+   "top15_paragrafu_vydaju_bez_534x": [
+    {
+     "paragraf": "6171",
+     "schvaleny": 103862000.0,
+     "po_zmenach": 104146554.0,
+     "skutecnost": 92842639.0
+    },
+    {
+     "paragraf": "3639",
+     "schvaleny": 62892000.0,
+     "po_zmenach": 73046000.0,
+     "skutecnost": 69905236.0
+    },
+    {
+     "paragraf": "3412",
+     "schvaleny": 54583000.0,
+     "po_zmenach": 51000640.0,
+     "skutecnost": 49674793.0
+    },
+    {
+     "paragraf": "2219",
+     "schvaleny": 43371000.0,
+     "po_zmenach": 51866804.0,
+     "skutecnost": 41567474.0
+    },
+    {
+     "paragraf": "3113",
+     "schvaleny": 56903000.0,
+     "po_zmenach": 41913285.0,
+     "skutecnost": 41467735.0
+    },
+    {
+     "paragraf": "3745",
+     "schvaleny": 28655000.0,
+     "po_zmenach": 28655000.0,
+     "skutecnost": 27984516.0
+    },
+    {
+     "paragraf": "3722",
+     "schvaleny": 9656000.0,
+     "po_zmenach": 24896300.0,
+     "skutecnost": 24852036.0
+    },
+    {
+     "paragraf": "3612",
+     "schvaleny": 23305000.0,
+     "po_zmenach": 23409215.0,
+     "skutecnost": 21954643.0
+    },
+    {
+     "paragraf": "6399",
+     "schvaleny": 15000000.0,
+     "po_zmenach": 20817000.0,
+     "skutecnost": 19781278.0
+    },
+    {
+     "paragraf": "2221",
+     "schvaleny": 15530000.0,
+     "po_zmenach": 15879445.0,
+     "skutecnost": 15879445.0
+    },
+    {
+     "paragraf": "3314",
+     "schvaleny": 12061000.0,
+     "po_zmenach": 15372000.0,
+     "skutecnost": 15371677.0
+    },
+    {
+     "paragraf": "2321",
+     "schvaleny": 27027000.0,
+     "po_zmenach": 27224000.0,
+     "skutecnost": 13707292.0
+    },
+    {
+     "paragraf": "5311",
+     "schvaleny": 12572000.0,
+     "po_zmenach": 12537000.0,
+     "skutecnost": 11634650.0
+    },
+    {
+     "paragraf": "3319",
+     "schvaleny": 11664000.0,
+     "po_zmenach": 12155500.0,
+     "skutecnost": 11152115.0
+    },
+    {
+     "paragraf": "3419",
+     "schvaleny": 9532000.0,
+     "po_zmenach": 11923500.0,
+     "skutecnost": 10568420.0
+    }
+   ]
+  },
+  "2015-12": {
+   "zdroj": {
+    "url": "https://monitor.statnipokladna.gov.cz/data/extrakty/csv/FinM/2015_12_Data_CSUIS_FINM.zip",
+    "bytes": 14234471,
+    "sha256": "f73fece6c8a0b0d7f55dec2032cd92021ffcb3c8c165da4a1ce31668db876d7d",
+    "radku_vsetin": 730
+   },
+   "prijmy_tr1_4": {
+    "schvaleny": 504692000,
+    "po_zmenach": 558715028,
+    "skutecnost": 1715286005.13
+   },
+   "vydaje_tr5_6": {
+    "schvaleny": 504108000,
+    "po_zmenach": 596024229,
+    "skutecnost": 1670644453.48
+   },
+   "financovani_tr8": {
+    "schvaleny": -584000,
+    "po_zmenach": 37309201,
+    "skutecnost": -44641551.65
+   },
+   "konsolidace_pol_534x": {
+    "schvaleny": 0,
+    "po_zmenach": 0,
+    "skutecnost": 1131099356.52
+   },
+   "prijmy_konsolidovane": {
+    "schvaleny": 504692000,
+    "po_zmenach": 558715028,
+    "skutecnost": 584186648.61
+   },
+   "vydaje_konsolidovane": {
+    "schvaleny": 504108000,
+    "po_zmenach": 596024229,
+    "skutecnost": 539545096.96
+   },
+   "kontrola_P_plus_F_minus_V": {
+    "schvaleny": 0,
+    "po_zmenach": 0,
+    "skutecnost": 0.0
+   },
+   "financovani_polozky": {
+    "8115": {
+     "schvaleny": 0,
+     "po_zmenach": 37893201,
+     "skutecnost": -44144634.45
+    },
+    "8124": {
+     "schvaleny": -584000,
+     "po_zmenach": -584000,
+     "skutecnost": -583528
+    },
+    "8901": {
+     "schvaleny": 0,
+     "po_zmenach": 0,
+     "skutecnost": 146540.25
+    },
+    "8902": {
+     "schvaleny": 0,
+     "po_zmenach": 0,
+     "skutecnost": -59929.45
+    }
+   },
+   "top15_paragrafu_vydaju_bez_534x": [
+    {
+     "paragraf": "3639",
+     "schvaleny": 105924000.0,
+     "po_zmenach": 107113000.0,
+     "skutecnost": 102387226.0
+    },
+    {
+     "paragraf": "6171",
+     "schvaleny": 104454000.0,
+     "po_zmenach": 105276573.0,
+     "skutecnost": 95538647.0
+    },
+    {
+     "paragraf": "3113",
+     "schvaleny": 30892000.0,
+     "po_zmenach": 38657474.0,
+     "skutecnost": 38028735.0
+    },
+    {
+     "paragraf": "3412",
+     "schvaleny": 24473000.0,
+     "po_zmenach": 36061000.0,
+     "skutecnost": 31910608.0
+    },
+    {
+     "paragraf": "2321",
+     "schvaleny": 23439000.0,
+     "po_zmenach": 31679000.0,
+     "skutecnost": 23775692.0
+    },
+    {
+     "paragraf": "6399",
+     "schvaleny": 15000000.0,
+     "po_zmenach": 22600000.0,
+     "skutecnost": 23033859.0
+    },
+    {
+     "paragraf": "3111",
+     "schvaleny": 18041000.0,
+     "po_zmenach": 18814907.0,
+     "skutecnost": 18526516.0
+    },
+    {
+     "paragraf": "2219",
+     "schvaleny": 18594000.0,
+     "po_zmenach": 22899386.0,
+     "skutecnost": 17823634.0
+    },
+    {
+     "paragraf": "2221",
+     "schvaleny": 16300000.0,
+     "po_zmenach": 16300000.0,
+     "skutecnost": 16266800.0
+    },
+    {
+     "paragraf": "3722",
+     "schvaleny": 15966000.0,
+     "po_zmenach": 16271000.0,
+     "skutecnost": 16154722.0
+    },
+    {
+     "paragraf": "2212",
+     "schvaleny": 18772000.0,
+     "po_zmenach": 24463030.0,
+     "skutecnost": 15502551.0
+    },
+    {
+     "paragraf": "3314",
+     "schvaleny": 12236000.0,
+     "po_zmenach": 14959195.0,
+     "skutecnost": 14959195.0
+    },
+    {
+     "paragraf": "3419",
+     "schvaleny": 10054000.0,
+     "po_zmenach": 15718000.0,
+     "skutecnost": 14286407.0
+    },
+    {
+     "paragraf": "3613",
+     "schvaleny": 13875000.0,
+     "po_zmenach": 14083249.0,
+     "skutecnost": 12530682.0
+    },
+    {
+     "paragraf": "5311",
+     "schvaleny": 13100000.0,
+     "po_zmenach": 13063800.0,
+     "skutecnost": 12363987.0
+    }
+   ]
+  },
+  "2016-12": {
+   "zdroj": {
+    "url": "https://monitor.statnipokladna.gov.cz/data/extrakty/csv/FinM/2016_12_Data_CSUIS_FINM.zip",
+    "bytes": 17794439,
+    "sha256": "08566111139a11d4a99a0fe6d6314abefedff73cd90646b90726b3f7574b6e65",
+    "radku_vsetin": 736
+   },
+   "prijmy_tr1_4": {
+    "schvaleny": 462022000,
+    "po_zmenach": 483678615,
+    "skutecnost": 1557319086.97
+   },
+   "vydaje_tr5_6": {
+    "schvaleny": 476244000,
+    "po_zmenach": 555985871,
+    "skutecnost": 1488502898.57
+   },
+   "financovani_tr8": {
+    "schvaleny": 14222000,
+    "po_zmenach": 72307256,
+    "skutecnost": -68816188.4
+   },
+   "konsolidace_pol_534x": {
+    "schvaleny": 0,
+    "po_zmenach": 0,
+    "skutecnost": 1020209492.17
+   },
+   "prijmy_konsolidovane": {
+    "schvaleny": 462022000,
+    "po_zmenach": 483678615,
+    "skutecnost": 537109594.8
+   },
+   "vydaje_konsolidovane": {
+    "schvaleny": 476244000,
+    "po_zmenach": 555985871,
+    "skutecnost": 468293406.4
+   },
+   "kontrola_P_plus_F_minus_V": {
+    "schvaleny": 0,
+    "po_zmenach": 0,
+    "skutecnost": 0.0
+   },
+   "financovani_polozky": {
+    "8115": {
+     "schvaleny": 80000,
+     "po_zmenach": 58165256,
+     "skutecnost": -68384212.9
+    },
+    "8124": {
+     "schvaleny": -565000,
+     "po_zmenach": -565000,
+     "skutecnost": -563709.15
+    },
+    "8213": {
+     "schvaleny": 14707000,
+     "po_zmenach": 14707000,
+     "skutecnost": 0
+    },
+    "8901": {
+     "schvaleny": 0,
+     "po_zmenach": 0,
+     "skutecnost": 132079.35
+    },
+    "8902": {
+     "schvaleny": 0,
+     "po_zmenach": 0,
+     "skutecnost": -345.7
+    }
+   },
+   "top15_paragrafu_vydaju_bez_534x": [
+    {
+     "paragraf": "6171",
+     "schvaleny": 107231000.0,
+     "po_zmenach": 106852100.0,
+     "skutecnost": 99952022.0
+    },
+    {
+     "paragraf": "3639",
+     "schvaleny": 76056000.0,
+     "po_zmenach": 86916000.0,
+     "skutecnost": 75037347.0
+    },
+    {
+     "paragraf": "3412",
+     "schvaleny": 32964000.0,
+     "po_zmenach": 41029993.0,
+     "skutecnost": 34695607.0
+    },
+    {
+     "paragraf": "3113",
+     "schvaleny": 27787000.0,
+     "po_zmenach": 35457633.0,
+     "skutecnost": 31368412.0
+    },
+    {
+     "paragraf": "3111",
+     "schvaleny": 19311000.0,
+     "po_zmenach": 22066236.0,
+     "skutecnost": 18996896.0
+    },
+    {
+     "paragraf": "6399",
+     "schvaleny": 25000000.0,
+     "po_zmenach": 24700000.0,
+     "skutecnost": 18713406.0
+    },
+    {
+     "paragraf": "3722",
+     "schvaleny": 15986000.0,
+     "po_zmenach": 16957000.0,
+     "skutecnost": 16956830.0
+    },
+    {
+     "paragraf": "2221",
+     "schvaleny": 16300000.0,
+     "po_zmenach": 16300000.0,
+     "skutecnost": 16250400.0
+    },
+    {
+     "paragraf": "3314",
+     "schvaleny": 12596000.0,
+     "po_zmenach": 15246084.0,
+     "skutecnost": 15246084.0
+    },
+    {
+     "paragraf": "5311",
+     "schvaleny": 13741000.0,
+     "po_zmenach": 13741000.0,
+     "skutecnost": 13220794.0
+    },
+    {
+     "paragraf": "2219",
+     "schvaleny": 11985000.0,
+     "po_zmenach": 28019000.0,
+     "skutecnost": 12580756.0
+    },
+    {
+     "paragraf": "3419",
+     "schvaleny": 8409000.0,
+     "po_zmenach": 12422000.0,
+     "skutecnost": 12186058.0
+    },
+    {
+     "paragraf": "3319",
+     "schvaleny": 10452000.0,
+     "po_zmenach": 11462300.0,
+     "skutecnost": 11427824.0
+    },
+    {
+     "paragraf": "2212",
+     "schvaleny": 17865000.0,
+     "po_zmenach": 17080000.0,
+     "skutecnost": 9644723.0
+    },
+    {
+     "paragraf": "3613",
+     "schvaleny": 9986000.0,
+     "po_zmenach": 13786470.0,
+     "skutecnost": 9481537.0
+    }
+   ]
+  },
+  "2017-12": {
+   "zdroj": {
+    "url": "https://monitor.statnipokladna.gov.cz/data/extrakty/csv/FinM/2017_12_Data_CSUIS_FINM.zip",
+    "bytes": 14969659,
+    "sha256": "86209a35fd64028330b0b87b29f0d01b333b380d8be6a2c8a8ffd1721c8c2b47",
+    "radku_vsetin": 745
+   },
+   "prijmy_tr1_4": {
+    "schvaleny": 482065877,
+    "po_zmenach": 501792877,
+    "skutecnost": 1577623157.3
+   },
+   "vydaje_tr5_6": {
+    "schvaleny": 584119130,
+    "po_zmenach": 665728427,
+    "skutecnost": 1514911581.08
+   },
+   "financovani_tr8": {
+    "schvaleny": 102053253,
+    "po_zmenach": 163935550,
+    "skutecnost": -62711576.22
+   },
+   "konsolidace_pol_534x": {
+    "schvaleny": 0,
+    "po_zmenach": 0,
+    "skutecnost": 1015874798
+   },
+   "prijmy_konsolidovane": {
+    "schvaleny": 482065877,
+    "po_zmenach": 501792877,
+    "skutecnost": 561748359.3
+   },
+   "vydaje_konsolidovane": {
+    "schvaleny": 584119130,
+    "po_zmenach": 665728427,
+    "skutecnost": 499036783.08
+   },
+   "kontrola_P_plus_F_minus_V": {
+    "schvaleny": 0,
+    "po_zmenach": 0,
+    "skutecnost": 0.0
+   },
+   "financovani_polozky": {
+    "8113": {
+     "schvaleny": 41000000,
+     "po_zmenach": 41000000,
+     "skutecnost": 0
+    },
+    "8115": {
+     "schvaleny": 61053253,
+     "po_zmenach": 122935550,
+     "skutecnost": -62470687.72
+    },
+    "8901": {
+     "schvaleny": 0,
+     "po_zmenach": 0,
+     "skutecnost": -114355.84
+    },
+    "8902": {
+     "schvaleny": 0,
+     "po_zmenach": 0,
+     "skutecnost": -126532.66
+    }
+   },
+   "top15_paragrafu_vydaju_bez_534x": [
+    {
+     "paragraf": "6171",
+     "schvaleny": 117226000.0,
+     "po_zmenach": 117428928.0,
+     "skutecnost": 102645641.0
+    },
+    {
+     "paragraf": "3639",
+     "schvaleny": 76443000.0,
+     "po_zmenach": 91554814.0,
+     "skutecnost": 77351087.0
+    },
+    {
+     "paragraf": "3412",
+     "schvaleny": 34923000.0,
+     "po_zmenach": 53303023.0,
+     "skutecnost": 45576661.0
+    },
+    {
+     "paragraf": "3113",
+     "schvaleny": 42697130.0,
+     "po_zmenach": 46489690.0,
+     "skutecnost": 44216440.0
+    },
+    {
+     "paragraf": "3722",
+     "schvaleny": 16984000.0,
+     "po_zmenach": 17849400.0,
+     "skutecnost": 17849460.0
+    },
+    {
+     "paragraf": "3111",
+     "schvaleny": 17336000.0,
+     "po_zmenach": 18316234.0,
+     "skutecnost": 17253574.0
+    },
+    {
+     "paragraf": "3314",
+     "schvaleny": 13267000.0,
+     "po_zmenach": 16497758.0,
+     "skutecnost": 16497688.0
+    },
+    {
+     "paragraf": "6399",
+     "schvaleny": 23000000.0,
+     "po_zmenach": 23000000.0,
+     "skutecnost": 16241223.0
+    },
+    {
+     "paragraf": "3613",
+     "schvaleny": 10052000.0,
+     "po_zmenach": 37031159.0,
+     "skutecnost": 16060867.0
+    },
+    {
+     "paragraf": "5311",
+     "schvaleny": 16751000.0,
+     "po_zmenach": 16744600.0,
+     "skutecnost": 15218822.0
+    },
+    {
+     "paragraf": "2292",
+     "schvaleny": 15200000.0,
+     "po_zmenach": 15200000.0,
+     "skutecnost": 15200000.0
+    },
+    {
+     "paragraf": "2219",
+     "schvaleny": 65960000.0,
+     "po_zmenach": 64979500.0,
+     "skutecnost": 13269281.0
+    },
+    {
+     "paragraf": "3319",
+     "schvaleny": 11498000.0,
+     "po_zmenach": 12384000.0,
+     "skutecnost": 11823966.0
+    },
+    {
+     "paragraf": "3419",
+     "schvaleny": 9182000.0,
+     "po_zmenach": 11962000.0,
+     "skutecnost": 11792553.0
+    },
+    {
+     "paragraf": "3612",
+     "schvaleny": 9652000.0,
+     "po_zmenach": 11085681.0,
+     "skutecnost": 9715122.0
+    }
+   ]
+  },
+  "2018-12": {
+   "zdroj": {
+    "url": "https://monitor.statnipokladna.gov.cz/data/extrakty/csv/FinM/2018_12_Data_CSUIS_FINM.zip",
+    "bytes": 19756928,
+    "sha256": "f55d4db052a8975c6bd4587d37fa7d6d77d4c0a05f3e33e64562fe832fdf5ee7",
+    "radku_vsetin": 789
+   },
+   "prijmy_tr1_4": {
+    "schvaleny": 613907400,
+    "po_zmenach": 650948078,
+    "skutecnost": 1959962545.93
+   },
+   "vydaje_tr5_6": {
+    "schvaleny": 810455300,
+    "po_zmenach": 931658772,
+    "skutecnost": 2001538299.59
+   },
+   "financovani_tr8": {
+    "schvaleny": 196547900,
+    "po_zmenach": 280710694,
+    "skutecnost": 41575753.66
+   },
+   "konsolidace_pol_534x": {
+    "schvaleny": 0,
+    "po_zmenach": 0,
+    "skutecnost": 1313586420.92
+   },
+   "prijmy_konsolidovane": {
+    "schvaleny": 613907400,
+    "po_zmenach": 650948078,
+    "skutecnost": 646376125.01
+   },
+   "vydaje_konsolidovane": {
+    "schvaleny": 810455300,
+    "po_zmenach": 931658772,
+    "skutecnost": 687951878.67
+   },
+   "kontrola_P_plus_F_minus_V": {
+    "schvaleny": 0,
+    "po_zmenach": 0,
+    "skutecnost": 0.0
+   },
+   "financovani_polozky": {
+    "8113": {
+     "schvaleny": 50000000,
+     "po_zmenach": 50000000,
+     "skutecnost": 0
+    },
+    "8115": {
+     "schvaleny": 146547900,
+     "po_zmenach": 230710694,
+     "skutecnost": 40929815.35
+    },
+    "8901": {
+     "schvaleny": 0,
+     "po_zmenach": 0,
+     "skutecnost": 630129.92
+    },
+    "8902": {
+     "schvaleny": 0,
+     "po_zmenach": 0,
+     "skutecnost": 15808.39
+    }
+   },
+   "top15_paragrafu_vydaju_bez_534x": [
+    {
+     "paragraf": "6171",
+     "schvaleny": 131374800.0,
+     "po_zmenach": 132580720.0,
+     "skutecnost": 118991308.0
+    },
+    {
+     "paragraf": "3639",
+     "schvaleny": 136318400.0,
+     "po_zmenach": 148098338.0,
+     "skutecnost": 109897031.0
+    },
+    {
+     "paragraf": "3113",
+     "schvaleny": 101920000.0,
+     "po_zmenach": 173540037.0,
+     "skutecnost": 89652006.0
+    },
+    {
+     "paragraf": "3412",
+     "schvaleny": 67042000.0,
+     "po_zmenach": 70015402.0,
+     "skutecnost": 58109214.0
+    },
+    {
+     "paragraf": "2219",
+     "schvaleny": 76310000.0,
+     "po_zmenach": 87217946.0,
+     "skutecnost": 52535467.0
+    },
+    {
+     "paragraf": "3613",
+     "schvaleny": 32612000.0,
+     "po_zmenach": 35840999.0,
+     "skutecnost": 33453408.0
+    },
+    {
+     "paragraf": "3111",
+     "schvaleny": 18632500.0,
+     "po_zmenach": 20409777.0,
+     "skutecnost": 19593257.0
+    },
+    {
+     "paragraf": "3314",
+     "schvaleny": 15024000.0,
+     "po_zmenach": 18753294.0,
+     "skutecnost": 18752416.0
+    },
+    {
+     "paragraf": "2292",
+     "schvaleny": 15500000.0,
+     "po_zmenach": 18200000.0,
+     "skutecnost": 18119000.0
+    },
+    {
+     "paragraf": "3722",
+     "schvaleny": 18156000.0,
+     "po_zmenach": 18079900.0,
+     "skutecnost": 18079806.0
+    },
+    {
+     "paragraf": "3319",
+     "schvaleny": 15871000.0,
+     "po_zmenach": 18880222.0,
+     "skutecnost": 17433067.0
+    },
+    {
+     "paragraf": "5311",
+     "schvaleny": 19282000.0,
+     "po_zmenach": 20361390.0,
+     "skutecnost": 16980701.0
+    },
+    {
+     "paragraf": "6399",
+     "schvaleny": 23000000.0,
+     "po_zmenach": 23000000.0,
+     "skutecnost": 15300673.0
+    },
+    {
+     "paragraf": "3419",
+     "schvaleny": 11253000.0,
+     "po_zmenach": 14394000.0,
+     "skutecnost": 13995500.0
+    },
+    {
+     "paragraf": "2212",
+     "schvaleny": 37251000.0,
+     "po_zmenach": 36471094.0,
+     "skutecnost": 11379839.0
+    }
+   ]
+  },
+  "2019-12": {
+   "zdroj": {
+    "url": "https://monitor.statnipokladna.gov.cz/data/extrakty/csv/FinM/2019_12_Data_CSUIS_FINM.zip",
+    "bytes": 18876468,
+    "sha256": "d3d9cb9e206f4a68d7baf61a1f5762214158c93086e1bc458f88038e14131943",
+    "radku_vsetin": 779
+   },
+   "prijmy_tr1_4": {
+    "schvaleny": 669556000,
+    "po_zmenach": 704086656,
+    "skutecnost": 2093973897.39
+   },
+   "vydaje_tr5_6": {
+    "schvaleny": 827805000,
+    "po_zmenach": 891226431,
+    "skutecnost": 2073335322.79
+   },
+   "financovani_tr8": {
+    "schvaleny": 158249000,
+    "po_zmenach": 187139775,
+    "skutecnost": -20638574.6
+   },
+   "konsolidace_pol_534x": {
+    "schvaleny": 0,
+    "po_zmenach": 0,
+    "skutecnost": 1384968169.24
+   },
+   "prijmy_konsolidovane": {
+    "schvaleny": 669556000,
+    "po_zmenach": 704086656,
+    "skutecnost": 709005728.15
+   },
+   "vydaje_konsolidovane": {
+    "schvaleny": 827805000,
+    "po_zmenach": 891226431,
+    "skutecnost": 688367153.55
+   },
+   "kontrola_P_plus_F_minus_V": {
+    "schvaleny": 0,
+    "po_zmenach": 0,
+    "skutecnost": 0.0
+   },
+   "financovani_polozky": {
+    "8113": {
+     "schvaleny": 83249000,
+     "po_zmenach": 73000000,
+     "skutecnost": 0
+    },
+    "8115": {
+     "schvaleny": 75000000,
+     "po_zmenach": 114139775,
+     "skutecnost": -19951051.65
+    },
+    "8901": {
+     "schvaleny": 0,
+     "po_zmenach": 0,
+     "skutecnost": -660632.89
+    },
+    "8902": {
+     "schvaleny": 0,
+     "po_zmenach": 0,
+     "skutecnost": -26890.06
+    }
+   },
+   "top15_paragrafu_vydaju_bez_534x": [
+    {
+     "paragraf": "3113",
+     "schvaleny": 173985000.0,
+     "po_zmenach": 185265530.0,
+     "skutecnost": 147373885.0
+    },
+    {
+     "paragraf": "6171",
+     "schvaleny": 146296000.0,
+     "po_zmenach": 148243689.0,
+     "skutecnost": 128612299.0
+    },
+    {
+     "paragraf": "3639",
+     "schvaleny": 113270000.0,
+     "po_zmenach": 110194037.0,
+     "skutecnost": 80920770.0
+    },
+    {
+     "paragraf": "3412",
+     "schvaleny": 47942000.0,
+     "po_zmenach": 54016963.0,
+     "skutecnost": 43189072.0
+    },
+    {
+     "paragraf": "2212",
+     "schvaleny": 49336000.0,
+     "po_zmenach": 65832000.0,
+     "skutecnost": 24708000.0
+    },
+    {
+     "paragraf": "2219",
+     "schvaleny": 46355000.0,
+     "po_zmenach": 43695000.0,
+     "skutecnost": 22998218.0
+    },
+    {
+     "paragraf": "3314",
+     "schvaleny": 17240000.0,
+     "po_zmenach": 20960879.0,
+     "skutecnost": 20731380.0
+    },
+    {
+     "paragraf": "5311",
+     "schvaleny": 23011000.0,
+     "po_zmenach": 22991000.0,
+     "skutecnost": 20679858.0
+    },
+    {
+     "paragraf": "3722",
+     "schvaleny": 18630000.0,
+     "po_zmenach": 19370000.0,
+     "skutecnost": 19365822.0
+    },
+    {
+     "paragraf": "2292",
+     "schvaleny": 19700000.0,
+     "po_zmenach": 19700000.0,
+     "skutecnost": 18110900.0
+    },
+    {
+     "paragraf": "3319",
+     "schvaleny": 19716000.0,
+     "po_zmenach": 20336000.0,
+     "skutecnost": 17549065.0
+    },
+    {
+     "paragraf": "3111",
+     "schvaleny": 14176000.0,
+     "po_zmenach": 18270227.0,
+     "skutecnost": 17478750.0
+    },
+    {
+     "paragraf": "3612",
+     "schvaleny": 16400000.0,
+     "po_zmenach": 16552426.0,
+     "skutecnost": 14940423.0
+    },
+    {
+     "paragraf": "3419",
+     "schvaleny": 14313000.0,
+     "po_zmenach": 15045000.0,
+     "skutecnost": 13506254.0
+    },
+    {
+     "paragraf": "6399",
+     "schvaleny": 23000000.0,
+     "po_zmenach": 23000000.0,
+     "skutecnost": 13071156.0
+    }
+   ]
+  },
+  "2020-12": {
+   "zdroj": {
+    "url": "https://monitor.statnipokladna.gov.cz/data/extrakty/csv/FinM/2020_12_Data_CSUIS_FINM.zip",
+    "bytes": 19130144,
+    "sha256": "d702c85b8931a3816757f313b03ffcb01653a1f218a29f66a2b953c0a3c168f1",
+    "radku_vsetin": 789
+   },
+   "prijmy_tr1_4": {
+    "schvaleny": 630256700,
+    "po_zmenach": 640870347,
+    "skutecnost": 1972100010.01
+   },
+   "vydaje_tr5_6": {
+    "schvaleny": 824803000,
+    "po_zmenach": 868942033,
+    "skutecnost": 2013001950.1
+   },
+   "financovani_tr8": {
+    "schvaleny": 194546300,
+    "po_zmenach": 228071686,
+    "skutecnost": 40901940.09
+   },
+   "konsolidace_pol_534x": {
+    "schvaleny": 0,
+    "po_zmenach": 0,
+    "skutecnost": 1320186995.5
+   },
+   "prijmy_konsolidovane": {
+    "schvaleny": 630256700,
+    "po_zmenach": 640870347,
+    "skutecnost": 651913014.51
+   },
+   "vydaje_konsolidovane": {
+    "schvaleny": 824803000,
+    "po_zmenach": 868942033,
+    "skutecnost": 692814954.6
+   },
+   "kontrola_P_plus_F_minus_V": {
+    "schvaleny": 0,
+    "po_zmenach": 0,
+    "skutecnost": 0.0
+   },
+   "financovani_polozky": {
+    "8113": {
+     "schvaleny": 100000000,
+     "po_zmenach": 100000000,
+     "skutecnost": 0
+    },
+    "8115": {
+     "schvaleny": 94546300,
+     "po_zmenach": 128071686,
+     "skutecnost": 40897663.57
+    },
+    "8901": {
+     "schvaleny": 0,
+     "po_zmenach": 0,
+     "skutecnost": 4216.97
+    },
+    "8902": {
+     "schvaleny": 0,
+     "po_zmenach": 0,
+     "skutecnost": 59.55
+    }
+   },
+   "top15_paragrafu_vydaju_bez_534x": [
+    {
+     "paragraf": "6171",
+     "schvaleny": 155765000.0,
+     "po_zmenach": 154073373.0,
+     "skutecnost": 135712796.0
+    },
+    {
+     "paragraf": "3639",
+     "schvaleny": 120558000.0,
+     "po_zmenach": 111211000.0,
+     "skutecnost": 88419292.0
+    },
+    {
+     "paragraf": "3412",
+     "schvaleny": 81850000.0,
+     "po_zmenach": 82790000.0,
+     "skutecnost": 77230938.0
+    },
+    {
+     "paragraf": "3113",
+     "schvaleny": 86262000.0,
+     "po_zmenach": 77491294.0,
+     "skutecnost": 72796575.0
+    },
+    {
+     "paragraf": "2212",
+     "schvaleny": 61166000.0,
+     "po_zmenach": 59313400.0,
+     "skutecnost": 32878167.0
+    },
+    {
+     "paragraf": "3612",
+     "schvaleny": 38030000.0,
+     "po_zmenach": 36930000.0,
+     "skutecnost": 30296170.0
+    },
+    {
+     "paragraf": "3111",
+     "schvaleny": 28284000.0,
+     "po_zmenach": 26521927.0,
+     "skutecnost": 24704854.0
+    },
+    {
+     "paragraf": "3314",
+     "schvaleny": 18183000.0,
+     "po_zmenach": 21798192.0,
+     "skutecnost": 21742780.0
+    },
+    {
+     "paragraf": "5311",
+     "schvaleny": 23635000.0,
+     "po_zmenach": 22535000.0,
+     "skutecnost": 19757902.0
+    },
+    {
+     "paragraf": "3722",
+     "schvaleny": 19524000.0,
+     "po_zmenach": 19688100.0,
+     "skutecnost": 19687085.0
+    },
+    {
+     "paragraf": "2292",
+     "schvaleny": 19700000.0,
+     "po_zmenach": 19700000.0,
+     "skutecnost": 17880112.0
+    },
+    {
+     "paragraf": "6399",
+     "schvaleny": 20000000.0,
+     "po_zmenach": 20000000.0,
+     "skutecnost": 16583129.0
+    },
+    {
+     "paragraf": "3419",
+     "schvaleny": 19255000.0,
+     "po_zmenach": 18971400.0,
+     "skutecnost": 15642721.0
+    },
+    {
+     "paragraf": "3319",
+     "schvaleny": 15188000.0,
+     "po_zmenach": 15265000.0,
+     "skutecnost": 14974456.0
+    },
+    {
+     "paragraf": "2219",
+     "schvaleny": 17440000.0,
+     "po_zmenach": 27060000.0,
+     "skutecnost": 13066987.0
+    }
+   ]
+  },
+  "2021-12": {
+   "zdroj": {
+    "url": "https://monitor.statnipokladna.gov.cz/data/extrakty/csv/FinM/2021_12_Data_CSUIS_FINM.zip",
+    "bytes": 19362359,
+    "sha256": "2eff86e28d0fd67363f8dadf3ed6147ecfefdcd09d84cfb007f7b1a00f47ac6e",
+    "radku_vsetin": 789
+   },
+   "prijmy_tr1_4": {
+    "schvaleny": 563021400,
+    "po_zmenach": 627934176,
+    "skutecnost": 2079320417.06
+   },
+   "vydaje_tr5_6": {
+    "schvaleny": 721242800,
+    "po_zmenach": 817539386,
+    "skutecnost": 2076547665.62
+   },
+   "financovani_tr8": {
+    "schvaleny": 158221400,
+    "po_zmenach": 189605210,
+    "skutecnost": -2772751.44
+   },
+   "konsolidace_pol_534x": {
+    "schvaleny": 0,
+    "po_zmenach": 0,
+    "skutecnost": 1367287588
+   },
+   "prijmy_konsolidovane": {
+    "schvaleny": 563021400,
+    "po_zmenach": 627934176,
+    "skutecnost": 712032829.06
+   },
+   "vydaje_konsolidovane": {
+    "schvaleny": 721242800,
+    "po_zmenach": 817539386,
+    "skutecnost": 709260077.62
+   },
+   "kontrola_P_plus_F_minus_V": {
+    "schvaleny": 0,
+    "po_zmenach": 0,
+    "skutecnost": 0.0
+   },
+   "financovani_polozky": {
+    "8113": {
+     "schvaleny": 100000000,
+     "po_zmenach": 100000000,
+     "skutecnost": 0
+    },
+    "8115": {
+     "schvaleny": 58221400,
+     "po_zmenach": 89605210,
+     "skutecnost": -2445362.31
+    },
+    "8901": {
+     "schvaleny": 0,
+     "po_zmenach": 0,
+     "skutecnost": -209292.39
+    },
+    "8902": {
+     "schvaleny": 0,
+     "po_zmenach": 0,
+     "skutecnost": -118096.74
+    }
+   },
+   "top15_paragrafu_vydaju_bez_534x": [
+    {
+     "paragraf": "6171",
+     "schvaleny": 154402500.0,
+     "po_zmenach": 157594393.0,
+     "skutecnost": 141794506.0
+    },
+    {
+     "paragraf": "3639",
+     "schvaleny": 101095000.0,
+     "po_zmenach": 104236000.0,
+     "skutecnost": 91564332.0
+    },
+    {
+     "paragraf": "3113",
+     "schvaleny": 65217000.0,
+     "po_zmenach": 92675470.0,
+     "skutecnost": 85922911.0
+    },
+    {
+     "paragraf": "2212",
+     "schvaleny": 60916000.0,
+     "po_zmenach": 77220000.0,
+     "skutecnost": 55229334.0
+    },
+    {
+     "paragraf": "3412",
+     "schvaleny": 40833000.0,
+     "po_zmenach": 39333000.0,
+     "skutecnost": 30115400.0
+    },
+    {
+     "paragraf": "2292",
+     "schvaleny": 21500000.0,
+     "po_zmenach": 28148140.0,
+     "skutecnost": 28020400.0
+    },
+    {
+     "paragraf": "3314",
+     "schvaleny": 18543000.0,
+     "po_zmenach": 21844886.0,
+     "skutecnost": 21844769.0
+    },
+    {
+     "paragraf": "3722",
+     "schvaleny": 20524000.0,
+     "po_zmenach": 21024000.0,
+     "skutecnost": 21004888.0
+    },
+    {
+     "paragraf": "5311",
+     "schvaleny": 22050000.0,
+     "po_zmenach": 22165000.0,
+     "skutecnost": 20854954.0
+    },
+    {
+     "paragraf": "3612",
+     "schvaleny": 21485000.0,
+     "po_zmenach": 24069356.0,
+     "skutecnost": 20608824.0
+    },
+    {
+     "paragraf": "2219",
+     "schvaleny": 21045000.0,
+     "po_zmenach": 25391984.0,
+     "skutecnost": 19057363.0
+    },
+    {
+     "paragraf": "6399",
+     "schvaleny": 20000000.0,
+     "po_zmenach": 20000000.0,
+     "skutecnost": 17918400.0
+    },
+    {
+     "paragraf": "3111",
+     "schvaleny": 16839500.0,
+     "po_zmenach": 19795763.0,
+     "skutecnost": 17702648.0
+    },
+    {
+     "paragraf": "3419",
+     "schvaleny": 16747000.0,
+     "po_zmenach": 16936400.0,
+     "skutecnost": 16275535.0
+    },
+    {
+     "paragraf": "3319",
+     "schvaleny": 14502000.0,
+     "po_zmenach": 14681000.0,
+     "skutecnost": 14550665.0
+    }
+   ]
+  },
+  "2022-12": {
+   "zdroj": {
+    "url": "https://monitor.statnipokladna.gov.cz/data/extrakty/csv/FinM/2022_12_Data_CSUIS_FINM.zip",
+    "bytes": 22564887,
+    "sha256": "d8b966328c7e7862ef8c2a815214a73f75e3a3aaca6467c48ee9d68f3e2c7d40",
+    "radku_vsetin": 982
+   },
+   "prijmy_tr1_4": {
+    "schvaleny": 622066400,
+    "po_zmenach": 617598165,
+    "skutecnost": 2273829477.84
+   },
+   "vydaje_tr5_6": {
+    "schvaleny": 790577000,
+    "po_zmenach": 877343966,
+    "skutecnost": 2286844824.27
+   },
+   "financovani_tr8": {
+    "schvaleny": 168510600,
+    "po_zmenach": 259745801,
+    "skutecnost": 13015346.43
+   },
+   "konsolidace_pol_534x": {
+    "schvaleny": 0,
+    "po_zmenach": 0,
+    "skutecnost": 1546073634.77
+   },
+   "prijmy_konsolidovane": {
+    "schvaleny": 622066400,
+    "po_zmenach": 617598165,
+    "skutecnost": 727755843.07
+   },
+   "vydaje_konsolidovane": {
+    "schvaleny": 790577000,
+    "po_zmenach": 877343966,
+    "skutecnost": 740771189.5
+   },
+   "kontrola_P_plus_F_minus_V": {
+    "schvaleny": 0,
+    "po_zmenach": 0,
+    "skutecnost": 0.0
+   },
+   "financovani_polozky": {
+    "8113": {
+     "schvaleny": 100000000,
+     "po_zmenach": 100000000,
+     "skutecnost": 0
+    },
+    "8115": {
+     "schvaleny": 68510600,
+     "po_zmenach": 159745801,
+     "skutecnost": 113052044.87
+    },
+    "8117": {
+     "schvaleny": 0,
+     "po_zmenach": 0,
+     "skutecnost": 25000000
+    },
+    "8118": {
+     "schvaleny": 0,
+     "po_zmenach": 0,
+     "skutecnost": -125000000
+    },
+    "8901": {
+     "schvaleny": 0,
+     "po_zmenach": 0,
+     "skutecnost": 26783.07
+    },
+    "8902": {
+     "schvaleny": 0,
+     "po_zmenach": 0,
+     "skutecnost": -63481.51
+    }
+   },
+   "top15_paragrafu_vydaju_bez_534x": [
+    {
+     "paragraf": "6171",
+     "schvaleny": 167915000.0,
+     "po_zmenach": 172151318.0,
+     "skutecnost": 151141657.0
+    },
+    {
+     "paragraf": "3639",
+     "schvaleny": 133632000.0,
+     "po_zmenach": 154811200.0,
+     "skutecnost": 123056118.0
+    },
+    {
+     "paragraf": "3113",
+     "schvaleny": 94897000.0,
+     "po_zmenach": 115613215.0,
+     "skutecnost": 113918413.0
+    },
+    {
+     "paragraf": "2292",
+     "schvaleny": 25800000.0,
+     "po_zmenach": 32497000.0,
+     "skutecnost": 32375200.0
+    },
+    {
+     "paragraf": "2212",
+     "schvaleny": 57051000.0,
+     "po_zmenach": 69541400.0,
+     "skutecnost": 30440235.0
+    },
+    {
+     "paragraf": "3314",
+     "schvaleny": 22474000.0,
+     "po_zmenach": 30483931.0,
+     "skutecnost": 30110293.0
+    },
+    {
+     "paragraf": "3412",
+     "schvaleny": 28138000.0,
+     "po_zmenach": 28911648.0,
+     "skutecnost": 23590674.0
+    },
+    {
+     "paragraf": "3319",
+     "schvaleny": 21215000.0,
+     "po_zmenach": 24604000.0,
+     "skutecnost": 22363463.0
+    },
+    {
+     "paragraf": "5311",
+     "schvaleny": 25835000.0,
+     "po_zmenach": 26213021.0,
+     "skutecnost": 21788413.0
+    },
+    {
+     "paragraf": "3419",
+     "schvaleny": 18457000.0,
+     "po_zmenach": 21253500.0,
+     "skutecnost": 20906932.0
+    },
+    {
+     "paragraf": "3722",
+     "schvaleny": 20900000.0,
+     "po_zmenach": 20900000.0,
+     "skutecnost": 20098455.0
+    },
+    {
+     "paragraf": "3111",
+     "schvaleny": 17166000.0,
+     "po_zmenach": 16686632.0,
+     "skutecnost": 16338941.0
+    },
+    {
+     "paragraf": "6399",
+     "schvaleny": 20000000.0,
+     "po_zmenach": 20000000.0,
+     "skutecnost": 15927533.0
+    },
+    {
+     "paragraf": "2219",
+     "schvaleny": 22745000.0,
+     "po_zmenach": 21598000.0,
+     "skutecnost": 13672734.0
+    },
+    {
+     "paragraf": "3612",
+     "schvaleny": 14160000.0,
+     "po_zmenach": 14030000.0,
+     "skutecnost": 13212025.0
+    }
+   ]
+  },
+  "2023-12": {
+   "zdroj": {
+    "url": "https://monitor.statnipokladna.gov.cz/data/extrakty/csv/FinM/2023_12_Data_CSUIS_FINM.zip",
+    "bytes": 23764761,
+    "sha256": "546ff3ec9e3f4d417df6267c6c49f04b9b0810dbef3b637045e0c2282859b389",
+    "radku_vsetin": 1001
+   },
+   "prijmy_tr1_4": {
+    "schvaleny": 673778000,
+    "po_zmenach": 715856329.93,
+    "skutecnost": 2408594425.21
+   },
+   "vydaje_tr5_6": {
+    "schvaleny": 799729000,
+    "po_zmenach": 953526840.42,
+    "skutecnost": 2358789043.06
+   },
+   "financovani_tr8": {
+    "schvaleny": 125951000,
+    "po_zmenach": 237670510.49,
+    "skutecnost": -49805382.15
+   },
+   "konsolidace_pol_534x": {
+    "schvaleny": 0,
+    "po_zmenach": 0,
+    "skutecnost": 1577551270.32
+   },
+   "prijmy_konsolidovane": {
+    "schvaleny": 673778000,
+    "po_zmenach": 715856329.93,
+    "skutecnost": 831043154.89
+   },
+   "vydaje_konsolidovane": {
+    "schvaleny": 799729000,
+    "po_zmenach": 953526840.42,
+    "skutecnost": 781237772.74
+   },
+   "kontrola_P_plus_F_minus_V": {
+    "schvaleny": 0,
+    "po_zmenach": 0.0,
+    "skutecnost": 0.0
+   },
+   "financovani_polozky": {
+    "8113": {
+     "schvaleny": 100000000,
+     "po_zmenach": 100000000,
+     "skutecnost": 0
+    },
+    "8115": {
+     "schvaleny": 25951000,
+     "po_zmenach": 137670510.49,
+     "skutecnost": 9860360.44
+    },
+    "8117": {
+     "schvaleny": 0,
+     "po_zmenach": 0,
+     "skutecnost": 60000000
+    },
+    "8118": {
+     "schvaleny": 0,
+     "po_zmenach": 0,
+     "skutecnost": -120000000
+    },
+    "8901": {
+     "schvaleny": 0,
+     "po_zmenach": 0,
+     "skutecnost": 282336.65
+    },
+    "8902": {
+     "schvaleny": 0,
+     "po_zmenach": 0,
+     "skutecnost": 51920.76
+    }
+   },
+   "top15_paragrafu_vydaju_bez_534x": [
+    {
+     "paragraf": "6171",
+     "schvaleny": 184852000.0,
+     "po_zmenach": 189269111.0,
+     "skutecnost": 159529962.0
+    },
+    {
+     "paragraf": "3639",
+     "schvaleny": 162075000.0,
+     "po_zmenach": 184250880.0,
+     "skutecnost": 141700117.0
+    },
+    {
+     "paragraf": "3113",
+     "schvaleny": 53721000.0,
+     "po_zmenach": 74265115.0,
+     "skutecnost": 68480307.0
+    },
+    {
+     "paragraf": "2212",
+     "schvaleny": 62089000.0,
+     "po_zmenach": 71302000.0,
+     "skutecnost": 43384427.0
+    },
+    {
+     "paragraf": "3111",
+     "schvaleny": 15524000.0,
+     "po_zmenach": 46670187.0,
+     "skutecnost": 39715153.0
+    },
+    {
+     "paragraf": "3412",
+     "schvaleny": 35610000.0,
+     "po_zmenach": 44185000.0,
+     "skutecnost": 39323263.0
+    },
+    {
+     "paragraf": "2292",
+     "schvaleny": 32700000.0,
+     "po_zmenach": 33701000.0,
+     "skutecnost": 30070160.0
+    },
+    {
+     "paragraf": "3314",
+     "schvaleny": 20991000.0,
+     "po_zmenach": 26456930.0,
+     "skutecnost": 26112027.0
+    },
+    {
+     "paragraf": "5311",
+     "schvaleny": 25037000.0,
+     "po_zmenach": 27128000.0,
+     "skutecnost": 25244963.0
+    },
+    {
+     "paragraf": "3722",
+     "schvaleny": 24000000.0,
+     "po_zmenach": 23970000.0,
+     "skutecnost": 21531342.0
+    },
+    {
+     "paragraf": "3419",
+     "schvaleny": 21869000.0,
+     "po_zmenach": 22226000.0,
+     "skutecnost": 20088962.0
+    },
+    {
+     "paragraf": "3319",
+     "schvaleny": 18675000.0,
+     "po_zmenach": 18884000.0,
+     "skutecnost": 18304632.0
+    },
+    {
+     "paragraf": "6399",
+     "schvaleny": 20000000.0,
+     "po_zmenach": 16151120.0,
+     "skutecnost": 15471672.0
+    },
+    {
+     "paragraf": "3612",
+     "schvaleny": 8896000.0,
+     "po_zmenach": 16591246.0,
+     "skutecnost": 14730036.0
+    },
+    {
+     "paragraf": "2219",
+     "schvaleny": 4515000.0,
+     "po_zmenach": 27038000.0,
+     "skutecnost": 14225323.0
+    }
+   ]
+  },
+  "2024-12": {
+   "zdroj": {
+    "url": "https://monitor.statnipokladna.gov.cz/data/extrakty/csv/FinM/2024_12_Data_CSUIS_FINM.zip",
+    "bytes": 24347830,
+    "sha256": "634be377587abb45e61d2b2a7e2a12fad4a80cf531a5effa2815fe18c06a3ae6",
+    "radku_vsetin": 1053
+   },
+   "prijmy_tr1_4": {
+    "schvaleny": 848583111,
+    "po_zmenach": 867639713.7,
+    "skutecnost": 2161828110.47
+   },
+   "vydaje_tr5_6": {
+    "schvaleny": 1121615527,
+    "po_zmenach": 1180661268.23,
+    "skutecnost": 2141068373.92
+   },
+   "financovani_tr8": {
+    "schvaleny": 273032416,
+    "po_zmenach": 313021554.53,
+    "skutecnost": -20759736.55
+   },
+   "konsolidace_pol_534x": {
+    "schvaleny": 0,
+    "po_zmenach": 0,
+    "skutecnost": 1207360666
+   },
+   "prijmy_konsolidovane": {
+    "schvaleny": 848583111,
+    "po_zmenach": 867639713.7,
+    "skutecnost": 954467444.47
+   },
+   "vydaje_konsolidovane": {
+    "schvaleny": 1121615527,
+    "po_zmenach": 1180661268.23,
+    "skutecnost": 933707707.92
+   },
+   "kontrola_P_plus_F_minus_V": {
+    "schvaleny": 0,
+    "po_zmenach": 0.0,
+    "skutecnost": -0.0
+   },
+   "financovani_polozky": {
+    "8113": {
+     "schvaleny": 200000000,
+     "po_zmenach": 200000000,
+     "skutecnost": 0
+    },
+    "8115": {
+     "schvaleny": 73032416,
+     "po_zmenach": 113021554.53,
+     "skutecnost": -30876063.32
+    },
+    "8117": {
+     "schvaleny": 0,
+     "po_zmenach": 0,
+     "skutecnost": 125000000
+    },
+    "8118": {
+     "schvaleny": 0,
+     "po_zmenach": 0,
+     "skutecnost": -115000000
+    },
+    "8901": {
+     "schvaleny": 0,
+     "po_zmenach": 0,
+     "skutecnost": 77171.21
+    },
+    "8902": {
+     "schvaleny": 0,
+     "po_zmenach": 0,
+     "skutecnost": 39155.56
+    }
+   },
+   "top15_paragrafu_vydaju_bez_534x": [
+    {
+     "paragraf": "6171",
+     "schvaleny": 187581000,
+     "po_zmenach": 194668066,
+     "skutecnost": 171715902.8
+    },
+    {
+     "paragraf": "3639",
+     "schvaleny": 194907000,
+     "po_zmenach": 224757000,
+     "skutecnost": 170205832.12
+    },
+    {
+     "paragraf": "2212",
+     "schvaleny": 109171000,
+     "po_zmenach": 105671000,
+     "skutecnost": 71376065.61
+    },
+    {
+     "paragraf": "3113",
+     "schvaleny": 85461300,
+     "po_zmenach": 87082597,
+     "skutecnost": 70629268.01
+    },
+    {
+     "paragraf": "2219",
+     "schvaleny": 49650000,
+     "po_zmenach": 57888000,
+     "skutecnost": 46091745.8
+    },
+    {
+     "paragraf": "3412",
+     "schvaleny": 53677000,
+     "po_zmenach": 48857000,
+     "skutecnost": 42202843.89
+    },
+    {
+     "paragraf": "3314",
+     "schvaleny": 90375130,
+     "po_zmenach": 95124342,
+     "skutecnost": 39866717.31
+    },
+    {
+     "paragraf": "2292",
+     "schvaleny": 37700000,
+     "po_zmenach": 37700000,
+     "skutecnost": 35312676
+    },
+    {
+     "paragraf": "3111",
+     "schvaleny": 33651200,
+     "po_zmenach": 34419964,
+     "skutecnost": 32308095.57
+    },
+    {
+     "paragraf": "6399",
+     "schvaleny": 22000000,
+     "po_zmenach": 25517310,
+     "skutecnost": 25125239
+    },
+    {
+     "paragraf": "3722",
+     "schvaleny": 27900000,
+     "po_zmenach": 27900000,
+     "skutecnost": 24931661
+    },
+    {
+     "paragraf": "3612",
+     "schvaleny": 21161000,
+     "po_zmenach": 27090962,
+     "skutecnost": 24841845.61
+    },
+    {
+     "paragraf": "3613",
+     "schvaleny": 30991000,
+     "po_zmenach": 30641000,
+     "skutecnost": 24480818.74
+    },
+    {
+     "paragraf": "5311",
+     "schvaleny": 26050000,
+     "po_zmenach": 26160000,
+     "skutecnost": 24337583.59
+    },
+    {
+     "paragraf": "3419",
+     "schvaleny": 21863000,
+     "po_zmenach": 23362000,
+     "skutecnost": 23305260.25
+    }
+   ]
+  },
+  "2025-12": {
+   "zdroj": {
+    "url": "https://monitor.statnipokladna.gov.cz/data/extrakty/csv/FinM/2025_12_Data_CSUIS_FINM.zip",
+    "bytes": 24577068,
+    "sha256": "3d48d2ea5e273273301b4c28888c03c4c3ae694c0620480d51ac8524a4f9b123",
+    "radku_vsetin": 1045
+   },
+   "prijmy_tr1_4": {
+    "schvaleny": 914746594,
+    "po_zmenach": 941235992.41,
+    "skutecnost": 2536702380.77
+   },
+   "vydaje_tr5_6": {
+    "schvaleny": 1194299646,
+    "po_zmenach": 1348588090.27,
+    "skutecnost": 2615608410.54
+   },
+   "financovani_tr8": {
+    "schvaleny": 279553052,
+    "po_zmenach": 407352097.86,
+    "skutecnost": 78906029.77
+   },
+   "konsolidace_pol_534x": {
+    "schvaleny": 0,
+    "po_zmenach": 0,
+    "skutecnost": 1533333345
+   },
+   "prijmy_konsolidovane": {
+    "schvaleny": 914746594,
+    "po_zmenach": 941235992.41,
+    "skutecnost": 1003369035.77
+   },
+   "vydaje_konsolidovane": {
+    "schvaleny": 1194299646,
+    "po_zmenach": 1348588090.27,
+    "skutecnost": 1082275065.54
+   },
+   "kontrola_P_plus_F_minus_V": {
+    "schvaleny": 0,
+    "po_zmenach": 0.0,
+    "skutecnost": 0.0
+   },
+   "financovani_polozky": {
+    "8113": {
+     "schvaleny": 200000000,
+     "po_zmenach": 200000000,
+     "skutecnost": 0
+    },
+    "8115": {
+     "schvaleny": 79553052,
+     "po_zmenach": 207352097.86,
+     "skutecnost": 28581756.03
+    },
+    "8117": {
+     "schvaleny": 0,
+     "po_zmenach": 0,
+     "skutecnost": 580000000
+    },
+    "8118": {
+     "schvaleny": 0,
+     "po_zmenach": 0,
+     "skutecnost": -530000000
+    },
+    "8901": {
+     "schvaleny": 0,
+     "po_zmenach": 0,
+     "skutecnost": 404195.34
+    },
+    "8902": {
+     "schvaleny": 0,
+     "po_zmenach": 0,
+     "skutecnost": -79921.6
+    }
+   },
+   "top15_paragrafu_vydaju_bez_534x": [
+    {
+     "paragraf": "3639",
+     "schvaleny": 280790170,
+     "po_zmenach": 297911933,
+     "skutecnost": 242595589.56
+    },
+    {
+     "paragraf": "6171",
+     "schvaleny": 204488000,
+     "po_zmenach": 205732634,
+     "skutecnost": 192403934.58
+    },
+    {
+     "paragraf": "3314",
+     "schvaleny": 109898000,
+     "po_zmenach": 135213793,
+     "skutecnost": 115039867.33
+    },
+    {
+     "paragraf": "3113",
+     "schvaleny": 85460685,
+     "po_zmenach": 92019569.82,
+     "skutecnost": 80304761.62
+    },
+    {
+     "paragraf": "3412",
+     "schvaleny": 48605000,
+     "po_zmenach": 58655746,
+     "skutecnost": 43369588.48
+    },
+    {
+     "paragraf": "2212",
+     "schvaleny": 93934000,
+     "po_zmenach": 123788000,
+     "skutecnost": 37996513.75
+    },
+    {
+     "paragraf": "2292",
+     "schvaleny": 34200000,
+     "po_zmenach": 34200000,
+     "skutecnost": 33773365.35
+    },
+    {
+     "paragraf": "3319",
+     "schvaleny": 27965000,
+     "po_zmenach": 37164000,
+     "skutecnost": 33292764.16
+    },
+    {
+     "paragraf": "6399",
+     "schvaleny": 24000000,
+     "po_zmenach": 30737000,
+     "skutecnost": 30264505
+    },
+    {
+     "paragraf": "3722",
+     "schvaleny": 28500000,
+     "po_zmenach": 28320000,
+     "skutecnost": 26721676.2
+    },
+    {
+     "paragraf": "3612",
+     "schvaleny": 26016000,
+     "po_zmenach": 30516000,
+     "skutecnost": 26655187.85
+    },
+    {
+     "paragraf": "3613",
+     "schvaleny": 31247000,
+     "po_zmenach": 33392000,
+     "skutecnost": 25749824.12
+    },
+    {
+     "paragraf": "5311",
+     "schvaleny": 26859650,
+     "po_zmenach": 27362650,
+     "skutecnost": 25532535.72
+    },
+    {
+     "paragraf": "3419",
+     "schvaleny": 23564000,
+     "po_zmenach": 25516000,
+     "skutecnost": 25047777.1
+    },
+    {
+     "paragraf": "2219",
+     "schvaleny": 20033000,
+     "po_zmenach": 34332680.95,
+     "skutecnost": 22171610.96
+    }
+   ]
+  },
+  "2026-08": {
+   "zdroj": {
+    "url": "https://monitor.statnipokladna.gov.cz/data/extrakty/csv/FinM2026/2026_08_Data_CSUIS_FINM2026.zip",
+    "bytes": 24895912,
+    "sha256": "9a13a88c640460e00567abb22862c6915f3a967b45ec1aba64efe6a9214652a9",
+    "radku_vsetin": 1752,
+    "etag": "\"6ab496d0-17be1a8\"",
+    "if_none_match": 304
+   },
+   "prijmy_tr1_4": {
+    "schvaleny": 995899000,
+    "po_zmenach": 1040017311.23,
+    "skutecnost": 2104076494.16
+   },
+   "vydaje_tr5_6": {
+    "schvaleny": 1280498000,
+    "po_zmenach": 1465975256.09,
+    "skutecnost": 1982027903.5
+   },
+   "financovani_tr8": {
+    "schvaleny": 284599000,
+    "po_zmenach": 425957944.86,
+    "skutecnost": -122048590.66
+   },
+   "konsolidace_pol_534x": {
+    "schvaleny": 0,
+    "po_zmenach": 0,
+    "skutecnost": 1225547289
+   },
+   "prijmy_konsolidovane": {
+    "schvaleny": 995899000,
+    "po_zmenach": 1040017311.23,
+    "skutecnost": 878529205.16
+   },
+   "vydaje_konsolidovane": {
+    "schvaleny": 1280498000,
+    "po_zmenach": 1465975256.09,
+    "skutecnost": 756480614.5
+   },
+   "kontrola_P_plus_F_minus_V": {
+    "schvaleny": 0,
+    "po_zmenach": 0.0,
+    "skutecnost": 0.0
+   },
+   "financovani_polozky": {
+    "8113": {
+     "schvaleny": 200000000,
+     "po_zmenach": 200000000,
+     "skutecnost": 0
+    },
+    "8115": {
+     "schvaleny": 84599000,
+     "po_zmenach": 118457944.86,
+     "skutecnost": 11594991.37
+    },
+    "8117": {
+     "schvaleny": 0,
+     "po_zmenach": 0,
+     "skutecnost": 114595000
+    },
+    "8118": {
+     "schvaleny": 0,
+     "po_zmenach": 0,
+     "skutecnost": -250000000
+    },
+    "8123": {
+     "schvaleny": 0,
+     "po_zmenach": 107500000,
+     "skutecnost": 2439796.57
+    },
+    "8901": {
+     "schvaleny": 0,
+     "po_zmenach": 0,
+     "skutecnost": -678378.6
+    }
+   },
+   "top15_paragrafu_vydaju_bez_534x": [
+    {
+     "paragraf": "3639",
+     "schvaleny": 224714000,
+     "po_zmenach": 270209000,
+     "skutecnost": 152311374.18
+    },
+    {
+     "paragraf": "6171",
+     "schvaleny": 209346000,
+     "po_zmenach": 219647500,
+     "skutecnost": 128618789.1
+    },
+    {
+     "paragraf": "3113",
+     "schvaleny": 144992301,
+     "po_zmenach": 175740856.19,
+     "skutecnost": 106074149.28
+    },
+    {
+     "paragraf": "3419",
+     "schvaleny": 24236000,
+     "po_zmenach": 45052000,
+     "skutecnost": 35939521.4
+    },
+    {
+     "paragraf": "2212",
+     "schvaleny": 81129000,
+     "po_zmenach": 99047711,
+     "skutecnost": 35722217.08
+    },
+    {
+     "paragraf": "3412",
+     "schvaleny": 44584000,
+     "po_zmenach": 120682000,
+     "skutecnost": 27940421.86
+    },
+    {
+     "paragraf": "6399",
+     "schvaleny": 31000000,
+     "po_zmenach": 31000000,
+     "skutecnost": 26443582
+    },
+    {
+     "paragraf": "2292",
+     "schvaleny": 36100000,
+     "po_zmenach": 37457717,
+     "skutecnost": 24118045.2
+    },
+    {
+     "paragraf": "3314",
+     "schvaleny": 51553000,
+     "po_zmenach": 58320500,
+     "skutecnost": 23730086.54
+    },
+    {
+     "paragraf": "3612",
+     "schvaleny": 34111000,
+     "po_zmenach": 35411000,
+     "skutecnost": 19893870.31
+    },
+    {
+     "paragraf": "3613",
+     "schvaleny": 42405000,
+     "po_zmenach": 43808597,
+     "skutecnost": 19158827.15
+    },
+    {
+     "paragraf": "5311",
+     "schvaleny": 28867300,
+     "po_zmenach": 30834646,
+     "skutecnost": 18695472.08
+    },
+    {
+     "paragraf": "3722",
+     "schvaleny": 29560000,
+     "po_zmenach": 29520000,
+     "skutecnost": 16010267.7
+    },
+    {
+     "paragraf": "3319",
+     "schvaleny": 24170000,
+     "po_zmenach": 25128000,
+     "skutecnost": 15998454.23
+    },
+    {
+     "paragraf": "5512",
+     "schvaleny": 13632000,
+     "po_zmenach": 14495000,
+     "skutecnost": 12790322.64
+    }
+   ]
+  }
+ },
+ "pozn_obsah": "Paragraf 4195 (2010–2011) = příspěvek na péči vyplácený do r. 2011 obcemi; vysvětluje vyšší objem rozpočtu v těchto letech.",
+ "pozn_kratkodobe_uvery": "Pol. 8117/8118 = krátkodobé přijaté/splacené úvěry. Dle ZÚ 2024 má město kontokorentní úvěr s limitem 200 mil. Kč (pol. 8113 ve schváleném rozpočtu = rezerva tohoto rámce, skutečnost 0). Kumulativní součet 8117/8118 od 2022 je záporný – čerpání a splátky v rámci roku; stav úvěru k 31.12. z výkazu FIN přímo nevyplývá."
+}
