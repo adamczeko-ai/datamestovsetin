@@ -1,0 +1,181 @@
+{
+ "schema": "vsetin-osint/uzemni-registr@1",
+ "zdroj": "MONITOR – Územní registr, /api/grants/local/search (receiver=00304450)",
+ "stazeno": "2026-10-23 08:10 SELČ",
+ "load_id": 2608,
+ "obdobi": "2026 kumulativně k 31. 8. 2026",
+ "pocet": 28,
+ "soucet": 7285674.97,
+ "soucet_obce": 281500.0,
+ "poznamka": "Příspěvky 26 obcí jsou typicky platby za služby/přestupky/pečovatelství – účel z registru nezjistitelný (withPurpose=false). Zlínský kraj 6,39 mil. Kč NESOUVISÍ s dotací na lávku Vs-04-Bel (smlouva 39253570 – výplata až po závěrečné zprávě 2027); účel transferu neznámý.",
+ "prijato": [
+  {
+   "poskytovatel_ico": "00303739",
+   "poskytovatel": "Obec Bystřička",
+   "poskytnuto": 5000.0,
+   "vraceno": 0.0
+  },
+  {
+   "poskytovatel_ico": "00303763",
+   "poskytovatel": "Obec Halenkov",
+   "poskytnuto": 17000.0,
+   "vraceno": 0.0
+  },
+  {
+   "poskytovatel_ico": "00303780",
+   "poskytovatel": "Obec Horní Lideč",
+   "poskytnuto": 2000.0,
+   "vraceno": 0.0
+  },
+  {
+   "poskytovatel_ico": "00303798",
+   "poskytovatel": "Obec Hošťálková",
+   "poskytnuto": 3000.0,
+   "vraceno": 0.0
+  },
+  {
+   "poskytovatel_ico": "00303801",
+   "poskytovatel": "Obec Hovězí",
+   "poskytnuto": 8000.0,
+   "vraceno": 0.0
+  },
+  {
+   "poskytovatel_ico": "00303828",
+   "poskytovatel": "Obec Huslenky",
+   "poskytnuto": 5000.0,
+   "vraceno": 0.0
+  },
+  {
+   "poskytovatel_ico": "00303852",
+   "poskytovatel": "Obec Jablůnka",
+   "poskytnuto": 15000.0,
+   "vraceno": 0.0
+  },
+  {
+   "poskytovatel_ico": "00303909",
+   "poskytovatel": "Město Karolinka",
+   "poskytnuto": 23000.0,
+   "vraceno": 0.0
+  },
+  {
+   "poskytovatel_ico": "00303917",
+   "poskytovatel": "Obec Kateřinice",
+   "poskytnuto": 5000.0,
+   "vraceno": 0.0
+  },
+  {
+   "poskytovatel_ico": "00303984",
+   "poskytovatel": "Obec Leskovec",
+   "poskytnuto": 5000.0,
+   "vraceno": 0.0
+  },
+  {
+   "poskytovatel_ico": "00304051",
+   "poskytovatel": "Obec Liptál",
+   "poskytnuto": 9000.0,
+   "vraceno": 0.0
+  },
+  {
+   "poskytovatel_ico": "00304077",
+   "poskytovatel": "Obec Lužná",
+   "poskytnuto": 3000.0,
+   "vraceno": 0.0
+  },
+  {
+   "poskytovatel_ico": "00304131",
+   "poskytovatel": "Městys Nový Hrozenkov",
+   "poskytnuto": 42000.0,
+   "vraceno": 0.0
+  },
+  {
+   "poskytovatel_ico": "00304204",
+   "poskytovatel": "Obec Pozděchov",
+   "poskytnuto": 3000.0,
+   "vraceno": 0.0
+  },
+  {
+   "poskytovatel_ico": "00304263",
+   "poskytovatel": "Obec Ratiboř",
+   "poskytnuto": 6000.0,
+   "vraceno": 0.0
+  },
+  {
+   "poskytovatel_ico": "00304280",
+   "poskytovatel": "Obec Růžďka",
+   "poskytnuto": 7000.0,
+   "vraceno": 0.0
+  },
+  {
+   "poskytovatel_ico": "00304310",
+   "poskytovatel": "Obec Střelná",
+   "poskytnuto": 3000.0,
+   "vraceno": 0.0
+  },
+  {
+   "poskytovatel_ico": "00304361",
+   "poskytovatel": "Obec Valašská Polanka",
+   "poskytnuto": 11000.0,
+   "vraceno": 0.0
+  },
+  {
+   "poskytovatel_ico": "00304417",
+   "poskytovatel": "Obec Velké Karlovice",
+   "poskytnuto": 18000.0,
+   "vraceno": 0.0
+  },
+  {
+   "poskytovatel_ico": "00304484",
+   "poskytovatel": "Obec Zděchov",
+   "poskytnuto": 2000.0,
+   "vraceno": 0.0
+  },
+  {
+   "poskytovatel_ico": "00635774",
+   "poskytovatel": "Obec Valašská Senice",
+   "poskytnuto": 2000.0,
+   "vraceno": 0.0
+  },
+  {
+   "poskytovatel_ico": "00635782",
+   "poskytovatel": "Obec Pržno",
+   "poskytnuto": 3000.0,
+   "vraceno": 0.0
+  },
+  {
+   "poskytovatel_ico": "00635821",
+   "poskytovatel": "Obec Seninka",
+   "poskytnuto": 3000.0,
+   "vraceno": 0.0
+  },
+  {
+   "poskytovatel_ico": "00851825",
+   "poskytovatel": "Obec Ústí",
+   "poskytnuto": 2000.0,
+   "vraceno": 0.0
+  },
+  {
+   "poskytovatel_ico": "00851841",
+   "poskytovatel": "Obec Janová",
+   "poskytnuto": 77500.0,
+   "vraceno": 0.0
+  },
+  {
+   "poskytovatel_ico": "68898461",
+   "poskytovatel": "Sdružení pro rozvoj mikroregionu Střední Vsacko",
+   "poskytnuto": 615790.0,
+   "vraceno": 0.0
+  },
+  {
+   "poskytovatel_ico": "68898797",
+   "poskytovatel": "Obec Lhota u Vsetína",
+   "poskytnuto": 2000.0,
+   "vraceno": 0.0
+  },
+  {
+   "poskytovatel_ico": "70891320",
+   "poskytovatel": "Zlínský kraj",
+   "poskytnuto": 6388384.97,
+   "vraceno": 20079.0
+  }
+ ]
+}

@@ -1,0 +1,37 @@
+{
+ "schema": "vsetin-osint/statni-registr-dotaci@1",
+ "zdroj": "MONITOR – Státní registr dotací, /api/grants/state/search (receiver=00304450), nedokumentované API webové aplikace",
+ "stazeno": "2026-10-23 08:05 SELČ",
+ "stav_registru": "k 30. 6. 2026 (dle webu registru)",
+ "pozor": [
+  "Částky jsou čerpání v daném roce (jedna dotace se opakuje ve více letech), nikoli výše rozhodnutí.",
+  "Význam pole 'datum_zdroj' (grantDate) podle metodiky MF neověřen – pravděpodobně termín realizace/čerpání; 0 = neuvedeno.",
+  "Názvy zkráceny na 70 znaků (…).",
+  "Lávky (Vs-01-Bel, Vs-04-Bel) ve státním registru nejsou – financování lávek ze státního rozpočtu za 2014–2026 nenalezeno (příjemce Město Vsetín)."
+ ],
+ "pocet_zaznamu": 101,
+ "pocet_dotaci": 90,
+ "soucet_dle_roku": {
+  "2014": 41380230.04,
+  "2015": 54068764.87,
+  "2016": 4122934.7,
+  "2017": 10145512.56,
+  "2018": 8251327.0,
+  "2019": 63527856.28,
+  "2020": 2709712.38,
+  "2021": 7125929.15,
+  "2022": 538188.0,
+  "2023": 13300471.81,
+  "2024": 40431191.76,
+  "2025": 71928654.69,
+  "2026": 20536768.51
+ },
+ "vazby_na_projekty": {
+  "MVK Dolní náměstí (Z170201000003 + Z170201000029)": 40689610.29,
+  "TIC Vsetín (Z170201002715)": 5981086.97,
+  "Cyklostezka Rokytenka (Z170201000094, …0863, …0111)": 40248874.07,
+  "Kolumbárium – PD (117D762400005)": 500000.0,
+  "Přednádražní prostor – územní studie 2017 (117D03M000004)": 1611720.0
+ },
+ "soubor_csv": "data/dotace/statni_registr_vsetin_prijemce.csv"
+}

@@ -1,0 +1,80 @@
+{
+ "schema": "vsetin-osint/uzemni-registr@1",
+ "zdroj": "MONITOR – Územní registr dotací a dalších transferů, /api/grants/local/search (provider=00304450), nedokumentované API webové aplikace",
+ "stazeno": "2026-10-23 07:40 SELČ",
+ "load_id": 2608,
+ "obdobi": "2026 kumulativně k 31. 8. 2026 (FIN 2-12 M)",
+ "metodika": "Částky jsou kumulované transfery z FIN 2-12 M (Partner Fin); nejde o jednotlivá rozhodnutí o dotaci. Fyzické osoby neukládány jménem.",
+ "pocet_zaznamu": 107,
+ "pocet_prijemcu": 106,
+ "soucet_transfer_poskytnuto": 314850645.01,
+ "soucet_transfer_vraceno": 39532988.99,
+ "soucet_pujcky": 11000000.0,
+ "prispevkove_organizace_mesta": {
+  "pocet": 15,
+  "poskytnuto": 207089526.93
+ },
+ "top10": [
+  {
+   "prijemce_ico": "75063468",
+   "prijemce": "Technické služby města Vsetína, příspěvková organizace",
+   "druh": "Transfer",
+   "poskytnuto": 90006566.86
+  },
+  {
+   "prijemce_ico": "45192120",
+   "prijemce": "Z-Group bus a.s.",
+   "druh": "Transfer",
+   "poskytnuto": 22857717.0
+  },
+  {
+   "prijemce_ico": "00536024",
+   "prijemce": "TJ Zbrojovka Vsetín, z.s.",
+   "druh": "Transfer",
+   "poskytnuto": 20950000.0
+  },
+  {
+   "prijemce_ico": "60990406",
+   "prijemce": "Základní škola a Mateřská škola Vsetín, Luh 1544, příspěvková organizace",
+   "druh": "Transfer",
+   "poskytnuto": 20880702.16
+  },
+  {
+   "prijemce_ico": "00851817",
+   "prijemce": "Masarykova veřejná knihovna Vsetín, příspěvková organizace",
+   "druh": "Transfer",
+   "poskytnuto": 20089781.55
+  },
+  {
+   "prijemce_ico": "60990449",
+   "prijemce": "Základní škola a Mateřská škola Vsetín, Trávníky 1217, příspěvková organizace",
+   "druh": "Transfer",
+   "poskytnuto": 18628820.16
+  },
+  {
+   "prijemce_ico": "28593987",
+   "prijemce": "Vsetínská sportovní, s.r.o.",
+   "druh": "Transfer",
+   "poskytnuto": 18298000.0
+  },
+  {
+   "prijemce_ico": "60990368",
+   "prijemce": "Základní škola a Mateřská škola Vsetín, Ohrada 1876, příspěvková organizace",
+   "druh": "Transfer",
+   "poskytnuto": 15453532.83
+  },
+  {
+   "prijemce_ico": "60990465",
+   "prijemce": "Základní škola Vsetín, Sychrov 97, příspěvková organizace",
+   "druh": "Transfer",
+   "poskytnuto": 13439212.0
+  },
+  {
+   "prijemce_ico": "47972114",
+   "prijemce": "Dům kultury Vsetín, spol. s r. o.",
+   "druh": "Transfer",
+   "poskytnuto": 12400000.0
+  }
+ ],
+ "soubor_csv": "data/dotace/uzemni_registr_vsetin_poskytovatel_2026.csv"
+}
