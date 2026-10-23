@@ -1,0 +1,16 @@
+{
+ "mesto_ico": "00304450",
+ "obec_kod": 541630,
+ "monitor_od": 2020,
+ "monitor_mesicne_pred_2026": false,
+ "min_interval_s": {"monitor": 1.0, "ruian": 1.0, "rvz": 2.0, "vr": 0.7, "smlouvy": 2.0, "dotace": 1.5},
+ "sledovana_ico": [
+  "00304450",
+  "00851817", "00851922", "75063468",
+  "60990368", "60990406", "60990449", "60990457", "60990465",
+  "60042354", "60042362", "60042371", "60042389", "60609231", "60609249", "70872236",
+  "19690711", "47972114", "47678054", "26782596", "28593987", "47674652"
+ ],
+ "vr_ico": ["19690711", "47972114", "47678054", "26782596", "28593987", "47674652", "25399985", "00536024", "22676759"],
+ "_poznamka": "sledovana_ico = město, 15 příspěvkových organizací (dle MONITOR 2026) a městské společnosti; zdroj: data/dotace/uzemni_registr_vsetin_poskytovatel_2026.csv a data/entity/vr_organy_mestske_spolecnosti_2026-10-23.json"
+}
