@@ -102,3 +102,10 @@
 - `subjekty.json`: blok `ares` u všech subjektů s IČO; doplněna IČO Damostis (23287152) a MUNIPOLIS (29198950).
 - AERV o.p.s. (zakladatel město) zrušena k 31. 12. 2023, vymazána z OR 18. 12. 2024 – souvislost s narovnáním 3,85 mil. a vkladem 3,6 mil. (2023) zapsána k ověření.
 - MŠ Trávníky 1218 (IČO 60042354 dle RO 11/2025) v ARES neexistuje – k ověření.
+
+## 2026-10-23 (texty dokumentů – schváleno pro dev)
+- `integrace/sources/dokumenty.py` + CLI `python -m integrace dokumenty`: stažení dokumentů města (PDF/HTML/ZIP), text po stranách do `raw/texty/<sha256>/p<N>.txt` + `meta.json`, tabulka `dokument_text`; skeny označeny `textova_vrstva: false` (bez OCR).
+- `scripts/seznam_dokumentu.py` → `data/integrace/dokumenty_seznam.txt` (158 URL z dat repa).
+- Testy `tests/test_dokumenty.py` (7, offline); ověřeno na reálné příloze registru smluv (kupní smlouva Tribuna): SHA-256 = hash uvedený registrem, 13/13 stran s textem.
+- Zadání pro Claude Code: `docs/ZADANI_CLAUDE_CODE_texty_dokumentu_2026-10-23.md`.
+- Revize stavů A-2023-01/A-2024-01 (potvrzena existence nesouladu, výše se liší o 5 514,00 / 34 012,00 Kč) a A-2025-01 (potvrzeno včetně výše).

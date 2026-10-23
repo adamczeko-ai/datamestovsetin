@@ -7,6 +7,7 @@ Příklady (vývoj):
   python -m integrace vr
   python -m integrace smlouvy --verze-soubor verze.txt
   python -m integrace dotace --allow-undocumented
+  python -m integrace dokumenty --seznam dokumenty.txt --texty raw/texty
   python -m integrace stav
 """
 from __future__ import annotations
@@ -19,7 +20,7 @@ from datetime import date
 
 from . import db
 from .http import Http, now_utc
-from .sources import monitor_finm, ruian_vfr, rvz, vr, registr_smluv, monitor_dotace
+from .sources import monitor_finm, ruian_vfr, rvz, vr, registr_smluv, monitor_dotace, dokumenty
 
 HERE = os.path.dirname(__file__)
 
@@ -34,7 +35,7 @@ def load_config(path: str | None) -> dict:
 
 def main(argv=None):
     ap = argparse.ArgumentParser(prog="integrace")
-    ap.add_argument("zdroj", choices=["monitor", "ruian", "rvz", "vr", "smlouvy", "dotace", "stav"])
+    ap.add_argument("zdroj", choices=["monitor", "ruian", "rvz", "vr", "smlouvy", "dotace", "dokumenty", "stav"])
     ap.add_argument("--db", default=os.environ.get("INTEGRACE_DB", "integrace.db"))
     ap.add_argument("--cache", default=os.environ.get("INTEGRACE_CACHE", "integrace_cache"))
     ap.add_argument("--config")
@@ -42,6 +43,8 @@ def main(argv=None):
     ap.add_argument("--rok", type=int)
     ap.add_argument("--mesic", type=int)
     ap.add_argument("--verze-soubor", help="registr smluv: soubor s idVerze (1 na řádek)")
+    ap.add_argument("--seznam", help="dokumenty: soubor s URL (1 na řádek, volitelně source_id<TAB>URL)")
+    ap.add_argument("--texty", default=os.environ.get("INTEGRACE_TEXTY", "raw/texty"), help="dokumenty: cílová složka textů")
     ap.add_argument("--allow-undocumented", action="store_true", help="povolit nedokumentované API Registru dotací")
     a = ap.parse_args(argv)
 
@@ -80,6 +83,12 @@ def main(argv=None):
                 ap.error("--verze-soubor je povinný")
             verze = [x.strip() for x in open(a.verze_soubor, encoding="utf-8") if x.strip()]
             res = registr_smluv.sync(con, http, verze)
+        elif a.zdroj == "dokumenty":
+            if not a.seznam:
+                ap.error("--seznam je povinný")
+            res = dokumenty.sync(con, http, dokumenty.nacti_seznam(a.seznam), a.texty)
+            if res["chyby"] and not res["dokumentu"]:
+                status = "chyba"
         elif a.zdroj == "dotace":
             if not a.allow_undocumented:
                 status, res = "preskoceno", "Registr dotací používá nedokumentované API – spusťte s --allow-undocumented po schválení vlastníkem."
