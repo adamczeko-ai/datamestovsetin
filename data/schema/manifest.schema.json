@@ -27,7 +27,8 @@
      "stav": {
       "enum": [
        "ok",
-       "chyba"
+       "chyba",
+       "unreachable"
       ]
      },
      "posledni_beh": {

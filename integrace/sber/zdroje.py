@@ -13,7 +13,7 @@ import urllib.error
 from dataclasses import dataclass, field
 from datetime import date, timedelta
 
-from ..http import Http
+from ..http import HostUnreachable, Http
 from . import profil, pseudo, registr, vismo
 from .store import Sklad, sha256_bytes, ted
 
@@ -31,6 +31,9 @@ RO_ROKY = {2026: 19928, 2025: 19876, 2024: 19802, 2023: 19725, 2022: 19647, 2021
            2020: 19502, 2019: 19393, 2018: 19318, 2017: 19252}
 ARES_URL = "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/{}"
 ZNOVU = {"doc_nekonvertovano", "nastroj_chybi", "chyba_stazeni"}  # dokumenty k opakování
+
+
+NEDOSAZITELNE = (HostUnreachable, urllib.error.URLError, TimeoutError, ConnectionError)  # síť, ne chyba zdroje
 
 
 class CastecnaChyba(Exception):
@@ -111,7 +114,7 @@ def stahni_dokument(beh: Beh, s: dict, typ: str, pocty: dict, slozka: str | None
     code, data, ct = get(beh, s["url"])
     rec = {"id": f"dok:{s['id_dokumenty']}", "source_url": s["url"], "retrieved_at": ted(),
            "id_dokumenty": s["id_dokumenty"], "typ": typ, "titul": pseudo.nazev(s.get("titul")),
-           "info": pseudo.text(s.get("info")), "slozka": slozka, "zverejneno": vismo.datum_iso(s.get("info"))}
+           "info": pseudo.info_dokumentu(s.get("info")), "slozka": slozka, "zverejneno": vismo.datum_iso(s.get("info"))}
     if code != 200 or data is None:
         rec.update(kvalita_textu="chyba_stazeni", http=code)
         _pridej(pocty, "chyby")
@@ -214,7 +217,7 @@ def uredni_deska(beh: Beh):
             continue
         info = s.get("info") or ""
         rec = {"id": f"ud:{s['id_dokumenty']}", "source_url": s["url"], "retrieved_at": ted(),
-               "id_dokumenty": s["id_dokumenty"], "titul": pseudo.nazev(s.get("titul")), "info": pseudo.text(info),
+               "id_dokumenty": s["id_dokumenty"], "titul": pseudo.nazev(s.get("titul")), "info": pseudo.info_dokumentu(info),
                "vyveseno": vismo.datum_iso(m.group(1)) if (m := re.search(r"[Vv]yvěšeno[^0-9]{0,15}([\d. ]{8,12})", info)) else None,
                "sejmuto": vismo.datum_iso(m.group(1)) if (m := re.search(r"[Ss]ejmut[oí][^0-9]{0,15}([\d. ]{8,12})", info)) else None,
                "detail_url": s.get("detail"), "zdroj_sha256": sha256_bytes(r[0]), "bajty": len(r[0]),
@@ -246,6 +249,8 @@ def profil_zadavatele(beh: Beh):
             if any(not z["kod"] for z in zakazky):  # neznámá struktura XML – interval nepřijmout
                 raise ValueError(f"zakázka bez kódu (neznámá struktura XML): {url}")
         except Exception as e:
+            if hotovo is None and isinstance(e, NEDOSAZITELNE):
+                raise  # hostitel nedosažitelný hned od začátku -> unreachable
             kurzor = {"stazeno_do": (hotovo or do_).isoformat(), "posledni_kontrola": ted()}
             raise CastecnaChyba(f"{type(e).__name__}: {e}", pocty, kurzor) from e
         for z in zakazky:
@@ -272,7 +277,7 @@ def registr_smluv(beh: Beh):
         poznamka = f"vyhledávání: {type(e).__name__}: {e}"[:300]
     cekajici = [r for r in rs.latest.values() if not r.get("detail")]
     cekajici.sort(key=lambda r: (r.get("publikovano") or "9999", int(r["id_verze"])), reverse=True)
-    chyby_za_sebou = 0
+    chyby_za_sebou, uspechy = 0, 0
     for r in cekajici[:min(beh.limit_rs, registr.LIMIT_DETAILU)]:
         url = registr.rs.URL.format(v=r["id_verze"])
         try:
@@ -284,9 +289,11 @@ def registr_smluv(beh: Beh):
             _pridej(pocty, "chyby")
             chyby_za_sebou += 1
             if chyby_za_sebou >= 5:  # zdroj zjevně nedostupný – nezatěžovat dál
+                if uspechy == 0 and isinstance(e, NEDOSAZITELNE):
+                    raise e
                 raise RuntimeError(f"5 chyb detailu za sebou, poslední {r['id_verze']}: {type(e).__name__}: {e}")
             continue
-        chyby_za_sebou = 0
+        chyby_za_sebou, uspechy = 0, uspechy + 1
         _pridej(pocty, rs.add({**{k: v for k, v in r.items() if k not in ("sha256",)}, "detail": det,
                                "detail_sha256": sha256_bytes(data), "retrieved_at": ted()}))
     zbyva = sum(1 for x in rs.latest.values() if not x.get("detail"))

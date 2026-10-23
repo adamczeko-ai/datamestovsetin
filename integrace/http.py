@@ -48,6 +48,10 @@ class RobotsDenied(Exception):
     """URL zakázaná v robots.txt (nebo robots.txt nedostupný)."""
 
 
+class HostUnreachable(RobotsDenied):
+    """Hostitel síťově nedosažitelný (robots.txt nešel načíst: timeout, reset, 5xx brány)."""
+
+
 class Http:
     def __init__(self, con: sqlite3.Connection | None, cache_dir: str, *, min_interval: float = 1.0,
                  max_attempts: int = 5, base_delay: float = 2.0, timeout: float = 300.0, sleep=time.sleep,
@@ -106,7 +110,7 @@ class Http:
             return
         rp = self._robots_for(url)
         if rp is None:
-            raise RobotsDenied(f"robots.txt hostitele {url.split('/')[2]} nedostupný – stahování vynecháno")
+            raise HostUnreachable(f"robots.txt hostitele {url.split('/')[2]} nedostupný – stahování vynecháno")
         if not rp.can_fetch(self.user_agent, url):
             raise RobotsDenied(f"zakázáno v robots.txt: {url}")
 

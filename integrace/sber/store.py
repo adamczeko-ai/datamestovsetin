@@ -108,10 +108,16 @@ def nacti_manifest(path: str) -> dict:
 
 
 def zapis_zdroj(man: dict, zdroj: str, *, zacatek: str, stav: str, pocty: dict | None = None,
-                kurzor: dict | None = None, chyba: str | None = None, soubory: list[str] | None = None):
+                kurzor: dict | None = None, chyba: str | None = None, soubory: list[str] | None = None,
+                poznamka: str | None = None):
+    """stav: ok | chyba | unreachable (hostitel síťově nedosažitelný – nepočítá se mezi chyby)."""
     z = man.setdefault("zdroje", {}).setdefault(zdroj, {"chyby": []})
     z["posledni_beh"] = zacatek
     z["stav"] = stav
+    if stav == "unreachable":
+        z["nedosazitelny"] = {"cas": zacatek, "duvod": (poznamka or "")[:500]}
+    elif "nedosazitelny" in z:
+        z["posledni_nedosazitelnost"] = z.pop("nedosazitelny")
     if stav == "ok":
         z["posledni_uspech"] = zacatek
     if pocty is not None:

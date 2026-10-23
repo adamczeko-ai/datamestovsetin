@@ -33,7 +33,7 @@ def parse_detail(xml_bytes: bytes, id_verze: str) -> dict:
         strany.append({"ico": ico, "nazev": pseudo.nazev_subjektu(g("r:nazev"))})
     pub = root.find("r:data/r:smlouva/r:subjekt", rs.NS)
     return {
-        "id_smlouvy": d["id_smlouvy"], "predmet": d["predmet"], "datum_uzavreni": d["datum_uzavreni"],
+        "id_smlouvy": d["id_smlouvy"], "predmet": pseudo.nazev(d["predmet"]), "datum_uzavreni": d["datum_uzavreni"],
         "cas_zverejneni": d["cas_zverejneni"], "hodnota_bez_dph": d["hodnota_bez_dph"],
         "hodnota_s_dph": d["hodnota_s_dph"], "cizi_hodnota": d["cizi_hodnota"], "cizi_mena": d["cizi_mena"],
         "value_kind": d["value_kind"], "publikujici_ico": d["publikujici_ico"],

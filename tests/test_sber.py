@@ -223,6 +223,50 @@ class TestPseudo(unittest.TestCase):
         self.assertNotIn("Mirgov", pseudo.text("dluh Mirgové", ["Mirgová Denisa"]))
 
 
+class TestPseudoZnameUniky(unittest.TestCase):
+    """Typy úniků nalezené kontrolou 23. 10. 2026 – se syntetickými jmény (žádná skutečná osoba)."""
+
+    def assertBezJmena(self, vstup, *casti):
+        out = pseudo.text(vstup)
+        for c in casti:
+            self.assertNotIn(c, out, f"{vstup!r} -> {out!r}")
+        self.assertIn(pseudo.FO, out)
+        return out
+
+    def test_cizi_a_mene_casta_krestni_jmena(self):
+        self.assertBezJmena("ve výši 15.000 Kč na účast Natalie Ellen Testerová na soustředění", "Natalie", "Ellen", "Tester")
+        for jm in ("Erik", "Jonáš", "Bořek", "Lumír", "Evžen", "Alexander"):
+            self.assertBezJmena(f"smlouva, kterou uzavřel {jm} Fiktivní", jm, "Fiktivní")
+
+    def test_prijemce_dotace_bytem_nar(self):
+        self.assertBezJmena("Žadatel/investor: Erik Zkušební, nar. ░░░░ , bytem ░░░░", "Zkušební")
+        self.assertBezJmena("poskytnutí dotace Kvido Neznámý, bytem ………, ve výši 5.000 Kč", "Kvido", "Neznámý")
+        self.assertBezJmena("dotace fyzické osobě Radoš Vymyšlený na akci", "Radoš", "Vymyšlený")
+        self.assertBezJmena("Rada města Vsetín schvaluje poskytnutí dotace Ivě Vymyšlené, se sídlem Vsetín", "Vymyšlen")
+        self.assertEqual(pseudo.text("poskytnutí dotace Centru Áčko, p.o., se sídlem"), "poskytnutí dotace Centru Áčko, p.o., se sídlem")
+        self.assertBezJmena("dohoda o uznání dluhu s [FO] a Ruprechtem Vymyšleným", "Ruprecht", "Vymyšlen")
+        self.assertBezJmena("sleva z nájemného nájemci Thi Lan Vymyšlená, Jasenická 1, Vsetín", "Lan", "Vymyšlen")
+        self.assertBezJmena("Paní Vymyšlená se zněním materiálů souhlasí", "Vymyšlen")
+        out = pseudo.info_dokumentu("Oznámení o místě uložení písemnosti, Kvido Neznámý [PDF, 316 kB]Odbor správních agend")
+        self.assertEqual(out, "Oznámení o místě uložení písemnosti, [FO] [PDF, 316 kB]Odbor správních agend")
+        self.assertEqual(pseudo.nazev("údržba trailů BAV 1, BAV 2. - Kvido Neznámý"), "údržba trailů BAV 1, BAV 2. - [FO]")
+        self.assertEqual(pseudo.nazev("Žádost o prominutí poplatků – Kvido Neznámý I. Rada města Vsetín"),
+                         "Žádost o prominutí poplatků – [FO] I. Rada města Vsetín")
+
+    def test_volebni_tabulka_celoplosne(self):
+        t = ("Zápis o výsledku voleb do zastupitelstva obce Testov\nVolební strana č. 1\n"
+             "1. Kvido Neznámý 41 2. Ruprecht Vymyšlený 55 3. Ingeborg Fiktivní 30")
+        out = self.assertBezJmena(t, "Kvido", "Ruprecht", "Ingeborg", "Neznámý", "Vymyšlený", "Fiktivní")
+        self.assertIn("Volební strana", out)
+
+    def test_ulice_instituce_firmy_zustavaji(self):
+        for s in ("třída Tomáše Bati 21, 76001 Zlín", "Univerzita Tomáše Bati ve Zlíně",
+                  "Střední odborná škola Josefa Sousedíka Vsetín", "Nadaci Jana Pivečky, o.p.s.",
+                  "Michala Urbánka 436, Rokytnice", "nábřeží Ludvíka Svobody 1222/12", "Hradec Králové",
+                  "Petr Novák s.r.o.", "ul. MUDr. Františka Sovy 97, Vsetín"):
+            self.assertEqual(pseudo.text(s), s)
+
+
 class TestStore(unittest.TestCase):
     def setUp(self):
         self.d = tempfile.mkdtemp()
@@ -350,21 +394,22 @@ class TestSberEndToEnd(unittest.TestCase):
     def test_beh(self):
         # profil: kurzor 31. 10. - 60 dní = 1. 9. 2026 → jeden interval do 23. 10.
         src = ["--source", "usneseni", "--source", "profil_zadavatele", "--source", "ares"]
-        self.assertEqual(self.run_sber("--dry-run", *src), 1)
+        self.assertEqual(self.run_sber("--dry-run", *src), 0)  # nedosažitelný web města není chyba běhu
         self.assertFalse(os.path.exists(os.path.join(self.data, "verejne_zakazky.jsonl")))  # dry-run nic nezapsal
         self.assertFalse(os.path.exists(os.path.join(self.d, "RUNLOG.md")))
 
-        self.assertEqual(self.run_sber(*src), 1)  # usnesení selže (web nedostupný), ostatní proběhnou
+        self.assertEqual(self.run_sber(*src), 0)  # usnesení: web nedosažitelný -> unreachable, ostatní proběhnou
         with open(os.path.join(self.data, "manifest.json")) as f:
             man = json.load(f)
         z = man["zdroje"]
-        self.assertEqual(z["usneseni"]["stav"], "chyba")
-        self.assertIn("robots.txt", z["usneseni"]["chyby"][-1]["chyba"])
+        self.assertEqual(z["usneseni"]["stav"], "unreachable")
+        self.assertIn("robots.txt", z["usneseni"]["nedosazitelny"]["duvod"])
+        self.assertEqual(z["usneseni"]["chyby"], [])  # nedosažitelnost se nepočítá mezi chyby
         self.assertEqual(z["profil_zadavatele"]["stav"], "ok")
         self.assertEqual(z["profil_zadavatele"]["pocty_posledniho_behu"]["nove"], 2)
         self.assertEqual(z["profil_zadavatele"]["kurzor"]["stazeno_do"], "2026-10-31")  # kurzor necouvá
         self.assertEqual(z["ares"]["stav"], "ok")
-        self.assertEqual(man["posledni_beh"]["stav"], {"usneseni": "chyba", "profil_zadavatele": "ok", "ares": "ok"})
+        self.assertEqual(man["posledni_beh"]["stav"], {"usneseni": "unreachable", "profil_zadavatele": "ok", "ares": "ok"})
         self.assertEqual(list(schema("manifest.schema.json").iter_errors(man)), [])
         with open(os.path.join(self.data, "subjekty_ares.jsonl")) as f:
             a = [json.loads(x) for x in f]
@@ -372,7 +417,7 @@ class TestSberEndToEnd(unittest.TestCase):
         with open(os.path.join(self.d, "RUNLOG.md")) as f:
             log = f.read()
         self.assertIn("| profil_zadavatele | ok | 2 |", log)
-        self.assertIn("| usneseni | chyba |", log)
+        self.assertIn("| usneseni | unreachable |", log)
 
         # chyba ve 2. intervalu: počty a kurzor 1. intervalu se uloží, stav = chyba
         b = zdroje.Beh(http=http_klient(self.routes()), sklad=store.Sklad(self.data),

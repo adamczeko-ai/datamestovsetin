@@ -216,7 +216,7 @@ def import_p2(im: Import):
     for x in d["dokumenty"]:
         im.add("uredni_deska", {"id": f"ud:{x['id_dokumenty']}", "source_url": vismo.FILE_URL.format(x["id_dokumenty"]),
                                 "id_dokumenty": x["id_dokumenty"], "titul": pseudo.nazev(x["titul"]),
-                                "info": pseudo.text(x["info"]), "vyveseno": x["vyveseno"], "sejmuto": x["sejmuto"],
+                                "info": pseudo.info_dokumentu(x["info"]), "vyveseno": x["vyveseno"], "sejmuto": x["sejmuto"],
                                 "content_type": x["content_type"], "bajty": x["bajty"], "zdroj_sha256": x["sha256"],
                                 "stran": x["stran"], "kvalita_textu": "ok" if x.get("raw") else "bez_textu",
                                 "kategorie_ud": x["kategorie_ud"], "text": pseudo.text(x["raw"])}, t)
@@ -262,7 +262,7 @@ def import_rs(im: Import):
     for x in r["smlouvy"]:
         rec = {"id": f"rs:{x['id_smlouvy']}", "id_verze": x["id_smlouvy"], "source_url": x["url"],
                **{k: v for k, v in x.items() if k not in ("id_smlouvy", "url")},
-               "predmet": pseudo.text(x.get("predmet")),
+               "predmet": pseudo.nazev(x.get("predmet")),
                "smluvni_strany": [pseudo.nazev_subjektu(s) for s in x.get("smluvni_strany") or []],
                "detail": None, "parser_verze": r["parser_verze"]}
         im.add("registr_smluv", rec, t)

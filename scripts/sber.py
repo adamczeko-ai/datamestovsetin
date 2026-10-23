@@ -12,7 +12,9 @@ Pravidla: jen veřejné dokumenty; max. 1 požadavek/s na hostitele (víc, žád
 User-Agent „VSETIN-OSINT research (cech.lpt@gmail.com)“; robots.txt se respektuje (nedostupný = zdroj
 vynechán); fyzické osoby v odvozených datech pseudonymizovány (integrace/sber/pseudo.py).
 Stav sběru: data/manifest.json; záznam běhu: docs/RUNLOG.md. Selhání zdroje nezastaví ostatní.
-Návratový kód: 0 = všechny zdroje ok, 1 = alespoň jeden zdroj selhal.
+Nedosažitelný hostitel (síť: timeout, reset, nedostupný robots.txt) = stav „unreachable“: zapíše se do
+manifestu, ale není to chyba běhu (např. web města z cloudové egress brány – viz docs/SBER.md).
+Návratový kód: 0 = všechny zdroje ok nebo unreachable, 1 = alespoň jeden zdroj selhal.
 """
 from __future__ import annotations
 
@@ -22,6 +24,7 @@ import os
 import sys
 import tempfile
 import traceback
+import urllib.error
 from datetime import date
 
 ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..")
@@ -76,6 +79,14 @@ def main(argv=None, http: Http | None = None, dnes: date | None = None) -> int:
             chyba = pozn if pozn and pozn.startswith("vyhledávání") else None
             store.zapis_zdroj(man, z, zacatek=zac, stav=stav, pocty=pocty, kurzor={**kurzor, **novy_kurzor},
                               chyba=chyba, soubory=[f"data/{f}.jsonl" for f in zdroje.SOUBORY[z]])
+        except zdroje.NEDOSAZITELNE as e:  # síťová nedostupnost hostitele: zaznamenat, nejde o chybu běhu
+            msg = f"{type(e).__name__}: {e}"
+            if isinstance(e, urllib.error.HTTPError):  # odpověď serveru = skutečná chyba
+                vys = {"stav": "chyba", "chyba": msg}
+                store.zapis_zdroj(man, z, zacatek=zac, stav="chyba", chyba=msg)
+            else:
+                vys = {"stav": "unreachable", "poznamka": msg}
+                store.zapis_zdroj(man, z, zacatek=zac, stav="unreachable", poznamka=msg)
         except zdroje.CastecnaChyba as e:  # část práce hotová: uložit počty a kurzor, stav = chyba
             msg = str(e)
             vys = {"stav": "chyba", "chyba": msg, "pocty": e.pocty}
@@ -100,7 +111,7 @@ def main(argv=None, http: Http | None = None, dnes: date | None = None) -> int:
     else:
         beh["by_bylo_zapsano_radku"] = {n: len(f.pending) for n, f in sklad.files.items()}
     print(json.dumps(beh, ensure_ascii=False, indent=1))
-    return 0 if all(v["stav"] == "ok" for v in beh["vysledky"].values()) else 1
+    return 0 if all(v["stav"] in ("ok", "unreachable") for v in beh["vysledky"].values()) else 1
 
 
 if __name__ == "__main__":
