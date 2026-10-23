@@ -64,6 +64,7 @@
   "FAKT: úvěrový rámec 500 mil. Kč je ~2,4× vyšší než úvěr zatím zapojený do rozpočtu 2026 (207,5 mil.); zbytek je rámec pro roky do 2029.",
   "FAKT: splácení začíná až 29. 3. 2030 a končí 2049 (≈ 25 mil. Kč jistiny ročně + úroky).",
   "FAKT: nasvsetin.cz má smlouvu v importu registru (38540900), ale bez částky (value_kind=nezjisteno, registr uvádí 500 000 000 vč. DPH) a bez vazby na usnesení 23/26/ZM/2026.",
-  "OTEVŘENÉ: obsah a výše úvěru č. 2053/10/5625 a dodatku č. 3; krátkodobý úvěr pol. 8113 (200 mil. v rozpočtu) – s kým."
+  "VYŘEŠENO: úvěr 2053/10/5625 = kontokorent ČSOB, viz data/smlouvy/uver_CSOB_kontokorent_2011.json.",
+  "FAKT (důvodová zpráva k RO 17/2026, 21. 9. 2026): z investičního úvěrového rámce budou v případě nutnosti dofinancovány akce „Lávka Vs-04-Bel přes Bečvu u SPŠS“ (K-003) a „Přednádražní prostor, etapa 1.B“; primárně se má schodek krýt vlastními prostředky."
  ]
 }
