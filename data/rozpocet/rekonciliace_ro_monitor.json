@@ -1,0 +1,131 @@
+{
+ "schema": "vsetin-osint/rekonciliace-ro-monitor@1",
+ "vytvoreno": "2026-10-23 (SELČ)",
+ "metoda": "Schválený rozpočet (MONITOR) + součet změn zveřejněných RO (repo) porovnán s „rozpočtem po změnách“ v FIN 2-12 M (prosinec, resp. srpen 2026).",
+ "roky": {
+  "2026 (k 08/2026, RO 1–15)": {
+   "vydaje": {
+    "sr_plus_ro": 1465975256.09,
+    "monitor": 1465975256.09,
+    "rozdil": 0.0
+   },
+   "zaver": "ověřený fakt: plná shoda"
+  },
+  "2025 (RO 1–24)": {
+   "vydaje": {
+    "sr": 1194299646,
+    "ro": 154261944.27,
+    "monitor": 1348588090.27,
+    "rozdil": 26500.0
+   },
+   "prijmy": {
+    "sr": 914746594,
+    "ro": 26462924.96,
+    "monitor": 941235992.41,
+    "rozdil": 26473.45
+   },
+   "financovani": {
+    "sr": 279553052,
+    "ro_bilance": 128456115.25,
+    "monitor": 407352097.86,
+    "rozdil": -657069.39
+   },
+   "rada_8115": {
+    "ro_konec": 207352071.31,
+    "monitor": 207352097.86,
+    "rozdil": 26.55
+   },
+   "zaverecny_ucet_2025": {
+    "url": "https://mestovsetin.cz/assets/File.ashx?id_org=18676&id_dokumenty=568728",
+    "uvadi_pocet_RO": 24,
+    "zmena_prijmu": 26489398.41,
+    "zmena_vydaju": 154288444.27,
+    "shoda_s_monitor": true
+   },
+   "zavery": [
+    "ověřený fakt: MONITOR i závěrečný účet uvádějí změnu výdajů 154 288 444,27 Kč; zveřejněná RO v repu dávají o 26 500,00 Kč méně (příjmy o 26 473,45, financování o 26,55 Kč méně).",
+    "indicie: chybějící změna odpovídá jednomu opatření (P 26 473,45 + F 26,55 = V 26 500). Nejpravděpodobněji RO 1/2025, které je zveřejněno jako prázdná stránka „neschváleno“ (A-2025-03), ačkoli ZÚ uvádí 24 přijatých RO.",
+    "A-2025-01: konečný stav 8115 v řadě RO se s MONITOR shoduje (rozdíl 26,55 Kč = výše uvedená změna). Účetně se tedy nepromítl rozdíl 657 095,94 Kč z bilance RO 4; nesoulad je jen ve zveřejněném dokumentu RO 4 (ověřený fakt, příčina neznámá)."
+   ]
+  },
+  "2024 (RO 1–22)": {
+   "vydaje": {
+    "sr": 1121615527,
+    "ro": 58252135.38,
+    "monitor": 1180661268.23,
+    "rozdil": 793605.85
+   },
+   "prijmy": {
+    "sr": 848583111,
+    "ro": 27499223.3,
+    "monitor": 867639713.7,
+    "rozdil": -8442620.6
+   },
+   "financovani": {
+    "sr": 273032416,
+    "ro": 30759512.08,
+    "monitor": 313021554.53,
+    "rozdil": 9229626.45
+   },
+   "prijmy_podle_polozek_rozdil_monitor_minus_ro": {
+    "4216": -9224354.49,
+    "4116": 941479.79,
+    "4122": 769412.0,
+    "4113": -600000.0,
+    "2329": -748000.0,
+    "4111": 392842.1,
+    "2321": 20000.0,
+    "2111": 6000.0,
+    "1381": -4000000.0,
+    "1386": 2000000.0,
+    "1387": 2000000.0
+   },
+   "vydaje_rozdil_v_63_ze_85_polozek": true,
+   "zavery": [
+    "ověřený fakt: zveřejněná RO 2024 nevysvětlují celou změnu rozpočtu v MONITORu – výdaje +793 605,85, příjmy −8 442 620,60, financování +9 229 626,45 Kč.",
+    "indicie: rozdíl financování odpovídá skoku řady 8115 o +9 263 638,45 Kč mezi RO 6 a RO 9 (A-2024-02) snížený o 34 012 Kč; rozdíl příjmů je hlavně v pol. 4216 (−9,22 mil. Kč). Patrně přesun investiční dotace z příjmů do financování mimo zveřejněná RO.",
+    "indicie: drobné rozdíly výdajů v 63 položkách odpovídají přesunům v kompetenci mimo RM/ZM (nezveřejňovaným jako RO) – hypotéza k ověření u odboru financí.",
+    "A-2024-01: 6 600 Kč z nevyrovnaného RO 22 tvoří rozdíl mezi (P+F) a V.",
+    "ověřený fakt: závěrečný účet 2024 přičítá celou změnu rozpočtu (P +19 056 602,70; V +59 045 741,23 Kč) 22 rozpočtovým opatřením – shodně s MONITORem. Součet zveřejněných PDF RO 2024 však dává P +27 499 223,30 a V +58 252 135,38 Kč. Zveřejněná znění RO se tedy liší od zaúčtovaných změn (příjmy o −8 442 620,60, výdaje o +793 605,85 Kč).",
+    "ověřený fakt: ZÚ 2024 uvádí kontokorentní úvěr s limitem 200 mil. Kč a že „plnění z této smlouvy nebylo potřeba v roce 2024 zapojit do hospodaření“; zároveň v pol. 8115 vykazuje −20 876 063,32 Kč, zatímco MONITOR −30 876 063,32 Kč + krátkodobé úvěry 8117/8118 +125 / −115 mil. Kč (čistě +10 mil.).",
+    "indicie: ZÚ zahrnuje čisté krátkodobé operace do 8115; text o nezapojení úvěru je v rozporu s pohyby 8117/8118 v MONITORu (čerpání a splátky během roku) – k dotazu na odbor financí."
+   ],
+   "zaverecny_ucet_2024": {
+    "url": "https://mestovsetin.cz/assets/File.ashx?id_org=18676&id_dokumenty=562186",
+    "bytes": 1254368,
+    "sha256_prefix": "eb3e56830c1d81df",
+    "uvadi_pocet_RO": 22,
+    "zmena_prijmu": 19056602.7,
+    "zmena_vydaju": 59045741.23,
+    "shoda_s_monitor": true,
+    "8115_skutecnost_ZU": -20876063.32
+   }
+  },
+  "2023 (RO 1–22)": {
+   "vydaje": {
+    "sr": 799729000,
+    "ro": 153791687.11,
+    "monitor": 953526840.42,
+    "rozdil": 6153.31
+   },
+   "prijmy": {
+    "sr": 673778000,
+    "ro": 42572965.93,
+    "monitor": 715856329.93,
+    "rozdil": -494636.0
+   },
+   "financovani": {
+    "sr": 125951000,
+    "ro": 111286721.18,
+    "monitor": 237670510.49,
+    "rozdil": 432789.31
+   },
+   "vydaje_rozdil_v_62_ze_87_polozek": true,
+   "zavery": [
+    "ověřený fakt: zveřejněná RO 2023 nevysvětlují celou změnu v MONITORu – výdaje +6 153,31, příjmy −494 636,00, financování +432 789,31 Kč; (P+F) − V = −68 000 = nevyrovnané RO 6 (A-2023-01).",
+    "indicie: rozdíl financování odpovídá skoku řady 8115 o +438 303,31 Kč mezi RO 5 a RO 8 (A-2023-02).",
+    "ověřený fakt: v 62 z 87 druhových položek výdajů se změna v MONITORu liší od součtu RO (např. 5222 +13,42 mil., 5901 −14,37 mil. Kč) – rozpouštění rezerv a přesuny bez zveřejněného RO; stejný vzorec jako 2024."
+   ]
+  }
+ }
+}
