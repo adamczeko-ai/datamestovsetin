@@ -1,0 +1,26 @@
+{
+ "schema": "vsetin-osint/doplneni-kauzy@1",
+ "kauza": "K-003 lávka Vs-04-Bel (Lávka přes Bečvu u průmyslovky)",
+ "vytezeno": "2026-10-23 09:20 SELČ",
+ "udalosti": [
+  {
+   "datum": "2026-08-26",
+   "typ": "smlouva o dotaci",
+   "id": "registr smluv 39253570 (ID smlouvy 36899358), č. D/1913/2026/STR",
+   "poskytovatel": "Zlínský kraj (IČO 70891320), Fond Zlínského kraje – Program na podporu obnovy venkova (RZK 15. 12. 2025, usn. 1148/R35/25), žádost RP02-26DT5/004",
+   "castka": "do 2 007 000 Kč, max. 5,00 % celkových způsobilých výdajů",
+   "predpokladane_CZV": 40159444.22,
+   "doba_realizace": "1. 1. 2025 – 30. 11. 2027",
+   "zaverecna_zprava_do": "2027-11-30",
+   "indikator": "cyklostezka 919 m2 (minimální závazná hodnota)",
+   "vyplata": "po schválení závěrečné zprávy s vyúčtováním (do 30 prac. dní)",
+   "zdroj": "https://smlouvy.gov.cz/smlouva/39253570",
+   "priloha": "https://smlouvy.gov.cz/smlouva/soubor/47348446/Mesto_Vsetin_RP02_26DT5_004_D_1913_2026_STR.pdf"
+  }
+ ],
+ "zjisteni": [
+  "FAKT: předpokládané celkové způsobilé výdaje projektu 40 159 444,22 Kč; smlouva o dílo (K-003) 68,98 mil. bez DPH / 83,47 mil. s DPH – rozdíl nelze bez žádosti o dotaci vysvětlit (část výdajů může být nezpůsobilá, CZV mohou být bez DPH apod.) – HYPOTÉZY, neověřeno.",
+  "FAKT: dotace se vyplácí až po závěrečné zprávě (nejpozději 2027–2028) → transfer Zlínského kraje městu 6 388 384,97 Kč v Územním registru 2026 s touto smlouvou NESOUVISÍ (opravuji indicii z 23. 10. ráno).",
+  "FAKT: lávky ve Státním registru dotací (příjemce město, 2014–2026) nejsou."
+ ]
+}
