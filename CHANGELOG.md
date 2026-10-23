@@ -96,3 +96,9 @@
 - Pravidla R13–R16 (`scripts/pravidla_nesoulady.py`): kumulace dodatků (§ 222), těsně pod limitem VZMR / dělení, zrušená VZ → prodloužení, cenový rozdíl návrh/usnesení/smlouva/rozpočet; limity se zdroji v `pravidla_konfigurace.json`.
 - LLM vrstva: prompt `ai/PROMPT_nesoulady.md`, kontrola doslovných citací `scripts/kontrola_nesouladu_llm.py`; slepý test K-002/K-003 jádro 5/7, 0 falešných.
 - Plánovaná úloha (varianta A): `ai/ULOHA_planovana.md`, architektura A/B `docs/AI_VARIANTA_A.md`.
+
+## 2026-10-23 (várka o – ověření subjektů v ARES)
+- `scripts/ares_overeni.py` + `data/entity/ares_overeni.json`: 74 IČO (rozšiřuje `ares_overeni_2026-10-23.json` s 38 IČO), 72 ověřeno, 0 chybných kontrolních číslic; schéma + validace.
+- `subjekty.json`: blok `ares` u všech subjektů s IČO; doplněna IČO Damostis (23287152) a MUNIPOLIS (29198950).
+- AERV o.p.s. (zakladatel město) zrušena k 31. 12. 2023, vymazána z OR 18. 12. 2024 – souvislost s narovnáním 3,85 mil. a vkladem 3,6 mil. (2023) zapsána k ověření.
+- MŠ Trávníky 1218 (IČO 60042354 dle RO 11/2025) v ARES neexistuje – k ověření.

@@ -1,0 +1,12 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "Ověření IČO v ARES",
+ "type": "object",
+ "required": ["schema", "zdroj", "stav_k", "subjekty"],
+ "properties": {
+  "subjekty": {"type": "array", "items": {"type": "object",
+   "required": ["ico", "kontrolni_cislice_ok", "soubory"],
+   "properties": {"ico": {"type": "string", "pattern": "^\\d{8}$"}, "kontrolni_cislice_ok": {"type": "boolean"},
+    "soubory": {"type": "array", "items": {"type": "string"}}, "ares_http": {"type": "integer"}}}}
+ }
+}

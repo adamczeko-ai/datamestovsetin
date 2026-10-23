@@ -10,9 +10,9 @@ Ověřitelná paměť rozhodnutí města Vsetín: **rozhodnutí → peníze → 
 | `data/zaverecny_ucet/` | ZÚ a přezkoumání hospodaření 2023–2025, rekonciliace s RO |
 | `data/usneseni/` | vazby usnesení ZM na RO, index výpisů a balíčků ZM |
 | `data/kauzy/` | K-001 spory na ochranu osobnosti, K-002 Tribuna Na Ohradě |
-| `data/entity/` | registr subjektů (IČO) a osob z veřejných dokumentů |
+| `data/entity/` | registr subjektů (IČO) ověřený v ARES (`ares_overeni.json`) |
 | `data/analyzy/` | časová osa akcí, signály k ověření |
-| `scripts/` | `validate_ro.py <rok>`, `analyzy.py` |
+| `scripts/` | `validate_ro.py <rok>`, `analyzy.py`, `validate_schemas.py`, `ares_overeni.py` |
 | `docs/` | předávací zprávy, roadmapa |
 
 **Metoda:** PDF se čtou v prohlížeči (pdf.js), tabulky parsuje regex a výsledek prochází validací (počty řádků, součty P + F = V, aritmetika řádků, návaznost rezerv) a rekonciliací se závěrečným účtem.

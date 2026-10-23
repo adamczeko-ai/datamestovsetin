@@ -1,7 +1,7 @@
 {
   "schema": "vsetin-osint/subjekty@1",
   "zdroj": "rozpočtová opatření 2024–2026 (text PDF)",
-  "poznamka": "IČO převzata z textu dokumentů, neověřena v ARES; role popsána dle kontextu dokumentu.",
+  "poznamka": "IČO převzata z textu dokumentů; ověřena v ARES (blok 'ares', detail data/entity/ares_overeni.json). Role popsána dle kontextu dokumentu.",
   "subjekty": [
     {
       "ico": "00304450",
@@ -13,7 +13,13 @@
       ],
       "vyskyt_RO_2025": [
         13
-      ]
+      ],
+      "ares": {
+        "stav": "aktivní",
+        "obchodni_jmeno": "Město Vsetín",
+        "pravni_forma": "801",
+        "sidlo": "Svárov 1080, 75501 Vsetín"
+      }
     },
     {
       "ico": "60990406",
@@ -27,7 +33,13 @@
       ],
       "vyskyt_RO_2025": [
         12
-      ]
+      ],
+      "ares": {
+        "stav": "aktivní",
+        "obchodni_jmeno": "Základní škola a Mateřská škola Vsetín, Luh 1544, příspěvková organizace",
+        "pravni_forma": "331",
+        "sidlo": "Jasenická 1544, 75501 Vsetín"
+      }
     },
     {
       "ico": "60990368",
@@ -40,7 +52,13 @@
       "vyskyt_RO_2025": [
         12,
         21
-      ]
+      ],
+      "ares": {
+        "stav": "aktivní",
+        "obchodni_jmeno": "Základní škola a Mateřská škola Vsetín, Ohrada 1876, příspěvková organizace",
+        "pravni_forma": "331",
+        "sidlo": "Nad Školou 1876, 75501 Vsetín"
+      }
     },
     {
       "ico": "60990449",
@@ -52,7 +70,13 @@
       ],
       "vyskyt_RO_2025": [
         12
-      ]
+      ],
+      "ares": {
+        "stav": "aktivní",
+        "obchodni_jmeno": "Základní škola a Mateřská škola Vsetín, Trávníky 1217, příspěvková organizace",
+        "pravni_forma": "331",
+        "sidlo": "Matouše Václavka 1217, 75501 Vsetín"
+      }
     },
     {
       "ico": "60990457",
@@ -64,7 +88,13 @@
       ],
       "vyskyt_RO_2025": [
         12
-      ]
+      ],
+      "ares": {
+        "stav": "aktivní",
+        "obchodni_jmeno": "Základní škola Vsetín, Rokytnice 436, příspěvková organizace",
+        "pravni_forma": "331",
+        "sidlo": "Michala Urbánka 436, Rokytnice, 75501 Vsetín"
+      }
     },
     {
       "ico": "70322783",
@@ -73,7 +103,13 @@
       "adresa": "Bratří Hlaviců 80, Vsetín",
       "vyskyt_RO_2026": [
         4
-      ]
+      ],
+      "ares": {
+        "stav": "aktivní",
+        "obchodni_jmeno": "Jiří Macháček",
+        "pravni_forma": "105",
+        "sidlo": "Bratří Hlaviců 80, 75501 Vsetín"
+      }
     },
     {
       "ico": "26378191",
@@ -82,7 +118,13 @@
       "adresa": "Palackého 166, Vsetín",
       "vyskyt_RO_2026": [
         4
-      ]
+      ],
+      "ares": {
+        "stav": "aktivní",
+        "obchodni_jmeno": "ČEZNET s.r.o.",
+        "pravni_forma": "112",
+        "sidlo": "Duhová 1531/3, Michle, 14000 Praha 4"
+      }
     },
     {
       "ico": "25845420",
@@ -94,7 +136,13 @@
       ],
       "vyskyt_RO_2025": [
         21
-      ]
+      ],
+      "ares": {
+        "stav": "aktivní",
+        "obchodni_jmeno": "LPT System, s.r.o.",
+        "pravni_forma": "112",
+        "sidlo": "Jasenická 1734, 75501 Vsetín"
+      }
     },
     {
       "ico": "27822371",
@@ -103,7 +151,13 @@
       "adresa": "Hluboké 657, Vsetín",
       "vyskyt_RO_2026": [
         4
-      ]
+      ],
+      "ares": {
+        "stav": "aktivní",
+        "obchodni_jmeno": "TREND gastronomie s.r.o.",
+        "pravni_forma": "112",
+        "sidlo": "Hluboké 657, 75501 Vsetín"
+      }
     },
     {
       "ico": "26686503",
@@ -112,7 +166,13 @@
       "adresa": "Radimova 2342/36, Praha 6",
       "vyskyt_RO_2026": [
         5
-      ]
+      ],
+      "ares": {
+        "stav": "aktivní",
+        "obchodni_jmeno": "M.O.Z. Consult s.r.o.",
+        "pravni_forma": "112",
+        "sidlo": "Radimova 2342/36, Břevnov, 16900 Praha 6"
+      }
     },
     {
       "ico": "45272956",
@@ -121,7 +181,13 @@
       "adresa": null,
       "vyskyt_RO_2026": [
         6
-      ]
+      ],
+      "ares": {
+        "stav": "aktivní",
+        "obchodni_jmeno": "Generali Česká pojišťovna a.s.",
+        "pravni_forma": "121",
+        "sidlo": "Spálená 75/16, Nové Město, 11000 Praha 1"
+      }
     },
     {
       "ico": "25396269",
@@ -130,7 +196,13 @@
       "adresa": null,
       "vyskyt_RO_2026": [
         6
-      ]
+      ],
+      "ares": {
+        "stav": "aktivní",
+        "obchodni_jmeno": "SIDAR - plus s.r.o.",
+        "pravni_forma": "112",
+        "sidlo": "V Zahrádkách č.ev. 24, 75501 Vsetín"
+      }
     },
     {
       "ico": "00536024",
@@ -143,7 +215,13 @@
       ],
       "vyskyt_RO_2024": [
         15
-      ]
+      ],
+      "ares": {
+        "stav": "aktivní",
+        "obchodni_jmeno": "TJ Zbrojovka Vsetín, z.s.",
+        "pravni_forma": "706",
+        "sidlo": "Tyršova 1456, 75501 Vsetín"
+      }
     },
     {
       "ico": "70887306",
@@ -152,7 +230,13 @@
       "adresa": "Přílucká 213, Zlín",
       "vyskyt_RO_2026": [
         8
-      ]
+      ],
+      "ares": {
+        "stav": "aktivní",
+        "obchodni_jmeno": "Hasičský záchranný sbor Zlínského kraje",
+        "pravni_forma": "325",
+        "sidlo": "Přílucká 213, Příluky, 76001 Zlín"
+      }
     },
     {
       "ico": "68349742",
@@ -161,7 +245,13 @@
       "adresa": null,
       "vyskyt_RO_2026": [
         8
-      ]
+      ],
+      "ares": {
+        "stav": "aktivní",
+        "obchodni_jmeno": "Pavel Škrabánek",
+        "pravni_forma": "101",
+        "sidlo": "Rokytnice 240, Rokytnice, 75501 Vsetín"
+      }
     },
     {
       "ico": "45192120",
@@ -170,7 +260,13 @@
       "adresa": null,
       "vyskyt_RO_2026": [
         9
-      ]
+      ],
+      "ares": {
+        "stav": "aktivní",
+        "obchodni_jmeno": "Z-Group bus a.s.",
+        "pravni_forma": "121",
+        "sidlo": "Pasecká 3369, 76001 Zlín"
+      }
     },
     {
       "ico": "41084837",
@@ -179,7 +275,13 @@
       "adresa": "Horní náměstí 3, Vsetín",
       "vyskyt_RO_2026": [
         9
-      ]
+      ],
+      "ares": {
+        "stav": "aktivní",
+        "obchodni_jmeno": "ZETEX spol. s r.o.",
+        "pravni_forma": "112",
+        "sidlo": "Horní náměstí 3, 75501 Vsetín"
+      }
     },
     {
       "ico": "28593987",
@@ -189,7 +291,13 @@
       "vyskyt_RO_2026": [
         5,
         9
-      ]
+      ],
+      "ares": {
+        "stav": "aktivní",
+        "obchodni_jmeno": "Vsetínská sportovní, s.r.o.",
+        "pravni_forma": "112",
+        "sidlo": "Na Lapači 394, Rokytnice, 75501 Vsetín"
+      }
     },
     {
       "ico": "47972114",
@@ -198,7 +306,13 @@
       "adresa": "Svárov 1055, Vsetín",
       "vyskyt_RO_2026": [
         9
-      ]
+      ],
+      "ares": {
+        "stav": "aktivní",
+        "obchodni_jmeno": "Dům kultury Vsetín, spol. s r. o.",
+        "pravni_forma": "112",
+        "sidlo": "Svárov 1055, 75501 Vsetín"
+      }
     },
     {
       "ico": "03642259",
@@ -210,7 +324,13 @@
       ],
       "vyskyt_RO_2024": [
         10
-      ]
+      ],
+      "ares": {
+        "stav": "aktivní",
+        "obchodni_jmeno": "UNITED 3P, z. s.",
+        "pravni_forma": "706",
+        "sidlo": "Podsedky 950, 75501 Vsetín"
+      }
     },
     {
       "ico": "22851593",
@@ -222,7 +342,13 @@
       ],
       "vyskyt_RO_2025": [
         4
-      ]
+      ],
+      "ares": {
+        "stav": "aktivní",
+        "obchodni_jmeno": "Cyklostezka Bečva, z.s.",
+        "pravni_forma": "706",
+        "sidlo": "Boční 551, 78372 Velký Týnec"
+      }
     },
     {
       "ico": "69211612",
@@ -231,7 +357,13 @@
       "adresa": null,
       "vyskyt_RO_2026": [
         12
-      ]
+      ],
+      "ares": {
+        "stav": "aktivní",
+        "obchodni_jmeno": "Základní škola Integra Vsetín",
+        "pravni_forma": "751",
+        "sidlo": "Na Rybníkách 1628, 75501 Vsetín"
+      }
     },
     {
       "ico": "62334697",
@@ -247,7 +379,13 @@
       ],
       "vyskyt_RO_2024": [
         18
-      ]
+      ],
+      "ares": {
+        "stav": "aktivní",
+        "obchodni_jmeno": "FC Fastav Vsetín, z.s.",
+        "pravni_forma": "706",
+        "sidlo": "Tyršova 2237, 75501 Vsetín"
+      }
     },
     {
       "ico": "16361539",
@@ -256,7 +394,13 @@
       "adresa": "Huštěnovice 365, Babice",
       "vyskyt_RO_2026": [
         14
-      ]
+      ],
+      "ares": {
+        "stav": "aktivní",
+        "obchodni_jmeno": "SEVEZA spol. s r.o.",
+        "pravni_forma": "112",
+        "sidlo": "č.p. 365, 68703 Huštěnovice"
+      }
     },
     {
       "ico": "25114638",
@@ -265,7 +409,13 @@
       "adresa": "Bobrky 2271, Vsetín",
       "vyskyt_RO_2026": [
         14
-      ]
+      ],
+      "ares": {
+        "stav": "aktivní",
+        "obchodni_jmeno": "Kayaku Safety Systems Europe a.s.",
+        "pravni_forma": "121",
+        "sidlo": "Bobrky 2271, 75501 Vsetín"
+      }
     },
     {
       "ico": "27796477",
@@ -274,7 +424,13 @@
       "adresa": "Jiráskova 2498, Vsetín",
       "vyskyt_RO_2026": [
         16
-      ]
+      ],
+      "ares": {
+        "stav": "aktivní",
+        "obchodni_jmeno": "OPEN RE-ECO. s.r.o.",
+        "pravni_forma": "112",
+        "sidlo": "Jiráskova 2498, 75501 Vsetín"
+      }
     },
     {
       "ico": "02536986",
@@ -283,7 +439,13 @@
       "adresa": "Rokytnice 413, Vsetín",
       "vyskyt_RO_2025": [
         8
-      ]
+      ],
+      "ares": {
+        "stav": "aktivní",
+        "obchodni_jmeno": "MDDr. Helena Kozárková",
+        "pravni_forma": "105",
+        "sidlo": "Rokytnice 413, Rokytnice, 75501 Vsetín"
+      }
     },
     {
       "ico": "22233300",
@@ -292,7 +454,13 @@
       "adresa": "Josefa Sousedíka 1432, Vsetín",
       "vyskyt_RO_2025": [
         8
-      ]
+      ],
+      "ares": {
+        "stav": "aktivní",
+        "obchodni_jmeno": "MDDr. Daniel Sušeň s.r.o.",
+        "pravni_forma": "112",
+        "sidlo": "Josefa Sousedíka 1432, 75501 Vsetín"
+      }
     },
     {
       "ico": "60042354",
@@ -301,7 +469,12 @@
       "adresa": null,
       "vyskyt_RO_2025": [
         11
-      ]
+      ],
+      "ares": {
+        "stav": "nenalezeno v ARES (základní registr, VR, RES, RŽP, RŠ) ani ve webovém vyhledávání ARES 23. 10. 2026",
+        "zdroj_ico": "IČO uvedeno výslovně v RO 11/2025 (RM 18. 8. 2025, usn. 14/73/RM/2025): „IČO: 600 42 354“, dotace OP JAK 380 000 Kč",
+        "k_overeni": "rejstřík škol MŠMT / zřizovací listina; možná chyba IČO ve zdroji nebo chybějící záznam v ARES"
+      }
     },
     {
       "ico": "70872236",
@@ -310,7 +483,13 @@
       "adresa": null,
       "vyskyt_RO_2025": [
         11
-      ]
+      ],
+      "ares": {
+        "stav": "aktivní",
+        "obchodni_jmeno": "Mateřská škola Vsetín, Na Kopečku 13, příspěvková organizace",
+        "pravni_forma": "331",
+        "sidlo": "Na Kopečku 13, 75501 Vsetín"
+      }
     },
     {
       "ico": "00851817",
@@ -320,7 +499,13 @@
       "vyskyt_RO_2025": [
         12,
         21
-      ]
+      ],
+      "ares": {
+        "stav": "aktivní",
+        "obchodni_jmeno": "Masarykova veřejná knihovna Vsetín, příspěvková organizace",
+        "pravni_forma": "331",
+        "sidlo": "Dolní náměstí 1356, 75501 Vsetín"
+      }
     },
     {
       "ico": "66184606",
@@ -330,7 +515,13 @@
       "vyskyt_RO_2025": [
         13,
         22
-      ]
+      ],
+      "ares": {
+        "stav": "aktivní",
+        "obchodni_jmeno": "Hokejbalový klub Vsetín, z.s.",
+        "pravni_forma": "706",
+        "sidlo": "Dolní Jasenka 770, 75501 Vsetín"
+      }
     },
     {
       "ico": "60609249",
@@ -339,7 +530,13 @@
       "adresa": null,
       "vyskyt_RO_2025": [
         21
-      ]
+      ],
+      "ares": {
+        "stav": "aktivní",
+        "obchodni_jmeno": "Mateřská škola Vsetín, Ohrada 1879, příspěvková organizace",
+        "pravni_forma": "331",
+        "sidlo": "Ohrada 1879, 75501 Vsetín"
+      }
     },
     {
       "ico": "60042389",
@@ -348,7 +545,13 @@
       "adresa": null,
       "vyskyt_RO_2025": [
         21
-      ]
+      ],
+      "ares": {
+        "stav": "aktivní",
+        "obchodni_jmeno": "Mateřská škola Vsetín, Benátky 1175, příspěvková organizace",
+        "pravni_forma": "331",
+        "sidlo": "Benátky 1175, 75501 Vsetín"
+      }
     },
     {
       "ico": "60042362",
@@ -357,7 +560,13 @@
       "adresa": null,
       "vyskyt_RO_2025": [
         21
-      ]
+      ],
+      "ares": {
+        "stav": "aktivní",
+        "obchodni_jmeno": "Mateřská škola Vsetín, Sychrov 96, příspěvková organizace",
+        "pravni_forma": "331",
+        "sidlo": "MUDr. Františka Sovy 96, 75501 Vsetín"
+      }
     },
     {
       "ico": "24726443",
@@ -366,7 +575,13 @@
       "adresa": "Na Maninách 1092/20, Praha 7",
       "vyskyt_RO_2025": [
         21
-      ]
+      ],
+      "ares": {
+        "stav": "aktivní",
+        "obchodni_jmeno": "FUSION ARCHITECTS s.r.o.",
+        "pravni_forma": "112",
+        "sidlo": "Na Maninách 1092/20, Holešovice, 17000 Praha 7"
+      }
     },
     {
       "ico": "43964532",
@@ -375,7 +590,13 @@
       "adresa": "Poručíka Hoši 512/2a, Kozmice",
       "vyskyt_RO_2025": [
         21
-      ]
+      ],
+      "ares": {
+        "stav": "aktivní",
+        "obchodni_jmeno": "FORM, spol. s r.o.",
+        "pravni_forma": "112",
+        "sidlo": "Poručíka Hoši 512/2a, 74711 Kozmice"
+      }
     },
     {
       "ico": "25835661",
@@ -384,7 +605,13 @@
       "adresa": "Bobrky 382, Vsetín",
       "vyskyt_RO_2025": [
         21
-      ]
+      ],
+      "ares": {
+        "stav": "aktivní",
+        "obchodni_jmeno": "H  & B delta, s.r.o.",
+        "pravni_forma": "112",
+        "sidlo": "Bobrky 382, 75501 Vsetín"
+      }
     },
     {
       "ico": "64086712",
@@ -393,7 +620,13 @@
       "adresa": "Rokytnice 194, Vsetín",
       "vyskyt_RO_2024": [
         6
-      ]
+      ],
+      "ares": {
+        "stav": "aktivní",
+        "obchodni_jmeno": "VASMO s.r.o.",
+        "pravni_forma": "112",
+        "sidlo": "Rokytnice 194, Rokytnice, 75501 Vsetín"
+      }
     },
     {
       "ico": "26805375",
@@ -402,7 +635,13 @@
       "adresa": "Družstevní 1180, Vsetín",
       "vyskyt_RO_2024": [
         6
-      ]
+      ],
+      "ares": {
+        "stav": "aktivní",
+        "obchodni_jmeno": "JH KOVO s.r.o.",
+        "pravni_forma": "112",
+        "sidlo": "Družstevní 1180, 75501 Vsetín"
+      }
     },
     {
       "ico": "19957050",
@@ -411,21 +650,39 @@
       "adresa": null,
       "vyskyt_RO_2024": [
         18
-      ]
+      ],
+      "ares": {
+        "stav": "aktivní",
+        "obchodni_jmeno": "Stomatologické centrum Univerzitní s.r.o.",
+        "pravni_forma": "112",
+        "sidlo": "Univerzitní 231/14, 77900 Olomouc"
+      }
     },
     {
       "ico": "00533815",
       "nazev": "Tělovýchovná jednota MEZ Vsetín – spolek",
       "role": "prodávající – Objekt Tribuna a pozemky Na Ohradě, 33 150 000 Kč",
       "adresa": "Mostecká 367, Vsetín",
-      "zdroj": "34/18/ZM/2025; RO 4/2025"
+      "zdroj": "34/18/ZM/2025; RO 4/2025",
+      "ares": {
+        "stav": "aktivní",
+        "obchodni_jmeno": "Tělovýchovná jednota MEZ Vsetín, spolek",
+        "pravni_forma": "706",
+        "sidlo": "Mostecká 367, 75501 Vsetín"
+      }
     },
     {
       "ico": "47674652",
       "nazev": "Vodovody a kanalizace Vsetín, a.s.",
       "role": "smluvní strana (ZM 12/2024)",
       "adresa": "Jasenická 1106, Vsetín",
-      "zdroj": "ZM 22.4.2024"
+      "zdroj": "ZM 22.4.2024",
+      "ares": {
+        "stav": "aktivní",
+        "obchodni_jmeno": "Vodovody a kanalizace Vsetín, a.s.",
+        "pravni_forma": "121",
+        "sidlo": "Jasenická 1106, 75501 Vsetín"
+      }
     },
     {
       "ico": "26863081",
@@ -433,7 +690,17 @@
       "role": "peněžitý vklad 3,6 mil. Kč (RO 21/2023); 'Dohoda o narovnání AERV' 3 848 880 Kč (RO 8/2023)",
       "zdroj": "RO 8/2023, RO 21/2023",
       "k_overeni": "IČO, vlastnická struktura, předmět narovnání",
-      "adresa": "Horní náměstí 3, Vsetín"
+      "adresa": "Horní náměstí 3, Vsetín",
+      "ares": {
+        "stav": "zaniklý",
+        "obchodni_jmeno": "Agentura pro ekonomický rozvoj Vsetínska, o.p.s. v likvidaci",
+        "pravni_forma": "141",
+        "sidlo": "Horní náměstí 3, 75501 Vsetín",
+        "zakladatel": "Město Vsetín (IČO 00304450) – jediný zakladatel",
+        "zruseni": "rozhodnutí správní rady 11. 10. 2023, zrušena k 31. 12. 2023; likvidace od 1. 1. 2024",
+        "vymaz_z_rejstriku": "2024-12-18 (po skončené likvidaci, KS Ostrava O 200)",
+        "zdroj": "ARES – veřejný rejstřík (ekonomicke-subjekty-vr/26863081)"
+      }
     },
     {
       "ico": "19690711",
@@ -441,63 +708,138 @@
       "role": "zápůjčka 1 000 000 Kč + vklad 1 000 Kč (RO 13/2023) – zřejmě nově založená městská společnost",
       "zdroj": "RO 13/2023",
       "k_overeni": "IČO, účel (DN = ?)",
-      "adresa": "Smetanova 1484, Vsetín"
+      "adresa": "Smetanova 1484, Vsetín",
+      "ares": {
+        "stav": "aktivní",
+        "obchodni_jmeno": "DN Vsetín s.r.o.",
+        "pravni_forma": "112",
+        "sidlo": "Smetanova 1484, 75501 Vsetín"
+      }
     },
     {
       "ico": "62587978",
       "nazev": "VERA, spol. s r.o. (dle ORG kódu – k ověření)",
       "role": "Rozšíření IS Radnice VERA 475 000 Kč",
-      "zdroj": "RO 13/2023"
+      "zdroj": "RO 13/2023",
+      "ares": {
+        "stav": "aktivní",
+        "obchodni_jmeno": "VERA, spol. s r.o.",
+        "pravni_forma": "112",
+        "sidlo": "Lužná 716/2, Vokovice, 16000 Praha 6"
+      }
     },
     {
       "ico": null,
       "nazev": "Farní sbor Českobratrské církve evangelické (Vsetín)",
       "role": "dotace ZM 600 000 Kč",
-      "zdroj": "RO 5/2023"
+      "zdroj": "RO 5/2023",
+      "ico_kandidati": [
+        {
+          "ico": "47658657",
+          "nazev": "… ve Vsetíně (horní sbor)"
+        },
+        {
+          "ico": "47659068",
+          "nazev": "… ve Vsetíně (dolní sbor)"
+        }
+      ],
+      "ares": {
+        "stav": "nejednoznačné – ve Vsetíně jsou dva farní sbory ČCE; ze zdroje nelze určit který"
+      }
     },
     {
-      "ico": null,
+      "ico": "29198950",
       "nazev": "MUNIPOLIS (mobilní rozhlas)",
       "role": "služba mobilního rozhlasu, navýšení 28 615 Kč",
-      "zdroj": "RO 8/2023"
+      "zdroj": "RO 8/2023",
+      "ico_zdroj": "ARES – jednoznačná shoda názvu (doplněno 2026-10-23)",
+      "ares": {
+        "stav": "aktivní",
+        "obchodni_jmeno": "MUNIPOLIS s.r.o.",
+        "pravni_forma": "112",
+        "sidlo": "Londýnské náměstí 886/4, Štýřice, 63900 Brno"
+      }
     },
     {
       "ico": "73257958",
       "nazev": "Martin Urban",
       "role": "zhotovitel – rozšíření hřbitova/kolumbárium, SoD 46 920 679 Kč s DPH (2026)",
-      "adresa": "Lhota u Vsetína 10"
+      "adresa": "Lhota u Vsetína 10",
+      "ares": {
+        "stav": "aktivní",
+        "obchodni_jmeno": "Martin Urban",
+        "pravni_forma": "107",
+        "sidlo": "Horní Jasenka 315, 75501 Vsetín"
+      }
     },
     {
-      "ico": null,
+      "ico": "23287152",
       "nazev": "Damostis s.r.o.",
-      "role": "diagnostika lávky Vs-01-Bel 532 279 Kč (2026)"
+      "role": "diagnostika lávky Vs-01-Bel 532 279 Kč (2026)",
+      "ico_zdroj": "ARES – jednoznačná shoda názvu (doplněno 2026-10-23)",
+      "ares": {
+        "stav": "aktivní",
+        "obchodni_jmeno": "Damostis s.r.o.",
+        "pravni_forma": "112",
+        "sidlo": "Nové sady 988/2, Staré Brno, 60200 Brno"
+      }
     },
     {
       "ico": "26944022",
       "nazev": "Mitrenga-stavby, spol. s r.o.",
-      "role": "zhotovitel lávky Vs-04-Bel (83,47 mil. s DPH, 2025) a opravy lávky Vs-01-Bel (11,42 mil., 2026)"
+      "role": "zhotovitel lávky Vs-04-Bel (83,47 mil. s DPH, 2025) a opravy lávky Vs-01-Bel (11,42 mil., 2026)",
+      "ares": {
+        "stav": "aktivní",
+        "obchodni_jmeno": "Mitrenga-stavby, spol. s r.o.",
+        "pravni_forma": "112",
+        "sidlo": "Křižíkova 1566/19, Královo Pole, 61200 Brno"
+      }
     },
     {
       "ico": "25317628",
       "nazev": "FIRESTA-Fišer, rekonstrukce, stavby a.s.",
-      "role": "uchazeč – oprava lávky Vs-01-Bel (2026)"
+      "role": "uchazeč – oprava lávky Vs-01-Bel (2026)",
+      "ares": {
+        "stav": "aktivní",
+        "obchodni_jmeno": "FIRESTA-Fišer, rekonstrukce, stavby a.s.",
+        "pravni_forma": "121",
+        "sidlo": "Mlýnská 388/68, Trnitá, 60200 Brno"
+      }
     },
     {
       "ico": "27752771",
       "nazev": "SPORT Construction a.s.",
-      "role": "zhotovitel Hřiště Pod Pecníkem 11 999 917 Kč bez DPH (předp. 12 mil.)"
+      "role": "zhotovitel Hřiště Pod Pecníkem 11 999 917 Kč bez DPH (předp. 12 mil.)",
+      "ares": {
+        "stav": "aktivní",
+        "obchodni_jmeno": "SPORT Construction a.s.",
+        "pravni_forma": "121",
+        "sidlo": "Újezd 450/40, Malá Strana, 11800 Praha 1"
+      }
     },
     {
       "ico": "25860852",
       "nazev": "JASY Vsetín s.r.o.",
-      "role": "zhotovitel VZT Městské lázně 9,38 mil. bez DPH (2026)"
+      "role": "zhotovitel VZT Městské lázně 9,38 mil. bez DPH (2026)",
+      "ares": {
+        "stav": "aktivní",
+        "obchodni_jmeno": "JASY Vsetín s.r.o.",
+        "pravni_forma": "112",
+        "sidlo": "4. května 353, 75501 Vsetín"
+      }
     },
     {
       "ico": "26782596",
       "nazev": "Technické služby Vsetín, s.r.o.",
       "role": "dodavatel – svoz a nakládání s komunálním odpadem (smlouva 695/1S/2022)",
       "adresa": "Bobrky 460, 755 01 Vsetín",
-      "pozn": "Obchodní společnost; nezaměňovat s Technickými službami města Vsetína (p.o.). Vlastnická struktura k ověření v OR."
+      "pozn": "Obchodní společnost; nezaměňovat s Technickými službami města Vsetína (p.o.). Vlastnická struktura k ověření v OR.",
+      "ares": {
+        "stav": "aktivní",
+        "obchodni_jmeno": "Technické služby Vsetín, s.r.o.",
+        "pravni_forma": "112",
+        "sidlo": "Bobrky 460, 75501 Vsetín"
+      }
     }
   ],
   "vazby_k_overeni": [
@@ -510,6 +852,11 @@
       "typ": "darce→dodavatel",
       "ico": "25835661",
       "popis": "H & B delta, s.r.o.: dar MVK 12/2025 → dodavatel FVE ZŠ Ohrada 07–10/2026."
+    },
+    {
+      "typ": "městská o.p.s. – zrušení",
+      "ico": "26863081",
+      "popis": "AERV o.p.s. (jediný zakladatel Město Vsetín) byla rozhodnutím správní rady 11. 10. 2023 zrušena k 31. 12. 2023, likvidace 2024, výmaz z OR 18. 12. 2024 (ARES-VR). Ve stejném roce město uhradilo 'Dohodu o narovnání AERV' 3 848 880 Kč (RO 8/2023) a peněžitý vklad 3,6 mil. Kč (RO 21/2023). K ověření: účel vkladu do rušené společnosti, předmět narovnání, likvidační zůstatek a jeho vrácení městu, osud nájemní smlouvy 4836/1S/2012."
     }
   ],
   "osoby_z_verejnych_dokumentu": [

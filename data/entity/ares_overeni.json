@@ -1,0 +1,1291 @@
+{
+ "schema": "vsetin-osint/ares-overeni@1",
+ "zdroj": "ARES REST API (ares.gov.cz), ekonomické subjekty",
+ "stav_k": "2026-10-23 10:47 SELČ",
+ "metoda": "IČO z polí ico/ico_* a z textu 'IČO NNNNNNNN' ve všech data/**/*.json; kontrolní číslice mod 11; dotaz ARES.",
+ "pocet": 74,
+ "souhrn": {
+  "v_ares": 72,
+  "nenalezeno": [
+   "60042354"
+  ],
+  "chybna_kontrolni_cislice": [],
+  "zanikle": [
+   "26863081"
+  ]
+ },
+ "subjekty": [
+  {
+   "ico": "00001350",
+   "kontrolni_cislice_ok": true,
+   "soubory": [
+    "data/smlouvy/uver_CSOB_2026.json"
+   ],
+   "nazvy_v_datech": [],
+   "ares_http": 200,
+   "obchodni_jmeno": "Československá obchodní banka, a. s.",
+   "pravni_forma": "121",
+   "sidlo": "Radlická 333/150, Radlice, 15000 Praha 5",
+   "datum_vzniku": "1964-12-21",
+   "datum_zaniku": null,
+   "datum_aktualizace_ares": "2026-07-04"
+  },
+  {
+   "ico": "00304450",
+   "kontrolni_cislice_ok": true,
+   "soubory": [
+    "data/entity/subjekty.json",
+    "data/entity/vr_organy_mestske_spolecnosti_2026-10-23.json",
+    "data/integrace/evidence_stazeni.json",
+    "data/integrace/stav_zdroju_2026-10-23.json",
+    "data/kauzy/K-002_tribuna_ohrada_TJ_MEZ.json",
+    "data/monitor/finm_2026_08_vsetin_souhrn.json",
+    "data/monitor/finm_rada_2020_2025_vsetin.json",
+    "data/monitor/kontrola_RO_8115_monitor.json"
+   ],
+   "nazvy_v_datech": [
+    "Město Vsetín"
+   ],
+   "ares_http": 200,
+   "obchodni_jmeno": "Město Vsetín",
+   "pravni_forma": "801",
+   "sidlo": "Svárov 1080, 75501 Vsetín",
+   "datum_vzniku": null,
+   "datum_zaniku": null,
+   "datum_aktualizace_ares": "2026-04-22"
+  },
+  {
+   "ico": "00533815",
+   "kontrolni_cislice_ok": true,
+   "soubory": [
+    "data/entity/subjekty.json",
+    "data/kauzy/K-002_tribuna_ohrada_TJ_MEZ.json",
+    "data/usneseni/usneseni_vazby_RO.json"
+   ],
+   "nazvy_v_datech": [
+    "Tělovýchovná jednota MEZ Vsetín – spolek"
+   ],
+   "ares_http": 200,
+   "obchodni_jmeno": "Tělovýchovná jednota MEZ Vsetín, spolek",
+   "pravni_forma": "706",
+   "sidlo": "Mostecká 367, 75501 Vsetín",
+   "datum_vzniku": "1990-05-25",
+   "datum_zaniku": null,
+   "datum_aktualizace_ares": "2026-06-03"
+  },
+  {
+   "ico": "00536024",
+   "kontrolni_cislice_ok": true,
+   "soubory": [
+    "data/entity/subjekty.json",
+    "data/entity/vr_organy_mestske_spolecnosti_2026-10-23.json"
+   ],
+   "nazvy_v_datech": [
+    "TJ Zbrojovka Vsetín, z.s."
+   ],
+   "ares_http": 200,
+   "obchodni_jmeno": "TJ Zbrojovka Vsetín, z.s.",
+   "pravni_forma": "706",
+   "sidlo": "Tyršova 1456, 75501 Vsetín",
+   "datum_vzniku": "1990-05-23",
+   "datum_zaniku": null,
+   "datum_aktualizace_ares": "2026-10-03"
+  },
+  {
+   "ico": "00851817",
+   "kontrolni_cislice_ok": true,
+   "soubory": [
+    "data/entity/subjekty.json"
+   ],
+   "nazvy_v_datech": [
+    "Masarykova veřejná knihovna Vsetín, p. o."
+   ],
+   "ares_http": 200,
+   "obchodni_jmeno": "Masarykova veřejná knihovna Vsetín, příspěvková organizace",
+   "pravni_forma": "331",
+   "sidlo": "Dolní náměstí 1356, 75501 Vsetín",
+   "datum_vzniku": "1993-01-01",
+   "datum_zaniku": null,
+   "datum_aktualizace_ares": "2026-07-29"
+  },
+  {
+   "ico": "02536986",
+   "kontrolni_cislice_ok": true,
+   "soubory": [
+    "data/entity/subjekty.json"
+   ],
+   "nazvy_v_datech": [
+    "MDDr. Helena Kozárková"
+   ],
+   "ares_http": 200,
+   "obchodni_jmeno": "MDDr. Helena Kozárková",
+   "pravni_forma": "105",
+   "sidlo": "Rokytnice 413, Rokytnice, 75501 Vsetín",
+   "datum_vzniku": "2014-03-01",
+   "datum_zaniku": null,
+   "datum_aktualizace_ares": "2025-11-16"
+  },
+  {
+   "ico": "03642259",
+   "kontrolni_cislice_ok": true,
+   "soubory": [
+    "data/entity/subjekty.json"
+   ],
+   "nazvy_v_datech": [
+    "UNITED 3P, z. s."
+   ],
+   "ares_http": 200,
+   "obchodni_jmeno": "UNITED 3P, z. s.",
+   "pravni_forma": "706",
+   "sidlo": "Podsedky 950, 75501 Vsetín",
+   "datum_vzniku": "2014-12-18",
+   "datum_zaniku": null,
+   "datum_aktualizace_ares": "2025-05-22"
+  },
+  {
+   "ico": "04501624",
+   "kontrolni_cislice_ok": true,
+   "soubory": [
+    "data/zakazky/verejne_zakazky.json"
+   ],
+   "nazvy_v_datech": [
+    "DCI Czech a.s."
+   ],
+   "ares_http": 200,
+   "obchodni_jmeno": "DCI Czech a.s.",
+   "pravni_forma": "121",
+   "sidlo": "Štěrboholská 1404/104, Hostivař, 10200 Praha 10",
+   "datum_vzniku": "2015-10-21",
+   "datum_zaniku": null,
+   "datum_aktualizace_ares": "2026-08-26"
+  },
+  {
+   "ico": "06110266",
+   "kontrolni_cislice_ok": true,
+   "soubory": [
+    "data/zakazky/sluzba_senior_taxi.json"
+   ],
+   "nazvy_v_datech": [],
+   "ares_http": 200,
+   "obchodni_jmeno": "QUICK Transport Zlín s.r.o.",
+   "pravni_forma": "112",
+   "sidlo": "U Josefa 152, Cihelna, 53009 Pardubice",
+   "datum_vzniku": "2017-05-17",
+   "datum_zaniku": null,
+   "datum_aktualizace_ares": "2026-09-23"
+  },
+  {
+   "ico": "16361539",
+   "kontrolni_cislice_ok": true,
+   "soubory": [
+    "data/entity/subjekty.json"
+   ],
+   "nazvy_v_datech": [
+    "SEVEZA spol. s r.o."
+   ],
+   "ares_http": 200,
+   "obchodni_jmeno": "SEVEZA spol. s r.o.",
+   "pravni_forma": "112",
+   "sidlo": "č.p. 365, 68703 Huštěnovice",
+   "datum_vzniku": "1991-09-16",
+   "datum_zaniku": null,
+   "datum_aktualizace_ares": "2026-10-05"
+  },
+  {
+   "ico": "17331099",
+   "kontrolni_cislice_ok": true,
+   "soubory": [
+    "data/zakazky/verejne_zakazky.json"
+   ],
+   "nazvy_v_datech": [
+    "MI Roads a.s."
+   ],
+   "ares_http": 200,
+   "obchodni_jmeno": "MI Roads a.s.",
+   "pravni_forma": "121",
+   "sidlo": "Koželužská 2450/4, Libeň, 18000 Praha 8",
+   "datum_vzniku": "2022-07-14",
+   "datum_zaniku": null,
+   "datum_aktualizace_ares": "2026-08-01"
+  },
+  {
+   "ico": "19690711",
+   "kontrolni_cislice_ok": true,
+   "soubory": [
+    "data/entity/subjekty.json",
+    "data/entity/vr_organy_mestske_spolecnosti_2026-10-23.json",
+    "data/smlouvy/parovani_akci.json"
+   ],
+   "nazvy_v_datech": [
+    "DN Vsetín s.r.o."
+   ],
+   "ares_http": 200,
+   "obchodni_jmeno": "DN Vsetín s.r.o.",
+   "pravni_forma": "112",
+   "sidlo": "Smetanova 1484, 75501 Vsetín",
+   "datum_vzniku": "2023-09-05",
+   "datum_zaniku": null,
+   "datum_aktualizace_ares": "2026-07-03"
+  },
+  {
+   "ico": "19957050",
+   "kontrolni_cislice_ok": true,
+   "soubory": [
+    "data/entity/subjekty.json"
+   ],
+   "nazvy_v_datech": [
+    "Stomatologické centrum Univerzitní s.r.o."
+   ],
+   "ares_http": 200,
+   "obchodni_jmeno": "Stomatologické centrum Univerzitní s.r.o.",
+   "pravni_forma": "112",
+   "sidlo": "Univerzitní 231/14, 77900 Olomouc",
+   "datum_vzniku": "2023-11-24",
+   "datum_zaniku": null,
+   "datum_aktualizace_ares": "2026-03-19"
+  },
+  {
+   "ico": "22233300",
+   "kontrolni_cislice_ok": true,
+   "soubory": [
+    "data/entity/subjekty.json"
+   ],
+   "nazvy_v_datech": [
+    "MDDr. Daniel Sušeň s.r.o."
+   ],
+   "ares_http": 200,
+   "obchodni_jmeno": "MDDr. Daniel Sušeň s.r.o.",
+   "pravni_forma": "112",
+   "sidlo": "Josefa Sousedíka 1432, 75501 Vsetín",
+   "datum_vzniku": "2024-11-06",
+   "datum_zaniku": null,
+   "datum_aktualizace_ares": "2026-05-03"
+  },
+  {
+   "ico": "22676759",
+   "kontrolni_cislice_ok": true,
+   "soubory": [
+    "data/entity/vr_organy_mestske_spolecnosti_2026-10-23.json"
+   ],
+   "nazvy_v_datech": [
+    "VALAŠSKÝ HOKEJOVÝ KLUB, z. s."
+   ],
+   "ares_http": 200,
+   "obchodni_jmeno": "VALAŠSKÝ HOKEJOVÝ KLUB, z. s.",
+   "pravni_forma": "706",
+   "sidlo": "Na Lapači 394, Rokytnice, 75501 Vsetín",
+   "datum_vzniku": "2008-04-04",
+   "datum_zaniku": null,
+   "datum_aktualizace_ares": "2026-10-05"
+  },
+  {
+   "ico": "22851593",
+   "kontrolni_cislice_ok": true,
+   "soubory": [
+    "data/entity/subjekty.json"
+   ],
+   "nazvy_v_datech": [
+    "Cyklostezka Bečva, z.s."
+   ],
+   "ares_http": 200,
+   "obchodni_jmeno": "Cyklostezka Bečva, z.s.",
+   "pravni_forma": "706",
+   "sidlo": "Boční 551, 78372 Velký Týnec",
+   "datum_vzniku": "2010-10-22",
+   "datum_zaniku": null,
+   "datum_aktualizace_ares": "2026-08-21"
+  },
+  {
+   "ico": "23287152",
+   "kontrolni_cislice_ok": true,
+   "soubory": [
+    "data/entity/subjekty.json"
+   ],
+   "nazvy_v_datech": [
+    "Damostis s.r.o."
+   ],
+   "ares_http": 200,
+   "obchodni_jmeno": "Damostis s.r.o.",
+   "pravni_forma": "112",
+   "sidlo": "Nové sady 988/2, Staré Brno, 60200 Brno",
+   "datum_vzniku": "2025-05-28",
+   "datum_zaniku": null,
+   "datum_aktualizace_ares": "2026-08-02"
+  },
+  {
+   "ico": "24726443",
+   "kontrolni_cislice_ok": true,
+   "soubory": [
+    "data/entity/subjekty.json"
+   ],
+   "nazvy_v_datech": [
+    "FUSION Architects s.r.o."
+   ],
+   "ares_http": 200,
+   "obchodni_jmeno": "FUSION ARCHITECTS s.r.o.",
+   "pravni_forma": "112",
+   "sidlo": "Na Maninách 1092/20, Holešovice, 17000 Praha 7",
+   "datum_vzniku": "2010-09-01",
+   "datum_zaniku": null,
+   "datum_aktualizace_ares": "2026-10-22"
+  },
+  {
+   "ico": "25114638",
+   "kontrolni_cislice_ok": true,
+   "soubory": [
+    "data/entity/subjekty.json"
+   ],
+   "nazvy_v_datech": [
+    "Kayaku Safety Systems Europe a. s."
+   ],
+   "ares_http": 200,
+   "obchodni_jmeno": "Kayaku Safety Systems Europe a.s.",
+   "pravni_forma": "121",
+   "sidlo": "Bobrky 2271, 75501 Vsetín",
+   "datum_vzniku": "1997-03-20",
+   "datum_zaniku": null,
+   "datum_aktualizace_ares": "2026-10-20"
+  },
+  {
+   "ico": "25301144",
+   "kontrolni_cislice_ok": true,
+   "soubory": [
+    "data/zakazky/verejne_zakazky.json"
+   ],
+   "nazvy_v_datech": [
+    "Navláčil stavební firma, s.r.o."
+   ],
+   "ares_http": 200,
+   "obchodni_jmeno": "Navláčil stavební firma, s.r.o.",
+   "pravni_forma": "112",
+   "sidlo": "Bartošova 5532, 76001 Zlín",
+   "datum_vzniku": "1996-05-31",
+   "datum_zaniku": null,
+   "datum_aktualizace_ares": "2026-05-23"
+  },
+  {
+   "ico": "25317628",
+   "kontrolni_cislice_ok": true,
+   "soubory": [
+    "data/entity/subjekty.json",
+    "data/zakazky/verejne_zakazky.json"
+   ],
+   "nazvy_v_datech": [
+    "FIRESTA-Fišer, rekonstrukce, stavby a.s."
+   ],
+   "ares_http": 200,
+   "obchodni_jmeno": "FIRESTA-Fišer, rekonstrukce, stavby a.s.",
+   "pravni_forma": "121",
+   "sidlo": "Mlýnská 388/68, Trnitá, 60200 Brno",
+   "datum_vzniku": "1996-11-20",
+   "datum_zaniku": null,
+   "datum_aktualizace_ares": "2025-11-17"
+  },
+  {
+   "ico": "25396269",
+   "kontrolni_cislice_ok": true,
+   "soubory": [
+    "data/entity/subjekty.json"
+   ],
+   "nazvy_v_datech": [
+    "SIDAR-plus s.r.o."
+   ],
+   "ares_http": 200,
+   "obchodni_jmeno": "SIDAR - plus s.r.o.",
+   "pravni_forma": "112",
+   "sidlo": "V Zahrádkách č.ev. 24, 75501 Vsetín",
+   "datum_vzniku": "1998-04-23",
+   "datum_zaniku": null,
+   "datum_aktualizace_ares": "2026-03-19"
+  },
+  {
+   "ico": "25399985",
+   "kontrolni_cislice_ok": true,
+   "soubory": [
+    "data/entity/vr_organy_mestske_spolecnosti_2026-10-23.json"
+   ],
+   "nazvy_v_datech": [
+    "VHK Vsetín s.r.o."
+   ],
+   "ares_http": 200,
+   "obchodni_jmeno": "VHK Vsetín s.r.o.",
+   "pravni_forma": "112",
+   "sidlo": "Na Lapači 394, Rokytnice, 75501 Vsetín",
+   "datum_vzniku": "1998-05-28",
+   "datum_zaniku": null,
+   "datum_aktualizace_ares": "2026-08-02"
+  },
+  {
+   "ico": "25835661",
+   "kontrolni_cislice_ok": true,
+   "soubory": [
+    "data/entity/subjekty.json",
+    "data/smlouvy/parovani_akci.json"
+   ],
+   "nazvy_v_datech": [
+    "H & B delta, s.r.o."
+   ],
+   "ares_http": 200,
+   "obchodni_jmeno": "H  & B delta, s.r.o.",
+   "pravni_forma": "112",
+   "sidlo": "Bobrky 382, 75501 Vsetín",
+   "datum_vzniku": "1999-04-26",
+   "datum_zaniku": null,
+   "datum_aktualizace_ares": "2026-03-18"
+  },
+  {
+   "ico": "25845420",
+   "kontrolni_cislice_ok": true,
+   "soubory": [
+    "data/entity/subjekty.json"
+   ],
+   "nazvy_v_datech": [
+    "LPT System, s.r.o."
+   ],
+   "ares_http": 200,
+   "obchodni_jmeno": "LPT System, s.r.o.",
+   "pravni_forma": "112",
+   "sidlo": "Jasenická 1734, 75501 Vsetín",
+   "datum_vzniku": "1999-10-12",
+   "datum_zaniku": null,
+   "datum_aktualizace_ares": "2026-07-30"
+  },
+  {
+   "ico": "25860852",
+   "kontrolni_cislice_ok": true,
+   "soubory": [
+    "data/entity/subjekty.json",
+    "data/zakazky/verejne_zakazky.json"
+   ],
+   "nazvy_v_datech": [
+    "JASY Vsetín s.r.o."
+   ],
+   "ares_http": 200,
+   "obchodni_jmeno": "JASY Vsetín s.r.o.",
+   "pravni_forma": "112",
+   "sidlo": "4. května 353, 75501 Vsetín",
+   "datum_vzniku": "2000-07-14",
+   "datum_zaniku": null,
+   "datum_aktualizace_ares": "2026-10-03"
+  },
+  {
+   "ico": "25869523",
+   "kontrolni_cislice_ok": true,
+   "soubory": [
+    "data/zakazky/verejne_zakazky.json"
+   ],
+   "nazvy_v_datech": [
+    "IDS - Inženýrské a dopravní stavby Olomouc a.s."
+   ],
+   "ares_http": 200,
+   "obchodni_jmeno": "IDS - Inženýrské a dopravní stavby Olomouc a.s.",
+   "pravni_forma": "121",
+   "sidlo": "Albertova 229/21, Nová Ulice, 77900 Olomouc",
+   "datum_vzniku": "2000-12-31",
+   "datum_zaniku": null,
+   "datum_aktualizace_ares": "2026-10-03"
+  },
+  {
+   "ico": "26257424",
+   "kontrolni_cislice_ok": true,
+   "soubory": [
+    "data/zakazky/verejne_zakazky.json"
+   ],
+   "nazvy_v_datech": [
+    "Prosportiva, s.r.o."
+   ],
+   "ares_http": 200,
+   "obchodni_jmeno": "PROSPORTIVA  s.r.o.",
+   "pravni_forma": "112",
+   "sidlo": "náměstí Republiky 97/9, Vnitřní Město, 30100 Plzeň",
+   "datum_vzniku": "2001-08-15",
+   "datum_zaniku": null,
+   "datum_aktualizace_ares": "2026-05-03"
+  },
+  {
+   "ico": "26378191",
+   "kontrolni_cislice_ok": true,
+   "soubory": [
+    "data/entity/subjekty.json"
+   ],
+   "nazvy_v_datech": [
+    "ČEZNET, s.r.o. (pobočka INTERNEXT)"
+   ],
+   "ares_http": 200,
+   "obchodni_jmeno": "ČEZNET s.r.o.",
+   "pravni_forma": "112",
+   "sidlo": "Duhová 1531/3, Michle, 14000 Praha 4",
+   "datum_vzniku": "2005-09-20",
+   "datum_zaniku": null,
+   "datum_aktualizace_ares": "2026-10-21"
+  },
+  {
+   "ico": "26686503",
+   "kontrolni_cislice_ok": true,
+   "soubory": [
+    "data/entity/subjekty.json"
+   ],
+   "nazvy_v_datech": [
+    "M.O.Z. Consult s. r. o."
+   ],
+   "ares_http": 200,
+   "obchodni_jmeno": "M.O.Z. Consult s.r.o.",
+   "pravni_forma": "112",
+   "sidlo": "Radimova 2342/36, Břevnov, 16900 Praha 6",
+   "datum_vzniku": "2002-03-18",
+   "datum_zaniku": null,
+   "datum_aktualizace_ares": "2026-04-22"
+  },
+  {
+   "ico": "26782596",
+   "kontrolni_cislice_ok": true,
+   "soubory": [
+    "data/entity/subjekty.json",
+    "data/entity/vr_organy_mestske_spolecnosti_2026-10-23.json",
+    "data/zakazky/odpad_svoz.json"
+   ],
+   "nazvy_v_datech": [
+    "Technické služby Vsetín, s.r.o."
+   ],
+   "ares_http": 200,
+   "obchodni_jmeno": "Technické služby Vsetín, s.r.o.",
+   "pravni_forma": "112",
+   "sidlo": "Bobrky 460, 75501 Vsetín",
+   "datum_vzniku": "2002-08-22",
+   "datum_zaniku": null,
+   "datum_aktualizace_ares": "2026-06-04"
+  },
+  {
+   "ico": "26805375",
+   "kontrolni_cislice_ok": true,
+   "soubory": [
+    "data/entity/subjekty.json"
+   ],
+   "nazvy_v_datech": [
+    "JH KOVO s.r.o."
+   ],
+   "ares_http": 200,
+   "obchodni_jmeno": "JH KOVO s.r.o.",
+   "pravni_forma": "112",
+   "sidlo": "Družstevní 1180, 75501 Vsetín",
+   "datum_vzniku": "2003-04-28",
+   "datum_zaniku": null,
+   "datum_aktualizace_ares": "2026-01-16"
+  },
+  {
+   "ico": "26863057",
+   "kontrolni_cislice_ok": true,
+   "soubory": [
+    "data/zakazky/verejne_zakazky.json"
+   ],
+   "nazvy_v_datech": [
+    "REPONT s.r.o."
+   ],
+   "ares_http": 200,
+   "obchodni_jmeno": "REPONT s.r.o.",
+   "pravni_forma": "112",
+   "sidlo": "Hrachovec 245, 75701 Valašské Meziříčí",
+   "datum_vzniku": "2005-06-01",
+   "datum_zaniku": null,
+   "datum_aktualizace_ares": "2026-08-02"
+  },
+  {
+   "ico": "26863081",
+   "kontrolni_cislice_ok": true,
+   "soubory": [
+    "data/entity/subjekty.json",
+    "data/smlouvy/parovani_akci.json"
+   ],
+   "nazvy_v_datech": [
+    "Agentura pro ekonomický rozvoj Vsetínska, o.p.s."
+   ],
+   "ares_http": 404,
+   "zdroj_detail": "ekonomicke-subjekty-rzp/26863081",
+   "stav": "ZANIKLY",
+   "obchodni_jmeno": "Agentura pro ekonomický rozvoj Vsetínska, o.p.s. v likvidaci",
+   "pravni_forma": "141",
+   "datum_zaniku": "2024-02-22"
+  },
+  {
+   "ico": "26944022",
+   "kontrolni_cislice_ok": true,
+   "soubory": [
+    "data/entity/subjekty.json",
+    "data/kauzy/K-003_lavka_Vs-04-Bel.json",
+    "data/smlouvy/parovani_akci.json",
+    "data/zakazky/verejne_zakazky.json"
+   ],
+   "nazvy_v_datech": [
+    "Mitrenga-stavby, spol. s r.o."
+   ],
+   "ares_http": 200,
+   "obchodni_jmeno": "Mitrenga-stavby, spol. s r.o.",
+   "pravni_forma": "112",
+   "sidlo": "Křižíkova 1566/19, Královo Pole, 61200 Brno",
+   "datum_vzniku": "2004-11-10",
+   "datum_zaniku": null,
+   "datum_aktualizace_ares": "2026-08-08"
+  },
+  {
+   "ico": "27713130",
+   "kontrolni_cislice_ok": true,
+   "soubory": [
+    "data/zakazky/verejne_zakazky.json"
+   ],
+   "nazvy_v_datech": [
+    "PROSTAVBY, a.s."
+   ],
+   "ares_http": 200,
+   "obchodni_jmeno": "PROSTAVBY, a.s.",
+   "pravni_forma": "121",
+   "sidlo": "Dědina 447, 68354 Otnice",
+   "datum_vzniku": "2006-12-21",
+   "datum_zaniku": null,
+   "datum_aktualizace_ares": "2025-12-04"
+  },
+  {
+   "ico": "27752771",
+   "kontrolni_cislice_ok": true,
+   "soubory": [
+    "data/entity/subjekty.json",
+    "data/zakazky/verejne_zakazky.json"
+   ],
+   "nazvy_v_datech": [
+    "SPORT Construction a.s."
+   ],
+   "ares_http": 200,
+   "obchodni_jmeno": "SPORT Construction a.s.",
+   "pravni_forma": "121",
+   "sidlo": "Újezd 450/40, Malá Strana, 11800 Praha 1",
+   "datum_vzniku": "2007-11-14",
+   "datum_zaniku": null,
+   "datum_aktualizace_ares": "2025-12-24"
+  },
+  {
+   "ico": "27796477",
+   "kontrolni_cislice_ok": true,
+   "soubory": [
+    "data/entity/subjekty.json"
+   ],
+   "nazvy_v_datech": [
+    "OPEN RE-ECO, s.r.o."
+   ],
+   "ares_http": 200,
+   "obchodni_jmeno": "OPEN RE-ECO. s.r.o.",
+   "pravni_forma": "112",
+   "sidlo": "Jiráskova 2498, 75501 Vsetín",
+   "datum_vzniku": "2007-04-26",
+   "datum_zaniku": null,
+   "datum_aktualizace_ares": "2026-07-03"
+  },
+  {
+   "ico": "27822371",
+   "kontrolni_cislice_ok": true,
+   "soubory": [
+    "data/entity/subjekty.json"
+   ],
+   "nazvy_v_datech": [
+    "Trend gastronomie s.r.o."
+   ],
+   "ares_http": 200,
+   "obchodni_jmeno": "TREND gastronomie s.r.o.",
+   "pravni_forma": "112",
+   "sidlo": "Hluboké 657, 75501 Vsetín",
+   "datum_vzniku": "2007-12-28",
+   "datum_zaniku": null,
+   "datum_aktualizace_ares": "2024-01-17"
+  },
+  {
+   "ico": "28593987",
+   "kontrolni_cislice_ok": true,
+   "soubory": [
+    "data/entity/subjekty.json",
+    "data/entity/vr_organy_mestske_spolecnosti_2026-10-23.json"
+   ],
+   "nazvy_v_datech": [
+    "Vsetínská sportovní, s.r.o."
+   ],
+   "ares_http": 200,
+   "obchodni_jmeno": "Vsetínská sportovní, s.r.o.",
+   "pravni_forma": "112",
+   "sidlo": "Na Lapači 394, Rokytnice, 75501 Vsetín",
+   "datum_vzniku": "2009-07-20",
+   "datum_zaniku": null,
+   "datum_aktualizace_ares": "2026-09-04"
+  },
+  {
+   "ico": "29198950",
+   "kontrolni_cislice_ok": true,
+   "soubory": [
+    "data/entity/subjekty.json"
+   ],
+   "nazvy_v_datech": [
+    "MUNIPOLIS (mobilní rozhlas)"
+   ],
+   "ares_http": 200,
+   "obchodni_jmeno": "MUNIPOLIS s.r.o.",
+   "pravni_forma": "112",
+   "sidlo": "Londýnské náměstí 886/4, Štýřice, 63900 Brno",
+   "datum_vzniku": "2010-01-20",
+   "datum_zaniku": null,
+   "datum_aktualizace_ares": "2026-10-03"
+  },
+  {
+   "ico": "29453411",
+   "kontrolni_cislice_ok": true,
+   "soubory": [
+    "data/zaverecny_ucet/zaverecny_ucet_2023_2025.json"
+   ],
+   "nazvy_v_datech": [],
+   "ares_http": 200,
+   "obchodni_jmeno": "AUDIT TEAM, s.r.o.",
+   "pravni_forma": "112",
+   "sidlo": "Jeremenkova 1211/40b, Hodolany, 77900 Olomouc",
+   "datum_vzniku": "2012-10-01",
+   "datum_zaniku": null,
+   "datum_aktualizace_ares": "2025-12-05"
+  },
+  {
+   "ico": "41084837",
+   "kontrolni_cislice_ok": true,
+   "soubory": [
+    "data/entity/subjekty.json"
+   ],
+   "nazvy_v_datech": [
+    "ZETEX, spol. s r.o."
+   ],
+   "ares_http": 200,
+   "obchodni_jmeno": "ZETEX spol. s r.o.",
+   "pravni_forma": "112",
+   "sidlo": "Horní náměstí 3, 75501 Vsetín",
+   "datum_vzniku": "1991-07-23",
+   "datum_zaniku": null,
+   "datum_aktualizace_ares": "2026-07-10"
+  },
+  {
+   "ico": "42340802",
+   "kontrolni_cislice_ok": true,
+   "soubory": [
+    "data/zakazky/verejne_zakazky.json"
+   ],
+   "nazvy_v_datech": [
+    "KKS, spol. s r.o."
+   ],
+   "ares_http": 200,
+   "obchodni_jmeno": "KKS, spol. s r.o.",
+   "pravni_forma": "112",
+   "sidlo": "Příluky 386, 76001 Zlín",
+   "datum_vzniku": "1991-12-17",
+   "datum_zaniku": null,
+   "datum_aktualizace_ares": "2024-12-03"
+  },
+  {
+   "ico": "43964532",
+   "kontrolni_cislice_ok": true,
+   "soubory": [
+    "data/entity/subjekty.json"
+   ],
+   "nazvy_v_datech": [
+    "FORM, spol. s r.o."
+   ],
+   "ares_http": 200,
+   "obchodni_jmeno": "FORM, spol. s r.o.",
+   "pravni_forma": "112",
+   "sidlo": "Poručíka Hoši 512/2a, 74711 Kozmice",
+   "datum_vzniku": "1991-12-17",
+   "datum_zaniku": null,
+   "datum_aktualizace_ares": "2025-02-13"
+  },
+  {
+   "ico": "45192120",
+   "kontrolni_cislice_ok": true,
+   "soubory": [
+    "data/entity/subjekty.json"
+   ],
+   "nazvy_v_datech": [
+    "Z-Group bus a.s."
+   ],
+   "ares_http": 200,
+   "obchodni_jmeno": "Z-Group bus a.s.",
+   "pravni_forma": "121",
+   "sidlo": "Pasecká 3369, 76001 Zlín",
+   "datum_vzniku": "1992-04-30",
+   "datum_zaniku": null,
+   "datum_aktualizace_ares": "2026-09-15"
+  },
+  {
+   "ico": "45272956",
+   "kontrolni_cislice_ok": true,
+   "soubory": [
+    "data/entity/subjekty.json"
+   ],
+   "nazvy_v_datech": [
+    "Generali Česká pojišťovna a.s."
+   ],
+   "ares_http": 200,
+   "obchodni_jmeno": "Generali Česká pojišťovna a.s.",
+   "pravni_forma": "121",
+   "sidlo": "Spálená 75/16, Nové Město, 11000 Praha 1",
+   "datum_vzniku": "1992-05-01",
+   "datum_zaniku": null,
+   "datum_aktualizace_ares": "2026-06-05"
+  },
+  {
+   "ico": "46994955",
+   "kontrolni_cislice_ok": true,
+   "soubory": [
+    "data/zakazky/verejne_zakazky.json"
+   ],
+   "nazvy_v_datech": [
+    "INSTOP, spol. s r.o."
+   ],
+   "ares_http": 200,
+   "obchodni_jmeno": "INSTOP, spol. s r.o.",
+   "pravni_forma": "112",
+   "sidlo": "Obchodní 16, 76321 Slavičín",
+   "datum_vzniku": "1993-03-17",
+   "datum_zaniku": null,
+   "datum_aktualizace_ares": "2026-10-03"
+  },
+  {
+   "ico": "47658657",
+   "kontrolni_cislice_ok": true,
+   "soubory": [
+    "data/entity/subjekty.json"
+   ],
+   "nazvy_v_datech": [
+    "… ve Vsetíně (horní sbor)"
+   ],
+   "ares_http": 200,
+   "obchodni_jmeno": "Farní sbor Českobratrské církve evangelické ve Vsetíně (horní sbor)",
+   "pravni_forma": "722",
+   "sidlo": "Palackého 156, 75501 Vsetín",
+   "datum_vzniku": "1994-01-01",
+   "datum_zaniku": null,
+   "datum_aktualizace_ares": "2024-05-01"
+  },
+  {
+   "ico": "47659068",
+   "kontrolni_cislice_ok": true,
+   "soubory": [
+    "data/entity/subjekty.json"
+   ],
+   "nazvy_v_datech": [
+    "… ve Vsetíně (dolní sbor)"
+   ],
+   "ares_http": 200,
+   "obchodni_jmeno": "Farní sbor Českobratrské církve evangelické ve Vsetíně (dolní sbor)",
+   "pravni_forma": "722",
+   "sidlo": "Palackého 153, 75501 Vsetín",
+   "datum_vzniku": "1994-01-01",
+   "datum_zaniku": null,
+   "datum_aktualizace_ares": "2026-10-20"
+  },
+  {
+   "ico": "47674652",
+   "kontrolni_cislice_ok": true,
+   "soubory": [
+    "data/entity/subjekty.json",
+    "data/entity/vr_organy_mestske_spolecnosti_2026-10-23.json"
+   ],
+   "nazvy_v_datech": [
+    "Vodovody a kanalizace Vsetín, a.s."
+   ],
+   "ares_http": 200,
+   "obchodni_jmeno": "Vodovody a kanalizace Vsetín, a.s.",
+   "pravni_forma": "121",
+   "sidlo": "Jasenická 1106, 75501 Vsetín",
+   "datum_vzniku": "1993-12-01",
+   "datum_zaniku": null,
+   "datum_aktualizace_ares": "2026-09-15"
+  },
+  {
+   "ico": "47678054",
+   "kontrolni_cislice_ok": true,
+   "soubory": [
+    "data/entity/vr_organy_mestske_spolecnosti_2026-10-23.json"
+   ],
+   "nazvy_v_datech": [
+    "Městské lesy Vsetín, s. r. o."
+   ],
+   "ares_http": 200,
+   "obchodni_jmeno": "Městské lesy Vsetín, s. r. o.",
+   "pravni_forma": "112",
+   "sidlo": "Semetín 2199, 75501 Vsetín",
+   "datum_vzniku": "1992-11-04",
+   "datum_zaniku": null,
+   "datum_aktualizace_ares": "2026-10-21"
+  },
+  {
+   "ico": "47972114",
+   "kontrolni_cislice_ok": true,
+   "soubory": [
+    "data/entity/subjekty.json",
+    "data/entity/vr_organy_mestske_spolecnosti_2026-10-23.json"
+   ],
+   "nazvy_v_datech": [
+    "Dům kultury Vsetín, spol. s r. o.",
+    "Dům kultury Vsetín, spol. s r.o."
+   ],
+   "ares_http": 200,
+   "obchodni_jmeno": "Dům kultury Vsetín, spol. s r. o.",
+   "pravni_forma": "112",
+   "sidlo": "Svárov 1055, 75501 Vsetín",
+   "datum_vzniku": "1993-01-01",
+   "datum_zaniku": null,
+   "datum_aktualizace_ares": "2026-06-05"
+  },
+  {
+   "ico": "48399477",
+   "kontrolni_cislice_ok": true,
+   "soubory": [
+    "data/zakazky/verejne_zakazky.json"
+   ],
+   "nazvy_v_datech": [
+    "TM Stav, spol. s r.o."
+   ],
+   "ares_http": 200,
+   "obchodni_jmeno": "TM  Stav, spol. s r.o.",
+   "pravni_forma": "112",
+   "sidlo": "Jasenice 729, 75501 Vsetín",
+   "datum_vzniku": "1993-10-25",
+   "datum_zaniku": null,
+   "datum_aktualizace_ares": "2026-05-21"
+  },
+  {
+   "ico": "60042354",
+   "kontrolni_cislice_ok": true,
+   "soubory": [
+    "data/entity/subjekty.json"
+   ],
+   "nazvy_v_datech": [
+    "MŠ Vsetín, Trávníky 1218, p. o."
+   ],
+   "ares_http": 404
+  },
+  {
+   "ico": "60042362",
+   "kontrolni_cislice_ok": true,
+   "soubory": [
+    "data/entity/subjekty.json"
+   ],
+   "nazvy_v_datech": [
+    "MŠ Vsetín, Sychrov 96, p. o."
+   ],
+   "ares_http": 200,
+   "obchodni_jmeno": "Mateřská škola Vsetín, Sychrov 96, příspěvková organizace",
+   "pravni_forma": "331",
+   "sidlo": "MUDr. Františka Sovy 96, 75501 Vsetín",
+   "datum_vzniku": "1984-01-02",
+   "datum_zaniku": null,
+   "datum_aktualizace_ares": "2026-05-07"
+  },
+  {
+   "ico": "60042389",
+   "kontrolni_cislice_ok": true,
+   "soubory": [
+    "data/entity/subjekty.json"
+   ],
+   "nazvy_v_datech": [
+    "MŠ Vsetín, Benátky 1175, p. o."
+   ],
+   "ares_http": 200,
+   "obchodni_jmeno": "Mateřská škola Vsetín, Benátky 1175, příspěvková organizace",
+   "pravni_forma": "331",
+   "sidlo": "Benátky 1175, 75501 Vsetín",
+   "datum_vzniku": "1962-02-01",
+   "datum_zaniku": null,
+   "datum_aktualizace_ares": "2026-05-07"
+  },
+  {
+   "ico": "60609249",
+   "kontrolni_cislice_ok": true,
+   "soubory": [
+    "data/entity/subjekty.json"
+   ],
+   "nazvy_v_datech": [
+    "MŠ Vsetín, Ohrada 1879, p. o."
+   ],
+   "ares_http": 200,
+   "obchodni_jmeno": "Mateřská škola Vsetín, Ohrada 1879, příspěvková organizace",
+   "pravni_forma": "331",
+   "sidlo": "Ohrada 1879, 75501 Vsetín",
+   "datum_vzniku": "2001-09-21",
+   "datum_zaniku": null,
+   "datum_aktualizace_ares": "2026-05-07"
+  },
+  {
+   "ico": "60838744",
+   "kontrolni_cislice_ok": true,
+   "soubory": [
+    "data/zakazky/verejne_zakazky.json"
+   ],
+   "nazvy_v_datech": [
+    "STRABAG a.s."
+   ],
+   "ares_http": 200,
+   "obchodni_jmeno": "STRABAG a.s.",
+   "pravni_forma": "121",
+   "sidlo": "Kačírkova 982/4, Jinonice, 15800 Praha 5",
+   "datum_vzniku": "1994-03-01",
+   "datum_zaniku": null,
+   "datum_aktualizace_ares": "2026-10-22"
+  },
+  {
+   "ico": "60990368",
+   "kontrolni_cislice_ok": true,
+   "soubory": [
+    "data/entity/subjekty.json"
+   ],
+   "nazvy_v_datech": [
+    "ZŠ a MŠ Vsetín, Ohrada 1876, p. o."
+   ],
+   "ares_http": 200,
+   "obchodni_jmeno": "Základní škola a Mateřská škola Vsetín, Ohrada 1876, příspěvková organizace",
+   "pravni_forma": "331",
+   "sidlo": "Nad Školou 1876, 75501 Vsetín",
+   "datum_vzniku": "1976-09-01",
+   "datum_zaniku": null,
+   "datum_aktualizace_ares": "2026-09-05"
+  },
+  {
+   "ico": "60990406",
+   "kontrolni_cislice_ok": true,
+   "soubory": [
+    "data/entity/subjekty.json"
+   ],
+   "nazvy_v_datech": [
+    "ZŠ a MŠ Vsetín, Luh 1544, p. o."
+   ],
+   "ares_http": 200,
+   "obchodni_jmeno": "Základní škola a Mateřská škola Vsetín, Luh 1544, příspěvková organizace",
+   "pravni_forma": "331",
+   "sidlo": "Jasenická 1544, 75501 Vsetín",
+   "datum_vzniku": "1966-09-01",
+   "datum_zaniku": null,
+   "datum_aktualizace_ares": "2026-05-07"
+  },
+  {
+   "ico": "60990449",
+   "kontrolni_cislice_ok": true,
+   "soubory": [
+    "data/entity/subjekty.json"
+   ],
+   "nazvy_v_datech": [
+    "ZŠ a MŠ Vsetín, Trávníky 1217, p. o."
+   ],
+   "ares_http": 200,
+   "obchodni_jmeno": "Základní škola a Mateřská škola Vsetín, Trávníky 1217, příspěvková organizace",
+   "pravni_forma": "331",
+   "sidlo": "Matouše Václavka 1217, 75501 Vsetín",
+   "datum_vzniku": "1953-09-01",
+   "datum_zaniku": null,
+   "datum_aktualizace_ares": "2026-05-08"
+  },
+  {
+   "ico": "60990457",
+   "kontrolni_cislice_ok": true,
+   "soubory": [
+    "data/entity/subjekty.json"
+   ],
+   "nazvy_v_datech": [
+    "ZŠ Vsetín, Rokytnice 436, p. o."
+   ],
+   "ares_http": 200,
+   "obchodni_jmeno": "Základní škola Vsetín, Rokytnice 436, příspěvková organizace",
+   "pravni_forma": "331",
+   "sidlo": "Michala Urbánka 436, Rokytnice, 75501 Vsetín",
+   "datum_vzniku": "1979-09-03",
+   "datum_zaniku": null,
+   "datum_aktualizace_ares": "2026-06-18"
+  },
+  {
+   "ico": "62334697",
+   "kontrolni_cislice_ok": true,
+   "soubory": [
+    "data/entity/subjekty.json",
+    "data/smlouvy/parovani_akci.json"
+   ],
+   "nazvy_v_datech": [
+    "FC Fastav Vsetín, z.s."
+   ],
+   "ares_http": 200,
+   "obchodni_jmeno": "FC Fastav Vsetín, z.s.",
+   "pravni_forma": "706",
+   "sidlo": "Tyršova 2237, 75501 Vsetín",
+   "datum_vzniku": "1995-07-13",
+   "datum_zaniku": null,
+   "datum_aktualizace_ares": "2026-09-05"
+  },
+  {
+   "ico": "62587978",
+   "kontrolni_cislice_ok": true,
+   "soubory": [
+    "data/entity/subjekty.json"
+   ],
+   "nazvy_v_datech": [
+    "VERA, spol. s r.o. (dle ORG kódu – k ověření)"
+   ],
+   "ares_http": 200,
+   "obchodni_jmeno": "VERA, spol. s r.o.",
+   "pravni_forma": "112",
+   "sidlo": "Lužná 716/2, Vokovice, 16000 Praha 6",
+   "datum_vzniku": "1994-12-28",
+   "datum_zaniku": null,
+   "datum_aktualizace_ares": "2026-04-06"
+  },
+  {
+   "ico": "64086712",
+   "kontrolni_cislice_ok": true,
+   "soubory": [
+    "data/entity/subjekty.json"
+   ],
+   "nazvy_v_datech": [
+    "VASMO s.r.o."
+   ],
+   "ares_http": 200,
+   "obchodni_jmeno": "VASMO s.r.o.",
+   "pravni_forma": "112",
+   "sidlo": "Rokytnice 194, Rokytnice, 75501 Vsetín",
+   "datum_vzniku": "1996-03-12",
+   "datum_zaniku": null,
+   "datum_aktualizace_ares": "2026-01-24"
+  },
+  {
+   "ico": "66184606",
+   "kontrolni_cislice_ok": true,
+   "soubory": [
+    "data/entity/subjekty.json"
+   ],
+   "nazvy_v_datech": [
+    "Hokejbalový klub Vsetín, z.s."
+   ],
+   "ares_http": 200,
+   "obchodni_jmeno": "Hokejbalový klub Vsetín, z.s.",
+   "pravni_forma": "706",
+   "sidlo": "Dolní Jasenka 770, 75501 Vsetín",
+   "datum_vzniku": "1997-07-23",
+   "datum_zaniku": null,
+   "datum_aktualizace_ares": "2026-07-23"
+  },
+  {
+   "ico": "68349742",
+   "kontrolni_cislice_ok": true,
+   "soubory": [
+    "data/entity/subjekty.json"
+   ],
+   "nazvy_v_datech": [
+    "Pavel Škrabánek"
+   ],
+   "ares_http": 200,
+   "obchodni_jmeno": "Pavel Škrabánek",
+   "pravni_forma": "101",
+   "sidlo": "Rokytnice 240, Rokytnice, 75501 Vsetín",
+   "datum_vzniku": "1998-09-23",
+   "datum_zaniku": null,
+   "datum_aktualizace_ares": "2026-05-05"
+  },
+  {
+   "ico": "69211612",
+   "kontrolni_cislice_ok": true,
+   "soubory": [
+    "data/entity/subjekty.json"
+   ],
+   "nazvy_v_datech": [
+    "Základní škola Integra Vsetín"
+   ],
+   "ares_http": 200,
+   "obchodni_jmeno": "Základní škola Integra Vsetín",
+   "pravni_forma": "751",
+   "sidlo": "Na Rybníkách 1628, 75501 Vsetín",
+   "datum_vzniku": "1999-01-26",
+   "datum_zaniku": null,
+   "datum_aktualizace_ares": "2026-06-04"
+  },
+  {
+   "ico": "70322783",
+   "kontrolni_cislice_ok": true,
+   "soubory": [
+    "data/entity/subjekty.json"
+   ],
+   "nazvy_v_datech": [
+    "Ing. Jiří Macháček – INPRAISE"
+   ],
+   "ares_http": 200,
+   "obchodni_jmeno": "Jiří Macháček",
+   "pravni_forma": "105",
+   "sidlo": "Bratří Hlaviců 80, 75501 Vsetín",
+   "datum_vzniku": "2000-04-26",
+   "datum_zaniku": null,
+   "datum_aktualizace_ares": "2025-04-02"
+  },
+  {
+   "ico": "70872236",
+   "kontrolni_cislice_ok": true,
+   "soubory": [
+    "data/entity/subjekty.json"
+   ],
+   "nazvy_v_datech": [
+    "MŠ Vsetín, Na Kopečku 13, p. o."
+   ],
+   "ares_http": 200,
+   "obchodni_jmeno": "Mateřská škola Vsetín, Na Kopečku 13, příspěvková organizace",
+   "pravni_forma": "331",
+   "sidlo": "Na Kopečku 13, 75501 Vsetín",
+   "datum_vzniku": "2001-09-14",
+   "datum_zaniku": null,
+   "datum_aktualizace_ares": "2026-06-04"
+  },
+  {
+   "ico": "70887306",
+   "kontrolni_cislice_ok": true,
+   "soubory": [
+    "data/entity/subjekty.json"
+   ],
+   "nazvy_v_datech": [
+    "HZS Zlínského kraje"
+   ],
+   "ares_http": 200,
+   "obchodni_jmeno": "Hasičský záchranný sbor Zlínského kraje",
+   "pravni_forma": "325",
+   "sidlo": "Přílucká 213, Příluky, 76001 Zlín",
+   "datum_vzniku": "2001-01-01",
+   "datum_zaniku": null,
+   "datum_aktualizace_ares": "2026-10-03"
+  },
+  {
+   "ico": "70891320",
+   "kontrolni_cislice_ok": true,
+   "soubory": [
+    "data/kauzy/doplneni/K-003_doplneni_dotace_ZK_2026-10-23.json"
+   ],
+   "nazvy_v_datech": [],
+   "ares_http": 200,
+   "obchodni_jmeno": "Zlínský kraj",
+   "pravni_forma": "804",
+   "sidlo": "třída Tomáše Bati 21, 76001 Zlín",
+   "datum_vzniku": null,
+   "datum_zaniku": null,
+   "datum_aktualizace_ares": "2026-05-07"
+  },
+  {
+   "ico": "73257958",
+   "kontrolni_cislice_ok": true,
+   "soubory": [
+    "data/entity/subjekty.json",
+    "data/smlouvy/parovani_akci.json",
+    "data/zakazky/verejne_zakazky.json"
+   ],
+   "nazvy_v_datech": [
+    "Martin Urban"
+   ],
+   "ares_http": 200,
+   "obchodni_jmeno": "Martin Urban",
+   "pravni_forma": "107",
+   "sidlo": "Horní Jasenka 315, 75501 Vsetín",
+   "datum_vzniku": "2003-08-13",
+   "datum_zaniku": null,
+   "datum_aktualizace_ares": "2026-09-04"
+  }
+ ]
+}
