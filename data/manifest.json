@@ -1,7 +1,7 @@
 {
- "aktualizovano": "2026-10-23T11:38:02+02:00",
+ "aktualizovano": "2026-10-23T12:01:30+02:00",
  "import_inbox": {
-  "cas": "2026-10-23T11:35:54+02:00",
+  "cas": "2026-10-23T11:58:35+02:00",
   "neprevzato": [
    "ico_frekvence a ico_jmeno_heuristika (usnesení; odvoditelné, heuristika obsahuje jména)",
    "plný raw text výpisů usnesení (text je u jednotlivých usnesení, originál na source_url)",
@@ -380,7 +380,7 @@
   }
  },
  "posledni_beh": {
-  "konec": "2026-10-23T11:38:02+02:00",
+  "konec": "2026-10-23T12:01:30+02:00",
   "limity": {
    "limit": 2,
    "limit_ares": 5,
@@ -390,14 +390,14 @@
   "rezim": "ostry",
   "stav": {
    "ares": "ok",
-   "materialy_zm": "chyba",
+   "materialy_zm": "unreachable",
    "profil_zadavatele": "ok",
-   "registr_smluv": "ok",
-   "rozpoctova_opatreni": "chyba",
-   "uredni_deska": "chyba",
-   "usneseni": "chyba"
+   "registr_smluv": "unreachable",
+   "rozpoctova_opatreni": "unreachable",
+   "uredni_deska": "unreachable",
+   "usneseni": "unreachable"
   },
-  "zacatek": "2026-10-23T11:36:01+02:00",
+  "zacatek": "2026-10-23T11:59:41+02:00",
   "zdroje": [
    "usneseni",
    "materialy_zm",
@@ -412,12 +412,12 @@
  "soubory": {
   "data/casove_osy.jsonl": {
    "radku": 330,
-   "sha256_souboru": "2ad766a9a65af4293610c9864184321e671257f7329c0e039d686088011704b2",
+   "sha256_souboru": "230e449584596142c66527192efd4baeb858c0e2a413c3d0ab6f777725531ce3",
    "unikatnich_id": 330
   },
   "data/dokumenty.jsonl": {
    "radku": 921,
-   "sha256_souboru": "93f82158545914f986f2909ae25221216b0867238acc79b5e0093c11edcff6ee",
+   "sha256_souboru": "018eb4bae13e85c77c83b39a22a7de9c33ee031667fabaad4675d304a2cf86aa",
    "unikatnich_id": 921
   },
   "data/graf_hrany.jsonl": {
@@ -427,37 +427,37 @@
   },
   "data/graf_uzly.jsonl": {
    "radku": 8119,
-   "sha256_souboru": "0ff7f97e63a2f66c43f494238716c3902eaf28f08869876cca2c392b23abab2c",
+   "sha256_souboru": "416c1e27952b4afa106a267c1a4c87a3c0d4815cbaa5be1e49c49c8e76116440",
    "unikatnich_id": 8119
   },
   "data/materialy_zm.jsonl": {
    "radku": 279,
-   "sha256_souboru": "621b425581c4dbb75cf3e889970dedcd84ff5cf460493773b0e03b39d3048c88",
+   "sha256_souboru": "2adb4049f6a1d429930824ff6fe12e9302d96e842456c1bff757a8749bd26fab",
    "unikatnich_id": 279
   },
   "data/registr_smluv.jsonl": {
-   "radku": 4619,
-   "sha256_souboru": "a2b6c81ea84bebfd02dfaf0028988eaa6c3be688ceb4871a10487e0ea3f3cffc",
+   "radku": 4614,
+   "sha256_souboru": "228e82cddbd7cfa5e6c81901894d144687fe92475ad05eea053f277b0fc51d91",
    "unikatnich_id": 4614
   },
   "data/rozpoctova_opatreni.jsonl": {
    "radku": 193,
-   "sha256_souboru": "ff384fe4488151627e1e54bdc3caab600471146e8041c3359df5fe86f73a4911",
+   "sha256_souboru": "f225a941cfff48894660ddeefba2817c0ce62e09ba58707c7bd0a6cffc70ce4d",
    "unikatnich_id": 193
   },
   "data/stranky.jsonl": {
    "radku": 45,
-   "sha256_souboru": "01a34e50845568d63723c129022c1c93f805322346e52bd54b218a941a72a3b7",
+   "sha256_souboru": "7f9cd8c9c3bba0b007bc97038909150ced30e68bfabe047df6f1631eb3fb0e14",
    "unikatnich_id": 45
   },
   "data/subjekty_ares.jsonl": {
    "radku": 767,
-   "sha256_souboru": "2d58bdeccfa2ff3b8ef6ab2a2f55732fb62f1acd679d6946a5ff3ade6918cb16",
+   "sha256_souboru": "c27ed626588e71e000bc6f13c06f76eae644ef620caa2b8a7307c73c0cfc46d5",
    "unikatnich_id": 767
   },
   "data/uredni_deska.jsonl": {
    "radku": 71,
-   "sha256_souboru": "391c147bbb90b79c07df97d2e499c96899c09183d8de07e8bacaa49ee93cce88",
+   "sha256_souboru": "7326ba771dd08e8374bd6a2f4957a5fe2553d45fafd7cb6b134280b4b56046cd",
    "unikatnich_id": 71
   },
   "data/uredni_deska_snimky.jsonl": {
@@ -467,12 +467,12 @@
   },
   "data/usneseni.jsonl": {
    "radku": 6864,
-   "sha256_souboru": "34da406450f8a5f5a9cbe8c0264b524d05819fe3b27df0ec6fedc84cb701dccb",
+   "sha256_souboru": "b07af76b84a660db350522655c095fa7f2e0de00cc4888814ffdd168e9169b93",
    "unikatnich_id": 6864
   },
   "data/verejne_zakazky.jsonl": {
    "radku": 346,
-   "sha256_souboru": "1f9e68cc277914de29b591a86fd68e5baabf653d8239682d07ef0e69e28e9343",
+   "sha256_souboru": "3aeccc288b18ba2bd1829921addfda1eb96a1d01980d62315037f6f1087860e4",
    "unikatnich_id": 334
   },
   "data/vyber_dodavatele.jsonl": {
@@ -485,8 +485,8 @@
   "ares": {
    "chyby": [],
    "kurzor": {
-    "ceka_na_overeni": 193,
-    "posledni_kontrola": "2026-10-23T11:38:02+02:00"
+    "ceka_na_overeni": 191,
+    "posledni_kontrola": "2026-10-23T12:01:30+02:00"
    },
    "pocty_posledniho_behu": {
     "chyby": 0,
@@ -494,27 +494,26 @@
     "nove": 5,
     "zmeneno": 0
    },
-   "posledni_beh": "2026-10-23T11:37:54+02:00",
-   "posledni_uspech": "2026-10-23T11:37:54+02:00",
+   "posledni_beh": "2026-10-23T12:01:22+02:00",
+   "posledni_uspech": "2026-10-23T12:01:22+02:00",
    "soubory": [
     "data/subjekty_ares.jsonl"
    ],
    "stav": "ok"
   },
   "materialy_zm": {
-   "chyby": [
-    {
-     "cas": "2026-10-23T11:36:14+02:00",
-     "chyba": "RobotsDenied: robots.txt hostitele www.mestovsetin.cz nedostupný – stahování vynecháno"
-    }
-   ],
-   "posledni_beh": "2026-10-23T11:36:14+02:00",
-   "stav": "chyba"
+   "chyby": [],
+   "nedosazitelny": {
+    "cas": "2026-10-23T11:59:54+02:00",
+    "duvod": "HostUnreachable: robots.txt hostitele www.mestovsetin.cz nedostupný – stahování vynecháno"
+   },
+   "posledni_beh": "2026-10-23T11:59:54+02:00",
+   "stav": "unreachable"
   },
   "profil_zadavatele": {
    "chyby": [],
    "kurzor": {
-    "posledni_kontrola": "2026-10-23T11:37:39+02:00",
+    "posledni_kontrola": "2026-10-23T12:01:18+02:00",
     "stazeno_do": "2024-06-30"
    },
    "pocty_posledniho_behu": {
@@ -523,8 +522,8 @@
     "nove": 20,
     "zmeneno": 12
    },
-   "posledni_beh": "2026-10-23T11:36:14+02:00",
-   "posledni_uspech": "2026-10-23T11:36:14+02:00",
+   "posledni_beh": "2026-10-23T11:59:54+02:00",
+   "posledni_uspech": "2026-10-23T11:59:54+02:00",
    "soubory": [
     "data/verejne_zakazky.jsonl"
    ],
@@ -532,30 +531,15 @@
   },
   "registr_smluv": {
    "chyby": [],
-   "kurzor": {
-    "ceka_na_detail": 4609,
-    "posledni_kontrola": "2026-10-23T11:37:54+02:00"
+   "nedosazitelny": {
+    "cas": "2026-10-23T12:01:18+02:00",
+    "duvod": "HostUnreachable: robots.txt hostitele smlouvy.gov.cz nedostupný – stahování vynecháno"
    },
-   "pocty_posledniho_behu": {
-    "chyby": 0,
-    "nezmeneno": 0,
-    "nove": 0,
-    "zmeneno": 5
-   },
-   "posledni_beh": "2026-10-23T11:37:39+02:00",
-   "posledni_uspech": "2026-10-23T11:37:39+02:00",
-   "soubory": [
-    "data/registr_smluv.jsonl"
-   ],
-   "stav": "ok"
+   "posledni_beh": "2026-10-23T12:01:18+02:00",
+   "stav": "unreachable"
   },
   "rozpoctova_opatreni": {
-   "chyby": [
-    {
-     "cas": "2026-10-23T11:36:14+02:00",
-     "chyba": "RobotsDenied: robots.txt hostitele www.mestovsetin.cz nedostupný – stahování vynecháno"
-    }
-   ],
+   "chyby": [],
    "kurzor": {
     "rocni_slozky": {
      "2017": 19252,
@@ -570,31 +554,33 @@
      "2026": 19928
     }
    },
-   "posledni_beh": "2026-10-23T11:36:14+02:00",
-   "stav": "chyba"
+   "nedosazitelny": {
+    "cas": "2026-10-23T11:59:54+02:00",
+    "duvod": "HostUnreachable: robots.txt hostitele www.mestovsetin.cz nedostupný – stahování vynecháno"
+   },
+   "posledni_beh": "2026-10-23T11:59:54+02:00",
+   "stav": "unreachable"
   },
   "uredni_deska": {
-   "chyby": [
-    {
-     "cas": "2026-10-23T11:36:14+02:00",
-     "chyba": "RobotsDenied: robots.txt hostitele www.mestovsetin.cz nedostupný – stahování vynecháno"
-    }
-   ],
+   "chyby": [],
    "kurzor": {
     "url": "https://www.mestovsetin.cz/vismo/zobraz_dok.asp?ud=2&p1=72363"
    },
-   "posledni_beh": "2026-10-23T11:36:14+02:00",
-   "stav": "chyba"
+   "nedosazitelny": {
+    "cas": "2026-10-23T11:59:54+02:00",
+    "duvod": "HostUnreachable: robots.txt hostitele www.mestovsetin.cz nedostupný – stahování vynecháno"
+   },
+   "posledni_beh": "2026-10-23T11:59:54+02:00",
+   "stav": "unreachable"
   },
   "usneseni": {
-   "chyby": [
-    {
-     "cas": "2026-10-23T11:36:01+02:00",
-     "chyba": "RobotsDenied: robots.txt hostitele www.mestovsetin.cz nedostupný – stahování vynecháno"
-    }
-   ],
-   "posledni_beh": "2026-10-23T11:36:01+02:00",
-   "stav": "chyba"
+   "chyby": [],
+   "nedosazitelny": {
+    "cas": "2026-10-23T11:59:41+02:00",
+    "duvod": "HostUnreachable: robots.txt hostitele www.mestovsetin.cz nedostupný – stahování vynecháno"
+   },
+   "posledni_beh": "2026-10-23T11:59:41+02:00",
+   "stav": "unreachable"
   }
  }
 }
