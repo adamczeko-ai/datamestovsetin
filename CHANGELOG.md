@@ -59,3 +59,8 @@
 - K-003: VZ I (58 mil., 4 nabídky, zrušena) → VZ II (72 mil., 6 nabídek, Mitrenga 68,98 mil.).
 - Senior taxi: přehled smluv 2018–2026; svoz odpadu – Technické služby Vsetín, s.r.o.
 - JSON Schema (data/schema/) + scripts/validate_schemas.py – všechna data validní.
+
+## 2026-10-23 (várka n)
+- K-003: písemná zpráva VZ I (MUVS 90996/2025) – nabídky 71,4–79,5 mil. bez DPH, zrušení 10. 7. 2025 dle § 127/2 d) (vše nad max. cenou 58 mil.; nejasná technická kvalifikace). Mitrenga ve VZ II o 3,35 % níž.
+- Senior taxi: 38999306 = Dodatek č. 2 (D2 0542 2025, 31. 7. 2026) – prodloužení po zrušených VZ 2026.
+- Odpad: hlavní smlouva 695/1S/2022 (HS 22831685) s Technickými službami Vsetín, s.r.o. (IČO 26782596); VZ otevřené řízení, předp. 138,6 mil./48 měs.; registr 28,3 mil. bez DPH; dodatky 1 a 4.

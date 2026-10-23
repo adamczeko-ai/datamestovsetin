@@ -1,60 +1,64 @@
 {
- "schema": "vsetin-osint/sluzba@1",
- "nazev": "Senior taxi",
- "popis": "Opakovaně zadávaná služba; 6× zrušené VZ, plnění zajišťováno střídavě různými dopravci.",
- "smlouvy": [
-  {
-   "rok": 2018,
-   "dodavatel": "QUICK Transport Zlín s.r.o.",
-   "Kc": 550000,
-   "hs": "5686635"
-  },
-  {
-   "rok": 2020,
-   "dodavatel": "QUICK Transport Zlín s.r.o. (IČO 06110266)",
-   "Kc": 750000,
-   "hs": "12788564",
-   "vz": "P20V00003266 (jediný účastník)"
-  },
-  {
-   "rok": 2022,
-   "dodavatel": "OGITIC TAXI s.r.o.",
-   "Kc": 665500,
-   "hs": "21158591"
-  },
-  {
-   "rok": 2022,
-   "dodavatel": "OGITIC TAXI s.r.o.",
-   "Kc": 562650,
-   "hs": "21540363"
-  },
-  {
-   "rok": 2024,
-   "dodavatel": "OGITIC s.r.o.",
-   "Kc": 1500000,
-   "hs": "28909536"
-  },
-  {
-   "rok": 2025,
-   "dodavatel": "ROSI LOGISTIK s.r.o.",
-   "Kc": 2420000,
-   "hs": "34176181",
-   "vz": "Senior taxi II 2025, předp. 2 mil."
-  },
-  {
-   "rok": 2026,
-   "dodavatel": "ROSI LOGISTIK s.r.o.",
-   "Kc": 60000,
-   "hs": "36616357"
-  },
-  {
-   "rok": 2026,
-   "dodavatel": "ROSI LOGISTIK s.r.o.",
-   "Kc": null,
-   "hs": "38999306",
-   "pozn": "31.7.2026 – po zrušení VZ 'Senior taxi' (2.7.2026), před zrušením VZ II (3.8.2026); hodnota neuvedena – ověřit (přímé zadání/prodloužení?)"
-  }
- ],
- "zrusene_vz": 6,
- "signal": "Náklady služby rostou (0,55 → 2,42 mil. Kč/smlouva); opakované rušení VZ; smlouva 7/2026 bez uvedené hodnoty."
+  "schema": "vsetin-osint/sluzba@1",
+  "nazev": "Senior taxi",
+  "popis": "Opakovaně zadávaná služba; 6× zrušené VZ, plnění zajišťováno střídavě různými dopravci.",
+  "smlouvy": [
+    {
+      "rok": 2018,
+      "dodavatel": "QUICK Transport Zlín s.r.o.",
+      "Kc": 550000,
+      "hs": "5686635"
+    },
+    {
+      "rok": 2020,
+      "dodavatel": "QUICK Transport Zlín s.r.o. (IČO 06110266)",
+      "Kc": 750000,
+      "hs": "12788564",
+      "vz": "P20V00003266 (jediný účastník)"
+    },
+    {
+      "rok": 2022,
+      "dodavatel": "OGITIC TAXI s.r.o.",
+      "Kc": 665500,
+      "hs": "21158591"
+    },
+    {
+      "rok": 2022,
+      "dodavatel": "OGITIC TAXI s.r.o.",
+      "Kc": 562650,
+      "hs": "21540363"
+    },
+    {
+      "rok": 2024,
+      "dodavatel": "OGITIC s.r.o.",
+      "Kc": 1500000,
+      "hs": "28909536"
+    },
+    {
+      "rok": 2025,
+      "dodavatel": "ROSI LOGISTIK s.r.o.",
+      "Kc": 2420000,
+      "hs": "34176181",
+      "vz": "Senior taxi II 2025, předp. 2 mil."
+    },
+    {
+      "rok": 2026,
+      "dodavatel": "ROSI LOGISTIK s.r.o.",
+      "Kc": 60000,
+      "hs": "36616357"
+    },
+    {
+      "rok": 2026,
+      "dodavatel": "ROSI LOGISTIK s.r.o.",
+      "Kc": null,
+      "hs": "38999306",
+      "pozn": "Dodatek ke smlouvě z VZ 2025 (34176181) – prodloužení po dvou zrušených VZ 2026 (2.7. a 3.8.2026); hodnota v registru neuvedena – text dodatku ověřit.",
+      "nazev": "Dodatek č. 2 ke smlouvě o provozování služby senior taxi",
+      "cislo": "D2 0542 2025",
+      "podpis": "2026-07-31",
+      "schvalil": "Čunek Jiří"
+    }
+  ],
+  "zrusene_vz": 6,
+  "signal": "Náklady služby rostou (0,55 → 2,42 mil. Kč/smlouva); opakované rušení VZ; smlouva 7/2026 bez uvedené hodnoty."
 }

@@ -1,273 +1,287 @@
 {
- "schema": "vsetin-osint/verejne-zakazky@1",
- "profil": "https://www.vhodne-uverejneni.cz/profil/00304450",
- "stav_k": "2026-10-23 03:40 SELČ",
- "souhrn_profilu": {
-  "aktualni": 7,
-  "plneni_smlouvy": 267,
-  "ukonceno_plneni": 178,
-  "zruseno": 84
- },
- "zakazky": [
-  {
-   "nazev": "OPRAVA LÁVKY PŘES VSETÍNSKOU BEČVU VE VSETÍNĚ (LÁZKÁCH) – DESIGN AND BUILD",
-   "sys": "P26V00003089",
-   "url": "https://www.vhodne-uverejneni.cz/zakazka/oprava-lavky-pres-vsetinskou-becvu-ve-vsetine-lazkach-design-and-build",
-   "druh": "stavební práce, podlimitní",
-   "uverejneno": "2026-05-11",
-   "lhuta": "2026-05-27",
-   "predp_hodnota": 12000000,
-   "ucastnici": [
-    {
-     "nazev": "FIRESTA-Fišer, rekonstrukce, stavby a.s.",
-     "ico": "25317628"
-    },
-    {
-     "nazev": "Mitrenga-stavby, spol. s r.o.",
-     "ico": "26944022",
-     "vybran": true
-    }
-   ],
-   "smlouva": {
-    "id": "38483666",
-    "url": "https://www.hlidacstatu.cz/Detail/38483666",
-    "podpis": "2026-06-23",
-    "cislo": "0293 2026",
-    "bez_DPH": 9440000,
-    "s_DPH": 11422400,
-    "schvalil": "Čunek Jiří"
-   },
-   "akce_org": "00009989",
-   "pomer_cena_predp": 0.787
+  "schema": "vsetin-osint/verejne-zakazky@1",
+  "profil": "https://www.vhodne-uverejneni.cz/profil/00304450",
+  "stav_k": "2026-10-23 03:40 SELČ",
+  "souhrn_profilu": {
+    "aktualni": 7,
+    "plneni_smlouvy": 267,
+    "ukonceno_plneni": 178,
+    "zruseno": 84
   },
-  {
-   "nazev": "ROZŠÍŘENÍ HŘBITOVA VE VSETÍNĚ KOLUMBÁRIUM",
-   "sys": "P26V00004887",
-   "url": "https://www.vhodne-uverejneni.cz/zakazka/rozsireni-hrbitova-ve-vsetine-kolumbarium",
-   "uverejneno": "2026-07-21",
-   "lhuta": "2026-08-12",
-   "predp_hodnota": 46000000,
-   "ucastnici": [
+  "zakazky": [
     {
-     "nazev": "Navláčil stavební firma, s.r.o.",
-     "ico": "25301144"
+      "nazev": "OPRAVA LÁVKY PŘES VSETÍNSKOU BEČVU VE VSETÍNĚ (LÁZKÁCH) – DESIGN AND BUILD",
+      "sys": "P26V00003089",
+      "url": "https://www.vhodne-uverejneni.cz/zakazka/oprava-lavky-pres-vsetinskou-becvu-ve-vsetine-lazkach-design-and-build",
+      "druh": "stavební práce, podlimitní",
+      "uverejneno": "2026-05-11",
+      "lhuta": "2026-05-27",
+      "predp_hodnota": 12000000,
+      "ucastnici": [
+        {
+          "nazev": "FIRESTA-Fišer, rekonstrukce, stavby a.s.",
+          "ico": "25317628"
+        },
+        {
+          "nazev": "Mitrenga-stavby, spol. s r.o.",
+          "ico": "26944022",
+          "vybran": true
+        }
+      ],
+      "smlouva": {
+        "id": "38483666",
+        "url": "https://www.hlidacstatu.cz/Detail/38483666",
+        "podpis": "2026-06-23",
+        "cislo": "0293 2026",
+        "bez_DPH": 9440000,
+        "s_DPH": 11422400,
+        "schvalil": "Čunek Jiří"
+      },
+      "akce_org": "00009989",
+      "pomer_cena_predp": 0.787
     },
     {
-     "nazev": "Martin Urban",
-     "ico": "73257958",
-     "vybran": true
+      "nazev": "ROZŠÍŘENÍ HŘBITOVA VE VSETÍNĚ KOLUMBÁRIUM",
+      "sys": "P26V00004887",
+      "url": "https://www.vhodne-uverejneni.cz/zakazka/rozsireni-hrbitova-ve-vsetine-kolumbarium",
+      "uverejneno": "2026-07-21",
+      "lhuta": "2026-08-12",
+      "predp_hodnota": 46000000,
+      "ucastnici": [
+        {
+          "nazev": "Navláčil stavební firma, s.r.o.",
+          "ico": "25301144"
+        },
+        {
+          "nazev": "Martin Urban",
+          "ico": "73257958",
+          "vybran": true
+        },
+        {
+          "nazev": "TM Stav, spol. s r.o.",
+          "ico": "48399477"
+        },
+        {
+          "nazev": "KKS, spol. s r.o.",
+          "ico": "42340802"
+        }
+      ],
+      "smlouva": {
+        "id": "39450769",
+        "url": "https://www.hlidacstatu.cz/Detail/39450769",
+        "podpis": "2026-09-07",
+        "bez_DPH": 38777420,
+        "s_DPH": 46920679
+      },
+      "akce_org": "00009929",
+      "pomer_cena_predp": 0.843
     },
     {
-     "nazev": "TM Stav, spol. s r.o.",
-     "ico": "48399477"
+      "nazev": "HŘIŠTĚ POD PECNÍKEM – TRÁVNÍK 3. GENERACE, VSETÍN",
+      "sys": "P26V00002225",
+      "url": "https://www.vhodne-uverejneni.cz/zakazka/hriste-pod-pecnikem-travnik-3-generace-vsetin",
+      "uverejneno": "2026-04-08",
+      "lhuta": "2026-04-30",
+      "predp_hodnota": 12000000,
+      "ucastnici": [
+        {
+          "nazev": "SPORT Construction a.s.",
+          "ico": "27752771",
+          "vybran": true,
+          "nabidka_bez_DPH": 11999917.29
+        },
+        {
+          "nazev": "Prosportiva, s.r.o.",
+          "ico": "26257424"
+        },
+        {
+          "nazev": "PROSTAVBY, a.s.",
+          "ico": "27713130"
+        }
+      ],
+      "smlouva": {
+        "id": "38438862",
+        "url": "https://www.hlidacstatu.cz/Detail/38438862",
+        "podpis": "2026-06-19",
+        "cislo": "0131 2026",
+        "bez_DPH": 11999917,
+        "s_DPH": 14519900,
+        "schvalil": "Čunek Jiří"
+      },
+      "akce_org": "00009986",
+      "pomer_cena_predp": 0.99999,
+      "signal": "Vítězná nabídka o 82,71 Kč nižší než předpokládaná hodnota (99,9993 %)."
     },
     {
-     "nazev": "KKS, spol. s r.o.",
-     "ico": "42340802"
+      "nazev": "VÝMĚNA VZDUCHOTECHNICKÝCH JEDNOTEK – MĚSTSKÉ LÁZNĚ VSETÍN",
+      "sys": "P26V00002519",
+      "url": "https://www.vhodne-uverejneni.cz/zakazka/vymena-vzduchotechnickych-jednotek-mestske-lazne-vsetin",
+      "uverejneno": "2026-04-20",
+      "lhuta": "2026-05-07",
+      "predp_hodnota": 11000000,
+      "ucastnici": [
+        {
+          "nazev": "INSTOP, spol. s r.o.",
+          "ico": "46994955"
+        },
+        {
+          "nazev": "DCI Czech a.s.",
+          "ico": "04501624"
+        },
+        {
+          "nazev": "JASY Vsetín s.r.o.",
+          "ico": "25860852",
+          "vybran": true,
+          "nabidka_bez_DPH": 9384553
+        }
+      ],
+      "smlouva": {
+        "id": "38370901",
+        "url": "https://www.hlidacstatu.cz/Detail/38370901",
+        "podpis": "2026-06-15",
+        "s_DPH": 11355309
+      },
+      "akce_org": "00009956",
+      "pomer_cena_predp": 0.853
+    },
+    {
+      "nazev": "Přednádražní prostor – I.B etapa – Vsetín",
+      "sys": "P23V00007474",
+      "url": "https://www.vhodne-uverejneni.cz/zakazka/prednadrazni-prostor-i-b-etapa-vsetin",
+      "uverejneno": "2023-11-06",
+      "lhuta": "2024-02-19",
+      "predp_hodnota": 257565000,
+      "stav": "profil: 'zakázka neukončena (Vyhodnocování)' – v rozporu s registrem smluv",
+      "signal": "Smlouva uzavřena 2.5.2024 (169,16 mil. Kč s DPH), ale profil zadavatele uvádí 'vyhodnocování' – neaktualizovaný profil (datová kvalita / transparentnost). Dodatky +9,0 mil. Kč.",
+      "smlouva": {
+        "id": "28569311",
+        "url": "https://www.hlidacstatu.cz/Detail/28569311",
+        "podpis": "2024-05-02",
+        "dodavatel": "EUROVIA CS, a.s. + SMO a.s. (+1)",
+        "s_DPH": 169163690,
+        "dodatky": [
+          {
+            "id": "33537300",
+            "datum": "2025-06-03",
+            "Kc": 3312962
+          },
+          {
+            "id": "35989505",
+            "datum": "2025-12-09",
+            "Kc": 2934825
+          },
+          {
+            "id": "39587661",
+            "datum": "2026-09-18",
+            "Kc": 2768374
+          }
+        ]
+      }
+    },
+    {
+      "nazev": "Lávka přes Bečvu u průmyslovky (Vs-04-Bel)",
+      "sys": null,
+      "smlouva": {
+        "id": "35219709",
+        "url": "https://www.hlidacstatu.cz/Detail/35219709",
+        "podpis": "2025-10-14",
+        "cislo": "0138 2025",
+        "dodavatel": "Mitrenga-stavby, spol. s r.o. (IČO 26944022)",
+        "bez_DPH": 68983751,
+        "s_DPH": 83470339,
+        "schvalil": "Čunek Jiří"
+      },
+      "vyvoj_rozpoctu": [
+        {
+          "rok": 2022,
+          "zdroj": "RO 4/2022 (ZM)",
+          "text": "rozpočet 23 000 000 Kč; v textu částky 26 479 138,50 / 32 039 757,59 / 19 483 170"
+        },
+        {
+          "rok": 2022,
+          "zdroj": "registr smluv 19955007",
+          "text": "SoD TM Stav 19 483 170 Kč bez DPH (8.4.2022)"
+        },
+        {
+          "rok": 2023,
+          "zdroj": "RO 2/2023 (ZM)",
+          "text": "přesun 10 000 000 Kč z 5169 na 6121 ('Lávka u průmyslovky Vs-04-Bel')"
+        },
+        {
+          "rok": 2023,
+          "zdroj": "registr smluv 23734017",
+          "text": "Dohoda o narovnání s TM Stav 2 165 323 Kč (10.3.2023)"
+        },
+        {
+          "rok": 2025,
+          "zdroj": "registr smluv",
+          "text": "SoD 68 983 751 Kč bez DPH"
+        }
+      ],
+      "signal": "Původní SoD 19,48 mil. (TM Stav, 2022) ukončena narovnáním 2,17 mil.; nová SoD 68,98 mil. bez DPH (Mitrenga, 2025) = 3,5× – viz K-003.",
+      "vz_I": {
+        "sys": "P25V00004197",
+        "predp_hodnota": 58000000,
+        "max_cena": true,
+        "zruseni": "2025-07-10",
+        "duvod": "§ 127 odst. 2 písm. d) ZZVZ – všechny nabídky nad maximální cenou; nejasná technická kvalifikace (čl. 13.1 a) ZD)",
+        "pisemna_zprava": "MUVS 90996/2025 (21.7.2025)",
+        "nabidky_bez_DPH": {
+          "Mitrenga-stavby": 71376126.99,
+          "MI Roads + Metrostav DS": 72331840.72,
+          "FIRESTA-Fišer": 77763988.83,
+          "IDS Olomouc": 79480447.56
+        }
+      }
+    },
+    {
+      "nazev": "LÁVKA PŘES BEČVU U PRŮMYSLOVKY VE VSETÍNĚ II",
+      "sys": "P25V00006806",
+      "url": "https://www.vhodne-uverejneni.cz/zakazka/lavka-pres-becvu-u-prumyslovky-ve-vsetine-ii",
+      "uverejneno": "2025-07-24",
+      "lhuta": "2025-08-22",
+      "predp_hodnota": 72000000,
+      "ucastnici": [
+        {
+          "nazev": "STRABAG a.s.",
+          "ico": "60838744"
+        },
+        {
+          "nazev": "Mitrenga-stavby, spol. s r.o.",
+          "ico": "26944022",
+          "vybran": true,
+          "nabidka_bez_DPH": 68983750.54
+        },
+        {
+          "nazev": "FIRESTA-Fišer, rekonstrukce, stavby a.s.",
+          "ico": "25317628"
+        },
+        {
+          "nazev": "IDS - Inženýrské a dopravní stavby Olomouc a.s.",
+          "ico": "25869523"
+        },
+        {
+          "nazev": "MI Roads a.s.",
+          "ico": "17331099"
+        },
+        {
+          "nazev": "REPONT s.r.o.",
+          "ico": "26863057"
+        }
+      ],
+      "smlouva": {
+        "id": "35219709",
+        "url": "https://www.hlidacstatu.cz/Detail/35219709",
+        "bez_DPH": 68983751,
+        "s_DPH": 83470339
+      },
+      "akce_org": null,
+      "pomer_cena_predp": 0.958,
+      "signal": "Navazuje na zrušenou VZ I (58 mil., 4 nabídky) – předp. hodnota navýšena o 24 %."
     }
-   ],
-   "smlouva": {
-    "id": "39450769",
-    "url": "https://www.hlidacstatu.cz/Detail/39450769",
-    "podpis": "2026-09-07",
-    "bez_DPH": 38777420,
-    "s_DPH": 46920679
-   },
-   "akce_org": "00009929",
-   "pomer_cena_predp": 0.843
-  },
-  {
-   "nazev": "HŘIŠTĚ POD PECNÍKEM – TRÁVNÍK 3. GENERACE, VSETÍN",
-   "sys": "P26V00002225",
-   "url": "https://www.vhodne-uverejneni.cz/zakazka/hriste-pod-pecnikem-travnik-3-generace-vsetin",
-   "uverejneno": "2026-04-08",
-   "lhuta": "2026-04-30",
-   "predp_hodnota": 12000000,
-   "ucastnici": [
-    {
-     "nazev": "SPORT Construction a.s.",
-     "ico": "27752771",
-     "vybran": true,
-     "nabidka_bez_DPH": 11999917.29
-    },
-    {
-     "nazev": "Prosportiva, s.r.o.",
-     "ico": "26257424"
-    },
-    {
-     "nazev": "PROSTAVBY, a.s.",
-     "ico": "27713130"
-    }
-   ],
-   "smlouva": {
-    "id": "38438862",
-    "url": "https://www.hlidacstatu.cz/Detail/38438862",
-    "podpis": "2026-06-19",
-    "cislo": "0131 2026",
-    "bez_DPH": 11999917,
-    "s_DPH": 14519900,
-    "schvalil": "Čunek Jiří"
-   },
-   "akce_org": "00009986",
-   "pomer_cena_predp": 0.99999,
-   "signal": "Vítězná nabídka o 82,71 Kč nižší než předpokládaná hodnota (99,9993 %)."
-  },
-  {
-   "nazev": "VÝMĚNA VZDUCHOTECHNICKÝCH JEDNOTEK – MĚSTSKÉ LÁZNĚ VSETÍN",
-   "sys": "P26V00002519",
-   "url": "https://www.vhodne-uverejneni.cz/zakazka/vymena-vzduchotechnickych-jednotek-mestske-lazne-vsetin",
-   "uverejneno": "2026-04-20",
-   "lhuta": "2026-05-07",
-   "predp_hodnota": 11000000,
-   "ucastnici": [
-    {
-     "nazev": "INSTOP, spol. s r.o.",
-     "ico": "46994955"
-    },
-    {
-     "nazev": "DCI Czech a.s.",
-     "ico": "04501624"
-    },
-    {
-     "nazev": "JASY Vsetín s.r.o.",
-     "ico": "25860852",
-     "vybran": true,
-     "nabidka_bez_DPH": 9384553
-    }
-   ],
-   "smlouva": {
-    "id": "38370901",
-    "url": "https://www.hlidacstatu.cz/Detail/38370901",
-    "podpis": "2026-06-15",
-    "s_DPH": 11355309
-   },
-   "akce_org": "00009956",
-   "pomer_cena_predp": 0.853
-  },
-  {
-   "nazev": "Přednádražní prostor – I.B etapa – Vsetín",
-   "sys": "P23V00007474",
-   "url": "https://www.vhodne-uverejneni.cz/zakazka/prednadrazni-prostor-i-b-etapa-vsetin",
-   "uverejneno": "2023-11-06",
-   "lhuta": "2024-02-19",
-   "predp_hodnota": 257565000,
-   "stav": "profil: 'zakázka neukončena (Vyhodnocování)' – v rozporu s registrem smluv",
-   "signal": "Smlouva uzavřena 2.5.2024 (169,16 mil. Kč s DPH), ale profil zadavatele uvádí 'vyhodnocování' – neaktualizovaný profil (datová kvalita / transparentnost). Dodatky +9,0 mil. Kč.",
-   "smlouva": {
-    "id": "28569311",
-    "url": "https://www.hlidacstatu.cz/Detail/28569311",
-    "podpis": "2024-05-02",
-    "dodavatel": "EUROVIA CS, a.s. + SMO a.s. (+1)",
-    "s_DPH": 169163690,
-    "dodatky": [
-     {
-      "id": "33537300",
-      "datum": "2025-06-03",
-      "Kc": 3312962
-     },
-     {
-      "id": "35989505",
-      "datum": "2025-12-09",
-      "Kc": 2934825
-     },
-     {
-      "id": "39587661",
-      "datum": "2026-09-18",
-      "Kc": 2768374
-     }
-    ]
-   }
-  },
-  {
-   "nazev": "Lávka přes Bečvu u průmyslovky (Vs-04-Bel)",
-   "sys": null,
-   "smlouva": {
-    "id": "35219709",
-    "url": "https://www.hlidacstatu.cz/Detail/35219709",
-    "podpis": "2025-10-14",
-    "cislo": "0138 2025",
-    "dodavatel": "Mitrenga-stavby, spol. s r.o. (IČO 26944022)",
-    "bez_DPH": 68983751,
-    "s_DPH": 83470339,
-    "schvalil": "Čunek Jiří"
-   },
-   "vyvoj_rozpoctu": [
-    {
-     "rok": 2022,
-     "zdroj": "RO 4/2022 (ZM)",
-     "text": "rozpočet 23 000 000 Kč; v textu částky 26 479 138,50 / 32 039 757,59 / 19 483 170"
-    },
-    {
-     "rok": 2022,
-     "zdroj": "registr smluv 19955007",
-     "text": "SoD TM Stav 19 483 170 Kč bez DPH (8.4.2022)"
-    },
-    {
-     "rok": 2023,
-     "zdroj": "RO 2/2023 (ZM)",
-     "text": "přesun 10 000 000 Kč z 5169 na 6121 ('Lávka u průmyslovky Vs-04-Bel')"
-    },
-    {
-     "rok": 2023,
-     "zdroj": "registr smluv 23734017",
-     "text": "Dohoda o narovnání s TM Stav 2 165 323 Kč (10.3.2023)"
-    },
-    {
-     "rok": 2025,
-     "zdroj": "registr smluv",
-     "text": "SoD 68 983 751 Kč bez DPH"
-    }
-   ],
-   "signal": "Původní SoD 19,48 mil. (TM Stav, 2022) ukončena narovnáním 2,17 mil.; nová SoD 68,98 mil. bez DPH (Mitrenga, 2025) = 3,5× – viz K-003."
-  },
-  {
-   "nazev": "LÁVKA PŘES BEČVU U PRŮMYSLOVKY VE VSETÍNĚ II",
-   "sys": "P25V00006806",
-   "url": "https://www.vhodne-uverejneni.cz/zakazka/lavka-pres-becvu-u-prumyslovky-ve-vsetine-ii",
-   "uverejneno": "2025-07-24",
-   "lhuta": "2025-08-22",
-   "predp_hodnota": 72000000,
-   "ucastnici": [
-    {
-     "nazev": "STRABAG a.s.",
-     "ico": "60838744"
-    },
-    {
-     "nazev": "Mitrenga-stavby, spol. s r.o.",
-     "ico": "26944022",
-     "vybran": true,
-     "nabidka_bez_DPH": 68983750.54
-    },
-    {
-     "nazev": "FIRESTA-Fišer, rekonstrukce, stavby a.s.",
-     "ico": "25317628"
-    },
-    {
-     "nazev": "IDS - Inženýrské a dopravní stavby Olomouc a.s.",
-     "ico": "25869523"
-    },
-    {
-     "nazev": "MI Roads a.s.",
-     "ico": "17331099"
-    },
-    {
-     "nazev": "REPONT s.r.o.",
-     "ico": "26863057"
-    }
-   ],
-   "smlouva": {
-    "id": "35219709",
-    "url": "https://www.hlidacstatu.cz/Detail/35219709",
-    "bez_DPH": 68983751,
-    "s_DPH": 83470339
-   },
-   "akce_org": null,
-   "pomer_cena_predp": 0.958,
-   "signal": "Navazuje na zrušenou VZ I (58 mil., 4 nabídky) – předp. hodnota navýšena o 24 %."
-  }
- ],
- "dalsi_zjisteni": [
-  "Mitrenga-stavby, spol. s r.o. má s městem smlouvy za 83,47 mil. (lávka Vs-04-Bel, 2025), 11,42 mil. (lávka Vs-01-Bel, 2026) a 0,78 mil. Kč (2026).",
-  "Profil eviduje 84 zrušených zakázek (mj. Senior taxi 2×, střecha kina Vatra, MVK Rokytnice 15,6 mil.)."
- ]
+  ],
+  "dalsi_zjisteni": [
+    "Mitrenga-stavby, spol. s r.o. má s městem smlouvy za 83,47 mil. (lávka Vs-04-Bel, 2025), 11,42 mil. (lávka Vs-01-Bel, 2026) a 0,78 mil. Kč (2026).",
+    "Profil eviduje 84 zrušených zakázek (mj. Senior taxi 2×, střecha kina Vatra, MVK Rokytnice 15,6 mil.)."
+  ]
 }

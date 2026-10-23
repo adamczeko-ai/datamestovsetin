@@ -1,520 +1,527 @@
 {
- "schema": "vsetin-osint/subjekty@1",
- "zdroj": "rozpočtová opatření 2024–2026 (text PDF)",
- "poznamka": "IČO převzata z textu dokumentů, neověřena v ARES; role popsána dle kontextu dokumentu.",
- "subjekty": [
-  {
-   "ico": "00304450",
-   "nazev": "Město Vsetín",
-   "role": "obec",
-   "adresa": "Svárov 1080, 755 01 Vsetín",
-   "vyskyt_RO_2026": [
-    9
-   ],
-   "vyskyt_RO_2025": [
-    13
-   ]
-  },
-  {
-   "ico": "60990406",
-   "nazev": "ZŠ a MŠ Vsetín, Luh 1544, p. o.",
-   "role": "příspěvková organizace města",
-   "adresa": null,
-   "vyskyt_RO_2026": [
-    3,
-    6,
-    18
-   ],
-   "vyskyt_RO_2025": [
-    12
-   ]
-  },
-  {
-   "ico": "60990368",
-   "nazev": "ZŠ a MŠ Vsetín, Ohrada 1876, p. o.",
-   "role": "příspěvková organizace města",
-   "adresa": null,
-   "vyskyt_RO_2026": [
-    18
-   ],
-   "vyskyt_RO_2025": [
-    12,
-    21
-   ]
-  },
-  {
-   "ico": "60990449",
-   "nazev": "ZŠ a MŠ Vsetín, Trávníky 1217, p. o.",
-   "role": "příspěvková organizace města",
-   "adresa": null,
-   "vyskyt_RO_2026": [
-    18
-   ],
-   "vyskyt_RO_2025": [
-    12
-   ]
-  },
-  {
-   "ico": "60990457",
-   "nazev": "ZŠ Vsetín, Rokytnice 436, p. o.",
-   "role": "příspěvková organizace města",
-   "adresa": null,
-   "vyskyt_RO_2026": [
-    18
-   ],
-   "vyskyt_RO_2025": [
-    12
-   ]
-  },
-  {
-   "ico": "70322783",
-   "nazev": "Ing. Jiří Macháček – INPRAISE",
-   "role": "dodavatel (nabídka)",
-   "adresa": "Bratří Hlaviců 80, Vsetín",
-   "vyskyt_RO_2026": [
-    4
-   ]
-  },
-  {
-   "ico": "26378191",
-   "nazev": "ČEZNET, s.r.o. (pobočka INTERNEXT)",
-   "role": "dodavatel (nabídka)",
-   "adresa": "Palackého 166, Vsetín",
-   "vyskyt_RO_2026": [
-    4
-   ]
-  },
-  {
-   "ico": "25845420",
-   "nazev": "LPT System, s.r.o.",
-   "role": "dárce MVK (RO 21/2025, dar v rámci 70 tis.) a vybraný dodavatel ZŠ Trávníky (RO 4/2026, 46 961 Kč)",
-   "adresa": "Jasenická 1734, Vsetín",
-   "vyskyt_RO_2026": [
-    4
-   ],
-   "vyskyt_RO_2025": [
-    21
-   ]
-  },
-  {
-   "ico": "27822371",
-   "nazev": "Trend gastronomie s.r.o.",
-   "role": "dodavatel (myčka 66 020,63 Kč)",
-   "adresa": "Hluboké 657, Vsetín",
-   "vyskyt_RO_2026": [
-    4
-   ]
-  },
-  {
-   "ico": "26686503",
-   "nazev": "M.O.Z. Consult s. r. o.",
-   "role": "dodavatel (SoD 465 850 Kč s DPH, rezidentní parkování)",
-   "adresa": "Radimova 2342/36, Praha 6",
-   "vyskyt_RO_2026": [
-    5
-   ]
-  },
-  {
-   "ico": "45272956",
-   "nazev": "Generali Česká pojišťovna a.s.",
-   "role": "pojistitel (plnění)",
-   "adresa": null,
-   "vyskyt_RO_2026": [
-    6
-   ]
-  },
-  {
-   "ico": "25396269",
-   "nazev": "SIDAR-plus s.r.o.",
-   "role": "plátce spoluúčasti 5 000 Kč",
-   "adresa": null,
-   "vyskyt_RO_2026": [
-    6
-   ]
-  },
-  {
-   "ico": "00536024",
-   "nazev": "TJ Zbrojovka Vsetín, z.s.",
-   "role": "příjemce dotace (tenisová hala 20 + 2,5 mil.)",
-   "adresa": null,
-   "vyskyt_RO_2026": [
-    7,
-    17
-   ],
-   "vyskyt_RO_2024": [
-    15
-   ]
-  },
-  {
-   "ico": "70887306",
-   "nazev": "HZS Zlínského kraje",
-   "role": "smluvní partner (JSDH)",
-   "adresa": "Přílucká 213, Zlín",
-   "vyskyt_RO_2026": [
-    8
-   ]
-  },
-  {
-   "ico": "68349742",
-   "nazev": "Pavel Škrabánek",
-   "role": "dodavatel (oprava kanalizace ZŠ Sychrov)",
-   "adresa": null,
-   "vyskyt_RO_2026": [
-    8
-   ]
-  },
-  {
-   "ico": "45192120",
-   "nazev": "Z-Group bus a.s.",
-   "role": "dopravce – závazek veřejné služby",
-   "adresa": null,
-   "vyskyt_RO_2026": [
-    9
-   ]
-  },
-  {
-   "ico": "41084837",
-   "nazev": "ZETEX, spol. s r.o.",
-   "role": "prodávající (pozemky + hospoda U Marka, 9,0 mil.)",
-   "adresa": "Horní náměstí 3, Vsetín",
-   "vyskyt_RO_2026": [
-    9
-   ]
-  },
-  {
-   "ico": "28593987",
-   "nazev": "Vsetínská sportovní, s.r.o.",
-   "role": "městská společnost – SOHZ",
-   "adresa": "Na Lapači 394, Vsetín",
-   "vyskyt_RO_2026": [
-    5,
-    9
-   ]
-  },
-  {
-   "ico": "47972114",
-   "nazev": "Dům kultury Vsetín, spol. s r.o.",
-   "role": "městská společnost – SOHZ",
-   "adresa": "Svárov 1055, Vsetín",
-   "vyskyt_RO_2026": [
-    9
-   ]
-  },
-  {
-   "ico": "03642259",
-   "nazev": "UNITED 3P, z. s.",
-   "role": "příjemce dotace (300 tis.)",
-   "adresa": null,
-   "vyskyt_RO_2026": [
-    12
-   ],
-   "vyskyt_RO_2024": [
-    10
-   ]
-  },
-  {
-   "ico": "22851593",
-   "nazev": "Cyklostezka Bečva, z.s.",
-   "role": "příjemce dotace (Sdílená kola)",
-   "adresa": "Velký Týnec",
-   "vyskyt_RO_2026": [
-    12
-   ],
-   "vyskyt_RO_2025": [
-    4
-   ]
-  },
-  {
-   "ico": "69211612",
-   "nazev": "Základní škola Integra Vsetín",
-   "role": "příjemce dotace (konvektomat 325 tis.)",
-   "adresa": null,
-   "vyskyt_RO_2026": [
-    12
-   ]
-  },
-  {
-   "ico": "62334697",
-   "nazev": "FC Fastav Vsetín, z.s.",
-   "role": "příjemce dotace (+350 tis.)",
-   "adresa": null,
-   "vyskyt_RO_2026": [
-    12
-   ],
-   "vyskyt_RO_2025": [
-    4,
-    8
-   ],
-   "vyskyt_RO_2024": [
-    18
-   ]
-  },
-  {
-   "ico": "16361539",
-   "nazev": "SEVEZA spol. s r.o.",
-   "role": "zpracovatel posudku",
-   "adresa": "Huštěnovice 365, Babice",
-   "vyskyt_RO_2026": [
-    14
-   ]
-  },
-  {
-   "ico": "25114638",
-   "nazev": "Kayaku Safety Systems Europe a. s.",
-   "role": "dárce (20 tis.)",
-   "adresa": "Bobrky 2271, Vsetín",
-   "vyskyt_RO_2026": [
-    14
-   ]
-  },
-  {
-   "ico": "27796477",
-   "nazev": "OPEN RE-ECO, s.r.o.",
-   "role": "dodavatel (havarijní oprava Dolní náměstí)",
-   "adresa": "Jiráskova 2498, Vsetín",
-   "vyskyt_RO_2026": [
-    16
-   ]
-  },
-  {
-   "ico": "02536986",
-   "nazev": "MDDr. Helena Kozárková",
-   "role": "příjemkyně podpory – vybavení zubní ordinace (500 tis.)",
-   "adresa": "Rokytnice 413, Vsetín",
-   "vyskyt_RO_2025": [
-    8
-   ]
-  },
-  {
-   "ico": "22233300",
-   "nazev": "MDDr. Daniel Sušeň s.r.o.",
-   "role": "příjemce podpory – vybavení zubní ordinace",
-   "adresa": "Josefa Sousedíka 1432, Vsetín",
-   "vyskyt_RO_2025": [
-    8
-   ]
-  },
-  {
-   "ico": "60042354",
-   "nazev": "MŠ Vsetín, Trávníky 1218, p. o.",
-   "role": "příspěvková organizace města",
-   "adresa": null,
-   "vyskyt_RO_2025": [
-    11
-   ]
-  },
-  {
-   "ico": "70872236",
-   "nazev": "MŠ Vsetín, Na Kopečku 13, p. o.",
-   "role": "příspěvková organizace města",
-   "adresa": null,
-   "vyskyt_RO_2025": [
-    11
-   ]
-  },
-  {
-   "ico": "00851817",
-   "nazev": "Masarykova veřejná knihovna Vsetín, p. o.",
-   "role": "příspěvková organizace města",
-   "adresa": "Dolní náměstí 1356, Vsetín",
-   "vyskyt_RO_2025": [
-    12,
-    21
-   ]
-  },
-  {
-   "ico": "66184606",
-   "nazev": "Hokejbalový klub Vsetín, z.s.",
-   "role": "příjemce dotace + návratné výpomoci 220 tis.",
-   "adresa": null,
-   "vyskyt_RO_2025": [
-    13,
-    22
-   ]
-  },
-  {
-   "ico": "60609249",
-   "nazev": "MŠ Vsetín, Ohrada 1879, p. o.",
-   "role": "příspěvková organizace města",
-   "adresa": null,
-   "vyskyt_RO_2025": [
-    21
-   ]
-  },
-  {
-   "ico": "60042389",
-   "nazev": "MŠ Vsetín, Benátky 1175, p. o.",
-   "role": "příspěvková organizace města",
-   "adresa": null,
-   "vyskyt_RO_2025": [
-    21
-   ]
-  },
-  {
-   "ico": "60042362",
-   "nazev": "MŠ Vsetín, Sychrov 96, p. o.",
-   "role": "příspěvková organizace města",
-   "adresa": null,
-   "vyskyt_RO_2025": [
-    21
-   ]
-  },
-  {
-   "ico": "24726443",
-   "nazev": "FUSION Architects s.r.o.",
-   "role": "dárce (MVK)",
-   "adresa": "Na Maninách 1092/20, Praha 7",
-   "vyskyt_RO_2025": [
-    21
-   ]
-  },
-  {
-   "ico": "43964532",
-   "nazev": "FORM, spol. s r.o.",
-   "role": "dárce (MVK)",
-   "adresa": "Poručíka Hoši 512/2a, Kozmice",
-   "vyskyt_RO_2025": [
-    21
-   ]
-  },
-  {
-   "ico": "25835661",
-   "nazev": "H & B delta, s.r.o.",
-   "role": "dárce MVK (RO 21/2025); dodavatel FVE ZŠ Ohrada 2026 (2,26 mil. Kč + smlouva bez uvedené hodnoty)",
-   "adresa": "Bobrky 382, Vsetín",
-   "vyskyt_RO_2025": [
-    21
-   ]
-  },
-  {
-   "ico": "64086712",
-   "nazev": "VASMO s.r.o.",
-   "role": "prodávající pozemků pro cyklostezku Rokytnice–Lhota",
-   "adresa": "Rokytnice 194, Vsetín",
-   "vyskyt_RO_2024": [
-    6
-   ]
-  },
-  {
-   "ico": "26805375",
-   "nazev": "JH KOVO s.r.o.",
-   "role": "prodávající pozemků pro cyklostezku Rokytnice–Lhota",
-   "adresa": "Družstevní 1180, Vsetín",
-   "vyskyt_RO_2024": [
-    6
-   ]
-  },
-  {
-   "ico": "19957050",
-   "nazev": "Stomatologické centrum Univerzitní s.r.o.",
-   "role": "příjemce podpory – vybavení zubní ordinace (500 tis.)",
-   "adresa": null,
-   "vyskyt_RO_2024": [
-    18
-   ]
-  },
-  {
-   "ico": "00533815",
-   "nazev": "Tělovýchovná jednota MEZ Vsetín – spolek",
-   "role": "prodávající – Objekt Tribuna a pozemky Na Ohradě, 33 150 000 Kč",
-   "adresa": "Mostecká 367, Vsetín",
-   "zdroj": "34/18/ZM/2025; RO 4/2025"
-  },
-  {
-   "ico": "47674652",
-   "nazev": "Vodovody a kanalizace Vsetín, a.s.",
-   "role": "smluvní strana (ZM 12/2024)",
-   "adresa": "Jasenická 1106, Vsetín",
-   "zdroj": "ZM 22.4.2024"
-  },
-  {
-   "ico": "26863081",
-   "nazev": "Agentura pro ekonomický rozvoj Vsetínska, o.p.s.",
-   "role": "peněžitý vklad 3,6 mil. Kč (RO 21/2023); 'Dohoda o narovnání AERV' 3 848 880 Kč (RO 8/2023)",
-   "zdroj": "RO 8/2023, RO 21/2023",
-   "k_overeni": "IČO, vlastnická struktura, předmět narovnání",
-   "adresa": "Horní náměstí 3, Vsetín"
-  },
-  {
-   "ico": "19690711",
-   "nazev": "DN Vsetín s.r.o.",
-   "role": "zápůjčka 1 000 000 Kč + vklad 1 000 Kč (RO 13/2023) – zřejmě nově založená městská společnost",
-   "zdroj": "RO 13/2023",
-   "k_overeni": "IČO, účel (DN = ?)",
-   "adresa": "Smetanova 1484, Vsetín"
-  },
-  {
-   "ico": "62587978",
-   "nazev": "VERA, spol. s r.o. (dle ORG kódu – k ověření)",
-   "role": "Rozšíření IS Radnice VERA 475 000 Kč",
-   "zdroj": "RO 13/2023"
-  },
-  {
-   "ico": null,
-   "nazev": "Farní sbor Českobratrské církve evangelické (Vsetín)",
-   "role": "dotace ZM 600 000 Kč",
-   "zdroj": "RO 5/2023"
-  },
-  {
-   "ico": null,
-   "nazev": "MUNIPOLIS (mobilní rozhlas)",
-   "role": "služba mobilního rozhlasu, navýšení 28 615 Kč",
-   "zdroj": "RO 8/2023"
-  },
-  {
-   "ico": "73257958",
-   "nazev": "Martin Urban",
-   "role": "zhotovitel – rozšíření hřbitova/kolumbárium, SoD 46 920 679 Kč s DPH (2026)",
-   "adresa": "Lhota u Vsetína 10"
-  },
-  {
-   "ico": null,
-   "nazev": "Damostis s.r.o.",
-   "role": "diagnostika lávky Vs-01-Bel 532 279 Kč (2026)"
-  },
-  {
-   "ico": "26944022",
-   "nazev": "Mitrenga-stavby, spol. s r.o.",
-   "role": "zhotovitel lávky Vs-04-Bel (83,47 mil. s DPH, 2025) a opravy lávky Vs-01-Bel (11,42 mil., 2026)"
-  },
-  {
-   "ico": "25317628",
-   "nazev": "FIRESTA-Fišer, rekonstrukce, stavby a.s.",
-   "role": "uchazeč – oprava lávky Vs-01-Bel (2026)"
-  },
-  {
-   "ico": "27752771",
-   "nazev": "SPORT Construction a.s.",
-   "role": "zhotovitel Hřiště Pod Pecníkem 11 999 917 Kč bez DPH (předp. 12 mil.)"
-  },
-  {
-   "ico": "25860852",
-   "nazev": "JASY Vsetín s.r.o.",
-   "role": "zhotovitel VZT Městské lázně 9,38 mil. bez DPH (2026)"
-  }
- ],
- "vazby_k_overeni": [
-  {
-   "typ": "darce→dodavatel",
-   "ico": "25845420",
-   "popis": "LPT System, s.r.o. poskytla dar MVK (RO 21/2025, prosinec 2025) a v únoru 2026 byla vybrána jako nejlevnější ze 3 nabídek pro příspěvkovou organizaci ZŠ Trávníky (RO 4/2026). Samo o sobě nic nedokazuje (malé částky, jiné organizace), jen evidovat."
-  },
-  {
-   "typ": "darce→dodavatel",
-   "ico": "25835661",
-   "popis": "H & B delta, s.r.o.: dar MVK 12/2025 → dodavatel FVE ZŠ Ohrada 07–10/2026."
-  }
- ],
- "osoby_z_verejnych_dokumentu": [
-  {
-   "jmeno": "MUDr. Adéla Jenerál Chmelařová",
-   "role": "příjemkyně příspěvku 300 tis. Kč na rekonstrukci psychiatrické ordinace (Pravidla podpory společensky potřebných profesí, ZM 2022)",
-   "zdroj": "RO 15/2024"
-  },
-  {
-   "jmeno": "MDDr. Helena Kozárková",
-   "role": "příjemkyně podpory 500 tis. Kč – zubní ordinace",
-   "zdroj": "RO 8/2025"
-  }
- ]
+  "schema": "vsetin-osint/subjekty@1",
+  "zdroj": "rozpočtová opatření 2024–2026 (text PDF)",
+  "poznamka": "IČO převzata z textu dokumentů, neověřena v ARES; role popsána dle kontextu dokumentu.",
+  "subjekty": [
+    {
+      "ico": "00304450",
+      "nazev": "Město Vsetín",
+      "role": "obec",
+      "adresa": "Svárov 1080, 755 01 Vsetín",
+      "vyskyt_RO_2026": [
+        9
+      ],
+      "vyskyt_RO_2025": [
+        13
+      ]
+    },
+    {
+      "ico": "60990406",
+      "nazev": "ZŠ a MŠ Vsetín, Luh 1544, p. o.",
+      "role": "příspěvková organizace města",
+      "adresa": null,
+      "vyskyt_RO_2026": [
+        3,
+        6,
+        18
+      ],
+      "vyskyt_RO_2025": [
+        12
+      ]
+    },
+    {
+      "ico": "60990368",
+      "nazev": "ZŠ a MŠ Vsetín, Ohrada 1876, p. o.",
+      "role": "příspěvková organizace města",
+      "adresa": null,
+      "vyskyt_RO_2026": [
+        18
+      ],
+      "vyskyt_RO_2025": [
+        12,
+        21
+      ]
+    },
+    {
+      "ico": "60990449",
+      "nazev": "ZŠ a MŠ Vsetín, Trávníky 1217, p. o.",
+      "role": "příspěvková organizace města",
+      "adresa": null,
+      "vyskyt_RO_2026": [
+        18
+      ],
+      "vyskyt_RO_2025": [
+        12
+      ]
+    },
+    {
+      "ico": "60990457",
+      "nazev": "ZŠ Vsetín, Rokytnice 436, p. o.",
+      "role": "příspěvková organizace města",
+      "adresa": null,
+      "vyskyt_RO_2026": [
+        18
+      ],
+      "vyskyt_RO_2025": [
+        12
+      ]
+    },
+    {
+      "ico": "70322783",
+      "nazev": "Ing. Jiří Macháček – INPRAISE",
+      "role": "dodavatel (nabídka)",
+      "adresa": "Bratří Hlaviců 80, Vsetín",
+      "vyskyt_RO_2026": [
+        4
+      ]
+    },
+    {
+      "ico": "26378191",
+      "nazev": "ČEZNET, s.r.o. (pobočka INTERNEXT)",
+      "role": "dodavatel (nabídka)",
+      "adresa": "Palackého 166, Vsetín",
+      "vyskyt_RO_2026": [
+        4
+      ]
+    },
+    {
+      "ico": "25845420",
+      "nazev": "LPT System, s.r.o.",
+      "role": "dárce MVK (RO 21/2025, dar v rámci 70 tis.) a vybraný dodavatel ZŠ Trávníky (RO 4/2026, 46 961 Kč)",
+      "adresa": "Jasenická 1734, Vsetín",
+      "vyskyt_RO_2026": [
+        4
+      ],
+      "vyskyt_RO_2025": [
+        21
+      ]
+    },
+    {
+      "ico": "27822371",
+      "nazev": "Trend gastronomie s.r.o.",
+      "role": "dodavatel (myčka 66 020,63 Kč)",
+      "adresa": "Hluboké 657, Vsetín",
+      "vyskyt_RO_2026": [
+        4
+      ]
+    },
+    {
+      "ico": "26686503",
+      "nazev": "M.O.Z. Consult s. r. o.",
+      "role": "dodavatel (SoD 465 850 Kč s DPH, rezidentní parkování)",
+      "adresa": "Radimova 2342/36, Praha 6",
+      "vyskyt_RO_2026": [
+        5
+      ]
+    },
+    {
+      "ico": "45272956",
+      "nazev": "Generali Česká pojišťovna a.s.",
+      "role": "pojistitel (plnění)",
+      "adresa": null,
+      "vyskyt_RO_2026": [
+        6
+      ]
+    },
+    {
+      "ico": "25396269",
+      "nazev": "SIDAR-plus s.r.o.",
+      "role": "plátce spoluúčasti 5 000 Kč",
+      "adresa": null,
+      "vyskyt_RO_2026": [
+        6
+      ]
+    },
+    {
+      "ico": "00536024",
+      "nazev": "TJ Zbrojovka Vsetín, z.s.",
+      "role": "příjemce dotace (tenisová hala 20 + 2,5 mil.)",
+      "adresa": null,
+      "vyskyt_RO_2026": [
+        7,
+        17
+      ],
+      "vyskyt_RO_2024": [
+        15
+      ]
+    },
+    {
+      "ico": "70887306",
+      "nazev": "HZS Zlínského kraje",
+      "role": "smluvní partner (JSDH)",
+      "adresa": "Přílucká 213, Zlín",
+      "vyskyt_RO_2026": [
+        8
+      ]
+    },
+    {
+      "ico": "68349742",
+      "nazev": "Pavel Škrabánek",
+      "role": "dodavatel (oprava kanalizace ZŠ Sychrov)",
+      "adresa": null,
+      "vyskyt_RO_2026": [
+        8
+      ]
+    },
+    {
+      "ico": "45192120",
+      "nazev": "Z-Group bus a.s.",
+      "role": "dopravce – závazek veřejné služby",
+      "adresa": null,
+      "vyskyt_RO_2026": [
+        9
+      ]
+    },
+    {
+      "ico": "41084837",
+      "nazev": "ZETEX, spol. s r.o.",
+      "role": "prodávající (pozemky + hospoda U Marka, 9,0 mil.)",
+      "adresa": "Horní náměstí 3, Vsetín",
+      "vyskyt_RO_2026": [
+        9
+      ]
+    },
+    {
+      "ico": "28593987",
+      "nazev": "Vsetínská sportovní, s.r.o.",
+      "role": "městská společnost – SOHZ",
+      "adresa": "Na Lapači 394, Vsetín",
+      "vyskyt_RO_2026": [
+        5,
+        9
+      ]
+    },
+    {
+      "ico": "47972114",
+      "nazev": "Dům kultury Vsetín, spol. s r.o.",
+      "role": "městská společnost – SOHZ",
+      "adresa": "Svárov 1055, Vsetín",
+      "vyskyt_RO_2026": [
+        9
+      ]
+    },
+    {
+      "ico": "03642259",
+      "nazev": "UNITED 3P, z. s.",
+      "role": "příjemce dotace (300 tis.)",
+      "adresa": null,
+      "vyskyt_RO_2026": [
+        12
+      ],
+      "vyskyt_RO_2024": [
+        10
+      ]
+    },
+    {
+      "ico": "22851593",
+      "nazev": "Cyklostezka Bečva, z.s.",
+      "role": "příjemce dotace (Sdílená kola)",
+      "adresa": "Velký Týnec",
+      "vyskyt_RO_2026": [
+        12
+      ],
+      "vyskyt_RO_2025": [
+        4
+      ]
+    },
+    {
+      "ico": "69211612",
+      "nazev": "Základní škola Integra Vsetín",
+      "role": "příjemce dotace (konvektomat 325 tis.)",
+      "adresa": null,
+      "vyskyt_RO_2026": [
+        12
+      ]
+    },
+    {
+      "ico": "62334697",
+      "nazev": "FC Fastav Vsetín, z.s.",
+      "role": "příjemce dotace (+350 tis.)",
+      "adresa": null,
+      "vyskyt_RO_2026": [
+        12
+      ],
+      "vyskyt_RO_2025": [
+        4,
+        8
+      ],
+      "vyskyt_RO_2024": [
+        18
+      ]
+    },
+    {
+      "ico": "16361539",
+      "nazev": "SEVEZA spol. s r.o.",
+      "role": "zpracovatel posudku",
+      "adresa": "Huštěnovice 365, Babice",
+      "vyskyt_RO_2026": [
+        14
+      ]
+    },
+    {
+      "ico": "25114638",
+      "nazev": "Kayaku Safety Systems Europe a. s.",
+      "role": "dárce (20 tis.)",
+      "adresa": "Bobrky 2271, Vsetín",
+      "vyskyt_RO_2026": [
+        14
+      ]
+    },
+    {
+      "ico": "27796477",
+      "nazev": "OPEN RE-ECO, s.r.o.",
+      "role": "dodavatel (havarijní oprava Dolní náměstí)",
+      "adresa": "Jiráskova 2498, Vsetín",
+      "vyskyt_RO_2026": [
+        16
+      ]
+    },
+    {
+      "ico": "02536986",
+      "nazev": "MDDr. Helena Kozárková",
+      "role": "příjemkyně podpory – vybavení zubní ordinace (500 tis.)",
+      "adresa": "Rokytnice 413, Vsetín",
+      "vyskyt_RO_2025": [
+        8
+      ]
+    },
+    {
+      "ico": "22233300",
+      "nazev": "MDDr. Daniel Sušeň s.r.o.",
+      "role": "příjemce podpory – vybavení zubní ordinace",
+      "adresa": "Josefa Sousedíka 1432, Vsetín",
+      "vyskyt_RO_2025": [
+        8
+      ]
+    },
+    {
+      "ico": "60042354",
+      "nazev": "MŠ Vsetín, Trávníky 1218, p. o.",
+      "role": "příspěvková organizace města",
+      "adresa": null,
+      "vyskyt_RO_2025": [
+        11
+      ]
+    },
+    {
+      "ico": "70872236",
+      "nazev": "MŠ Vsetín, Na Kopečku 13, p. o.",
+      "role": "příspěvková organizace města",
+      "adresa": null,
+      "vyskyt_RO_2025": [
+        11
+      ]
+    },
+    {
+      "ico": "00851817",
+      "nazev": "Masarykova veřejná knihovna Vsetín, p. o.",
+      "role": "příspěvková organizace města",
+      "adresa": "Dolní náměstí 1356, Vsetín",
+      "vyskyt_RO_2025": [
+        12,
+        21
+      ]
+    },
+    {
+      "ico": "66184606",
+      "nazev": "Hokejbalový klub Vsetín, z.s.",
+      "role": "příjemce dotace + návratné výpomoci 220 tis.",
+      "adresa": null,
+      "vyskyt_RO_2025": [
+        13,
+        22
+      ]
+    },
+    {
+      "ico": "60609249",
+      "nazev": "MŠ Vsetín, Ohrada 1879, p. o.",
+      "role": "příspěvková organizace města",
+      "adresa": null,
+      "vyskyt_RO_2025": [
+        21
+      ]
+    },
+    {
+      "ico": "60042389",
+      "nazev": "MŠ Vsetín, Benátky 1175, p. o.",
+      "role": "příspěvková organizace města",
+      "adresa": null,
+      "vyskyt_RO_2025": [
+        21
+      ]
+    },
+    {
+      "ico": "60042362",
+      "nazev": "MŠ Vsetín, Sychrov 96, p. o.",
+      "role": "příspěvková organizace města",
+      "adresa": null,
+      "vyskyt_RO_2025": [
+        21
+      ]
+    },
+    {
+      "ico": "24726443",
+      "nazev": "FUSION Architects s.r.o.",
+      "role": "dárce (MVK)",
+      "adresa": "Na Maninách 1092/20, Praha 7",
+      "vyskyt_RO_2025": [
+        21
+      ]
+    },
+    {
+      "ico": "43964532",
+      "nazev": "FORM, spol. s r.o.",
+      "role": "dárce (MVK)",
+      "adresa": "Poručíka Hoši 512/2a, Kozmice",
+      "vyskyt_RO_2025": [
+        21
+      ]
+    },
+    {
+      "ico": "25835661",
+      "nazev": "H & B delta, s.r.o.",
+      "role": "dárce MVK (RO 21/2025); dodavatel FVE ZŠ Ohrada 2026 (2,26 mil. Kč + smlouva bez uvedené hodnoty)",
+      "adresa": "Bobrky 382, Vsetín",
+      "vyskyt_RO_2025": [
+        21
+      ]
+    },
+    {
+      "ico": "64086712",
+      "nazev": "VASMO s.r.o.",
+      "role": "prodávající pozemků pro cyklostezku Rokytnice–Lhota",
+      "adresa": "Rokytnice 194, Vsetín",
+      "vyskyt_RO_2024": [
+        6
+      ]
+    },
+    {
+      "ico": "26805375",
+      "nazev": "JH KOVO s.r.o.",
+      "role": "prodávající pozemků pro cyklostezku Rokytnice–Lhota",
+      "adresa": "Družstevní 1180, Vsetín",
+      "vyskyt_RO_2024": [
+        6
+      ]
+    },
+    {
+      "ico": "19957050",
+      "nazev": "Stomatologické centrum Univerzitní s.r.o.",
+      "role": "příjemce podpory – vybavení zubní ordinace (500 tis.)",
+      "adresa": null,
+      "vyskyt_RO_2024": [
+        18
+      ]
+    },
+    {
+      "ico": "00533815",
+      "nazev": "Tělovýchovná jednota MEZ Vsetín – spolek",
+      "role": "prodávající – Objekt Tribuna a pozemky Na Ohradě, 33 150 000 Kč",
+      "adresa": "Mostecká 367, Vsetín",
+      "zdroj": "34/18/ZM/2025; RO 4/2025"
+    },
+    {
+      "ico": "47674652",
+      "nazev": "Vodovody a kanalizace Vsetín, a.s.",
+      "role": "smluvní strana (ZM 12/2024)",
+      "adresa": "Jasenická 1106, Vsetín",
+      "zdroj": "ZM 22.4.2024"
+    },
+    {
+      "ico": "26863081",
+      "nazev": "Agentura pro ekonomický rozvoj Vsetínska, o.p.s.",
+      "role": "peněžitý vklad 3,6 mil. Kč (RO 21/2023); 'Dohoda o narovnání AERV' 3 848 880 Kč (RO 8/2023)",
+      "zdroj": "RO 8/2023, RO 21/2023",
+      "k_overeni": "IČO, vlastnická struktura, předmět narovnání",
+      "adresa": "Horní náměstí 3, Vsetín"
+    },
+    {
+      "ico": "19690711",
+      "nazev": "DN Vsetín s.r.o.",
+      "role": "zápůjčka 1 000 000 Kč + vklad 1 000 Kč (RO 13/2023) – zřejmě nově založená městská společnost",
+      "zdroj": "RO 13/2023",
+      "k_overeni": "IČO, účel (DN = ?)",
+      "adresa": "Smetanova 1484, Vsetín"
+    },
+    {
+      "ico": "62587978",
+      "nazev": "VERA, spol. s r.o. (dle ORG kódu – k ověření)",
+      "role": "Rozšíření IS Radnice VERA 475 000 Kč",
+      "zdroj": "RO 13/2023"
+    },
+    {
+      "ico": null,
+      "nazev": "Farní sbor Českobratrské církve evangelické (Vsetín)",
+      "role": "dotace ZM 600 000 Kč",
+      "zdroj": "RO 5/2023"
+    },
+    {
+      "ico": null,
+      "nazev": "MUNIPOLIS (mobilní rozhlas)",
+      "role": "služba mobilního rozhlasu, navýšení 28 615 Kč",
+      "zdroj": "RO 8/2023"
+    },
+    {
+      "ico": "73257958",
+      "nazev": "Martin Urban",
+      "role": "zhotovitel – rozšíření hřbitova/kolumbárium, SoD 46 920 679 Kč s DPH (2026)",
+      "adresa": "Lhota u Vsetína 10"
+    },
+    {
+      "ico": null,
+      "nazev": "Damostis s.r.o.",
+      "role": "diagnostika lávky Vs-01-Bel 532 279 Kč (2026)"
+    },
+    {
+      "ico": "26944022",
+      "nazev": "Mitrenga-stavby, spol. s r.o.",
+      "role": "zhotovitel lávky Vs-04-Bel (83,47 mil. s DPH, 2025) a opravy lávky Vs-01-Bel (11,42 mil., 2026)"
+    },
+    {
+      "ico": "25317628",
+      "nazev": "FIRESTA-Fišer, rekonstrukce, stavby a.s.",
+      "role": "uchazeč – oprava lávky Vs-01-Bel (2026)"
+    },
+    {
+      "ico": "27752771",
+      "nazev": "SPORT Construction a.s.",
+      "role": "zhotovitel Hřiště Pod Pecníkem 11 999 917 Kč bez DPH (předp. 12 mil.)"
+    },
+    {
+      "ico": "25860852",
+      "nazev": "JASY Vsetín s.r.o.",
+      "role": "zhotovitel VZT Městské lázně 9,38 mil. bez DPH (2026)"
+    },
+    {
+      "ico": "26782596",
+      "nazev": "Technické služby Vsetín, s.r.o.",
+      "role": "dodavatel – svoz a nakládání s komunálním odpadem (smlouva 695/1S/2022)",
+      "adresa": "Bobrky 460, 755 01 Vsetín",
+      "pozn": "Obchodní společnost; nezaměňovat s Technickými službami města Vsetína (p.o.). Vlastnická struktura k ověření v OR."
+    }
+  ],
+  "vazby_k_overeni": [
+    {
+      "typ": "darce→dodavatel",
+      "ico": "25845420",
+      "popis": "LPT System, s.r.o. poskytla dar MVK (RO 21/2025, prosinec 2025) a v únoru 2026 byla vybrána jako nejlevnější ze 3 nabídek pro příspěvkovou organizaci ZŠ Trávníky (RO 4/2026). Samo o sobě nic nedokazuje (malé částky, jiné organizace), jen evidovat."
+    },
+    {
+      "typ": "darce→dodavatel",
+      "ico": "25835661",
+      "popis": "H & B delta, s.r.o.: dar MVK 12/2025 → dodavatel FVE ZŠ Ohrada 07–10/2026."
+    }
+  ],
+  "osoby_z_verejnych_dokumentu": [
+    {
+      "jmeno": "MUDr. Adéla Jenerál Chmelařová",
+      "role": "příjemkyně příspěvku 300 tis. Kč na rekonstrukci psychiatrické ordinace (Pravidla podpory společensky potřebných profesí, ZM 2022)",
+      "zdroj": "RO 15/2024"
+    },
+    {
+      "jmeno": "MDDr. Helena Kozárková",
+      "role": "příjemkyně podpory 500 tis. Kč – zubní ordinace",
+      "zdroj": "RO 8/2025"
+    }
+  ]
 }

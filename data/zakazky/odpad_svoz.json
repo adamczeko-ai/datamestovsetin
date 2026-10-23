@@ -1,8 +1,52 @@
 {
- "zdroj": "Hlídač státu, dotaz ico:00304450 svoz komunální odpad",
- "zjisteni": "Smlouvy na odpad s Technickými službami Vsetín, s.r.o. (pozor: obchodní společnost, odlišná od TSMV, p.o.) – roční smlouvy 0,23–0,45 mil. Kč (2017–2025) a smlouvy bez hodnoty (2024, 2026). Hlavní smlouva na svoz po zrušené VZ 2019 (99,75 mil.) zatím nedohledána.",
- "k_overeni": [
-  "vlastnická struktura Technické služby Vsetín, s.r.o.",
-  "hlavní smlouva na svoz KO (in-house? koncese?)"
- ]
+  "zdroj": "Hlídač státu, dotaz ico:00304450 svoz komunální odpad",
+  "zjisteni": "Smlouvy na odpad s Technickými službami Vsetín, s.r.o. (pozor: obchodní společnost, odlišná od TSMV, p.o.) – roční smlouvy 0,23–0,45 mil. Kč (2017–2025) a smlouvy bez hodnoty (2024, 2026). Hlavní smlouva: 695/1S/2022 (Hlídač státu 22831685) z otevřeného řízení 2022.",
+  "k_overeni": [
+    "vlastnická struktura Technické služby Vsetín, s.r.o. (IČO 26782596)",
+    "co znamená hodnota 28,3 mil. bez DPH v registru (rok vs. celek) a výsledek VZ 2022 (počet nabídek)",
+    "dodatky č. 2 a 3; obsah dodatků 1 a 4 (hodnota 0 Kč)",
+    "proč byla smlouva z 30.4.2021 zneplatněna"
+  ],
+  "hlavni_smlouva": {
+    "cislo": "695/1S/2022",
+    "predmet": "Zajištění sběru, svozu a nakládání s odpadem",
+    "dodavatel": "Technické služby Vsetín, s.r.o.",
+    "hodnota": "registr: 28 315 704 Kč bez DPH – nejasné, zda roční cena nebo jiný základ (předp. hodnota 138,6 mil./48 měs. ≈ 34,65 mil./rok); ověřit v příloze 0695_2022_A.pdf",
+    "dodatky": [
+      {
+        "c": 1,
+        "hs": "28709135",
+        "podpis": "2024-05-15",
+        "schvalil": "Mgr. Pavel Bartoň",
+        "hodnota": null
+      },
+      {
+        "c": 4,
+        "hs": "38107033",
+        "podpis": "2026-05-19",
+        "schvalil": "Čunek Jiří",
+        "hodnota": null
+      }
+    ],
+    "pozn": "Smlouva z otevřeného řízení 2022 (po zrušené VZ 2019, předp. 99,75 mil.); dodatky 2 a 3 nedohledány.",
+    "hs": "22831685",
+    "url": "https://www.hlidacstatu.cz/Detail/22831685",
+    "podpis": "2022-12-16",
+    "schvalil": "Mgr. Pavel Bartoň",
+    "dodavatel_ico": "26782596",
+    "dodavatel_sidlo": "Bobrky 460, Vsetín",
+    "bez_DPH_registr": 28315704,
+    "s_DPH_registr": 34262002,
+    "vz": {
+      "nazev": "Zajištění sběru, svozu a dalšího nakládání s komunálním odpadem pro město Vsetín",
+      "druh": "otevřené řízení, služby",
+      "ev_cislo": "MUVS-S 19288/2022",
+      "predp_hodnota_bez_DPH": 138600000,
+      "obdobi_mesicu": 48,
+      "z_toho_zakladni": 128000000,
+      "vyhrazene_zmeny": "§ 100 odst. 3: 1,4 mil. polopodzemní kontejnery + 1,2 mil. služby pro původce (+ další položky); § 100 odst. 1 počty nádob"
+    },
+    "vypoved": "bez udání důvodu, výpovědní doba 6 měsíců",
+    "predchozi": "smlouva 30.4.2021, 27 056 173 Kč s DPH – v registru zneplatněna (ověřit, proč)"
+  }
 }
