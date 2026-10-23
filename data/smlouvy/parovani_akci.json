@@ -1,7 +1,7 @@
 {
  "schema": "vsetin-osint/parovani-smluv@1",
  "zdroj": "Hlídač státu – hledání smluv (registr smluv)",
- "stav_k": "2026-10-23 02:20 SELČ",
+ "stav_k": "2026-10-23 03:40 SELČ",
  "metoda": "dotaz ico:00304450 + klíčová slova akce; ručně vybrány relevantní smlouvy",
  "upozorneni": "Fulltextové párování – relevance ověřena jen podle názvu dodavatele/částky.",
  "akce": [
@@ -11,6 +11,15 @@
    "dotaz": "ico:00304450 lávk* Lázk*",
    "nalezeno": 11,
    "klicove": [
+    {
+     "id": "38483666",
+     "url": "https://www.hlidacstatu.cz/Detail/38483666",
+     "podpis": "2026-06-23",
+     "dodavatel": "Mitrenga-stavby, spol. s r.o. (IČO 26944022)",
+     "Kc": 11422400,
+     "bez_DPH": 9440000,
+     "pozn": "stavební práce – design and build (VZ P26V00003089, 2 nabídky)"
+    },
     {
      "id": "37251477",
      "podpis": "2026-03-12",
@@ -41,7 +50,8 @@
      "url": "https://www.hlidacstatu.cz/Detail/39554985"
     }
    ],
-   "chybi": "smlouva na stavební práce (RO 12/2026: 12,8 mil. Kč) – k 23.10.2026 2:20 SELČ v registru stále nenalezena (dotazy 'Vs-01-Bel', 'lávk* v Lázkách')"
+   "chybi": null,
+   "oprava": "OPRAVA (várka j): smlouva na stavbu existuje (38483666) – dřívější fulltextové dotazy ji nenašly, název neobsahuje 'Vs-01-Bel'."
   },
   {
    "akce": "Rekonstrukce hřbitova – rozšíření kolumbária",

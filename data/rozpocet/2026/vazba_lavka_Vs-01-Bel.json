@@ -40,6 +40,26 @@
    },
    "popis": "Oprava lávky – stavební práce 12 800 000 Kč, financováno v rámci RO 12 (investiční úvěr 107,5 mil.).",
    "zdroj": "RO-2026-12"
+  },
+  {
+   "datum": "2026-03-12",
+   "typ": "smlouva",
+   "popis": "Damostis s.r.o. – diagnostika 532 279 Kč (HS 37251477)."
+  },
+  {
+   "datum": "2026-05-11",
+   "typ": "zakazka",
+   "popis": "VZ 'Oprava lávky … (Lázkách) – design and build', předp. hodnota 12 mil. Kč bez DPH, 2 nabídky."
+  },
+  {
+   "datum": "2026-06-23",
+   "typ": "smlouva",
+   "popis": "SoD Mitrenga-stavby, spol. s r.o. 9 440 000 Kč bez DPH / 11 422 400 s DPH (HS 38483666), schválil starosta."
+  },
+  {
+   "datum": "2026-07-16 / 09-15",
+   "typ": "smlouvy",
+   "popis": "Ing. Miroslav Macek 217 800 + 78 650 Kč; Damostis 119 790 Kč (pravděpodobně TDS/AD/BOZP – ověřit)."
   }
  ],
  "souvisi": [
@@ -47,9 +67,10 @@
   "Přestavba mostu VS-04-Rom na lávku Vs-04-Rol (RO 9, +50 000 Kč)"
  ],
  "otevrene_otazky": [
-  "Výsledek diagnostiky (závěrečná zpráva 04/2026) – kde zveřejněna?",
-  "Veřejná zakázka na stavební práce – dodavatel, cena, smlouva v registru smluv?",
-  "Skutečné čerpání v závěrečném účtu 2026."
+  "Výsledek diagnostiky (zpráva 04/2026)",
+  "Proč jen 2 nabídky",
+  "Skutečné čerpání v ZÚ 2026",
+  "Fotodokumentace stavu – vazba na výsledek (cíl projektu)"
  ],
  "dalsi_lavky_v_rozpoctu_2025": [
   "Odstranění lávky VS-01-Bol přes silnici I/57 a III/05736, Bobrky – +5 000 000 Kč (RO 4/2025, ZM) – POZOR: jiná lávka (Bol ≠ Bel)",
@@ -57,5 +78,6 @@
   "Cyklostezka včetně lávky VS-03-ROL (lávka u SBD) – PD +370 000 Kč (RO 8/2025, ZM)",
   "Technická studie nové lávky přes Bečvu v Panské zahradě – 800 000 Kč (RO 13/2025, ZM)"
  ],
- "poznamka": "V RO 2025 se lávka Vs-01-Bel v Lázkách nevyskytuje; první peníze jsou až v RO 2/2026."
+ "poznamka": "V RO 2025 se lávka Vs-01-Bel v Lázkách nevyskytuje; první peníze jsou až v RO 2/2026.",
+ "souvisejici_lavka_Vs-04-Bel": "Lávka u průmyslovky: SoD 2025 s týmž dodavatelem (Mitrenga) 83,47 mil. Kč s DPH – viz data/zakazky/verejne_zakazky.json"
 }

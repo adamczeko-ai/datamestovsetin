@@ -2,15 +2,28 @@
  "schema": "vsetin-osint/red-flags@1",
  "upozorneni": "Signály jsou pravidlové a slouží k prioritizaci ověřování. Nejsou zjištěním pochybení.",
  "souhrn": {
+  "R10-narust-ceny-proti-rozpoctu": 1,
   "R1-velke-navyseni": 44,
   "R7-dofinancovani-PO": 2,
   "R6-soudni-spory": 3,
+  "R11-zakazka-dlouho-neukoncena": 1,
   "R2-opakovane-navysovani": 10,
+  "R9-cena-u-predpokladane-hodnoty": 1,
   "R4-nakup-nemovitosti": 6,
   "R5-dotace-subjektu": 19,
-  "R3-RM-velka-investice": 9
+  "R3-RM-velka-investice": 9,
+  "R8-malo-nabidek": 1
  },
  "signaly": [
+  {
+   "kod": "R10-narust-ceny-proti-rozpoctu",
+   "zavaznost": "vysoka",
+   "popis": "Cena díla ~3× vyšší než rozpočet 2022 (23 mil. Kč). Mitrenga-stavby vyhrála i opravu lávky v Lázkách (2026).",
+   "castka_Kc": 68983751,
+   "odkazy": [
+    "https://www.hlidacstatu.cz/Detail/35219709"
+   ]
+  },
   {
    "kod": "R1-velke-navyseni",
    "zavaznost": "vysoka",
@@ -122,6 +135,15 @@
    ]
   },
   {
+   "kod": "R11-zakazka-dlouho-neukoncena",
+   "zavaznost": "stredni",
+   "popis": "Přednádražní prostor – I.B etapa – Vsetín: zakázka neukončena (Vyhodnocování) – k 23.10.2026, tj. 2,7 roku po lhůtě",
+   "castka_Kc": 257565000,
+   "odkazy": [
+    "https://www.vhodne-uverejneni.cz/zakazka/prednadrazni-prostor-i-b-etapa-vsetin"
+   ]
+  },
+  {
    "kod": "R2-opakovane-navysovani",
    "zavaznost": "stredni",
    "popis": "Stavební úpravy MVK  TIC - neinvestiční část (ORG 00003213): 8× navýšeno  celkem +16 689 000 Kč",
@@ -206,6 +228,16 @@
    "odkazy": [
     "RO-2025-08",
     "17,18/19/ZM/2025"
+   ]
+  },
+  {
+   "kod": "R9-cena-u-predpokladane-hodnoty",
+   "zavaznost": "stredni",
+   "popis": "HŘIŠTĚ POD PECNÍKEM – TRÁVNÍK 3. GENERACE, VSETÍN: cena 99.999 % předpokládané hodnoty",
+   "castka_Kc": 11999917,
+   "odkazy": [
+    "https://www.vhodne-uverejneni.cz/zakazka/hriste-pod-pecnikem-travnik-3-generace-vsetin",
+    "https://www.hlidacstatu.cz/Detail/38438862"
    ]
   },
   {
@@ -744,6 +776,15 @@
    "odkazy": [
     "RO-2026-11",
     "44,45,46/98/RM/2026"
+   ]
+  },
+  {
+   "kod": "R8-malo-nabidek",
+   "zavaznost": "nizka",
+   "popis": "OPRAVA LÁVKY PŘES VSETÍNSKOU BEČVU VE VSETÍNĚ (LÁZKÁCH) – DESIGN AND BUILD: jen 2 nabídky",
+   "castka_Kc": 9440000,
+   "odkazy": [
+    "https://www.vhodne-uverejneni.cz/zakazka/oprava-lavky-pres-vsetinskou-becvu-ve-vsetine-lazkach-design-and-build"
    ]
   },
   {

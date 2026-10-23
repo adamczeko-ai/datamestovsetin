@@ -40,3 +40,7 @@
 ## 2026-10-23 (9. várka – autonomní)
 - Smlouvy: DN Vsetín s.r.o., AERV o.p.s., FC Vsetín (Sportovní areál Ohrada), kolumbárium – IČO, hodnoty, schvalovatelé.
 - RO 2022 – jen narativní body (zdroj bez tabulek), anomálie A-2022-01/02.
+
+## 2026-10-23 (10. várka – autonomní)
+- Veřejné zakázky z profilu zadavatele; smlouva na stavbu lávky Vs-01-Bel nalezena (oprava); Vs-04-Bel 83,47 mil.
+- Pravidla R8–R11, záložka Zakázky a smlouvy v prohlížeči.

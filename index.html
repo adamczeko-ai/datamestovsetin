@@ -51,6 +51,7 @@ details>div{padding:0 .8rem .8rem}
     <li><button role="tab" aria-selected="true" aria-controls="p-akce" id="t-akce">Akce</button></li>
     <li><button role="tab" aria-selected="false" aria-controls="p-flags" id="t-flags">Signály k ověření</button></li>
     <li><button role="tab" aria-selected="false" aria-controls="p-kauzy" id="t-kauzy">Kauzy</button></li>
+    <li><button role="tab" aria-selected="false" aria-controls="p-vz" id="t-vz">Zakázky a smlouvy</button></li>
     <li><button role="tab" aria-selected="false" aria-controls="p-radky" id="t-radky">Všechny řádky RO</button></li>
   </ul></nav>
 </header>
@@ -75,6 +76,12 @@ details>div{padding:0 .8rem .8rem}
     <div id="kauzy-list"></div>
   </section>
 
+  <section id="p-vz" role="tabpanel" aria-labelledby="t-vz" hidden>
+    <h2>Veřejné zakázky a smlouvy</h2>
+    <p class="muted">Profil zadavatele (vhodne-uverejneni.cz) a registr smluv (Hlídač státu). Poměr = smluvní cena / předpokládaná hodnota.</p>
+    <div class="tbl"><table><caption>Vybrané zakázky</caption><thead><tr><th scope="col">Zakázka</th><th scope="col">Předp. hodnota</th><th scope="col">Nabídek</th><th scope="col">Vybraný / smlouva</th><th scope="col">Cena bez DPH</th><th scope="col">Poměr</th><th scope="col">Signál</th></tr></thead><tbody id="vz-body"></tbody></table></div>
+  </section>
+
   <section id="p-radky" role="tabpanel" aria-labelledby="t-radky" hidden>
     <h2>Řádky rozpočtových opatření 2023–2026</h2>
     <div class="filters"><div><label for="q-radky">Hledat v popisu, ORG nebo usnesení</label><br><input id="q-radky" type="search"></div><p class="muted" id="radky-count" aria-live="polite"></p></div>
@@ -94,14 +101,16 @@ function tabs(){const btns=[...document.querySelectorAll('[role=tab]')];
  tabs();
  const [ak,fl,r23,r24,r25,r26]=await Promise.all([j('data/analyzy/akce_timeline.json'),j('data/analyzy/red_flags.json'),j('data/rozpocet/2023/rozpoctova_opatreni_2023.json'),j('data/rozpocet/2024/rozpoctova_opatreni_2024.json'),j('data/rozpocet/2025/rozpoctova_opatreni_2025.json'),j('data/rozpocet/2026/rozpoctova_opatreni_2026.json')]);
  const rows=[];for(const [y,d] of [[2023,r23],[2024,r24],[2025,r25],[2026,r26]])for(const o of d.opatreni){RO_URL[o.id]=o.url;for(const r of o.radky)rows.push({...r,rok:y,ro:o.id,organ:o.organ,usn:o.usneseni})}
+ const ext=u=>/^https?:/.test(u||'')?`<a href="${esc(u)}">zdroj</a>`:esc(u);
  const link=id=>RO_URL[id]?`<a href="${RO_URL[id]}">${esc(id)}</a>`:esc(id);
  document.getElementById('kpis').innerHTML=[['Rozpočtových opatření',r23.opatreni.length+r24.opatreni.length+r25.opatreni.length+r26.opatreni.length],['Řádků změn',rows.length],['Sledovaných akcí',ak.pocet_akci],['Signálů k ověření',fl.signaly.length]].map(([k,v])=>`<div class="kpi"><span class="muted">${k}</span><b>${v}</b></div>`).join('');
  const renderAkce=q=>{q=(q||'').toLowerCase();document.getElementById('akce-list').innerHTML=ak.akce.filter(a=>!q||a.nazev.toLowerCase().includes(q)||a.org.includes(q)).slice(0,60).map(a=>`<details><summary><strong>${esc(a.nazev)}</strong> · ORG ${a.org} · ${a.roky.join(', ')} · navýšení ${fmt(a.navyseni_Kc)}</summary><div><table><caption class="muted">Časová osa změn</caption><thead><tr><th scope="col">RO</th><th scope="col">Orgán / usnesení</th><th scope="col">Před</th><th scope="col">Změna</th><th scope="col">Po</th><th scope="col">Popis</th></tr></thead><tbody>${a.udalosti.map(u=>`<tr><td>${link(u.ro)}</td><td>${esc(u.organ||'')} ${esc(u.usneseni||'')}</td><td class="num">${fmt(u.pred)}</td><td class="num ${u.zmena<0?'neg':''}">${fmt(u.zmena)}</td><td class="num">${fmt(u.po)}</td><td>${esc(u.popis)}</td></tr>`).join('')}</tbody></table></div></details>`).join('')||'<p>Nic nenalezeno.</p>'};
  renderAkce();document.getElementById('q-akce').addEventListener('input',e=>renderAkce(e.target.value));
- const renderFlags=z=>{document.getElementById('flags-body').innerHTML=fl.signaly.filter(f=>!z||f.zavaznost===z).map(f=>`<tr><td><span class="badge ${f.zavaznost}">${f.zavaznost}</span></td><td>${esc(f.kod)}</td><td>${esc(f.popis)}</td><td class="num">${fmt(f.castka_Kc)}</td><td>${f.odkazy.filter(Boolean).map(x=>/^RO-/.test(x)?link(x):esc(x)).join(', ')}</td></tr>`).join('')};
+ const renderFlags=z=>{document.getElementById('flags-body').innerHTML=fl.signaly.filter(f=>!z||f.zavaznost===z).map(f=>`<tr><td><span class="badge ${f.zavaznost}">${f.zavaznost}</span></td><td>${esc(f.kod)}</td><td>${esc(f.popis)}</td><td class="num">${fmt(f.castka_Kc)}</td><td>${f.odkazy.filter(Boolean).map(x=>/^RO-/.test(x)?link(x):ext(x)).join(', ')}</td></tr>`).join('')};
  renderFlags('');document.getElementById('f-zav').addEventListener('change',e=>renderFlags(e.target.value));
  const kz=[];for(const p of ['data/kauzy/K-001_spory_ochrana_osobnosti.json','data/kauzy/K-002_tribuna_ohrada_TJ_MEZ.json']){try{kz.push(await j(p))}catch(e){}}
  document.getElementById('kauzy-list').innerHTML=kz.map(k=>`<details><summary><strong>${esc(k.id)}</strong> – ${esc(k.nazev)}</summary><div><ol>${(k.casova_osa||k.udalosti||[]).map(u=>`<li><strong>${esc(u.datum)}</strong> ${u.usneseni?'('+esc(u.usneseni)+') ':''}${esc(u.popis)}</li>`).join('')}</ol>${k.pozorovani?'<h3>Pozorování</h3><ul>'+k.pozorovani.map(p=>`<li>${esc(p)}</li>`).join('')+'</ul>':''}<h3>Další krok</h3><ul>${(k.dalsi_krok||[]).map(p=>`<li>${esc(p)}</li>`).join('')}</ul></div></details>`).join('');
+ try{const vz=await j('data/zakazky/verejne_zakazky.json');document.getElementById('vz-body').innerHTML=vz.zakazky.map(z=>{const sm=z.smlouva||{};const v=(z.ucastnici||[]).find(u=>u.vybran);return `<tr><td>${z.url?`<a href="${esc(z.url)}">${esc(z.nazev)}</a>`:esc(z.nazev)}</td><td class="num">${fmt(z.predp_hodnota)}</td><td class="num">${(z.ucastnici||[]).length||''}</td><td>${esc(v?v.nazev:(sm.dodavatel||''))}${sm.url?` · <a href="${esc(sm.url)}">smlouva</a>`:''}</td><td class="num">${fmt(sm.bez_DPH)}</td><td class="num">${z.pomer_cena_predp?(z.pomer_cena_predp*100).toFixed(1)+' %':''}</td><td>${esc(z.signal||z.stav||'')}</td></tr>`}).join('')}catch(e){}
  const renderRows=q=>{q=(q||'').toLowerCase();const f=rows.filter(r=>!q||(r.popis||'').toLowerCase().includes(q)||(r.org||'').includes(q)||(r.usn||'').toLowerCase().includes(q));
   document.getElementById('radky-count').textContent=`${f.length} řádků`;
   document.getElementById('radky-body').innerHTML=f.slice(0,300).map(r=>`<tr><td>${link(r.ro)}</td><td>${esc(r.organ||'')}</td><td>${r.typ}</td><td>${esc(r.odpa||'')}/${esc(r.pol)}</td><td>${esc(r.org||'')}</td><td class="num ${r.zmena<0?'neg':''}">${fmt(r.zmena)}</td><td>${esc(r.popis)}</td></tr>`).join('')};

@@ -68,6 +68,18 @@ for r in ops:
 for r in ops:
     if re.search(r"dofinanc|ztrát|minulých let",r["popis"] or "",re.I) and r["zmena"]>=1e6:
         add("R7-dofinancovani-PO","vysoka",f"{r['popis']}: +{r['zmena']:,.0f} Kč".replace(","," "),[r["ro_id"],r["usneseni"]],r["zmena"])
+# R8/R9: veřejné zakázky
+try:
+    vz=json.load(open("data/zakazky/verejne_zakazky.json"))
+    for z in vz["zakazky"]:
+        sm=z.get("smlouva") or {}
+        if z.get("pomer_cena_predp") and z["pomer_cena_predp"]>=0.98:
+            add("R9-cena-u-predpokladane-hodnoty","stredni",f"{z['nazev']}: cena {z['pomer_cena_predp']*100:.3f} % předpokládané hodnoty",[z.get("url"),sm.get("url")],sm.get("bez_DPH"))
+        n=len(z.get("ucastnici",[]))
+        if n and n<=2: add("R8-malo-nabidek","nizka",f"{z['nazev']}: jen {n} nabídky",[z.get("url")],sm.get("bez_DPH"))
+        if "vyvoj_rozpoctu" in z: add("R10-narust-ceny-proti-rozpoctu","vysoka",z.get("signal",""),[sm.get("url")],sm.get("bez_DPH"))
+        if z.get("stav","").startswith("zakázka neukončena"): add("R11-zakazka-dlouho-neukoncena","stredni",f"{z['nazev']}: {z['stav']}",[z.get("url")],z.get("predp_hodnota"))
+except FileNotFoundError: pass
 order={"vysoka":0,"stredni":1,"nizka":2}
 flags.sort(key=lambda f:(order[f["zavaznost"]],-(f["castka_Kc"] or 0)))
 summ=collections.Counter(f["kod"] for f in flags)

@@ -473,9 +473,24 @@
    "role": "diagnostika lávky Vs-01-Bel 532 279 Kč (2026)"
   },
   {
-   "ico": null,
+   "ico": "26944022",
+   "nazev": "Mitrenga-stavby, spol. s r.o.",
+   "role": "zhotovitel lávky Vs-04-Bel (83,47 mil. s DPH, 2025) a opravy lávky Vs-01-Bel (11,42 mil., 2026)"
+  },
+  {
+   "ico": "25317628",
+   "nazev": "FIRESTA-Fišer, rekonstrukce, stavby a.s.",
+   "role": "uchazeč – oprava lávky Vs-01-Bel (2026)"
+  },
+  {
+   "ico": "27752771",
+   "nazev": "SPORT Construction a.s.",
+   "role": "zhotovitel Hřiště Pod Pecníkem 11 999 917 Kč bez DPH (předp. 12 mil.)"
+  },
+  {
+   "ico": "25860852",
    "nazev": "JASY Vsetín s.r.o.",
-   "role": "VZT Městské lázně 11,36 mil. Kč (2026)"
+   "role": "zhotovitel VZT Městské lázně 9,38 mil. bez DPH (2026)"
   }
  ],
  "vazby_k_overeni": [
