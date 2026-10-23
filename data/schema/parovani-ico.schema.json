@@ -1,0 +1,14 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "Párování IČO se smlouvami (registr smluv)",
+ "type": "object",
+ "required": ["schema", "zdroj", "stav_k", "metoda", "subjekty", "signaly_k_overeni"],
+ "properties": {
+  "subjekty": {"type": "array", "items": {"type": "object",
+   "required": ["ico", "pocet_smluv", "soucet_bez_DPH_Kc", "soucet_s_DPH_Kc", "nejvetsi"],
+   "properties": {"ico": {"type": "string", "pattern": "^\\d{8}$"}, "pocet_smluv": {"type": "integer", "minimum": 0},
+    "soucet_bez_DPH_Kc": {"type": "number"}, "soucet_s_DPH_Kc": {"type": "number"},
+    "nejvetsi": {"type": "array", "items": {"type": "object", "required": ["id_verze", "Kc", "url"]}}}}},
+  "signaly_k_overeni": {"type": "array", "items": {"type": "object", "required": ["id", "typ", "popis"]}}
+ }
+}
