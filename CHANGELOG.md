@@ -85,3 +85,8 @@
 - Ověření hodnot 215 verzí registru „nezjištěno“: 149 má hodnotu vč. DPH (`data/smlouvy/oprava_hodnot_registru_2026-10-23.json`).
 - K-003: dotace Zlínského kraje 2,007 mil. (max. 5 % z CZV 40,16 mil., výplata po 11/2027) (`data/kauzy/doplneni/K-003_doplneni_dotace_ZK_2026-10-23.json`).
 - Nová anomálie A-2025-05: +26,55 Kč v 8115 mezi zveřejněnými RO 2025 a ZÚ/MONITOR.
+
+## 2026-10-23 (balík integrace/)
+- `integrace/` – konektory MONITOR FIN 2-12 M (HTTP Range), RÚIAN VFR, RVZ (proudově), ARES-VR, registr smluv (XML), Registr dotací (vypnuto bez povolení); SQLite + evidence `sync_ledger`/`sync_run`; CLI `python -m integrace`.
+- Testy `tests/test_integrace.py`: 12 offline OK + 2 živé (ARES, registr smluv) OK.
+- Runbook a akceptační hodnoty: `docs/INTEGRACE_NASAZENI.md`.
