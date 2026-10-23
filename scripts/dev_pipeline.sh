@@ -15,7 +15,7 @@
 # Použití:  KLON=/cesta/ke/klonu scripts/dev_pipeline.sh [--dry-run]
 #   --dry-run = vše kromě push a založení PR
 # Proměnné: DEV_DIR (výchozí /home/administrator/vsetin-osint-dev), KLON (povinné), SEZNAM, PY,
-#           GITHUB_TOKEN nebo soubor $DEV_DIR/.env.github s řádkem GITHUB_TOKEN=… (jen pro PR)
+#           GITHUB_TOKEN nebo soubor $DEV_DIR/.env.github s řádkem GITHUB_TOKEN=… (jen pro PR), GITHUB_API (test)
 set -Eeuo pipefail
 
 DEV_DIR="${DEV_DIR:-/home/administrator/vsetin-osint-dev}"
@@ -60,7 +60,13 @@ json.dump({"schema": "vsetin-osint/dev-pipeline-beh@1", "zacatek": start, "konec
           ensure_ascii=False, indent=1)
 EOF
 }
-trap 'STAV="chyba"; POZN+=("neočekávaná chyba na řádku $LINENO"); souhrn; exit 1' ERR
+uklid() {  # vrátí klon do stavu před během (klon byl na začátku ověřeně čistý → mění se jen to, co vytvořil tento běh)
+  [[ -d "$KLON/.git" ]] || return 0
+  git -C "$KLON" reset -q --hard 2>/dev/null || true
+  git -C "$KLON" clean -fdq -- raw/texty data/analyzy 2>/dev/null || true
+  git -C "$KLON" checkout -q main 2>/dev/null || true
+}
+trap 'STAV="chyba"; POZN+=("neočekávaná chyba na řádku $LINENO"); uklid; souhrn; exit 1' ERR
 
 log "=== start $START (dry_run=$DRY_RUN, python=$PY)"
 cd "$KLON"
@@ -90,7 +96,9 @@ if [[ -n "$(git status --porcelain -- raw/texty data/integrace/dokumenty_seznam.
   BR="data/texty-auto"   # jedna větev = jeden otevřený PR, který se každým během aktualizuje
   git checkout -q -B "$BR"
   git add raw/texty data/integrace/dokumenty_seznam.txt
-  git commit -q -m "data: texty dokumentů po stranách (automaticky, dev $DATUM)"
+  ID=()  # identita pro commit, jen když ji klon nemá nastavenou
+  [[ -n "$(git config user.email || true)" ]] || ID=(-c "user.name=VSETIN OSINT dev pipeline" -c "user.email=noreply@nasvsetin.cz")
+  git "${ID[@]+"${ID[@]}"}" commit -q -m "data: texty dokumentů po stranách (automaticky, dev $DATUM)"
   if [[ "$DRY_RUN" == 1 ]]; then
     POZN+=("dry-run: commit na $BR, bez push a PR")
   else
@@ -100,12 +108,15 @@ if [[ -n "$(git status --porcelain -- raw/texty data/integrace/dokumenty_seznam.
     if [[ -z "$TOKEN" ]]; then
       POZN+=("větev $BR pushnuta, PR nezaložen – chybí GITHUB_TOKEN"); STAV="varovani"
     else
-      API="https://api.github.com/repos/$REPO/pulls"
+      API="${GITHUB_API:-https://api.github.com}/repos/$REPO/pulls"
       H=(-H "Authorization: Bearer $TOKEN" -H "Accept: application/vnd.github+json")
-      PR_URL="$(curl -fsS "${H[@]}" "$API?state=open&head=${REPO%%/*}:$BR" | "$PY" -c 'import json,sys; d=json.load(sys.stdin); print(d[0]["html_url"] if d else "")')"
-      if [[ -z "$PR_URL" ]]; then
+      if ! PR_URL="$(curl -fsS "${H[@]}" "$API?state=open&head=${REPO%%/*}:$BR" | "$PY" -c 'import json,sys; d=json.load(sys.stdin); print(d[0]["html_url"] if d else "")')"; then
+        PR_URL=""; POZN+=("větev $BR pushnuta, GitHub API nedostupné nebo token neplatný – PR nezaložen"); STAV="varovani"
+      elif [[ -z "$PR_URL" ]]; then
         BODY="$("$PY" -c 'import json,sys; print(json.dumps({"title": "Texty dokumentů po stranách (automaticky z dev serveru)", "head": sys.argv[2], "base": "main", "body": f"Automatický běh scripts/dev_pipeline.sh na dev serveru (založeno {sys.argv[1]}); větev se každým během přepíše aktuálním stavem. Obsah: raw/texty/<sha256>/p<N>.txt + meta.json. Testy před během prošly. Výsledek stahování: data/analytika/dokumenty_vysledek.json na dev serveru."}))' "$DATUM" "$BR")"
-        PR_URL="$(curl -fsS "${H[@]}" -X POST "$API" -d "$BODY" | "$PY" -c 'import json,sys; print(json.load(sys.stdin)["html_url"])')"
+        if ! PR_URL="$(curl -fsS "${H[@]}" -X POST "$API" -d "$BODY" | "$PY" -c 'import json,sys; print(json.load(sys.stdin)["html_url"])')"; then
+          PR_URL=""; POZN+=("založení PR selhalo – větev $BR je pushnutá"); STAV="varovani"
+        fi
       fi
       log "PR: $PR_URL"
     fi
