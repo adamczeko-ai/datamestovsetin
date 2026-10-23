@@ -1,0 +1,51 @@
+{
+  "vytvoreno": "2026-10-23 Europe/Prague",
+  "prostredi": "Claude in Chrome (čtení veřejných open dat MF a ARES); nic nezapsáno do DB projektu",
+  "soubory": [
+    {
+      "soubor": "monitor_vzz_2025_mesto_a_po.csv",
+      "sha256": "bcd36407843671e7a961cbe3084974ad24e8f265f1ac74af48ab4d46a4fcf054",
+      "radku": 30
+    },
+    {
+      "soubor": "monitor_rozvaha_2025_mesto_a_po.csv",
+      "sha256": "1d34b5109107e0012e345378f6e7ee04b1eafe1cf5489f46c2618248f578506b",
+      "radku": 30
+    },
+    {
+      "soubor": "monitor_finm_vsetin_transfery_2026-08.csv",
+      "sha256": "818881553cf5050846a3a299aba28ce7f35369288cc228fe21ea0d38ac887e99",
+      "radku": 111
+    },
+    {
+      "soubor": "monitor_finm_vsetin_transfery_2026_obdobi.csv",
+      "sha256": "3f57e9de63ff085036a412835c3c61dc8f48074454806093986626e9801405dc",
+      "radku": 6
+    },
+    {
+      "soubor": "prijemci_transferu_2026_mimo_subjekty.csv",
+      "sha256": "af38c3d601cc4d042c0213754d37e6bc996992164db0c3dc62865fea5f5c56e6",
+      "radku": 91
+    },
+    {
+      "soubor": "watchlist_navrh_rozsireni.csv",
+      "sha256": "9dda63d4a0309277541575c5b28665ef93050b5bd4924a3b588ceb1793fcc37a",
+      "radku": 13
+    },
+    {
+      "soubor": "monitor_finm_vsetin_paragrafy_2026-08_top27.csv",
+      "sha256": "adaa003accf19dbc35d90dc611f9eb63501e64dedcd367758f4056ee122f1b31",
+      "radku": 27
+    }
+  ],
+  "zdrojove_artefakty_etag": {
+    "FinM2026/2026_02": "6a060a1a-f9d918",
+    "FinM2026/2026_03": "6a062e76-11d14cb",
+    "FinM2026/2026_04": "6a159ce9-1367a21",
+    "FinM2026/2026_05": "6a3c1b73-14a2dc1",
+    "FinM2026/2026_06": "6a60775b-1607593",
+    "FinM2026/2026_08": "6ab496d0-17be1a8",
+    "ZiskZtraty/2025_12": "69aa20d8-d04522",
+    "Rozvaha/2025_12": "69aa1f83-163b16b"
+  }
+}

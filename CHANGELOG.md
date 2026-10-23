@@ -97,6 +97,14 @@
 - LLM vrstva: prompt `ai/PROMPT_nesoulady.md`, kontrola doslovných citací `scripts/kontrola_nesouladu_llm.py`; slepý test K-002/K-003 jádro 5/7, 0 falešných.
 - Plánovaná úloha (varianta A): `ai/ULOHA_planovana.md`, architektura A/B `docs/AI_VARIANTA_A.md`.
 
+## 2026-10-23 (doplnění MONITOR – Claude in Chrome)
+- Rekonciliace transferů města 2026/08: FIN 2-12 M × Územní registr – **0,00 Kč rozdíl** (325 850 645,01 Kč; 106 příjemců). Registr nezahrnuje technický kód 00000111, sankce GFŘ (5363) a pol. 5366 u Zlínského kraje; NA CESTĚ má v registru Transfer 239 300 + zápůjčku 11 mil. (`scripts/kontrola_fin_vs_uzemni_registr.py`).
+- Transfery 2026 po obdobích 02–08 (`data/monitor/monitor_finm_vsetin_transfery_2026_obdobi.csv`).
+- Účetní výkazy 2025/2024 (VZZ, rozvaha) města a 14 PO, vnitřní kontroly 30/30 (`data/monitor/monitor_vzz_…`, `monitor_rozvaha_…`).
+- RO 2026 (č. 1–15) × MONITOR 2026/08: příjmy 44 118 311 a výdaje 185 477 256 Kč – přesná shoda; paragrafy 16/27 (`scripts/kontrola_monitor_vs_ro2026.py`).
+- 91 příjemců transferů mimo `subjekty.json` s názvy z ARES; návrh rozšíření watchlistu (10 škol a školek podle pol. 5331).
+- MŠ Ohrada 1879 (60609249) zanikla 23. 1. 2026 (ARES RES); 60042354 = MŠ Trávníky 1218 (název z registru, ARES nezná) – jen vratka 237 517,38 Kč.
+
 ## 2026-10-23 (várka o – ověření subjektů v ARES)
 - `scripts/ares_overeni.py` + `data/entity/ares_overeni.json`: 74 IČO (rozšiřuje `ares_overeni_2026-10-23.json` s 38 IČO), 72 ověřeno, 0 chybných kontrolních číslic; schéma + validace.
 - `subjekty.json`: blok `ares` u všech subjektů s IČO; doplněna IČO Damostis (23287152) a MUNIPOLIS (29198950).
