@@ -1,0 +1,1524 @@
+{
+ "schema": "vsetin-osint/transfery-mesta@1",
+ "poskytovatel_ico": "00304450",
+ "obdobi": "2026-01..2026-08 (kumulativně)",
+ "zdroj": "MONITOR open data FIN 2-12 M 2026/08, FINM01_UJ, řádky ZC_ICO=00304450 s vyplněným ZC_PARTNF, položky 52xx–54xx a 63xx–64xx kromě 534x",
+ "zdroj_sha256": "9a13a88c640460e00567abb22862c6915f3a967b45ec1aba64efe6a9214652a9",
+ "licence": "Zdroj dat: Ministerstvo financí ČR, MONITOR",
+ "kontrola": {
+  "prijemcu": 111,
+  "soucet": 352871840.46,
+  "soucet_polozek_odpovida": true,
+  "ares_overeno": 110,
+  "ares_nenalezeno": 0,
+  "fyzicke_osoby_podnikatele": 0
+ },
+ "porovnani_uzemni_registr": {
+  "zaznamu_registru_2026": 107,
+  "jen_ve_vykazu": [
+   "00000111",
+   "00020478",
+   "00020729",
+   "00022985",
+   "00551023",
+   "72080043",
+   "72496991"
+  ],
+  "jen_v_registru": [
+   "60042354",
+   "60609249"
+  ],
+  "vysvetleni": "Registr (výchozí přepínač „Bez prostředků od státních organizací“) očišťuje prostředky ze SR a nezahrnuje vratky (5364/5366/5363) ani dary FO; u p.o. proto nižší částky. Odchylky jsou metodické, nejde o chybu dat (indicie, ne ověřený fakt)."
+ },
+ "upozorneni": "Transfer není dotace v právním smyslu a nevypovídá o účelu ani o vyúčtování. Pro rok ≤2025 výkaz partnera neobsahuje.",
+ "prijemci": [
+  {
+   "ico": "75063468",
+   "skutecnost_2026_01_08": 90006566.86,
+   "polozka_paragraf": {
+    "5331/3639": 77337261.86,
+    "6351/3639": 12669305.0
+   },
+   "nazev": "Technické služby města Vsetína, příspěvková organizace",
+   "pravni_forma": "331",
+   "obec_sidla": "Vsetín",
+   "ares": "nalezeno",
+   "uzemni_registr_dotaci": 90006566.86,
+   "rozdil_vs_registr": 0.0
+  },
+  {
+   "ico": "60990406",
+   "skutecnost_2026_01_08": 38084566.75,
+   "polozka_paragraf": {
+    "5331/3113": 19100168.5,
+    "5336/3113": 139063.0,
+    "6351/3113": 1722232.36,
+    "6356/3113": 17123102.89
+   },
+   "nazev": "Základní škola a Mateřská škola Vsetín, Luh 1544, příspěvková organizace",
+   "pravni_forma": "331",
+   "obec_sidla": "Vsetín",
+   "ares": "nalezeno",
+   "uzemni_registr_dotaci": 20880702.16,
+   "rozdil_vs_registr": 17203864.59
+  },
+  {
+   "ico": "45192120",
+   "skutecnost_2026_01_08": 22857717,
+   "polozka_paragraf": {
+    "5213/2292": 22857717.0
+   },
+   "nazev": "Z-Group bus a.s.",
+   "pravni_forma": "121",
+   "obec_sidla": "Zlín",
+   "ares": "nalezeno",
+   "uzemni_registr_dotaci": 22857717,
+   "rozdil_vs_registr": 0.0
+  },
+  {
+   "ico": "00536024",
+   "skutecnost_2026_01_08": 20950000,
+   "polozka_paragraf": {
+    "5222/3419": 950000.0,
+    "6322/3419": 20000000.0
+   },
+   "nazev": "TJ Zbrojovka Vsetín, z.s.",
+   "pravni_forma": "706",
+   "obec_sidla": "Vsetín",
+   "ares": "nalezeno",
+   "uzemni_registr_dotaci": 20950000,
+   "rozdil_vs_registr": 0.0
+  },
+  {
+   "ico": "00851817",
+   "skutecnost_2026_01_08": 20257781.55,
+   "polozka_paragraf": {
+    "5331/3314": 16791031.55,
+    "5336/3314": 3466750.0
+   },
+   "nazev": "Masarykova veřejná knihovna Vsetín, příspěvková organizace",
+   "pravni_forma": "331",
+   "obec_sidla": "Vsetín",
+   "ares": "nalezeno",
+   "uzemni_registr_dotaci": 20089781.55,
+   "rozdil_vs_registr": 168000.0
+  },
+  {
+   "ico": "60990449",
+   "skutecnost_2026_01_08": 19962832.96,
+   "polozka_paragraf": {
+    "5331/3113": 17029417.9,
+    "5336/3113": 1334012.8,
+    "6351/3113": 1599402.26
+   },
+   "nazev": "Základní škola a Mateřská škola Vsetín, Trávníky 1217, příspěvková organizace",
+   "pravni_forma": "331",
+   "obec_sidla": "Vsetín",
+   "ares": "nalezeno",
+   "uzemni_registr_dotaci": 18628820.16,
+   "rozdil_vs_registr": 1334012.8
+  },
+  {
+   "ico": "28593987",
+   "skutecnost_2026_01_08": 18298000,
+   "polozka_paragraf": {
+    "5213/3412": 18298000.0
+   },
+   "nazev": "Vsetínská sportovní, s.r.o.",
+   "pravni_forma": "112",
+   "obec_sidla": "Vsetín",
+   "ares": "nalezeno",
+   "uzemni_registr_dotaci": 18298000,
+   "rozdil_vs_registr": 0.0
+  },
+  {
+   "ico": "60990368",
+   "skutecnost_2026_01_08": 15468699.63,
+   "polozka_paragraf": {
+    "5331/3113": 14697285.0,
+    "5336/3113": 16852.0,
+    "6351/3113": 754562.63
+   },
+   "nazev": "Základní škola a Mateřská škola Vsetín, Ohrada 1876, příspěvková organizace",
+   "pravni_forma": "331",
+   "obec_sidla": "Vsetín",
+   "ares": "nalezeno",
+   "uzemni_registr_dotaci": 15453532.83,
+   "rozdil_vs_registr": 15166.8
+  },
+  {
+   "ico": "60990465",
+   "skutecnost_2026_01_08": 14749982.4,
+   "polozka_paragraf": {
+    "5331/3113": 13330313.0,
+    "5336/3113": 1310770.4,
+    "6351/3113": 108899.0
+   },
+   "nazev": "Základní škola Vsetín, Sychrov 97, příspěvková organizace",
+   "pravni_forma": "331",
+   "obec_sidla": "Vsetín",
+   "ares": "nalezeno",
+   "uzemni_registr_dotaci": 13439212,
+   "rozdil_vs_registr": 1310770.4
+  },
+  {
+   "ico": "60990457",
+   "skutecnost_2026_01_08": 13206584.37,
+   "polozka_paragraf": {
+    "5331/3113": 10894540.0,
+    "5336/3113": 1255357.59,
+    "6351/3113": 1056686.78
+   },
+   "nazev": "Základní škola Vsetín, Rokytnice 436, příspěvková organizace",
+   "pravni_forma": "331",
+   "obec_sidla": "Vsetín",
+   "ares": "nalezeno",
+   "uzemni_registr_dotaci": 11951226.78,
+   "rozdil_vs_registr": 1255357.59
+  },
+  {
+   "ico": "47972114",
+   "skutecnost_2026_01_08": 12400000,
+   "polozka_paragraf": {
+    "5213/3319": 12400000.0
+   },
+   "nazev": "Dům kultury Vsetín, spol. s r. o.",
+   "pravni_forma": "112",
+   "obec_sidla": "Vsetín",
+   "ares": "nalezeno",
+   "uzemni_registr_dotaci": 12400000,
+   "rozdil_vs_registr": 0.0
+  },
+  {
+   "ico": "70640548",
+   "skutecnost_2026_01_08": 11239300,
+   "polozka_paragraf": {
+    "5222/4375": 161300.0,
+    "6422/4375": 11000000.0,
+    "5222/4376": 78000.0
+   },
+   "nazev": "NA CESTĚ, z. s.",
+   "pravni_forma": "706",
+   "obec_sidla": "Vsetín",
+   "ares": "nalezeno",
+   "uzemni_registr_dotaci": 11239300,
+   "rozdil_vs_registr": 0.0
+  },
+  {
+   "ico": "22676759",
+   "skutecnost_2026_01_08": 5668000,
+   "polozka_paragraf": {
+    "5222/3419": 5668000.0
+   },
+   "nazev": "VALAŠSKÝ HOKEJOVÝ KLUB, z. s.",
+   "pravni_forma": "706",
+   "obec_sidla": "Vsetín",
+   "ares": "nalezeno",
+   "uzemni_registr_dotaci": 5668000,
+   "rozdil_vs_registr": 0.0
+  },
+  {
+   "ico": "00851922",
+   "skutecnost_2026_01_08": 5435668,
+   "polozka_paragraf": {
+    "5331/3421": 5424668.0,
+    "5336/3421": 11000.0
+   },
+   "nazev": "ALCEDO - středisko volného času a plavecká škola Vsetín, příspěvková organizace",
+   "pravni_forma": "331",
+   "obec_sidla": "Vsetín",
+   "ares": "nalezeno",
+   "uzemni_registr_dotaci": 5424668,
+   "rozdil_vs_registr": 11000
+  },
+  {
+   "ico": "60042371",
+   "skutecnost_2026_01_08": 3627918,
+   "polozka_paragraf": {
+    "5331/3111": 3627918.0
+   },
+   "nazev": "Mateřská škola Vsetín, Rokytnice 425, příspěvková organizace",
+   "pravni_forma": "331",
+   "obec_sidla": "Vsetín",
+   "ares": "nalezeno",
+   "uzemni_registr_dotaci": 3627918,
+   "rozdil_vs_registr": 0.0
+  },
+  {
+   "ico": "60042362",
+   "skutecnost_2026_01_08": 3294543,
+   "polozka_paragraf": {
+    "5331/3111": 3294543.0
+   },
+   "nazev": "Mateřská škola Vsetín, Sychrov 96, příspěvková organizace",
+   "pravni_forma": "331",
+   "obec_sidla": "Vsetín",
+   "ares": "nalezeno",
+   "uzemni_registr_dotaci": 3294543,
+   "rozdil_vs_registr": 0.0
+  },
+  {
+   "ico": "00000111",
+   "skutecnost_2026_01_08": 3172215,
+   "polozka_paragraf": {
+    "5492/5512": 174200.0,
+    "5499/6171": 2898015.0,
+    "5492/6409": 80000.0,
+    "5492/3299": 10000.0,
+    "5492/3319": 10000.0
+   },
+   "nazev": "(souhrn fyzických osob – pseudo-IČO ve výkazu)",
+   "poznamka": "Fyzické osoby nejsou rozepsány; nezpracovávat jako subjekt.",
+   "uzemni_registr_dotaci": null
+  },
+  {
+   "ico": "73633178",
+   "skutecnost_2026_01_08": 3146300,
+   "polozka_paragraf": {
+    "5223/3900": 111500.0,
+    "5223/4350": 904100.0,
+    "5223/4351": 528200.0,
+    "5223/4356": 311500.0,
+    "5223/4357": 255100.0,
+    "5223/4359": 408700.0,
+    "5223/4371": 327100.0,
+    "5223/4375": 300100.0
+   },
+   "nazev": "Diakonie ČCE - středisko Vsetín",
+   "pravni_forma": "722",
+   "obec_sidla": "Vsetín",
+   "ares": "nalezeno",
+   "uzemni_registr_dotaci": 3146300,
+   "rozdil_vs_registr": 0.0
+  },
+  {
+   "ico": "62334697",
+   "skutecnost_2026_01_08": 2570000,
+   "polozka_paragraf": {
+    "5222/3419": 2570000.0
+   },
+   "nazev": "FC Fastav Vsetín, z.s.",
+   "pravni_forma": "706",
+   "obec_sidla": "Vsetín",
+   "ares": "nalezeno",
+   "uzemni_registr_dotaci": 2570000,
+   "rozdil_vs_registr": 0.0
+  },
+  {
+   "ico": "69211612",
+   "skutecnost_2026_01_08": 2557000,
+   "polozka_paragraf": {
+    "5229/3113": 2232000.0,
+    "6329/3113": 325000.0
+   },
+   "nazev": "Základní škola Integra Vsetín",
+   "pravni_forma": "751",
+   "obec_sidla": "Vsetín",
+   "ares": "nalezeno",
+   "uzemni_registr_dotaci": 2557000,
+   "rozdil_vs_registr": 0.0
+  },
+  {
+   "ico": "60042389",
+   "skutecnost_2026_01_08": 2381789.59,
+   "polozka_paragraf": {
+    "5331/3111": 2320300.0,
+    "6351/3111": 61489.59
+   },
+   "nazev": "Mateřská škola Vsetín, Benátky 1175, příspěvková organizace",
+   "pravni_forma": "331",
+   "obec_sidla": "Vsetín",
+   "ares": "nalezeno",
+   "uzemni_registr_dotaci": 2381789.59,
+   "rozdil_vs_registr": 0.0
+  },
+  {
+   "ico": "44740778",
+   "skutecnost_2026_01_08": 2299540,
+   "polozka_paragraf": {
+    "5223/4344": 383880.0,
+    "5223/4351": 1461560.0,
+    "5223/4356": 199000.0,
+    "5223/4375": 255100.0
+   },
+   "nazev": "Charita Vsetín",
+   "pravni_forma": "722",
+   "obec_sidla": "Vsetín",
+   "ares": "nalezeno",
+   "uzemni_registr_dotaci": 2299540,
+   "rozdil_vs_registr": 0.0
+  },
+  {
+   "ico": "70872236",
+   "skutecnost_2026_01_08": 1908926,
+   "polozka_paragraf": {
+    "5331/3111": 1908926.0
+   },
+   "nazev": "Mateřská škola Vsetín, Na Kopečku 13, příspěvková organizace",
+   "pravni_forma": "331",
+   "obec_sidla": "Vsetín",
+   "ares": "nalezeno",
+   "uzemni_registr_dotaci": 1908926,
+   "rozdil_vs_registr": 0.0
+  },
+  {
+   "ico": "00570931",
+   "skutecnost_2026_01_08": 1590780,
+   "polozka_paragraf": {
+    "5222/4344": 142600.0,
+    "5222/4351": 465200.0,
+    "5222/4354": 35000.0,
+    "5222/4356": 603800.0,
+    "5222/4357": 18000.0,
+    "5222/4371": 100000.0,
+    "5222/4377": 226180.0
+   },
+   "nazev": "NADĚJE",
+   "pravni_forma": "706",
+   "obec_sidla": "Praha",
+   "ares": "nalezeno",
+   "uzemni_registr_dotaci": 1590780,
+   "rozdil_vs_registr": 0.0
+  },
+  {
+   "ico": "70891320",
+   "skutecnost_2026_01_08": 1460040,
+   "polozka_paragraf": {
+    "5366/6402": 200790.0,
+    "5323/2292": 1259250.0
+   },
+   "nazev": "Zlínský kraj",
+   "pravni_forma": "804",
+   "obec_sidla": "Zlín",
+   "ares": "nalezeno",
+   "uzemni_registr_dotaci": 1259250,
+   "rozdil_vs_registr": 200790
+  },
+  {
+   "ico": "00020478",
+   "skutecnost_2026_01_08": 1393920,
+   "polozka_paragraf": {
+    "5364/6402": 1393920.0
+   },
+   "nazev": "Ministerstvo zemědělství",
+   "pravni_forma": "325",
+   "obec_sidla": "Praha",
+   "ares": "nalezeno",
+   "uzemni_registr_dotaci": null
+  },
+  {
+   "ico": "26583283",
+   "skutecnost_2026_01_08": 1148000,
+   "polozka_paragraf": {
+    "5222/3319": 1148000.0
+   },
+   "nazev": "Divadlo v Lidovém domě, z.s.",
+   "pravni_forma": "706",
+   "obec_sidla": "Vsetín",
+   "ares": "nalezeno",
+   "uzemni_registr_dotaci": 1148000,
+   "rozdil_vs_registr": 0.0
+  },
+  {
+   "ico": "22851593",
+   "skutecnost_2026_01_08": 1113246.88,
+   "polozka_paragraf": {
+    "5222/3429": 1113246.88
+   },
+   "nazev": "Cyklostezka Bečva, z.s.",
+   "pravni_forma": "706",
+   "obec_sidla": "Velký Týnec",
+   "ares": "nalezeno",
+   "uzemni_registr_dotaci": 1113246.88,
+   "rozdil_vs_registr": 0.0
+  },
+  {
+   "ico": "01955144",
+   "skutecnost_2026_01_08": 968607,
+   "polozka_paragraf": {
+    "5221/4344": 401060.0,
+    "5221/4374": 465947.0,
+    "5221/4378": 101600.0
+   },
+   "nazev": "Elim Vsetín, o.p.s.",
+   "pravni_forma": "141",
+   "obec_sidla": "Vsetín",
+   "ares": "nalezeno",
+   "uzemni_registr_dotaci": 968607,
+   "rozdil_vs_registr": 0.0
+  },
+  {
+   "ico": "26534703",
+   "skutecnost_2026_01_08": 765000,
+   "polozka_paragraf": {
+    "5222/4339": 765000.0
+   },
+   "nazev": "Rodinné a mateřské centrum Vsetín, z.s.",
+   "pravni_forma": "706",
+   "obec_sidla": "Vsetín",
+   "ares": "nalezeno",
+   "uzemni_registr_dotaci": 765000,
+   "rozdil_vs_registr": 0.0
+  },
+  {
+   "ico": "26870011",
+   "skutecnost_2026_01_08": 685000,
+   "polozka_paragraf": {
+    "5221/4351": 685000.0
+   },
+   "nazev": "Letokruhy, o. p. s.",
+   "pravni_forma": "141",
+   "obec_sidla": "Vsetín",
+   "ares": "nalezeno",
+   "uzemni_registr_dotaci": 685000,
+   "rozdil_vs_registr": 0.0
+  },
+  {
+   "ico": "25909614",
+   "skutecnost_2026_01_08": 550200,
+   "polozka_paragraf": {
+    "5221/4312": 144400.0,
+    "5221/4371": 234000.0,
+    "5221/4374": 171800.0
+   },
+   "nazev": "Azylový dům pro ženy a matky s dětmi o.p.s.",
+   "pravni_forma": "141",
+   "obec_sidla": "Vsetín",
+   "ares": "nalezeno",
+   "uzemni_registr_dotaci": 550200,
+   "rozdil_vs_registr": 0.0
+  },
+  {
+   "ico": "26842149",
+   "skutecnost_2026_01_08": 545460,
+   "polozka_paragraf": {
+    "5221/4312": 202900.0,
+    "5221/4377": 342560.0
+   },
+   "nazev": "Vzdělávací a komunitní centrum Integra Vsetín o.p.s.",
+   "pravni_forma": "141",
+   "obec_sidla": "Vsetín",
+   "ares": "nalezeno",
+   "uzemni_registr_dotaci": 545460,
+   "rozdil_vs_registr": 0.0
+  },
+  {
+   "ico": "62334964",
+   "skutecnost_2026_01_08": 520000,
+   "polozka_paragraf": {
+    "5222/3419": 520000.0
+   },
+   "nazev": "Tělocvičná jednota Sokol Vsetín",
+   "pravni_forma": "736",
+   "obec_sidla": "Vsetín",
+   "ares": "nalezeno",
+   "uzemni_registr_dotaci": 520000,
+   "rozdil_vs_registr": 0.0
+  },
+  {
+   "ico": "69211744",
+   "skutecnost_2026_01_08": 500000,
+   "polozka_paragraf": {
+    "5222/3419": 500000.0
+   },
+   "nazev": "Plavecký klub Vsetín z.s.",
+   "pravni_forma": "706",
+   "obec_sidla": "Vsetín",
+   "ares": "nalezeno",
+   "uzemni_registr_dotaci": 500000,
+   "rozdil_vs_registr": 0.0
+  },
+  {
+   "ico": "00533815",
+   "skutecnost_2026_01_08": 468000,
+   "polozka_paragraf": {
+    "5222/3419": 468000.0
+   },
+   "nazev": "Tělovýchovná jednota MEZ Vsetín, spolek",
+   "pravni_forma": "706",
+   "obec_sidla": "Vsetín",
+   "ares": "nalezeno",
+   "uzemni_registr_dotaci": 468000,
+   "rozdil_vs_registr": 0.0
+  },
+  {
+   "ico": "03977731",
+   "skutecnost_2026_01_08": 468000,
+   "polozka_paragraf": {
+    "5222/3419": 468000.0
+   },
+   "nazev": "Florbal Vsetín, z.s.",
+   "pravni_forma": "706",
+   "obec_sidla": "Vsetín",
+   "ares": "nalezeno",
+   "uzemni_registr_dotaci": 468000,
+   "rozdil_vs_registr": 0.0
+  },
+  {
+   "ico": "00022985",
+   "skutecnost_2026_01_08": 386312.71,
+   "polozka_paragraf": {
+    "5364/6402": 386312.71
+   },
+   "nazev": "Ministerstvo školství, mládeže a tělovýchovy",
+   "pravni_forma": "325",
+   "obec_sidla": "Praha",
+   "ares": "nalezeno",
+   "uzemni_registr_dotaci": null
+  },
+  {
+   "ico": "27002438",
+   "skutecnost_2026_01_08": 377589,
+   "polozka_paragraf": {
+    "5222/4376": 294389.0,
+    "5222/4378": 83200.0
+   },
+   "nazev": "AGARTA z. s.",
+   "pravni_forma": "706",
+   "obec_sidla": "Vsetín",
+   "ares": "nalezeno",
+   "uzemni_registr_dotaci": 377589,
+   "rozdil_vs_registr": 0.0
+  },
+  {
+   "ico": "66184398",
+   "skutecnost_2026_01_08": 349000,
+   "polozka_paragraf": {
+    "5222/3319": 349000.0
+   },
+   "nazev": "Folklorní spolek Jasénka",
+   "pravni_forma": "706",
+   "obec_sidla": "Vsetín",
+   "ares": "nalezeno",
+   "uzemni_registr_dotaci": 349000,
+   "rozdil_vs_registr": 0.0
+  },
+  {
+   "ico": "60990104",
+   "skutecnost_2026_01_08": 320000,
+   "polozka_paragraf": {
+    "5222/3419": 320000.0
+   },
+   "nazev": "Sportovní klub policie Vsetín, spolek",
+   "pravni_forma": "706",
+   "obec_sidla": "Vsetín",
+   "ares": "nalezeno",
+   "uzemni_registr_dotaci": 320000,
+   "rozdil_vs_registr": 0.0
+  },
+  {
+   "ico": "08498288",
+   "skutecnost_2026_01_08": 304000,
+   "polozka_paragraf": {
+    "5222/3419": 304000.0
+   },
+   "nazev": "HK Valaši Vsetín z.s.",
+   "pravni_forma": "706",
+   "obec_sidla": "Vsetín",
+   "ares": "nalezeno",
+   "uzemni_registr_dotaci": 304000,
+   "rozdil_vs_registr": 0.0
+  },
+  {
+   "ico": "70887306",
+   "skutecnost_2026_01_08": 300000,
+   "polozka_paragraf": {
+    "5311/5511": 170000.0,
+    "6331/5511": 130000.0
+   },
+   "nazev": "Hasičský záchranný sbor Zlínského kraje",
+   "pravni_forma": "325",
+   "obec_sidla": "Zlín",
+   "ares": "nalezeno",
+   "uzemni_registr_dotaci": 300000,
+   "rozdil_vs_registr": 0.0
+  },
+  {
+   "ico": "03642259",
+   "skutecnost_2026_01_08": 300000,
+   "polozka_paragraf": {
+    "5222/3319": 300000.0
+   },
+   "nazev": "UNITED 3P, z. s.",
+   "pravni_forma": "706",
+   "obec_sidla": "Vsetín",
+   "ares": "nalezeno",
+   "uzemni_registr_dotaci": 300000,
+   "rozdil_vs_registr": 0.0
+  },
+  {
+   "ico": "49563254",
+   "skutecnost_2026_01_08": 294000,
+   "polozka_paragraf": {
+    "5222/3419": 294000.0
+   },
+   "nazev": "VK AUSTIN Vsetín z.s.",
+   "pravni_forma": "706",
+   "obec_sidla": "Vsetín",
+   "ares": "nalezeno",
+   "uzemni_registr_dotaci": 294000,
+   "rozdil_vs_registr": 0.0
+  },
+  {
+   "ico": "72496991",
+   "skutecnost_2026_01_08": 277125.03,
+   "polozka_paragraf": {
+    "5364/6402": 277125.03
+   },
+   "nazev": "Úřad práce České republiky",
+   "pravni_forma": "325",
+   "obec_sidla": "Praha",
+   "ares": "nalezeno",
+   "uzemni_registr_dotaci": null
+  },
+  {
+   "ico": "66184207",
+   "skutecnost_2026_01_08": 234000,
+   "polozka_paragraf": {
+    "5222/3319": 234000.0
+   },
+   "nazev": "Folklorní spolek Vsacan",
+   "pravni_forma": "706",
+   "obec_sidla": "Vsetín",
+   "ares": "nalezeno",
+   "uzemni_registr_dotaci": 234000,
+   "rozdil_vs_registr": 0.0
+  },
+  {
+   "ico": "68898487",
+   "skutecnost_2026_01_08": 216250,
+   "polozka_paragraf": {
+    "5222/3419": 216250.0
+   },
+   "nazev": "Nohejbal klub Vsetín, z.s.",
+   "pravni_forma": "706",
+   "obec_sidla": "Vsetín",
+   "ares": "nalezeno",
+   "uzemni_registr_dotaci": 216250,
+   "rozdil_vs_registr": 0.0
+  },
+  {
+   "ico": "67728189",
+   "skutecnost_2026_01_08": 200000,
+   "polozka_paragraf": {
+    "5329/3639": 100000.0,
+    "5329/2143": 100000.0
+   },
+   "nazev": "Sdružení Valašsko-Horní Vsacko",
+   "pravni_forma": "771",
+   "obec_sidla": "Karolinka",
+   "ares": "nalezeno",
+   "uzemni_registr_dotaci": 200000,
+   "rozdil_vs_registr": 0.0
+  },
+  {
+   "ico": "04582705",
+   "skutecnost_2026_01_08": 180000,
+   "polozka_paragraf": {
+    "5222/3419": 180000.0
+   },
+   "nazev": "Vsetínský basket, z.s.",
+   "pravni_forma": "706",
+   "obec_sidla": "Vsetín",
+   "ares": "nalezeno",
+   "uzemni_registr_dotaci": 180000,
+   "rozdil_vs_registr": 0.0
+  },
+  {
+   "ico": "22852476",
+   "skutecnost_2026_01_08": 177000,
+   "polozka_paragraf": {
+    "5222/3319": 177000.0
+   },
+   "nazev": "Vsacánek z. s.",
+   "pravni_forma": "706",
+   "obec_sidla": "Vsetín",
+   "ares": "nalezeno",
+   "uzemni_registr_dotaci": 177000,
+   "rozdil_vs_registr": 0.0
+  },
+  {
+   "ico": "60042567",
+   "skutecnost_2026_01_08": 177000,
+   "polozka_paragraf": {
+    "5222/3319": 177000.0
+   },
+   "nazev": "Spolek TANCKLUB Vsetín",
+   "pravni_forma": "706",
+   "obec_sidla": "Vsetín",
+   "ares": "nalezeno",
+   "uzemni_registr_dotaci": 177000,
+   "rozdil_vs_registr": 0.0
+  },
+  {
+   "ico": "00020729",
+   "skutecnost_2026_01_08": 157431.22,
+   "polozka_paragraf": {
+    "5364/6402": 157431.22
+   },
+   "nazev": "Státní fond životního prostředí České republiky",
+   "pravni_forma": "381",
+   "obec_sidla": "Praha",
+   "ares": "nalezeno",
+   "uzemni_registr_dotaci": null
+  },
+  {
+   "ico": "65399447",
+   "skutecnost_2026_01_08": 156000,
+   "polozka_paragraf": {
+    "5222/4312": 78000.0,
+    "5222/4379": 78000.0
+   },
+   "nazev": "Sjednocená organizace nevidomých a slabozrakých České republiky, zapsaný spolek",
+   "pravni_forma": "706",
+   "obec_sidla": "Praha",
+   "ares": "nalezeno",
+   "uzemni_registr_dotaci": 156000,
+   "rozdil_vs_registr": 0.0
+  },
+  {
+   "ico": "41084624",
+   "skutecnost_2026_01_08": 154000,
+   "polozka_paragraf": {
+    "5222/3419": 154000.0
+   },
+   "nazev": "Junák - český skaut, středisko Vsetín, z. s.",
+   "pravni_forma": "736",
+   "obec_sidla": "Vsetín",
+   "ares": "nalezeno",
+   "uzemni_registr_dotaci": 154000,
+   "rozdil_vs_registr": 0.0
+  },
+  {
+   "ico": "70238880",
+   "skutecnost_2026_01_08": 150000,
+   "polozka_paragraf": {
+    "5329/3639": 150000.0
+   },
+   "nazev": "Sdružení obcí Mikroregionu Vsetínsko",
+   "pravni_forma": "771",
+   "obec_sidla": "Vsetín",
+   "ares": "nalezeno",
+   "uzemni_registr_dotaci": 150000,
+   "rozdil_vs_registr": 0.0
+  },
+  {
+   "ico": "72080043",
+   "skutecnost_2026_01_08": 131471,
+   "polozka_paragraf": {
+    "5363/6409": 131471.0
+   },
+   "nazev": "Generální finanční ředitelství",
+   "pravni_forma": "325",
+   "obec_sidla": "Praha",
+   "ares": "nalezeno",
+   "uzemni_registr_dotaci": null
+  },
+  {
+   "ico": "43963811",
+   "skutecnost_2026_01_08": 129000,
+   "polozka_paragraf": {
+    "5222/3419": 129000.0
+   },
+   "nazev": "Volejbalový klub MEZ Vsetín, z.s.",
+   "pravni_forma": "706",
+   "obec_sidla": "Vsetín",
+   "ares": "nalezeno",
+   "uzemni_registr_dotaci": 129000,
+   "rozdil_vs_registr": 0.0
+  },
+  {
+   "ico": "14612062",
+   "skutecnost_2026_01_08": 128000,
+   "polozka_paragraf": {
+    "5222/3419": 128000.0
+   },
+   "nazev": "SKI KLUB MEZ VSETÍN z. s.",
+   "pravni_forma": "706",
+   "obec_sidla": "Vsetín",
+   "ares": "nalezeno",
+   "uzemni_registr_dotaci": 128000,
+   "rozdil_vs_registr": 0.0
+  },
+  {
+   "ico": "48773361",
+   "skutecnost_2026_01_08": 128000,
+   "polozka_paragraf": {
+    "5222/3419": 128000.0
+   },
+   "nazev": "TJ Slovan Vsetín, z.s.",
+   "pravni_forma": "706",
+   "obec_sidla": "Vsetín",
+   "ares": "nalezeno",
+   "uzemni_registr_dotaci": 128000,
+   "rozdil_vs_registr": 0.0
+  },
+  {
+   "ico": "09476555",
+   "skutecnost_2026_01_08": 125000,
+   "polozka_paragraf": {
+    "5222/3419": 125000.0
+   },
+   "nazev": "Valašský kuželkářský klub Vsetín, z.s.",
+   "pravni_forma": "706",
+   "obec_sidla": "Vsetín",
+   "ares": "nalezeno",
+   "uzemni_registr_dotaci": 125000,
+   "rozdil_vs_registr": 0.0
+  },
+  {
+   "ico": "26631539",
+   "skutecnost_2026_01_08": 109000,
+   "polozka_paragraf": {
+    "5222/3900": 109000.0
+   },
+   "nazev": "Adorea - dobrovolnické centrum Vsetín, z. s.",
+   "pravni_forma": "706",
+   "obec_sidla": "Vsetín",
+   "ares": "nalezeno",
+   "uzemni_registr_dotaci": 109000,
+   "rozdil_vs_registr": 0.0
+  },
+  {
+   "ico": "48773263",
+   "skutecnost_2026_01_08": 104000,
+   "polozka_paragraf": {
+    "5222/3311": 104000.0
+   },
+   "nazev": "Loutkové divadélko KOHÚTEK Vsetín, z.s.",
+   "pravni_forma": "706",
+   "obec_sidla": "Vsetín",
+   "ares": "nalezeno",
+   "uzemni_registr_dotaci": 104000,
+   "rozdil_vs_registr": 0.0
+  },
+  {
+   "ico": "09483977",
+   "skutecnost_2026_01_08": 81000,
+   "polozka_paragraf": {
+    "5222/3419": 81000.0
+   },
+   "nazev": "Šachový klub Vsetín, z. s.",
+   "pravni_forma": "706",
+   "obec_sidla": "Vsetín",
+   "ares": "nalezeno",
+   "uzemni_registr_dotaci": 81000,
+   "rozdil_vs_registr": 0.0
+  },
+  {
+   "ico": "22845062",
+   "skutecnost_2026_01_08": 71250,
+   "polozka_paragraf": {
+    "5222/3419": 71250.0
+   },
+   "nazev": "Fighters centrum Spartakus Vsetín, spolek",
+   "pravni_forma": "706",
+   "obec_sidla": "Vsetín",
+   "ares": "nalezeno",
+   "uzemni_registr_dotaci": 71250,
+   "rozdil_vs_registr": 0.0
+  },
+  {
+   "ico": "75060230",
+   "skutecnost_2026_01_08": 71000,
+   "polozka_paragraf": {
+    "5222/4319": 71000.0
+   },
+   "nazev": "Unie ROSKA - reg. org. ROSKA VSETÍN, z.p.s.",
+   "pravni_forma": "736",
+   "obec_sidla": "Vsetín",
+   "ares": "nalezeno",
+   "uzemni_registr_dotaci": 71000,
+   "rozdil_vs_registr": 0.0
+  },
+  {
+   "ico": "65469542",
+   "skutecnost_2026_01_08": 68500,
+   "polozka_paragraf": {
+    "5222/3319": 68500.0
+   },
+   "nazev": "Filmový klub ve Vsetíně z.s.",
+   "pravni_forma": "706",
+   "obec_sidla": "Vsetín",
+   "ares": "nalezeno",
+   "uzemni_registr_dotaci": 68500,
+   "rozdil_vs_registr": 0.0
+  },
+  {
+   "ico": "48773841",
+   "skutecnost_2026_01_08": 67500,
+   "polozka_paragraf": {
+    "5222/3319": 67500.0
+   },
+   "nazev": "Pěvecké sdružení valašských učitelek, z.s.",
+   "pravni_forma": "706",
+   "obec_sidla": null,
+   "ares": "nalezeno",
+   "uzemni_registr_dotaci": 67500,
+   "rozdil_vs_registr": 0.0
+  },
+  {
+   "ico": "48773883",
+   "skutecnost_2026_01_08": 66000,
+   "polozka_paragraf": {
+    "5222/3900": 66000.0
+   },
+   "nazev": "Oblastní spolek Českého červeného kříže Vsetín",
+   "pravni_forma": "736",
+   "obec_sidla": "Vsetín",
+   "ares": "nalezeno",
+   "uzemni_registr_dotaci": 66000,
+   "rozdil_vs_registr": 0.0
+  },
+  {
+   "ico": "66184606",
+   "skutecnost_2026_01_08": 63750,
+   "polozka_paragraf": {
+    "5222/3419": 63750.0
+   },
+   "nazev": "Hokejbalový klub Vsetín, z.s.",
+   "pravni_forma": "706",
+   "obec_sidla": "Vsetín",
+   "ares": "nalezeno",
+   "uzemni_registr_dotaci": 63750,
+   "rozdil_vs_registr": 0.0
+  },
+  {
+   "ico": "03632661",
+   "skutecnost_2026_01_08": 60000,
+   "polozka_paragraf": {
+    "5222/3545": 25000.0,
+    "5222/4312": 10000.0,
+    "5222/4359": 25000.0
+   },
+   "nazev": "Andělé Stromu života p. s.",
+   "pravni_forma": "736",
+   "obec_sidla": "Nový Jičín",
+   "ares": "nalezeno",
+   "uzemni_registr_dotaci": 60000,
+   "rozdil_vs_registr": 0.0
+  },
+  {
+   "ico": "47863587",
+   "skutecnost_2026_01_08": 52500,
+   "polozka_paragraf": {
+    "5222/3419": 52500.0
+   },
+   "nazev": "KČT Vsetín, z.s.",
+   "pravni_forma": "706",
+   "obec_sidla": "Vsetín",
+   "ares": "nalezeno",
+   "uzemni_registr_dotaci": 52500,
+   "rozdil_vs_registr": 0.0
+  },
+  {
+   "ico": "04024915",
+   "skutecnost_2026_01_08": 50000,
+   "polozka_paragraf": {
+    "5222/4399": 50000.0
+   },
+   "nazev": "Potravinová banka ve Zlínském kraji, z. s.",
+   "pravni_forma": "706",
+   "obec_sidla": "Vsetín",
+   "ares": "nalezeno",
+   "uzemni_registr_dotaci": 50000,
+   "rozdil_vs_registr": 0.0
+  },
+  {
+   "ico": "69211787",
+   "skutecnost_2026_01_08": 45750,
+   "polozka_paragraf": {
+    "5222/3319": 45750.0
+   },
+   "nazev": "Regionální pěvecké centrum Vsetín, z. s.",
+   "pravni_forma": "706",
+   "obec_sidla": "Vsetín",
+   "ares": "nalezeno",
+   "uzemni_registr_dotaci": 45750,
+   "rozdil_vs_registr": 0.0
+  },
+  {
+   "ico": "62334476",
+   "skutecnost_2026_01_08": 45000,
+   "polozka_paragraf": {
+    "5222/3419": 45000.0
+   },
+   "nazev": "Klub biatlonu Vsetín - Bobrky, p.s.",
+   "pravni_forma": "736",
+   "obec_sidla": null,
+   "ares": "nalezeno",
+   "uzemni_registr_dotaci": 45000,
+   "rozdil_vs_registr": 0.0
+  },
+  {
+   "ico": "63701511",
+   "skutecnost_2026_01_08": 45000,
+   "polozka_paragraf": {
+    "5222/3419": 45000.0
+   },
+   "nazev": "SH ČMS - Sbor dobrovolných hasičů Rokytnice",
+   "pravni_forma": "736",
+   "obec_sidla": "Vsetín",
+   "ares": "nalezeno",
+   "uzemni_registr_dotaci": 45000,
+   "rozdil_vs_registr": 0.0
+  },
+  {
+   "ico": "05717027",
+   "skutecnost_2026_01_08": 43500,
+   "polozka_paragraf": {
+    "5222/3319": 43500.0
+   },
+   "nazev": "Divadlo Meteora, z.s.",
+   "pravni_forma": "706",
+   "obec_sidla": "Vsetín",
+   "ares": "nalezeno",
+   "uzemni_registr_dotaci": 43500,
+   "rozdil_vs_registr": 0.0
+  },
+  {
+   "ico": "66184312",
+   "skutecnost_2026_01_08": 43000,
+   "polozka_paragraf": {
+    "5222/3319": 43000.0
+   },
+   "nazev": "Lumír Vsetín, z.s.",
+   "pravni_forma": "706",
+   "obec_sidla": "Vsetín",
+   "ares": "nalezeno",
+   "uzemni_registr_dotaci": 43000,
+   "rozdil_vs_registr": 0.0
+  },
+  {
+   "ico": "03543340",
+   "skutecnost_2026_01_08": 41250,
+   "polozka_paragraf": {
+    "5222/3419": 41250.0
+   },
+   "nazev": "Vrchařská koruna Valašska z. s.",
+   "pravni_forma": "706",
+   "obec_sidla": "Vsetín",
+   "ares": "nalezeno",
+   "uzemni_registr_dotaci": 41250,
+   "rozdil_vs_registr": 0.0
+  },
+  {
+   "ico": "70849153",
+   "skutecnost_2026_01_08": 40000,
+   "polozka_paragraf": {
+    "5222/2143": 40000.0
+   },
+   "nazev": "Region Bílé Karpaty",
+   "pravni_forma": "751",
+   "obec_sidla": "Zlín",
+   "ares": "nalezeno",
+   "uzemni_registr_dotaci": 40000,
+   "rozdil_vs_registr": 0.0
+  },
+  {
+   "ico": "45248591",
+   "skutecnost_2026_01_08": 36000,
+   "polozka_paragraf": {
+    "5229/3119": 36000.0
+   },
+   "nazev": "Mensa Česko",
+   "pravni_forma": "921",
+   "obec_sidla": "Praha",
+   "ares": "nalezeno",
+   "uzemni_registr_dotaci": 36000,
+   "rozdil_vs_registr": 0.0
+  },
+  {
+   "ico": "66184266",
+   "skutecnost_2026_01_08": 35000,
+   "polozka_paragraf": {
+    "5222/4319": 35000.0
+   },
+   "nazev": "Svaz tělesně postižených v České republice z. s. místní organizace Vsetín",
+   "pravni_forma": "736",
+   "obec_sidla": "Vsetín",
+   "ares": "nalezeno",
+   "uzemni_registr_dotaci": 35000,
+   "rozdil_vs_registr": 0.0
+  },
+  {
+   "ico": "73634506",
+   "skutecnost_2026_01_08": 35000,
+   "polozka_paragraf": {
+    "5223/3419": 35000.0
+   },
+   "nazev": "Sbor Církve bratrské ve Vsetíně - Maják",
+   "pravni_forma": "722",
+   "obec_sidla": "Vsetín",
+   "ares": "nalezeno",
+   "uzemni_registr_dotaci": 35000,
+   "rozdil_vs_registr": 0.0
+  },
+  {
+   "ico": "01879006",
+   "skutecnost_2026_01_08": 35000,
+   "polozka_paragraf": {
+    "5222/3419": 35000.0
+   },
+   "nazev": "Valašská akademie sportu z.s.",
+   "pravni_forma": "706",
+   "obec_sidla": "Vsetín",
+   "ares": "nalezeno",
+   "uzemni_registr_dotaci": 35000,
+   "rozdil_vs_registr": 0.0
+  },
+  {
+   "ico": "09476687",
+   "skutecnost_2026_01_08": 35000,
+   "polozka_paragraf": {
+    "5222/3419": 35000.0
+   },
+   "nazev": "Oddíl kulturistiky a fitness Vsetín, z.s.",
+   "pravni_forma": "706",
+   "obec_sidla": "Vsetín",
+   "ares": "nalezeno",
+   "uzemni_registr_dotaci": 35000,
+   "rozdil_vs_registr": 0.0
+  },
+  {
+   "ico": "19190069",
+   "skutecnost_2026_01_08": 30000,
+   "polozka_paragraf": {
+    "5222/3319": 30000.0
+   },
+   "nazev": "Josef Sousedík genius Valašska, z.s.",
+   "pravni_forma": "706",
+   "obec_sidla": "Vsetín",
+   "ares": "nalezeno",
+   "uzemni_registr_dotaci": 30000,
+   "rozdil_vs_registr": 0.0
+  },
+  {
+   "ico": "19371985",
+   "skutecnost_2026_01_08": 30000,
+   "polozka_paragraf": {
+    "5222/3319": 30000.0
+   },
+   "nazev": "Pěvecká skupina Blaženky, z. s.",
+   "pravni_forma": "706",
+   "obec_sidla": "Vsetín",
+   "ares": "nalezeno",
+   "uzemni_registr_dotaci": 30000,
+   "rozdil_vs_registr": 0.0
+  },
+  {
+   "ico": "26647036",
+   "skutecnost_2026_01_08": 30000,
+   "polozka_paragraf": {
+    "5222/3419": 30000.0
+   },
+   "nazev": "Sportovní klub EDIE team Vsetín, z.s.",
+   "pravni_forma": "706",
+   "obec_sidla": "Vsetín",
+   "ares": "nalezeno",
+   "uzemni_registr_dotaci": 30000,
+   "rozdil_vs_registr": 0.0
+  },
+  {
+   "ico": "22901531",
+   "skutecnost_2026_01_08": 27000,
+   "polozka_paragraf": {
+    "5222/4344": 9000.0,
+    "5222/4356": 8000.0,
+    "5222/4379": 10000.0
+   },
+   "nazev": "Za sklem o.s.",
+   "pravni_forma": "706",
+   "obec_sidla": "Zlín",
+   "ares": "nalezeno",
+   "uzemni_registr_dotaci": 27000,
+   "rozdil_vs_registr": 0.0
+  },
+  {
+   "ico": "05362512",
+   "skutecnost_2026_01_08": 26000,
+   "polozka_paragraf": {
+    "5222/4339": 26000.0
+   },
+   "nazev": "Centrum pro rodinu Vsetín, z. s.",
+   "pravni_forma": "706",
+   "obec_sidla": "Vsetín",
+   "ares": "nalezeno",
+   "uzemni_registr_dotaci": 26000,
+   "rozdil_vs_registr": 0.0
+  },
+  {
+   "ico": "73632783",
+   "skutecnost_2026_01_08": 25800,
+   "polozka_paragraf": {
+    "5223/4357": 15000.0,
+    "5223/4359": 10800.0
+   },
+   "nazev": "Diakonie Valašské Meziříčí",
+   "pravni_forma": "722",
+   "obec_sidla": "Valašské Meziříčí",
+   "ares": "nalezeno",
+   "uzemni_registr_dotaci": 25800,
+   "rozdil_vs_registr": 0.0
+  },
+  {
+   "ico": "26671671",
+   "skutecnost_2026_01_08": 25000,
+   "polozka_paragraf": {
+    "5222/3419": 25000.0
+   },
+   "nazev": "JUDO Valašsko z.s.",
+   "pravni_forma": "706",
+   "obec_sidla": "Vsetín",
+   "ares": "nalezeno",
+   "uzemni_registr_dotaci": 25000,
+   "rozdil_vs_registr": 0.0
+  },
+  {
+   "ico": "62334654",
+   "skutecnost_2026_01_08": 25000,
+   "polozka_paragraf": {
+    "5222/4319": 25000.0
+   },
+   "nazev": "Svaz postižených civilizačními chorobami v ČR, z.s. základní organizace Vsetín",
+   "pravni_forma": "736",
+   "obec_sidla": "Vsetín",
+   "ares": "nalezeno",
+   "uzemni_registr_dotaci": 25000,
+   "rozdil_vs_registr": 0.0
+  },
+  {
+   "ico": "01209311",
+   "skutecnost_2026_01_08": 25000,
+   "polozka_paragraf": {
+    "5222/3419": 25000.0
+   },
+   "nazev": "Vsetín Jokers z. s.",
+   "pravni_forma": "706",
+   "obec_sidla": "Vsetín",
+   "ares": "nalezeno",
+   "uzemni_registr_dotaci": 25000,
+   "rozdil_vs_registr": 0.0
+  },
+  {
+   "ico": "04977408",
+   "skutecnost_2026_01_08": 25000,
+   "polozka_paragraf": {
+    "5221/3545": 25000.0
+   },
+   "nazev": "PAHOP, Zdravotní ústav paliativní a hospicové péče, z.ú.",
+   "pravni_forma": "161",
+   "obec_sidla": "Uherské Hradiště",
+   "ares": "nalezeno",
+   "uzemni_registr_dotaci": 25000,
+   "rozdil_vs_registr": 0.0
+  },
+  {
+   "ico": "22184040",
+   "skutecnost_2026_01_08": 20000,
+   "polozka_paragraf": {
+    "5222/3319": 20000.0
+   },
+   "nazev": "Minga z.s.",
+   "pravni_forma": "706",
+   "obec_sidla": "Vsetín",
+   "ares": "nalezeno",
+   "uzemni_registr_dotaci": 20000,
+   "rozdil_vs_registr": 0.0
+  },
+  {
+   "ico": "22726624",
+   "skutecnost_2026_01_08": 20000,
+   "polozka_paragraf": {
+    "5222/3319": 20000.0
+   },
+   "nazev": "Fotoklub Vsetín, z.s.",
+   "pravni_forma": "706",
+   "obec_sidla": "Vsetín",
+   "ares": "nalezeno",
+   "uzemni_registr_dotaci": 20000,
+   "rozdil_vs_registr": 0.0
+  },
+  {
+   "ico": "26589532",
+   "skutecnost_2026_01_08": 20000,
+   "polozka_paragraf": {
+    "5222/3319": 20000.0
+   },
+   "nazev": "Sdružení pro rozvoj Soláně, z.s.",
+   "pravni_forma": "706",
+   "obec_sidla": "Karolinka",
+   "ares": "nalezeno",
+   "uzemni_registr_dotaci": 20000,
+   "rozdil_vs_registr": 0.0
+  },
+  {
+   "ico": "68898410",
+   "skutecnost_2026_01_08": 20000,
+   "polozka_paragraf": {
+    "5222/3419": 20000.0
+   },
+   "nazev": "3. přední hlídka Royal Rangers Valašsko",
+   "pravni_forma": "736",
+   "obec_sidla": "Vsetín",
+   "ares": "nalezeno",
+   "uzemni_registr_dotaci": 20000,
+   "rozdil_vs_registr": 0.0
+  },
+  {
+   "ico": "75095009",
+   "skutecnost_2026_01_08": 20000,
+   "polozka_paragraf": {
+    "5222/4371": 20000.0
+   },
+   "nazev": "Společnost pro ranou péči, pobočka pro zrak Olomouc",
+   "pravni_forma": "736",
+   "obec_sidla": "Olomouc",
+   "ares": "nalezeno",
+   "uzemni_registr_dotaci": 20000,
+   "rozdil_vs_registr": 0.0
+  },
+  {
+   "ico": "05053927",
+   "skutecnost_2026_01_08": 20000,
+   "polozka_paragraf": {
+    "5222/3319": 20000.0
+   },
+   "nazev": "Dživ Lačes z.s.",
+   "pravni_forma": "706",
+   "obec_sidla": "Vsetín",
+   "ares": "nalezeno",
+   "uzemni_registr_dotaci": 20000,
+   "rozdil_vs_registr": 0.0
+  },
+  {
+   "ico": "22674535",
+   "skutecnost_2026_01_08": 15000,
+   "polozka_paragraf": {
+    "5222/3419": 15000.0
+   },
+   "nazev": "SK Badminton Vsetín, z.s.",
+   "pravni_forma": "706",
+   "obec_sidla": "Vsetín",
+   "ares": "nalezeno",
+   "uzemni_registr_dotaci": 15000,
+   "rozdil_vs_registr": 0.0
+  },
+  {
+   "ico": "65891589",
+   "skutecnost_2026_01_08": 11000,
+   "polozka_paragraf": {
+    "5222/3319": 11000.0
+   },
+   "nazev": "VALAŠSKÝ KRŮŽEK JAZZOVÝ, z.s.",
+   "pravni_forma": "706",
+   "obec_sidla": "Vsetín",
+   "ares": "nalezeno",
+   "uzemni_registr_dotaci": 11000,
+   "rozdil_vs_registr": 0.0
+  },
+  {
+   "ico": "26547953",
+   "skutecnost_2026_01_08": 10000,
+   "polozka_paragraf": {
+    "5221/3900": 10000.0
+   },
+   "nazev": "Zdravotní klaun, o.p.s.",
+   "pravni_forma": "141",
+   "obec_sidla": "Praha",
+   "ares": "nalezeno",
+   "uzemni_registr_dotaci": 10000,
+   "rozdil_vs_registr": 0.0
+  },
+  {
+   "ico": "44117434",
+   "skutecnost_2026_01_08": 10000,
+   "polozka_paragraf": {
+    "5223/4374": 10000.0
+   },
+   "nazev": "Charita Zlín",
+   "pravni_forma": "722",
+   "obec_sidla": "Zlín",
+   "ares": "nalezeno",
+   "uzemni_registr_dotaci": 10000,
+   "rozdil_vs_registr": 0.0
+  },
+  {
+   "ico": "05047994",
+   "skutecnost_2026_01_08": 7000,
+   "polozka_paragraf": {
+    "5222/3115": 7000.0
+   },
+   "nazev": "Lesní klub Oříšek z. s.",
+   "pravni_forma": "706",
+   "obec_sidla": "Hovězí",
+   "ares": "nalezeno",
+   "uzemni_registr_dotaci": 7000,
+   "rozdil_vs_registr": 0.0
+  },
+  {
+   "ico": "13950606",
+   "skutecnost_2026_01_08": 4000,
+   "polozka_paragraf": {
+    "5212/3319": 4000.0
+   },
+   "nazev": "Erzsébet Volontyorová",
+   "pravni_forma": "424",
+   "obec_sidla": "Vsetín",
+   "ares": "nalezeno",
+   "uzemni_registr_dotaci": 4000,
+   "rozdil_vs_registr": 0.0
+  },
+  {
+   "ico": "48739235",
+   "skutecnost_2026_01_08": 4000,
+   "polozka_paragraf": {
+    "5339/3114": 4000.0
+   },
+   "nazev": "Základní škola Horní Lideč 130",
+   "pravni_forma": "331",
+   "obec_sidla": "Horní Lideč",
+   "ares": "nalezeno",
+   "uzemni_registr_dotaci": 4000,
+   "rozdil_vs_registr": 0.0
+  },
+  {
+   "ico": "00551023",
+   "skutecnost_2026_01_08": 3758.31,
+   "polozka_paragraf": {
+    "5364/6402": 3758.31
+   },
+   "nazev": "Ministerstvo práce a sociálních věcí",
+   "pravni_forma": "325",
+   "obec_sidla": "Praha",
+   "ares": "nalezeno",
+   "uzemni_registr_dotaci": null
+  },
+  {
+   "ico": "60609231",
+   "skutecnost_2026_01_08": 1840,
+   "polozka_paragraf": {
+    "5331/3113": 1840.0
+   },
+   "nazev": "Mateřská škola Vsetín, Jasenka 757, příspěvková organizace",
+   "pravni_forma": "331",
+   "obec_sidla": "Vsetín",
+   "ares": "nalezeno",
+   "uzemni_registr_dotaci": 1840,
+   "rozdil_vs_registr": 0.0
+  },
+  {
+   "ico": "27677761",
+   "skutecnost_2026_01_08": 1078.2,
+   "polozka_paragraf": {
+    "5213/2292": 1078.2
+   },
+   "nazev": "Koordinátor veřejné dopravy Zlínského kraje, s.r.o.",
+   "pravni_forma": "112",
+   "obec_sidla": "Zlín",
+   "ares": "nalezeno",
+   "uzemni_registr_dotaci": 1078.2,
+   "rozdil_vs_registr": 0.0
+  }
+ ]
+}
