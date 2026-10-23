@@ -126,3 +126,7 @@
 ## 2026-10-23 (várka q – kauza K-004 AERV)
 - `data/kauzy/K-004_AERV_zruseni.json`: řetězec dohoda 2012 → narovnání DPH 3 848 880 Kč (= 21 % z 18 328 000) → zrušení (usn. 10/9/ZM/2023) → vklad 3,6 mil. na likvidaci (usn. 1/10/ZM/2023) → převod likvidačního zůstatku (2024) → výmaz.
 - Signál P-02 „zčásti vysvětleno“; otevřené: výše likvidačního zůstatku.
+
+## 2026-10-23 (kontrola konzistence dat, větev claude/auto-konzistence-2026-10-23)
+- `scripts/kontrola_konzistence.py` → `data/analyzy/konzistence.json` (schéma `konzistence.schema.json`): K1 RO JSON × CSV × souhrnné CSV, K2 bilance a aritmetika RO, K3 subjekty × ARES, K4 kontrolní číslice IČO, K5 datum RO × index zasedání ZM/RM, K6 FO jménem v kurátorovaných datech. Zdrojová data se nemění; rozpor = obě hodnoty se zdrojem, stav „ke_kontrole“ (stav od člověka se zachová).
+- Výsledek 23. 10. 2026: K1–K3, K5 bez rozporu (K5 porovnala 35 RO); K4 2× (zástupná IČO 00000000, 00000111); K6 6× (3 IČO FO jménem v `parovani_ico.json`, `nipez_vz_okruh_mesta_2024_2026.json`, `verejne_zakazky.json`).

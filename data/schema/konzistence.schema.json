@@ -1,0 +1,111 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "Křížová kontrola konzistence dat (scripts/kontrola_konzistence.py)",
+ "type": "object",
+ "required": [
+  "schema",
+  "stav_k",
+  "souhrn",
+  "rozpory"
+ ],
+ "properties": {
+  "schema": {
+   "const": "vsetin-osint/konzistence@1"
+  },
+  "stav_k": {
+   "type": "string"
+  },
+  "souhrn": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "required": [
+     "kontrola",
+     "popis",
+     "pocet"
+    ],
+    "properties": {
+     "pocet": {
+      "type": "integer",
+      "minimum": 0
+     }
+    }
+   }
+  },
+  "zmizele_od_minula": {
+   "type": "array",
+   "items": {
+    "type": "string"
+   }
+  },
+  "rozpory": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "required": [
+     "id",
+     "kontrola",
+     "popis",
+     "a",
+     "b",
+     "zjisteno",
+     "stav"
+    ],
+    "properties": {
+     "id": {
+      "type": "string",
+      "pattern": "^K\\d+-[0-9a-f]{10}$"
+     },
+     "kontrola": {
+      "type": "string",
+      "pattern": "^K\\d+$"
+     },
+     "a": {
+      "type": "object",
+      "required": [
+       "soubor",
+       "cesta",
+       "hodnota"
+      ],
+      "properties": {
+       "soubor": {
+        "type": "string"
+       },
+       "cesta": {
+        "type": "string"
+       }
+      }
+     },
+     "b": {
+      "type": "object",
+      "required": [
+       "soubor",
+       "cesta",
+       "hodnota"
+      ],
+      "properties": {
+       "soubor": {
+        "type": "string"
+       },
+       "cesta": {
+        "type": "string"
+       }
+      }
+     },
+     "zjisteno": {
+      "type": "string"
+     },
+     "stav": {
+      "enum": [
+       "ke_kontrole",
+       "vysvetleno",
+       "potvrzeno",
+       "opraveno_ve_zdroji",
+       "neplatny_nalez"
+      ]
+     }
+    }
+   }
+  }
+ }
+}
