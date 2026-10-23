@@ -126,3 +126,10 @@
 ## 2026-10-23 (várka q – kauza K-004 AERV)
 - `data/kauzy/K-004_AERV_zruseni.json`: řetězec dohoda 2012 → narovnání DPH 3 848 880 Kč (= 21 % z 18 328 000) → zrušení (usn. 10/9/ZM/2023) → vklad 3,6 mil. na likvidaci (usn. 1/10/ZM/2023) → převod likvidačního zůstatku (2024) → výmaz.
 - Signál P-02 „zčásti vysvětleno“; otevřené: výše likvidačního zůstatku.
+
+## 2026-10-23 (fáze 1 – sběr do data/*.jsonl, větev claude/osint-sber-init)
+- Import předávky data/inbox z handoff repa (PR #3, #4, #5, #7) do 15 souborů `data/*.jsonl` (id, source_url, retrieved_at, sha256, puvod); skript `scripts/import_inbox.py`, opakování nic nezdvojí.
+- `scripts/sber.py`: inkrementální sběr usnesení RM/ZM, materiálů ZM, RO, úřední desky (snímek při každém běhu), profilu zadavatele (XMLdataVZ), registru smluv (detail ≤ 500 za běh) a ARES pro nová IČO; `--source`, `--dry-run`; stav v `data/manifest.json`, log `docs/RUNLOG.md`.
+- `integrace/sber/` (úložiště, pseudonymizace FO, parsery); `integrace/http.py` + robots.txt/Crawl-delay a volitelný User-Agent; `ares_overeni.overit_ico()`.
+- Schémata `data/schema/jsonl-*.schema.json`, `manifest.schema.json`; `validate_schemas.py` kontroluje i JSONL (sha256, duplicity).
+- Zjištění: předávka P2f má zakázky jen 2017–2023 (export od 2024 mísí dvě struktury XML); portál odmítá export přes 1. 7. 2024 (HTTP 400). Kurzor profilu = 2023-12-31.
