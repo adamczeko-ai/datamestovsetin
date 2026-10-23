@@ -25,7 +25,8 @@
     "V katalogu chybí období 01/2026 a 07/2026",
     "Bez konsolidace: pol. 4134/5345 nafukují příjmy i výdaje o ~1,2–1,4 mld. Kč"
    ],
-   "test": "stažen 2026_08 (24 895 912 B, ETag \"6ab496d0-17be1a8\"); Vsetín 1 745 vlastních řádků + 55 partnerských; kontrola proti RO 2026 souhlasí (8115, 8123, 8113); 23. 10.: řada 12/2020–12/2025 (tab. IV) = ZÚ 2024/2025 na haléř; HTTP Range funguje (stahují se jen členy ZIP)"
+   "test": "stažen 2026_08 (24 895 912 B, ETag \"6ab496d0-17be1a8\"); Vsetín 1 745 vlastních řádků + 55 partnerských; kontrola proti RO 2026 souhlasí (8115, 8123, 8113); 23. 10.: řada 12/2020–12/2025 (tab. IV) = ZÚ 2024/2025 na haléř; HTTP Range funguje (stahují se jen členy ZIP)",
+   "implementace": "IMPLEMENTOVÁNO (kód) – integrace/sources/monitor_finm.py; offline testy OK; živě ve vývoji neběželo"
   },
   {
    "id": "monitor.registr_dotaci",
@@ -39,7 +40,8 @@
     "Státní registr obsahuje i fyzické osoby → minimalizace",
     "Endpoint NNO nenalezen (404) – parametry nezjištěny"
    ],
-   "test": "územní: Vsetín jako poskytovatel 107 příjemců (2026, load 2608); jako příjemce 28; státní: Vsetín jako příjemce 101 záznamů 2014–2026; 23. 10.: úplné stažení – územní 107 (poskytovatel) + 28 (příjemce), státní 101 → data/dotace/"
+   "test": "územní: Vsetín jako poskytovatel 107 příjemců (2026, load 2608); jako příjemce 28; státní: Vsetín jako příjemce 101 záznamů 2014–2026; 23. 10.: úplné stažení – územní 107 (poskytovatel) + 28 (příjemce), státní 101 → data/dotace/",
+   "implementace": "IMPLEMENTOVÁNO (kód, vypnuto bez --allow-undocumented) – integrace/sources/monitor_dotace.py"
   },
   {
    "id": "ruian.vfr",
@@ -57,7 +59,8 @@
    "omezeni": [
     "Není důkaz vlastnictví",
     "Parcely bez LV a vlastníků"
-   ]
+   ],
+   "implementace": "IMPLEMENTOVÁNO (kód) – integrace/sources/ruian_vfr.py; offline testy OK na reálných prvcích"
   },
   {
    "id": "nipez.rvz_opendata",
@@ -71,7 +74,8 @@
     "Zdroje pouze VVZ, NEN, Tender arena, TENDERMARKET – ostatní certifikované nástroje (např. E-ZAK) zatím ne",
     "Velikost: nutné streamové zpracování (ijson)",
     "Synchronní/asynchronní API RVZ vyžaduje oprávnění dle RPP"
-   ]
+   ],
+   "implementace": "IMPLEMENTOVÁNO (kód) – integrace/sources/rvz.py; proudový parser testován"
   },
   {
    "id": "justice.or_opendata",
@@ -93,7 +97,8 @@
    "priorita": 4,
    "stav": "TESTOVÁNO",
    "pristup": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/{ico} a /ekonomicke-subjekty-vr/{ico}",
-   "test": "38 IČO z data/entity/subjekty.json: 37 nalezeno, 60042354 (MŠ Trávníky 1218) HTTP 404; 23. 10.: VR pro 7 městských společností + TJ Zbrojovka → data/entity/vr_organy_*"
+   "test": "38 IČO z data/entity/subjekty.json: 37 nalezeno, 60042354 (MŠ Trávníky 1218) HTTP 404; 23. 10.: VR pro 7 městských společností + TJ Zbrojovka → data/entity/vr_organy_*",
+   "implementace": "IMPLEMENTOVÁNO a ŽIVĚ TESTOVÁNO z cloudu – integrace/sources/vr.py (9 subjektů)"
   },
   {
    "id": "cuzk.api_kn",
@@ -119,7 +124,13 @@
     "placené",
     "osobní údaje vlastníků – mimo rozsah bez právního titulu"
    ]
+  },
+  {
+   "id": "registr_smluv.xml",
+   "nazev": "Registr smluv – XML verze (oprava hodnot)",
+   "stav": "TESTOVÁNO",
+   "implementace": "IMPLEMENTOVÁNO a ŽIVĚ TESTOVÁNO z cloudu – integrace/sources/registr_smluv.py"
   }
  ],
- "aktualizace": "2026-10-23 08:40 SELČ"
+ "aktualizace": "2026-10-23 11:30 SELČ"
 }
