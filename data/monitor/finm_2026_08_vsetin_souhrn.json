@@ -1,0 +1,142 @@
+{
+ "schema": "vsetin-osint/monitor-finm-souhrn@1",
+ "zdroj": "https://monitor.statnipokladna.gov.cz/data/extrakty/csv/FinM2026/2026_08_Data_CSUIS_FINM2026.zip",
+ "soubor": "FINM01_UJ_2026008.csv",
+ "ico": "00304450",
+ "ucetni_jednotka": "1000017218",
+ "obdobi": "2026-08 (kumulativně od 1. 1.)",
+ "radku_vlastnich": 1745,
+ "radku_partner": 55,
+ "partneru_ico": 31,
+ "poznamka": "Hodnoty v Kč; [schválený, po změnách, výsledek od počátku roku]; nekonsolidováno. Typ 2 = příjmy/financování, 3 = výdaje.",
+ "tridy": {
+  "prijmy_danove_1": [
+   714560000,
+   714560000,
+   491921714
+  ],
+  "prijmy_nedanove_2": [
+   157815000,
+   171434919,
+   118965152
+  ],
+  "prijmy_kapitalove_3": [
+   663000,
+   663000,
+   2579055
+  ],
+  "prijmy_transfery_4_bez_41": [
+   38290000,
+   59157203,
+   47210091
+  ],
+  "prijmy_transfery_41xx": [
+   84571000,
+   94202189,
+   1443400481
+  ],
+  "vydaje_bezne_5_bez_53": [
+   571511800,
+   582445270,
+   325074364
+  ],
+  "vydaje_53xx": [
+   311712200,
+   336120038,
+   1449790063
+  ],
+  "vydaje_kapitalove_6": [
+   397274000,
+   547409948,
+   207163477
+  ],
+  "financovani_prijem_8": [
+   284599000,
+   425957945,
+   127951409
+  ],
+  "financovani_vydaj_8": [
+   0,
+   0,
+   -250000000
+  ]
+ },
+ "konsolidacni_polozky": {
+  "4134": [
+   0,
+   0,
+   1356607000
+  ],
+  "4138": [
+   0,
+   0,
+   9227749
+  ],
+  "5345": [
+   0,
+   0,
+   1224344457
+  ],
+  "5348": [
+   0,
+   0,
+   1202832
+  ]
+ },
+ "financovani": {
+  "8113": [
+   200000000,
+   200000000,
+   0
+  ],
+  "8115": [
+   84599000,
+   118457945,
+   11594991
+  ],
+  "8117": [
+   0,
+   0,
+   114595000
+  ],
+  "8118_vydaj": [
+   0,
+   0,
+   -250000000
+  ],
+  "8123": [
+   0,
+   107500000,
+   2439797
+  ],
+  "8901": [
+   0,
+   0,
+   -678379
+  ]
+ },
+ "krizova_kontrola_RO2026": [
+  {
+   "polozka": "8115",
+   "monitor_po_zmenach": 118457945,
+   "RO": "RO 14 (RM 20. 7. 2026) po = 118 457 944,86",
+   "shoda": true
+  },
+  {
+   "polozka": "8123",
+   "monitor_po_zmenach": 107500000,
+   "RO": "RO 12 (ZM 22. 6. 2026) po = 107 500 000; RO 17 (21. 9.) až po období 08",
+   "shoda": true
+  },
+  {
+   "polozka": "8113",
+   "monitor_po_zmenach": 200000000,
+   "RO": "před RO 17 = 200 000 000",
+   "shoda": true
+  }
+ ],
+ "otevrene_otazky": [
+  "Rozdíl 4134 (1 356,6 mil.) vs 5345 (1 224,3 mil.) – metodika konsolidace MONITORu neověřena",
+  "Výsledek 8117/8118 (krátkodobé operace) – doplnit význam"
+ ]
+}

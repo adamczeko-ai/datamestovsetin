@@ -1,0 +1,103 @@
+{
+ "schema": "vsetin-osint/kontrola-ro-monitor@1",
+ "ico": "00304450",
+ "polozka": "8115 – rozpočet po změnách",
+ "metoda": "Měsíční extrakty FIN 2-12 M (MONITOR), člen FINM202 (2025) / FINM01_UJ (2026), hodnota 'rozpočet po změnách' k ultimu měsíce, porovnaná s posledním RO schváleným v daném měsíci (data/rozpocet/*/rozpoctova_opatreni_*_radky.csv).",
+ "stazeno": "2026-10-23 07:45–07:55 SELČ",
+ "kontroly": [
+  {
+   "obdobi": "2025-03",
+   "etag": "\"6811ed57-1139df2\"",
+   "monitor_8115_po_zmenach": 79978193.88,
+   "RO": "RO 3/2025 (RM 10. 3.) po = 79 978 193,88",
+   "verdikt": "SHODA"
+  },
+  {
+   "obdobi": "2025-04",
+   "etag": "\"682edaa0-122037b\"",
+   "monitor_8115_po_zmenach": 149533188.6,
+   "RO": "RO 5/2025 (RM 7. 4.) po = 150 190 284,54 (zveřejněno)",
+   "verdikt": "ROZDÍL −657 095,94 → MONITOR odpovídá začátku RO 8 (149 533 188,60); potvrzuje A-2025-01 nezávislým zdrojem: zaúčtované RO 4 se liší od zveřejněného PDF už v dubnu 2025"
+  },
+  {
+   "obdobi": "2025-05",
+   "etag": "\"6859a3c1-12c945a\"",
+   "monitor_8115_po_zmenach": 149533188.6,
+   "RO": "beze změny 8115 (RO 6–7)",
+   "verdikt": "SHODA s RO 8 před"
+  },
+  {
+   "obdobi": "2025-06",
+   "etag": "\"6880a4dd-139233d\"",
+   "monitor_8115_po_zmenach": 160343594.55,
+   "RO": "RO 8/2025 (ZM 23. 6.) po = 160 343 594,55",
+   "verdikt": "SHODA"
+  },
+  {
+   "obdobi": "2025-07",
+   "etag": null,
+   "monitor_8115_po_zmenach": null,
+   "RO": "extrakt 07/2025 neexistuje (HTTP 404)",
+   "verdikt": "NEOVĚŘENO"
+  },
+  {
+   "obdobi": "2025-09",
+   "etag": "\"68f8ec6c-1571874\"",
+   "monitor_8115_po_zmenach": 188903434.25,
+   "RO": "RO 15/2025 (RM 24. 9.) po = 188 905 434,25; RO 16 před = 188 903 434,25",
+   "verdikt": "ROZDÍL +2 000 v RO 15 → MONITOR potvrzuje A-2025-02 (překlep v RO 15, zaúčtováno 188 903 434,25)"
+  },
+  {
+   "obdobi": "2025-10",
+   "etag": "\"692611f8-161d138\"",
+   "monitor_8115_po_zmenach": 188916834.25,
+   "RO": "RO 16/2025 (RM 13. 10.) po = 188 916 834,25",
+   "verdikt": "SHODA"
+  },
+  {
+   "obdobi": "2025-11",
+   "etag": "\"695253da-16b73c8\"",
+   "monitor_8115_po_zmenach": 189619834.25,
+   "RO": "RO 19/2025 (ZM 10. 11.) po = 189 619 834,25",
+   "verdikt": "SHODA"
+  },
+  {
+   "obdobi": "2025-12",
+   "etag": "\"69a182db-177042c\"",
+   "monitor_8115_po_zmenach": 207352097.86,
+   "RO": "RO 24/2025 (RM 15. 12.) po = 207 352 071,31",
+   "verdikt": "ROZDÍL +26,55 Kč – PDF RO 24/2025 ověřeno (8115: 189 633 365,25 + 17 718 706,06 = 207 352 071,31; RO 22 a 23 bez rozporu); MONITOR i ZÚ uvádí 207 352 097,86 → zveřejněná RO 2025 nevysvětlují 26,55 Kč (nezveřejněné/opravné RO nebo zaokrouhlení) = nová anomálie A-2025-05 (nízká)"
+  },
+  {
+   "obdobi": "2026-03",
+   "etag": "\"6a062e76-11d14cb\"",
+   "monitor_8115_po_zmenach": 114885850.45,
+   "RO": "RO 7/2026 (ZM 30. 3.) po = 114 885 850,45",
+   "verdikt": "SHODA"
+  },
+  {
+   "obdobi": "2026-06",
+   "etag": "\"6a60775b-1607593\"",
+   "monitor_8115_po_zmenach": 122823292.94,
+   "RO": "RO 12/2026 (ZM 22. 6.) po = 122 823 292,94; 8123 = 107 500 000",
+   "verdikt": "SHODA (8115 i 8123)"
+  },
+  {
+   "obdobi": "2026-08",
+   "etag": "\"6ab496d0-17be1a8\"",
+   "monitor_8115_po_zmenach": 118457944.86,
+   "RO": "RO 14/2026 (RM 20. 7.) po = 118 457 944,86",
+   "verdikt": "SHODA"
+  }
+ ],
+ "zaver": "Z 11 ověřených měsíců (07/2025 extrakt neexistuje) sedí 8 přesně. 3 rozdíly: A-2025-01 (−657 095,94 od 04/2025) a A-2025-02 (+2 000 v RO 15) jsou chyby ve zveřejněných PDF RO, které MONITOR (zaúčtovaný stav) nezávisle potvrzuje; +26,55 Kč u RO 24 je drobná nevysvětlená odchylka. Hypotéza (neověřeno): v účetnictví bylo RO 4/2025 zaúčtováno s financováním 75 238 904,06 Kč.",
+ "anomalie_nove": [
+  {
+   "id": "A-2025-05",
+   "zavaznost": "nizka",
+   "popis": "Upravený rozpočet pol. 8115 k 31. 12. 2025 podle zveřejněných RO 1–24 = 207 352 071,31 Kč; MONITOR a ZÚ = 207 352 097,86 Kč (+26,55 Kč).",
+   "doklad": "PDF RO 24/2025 (id_dokumenty=566233), FIN 2-12 M 12/2025 FINM202",
+   "dalsi_krok": "Dotaz na finanční odbor / porovnat s rozpočtovými opatřeními starosty, pokud existují."
+  }
+ ]
+}
