@@ -33,9 +33,9 @@
    "required": ["id", "kod", "zdroj_signalu", "zavaznost", "popis", "dukazy", "stav"],
    "additionalProperties": false,
    "properties": {
-    "id": {"type": "string", "pattern": "^(S-[0-9a-f]{10}(-\\d+)?|A-\\d{4}-\\d{2})$"},
+    "id": {"type": "string", "pattern": "^(S-[0-9a-f]{10}(-\\d+)?|A-\\d{4}-\\d{2}|P-\\d{2,3})$"},
     "kod": {"type": "string"},
-    "zdroj_signalu": {"enum": ["pravidlo", "anomalie", "llm"]},
+    "zdroj_signalu": {"enum": ["pravidlo", "anomalie", "analytik", "llm"]},
     "zavaznost": {"enum": ["vysoka", "stredni", "nizka"]},
     "popis": {"type": "string"},
     "castka_Kc": {"type": ["number", "null"]},
