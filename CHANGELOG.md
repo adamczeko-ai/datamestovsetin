@@ -130,3 +130,4 @@
 ## 2026-10-23 (kontrola konzistence dat, větev claude/auto-konzistence-2026-10-23)
 - `scripts/kontrola_konzistence.py` → `data/analyzy/konzistence.json` (schéma `konzistence.schema.json`): K1 RO JSON × CSV × souhrnné CSV, K2 bilance a aritmetika RO, K3 subjekty × ARES, K4 kontrolní číslice IČO, K5 datum RO × index zasedání ZM/RM, K6 FO jménem v kurátorovaných datech. Zdrojová data se nemění; rozpor = obě hodnoty se zdrojem, stav „ke_kontrole“ (stav od člověka se zachová).
 - Výsledek 23. 10. 2026: K1–K3, K5 bez rozporu (K5 porovnala 35 RO); K4 2× (zástupná IČO 00000000, 00000111); K6 6× (3 IČO FO jménem v `parovani_ico.json`, `nipez_vz_okruh_mesta_2024_2026.json`, `verejne_zakazky.json`).
+- Kontrola konzistence rozšířena o K7–K13 (`scripts/kontrola_konzistence_krizova.py`): odvozené soubory × přegenerování, částky téže smlouvy napříč soubory, odkazy a JSON pointery, osiřelé stavy signálů a ID anomálií, data a časové osy kauz, ZÚ × MONITOR, duplicitní ID.
