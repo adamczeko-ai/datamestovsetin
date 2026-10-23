@@ -1,7 +1,7 @@
 {
  "schema": "vsetin-osint/parovani-smluv@1",
  "zdroj": "Hlídač státu – hledání smluv (registr smluv)",
- "stav_k": "2026-10-23",
+ "stav_k": "2026-10-23 02:20 SELČ",
  "metoda": "dotaz ico:00304450 + klíčová slova akce; ručně vybrány relevantní smlouvy",
  "upozorneni": "Fulltextové párování – relevance ověřena jen podle názvu dodavatele/částky.",
  "akce": [
@@ -41,7 +41,7 @@
      "url": "https://www.hlidacstatu.cz/Detail/39554985"
     }
    ],
-   "chybi": "smlouva na stavební práce (RO 12/2026: 12,8 mil. Kč) – k 23.10.2026 nenalezena"
+   "chybi": "smlouva na stavební práce (RO 12/2026: 12,8 mil. Kč) – k 23.10.2026 2:20 SELČ v registru stále nenalezena (dotazy 'Vs-01-Bel', 'lávk* v Lázkách')"
   },
   {
    "akce": "Rekonstrukce hřbitova – rozšíření kolumbária",
@@ -55,7 +55,14 @@
      "dodavatel": "Martin Urban",
      "Kc": 46920679,
      "pozn": "Max. hodnota smlouvy 46,9 mil. Kč vs. rozpočet 2026 po RO 12: 26,2 mil. Kč (1. etapa) – ověřit vícelet. financování/etapy",
-     "url": "https://www.hlidacstatu.cz/Detail/39450769"
+     "url": "https://www.hlidacstatu.cz/Detail/39450769",
+     "cislo": "0519 2026",
+     "bez_DPH": 38777420,
+     "s_DPH": 46920679,
+     "ico_dodavatele": "73257958",
+     "sidlo": "Lhota u Vsetína 10",
+     "schvalil": "Čunek Jiří",
+     "nazev": "Smlouva o dílo – Rozšíření hřbitova ve Vsetíně – kolumbárium"
     },
     {
      "id": "31260860",
@@ -186,6 +193,39 @@
      "dodavatel": "CHVÁLEK ATELIÉR s.r.o.",
      "Kc": 82280,
      "url": "https://www.hlidacstatu.cz/Detail/20262115"
+    },
+    {
+     "id": "17888751",
+     "podpis": "2021-09-29",
+     "dodavatel": "FC Vsetín, z.s. (IČO 62334697)",
+     "Kc": 36300000,
+     "bez_DPH": 30000000,
+     "cislo": "565/1S/2021",
+     "nazev": "Smlouva o smlouvě budoucí o nájmu a provozu sportovního areálu",
+     "schvalil": "Mgr. Simona Hlaváčová",
+     "pozn": "přílohy odkazují na program 'Regionální … 2024' – pravděpodobně dotační program pro sportovní infrastrukturu; ověřit",
+     "url": "https://www.hlidacstatu.cz/Detail/17888751"
+    },
+    {
+     "id": "17860275",
+     "podpis": "2021-09-24",
+     "dodavatel": "PB SCOM s.r.o.",
+     "Kc": 5906453,
+     "url": "https://www.hlidacstatu.cz/Detail/17860275"
+    },
+    {
+     "id": "19666119",
+     "podpis": "2022-03-14",
+     "dodavatel": "CHVÁLEK ATELIÉR s.r.o.",
+     "Kc": 453750,
+     "url": "https://www.hlidacstatu.cz/Detail/19666119"
+    },
+    {
+     "id": "12231152",
+     "podpis": "2020-04-07",
+     "dodavatel": "CHVÁLEK ATELIÉR s.r.o.",
+     "Kc": 329556,
+     "url": "https://www.hlidacstatu.cz/Detail/12231152"
     }
    ],
    "chybi": "smlouva na I. etapu (rozpočet 52 mil. Kč po RO 12/2026)"
@@ -197,6 +237,94 @@
    "nazev": "H & B delta, s.r.o.",
    "ico": "25835661",
    "popis": "Dar MVK (RO 21/2025) a v r. 2026 dodavatel u FVE ZŠ Ohrada (smlouvy 38646664, 39793809). Stejný vzorec jako LPT System."
+  }
+ ],
+ "dalsi_smlouvy_subjektu": [
+  {
+   "subjekt": "Agentura pro ekonomický rozvoj Vsetínska, o.p.s.",
+   "ico": "26863081",
+   "sidlo": "Horní náměstí 3, Vsetín",
+   "skutecny_majitel": "v evidenci nezjištěn (dle Hlídače státu)",
+   "smlouvy": [
+    {
+     "id": "24977135",
+     "podpis": "2023-06-28",
+     "nazev": "Dodatek č. 2 – Zhodnocení předmětu nájmu – rekonstrukce (k nájemní smlouvě 4836/1S/2012)",
+     "bez_DPH": 18328000,
+     "s_DPH": 22176880,
+     "schvalil": "Čunek Jiří"
+    },
+    {
+     "id": "900889",
+     "podpis": "2016-12-20",
+     "Kc": 2591000
+    },
+    {
+     "id": "26971347",
+     "podpis": "2023-12-19",
+     "Kc": 50457
+    },
+    {
+     "id": "28019327",
+     "podpis": "2024-03-18",
+     "Kc": null
+    }
+   ],
+   "vazba_RO": "RO 8/2023 'Dohoda o narovnání AERV' 3 848 880 Kč; RO 21/2023 'Peněžitý vklad – AERV' 3 600 000 Kč"
+  },
+  {
+   "subjekt": "DN Vsetín s.r.o.",
+   "ico": "19690711",
+   "sidlo": "Smetanova 1484, Vsetín (budova čp. 1484 je v majetku/správě města – viz RO 'Pasportizace budovy čp. 1484')",
+   "skutecny_majitel": "v evidenci nezjištěn (dle Hlídače státu)",
+   "smlouvy": [
+    {
+     "id": "25785927",
+     "podpis": "2023-09-15",
+     "nazev": "Smlouva o zápůjčce",
+     "Kc": 1000000
+    },
+    {
+     "id": "25946091",
+     "podpis": "2023-09-29",
+     "nazev": "Nájemní smlouva na pronájem pozemku vč. příslušenství",
+     "bez_DPH": 18000000,
+     "s_DPH": 21780000,
+     "cislo": "565/1S/2023",
+     "schvalil": "Čunek Jiří",
+     "pozn": "v registru město jako plátce – ověřit směr plateb v PDF"
+    },
+    {
+     "id": "25907979",
+     "podpis": "2023-09-27",
+     "Kc": 239290
+    },
+    {
+     "id": "25937475",
+     "podpis": "2023-09-27",
+     "Kc": 84372
+    },
+    {
+     "id": "25914355",
+     "podpis": "2023-09-27",
+     "platce": "Zlínský kraj",
+     "Kc": 2631381
+    },
+    {
+     "id": "25984191",
+     "podpis": "2023-09-29",
+     "nazev": "DN Vsetín → Z-Group bus a.s.",
+     "Kc": 214775
+    },
+    {
+     "id": "25984079",
+     "podpis": "2023-10-05",
+     "nazev": "DN Vsetín → Igor Hendrych",
+     "Kc": 1118040
+    }
+   ],
+   "vazba_RO": "RO 13/2023 zápůjčka 1 000 000 Kč + vklad 1 000 Kč (ORJ 0001, ODPA 2292 = dopravní obslužnost)",
+   "hypoteza": "ODPA 2292 a smlouvy se Zlínským krajem a Z-Group bus naznačují dopravní (MHD/linkovou) společnost – ověřit v obchodním rejstříku."
   }
  ]
 }

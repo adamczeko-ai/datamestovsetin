@@ -36,3 +36,7 @@
 - RO 2023 (22 RO, 471 řádků) + ZÚ 2023, rekonciliace; chyba v Tabulce 1 ZÚ 2023.
 - Párování 6 akcí se smlouvami (Hlídač státu); vazba dárce→dodavatel H & B delta.
 - K-001 +745 tis. (2023). Analytika a prohlížeč rozšířeny o 2023.
+
+## 2026-10-23 (9. várka – autonomní)
+- Smlouvy: DN Vsetín s.r.o., AERV o.p.s., FC Vsetín (Sportovní areál Ohrada), kolumbárium – IČO, hodnoty, schvalovatelé.
+- RO 2022 – jen narativní body (zdroj bez tabulek), anomálie A-2022-01/02.

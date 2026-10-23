@@ -1,0 +1,625 @@
+{
+ "schema": "vsetin-osint/rozpoctove-opatreni-narativ@1",
+ "rok": 2022,
+ "zdroj_slozka": "https://mestovsetin.cz/2022%2Drozpoctova%2Dopatreni/ds-19647/archiv=0&p1=72085",
+ "vytezeno": "2026-10-23 (SELČ)",
+ "omezeni": "RO 2022 jsou zveřejněna jen jako důvodové zprávy BEZ tabulky rozpočtových změn (ODPA/POL); RO 9–13 jako .doc, RO 17 nečitelné. Řádková data a rekonciliace se ZÚ proto nejsou možné; zde jen body a částky z textu.",
+ "anomalie": [
+  {
+   "id": "A-2022-01",
+   "zavaznost": "nizka",
+   "popis": "RO 2, 4, 10 a 15 mají v záhlaví 'ROZPOČTOVÉ OPATŘENÍ NA ROK 2021' ačkoli jsou ve složce 2022 (překlep / kopírovaná šablona)."
+  },
+  {
+   "id": "A-2022-02",
+   "zavaznost": "stredni",
+   "popis": "Nejednotný formát zveřejnění (PDF bez tabulek, .doc) – snižuje strojovou čitelnost a ověřitelnost (open data)."
+  }
+ ],
+ "opatreni": [
+  {
+   "id": "RO-2022-01",
+   "cislo": 1,
+   "organ": "ZM",
+   "id_dokumenty": 548371,
+   "url": "https://mestovsetin.cz/assets/File.ashx?id_org=18676&id_dokumenty=548371",
+   "body": [
+    {
+     "kapitola": "01",
+     "nazev": "Neinvestiční transfer SR v rámci souhrnného dotačního vztahu",
+     "castky_z_textu": "51 126 400; 51 039 800; 86 600"
+    },
+    {
+     "kapitola": "02",
+     "nazev": "Výkup pozemků od TJ Zbrojovka Vsetín, z.s. v rámci vzájemného převodu pozemků",
+     "castky_z_textu": "1 154 400; 1 155 400"
+    },
+    {
+     "kapitola": "02",
+     "nazev": "Závlahový systém fotbalového hřiště na ulici Tyršova",
+     "castky_z_textu": ""
+    },
+    {
+     "kapitola": "03",
+     "nazev": "Alcedo – pojistné plnění",
+     "castky_z_textu": "43 874,60; 38 874,60"
+    },
+    {
+     "kapitola": "03",
+     "nazev": "Projekt IKAP II – převod nedočerpaných prostředků z 2021",
+     "castky_z_textu": "409 291,92; 37 518"
+    },
+    {
+     "kapitola": "03",
+     "nazev": "ZŠ Rokytnice – splátka návratné finanční výpomoci",
+     "castky_z_textu": "19 263 000"
+    },
+    {
+     "kapitola": "04",
+     "nazev": "Hřiště U Bečvy točna, Ohrada",
+     "castky_z_textu": "1 000 000; 990 866; 100 000"
+    },
+    {
+     "kapitola": "04",
+     "nazev": "Sanace svahu ul. Palackého včetně chodníku",
+     "castky_z_textu": "730 000"
+    },
+    {
+     "kapitola": "04",
+     "nazev": "Rekonstrukce bytů DPS č. p. 1579 a 1580 – 2 byty",
+     "castky_z_textu": "1 490 000"
+    },
+    {
+     "kapitola": "04",
+     "nazev": "Včelín Semetín",
+     "castky_z_textu": ""
+    },
+    {
+     "kapitola": "04",
+     "nazev": "MVK – stavební úpravy knihovny",
+     "castky_z_textu": "3 000 000; 65 340 000; 11 132 000; 4 780 000"
+    },
+    {
+     "kapitola": "16",
+     "nazev": "Náhrada škody za újmu na zdraví za úraz na chodníku (rozsudek)",
+     "castky_z_textu": "63 261,80; 70 192,90; soudní poplatek 2 531"
+    }
+   ],
+   "pozn": null
+  },
+  {
+   "id": "RO-2022-02",
+   "cislo": 2,
+   "organ": "RM",
+   "id_dokumenty": 548374,
+   "url": "https://mestovsetin.cz/assets/File.ashx?id_org=18676&id_dokumenty=548374",
+   "body": [
+    {
+     "kapitola": "03",
+     "nazev": "Dotace SR – ZŠ Trávníky (OP VVV)",
+     "castky_z_textu": "985 622"
+    },
+    {
+     "kapitola": "03",
+     "nazev": "Dotace ZK – MVK regionální funkce",
+     "castky_z_textu": "2 991 000; 747 750"
+    }
+   ],
+   "pozn": null
+  },
+  {
+   "id": "RO-2022-03",
+   "cislo": 3,
+   "organ": "RM",
+   "id_dokumenty": 548945,
+   "url": "https://mestovsetin.cz/assets/File.ashx?id_org=18676&id_dokumenty=548945",
+   "body": [
+    {
+     "kapitola": "02",
+     "nazev": "Podání závazné finanční nabídky (nákup nemovitosti?)",
+     "castky_z_textu": "1 120 000; 1 122 000"
+    },
+    {
+     "kapitola": "03",
+     "nazev": "Dotace ZK – MVK",
+     "castky_z_textu": "25 000"
+    },
+    {
+     "kapitola": "03",
+     "nazev": "Dotace ZK – ZŠ Luh",
+     "castky_z_textu": "49 207"
+    },
+    {
+     "kapitola": "03",
+     "nazev": "Dotace SR – Alcedo",
+     "castky_z_textu": "346 750"
+    },
+    {
+     "kapitola": "03",
+     "nazev": "Vratka dotace – MŠ Rokytnice 425",
+     "castky_z_textu": "86 808"
+    },
+    {
+     "kapitola": "03",
+     "nazev": "Vratka dotace – ZŠ Rokytnice 436",
+     "castky_z_textu": "180 683"
+    },
+    {
+     "kapitola": "05",
+     "nazev": "Státní příspěvek na pěstounskou péči",
+     "castky_z_textu": "1 944 000; 54 000; 1 998 000"
+    }
+   ],
+   "pozn": null
+  },
+  {
+   "id": "RO-2022-04",
+   "cislo": 4,
+   "organ": "ZM",
+   "id_dokumenty": 548947,
+   "url": "https://mestovsetin.cz/assets/File.ashx?id_org=18676&id_dokumenty=548947",
+   "body": [
+    {
+     "kapitola": "04",
+     "nazev": "Lávka u průmyslovky Vs-04-Bel",
+     "castky_z_textu": "rozpočet 23 000 000; nabídky/částky 26 479 138,50; 32 039 757,59; 19 483 170"
+    }
+   ],
+   "pozn": null
+  },
+  {
+   "id": "RO-2022-05",
+   "cislo": 5,
+   "organ": "RM",
+   "id_dokumenty": 548946,
+   "url": "https://mestovsetin.cz/assets/File.ashx?id_org=18676&id_dokumenty=548946",
+   "body": [
+    {
+     "kapitola": "03",
+     "nazev": "Dar Kayaku Safety Systems Europe",
+     "castky_z_textu": "20 000"
+    }
+   ],
+   "pozn": null
+  },
+  {
+   "id": "RO-2022-06",
+   "cislo": 6,
+   "organ": "ZM",
+   "id_dokumenty": 549149,
+   "url": "https://mestovsetin.cz/assets/File.ashx?id_org=18676&id_dokumenty=549149",
+   "body": [
+    {
+     "kapitola": "02",
+     "nazev": "Klimatizace v kině Vatra",
+     "castky_z_textu": "420 000; 1 300 000"
+    },
+    {
+     "kapitola": "02",
+     "nazev": "Ozvučovací technika v domě kultury",
+     "castky_z_textu": "815 000"
+    },
+    {
+     "kapitola": "02",
+     "nazev": "Provoz tranzitního centra v domě kultury",
+     "castky_z_textu": "200 000"
+    },
+    {
+     "kapitola": "03",
+     "nazev": "Individuální dotace – Valašský hokejový klub z. s.",
+     "castky_z_textu": "5 200 000; 2 300 000"
+    },
+    {
+     "kapitola": "03",
+     "nazev": "ALCEDO – stavební úpravy",
+     "castky_z_textu": "235 000"
+    },
+    {
+     "kapitola": "03",
+     "nazev": "ZŠ Sychrov – rekonstrukce kuchyně a jídelny vč. technologie",
+     "castky_z_textu": "40 000 000; 36 191 100; 52 810 347; 15 000 000"
+    },
+    {
+     "kapitola": "05",
+     "nazev": "Individuální dotace – sociální služby",
+     "castky_z_textu": "5 000–25 000"
+    },
+    {
+     "kapitola": "17",
+     "nazev": "TS – investiční příspěvek, změna účelu",
+     "castky_z_textu": "4 000 000; 1 500 000; 5 500 000"
+    },
+    {
+     "kapitola": "18",
+     "nazev": "Projekt Vodní prvek Arboretum Semetín",
+     "castky_z_textu": "1 527 280"
+    },
+    {
+     "kapitola": "18",
+     "nazev": "Projekt Pomník obětem 1. a 2. světové války",
+     "castky_z_textu": "740 030"
+    },
+    {
+     "kapitola": "18",
+     "nazev": "Projekt Arboretum Semetín",
+     "castky_z_textu": "632 000; 481 000"
+    }
+   ],
+   "pozn": null
+  },
+  {
+   "id": "RO-2022-07",
+   "cislo": 7,
+   "organ": "RM",
+   "id_dokumenty": 549326,
+   "url": "https://mestovsetin.cz/assets/File.ashx?id_org=18676&id_dokumenty=549326",
+   "body": [
+    {
+     "kapitola": "02",
+     "nazev": "Podání dodatečné nabídky na výši kupní ceny",
+     "castky_z_textu": "1 120 000 → 1 285 200 (+165 200)"
+    },
+    {
+     "kapitola": "03",
+     "nazev": "Vratka dotace – ZŠ Luh",
+     "castky_z_textu": "79 301"
+    }
+   ],
+   "pozn": null
+  },
+  {
+   "id": "RO-2022-08",
+   "cislo": 8,
+   "organ": "RM",
+   "id_dokumenty": 549327,
+   "url": "https://mestovsetin.cz/assets/File.ashx?id_org=18676&id_dokumenty=549327",
+   "body": [
+    {
+     "kapitola": "05",
+     "nazev": "Sociálně-právní ochrana dětí",
+     "castky_z_textu": "623 000; 10 591 000; 297 000"
+    },
+    {
+     "kapitola": "10",
+     "nazev": "MP – přijetí pojistného plnění",
+     "castky_z_textu": "75 521"
+    }
+   ],
+   "pozn": null
+  },
+  {
+   "id": "RO-2022-09",
+   "cislo": 9,
+   "organ": "RM",
+   "id_dokumenty": 550723,
+   "url": "https://mestovsetin.cz/assets/File.ashx?id_org=18676&id_dokumenty=550723",
+   "body": [],
+   "pozn": "text z .doc – body neextrahovány"
+  },
+  {
+   "id": "RO-2022-10",
+   "cislo": 10,
+   "organ": "ZM",
+   "id_dokumenty": 550724,
+   "url": "https://mestovsetin.cz/assets/File.ashx?id_org=18676&id_dokumenty=550724",
+   "body": [],
+   "pozn": "text z .doc – body neextrahovány"
+  },
+  {
+   "id": "RO-2022-11",
+   "cislo": 11,
+   "organ": "RM",
+   "id_dokumenty": 550725,
+   "url": "https://mestovsetin.cz/assets/File.ashx?id_org=18676&id_dokumenty=550725",
+   "body": [],
+   "pozn": "text z .doc – body neextrahovány"
+  },
+  {
+   "id": "RO-2022-12",
+   "cislo": 12,
+   "organ": "RM",
+   "id_dokumenty": 550726,
+   "url": "https://mestovsetin.cz/assets/File.ashx?id_org=18676&id_dokumenty=550726",
+   "body": [],
+   "pozn": "text z .doc – body neextrahovány"
+  },
+  {
+   "id": "RO-2022-13",
+   "cislo": 13,
+   "organ": "RM",
+   "id_dokumenty": 550727,
+   "url": "https://mestovsetin.cz/assets/File.ashx?id_org=18676&id_dokumenty=550727",
+   "body": [],
+   "pozn": "text z .doc – body neextrahovány"
+  },
+  {
+   "id": "RO-2022-14",
+   "cislo": 14,
+   "organ": "RM",
+   "id_dokumenty": 550971,
+   "url": "https://mestovsetin.cz/assets/File.ashx?id_org=18676&id_dokumenty=550971",
+   "body": [
+    {
+     "kapitola": "03",
+     "nazev": "Dotace ZK – Podnikni to!",
+     "castky_z_textu": "248 292"
+    },
+    {
+     "kapitola": "05",
+     "nazev": "Finanční vypořádání dotace SR",
+     "castky_z_textu": "11 397 983,06; vratka 75 914,31"
+    },
+    {
+     "kapitola": "11",
+     "nazev": "Dotace SR – volby",
+     "castky_z_textu": "820 000"
+    }
+   ],
+   "pozn": null
+  },
+  {
+   "id": "RO-2022-15",
+   "cislo": 15,
+   "organ": "ZM",
+   "id_dokumenty": 551154,
+   "url": "https://mestovsetin.cz/assets/File.ashx?id_org=18676&id_dokumenty=551154",
+   "body": [
+    {
+     "kapitola": "01/10/17",
+     "nazev": "Zvýšení osobních výdajů MěÚ, MP, TS",
+     "castky_z_textu": "891 000; 250 000; 85 000; 640 000"
+    },
+    {
+     "kapitola": "02",
+     "nazev": "Ozvučovací technika DK – DPH",
+     "castky_z_textu": "+172 000 → 987 000"
+    },
+    {
+     "kapitola": "02",
+     "nazev": "Certifikovaný systém managementu hospodaření s energií",
+     "castky_z_textu": "600 000 → 835 000"
+    },
+    {
+     "kapitola": "02",
+     "nazev": "Energetická studie FVE",
+     "castky_z_textu": "242 000"
+    },
+    {
+     "kapitola": "03",
+     "nazev": "MŠ Luh – oprava terasy",
+     "castky_z_textu": "navýšení na 1 148 467"
+    },
+    {
+     "kapitola": "03",
+     "nazev": "ZŠ Luh – havárie VZT jídelny",
+     "castky_z_textu": "630 000"
+    },
+    {
+     "kapitola": "03",
+     "nazev": "ZŠ Sychrov – hygienická zařízení, vícepráce",
+     "castky_z_textu": "109 000"
+    },
+    {
+     "kapitola": "03",
+     "nazev": "MŠ Kobzáňova – havárie střechy",
+     "castky_z_textu": "61 000"
+    },
+    {
+     "kapitola": "03",
+     "nazev": "Alcedo – pojištění podnikatelských rizik",
+     "castky_z_textu": "80 556–400 000"
+    },
+    {
+     "kapitola": "03",
+     "nazev": "Alcedo – stavební úpravy RMC Sluníčko",
+     "castky_z_textu": "325 000"
+    },
+    {
+     "kapitola": "03",
+     "nazev": "Finanční dar – AEROTEAM, spol. s r.o.",
+     "castky_z_textu": "150 000 (žádost 221 000)"
+    },
+    {
+     "kapitola": "03",
+     "nazev": "Dotace – Plavecký klub Vsetín z.s.",
+     "castky_z_textu": "300 000"
+    },
+    {
+     "kapitola": "04",
+     "nazev": "Úprava dopravního řešení Na Lapači – DPS",
+     "castky_z_textu": "200 000"
+    },
+    {
+     "kapitola": "05",
+     "nazev": "Sociální pohřby",
+     "castky_z_textu": "150 000"
+    },
+    {
+     "kapitola": "05",
+     "nazev": "Dotace – Diakonie ČCE",
+     "castky_z_textu": "40 000"
+    }
+   ],
+   "pozn": null
+  },
+  {
+   "id": "RO-2022-16",
+   "cislo": 16,
+   "organ": "RM",
+   "id_dokumenty": 551669,
+   "url": "https://mestovsetin.cz/assets/File.ashx?id_org=18676&id_dokumenty=551669",
+   "body": [
+    {
+     "kapitola": "03",
+     "nazev": "Vratka dotace – Alcedo",
+     "castky_z_textu": "117 895"
+    },
+    {
+     "kapitola": "03",
+     "nazev": "Dotace ZK – MŠ Rokytnice, ZŠ Luh, ZŠ Rokytnice",
+     "castky_z_textu": "8 119,65; 123 811,80; 1 938,30"
+    }
+   ],
+   "pozn": null
+  },
+  {
+   "id": "RO-2022-17",
+   "cislo": 17,
+   "organ": "RM",
+   "id_dokumenty": 551922,
+   "url": "https://mestovsetin.cz/assets/File.ashx?id_org=18676&id_dokumenty=551922",
+   "body": [],
+   "pozn": "soubor nečitelný (zřejmě .docx/obrázek)"
+  },
+  {
+   "id": "RO-2022-18",
+   "cislo": 18,
+   "organ": "ZM",
+   "id_dokumenty": 552043,
+   "url": "https://mestovsetin.cz/assets/File.ashx?id_org=18676&id_dokumenty=552043",
+   "body": [
+    {
+     "kapitola": "02",
+     "nazev": "Odkup technického zhodnocení",
+     "castky_z_textu": "644 940"
+    },
+    {
+     "kapitola": "02",
+     "nazev": "Kompenzace za budoucí věcné břemeno",
+     "castky_z_textu": "67 000"
+    },
+    {
+     "kapitola": "02",
+     "nazev": "Rezidentní parkování v Kolonce",
+     "castky_z_textu": "60 000"
+    },
+    {
+     "kapitola": "02",
+     "nazev": "Zvýšené náklady na teplo, TUV v budově čp. 1080",
+     "castky_z_textu": "+450 000"
+    },
+    {
+     "kapitola": "02",
+     "nazev": "Odkup pronajatého vozidla Superb od Technických služeb Vsetín, s.r.o.",
+     "castky_z_textu": "250 000"
+    },
+    {
+     "kapitola": "17",
+     "nazev": "TS – zvýšení příspěvku na místní komunikace",
+     "castky_z_textu": "870 000"
+    }
+   ],
+   "pozn": null
+  },
+  {
+   "id": "RO-2022-19",
+   "cislo": 19,
+   "organ": "RM",
+   "id_dokumenty": 552284,
+   "url": "https://mestovsetin.cz/assets/File.ashx?id_org=18676&id_dokumenty=552284",
+   "body": [
+    {
+     "kapitola": "02",
+     "nazev": "Pojistná plnění",
+     "castky_z_textu": "73 648"
+    },
+    {
+     "kapitola": "03",
+     "nazev": "Dotace ZK – MVK",
+     "castky_z_textu": "67 000"
+    },
+    {
+     "kapitola": "11",
+     "nazev": "Dotace SR – volba prezidenta",
+     "castky_z_textu": "31 663"
+    }
+   ],
+   "pozn": null
+  },
+  {
+   "id": "RO-2022-20",
+   "cislo": 20,
+   "organ": "ZM",
+   "id_dokumenty": 552342,
+   "url": "https://mestovsetin.cz/assets/File.ashx?id_org=18676&id_dokumenty=552342",
+   "body": [
+    {
+     "kapitola": "03",
+     "nazev": "Příjmy za předškolní vzdělávání",
+     "castky_z_textu": ""
+    },
+    {
+     "kapitola": "03",
+     "nazev": "Úprava příspěvků na odpisy",
+     "castky_z_textu": ""
+    },
+    {
+     "kapitola": "03",
+     "nazev": "Příspěvky na provoz – energie",
+     "castky_z_textu": "230 000–320 000"
+    },
+    {
+     "kapitola": "03",
+     "nazev": "ZŠ Luh – PD pro dětskou skupinu",
+     "castky_z_textu": "758 670"
+    },
+    {
+     "kapitola": "03",
+     "nazev": "Alcedo – studna na Hájence, havárie",
+     "castky_z_textu": "453 000"
+    },
+    {
+     "kapitola": "03",
+     "nazev": "Wallachia z.s. – dotace",
+     "castky_z_textu": "200 000"
+    },
+    {
+     "kapitola": "03",
+     "nazev": "MVK – navýšení příspěvku na provoz",
+     "castky_z_textu": "70 000"
+    },
+    {
+     "kapitola": "04",
+     "nazev": "Rampové schodiště – změna zatřídění",
+     "castky_z_textu": "107 000"
+    }
+   ],
+   "pozn": null
+  },
+  {
+   "id": "RO-2022-21",
+   "cislo": 21,
+   "organ": "RM",
+   "id_dokumenty": 552343,
+   "url": "https://mestovsetin.cz/assets/File.ashx?id_org=18676&id_dokumenty=552343",
+   "body": [
+    {
+     "kapitola": "03",
+     "nazev": "Dotace ZK – sebeobrana ZŠ Rokytnice",
+     "castky_z_textu": "26 998"
+    },
+    {
+     "kapitola": "03",
+     "nazev": "Dotace SR – MVK",
+     "castky_z_textu": "225 000"
+    },
+    {
+     "kapitola": "05",
+     "nazev": "Pěstounská péče",
+     "castky_z_textu": "9 000"
+    },
+    {
+     "kapitola": "07",
+     "nazev": "Dotace SR – JSDH",
+     "castky_z_textu": "49 270"
+    },
+    {
+     "kapitola": "18",
+     "nazev": "Dotace SR – EKIS",
+     "castky_z_textu": "300 000"
+    }
+   ],
+   "pozn": null
+  }
+ ]
+}

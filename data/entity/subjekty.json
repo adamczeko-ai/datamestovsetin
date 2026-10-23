@@ -428,18 +428,20 @@
    "zdroj": "ZM 22.4.2024"
   },
   {
-   "ico": null,
-   "nazev": "Agentura pro ekonomický rozvoj Vsetínska (AERV)",
+   "ico": "26863081",
+   "nazev": "Agentura pro ekonomický rozvoj Vsetínska, o.p.s.",
    "role": "peněžitý vklad 3,6 mil. Kč (RO 21/2023); 'Dohoda o narovnání AERV' 3 848 880 Kč (RO 8/2023)",
    "zdroj": "RO 8/2023, RO 21/2023",
-   "k_overeni": "IČO, vlastnická struktura, předmět narovnání"
+   "k_overeni": "IČO, vlastnická struktura, předmět narovnání",
+   "adresa": "Horní náměstí 3, Vsetín"
   },
   {
-   "ico": null,
+   "ico": "19690711",
    "nazev": "DN Vsetín s.r.o.",
    "role": "zápůjčka 1 000 000 Kč + vklad 1 000 Kč (RO 13/2023) – zřejmě nově založená městská společnost",
    "zdroj": "RO 13/2023",
-   "k_overeni": "IČO, účel (DN = ?)"
+   "k_overeni": "IČO, účel (DN = ?)",
+   "adresa": "Smetanova 1484, Vsetín"
   },
   {
    "ico": "62587978",
@@ -458,6 +460,22 @@
    "nazev": "MUNIPOLIS (mobilní rozhlas)",
    "role": "služba mobilního rozhlasu, navýšení 28 615 Kč",
    "zdroj": "RO 8/2023"
+  },
+  {
+   "ico": "73257958",
+   "nazev": "Martin Urban",
+   "role": "zhotovitel – rozšíření hřbitova/kolumbárium, SoD 46 920 679 Kč s DPH (2026)",
+   "adresa": "Lhota u Vsetína 10"
+  },
+  {
+   "ico": null,
+   "nazev": "Damostis s.r.o.",
+   "role": "diagnostika lávky Vs-01-Bel 532 279 Kč (2026)"
+  },
+  {
+   "ico": null,
+   "nazev": "JASY Vsetín s.r.o.",
+   "role": "VZT Městské lázně 11,36 mil. Kč (2026)"
   }
  ],
  "vazby_k_overeni": [
