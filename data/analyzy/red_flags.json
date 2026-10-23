@@ -11,7 +11,8 @@
   "R4-nakup-nemovitosti": 6,
   "R5-dotace-subjektu": 19,
   "R3-RM-velka-investice": 9,
-  "R8-malo-nabidek": 1
+  "R8-malo-nabidek": 1,
+  "R12-opakovane-zruseni-VZ": 4
  },
  "signaly": [
   {
@@ -788,6 +789,15 @@
    ]
   },
   {
+   "kod": "R12-opakovane-zruseni-VZ",
+   "zavaznost": "nizka",
+   "popis": "ZKVALITNĚNÍ VÝUKY CIZÍCH JAZYKŮ VE VSETÍNSKÝCH ZÁKLADNÍCH ŠKOLÁCH: zrušeno 3×",
+   "castka_Kc": 4803968,
+   "odkazy": [
+    "https://www.vhodne-uverejneni.cz/profil/00304450 (záložka Zrušeno, 9 stran)"
+   ]
+  },
+  {
    "kod": "R3-RM-velka-investice",
    "zavaznost": "nizka",
    "popis": "RM rozhodla o +4 800 000 Kč: Stavební úpravy budovy MěÚ Vsetín",
@@ -818,6 +828,15 @@
    ]
   },
   {
+   "kod": "R12-opakovane-zruseni-VZ",
+   "zavaznost": "nizka",
+   "popis": "PROVOZOVÁNÍ SLUŽBY SENIOR TAXI: zrušeno 6×",
+   "castka_Kc": 3000000,
+   "odkazy": [
+    "https://www.vhodne-uverejneni.cz/profil/00304450 (záložka Zrušeno, 9 stran)"
+   ]
+  },
+  {
    "kod": "R3-RM-velka-investice",
    "zavaznost": "nizka",
    "popis": "RM rozhodla o +2 987 500 Kč: Nabytí pozemků včetně objektu občanské vybavenosti (hospoda U Marka)",
@@ -835,6 +854,15 @@
    "odkazy": [
     "RO-2026-03",
     "6/88/RM/2026"
+   ]
+  },
+  {
+   "kod": "R12-opakovane-zruseni-VZ",
+   "zavaznost": "nizka",
+   "popis": "MĚSTSKÉ LÁZNĚ VSETÍN – PARNÍ KABINA V 1.NP: zrušeno 3×",
+   "castka_Kc": 2700000,
+   "odkazy": [
+    "https://www.vhodne-uverejneni.cz/profil/00304450 (záložka Zrušeno, 9 stran)"
    ]
   },
   {
@@ -945,6 +973,15 @@
    "odkazy": [
     "RO-2025-08",
     "17,18/19/ZM/2025"
+   ]
+  },
+  {
+   "kod": "R12-opakovane-zruseni-VZ",
+   "zavaznost": "nizka",
+   "popis": "ARCHIV Č. P. 53 – REGÁLY A VYBAVENÍ ARCHIVU: zrušeno 3×",
+   "castka_Kc": 460000,
+   "odkazy": [
+    "https://www.vhodne-uverejneni.cz/profil/00304450 (záložka Zrušeno, 9 stran)"
    ]
   },
   {

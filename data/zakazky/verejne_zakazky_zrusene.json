@@ -1,0 +1,620 @@
+{
+ "schema": "vsetin-osint/vz-zrusene@1",
+ "zdroj": "https://www.vhodne-uverejneni.cz/profil/00304450 (záložka Zrušeno, 9 stran)",
+ "stav_k": "2026-10-23 05:40 SELČ",
+ "pocet_v_profilu": 84,
+ "vytezeno": 80,
+ "pozn": "4 záznamy bez uvedené předpokládané hodnoty nebyly vytěženy.",
+ "soucet_predp_hodnot_Kc": 377917653,
+ "opakovana_zruseni": [
+  {
+   "zakazka": "PROVOZOVÁNÍ SLUŽBY SENIOR TAXI",
+   "pocet_zruseni": 6,
+   "terminy": [
+    "2026-07-02",
+    "2026-06-19",
+    "2025-03-05",
+    "2022-05-06",
+    "2022-04-22",
+    "2020-04-17"
+   ],
+   "predp_hodnoty": [
+    1350000,
+    1800000,
+    3000000
+   ]
+  },
+  {
+   "zakazka": "MĚSTSKÉ LÁZNĚ VSETÍN – PARNÍ KABINA V 1.NP",
+   "pocet_zruseni": 3,
+   "terminy": [
+    "2022-04-04",
+    "2022-01-04",
+    "2021-11-29"
+   ],
+   "predp_hodnoty": [
+    2200000,
+    2700000
+   ]
+  },
+  {
+   "zakazka": "ARCHIV Č. P. 53 – REGÁLY A VYBAVENÍ ARCHIVU",
+   "pocet_zruseni": 3,
+   "terminy": [
+    "2021-11-23",
+    "2021-06-14",
+    "2021-03-03"
+   ],
+   "predp_hodnoty": [
+    400000,
+    460000
+   ]
+  },
+  {
+   "zakazka": "ZKVALITNĚNÍ VÝUKY CIZÍCH JAZYKŮ VE VSETÍNSKÝCH ZÁKLADNÍCH ŠKOLÁCH",
+   "pocet_zruseni": 3,
+   "terminy": [
+    "2015-03-03",
+    "2014-12-03",
+    "2014-08-15"
+   ],
+   "predp_hodnoty": [
+    4791665,
+    4803968
+   ]
+  },
+  {
+   "zakazka": "PŘESTAVBA MOSTU EV.Č. VS-04-ROM NA LÁVKU EV.Č. VS-04-ROL A PŘELOŽKA VODOVODU – PD",
+   "pocet_zruseni": 2,
+   "terminy": [
+    "2025-09-23",
+    "2025-08-04"
+   ],
+   "predp_hodnoty": [
+    400000
+   ]
+  },
+  {
+   "zakazka": "VEŘEJNÉ OSVĚTLENÍ PŘECHODŮ PRO CHODCE VSETÍN - PD",
+   "pocet_zruseni": 2,
+   "terminy": [
+    "2024-08-30",
+    "2024-08-15"
+   ],
+   "predp_hodnoty": [
+    300000
+   ]
+  },
+  {
+   "zakazka": "OPRAVA MOSTU EV. Č. VS-12-ROM DO SRNÍ",
+   "pocet_zruseni": 2,
+   "terminy": [
+    "2024-08-22",
+    "2024-08-09"
+   ],
+   "predp_hodnoty": [
+    1600000
+   ]
+  },
+  {
+   "zakazka": "DODÁNÍ OSOBNÍHO VOZIDLA PRO MĚSTO VSETÍN",
+   "pocet_zruseni": 2,
+   "terminy": [
+    "2024-01-22",
+    "2018-11-09"
+   ],
+   "predp_hodnoty": [
+    500000,
+    619835
+   ]
+  },
+  {
+   "zakazka": "VÝMĚNA VÝDŘEVY VE STAVIDLECH ELEKTRÁRENSKÉHO NÁHONU, VSETÍN",
+   "pocet_zruseni": 2,
+   "terminy": [
+    "2023-08-08",
+    "2023-07-27"
+   ],
+   "predp_hodnoty": [
+    350000
+   ]
+  }
+ ],
+ "vybrane": [
+  {
+   "nazev": "LÁVKA PŘES BEČVU U PRŮMYSLOVKY VE VSETÍNĚ",
+   "predp_hodnota": 58000000,
+   "uverejneno": "2025-04-29",
+   "lhuta": "2025-06-03",
+   "navaznost": "zrušena; 14.10.2025 SoD Mitrenga-stavby 68 983 751 Kč bez DPH (o 19 % více než předp. hodnota zrušené VZ) – viz K-003"
+  },
+  {
+   "nazev": "Zajištění sběru, svozu a převzetí komunálního odpadu",
+   "predp_hodnota": 99750000,
+   "uverejneno": "2019-10-03",
+   "navaznost": "k ověření – jak byl svoz zajištěn po zrušení"
+  }
+ ],
+ "zakazky": [
+  {
+   "nazev": "PROVOZOVÁNÍ SLUŽBY SENIOR TAXI II",
+   "predp_hodnota": 3000000,
+   "lhuta": "2026-08-03",
+   "uverejneno": "2026-07-02"
+  },
+  {
+   "nazev": "PROVOZOVÁNÍ SLUŽBY SENIOR TAXI",
+   "predp_hodnota": 3000000,
+   "lhuta": "2026-07-02",
+   "uverejneno": "2026-06-19"
+  },
+  {
+   "nazev": "Sanace svahu na parc. č. 26, 27 - ul. Palackého, Vsetín",
+   "predp_hodnota": 3250000,
+   "lhuta": "2026-02-17",
+   "uverejneno": "2026-02-05"
+  },
+  {
+   "nazev": "STAVEBNÍ ÚPRAVY STŘECHY NAD KINEM VATRA",
+   "predp_hodnota": 9000000,
+   "lhuta": "2026-02-13",
+   "uverejneno": "2026-01-29"
+  },
+  {
+   "nazev": "STAVEBNÍ ÚPRAVY MASARYKOVY VEŘEJNÉ KNIHOVNY VSETÍN POBOČKA ROKYTNICE Č.P. 413",
+   "predp_hodnota": 15600000,
+   "lhuta": "2025-12-15",
+   "uverejneno": "2025-11-18"
+  },
+  {
+   "nazev": "Přestavba mostu ev.č. Vs-04-Rom na lávku ev.č. Vs-04-Rol a přeložka vodovodu – PD II.",
+   "predp_hodnota": 400000,
+   "lhuta": "2025-10-03",
+   "uverejneno": "2025-09-23"
+  },
+  {
+   "nazev": "REKONSTRUKCE DĚTSKÉHO HŘIŠTĚ DOLNÍ JASENKA U 768",
+   "predp_hodnota": 800000,
+   "lhuta": "2025-08-15",
+   "uverejneno": "2025-08-04"
+  },
+  {
+   "nazev": "Přestavba mostu ev.č. Vs-04-Rom na lávku ev.č. Vs-04-Rol a přeložka vodovodu – PD",
+   "predp_hodnota": 400000,
+   "lhuta": "2025-08-14",
+   "uverejneno": "2025-08-04"
+  },
+  {
+   "nazev": "OPRAVA ČÁSTI MK V ČERVENCE VČETNĚ MOSTU VS-15-Jcm, VSETÍN",
+   "predp_hodnota": 3500000,
+   "lhuta": "2025-08-04",
+   "uverejneno": "2025-07-24"
+  },
+  {
+   "nazev": "OPRAVA FASÁDY ZASEDACÍ MÍSTNOSTI MĚÚ VSETÍN",
+   "predp_hodnota": 2500000,
+   "lhuta": "2025-07-14",
+   "uverejneno": "2025-07-02"
+  },
+  {
+   "nazev": "IT VYBAVENÍ MASARYKOVY VEŘEJNÉ KNIHOVNY A TURISTICKÉHO INFORMAČNÍHO CENTRA VSETÍN V OBJEKTU Č.P. 1356",
+   "predp_hodnota": 3830000,
+   "lhuta": "2025-06-20",
+   "uverejneno": "2025-05-21"
+  },
+  {
+   "nazev": "FVE PRŮMYSLOVÁ ZÓNA VSETÍN – BOBRKY - PD",
+   "predp_hodnota": 750000,
+   "lhuta": "2025-05-30",
+   "uverejneno": "2025-05-20"
+  },
+  {
+   "nazev": "LÁVKA PŘES BEČVU U PRŮMYSLOVKY VE VSETÍNĚ",
+   "predp_hodnota": 58000000,
+   "lhuta": "2025-06-03",
+   "uverejneno": "2025-04-29"
+  },
+  {
+   "nazev": "DOHLEDOVÝ SYSTÉM PRO MĚSTO VSETÍN 2025",
+   "predp_hodnota": 823649,
+   "lhuta": "2025-05-19",
+   "uverejneno": "2025-04-17"
+  },
+  {
+   "nazev": "TRÉNINKOVÁ HOKEJOVÁ STŘELNICE U ZIMNÍHO STADIONU NA LAPAČI, VSETÍN",
+   "predp_hodnota": 700000,
+   "lhuta": "2025-04-17",
+   "uverejneno": "2025-04-04"
+  },
+  {
+   "nazev": "PROVOZOVÁNÍ SLUŽBY SENIOR TAXI",
+   "predp_hodnota": 1350000,
+   "lhuta": "2025-03-17",
+   "uverejneno": "2025-03-05"
+  },
+  {
+   "nazev": "REVITALIZACE DOLNÍHO NÁMĚSTÍ VE VSETÍNĚ - projektová dokumentace, autorský dozor",
+   "predp_hodnota": 2100000,
+   "lhuta": "2024-11-22",
+   "uverejneno": "2024-11-06"
+  },
+  {
+   "nazev": "VEŘEJNÉ OSVĚTLENÍ PŘECHODŮ PRO CHODCE VSETÍN - PD II",
+   "predp_hodnota": 300000,
+   "lhuta": "2024-09-17",
+   "uverejneno": "2024-08-30"
+  },
+  {
+   "nazev": "OPRAVA MOSTU EV. Č. VS-12-ROM DO SRNÍ II",
+   "predp_hodnota": 1600000,
+   "lhuta": "2024-09-02",
+   "uverejneno": "2024-08-22"
+  },
+  {
+   "nazev": "OPRAVA KOMUNIKACE AMERIKA – PD",
+   "predp_hodnota": 230000,
+   "lhuta": "2024-08-27",
+   "uverejneno": "2024-08-15"
+  },
+  {
+   "nazev": "VEŘEJNÉ OSVĚTLENÍ PŘECHODŮ PRO CHODCE VSETÍN - PD",
+   "predp_hodnota": 300000,
+   "lhuta": "2024-08-27",
+   "uverejneno": "2024-08-15"
+  },
+  {
+   "nazev": "OPRAVA MOSTU EV. Č. VS-12-ROM DO SRNÍ",
+   "predp_hodnota": 1600000,
+   "lhuta": "2024-08-20",
+   "uverejneno": "2024-08-09"
+  },
+  {
+   "nazev": "Bike aréna Vsetín - údržba a kontrola všech trailů BAV 1, BAV 2",
+   "predp_hodnota": 785123,
+   "lhuta": "2024-07-30",
+   "uverejneno": "2024-07-19"
+  },
+  {
+   "nazev": "DODÁNÍ OSOBNÍHO VOZIDLA PRO MĚSTO VSETÍN 2024",
+   "predp_hodnota": 619835,
+   "lhuta": "2024-02-01",
+   "uverejneno": "2024-01-22"
+  },
+  {
+   "nazev": "DODAVATEL TECHNICKÉ PŘÍPRAVY VÝROBY, TISKU A KNIHAŘSKÝCH PRACÍ PERIODIKA VSETÍNSKÉ NOVINY",
+   "predp_hodnota": 850000,
+   "lhuta": "2023-11-27",
+   "uverejneno": "2023-11-16"
+  },
+  {
+   "nazev": "Parkoviště pod nadjezdem, Vsetín – projektová dokumentace, autorský dozor",
+   "predp_hodnota": 470000,
+   "lhuta": "2023-10-30",
+   "uverejneno": "2023-10-13"
+  },
+  {
+   "nazev": "Přednádražní prostor – I. etapa – Vsetín, SO 105 – Úprava ulice Nemocniční",
+   "predp_hodnota": 2700000,
+   "lhuta": "2023-09-07",
+   "uverejneno": "2023-09-07"
+  },
+  {
+   "nazev": "FOTOVOLTAIKA – PROJEKTOVÁ DOKUMENTACE 2023",
+   "predp_hodnota": 500000,
+   "lhuta": "2023-09-21",
+   "uverejneno": "2023-09-05"
+  },
+  {
+   "nazev": "VÝMĚNA VÝDŘEVY VE STAVIDLECH ELEKTRÁRENSKÉHO NÁHONU, VSETÍN II.",
+   "predp_hodnota": 350000,
+   "lhuta": "2023-08-23",
+   "uverejneno": "2023-08-08"
+  },
+  {
+   "nazev": "VÝMĚNA VÝDŘEVY VE STAVIDLECH ELEKTRÁRENSKÉHO NÁHONU, VSETÍN",
+   "predp_hodnota": 350000,
+   "lhuta": "2023-08-07",
+   "uverejneno": "2023-07-27"
+  },
+  {
+   "nazev": "Zpracování Územní studie systému sídelní zeleně města Vsetín",
+   "predp_hodnota": 550000,
+   "lhuta": "2023-08-07",
+   "uverejneno": "2023-07-26"
+  },
+  {
+   "nazev": "Bike aréna Vsetín - Dokončení rekonstrukce modrého trailu BAV 1 a údržba a kontrola všech trailů BAV 1, BAV 2",
+   "predp_hodnota": 661157,
+   "lhuta": "2023-07-24",
+   "uverejneno": "2023-07-12"
+  },
+  {
+   "nazev": "Veřejné osvětlení přechodu u Kostka školy ve Vsetíně",
+   "predp_hodnota": 250000,
+   "lhuta": "2023-07-31",
+   "uverejneno": "2023-07-10"
+  },
+  {
+   "nazev": "STAVEBNÍ ÚPRAVY DPS 1580, STAVEBNÍ ÚPRAVY BYTŮ 2+KK - 2023",
+   "predp_hodnota": 1700000,
+   "lhuta": "2023-05-15",
+   "uverejneno": "2023-04-26"
+  },
+  {
+   "nazev": "VODNÍ PRVEK ARBORETUM SEMETÍN",
+   "predp_hodnota": 900000,
+   "lhuta": "2022-08-01",
+   "uverejneno": "2022-07-20"
+  },
+  {
+   "nazev": "Pomník obětem 1. a 2. světové války",
+   "predp_hodnota": 611500,
+   "lhuta": "2022-06-20",
+   "uverejneno": "2022-06-10"
+  },
+  {
+   "nazev": "VČELÍN – ARBORETUM SEMETÍN",
+   "predp_hodnota": 900000,
+   "lhuta": "2022-06-17",
+   "uverejneno": "2022-06-06"
+  },
+  {
+   "nazev": "Automatizace procesů MěÚ Vsetín",
+   "predp_hodnota": 2061000,
+   "lhuta": "2022-06-03",
+   "uverejneno": "2022-05-11"
+  },
+  {
+   "nazev": "STAVEBNÍ ÚPRAVY SCHODIŠTĚ – DŮM KULTURY VSETÍN",
+   "predp_hodnota": 4000000,
+   "lhuta": "2022-05-17",
+   "uverejneno": "2022-05-06"
+  },
+  {
+   "nazev": "PROVOZOVÁNÍ SLUŽBY SENIOR TAXI - II",
+   "predp_hodnota": 1800000,
+   "lhuta": "2022-05-20",
+   "uverejneno": "2022-05-06"
+  },
+  {
+   "nazev": "PROVOZOVÁNÍ SLUŽBY SENIOR TAXI",
+   "predp_hodnota": 1800000,
+   "lhuta": "2022-05-02",
+   "uverejneno": "2022-04-22"
+  },
+  {
+   "nazev": "MĚSTSKÉ LÁZNĚ VSETÍN – PARNÍ KABINA V 1.NP - III",
+   "predp_hodnota": 2700000,
+   "lhuta": "2022-04-20",
+   "uverejneno": "2022-04-04"
+  },
+  {
+   "nazev": "Posílení zdegradovaných trámů mostu VS-05-ROM",
+   "predp_hodnota": 1500000,
+   "lhuta": "2022-04-08",
+   "uverejneno": "2022-03-29"
+  },
+  {
+   "nazev": "MĚSTSKÉ LÁZNĚ VSETÍN – PARNÍ KABINA V 1.NP - II",
+   "predp_hodnota": 2200000,
+   "lhuta": "2022-01-25",
+   "uverejneno": "2022-01-04"
+  },
+  {
+   "nazev": "MĚSTSKÉ LÁZNĚ VSETÍN – PARNÍ KABINA V 1.NP",
+   "predp_hodnota": 2200000,
+   "lhuta": "2021-12-09",
+   "uverejneno": "2021-11-29"
+  },
+  {
+   "nazev": "Archiv č. p. 53 – regály a vybavení archivu III.",
+   "predp_hodnota": 460000,
+   "lhuta": "2021-12-03",
+   "uverejneno": "2021-11-23"
+  },
+  {
+   "nazev": "Odvedení dešťových vod Hrbová - sesuv",
+   "predp_hodnota": 930000,
+   "lhuta": "2021-08-26",
+   "uverejneno": "2021-08-13"
+  },
+  {
+   "nazev": "Archiv č. p. 53 – regály a vybavení archivu II.",
+   "predp_hodnota": 400000,
+   "lhuta": "2021-06-24",
+   "uverejneno": "2021-06-14"
+  },
+  {
+   "nazev": "DODÁVKA SPOTŘEBNÍHO MATERIÁLU KANCELÁŘSKÝCH POTŘEB PRO MĚSTO VSETÍN ROK 2021",
+   "predp_hodnota": 700000,
+   "lhuta": "2021-04-28",
+   "uverejneno": "2021-04-13"
+  },
+  {
+   "nazev": "Přívětivý a efektivní MěÚ Vsetín – analýza procesů",
+   "predp_hodnota": 370000,
+   "lhuta": "2021-04-19",
+   "uverejneno": "2021-04-08"
+  },
+  {
+   "nazev": "Archiv č. p. 53 – regály a vybavení archivu",
+   "predp_hodnota": 400000,
+   "lhuta": "2021-03-17",
+   "uverejneno": "2021-03-03"
+  },
+  {
+   "nazev": "DODÁVKA VÝPOČETNÍ TECHNIKY PRO MĚSTO VSETÍN 2021",
+   "predp_hodnota": 578500,
+   "lhuta": "2021-02-08",
+   "uverejneno": "2021-01-27"
+  },
+  {
+   "nazev": "DODÁVKA DATOVÉHO ÚLOŽIŠTĚ VČETNĚ PŘÍSLUŠENSTVÍ PRO MĚSTO VSETÍN 2020",
+   "predp_hodnota": 1206600,
+   "lhuta": "2020-09-11",
+   "uverejneno": "2020-09-01"
+  },
+  {
+   "nazev": "REVITALIZACE ÚZEMÍ U SPŠS, VSETÍN – SO 101 ZPEVNĚNÉ PLOCHY U AREÁLU HOKEJBALU, SO 709 OPLOCENÍ, SO 905 PUMPTRACK",
+   "predp_hodnota": 1500000,
+   "lhuta": "2020-06-22",
+   "uverejneno": "2020-05-27"
+  },
+  {
+   "nazev": "PROVOZOVÁNÍ SLUŽBY SENIOR TAXI",
+   "predp_hodnota": 1800000,
+   "lhuta": "2020-04-30",
+   "uverejneno": "2020-04-17"
+  },
+  {
+   "nazev": "Studie proveditelnosti pro nakládání s komunálním odpadem ve městě Vsetín",
+   "predp_hodnota": 330000,
+   "lhuta": "2020-04-28",
+   "uverejneno": "2020-04-16"
+  },
+  {
+   "nazev": "DODÁVKA SPOTŘEBNÍHO MATERIÁLU DO TISKÁREN PRO MĚSTO VSETÍN ROK 2020",
+   "predp_hodnota": 400000,
+   "lhuta": "2020-04-28",
+   "uverejneno": "2020-04-09"
+  },
+  {
+   "nazev": "Oprava místní komunikace v sídlišti Jasenka, Vsetín",
+   "predp_hodnota": 4213000,
+   "lhuta": "2020-03-26",
+   "uverejneno": "2020-03-11"
+  },
+  {
+   "nazev": "ROZŠÍŘENÍ A STAVEBNÍ ÚPRAVY DĚTSKÉHO HŘIŠTĚ OHRADA – VSETÍN",
+   "predp_hodnota": 2800000,
+   "lhuta": "2020-03-23",
+   "uverejneno": "2020-03-05"
+  },
+  {
+   "nazev": "Gymnastická hala Na Lapači – projektová dokumentace",
+   "predp_hodnota": 1700000,
+   "lhuta": "2020-03-17",
+   "uverejneno": "2020-02-28"
+  },
+  {
+   "nazev": "DODÁVKA POJÍZDNÉHO PÓDIA",
+   "predp_hodnota": 730000,
+   "lhuta": "2020-02-13",
+   "uverejneno": "2020-02-03"
+  },
+  {
+   "nazev": "Dodávka speciálních ortofotomap pro Město Vsetín 2019 - 2020",
+   "predp_hodnota": 280991,
+   "lhuta": "2019-12-16",
+   "uverejneno": "2019-12-04"
+  },
+  {
+   "nazev": "Zajištění sběru, svozu, a převzetí komunálního odpadu v obvodu města Vsetín",
+   "predp_hodnota": 99750000,
+   "lhuta": "2019-11-18",
+   "uverejneno": "2019-10-03"
+  },
+  {
+   "nazev": "ROZŠÍŘENÍ MĚSTSKÉHO KAMEROVÉHO SYSTÉMU",
+   "predp_hodnota": 1034000,
+   "lhuta": "2019-10-01",
+   "uverejneno": "2019-09-11"
+  },
+  {
+   "nazev": "DODÁVKA MULTIFUNKČNÍCH ZAŘÍZENÍ PRO MĚSTO VSETÍN 2019",
+   "predp_hodnota": 210000,
+   "lhuta": "2019-07-12",
+   "uverejneno": "2019-07-01"
+  },
+  {
+   "nazev": "STAVEBNÍ ÚPRAVY PAVILONU A V ZŠ VSETÍN, OHRADA 1876",
+   "predp_hodnota": 20900000,
+   "lhuta": "2019-05-10",
+   "uverejneno": "2019-04-17"
+  },
+  {
+   "nazev": "PRAVIDELNÝ ÚKLID BUDOV MĚSTA VSETÍN",
+   "predp_hodnota": 1750000,
+   "lhuta": "2019-01-31",
+   "uverejneno": "2019-01-18"
+  },
+  {
+   "nazev": "Dodání osobního vozidla pro město Vsetín",
+   "predp_hodnota": 500000,
+   "lhuta": "2018-11-16",
+   "uverejneno": "2018-11-09"
+  },
+  {
+   "nazev": "Ruční laserový měřič rychlosti pro Městskou policii Vsetín",
+   "predp_hodnota": 300000,
+   "lhuta": "2018-07-18",
+   "uverejneno": "2018-07-02"
+  },
+  {
+   "nazev": "Veřejná zakázka na pravidelný úklid budov města Vsetín",
+   "predp_hodnota": 1700000,
+   "lhuta": "2018-05-18",
+   "uverejneno": "2018-05-07"
+  },
+  {
+   "nazev": "Administrace veřejné zakázky",
+   "predp_hodnota": 65000,
+   "lhuta": "2018-04-23",
+   "uverejneno": "2018-03-28"
+  },
+  {
+   "nazev": "Zkvalitnění výuky cizích jazyků ve vsetínských základních školách III.",
+   "predp_hodnota": 4791665,
+   "lhuta": "2015-03-23",
+   "uverejneno": "2015-03-03"
+  },
+  {
+   "nazev": "Zkvalitnění výuky cizích jazyků ve vsetínských základních školách II.",
+   "predp_hodnota": 4791665,
+   "lhuta": "2014-12-22",
+   "uverejneno": "2014-12-03"
+  },
+  {
+   "nazev": "Zkvalitnění výuky cizích jazyků ve vsetínských základních školách",
+   "predp_hodnota": 4803968,
+   "lhuta": "2014-09-04",
+   "uverejneno": "2014-08-15"
+  },
+  {
+   "nazev": "Stavební úpravy mostního objektu Vs-02-Skm, Vsetín",
+   "predp_hodnota": 4309000,
+   "lhuta": "2014-03-04",
+   "uverejneno": "2014-05-05"
+  },
+  {
+   "nazev": "Poskytování mobilních telekomunikačních služeb pro město Vsetín, právnické osoby a obce mající vztah k městu Vsetín",
+   "predp_hodnota": 3600000,
+   "lhuta": "2014-03-03",
+   "uverejneno": "2014-02-10"
+  },
+  {
+   "nazev": "Úpravy ploch u trati ČD Trávníky - Rybníky, Vsetín",
+   "predp_hodnota": 23681000,
+   "lhuta": "2013-12-20",
+   "uverejneno": "2013-11-28"
+  },
+  {
+   "nazev": "Pořízení technologie TC ORP Vsetín a vnitřní integrace úřadu",
+   "predp_hodnota": 6840000,
+   "lhuta": "2013-07-22",
+   "uverejneno": "2013-05-28"
+  },
+  {
+   "nazev": "Revitalizace území Rybníky - ulice Pod Žamboškou",
+   "predp_hodnota": 6600000,
+   "lhuta": "2013-06-10",
+   "uverejneno": "2013-05-17"
+  },
+  {
+   "nazev": "EPC – Zimní stadion a sportovní hala",
+   "predp_hodnota": 30000000,
+   "lhuta": "2013-07-08",
+   "uverejneno": "2013-03-18"
+  }
+ ]
+}

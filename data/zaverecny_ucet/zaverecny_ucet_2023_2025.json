@@ -62,6 +62,14 @@
     "dlouhodobe_zavazky": 40040627.39,
     "zastaveny_majetek_pct": 0,
     "majetek": 4081079130.0
+   },
+   "audit_ucetni_zaverky": {
+    "dokument": "https://mestovsetin.cz/assets/File.ashx?id_org=18676&id_dokumenty=568731",
+    "auditor": "AUDIT TEAM, s.r.o.",
+    "ico": "29453411",
+    "sidlo": "Jeremenkova 1211/40b, Olomouc",
+    "vyrok": "bez výhrad – účetní závěrka podává věrný a poctivý obraz (výrok str. 4)",
+    "forma": "sken bez textové vrstvy (25 str.), vytěženo OCR (tesseract, ces), str. 1–5"
    }
   },
   "2024": {

@@ -80,6 +80,11 @@ try:
         if "vyvoj_rozpoctu" in z: add("R10-narust-ceny-proti-rozpoctu","vysoka",z.get("signal",""),[sm.get("url")],sm.get("bez_DPH"))
         if z.get("stav","").startswith("zakázka neukončena"): add("R11-zakazka-dlouho-neukoncena","stredni",f"{z['nazev']}: {z['stav']}",[z.get("url")],z.get("predp_hodnota"))
 except FileNotFoundError: pass
+try:
+    zr=json.load(open("data/zakazky/verejne_zakazky_zrusene.json"))
+    for o in zr["opakovana_zruseni"]:
+        if o["pocet_zruseni"]>=3: add("R12-opakovane-zruseni-VZ","nizka",f"{o['zakazka']}: zrušeno {o['pocet_zruseni']}×",[zr["zdroj"]],max(o["predp_hodnoty"]))
+except FileNotFoundError: pass
 order={"vysoka":0,"stredni":1,"nizka":2}
 flags.sort(key=lambda f:(order[f["zavaznost"]],-(f["castka_Kc"] or 0)))
 summ=collections.Counter(f["kod"] for f in flags)

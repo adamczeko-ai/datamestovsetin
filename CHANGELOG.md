@@ -49,3 +49,8 @@
 - K-003 lávka Vs-04-Bel: SoD TM Stav 19,48 mil. (2022) → narovnání 2,17 mil. (2023) → SoD Mitrenga 68,98 mil. (2025).
 - Přednádražní prostor I.B: smlouva EUROVIA+SMO 169,16 mil. (2024) + dodatky 9,0 mil.; profil zadavatele neaktualizován.
 - Zpráva o ověření účetní závěrky 2025 je sken bez textové vrstvy (25 str.) – nevytěženo.
+
+## 2026-10-23 (12. várka – autonomní)
+- 80 zrušených VZ (2013–2026, předp. hodnoty celkem 377,9 mil. Kč); opakovaná zrušení (Senior taxi 6×); pravidlo R12.
+- K-003: zrušená VZ na lávku Vs-04-Bel (58 mil., 2025) před SoD 68,98 mil.
+- Audit účetní závěrky 2025 (AUDIT TEAM, s.r.o.) – výrok bez výhrad (OCR skenu).
