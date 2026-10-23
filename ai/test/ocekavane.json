@@ -1,0 +1,20 @@
+{
+ "schema": "vsetin-osint/llm-test-ocekavane@1",
+ "poznamka": "Referenční nesoulady pro slepý test LLM vrstvy. Sepsáno PŘED během testu z ručních zjištění v kauzách (K-002: pole 'pozorovani'; K-003: pole 'otazky'), která byla ze vstupů ai/test/slepy/ odstraněna. 'jadro' = musí být nalezeno; 'volitelne' = nalezení je plus, nenalezení není chyba.",
+ "vstupy": ["ai/test/slepy/K-002.json", "ai/test/slepy/K-003.json"],
+ "jadro": [
+  {"id": "G1", "kauza": "K-002", "typ": "cena", "popis": "Cena v návrhu RO 4/2025 34 000 000 Kč vs. schválená 33 150 000 Kč."},
+  {"id": "G2", "kauza": "K-002", "typ": "chybejici_udaj", "popis": "Návrh usnesení pro ZM s nevyplněnou kupní cenou; cena sdělena až na jednání."},
+  {"id": "G3", "kauza": "K-002", "typ": "datum", "popis": "Smlouva podepsána 17. 7. 2025, cca 3,5 měsíce po usnesení ZM 7. 4. 2025."},
+  {"id": "G5", "kauza": "K-003", "typ": "cena/rozsah", "popis": "Původní SoD 19,48 mil. (2022) vs. nová SoD 68,98 mil. bez DPH (2025) – změna rozsahu/ceny nedoložena."},
+  {"id": "G6", "kauza": "K-003", "typ": "postup_vz", "popis": "VZ I: předp. hodnota 58 mil., všechny 4 nabídky 71,4–79,5 mil. – předp. hodnota nesedí s trhem / podklad rozpočtu."},
+  {"id": "G7", "kauza": "K-003", "typ": "postup_vz", "popis": "VZ II: předp. hodnota zvýšena z 58 na 72 mil. (+14 mil.) – zdůvodnění a změny ZD."},
+  {"id": "G8", "kauza": "K-003", "typ": "chybejici_udaj", "popis": "Dohoda o narovnání s TM Stav 2,17 mil. – důvod ukončení a za co bylo placeno."}
+ ],
+ "volitelne": [
+  {"id": "G4", "kauza": "K-002", "popis": "Zveřejněné RO 4/2025 (navýšení 10 150 000 → 33 152 000) vs. schválení 'podle upravené důvodové zprávy' – znění zveřejněného dokumentu."},
+  {"id": "G9", "kauza": "K-003", "popis": "Rozpočet RO 4/2022 23 000 000 Kč vs. SoD 23 574 636 Kč s DPH."},
+  {"id": "G10", "kauza": "K-003", "popis": "Nabídky v RO 4/2022 (19,48 / 26,48 / 32,04 mil.) vs. rozpočet 23 mil."},
+  {"id": "G11", "kauza": "K-003", "popis": "Další smlouva Mitrenga 776 760 Kč (2026) – zda jde o dodatek SoD."}
+ ]
+}

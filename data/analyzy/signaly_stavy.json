@@ -1,0 +1,37 @@
+{
+ "schema": "vsetin-osint/signal-stavy@1",
+ "poznamka": "Edituje POUZE člověk. Generátor (scripts/signaly_v2.py) ani plánovaná AI úloha tento soubor nezapisují; AI smí změnu jen navrhnout v popisu PR. Před předáním kontrolnímu výboru nebo vedení musí být vyplněno 'druhe_overeni'.",
+ "vyznam_stavu": {
+  "novy": "vytvořen pravidlem/AI, nikdo neověřoval (výchozí, v tomto souboru se neuvádí)",
+  "overuje_se": "někdo na ověření pracuje",
+  "vysvetleno": "nesoulad má doložené legitimní vysvětlení",
+  "potvrzeno": "nesoulad v datech potvrzen nezávislým zdrojem a vysvětlení chybí – NEJDE o zjištění pochybení",
+  "zamitnuto": "falešný signál (chyba pravidla, vytěžení nebo dat)"
+ },
+ "stavy": {
+  "A-2023-01": {
+   "stav": "potvrzeno",
+   "overil": "migrace (text pole 'stav' v data/rozpocet/2023/rozpoctova_opatreni_2023.json)",
+   "datum": "2026-10-23",
+   "oduvodneni": "Potvrzeno ZÚ 2023: financování ZÚ − RO = +432 789,31 Kč.",
+   "dukazy_overeni": ["data/zaverecny_ucet/zaverecny_ucet_2023_2025.json"],
+   "druhe_overeni": null
+  },
+  "A-2024-01": {
+   "stav": "potvrzeno",
+   "overil": "migrace (text pole 'stav' v data/rozpocet/2024/rozpoctova_opatreni_2024.json)",
+   "datum": "2026-10-23",
+   "oduvodneni": "POTVRZENO závěrečným účtem 2024 (rozdíl ZÚ vs. RO: příjmy −8 442 620,60; výdaje +793 605,85; 8115 +9 229 626,45 Kč).",
+   "dukazy_overeni": ["data/zaverecny_ucet/zaverecny_ucet_2023_2025.json"],
+   "druhe_overeni": null
+  },
+  "A-2025-01": {
+   "stav": "potvrzeno",
+   "overil": "migrace (text pole 'stav' v data/rozpocet/2025/rozpoctova_opatreni_2025.json)",
+   "datum": "2026-10-23",
+   "oduvodneni": "POTVRZENO závěrečným účtem 2025 (rozdíl ZÚ vs. RO v pol. 8115 = −657 069,39 Kč); nezávisle potvrzeno MONITOR FIN 2-12 M (data/monitor/kontrola_RO_8115_monitor.json).",
+   "dukazy_overeni": ["data/zaverecny_ucet/zaverecny_ucet_2023_2025.json", "data/monitor/kontrola_RO_8115_monitor.json"],
+   "druhe_overeni": null
+  }
+ }
+}

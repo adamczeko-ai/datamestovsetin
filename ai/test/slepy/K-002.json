@@ -1,0 +1,164 @@
+{
+  "schema": "vsetin-osint/kauza@1",
+  "id": "K-002",
+  "nazev": "Nabytí Objektu Tribuna a pozemků Na Ohradě od TJ MEZ Vsetín – spolek",
+  "subjekty": [
+    {
+      "ico": "00533815",
+      "nazev": "Tělovýchovná jednota MEZ Vsetín – spolek",
+      "role": "prodávající"
+    },
+    {
+      "ico": "00304450",
+      "nazev": "Město Vsetín",
+      "role": "kupující"
+    }
+  ],
+  "predmet": "p.č. 6614 (budova čp. 2052 – Tribuna: restaurace, ubytování), p.č. 6615/11 (čp. 2464 – přístavba: 2 byty, garáže/dílny), p.č. 6615/6, 6612, 6616, 6615/7, k.ú. Vsetín",
+  "ucel": "Záměr moderního víceúčelového sportovního komplexu (fotbal, atletika, hasičský sport) – Sportovní areál Ohrada (PD 2025, +47 mil. Kč na I. etapu v RO 12/2026).",
+  "casova_osa": [
+    {
+      "datum": "2017-06-27",
+      "popis": "Kupní smlouva se zřízením služebnosti stezek a cest a předkupního práva (stadion Na Ohradě) – 10 000 000 Kč, zveřejněna 29.6.2017.",
+      "zdroj": "https://www.hlidacstatu.cz/Detail/2420406"
+    },
+    {
+      "datum": "2017-06-27",
+      "popis": "Smlouva, kterou město nabylo plochu a ochozy bývalého stadionu Na Ohradě; služebnost a předkupní právo k části pozemků TJ MEZ."
+    },
+    {
+      "datum": "2024-12-16",
+      "popis": "Materiál o nabytí (jen hlavní objekt Tribuna) stažen z programu ZM – nejasnosti kolem funkčnosti přístavby."
+    },
+    {
+      "datum": "2025 (leden–březen)",
+      "popis": "Jednání; dohoda o nabytí celku včetně přístavby."
+    },
+    {
+      "datum": "2025-03-31",
+      "popis": "Uzávěrka materiálu pro ZM: kupní cena v návrhu usnesení PRÁZDNÁ ('…………,- Kč'); cenu měly stanovit statutární orgány TJ MEZ v týdnu 31.3.–4.4.2025 a měla být 'přednesena na jednání ZMV'."
+    },
+    {
+      "datum": "2025-03-31",
+      "popis": "Souběžný návrh RO 4/2025 v témže balíčku: cena 'stanovená vlastníkem jako nejnižší možná' 34 000 000 Kč, navýšení rozpočtu o 11 000 000 Kč (z 23 002 000 Kč)."
+    },
+    {
+      "datum": "2025-04-07",
+      "organ": "ZM",
+      "usneseni": "34/18/ZM/2025",
+      "popis": "Schváleno nabytí za 33 150 000 Kč; jednáním o smlouvě pověřen starosta Jiří Čunek."
+    },
+    {
+      "datum": "2025-04-07",
+      "organ": "ZM",
+      "usneseni": "35/18/ZM/2025",
+      "popis": "RO 4/2025 schváleno 'podle upravené důvodové zprávy' (úprava bod 5 = tento výkup). Zveřejněné PDF RO 4 obsahuje navýšení 10 150 000 Kč → 33 152 000 Kč."
+    },
+    {
+      "datum": "2025-07-17",
+      "popis": "Kupní smlouva – nabytí objektu 'Tribuna' a přilehlých pozemků, 33 150 000 Kč s DPH (max. hodnota), zveřejněna 18.7.2025 v registru smluv.",
+      "zdroj": "https://www.hlidacstatu.cz/Detail/34141081"
+    }
+  ],
+  "penize": {
+    "puvodni_rozpocet": 23002000,
+    "navrh_cena": 34000000,
+    "navrh_navyseni": 11000000,
+    "schvalena_cena": 33150000,
+    "zverejnene_RO_navyseni": 10150000,
+    "zverejnene_RO_po": 33152000
+  },
+  "zdroje": [
+    "Balíček materiálů ZM 18 (7.4.2025): https://mestovsetin.cz/assets/File.ashx?id_org=18676&id_dokumenty=562068 – soubory navrh-usneseni_108136.html, navrh-usneseni_108129.html",
+    "Výpis usnesení ZM 18: https://mestovsetin.cz/assets/File.ashx?id_org=18676&id_dokumenty=562339",
+    "RO 4/2025: https://mestovsetin.cz/assets/File.ashx?id_org=18676&id_dokumenty=564065"
+  ],
+  "smlouvy_registr": {
+    "zdroj_hledani": "https://www.hlidacstatu.cz/hledatSmlouvy?Q=ico%3A00533815%20ico%3A00304450",
+    "pocet": 15,
+    "celkem_Kc": "cca 50 mil. Kč (dle Hlídače státu)",
+    "nemovitosti": [
+      {
+        "id": "2420406",
+        "podpis": "2017-06-27",
+        "Kc": 10000000,
+        "predmet": "kupní smlouva + služebnost + předkupní právo"
+      },
+      {
+        "id": "34141081",
+        "podpis": "2025-07-17",
+        "Kc": 33150000,
+        "predmet": "Tribuna + pozemky Na Ohradě"
+      }
+    ],
+    "rocni_dotace_na_cinnost": [
+      {
+        "rok": 2016,
+        "Kc": 300000,
+        "id": "350977"
+      },
+      {
+        "rok": 2017,
+        "Kc": 180000,
+        "id": "2874314"
+      },
+      {
+        "rok": 2018,
+        "Kc": 330000,
+        "id": "5237048"
+      },
+      {
+        "rok": 2018,
+        "Kc": 193600,
+        "id": "6575215",
+        "pozn": "dodatek č. 1"
+      },
+      {
+        "rok": 2019,
+        "Kc": 500000,
+        "id": "8424619"
+      },
+      {
+        "rok": 2019,
+        "Kc": 30250,
+        "id": "10773712",
+        "pozn": "dodatek – navýšení"
+      },
+      {
+        "rok": 2020,
+        "Kc": 665500,
+        "id": "11893488"
+      },
+      {
+        "rok": 2021,
+        "Kc": 665500,
+        "id": "16012895"
+      },
+      {
+        "rok": 2022,
+        "Kc": 786500,
+        "id": "19467827"
+      },
+      {
+        "rok": 2023,
+        "Kc": 720000,
+        "id": "24015565"
+      },
+      {
+        "rok": 2024,
+        "Kc": 640000,
+        "id": "27777175"
+      },
+      {
+        "rok": 2025,
+        "Kc": 700000,
+        "id": "32204200"
+      },
+      {
+        "rok": 2026,
+        "Kc": 700000,
+        "id": "36673621"
+      }
+    ]
+  }
+}

@@ -1,0 +1,151 @@
+{
+ "schema": "vsetin-osint/nesoulady-llm@1",
+ "beh": {
+  "cas": "2026-10-23T09:15:26+02:00",
+  "model": "claude-opus-5-5 (subagent)",
+  "prompt_verze": "nesoulady@1",
+  "vstupy": [
+   "ai/test/slepy/K-002.json",
+   "ai/test/slepy/K-003.json"
+  ]
+ },
+ "nesoulady": [
+  {
+   "id": "N-20261023-001",
+   "akce": "K-002 Nabytí Objektu Tribuna a pozemků Na Ohradě (ZM 18, 7.4.2025)",
+   "typ": "chybejici_udaj",
+   "popis": "Ve stejném balíčku materiálů pro ZM 18 má návrh usnesení o nabytí kupní cenu nevyplněnou (cenu měl stanovit prodávající a přednést se až na jednání), zatímco souběžný návrh RO 4/2025 už uvádí konkrétní cenu 34 000 000 Kč stanovenou vlastníkem. Písemný podklad, ze kterého ZM při hlasování vycházelo, není v datech doložen.",
+   "citace": [
+    {
+     "zdroj": "ai/test/slepy/K-002.json#/casova_osa/4/popis",
+     "strana": null,
+     "text": "kupní cena v návrhu usnesení PRÁZDNÁ ('…………,- Kč')"
+    },
+    {
+     "zdroj": "ai/test/slepy/K-002.json#/casova_osa/5/popis",
+     "strana": null,
+     "text": "cena 'stanovená vlastníkem jako nejnižší možná' 34 000 000 Kč"
+    }
+   ],
+   "jistota": "vysoka",
+   "otazka_k_vysvetleni": "Jaký písemný dokument se stanovenou kupní cenou měli členové ZM k dispozici při hlasování o usnesení 34/18/ZM/2025 a kdy a kým byl doručen? Lze poskytnout zápis z jednání, kde byla cena přednesena?",
+   "souvisejici_signal": null
+  },
+  {
+   "id": "N-20261023-002",
+   "akce": "K-002 Nabytí Objektu Tribuna a pozemků Na Ohradě (ZM 18, 7.4.2025)",
+   "typ": "cena",
+   "popis": "Návrh RO 4/2025 počítal s cenou 34 000 000 Kč a navýšením o 11 000 000 Kč; ZM schválilo nabytí za 33 150 000 Kč a zveřejněné RO 4/2025 obsahuje navýšení 10 150 000 Kč, schválené 'podle upravené důvodové zprávy'. Doklad o tom, z čeho vychází snížení ceny o 850 000 Kč, a samotná upravená důvodová zpráva nejsou v datech doloženy.",
+   "citace": [
+    {
+     "zdroj": "ai/test/slepy/K-002.json#/penize/navrh_cena",
+     "strana": null,
+     "text": "34000000"
+    },
+    {
+     "zdroj": "ai/test/slepy/K-002.json#/penize/schvalena_cena",
+     "strana": null,
+     "text": "33150000"
+    },
+    {
+     "zdroj": "ai/test/slepy/K-002.json#/casova_osa/7/popis",
+     "strana": null,
+     "text": "RO 4/2025 schváleno 'podle upravené důvodové zprávy'"
+    }
+   ],
+   "jistota": "stredni",
+   "otazka_k_vysvetleni": "Na základě jakého dokumentu (nabídka TJ MEZ, rozhodnutí jejích statutárních orgánů, upravená důvodová zpráva) byla cena změněna z 34 000 000 Kč na 33 150 000 Kč? Lze zveřejnit upravenou důvodovou zprávu k RO 4/2025?",
+   "souvisejici_signal": null
+  },
+  {
+   "id": "N-20261023-003",
+   "akce": "K-003 Lávka u průmyslovky přes Bečvu (Vs-04-Bel)",
+   "typ": "cena",
+   "popis": "SoD s TM Stav, spol. s r.o. č. 197/1S/2022 uvádí cenu 19 483 170 Kč bez DPH, ale text RO 4/2022 k téže akci uvádí vedle této částky i hodnoty 26 479 138,50 a 32 039 757,59 Kč. Z dat není zřejmé, k čemu se vyšší částky vztahují. Předpoklad: 32 039 757,59 Kč odpovídá 26 479 138,50 Kč navýšeným o 21 % DPH (výpočet, ne údaj zdroje).",
+   "citace": [
+    {
+     "zdroj": "ai/test/slepy/K-003.json#/casova_osa/1/popis",
+     "strana": null,
+     "text": "v textu nabídky 19 483 170 / 26 479 138,50 / 32 039 757,59 Kč"
+    },
+    {
+     "zdroj": "ai/test/slepy/K-003.json#/casova_osa/0/popis",
+     "strana": null,
+     "text": "19 483 170 Kč bez DPH (23 574 636 Kč s DPH)"
+    }
+   ],
+   "jistota": "stredni",
+   "otazka_k_vysvetleni": "K čemu se v RO 4/2022 vztahují částky 26 479 138,50 Kč a 32 039 757,59 Kč (jiná nabídka, jiný rozsah, rozpočet projektanta)? Lze doložit příslušnou část důvodové zprávy?",
+   "souvisejici_signal": null
+  },
+  {
+   "id": "N-20261023-004",
+   "akce": "K-003 Lávka u průmyslovky přes Bečvu (Vs-04-Bel)",
+   "typ": "cena",
+   "popis": "Rozpočet akce v RO 4/2022 je 23 000 000 Kč, cena SoD s DPH je 23 574 636 Kč, tj. o 574 636 Kč vyšší. Předpoklad: rozpočtová částka je včetně DPH a týká se celé ceny díla, nikoli jen plnění v roce 2022.",
+   "citace": [
+    {
+     "zdroj": "ai/test/slepy/K-003.json#/casova_osa/1/popis",
+     "strana": null,
+     "text": "rozpočet 23 000 000 Kč"
+    },
+    {
+     "zdroj": "ai/test/slepy/K-003.json#/casova_osa/0/popis",
+     "strana": null,
+     "text": "23 574 636 Kč s DPH"
+    }
+   ],
+   "jistota": "nizka",
+   "otazka_k_vysvetleni": "Bylo rozpočtové krytí 23 000 000 Kč v RO 4/2022 určeno na celou cenu SoD č. 197/1S/2022 (23 574 636 Kč s DPH), nebo jen na část plnění v roce 2022? Kde je rozpočtově kryt zbytek?",
+   "souvisejici_signal": null
+  },
+  {
+   "id": "N-20261023-005",
+   "akce": "K-003 Lávka u průmyslovky přes Bečvu (Vs-04-Bel)",
+   "typ": "chybejici_udaj",
+   "popis": "SoD s TM Stav, spol. s r.o. z 8.4.2022 byla ukončena a 10.3.2023 uzavřena dohoda o narovnání na 2 165 323 Kč. V datech chybí datum a důvod ukončení SoD, rozhodnutí orgánu města o ukončení a o narovnání a rozpis, co částka narovnání hradí.",
+   "citace": [
+    {
+     "zdroj": "ai/test/slepy/K-003.json#/casova_osa/0/popis",
+     "strana": null,
+     "text": "SoD s TM Stav, spol. s r.o. č. 197/1S/2022"
+    },
+    {
+     "zdroj": "ai/test/slepy/K-003.json#/casova_osa/3/popis",
+     "strana": null,
+     "text": "Dohoda o narovnání s TM Stav č. 109/1S/2023 – 2 165 323 Kč"
+    }
+   ],
+   "jistota": "stredni",
+   "otazka_k_vysvetleni": "Kdy, z jakého důvodu a na základě rozhodnutí kterého orgánu byla SoD č. 197/1S/2022 ukončena? Který orgán schválil dohodu o narovnání č. 109/1S/2023 a jaká plnění (provedené práce, náhrady) částka 2 165 323 Kč pokrývá?",
+   "souvisejici_signal": null
+  },
+  {
+   "id": "N-20261023-006",
+   "akce": "K-003 Lávka u průmyslovky přes Bečvu (Vs-04-Bel)",
+   "typ": "postup_vz",
+   "popis": "VZ I byla zrušena, protože všechny nabídky přesáhly předpokládanou hodnotu 58 000 000 Kč stanovenou jako maximální cena. Ve VZ II, vyhlášené 14 dní po zrušení, byla předpokládaná hodnota zvýšena na 72 000 000 Kč, tj. nad nejnižší nabídku z VZ I (71 376 126,99 Kč). V datech není doložen podklad (aktualizovaný rozpočet), ze kterého nová hodnota vychází, ani to, zda se změnil rozsah nebo zadávací podmínky.",
+   "citace": [
+    {
+     "zdroj": "ai/test/slepy/K-003.json#/casova_osa/7/popis",
+     "strana": null,
+     "text": "všechny 4 nabídky přesáhly předp. hodnotu 58 mil. Kč, stanovenou v ZD jako maximální cena"
+    },
+    {
+     "zdroj": "ai/test/slepy/K-003.json#/casova_osa/9/popis",
+     "strana": null,
+     "text": "předp. hodnota zvýšena na 72 000 000 Kč (+24 %)"
+    },
+    {
+     "zdroj": "ai/test/slepy/K-003.json#/nabidky_VZ_I/0/bez_DPH",
+     "strana": null,
+     "text": "71376126.99"
+    }
+   ],
+   "jistota": "stredni",
+   "otazka_k_vysvetleni": "Z jakého dokladu (aktualizovaný položkový rozpočet, cenová aktualizace projektanta) vychází předpokládaná hodnota 72 000 000 Kč ve VZ II a kdy byl vypracován? Změnil se mezi VZ I a VZ II rozsah plnění nebo požadavky technické kvalifikace?",
+   "souvisejici_signal": null
+  }
+ ],
+ "zahozeno": []
+}

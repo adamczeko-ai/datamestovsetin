@@ -1,0 +1,52 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "Nesoulady k vysvětlení (výstup LLM vrstvy)",
+ "description": "Výstup plánované úlohy: data/analyzy/llm/nesoulady_<YYYY-MM-DD>.json. Každý nesoulad musí mít alespoň dvě citace ze dvou různých dokumentů; jinak se zahazuje.",
+ "type": "object",
+ "required": ["schema", "beh", "nesoulady", "zahozeno"],
+ "properties": {
+  "schema": {"const": "vsetin-osint/nesoulady-llm@1"},
+  "beh": {
+   "type": "object",
+   "required": ["cas", "model", "prompt_verze", "vstupy"],
+   "properties": {
+    "cas": {"type": "string", "description": "Europe/Prague"},
+    "model": {"type": "string"},
+    "prompt_verze": {"type": "string"},
+    "vstupy": {"type": "array", "items": {"type": "string"}, "description": "Cesty k souborům/dokumentům, které model četl"}
+   }
+  },
+  "nesoulady": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "required": ["id", "akce", "typ", "popis", "citace", "jistota", "otazka_k_vysvetleni"],
+    "additionalProperties": false,
+    "properties": {
+     "id": {"type": "string", "pattern": "^N-\\d{8}-\\d{3}$"},
+     "akce": {"type": "string", "description": "Název akce / ORG / kauza"},
+     "typ": {"enum": ["cena", "datum", "rozsah", "organ", "chybejici_udaj", "postup_vz", "jine"]},
+     "popis": {"type": "string", "description": "Neutrální popis rozdílu. Zakázané: nepravost, podvod, pochybení, korupce, nezákonné."},
+     "citace": {
+      "type": "array",
+      "minItems": 2,
+      "items": {
+       "type": "object",
+       "required": ["zdroj", "text"],
+       "additionalProperties": false,
+       "properties": {
+        "zdroj": {"type": "string", "description": "Cesta v repu (JSON pointer) nebo dokument + strana"},
+        "strana": {"type": ["integer", "null"]},
+        "text": {"type": "string", "minLength": 3, "description": "Doslovně zkopírovaný text/hodnota ze zdroje"}
+       }
+      }
+     },
+     "jistota": {"enum": ["vysoka", "stredni", "nizka"]},
+     "otazka_k_vysvetleni": {"type": "string"},
+     "souvisejici_signal": {"type": ["string", "null"]}
+    }
+   }
+  },
+  "zahozeno": {"type": "array", "description": "Kandidáti vyřazení kontrolou (bez citace, citace nenalezena ve zdroji, zakázaná formulace, fyzická osoba)", "items": {"type": "object"}}
+ }
+}

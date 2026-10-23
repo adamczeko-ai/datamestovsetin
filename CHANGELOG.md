@@ -90,3 +90,9 @@
 - `integrace/` – konektory MONITOR FIN 2-12 M (HTTP Range), RÚIAN VFR, RVZ (proudově), ARES-VR, registr smluv (XML), Registr dotací (vypnuto bez povolení); SQLite + evidence `sync_ledger`/`sync_run`; CLI `python -m integrace`.
 - Testy `tests/test_integrace.py`: 12 offline OK + 2 živé (ARES, registr smluv) OK.
 - Runbook a akceptační hodnoty: `docs/INTEGRACE_NASAZENI.md`.
+
+## 2026-10-23 (vrstva nesouladů – varianta A, PR feature/ai-nesoulady)
+- Signály v2 (`data/analyzy/signaly.json`, schéma signaly@2): stabilní ID, stavy ověření (`signaly_stavy.json`, edituje jen člověk), důkazní řetězec; migrace 100 signálů red_flags@1 + 15 anomálií bez ztráty dat.
+- Pravidla R13–R16 (`scripts/pravidla_nesoulady.py`): kumulace dodatků (§ 222), těsně pod limitem VZMR / dělení, zrušená VZ → prodloužení, cenový rozdíl návrh/usnesení/smlouva/rozpočet; limity se zdroji v `pravidla_konfigurace.json`.
+- LLM vrstva: prompt `ai/PROMPT_nesoulady.md`, kontrola doslovných citací `scripts/kontrola_nesouladu_llm.py`; slepý test K-002/K-003 jádro 5/7, 0 falešných.
+- Plánovaná úloha (varianta A): `ai/ULOHA_planovana.md`, architektura A/B `docs/AI_VARIANTA_A.md`.
