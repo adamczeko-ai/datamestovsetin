@@ -1,0 +1,2232 @@
+{
+ "schema": "vsetin-osint/parovani-ico@1",
+ "zdroj": "Registr smluv (smlouvy.gov.cz) – podrobné vyhledávání, jen poslední verze záznamů",
+ "stav_k": "2026-10-23 11:20 SELČ",
+ "metoda": "Pro každé IČO z data/entity/ares_overeni.json (73, bez města) dva dotazy: publikující 00304450 + smluvní strana IČO (A) a publikující IČO + smluvní strana 00304450 (B); limit 500 záznamů, žádný dotaz limit nepřekročil. Skript: scripts/registr_smluv_parovani_ico.js (běží v prohlížeči na smlouvy.gov.cz). Přepis souhrnu ověřen kontrolním součtem.",
+ "upozorneni": [
+  "Součty bez DPH a s DPH se nesčítají – registr uvádí jen jednu z hodnot dle publikujícího.",
+  "Data jsou data zveřejnění, ne uzavření.",
+  "Záznamy 'Více smluvních stran' (sdružené nákupy apod.) nejsou v součtech, jen v počtu.",
+  "Dodatky se rozpoznávají podle slova 'Dodatek' v předmětu, změna ceny podle 'cen'/'vícepr'.",
+  "Pole IČO smluvní strany není při zveřejnění povinné – výsledky mohou být neúplné.",
+  "Signály slouží k prioritizaci ověřování, nejsou zjištěním pochybení."
+ ],
+ "souhrn": {
+  "ico_dotazano": 73,
+  "ico_se_smlouvami": 60,
+  "ico_bez_smluv": [
+   "04501624",
+   "16361539",
+   "17331099",
+   "25869523",
+   "26257424",
+   "26378191",
+   "26863057",
+   "27713130",
+   "47658657",
+   "70322783",
+   "60042354",
+   "60042362",
+   "60042389"
+  ],
+  "smluv_celkem": 767
+ },
+ "subjekty": [
+  {
+   "ico": "00001350",
+   "nazev": "Československá obchodní banka, a. s.",
+   "pocet_smluv": 7,
+   "pocet_vicestranne": 0,
+   "pocet_publikuje_protistrana": 4,
+   "soucet_bez_DPH_Kc": 100000000,
+   "soucet_s_DPH_Kc": 500000000,
+   "bez_hodnoty": 5,
+   "prvni_zverejneni": "2017-12-28",
+   "posledni_zverejneni": "2026-09-29",
+   "dodatky": 4,
+   "dodatky_zmena_ceny": 0,
+   "dary_mestu": [],
+   "nejvetsi": [
+    {
+     "id_verze": "38540900",
+     "zverejneno": "2026-06-26",
+     "Kc": 500000000,
+     "dph": "s",
+     "url": "https://smlouvy.gov.cz/smlouva/38540900"
+    },
+    {
+     "id_verze": "23564937",
+     "zverejneno": "2023-02-27",
+     "Kc": 100000000,
+     "dph": "bez",
+     "url": "https://smlouvy.gov.cz/smlouva/23564937"
+    }
+   ]
+  },
+  {
+   "ico": "48399477",
+   "nazev": "TM  Stav, spol. s r.o.",
+   "pocet_smluv": 71,
+   "pocet_vicestranne": 0,
+   "pocet_publikuje_protistrana": 0,
+   "soucet_bez_DPH_Kc": 259254024,
+   "soucet_s_DPH_Kc": 13440869,
+   "bez_hodnoty": 6,
+   "prvni_zverejneni": "2016-07-12",
+   "posledni_zverejneni": "2024-11-18",
+   "dodatky": 31,
+   "dodatky_zmena_ceny": 9,
+   "dary_mestu": [],
+   "nejvetsi": [
+    {
+     "id_verze": "20981191",
+     "zverejneno": "2022-07-08",
+     "Kc": 42327880,
+     "dph": "bez",
+     "url": "https://smlouvy.gov.cz/smlouva/20981191"
+    },
+    {
+     "id_verze": "25258367",
+     "zverejneno": "2023-07-26",
+     "Kc": 25766884,
+     "dph": "bez",
+     "url": "https://smlouvy.gov.cz/smlouva/25258367"
+    },
+    {
+     "id_verze": "9505511",
+     "zverejneno": "2019-07-01",
+     "Kc": 19667725,
+     "dph": "bez",
+     "url": "https://smlouvy.gov.cz/smlouva/9505511"
+    }
+   ]
+  },
+  {
+   "ico": "45192120",
+   "nazev": "Z-Group bus a.s.",
+   "pocet_smluv": 25,
+   "pocet_vicestranne": 0,
+   "pocet_publikuje_protistrana": 0,
+   "soucet_bez_DPH_Kc": 82042820,
+   "soucet_s_DPH_Kc": 141386560,
+   "bez_hodnoty": 4,
+   "prvni_zverejneni": "2018-02-13",
+   "posledni_zverejneni": "2026-05-06",
+   "dodatky": 19,
+   "dodatky_zmena_ceny": 0,
+   "dary_mestu": [],
+   "nejvetsi": [
+    {
+     "id_verze": "24150321",
+     "zverejneno": "2023-04-19",
+     "Kc": 26546560,
+     "dph": "s",
+     "url": "https://smlouvy.gov.cz/smlouva/24150321"
+    },
+    {
+     "id_verze": "37855005",
+     "zverejneno": "2026-05-06",
+     "Kc": 22400000,
+     "dph": "s",
+     "url": "https://smlouvy.gov.cz/smlouva/37855005"
+    },
+    {
+     "id_verze": "28709131",
+     "zverejneno": "2024-05-16",
+     "Kc": 21500000,
+     "dph": "s",
+     "url": "https://smlouvy.gov.cz/smlouva/28709131"
+    }
+   ]
+  },
+  {
+   "ico": "28593987",
+   "nazev": "Vsetínská sportovní, s.r.o.",
+   "pocet_smluv": 68,
+   "pocet_vicestranne": 8,
+   "pocet_publikuje_protistrana": 0,
+   "soucet_bez_DPH_Kc": 64692632,
+   "soucet_s_DPH_Kc": 155210412,
+   "bez_hodnoty": 9,
+   "prvni_zverejneni": "2017-01-12",
+   "posledni_zverejneni": "2026-10-06",
+   "dodatky": 14,
+   "dodatky_zmena_ceny": 0,
+   "dary_mestu": [],
+   "nejvetsi": [
+    {
+     "id_verze": "23067265",
+     "zverejneno": "2023-01-12",
+     "Kc": 28280000,
+     "dph": "s",
+     "url": "https://smlouvy.gov.cz/smlouva/23067265"
+    },
+    {
+     "id_verze": "36348845",
+     "zverejneno": "2026-01-12",
+     "Kc": 27447000,
+     "dph": "s",
+     "url": "https://smlouvy.gov.cz/smlouva/36348845"
+    },
+    {
+     "id_verze": "31728884",
+     "zverejneno": "2025-01-13",
+     "Kc": 24390000,
+     "dph": "s",
+     "url": "https://smlouvy.gov.cz/smlouva/31728884"
+    }
+   ]
+  },
+  {
+   "ico": "47972114",
+   "nazev": "Dům kultury Vsetín, spol. s r. o.",
+   "pocet_smluv": 29,
+   "pocet_vicestranne": 8,
+   "pocet_publikuje_protistrana": 0,
+   "soucet_bez_DPH_Kc": 48534746,
+   "soucet_s_DPH_Kc": 96872034,
+   "bez_hodnoty": 3,
+   "prvni_zverejneni": "2017-01-12",
+   "posledni_zverejneni": "2026-08-20",
+   "dodatky": 7,
+   "dodatky_zmena_ceny": 0,
+   "dary_mestu": [],
+   "nejvetsi": [
+    {
+     "id_verze": "36356025",
+     "zverejneno": "2026-01-12",
+     "Kc": 18600000,
+     "dph": "s",
+     "url": "https://smlouvy.gov.cz/smlouva/36356025"
+    },
+    {
+     "id_verze": "31728900",
+     "zverejneno": "2025-01-13",
+     "Kc": 17130000,
+     "dph": "s",
+     "url": "https://smlouvy.gov.cz/smlouva/31728900"
+    },
+    {
+     "id_verze": "27231067",
+     "zverejneno": "2024-01-11",
+     "Kc": 16780000,
+     "dph": "s",
+     "url": "https://smlouvy.gov.cz/smlouva/27231067"
+    }
+   ]
+  },
+  {
+   "ico": "26782596",
+   "nazev": "Technické služby Vsetín, s.r.o.",
+   "pocet_smluv": 21,
+   "pocet_vicestranne": 2,
+   "pocet_publikuje_protistrana": 0,
+   "soucet_bez_DPH_Kc": 82266075,
+   "soucet_s_DPH_Kc": 26072000,
+   "bez_hodnoty": 3,
+   "prvni_zverejneni": "2017-10-23",
+   "posledni_zverejneni": "2026-05-25",
+   "dodatky": 9,
+   "dodatky_zmena_ceny": 4,
+   "dary_mestu": [],
+   "nejvetsi": [
+    {
+     "id_verze": "22831685",
+     "zverejneno": "2022-12-21",
+     "Kc": 28315704,
+     "dph": "bez",
+     "url": "https://smlouvy.gov.cz/smlouva/22831685"
+    },
+    {
+     "id_verze": "6152979",
+     "zverejneno": "2018-07-16",
+     "Kc": 25917000,
+     "dph": "bez",
+     "url": "https://smlouvy.gov.cz/smlouva/6152979"
+    },
+    {
+     "id_verze": "3523278",
+     "zverejneno": "2017-10-23",
+     "Kc": 25917000,
+     "dph": "s",
+     "url": "https://smlouvy.gov.cz/smlouva/3523278"
+    }
+   ]
+  },
+  {
+   "ico": "26944022",
+   "nazev": "Mitrenga-stavby, spol. s r.o.",
+   "pocet_smluv": 3,
+   "pocet_vicestranne": 0,
+   "pocet_publikuje_protistrana": 0,
+   "soucet_bez_DPH_Kc": 79065702,
+   "soucet_s_DPH_Kc": 0,
+   "bez_hodnoty": 0,
+   "prvni_zverejneni": "2025-10-15",
+   "posledni_zverejneni": "2026-10-07",
+   "dodatky": 1,
+   "dodatky_zmena_ceny": 1,
+   "dary_mestu": [],
+   "nejvetsi": [
+    {
+     "id_verze": "35219709",
+     "zverejneno": "2025-10-15",
+     "Kc": 68983751,
+     "dph": "bez",
+     "url": "https://smlouvy.gov.cz/smlouva/35219709"
+    },
+    {
+     "id_verze": "38483666",
+     "zverejneno": "2026-06-23",
+     "Kc": 9440000,
+     "dph": "bez",
+     "url": "https://smlouvy.gov.cz/smlouva/38483666"
+    },
+    {
+     "id_verze": "39830353",
+     "zverejneno": "2026-10-07",
+     "Kc": 641951,
+     "dph": "bez",
+     "url": "https://smlouvy.gov.cz/smlouva/39830353"
+    }
+   ]
+  },
+  {
+   "ico": "73257958",
+   "nazev": "Martin Urban",
+   "pocet_smluv": 37,
+   "pocet_vicestranne": 0,
+   "pocet_publikuje_protistrana": 0,
+   "soucet_bez_DPH_Kc": 78247423,
+   "soucet_s_DPH_Kc": 92000,
+   "bez_hodnoty": 2,
+   "prvni_zverejneni": "2016-11-11",
+   "posledni_zverejneni": "2026-09-21",
+   "dodatky": 14,
+   "dodatky_zmena_ceny": 11,
+   "dary_mestu": [],
+   "nejvetsi": [
+    {
+     "id_verze": "39450769",
+     "zverejneno": "2026-09-09",
+     "Kc": 38777420,
+     "dph": "bez",
+     "url": "https://smlouvy.gov.cz/smlouva/39450769"
+    },
+    {
+     "id_verze": "33818173",
+     "zverejneno": "2025-06-24",
+     "Kc": 7875400,
+     "dph": "bez",
+     "url": "https://smlouvy.gov.cz/smlouva/33818173"
+    },
+    {
+     "id_verze": "36416557",
+     "zverejneno": "2026-01-16",
+     "Kc": 7595302,
+     "dph": "bez",
+     "url": "https://smlouvy.gov.cz/smlouva/36416557"
+    }
+   ]
+  },
+  {
+   "ico": "22676759",
+   "nazev": "VALAŠSKÝ HOKEJOVÝ KLUB, z. s.",
+   "pocet_smluv": 21,
+   "pocet_vicestranne": 0,
+   "pocet_publikuje_protistrana": 0,
+   "soucet_bez_DPH_Kc": 25393000,
+   "soucet_s_DPH_Kc": 46439685,
+   "bez_hodnoty": 1,
+   "prvni_zverejneni": "2016-10-05",
+   "posledni_zverejneni": "2026-02-19",
+   "dodatky": 4,
+   "dodatky_zmena_ceny": 0,
+   "dary_mestu": [],
+   "nejvetsi": [
+    {
+     "id_verze": "24360817",
+     "zverejneno": "2023-05-09",
+     "Kc": 8690000,
+     "dph": "s",
+     "url": "https://smlouvy.gov.cz/smlouva/24360817"
+    },
+    {
+     "id_verze": "36864149",
+     "zverejneno": "2026-02-19",
+     "Kc": 8500000,
+     "dph": "s",
+     "url": "https://smlouvy.gov.cz/smlouva/36864149"
+    },
+    {
+     "id_verze": "32204212",
+     "zverejneno": "2025-02-19",
+     "Kc": 8500000,
+     "dph": "s",
+     "url": "https://smlouvy.gov.cz/smlouva/32204212"
+    }
+   ]
+  },
+  {
+   "ico": "62334697",
+   "nazev": "FC Fastav Vsetín, z.s.",
+   "pocet_smluv": 25,
+   "pocet_vicestranne": 0,
+   "pocet_publikuje_protistrana": 0,
+   "soucet_bez_DPH_Kc": 38238000,
+   "soucet_s_DPH_Kc": 28441822,
+   "bez_hodnoty": 1,
+   "prvni_zverejneni": "2016-10-12",
+   "posledni_zverejneni": "2026-10-12",
+   "dodatky": 2,
+   "dodatky_zmena_ceny": 0,
+   "dary_mestu": [
+    {
+     "id_verze": "35542017",
+     "zverejneno": "2025-11-10",
+     "Kc_s_DPH": 9548432
+    }
+   ],
+   "nejvetsi": [
+    {
+     "id_verze": "17888751",
+     "zverejneno": "2021-09-29",
+     "Kc": 30000000,
+     "dph": "bez",
+     "url": "https://smlouvy.gov.cz/smlouva/17888751"
+    },
+    {
+     "id_verze": "35542017",
+     "zverejneno": "2025-11-10",
+     "Kc": 9548432,
+     "dph": "s",
+     "url": "https://smlouvy.gov.cz/smlouva/35542017"
+    },
+    {
+     "id_verze": "24015589",
+     "zverejneno": "2023-04-05",
+     "Kc": 2660000,
+     "dph": "s",
+     "url": "https://smlouvy.gov.cz/smlouva/24015589"
+    }
+   ]
+  },
+  {
+   "ico": "70891320",
+   "nazev": "Zlínský kraj",
+   "pocet_smluv": 70,
+   "pocet_vicestranne": 25,
+   "pocet_publikuje_protistrana": 84,
+   "soucet_bez_DPH_Kc": 2102312,
+   "soucet_s_DPH_Kc": 60584838,
+   "bez_hodnoty": 12,
+   "prvni_zverejneni": "2016-09-13",
+   "posledni_zverejneni": "2026-08-31",
+   "dodatky": 9,
+   "dodatky_zmena_ceny": 0,
+   "dary_mestu": [
+    {
+     "id_verze": "33110448",
+     "zverejneno": "2025-04-30",
+     "Kc_s_DPH": 291557
+    },
+    {
+     "id_verze": "24805427",
+     "zverejneno": "2023-06-15",
+     "Kc_s_DPH": 72950
+    },
+    {
+     "id_verze": "24244749",
+     "zverejneno": "2023-04-26",
+     "Kc_s_DPH": 177018
+    },
+    {
+     "id_verze": "24244717",
+     "zverejneno": "2023-04-26",
+     "Kc_s_DPH": 19612
+    },
+    {
+     "id_verze": "15012559",
+     "zverejneno": "2020-12-23",
+     "Kc_s_DPH": 27582
+    }
+   ],
+   "nejvetsi": [
+    {
+     "id_verze": "30843300",
+     "zverejneno": "2024-11-05",
+     "Kc": 24263000,
+     "dph": "s",
+     "url": "https://smlouvy.gov.cz/smlouva/30843300"
+    },
+    {
+     "id_verze": "25488727",
+     "zverejneno": "2023-08-21",
+     "Kc": 2500000,
+     "dph": "s",
+     "url": "https://smlouvy.gov.cz/smlouva/25488727"
+    },
+    {
+     "id_verze": "38731076",
+     "zverejneno": "2026-07-13",
+     "Kc": 2235000,
+     "dph": "s",
+     "url": "https://smlouvy.gov.cz/smlouva/38731076"
+    }
+   ]
+  },
+  {
+   "ico": "25835661",
+   "nazev": "H  & B delta, s.r.o.",
+   "pocet_smluv": 13,
+   "pocet_vicestranne": 0,
+   "pocet_publikuje_protistrana": 0,
+   "soucet_bez_DPH_Kc": 62633385,
+   "soucet_s_DPH_Kc": 25000,
+   "bez_hodnoty": 1,
+   "prvni_zverejneni": "2017-09-04",
+   "posledni_zverejneni": "2026-10-05",
+   "dodatky": 4,
+   "dodatky_zmena_ceny": 2,
+   "dary_mestu": [
+    {
+     "id_verze": "36123905",
+     "zverejneno": "2025-12-18",
+     "Kc_s_DPH": 25000
+    }
+   ],
+   "nejvetsi": [
+    {
+     "id_verze": "38103389",
+     "zverejneno": "2026-05-25",
+     "Kc": 26407000,
+     "dph": "bez",
+     "url": "https://smlouvy.gov.cz/smlouva/38103389"
+    },
+    {
+     "id_verze": "3052854",
+     "zverejneno": "2017-09-04",
+     "Kc": 14478801,
+     "dph": "bez",
+     "url": "https://smlouvy.gov.cz/smlouva/3052854"
+    },
+    {
+     "id_verze": "3397070",
+     "zverejneno": "2017-10-11",
+     "Kc": 4366591,
+     "dph": "bez",
+     "url": "https://smlouvy.gov.cz/smlouva/3397070"
+    }
+   ]
+  },
+  {
+   "ico": "00536024",
+   "nazev": "TJ Zbrojovka Vsetín, z.s.",
+   "pocet_smluv": 31,
+   "pocet_vicestranne": 1,
+   "pocet_publikuje_protistrana": 0,
+   "soucet_bez_DPH_Kc": 11648445,
+   "soucet_s_DPH_Kc": 40585850,
+   "bez_hodnoty": 3,
+   "prvni_zverejneni": "2016-11-14",
+   "posledni_zverejneni": "2026-10-12",
+   "dodatky": 6,
+   "dodatky_zmena_ceny": 0,
+   "dary_mestu": [
+    {
+     "id_verze": "37624081",
+     "zverejneno": "2026-04-20",
+     "Kc_s_DPH": 4744000
+    }
+   ],
+   "nejvetsi": [
+    {
+     "id_verze": "37624077",
+     "zverejneno": "2026-04-20",
+     "Kc": 20000000,
+     "dph": "s",
+     "url": "https://smlouvy.gov.cz/smlouva/37624077"
+    },
+    {
+     "id_verze": "37624081",
+     "zverejneno": "2026-04-20",
+     "Kc": 4744000,
+     "dph": "s",
+     "url": "https://smlouvy.gov.cz/smlouva/37624081"
+    },
+    {
+     "id_verze": "31986160",
+     "zverejneno": "2025-02-03",
+     "Kc": 4100000,
+     "dph": "s",
+     "url": "https://smlouvy.gov.cz/smlouva/31986160"
+    }
+   ]
+  },
+  {
+   "ico": "00533815",
+   "nazev": "Tělovýchovná jednota MEZ Vsetín, spolek",
+   "pocet_smluv": 15,
+   "pocet_vicestranne": 0,
+   "pocet_publikuje_protistrana": 0,
+   "soucet_bez_DPH_Kc": 1935000,
+   "soucet_s_DPH_Kc": 47220000,
+   "bez_hodnoty": 0,
+   "prvni_zverejneni": "2016-10-06",
+   "posledni_zverejneni": "2026-02-05",
+   "dodatky": 2,
+   "dodatky_zmena_ceny": 0,
+   "dary_mestu": [],
+   "nejvetsi": [
+    {
+     "id_verze": "34141081",
+     "zverejneno": "2025-07-18",
+     "Kc": 33150000,
+     "dph": "s",
+     "url": "https://smlouvy.gov.cz/smlouva/34141081"
+    },
+    {
+     "id_verze": "2420406",
+     "zverejneno": "2017-06-29",
+     "Kc": 10000000,
+     "dph": "s",
+     "url": "https://smlouvy.gov.cz/smlouva/2420406"
+    },
+    {
+     "id_verze": "24015565",
+     "zverejneno": "2023-04-05",
+     "Kc": 720000,
+     "dph": "s",
+     "url": "https://smlouvy.gov.cz/smlouva/24015565"
+    }
+   ]
+  },
+  {
+   "ico": "26863081",
+   "nazev": "Agentura pro ekonomický rozvoj Vsetínska, o.p.s. v likvidaci",
+   "pocet_smluv": 17,
+   "pocet_vicestranne": 6,
+   "pocet_publikuje_protistrana": 0,
+   "soucet_bez_DPH_Kc": 25840729,
+   "soucet_s_DPH_Kc": 15103220,
+   "bez_hodnoty": 5,
+   "prvni_zverejneni": "2016-12-23",
+   "posledni_zverejneni": "2024-11-26",
+   "dodatky": 3,
+   "dodatky_zmena_ceny": 1,
+   "dary_mestu": [],
+   "nejvetsi": [
+    {
+     "id_verze": "24977135",
+     "zverejneno": "2023-06-28",
+     "Kc": 18328000,
+     "dph": "bez",
+     "url": "https://smlouvy.gov.cz/smlouva/24977135"
+    },
+    {
+     "id_verze": "27076075",
+     "zverejneno": "2023-12-28",
+     "Kc": 3600000,
+     "dph": "s",
+     "url": "https://smlouvy.gov.cz/smlouva/27076075"
+    },
+    {
+     "id_verze": "23015445",
+     "zverejneno": "2023-01-09",
+     "Kc": 2591000,
+     "dph": "s",
+     "url": "https://smlouvy.gov.cz/smlouva/23015445"
+    }
+   ]
+  },
+  {
+   "ico": "19690711",
+   "nazev": "DN Vsetín s.r.o.",
+   "pocet_smluv": 8,
+   "pocet_vicestranne": 2,
+   "pocet_publikuje_protistrana": 0,
+   "soucet_bez_DPH_Kc": 18282132,
+   "soucet_s_DPH_Kc": 21000000,
+   "bez_hodnoty": 3,
+   "prvni_zverejneni": "2023-09-18",
+   "posledni_zverejneni": "2026-09-03",
+   "dodatky": 1,
+   "dodatky_zmena_ceny": 0,
+   "dary_mestu": [],
+   "nejvetsi": [
+    {
+     "id_verze": "39377565",
+     "zverejneno": "2026-09-03",
+     "Kc": 20000000,
+     "dph": "s",
+     "url": "https://smlouvy.gov.cz/smlouva/39377565"
+    },
+    {
+     "id_verze": "25946091",
+     "zverejneno": "2023-10-03",
+     "Kc": 18000000,
+     "dph": "bez",
+     "url": "https://smlouvy.gov.cz/smlouva/25946091"
+    },
+    {
+     "id_verze": "25785927",
+     "zverejneno": "2023-09-18",
+     "Kc": 1000000,
+     "dph": "s",
+     "url": "https://smlouvy.gov.cz/smlouva/25785927"
+    }
+   ]
+  },
+  {
+   "ico": "27796477",
+   "nazev": "OPEN RE-ECO. s.r.o.",
+   "pocet_smluv": 27,
+   "pocet_vicestranne": 0,
+   "pocet_publikuje_protistrana": 0,
+   "soucet_bez_DPH_Kc": 29692468,
+   "soucet_s_DPH_Kc": 2569631,
+   "bez_hodnoty": 1,
+   "prvni_zverejneni": "2016-08-05",
+   "posledni_zverejneni": "2023-12-13",
+   "dodatky": 7,
+   "dodatky_zmena_ceny": 3,
+   "dary_mestu": [],
+   "nejvetsi": [
+    {
+     "id_verze": "17517191",
+     "zverejneno": "2021-08-20",
+     "Kc": 4878661,
+     "dph": "bez",
+     "url": "https://smlouvy.gov.cz/smlouva/17517191"
+    },
+    {
+     "id_verze": "16439331",
+     "zverejneno": "2021-04-30",
+     "Kc": 3646198,
+     "dph": "bez",
+     "url": "https://smlouvy.gov.cz/smlouva/16439331"
+    },
+    {
+     "id_verze": "3238266",
+     "zverejneno": "2017-09-25",
+     "Kc": 3643593,
+     "dph": "bez",
+     "url": "https://smlouvy.gov.cz/smlouva/3238266"
+    }
+   ]
+  },
+  {
+   "ico": "25399985",
+   "nazev": "VHK Vsetín s.r.o.",
+   "pocet_smluv": 12,
+   "pocet_vicestranne": 0,
+   "pocet_publikuje_protistrana": 0,
+   "soucet_bez_DPH_Kc": 20223140,
+   "soucet_s_DPH_Kc": 9500000,
+   "bez_hodnoty": 1,
+   "prvni_zverejneni": "2016-10-25",
+   "posledni_zverejneni": "2026-10-02",
+   "dodatky": 0,
+   "dodatky_zmena_ceny": 0,
+   "dary_mestu": [],
+   "nejvetsi": [
+    {
+     "id_verze": "22758673",
+     "zverejneno": "2022-12-15",
+     "Kc": 4000000,
+     "dph": "s",
+     "url": "https://smlouvy.gov.cz/smlouva/22758673"
+    },
+    {
+     "id_verze": "18694319",
+     "zverejneno": "2021-12-10",
+     "Kc": 3500000,
+     "dph": "bez",
+     "url": "https://smlouvy.gov.cz/smlouva/18694319"
+    },
+    {
+     "id_verze": "14175892",
+     "zverejneno": "2020-10-19",
+     "Kc": 3500000,
+     "dph": "bez",
+     "url": "https://smlouvy.gov.cz/smlouva/14175892"
+    }
+   ]
+  },
+  {
+   "ico": "69211612",
+   "nazev": "Základní škola Integra Vsetín",
+   "pocet_smluv": 16,
+   "pocet_vicestranne": 10,
+   "pocet_publikuje_protistrana": 0,
+   "soucet_bez_DPH_Kc": 7422000,
+   "soucet_s_DPH_Kc": 21775542,
+   "bez_hodnoty": 3,
+   "prvni_zverejneni": "2017-01-12",
+   "posledni_zverejneni": "2026-07-22",
+   "dodatky": 0,
+   "dodatky_zmena_ceny": 0,
+   "dary_mestu": [
+    {
+     "id_verze": "26733915",
+     "zverejneno": "2023-12-04",
+     "Kc_s_DPH": null
+    }
+   ],
+   "nejvetsi": [
+    {
+     "id_verze": "31974660",
+     "zverejneno": "2025-01-31",
+     "Kc": 3676200,
+     "dph": "s",
+     "url": "https://smlouvy.gov.cz/smlouva/31974660"
+    },
+    {
+     "id_verze": "27310179",
+     "zverejneno": "2024-01-18",
+     "Kc": 3543000,
+     "dph": "s",
+     "url": "https://smlouvy.gov.cz/smlouva/27310179"
+    },
+    {
+     "id_verze": "23535941",
+     "zverejneno": "2023-02-23",
+     "Kc": 3411000,
+     "dph": "s",
+     "url": "https://smlouvy.gov.cz/smlouva/23535941"
+    }
+   ]
+  },
+  {
+   "ico": "43964532",
+   "nazev": "FORM, spol. s r.o.",
+   "pocet_smluv": 5,
+   "pocet_vicestranne": 0,
+   "pocet_publikuje_protistrana": 0,
+   "soucet_bez_DPH_Kc": 25111205,
+   "soucet_s_DPH_Kc": 20000,
+   "bez_hodnoty": 0,
+   "prvni_zverejneni": "2024-05-10",
+   "posledni_zverejneni": "2026-01-05",
+   "dodatky": 3,
+   "dodatky_zmena_ceny": 3,
+   "dary_mestu": [
+    {
+     "id_verze": "36254273",
+     "zverejneno": "2026-01-05",
+     "Kc_s_DPH": 20000
+    }
+   ],
+   "nejvetsi": [
+    {
+     "id_verze": "28637527",
+     "zverejneno": "2024-05-10",
+     "Kc": 24766121,
+     "dph": "bez",
+     "url": "https://smlouvy.gov.cz/smlouva/28637527"
+    },
+    {
+     "id_verze": "34627185",
+     "zverejneno": "2025-09-01",
+     "Kc": 289476,
+     "dph": "bez",
+     "url": "https://smlouvy.gov.cz/smlouva/34627185"
+    },
+    {
+     "id_verze": "34935229",
+     "zverejneno": "2025-09-24",
+     "Kc": 62301,
+     "dph": "bez",
+     "url": "https://smlouvy.gov.cz/smlouva/34935229"
+    }
+   ]
+  },
+  {
+   "ico": "60990457",
+   "nazev": "Základní škola Vsetín, Rokytnice 436, příspěvková organizace",
+   "pocet_smluv": 4,
+   "pocet_vicestranne": 9,
+   "pocet_publikuje_protistrana": 0,
+   "soucet_bez_DPH_Kc": 24639624,
+   "soucet_s_DPH_Kc": 0,
+   "bez_hodnoty": 1,
+   "prvni_zverejneni": "2017-05-19",
+   "posledni_zverejneni": "2022-01-07",
+   "dodatky": 0,
+   "dodatky_zmena_ceny": 0,
+   "dary_mestu": [],
+   "nejvetsi": [
+    {
+     "id_verze": "15123255",
+     "zverejneno": "2021-01-08",
+     "Kc": 17010000,
+     "dph": "bez",
+     "url": "https://smlouvy.gov.cz/smlouva/15123255"
+    },
+    {
+     "id_verze": "13414580",
+     "zverejneno": "2020-07-30",
+     "Kc": 7200000,
+     "dph": "bez",
+     "url": "https://smlouvy.gov.cz/smlouva/13414580"
+    },
+    {
+     "id_verze": "18990627",
+     "zverejneno": "2022-01-07",
+     "Kc": 429624,
+     "dph": "bez",
+     "url": "https://smlouvy.gov.cz/smlouva/18990627"
+    }
+   ]
+  },
+  {
+   "ico": "60838744",
+   "nazev": "STRABAG a.s.",
+   "pocet_smluv": 14,
+   "pocet_vicestranne": 1,
+   "pocet_publikuje_protistrana": 0,
+   "soucet_bez_DPH_Kc": 22542432,
+   "soucet_s_DPH_Kc": 130000,
+   "bez_hodnoty": 1,
+   "prvni_zverejneni": "2018-07-24",
+   "posledni_zverejneni": "2023-12-14",
+   "dodatky": 5,
+   "dodatky_zmena_ceny": 2,
+   "dary_mestu": [],
+   "nejvetsi": [
+    {
+     "id_verze": "9980503",
+     "zverejneno": "2019-08-28",
+     "Kc": 7468220,
+     "dph": "bez",
+     "url": "https://smlouvy.gov.cz/smlouva/9980503"
+    },
+    {
+     "id_verze": "6231703",
+     "zverejneno": "2018-07-24",
+     "Kc": 4916455,
+     "dph": "bez",
+     "url": "https://smlouvy.gov.cz/smlouva/6231703"
+    },
+    {
+     "id_verze": "13375096",
+     "zverejneno": "2020-07-27",
+     "Kc": 2583865,
+     "dph": "bez",
+     "url": "https://smlouvy.gov.cz/smlouva/13375096"
+    }
+   ]
+  },
+  {
+   "ico": "25860852",
+   "nazev": "JASY Vsetín s.r.o.",
+   "pocet_smluv": 14,
+   "pocet_vicestranne": 0,
+   "pocet_publikuje_protistrana": 0,
+   "soucet_bez_DPH_Kc": 19115578,
+   "soucet_s_DPH_Kc": 77198,
+   "bez_hodnoty": 0,
+   "prvni_zverejneni": "2016-12-14",
+   "posledni_zverejneni": "2026-10-05",
+   "dodatky": 2,
+   "dodatky_zmena_ceny": 2,
+   "dary_mestu": [],
+   "nejvetsi": [
+    {
+     "id_verze": "38370901",
+     "zverejneno": "2026-06-15",
+     "Kc": 9384553,
+     "dph": "bez",
+     "url": "https://smlouvy.gov.cz/smlouva/38370901"
+    },
+    {
+     "id_verze": "9908183",
+     "zverejneno": "2019-08-19",
+     "Kc": 2594424,
+     "dph": "bez",
+     "url": "https://smlouvy.gov.cz/smlouva/9908183"
+    },
+    {
+     "id_verze": "5371752",
+     "zverejneno": "2018-04-25",
+     "Kc": 2077609,
+     "dph": "bez",
+     "url": "https://smlouvy.gov.cz/smlouva/5371752"
+    }
+   ]
+  },
+  {
+   "ico": "46994955",
+   "nazev": "INSTOP, spol. s r.o.",
+   "pocet_smluv": 6,
+   "pocet_vicestranne": 0,
+   "pocet_publikuje_protistrana": 0,
+   "soucet_bez_DPH_Kc": 18603912,
+   "soucet_s_DPH_Kc": 0,
+   "bez_hodnoty": 0,
+   "prvni_zverejneni": "2018-04-09",
+   "posledni_zverejneni": "2025-12-10",
+   "dodatky": 3,
+   "dodatky_zmena_ceny": 2,
+   "dary_mestu": [],
+   "nejvetsi": [
+    {
+     "id_verze": "5197704",
+     "zverejneno": "2018-04-09",
+     "Kc": 9299000,
+     "dph": "bez",
+     "url": "https://smlouvy.gov.cz/smlouva/5197704"
+    },
+    {
+     "id_verze": "34487057",
+     "zverejneno": "2025-08-19",
+     "Kc": 8190000,
+     "dph": "bez",
+     "url": "https://smlouvy.gov.cz/smlouva/34487057"
+    },
+    {
+     "id_verze": "11172676",
+     "zverejneno": "2019-12-19",
+     "Kc": 341620,
+     "dph": "bez",
+     "url": "https://smlouvy.gov.cz/smlouva/11172676"
+    }
+   ]
+  },
+  {
+   "ico": "47674652",
+   "nazev": "Vodovody a kanalizace Vsetín, a.s.",
+   "pocet_smluv": 23,
+   "pocet_vicestranne": 7,
+   "pocet_publikuje_protistrana": 0,
+   "soucet_bez_DPH_Kc": 2938317,
+   "soucet_s_DPH_Kc": 13315000,
+   "bez_hodnoty": 4,
+   "prvni_zverejneni": "2016-08-19",
+   "posledni_zverejneni": "2025-12-19",
+   "dodatky": 1,
+   "dodatky_zmena_ceny": 0,
+   "dary_mestu": [],
+   "nejvetsi": [
+    {
+     "id_verze": "7042159",
+     "zverejneno": "2018-10-19",
+     "Kc": 13262000,
+     "dph": "s",
+     "url": "https://smlouvy.gov.cz/smlouva/7042159"
+    },
+    {
+     "id_verze": "33012908",
+     "zverejneno": "2025-04-23",
+     "Kc": 792383,
+     "dph": "bez",
+     "url": "https://smlouvy.gov.cz/smlouva/33012908"
+    },
+    {
+     "id_verze": "36150573",
+     "zverejneno": "2025-12-19",
+     "Kc": 695294,
+     "dph": "bez",
+     "url": "https://smlouvy.gov.cz/smlouva/36150573"
+    }
+   ]
+  },
+  {
+   "ico": "00851817",
+   "nazev": "Masarykova veřejná knihovna Vsetín, příspěvková organizace",
+   "pocet_smluv": 10,
+   "pocet_vicestranne": 5,
+   "pocet_publikuje_protistrana": 0,
+   "soucet_bez_DPH_Kc": 0,
+   "soucet_s_DPH_Kc": 15140000,
+   "bez_hodnoty": 3,
+   "prvni_zverejneni": "2024-03-06",
+   "posledni_zverejneni": "2025-11-14",
+   "dodatky": 1,
+   "dodatky_zmena_ceny": 0,
+   "dary_mestu": [],
+   "nejvetsi": [
+    {
+     "id_verze": "35542029",
+     "zverejneno": "2025-11-10",
+     "Kc": 10000000,
+     "dph": "s",
+     "url": "https://smlouvy.gov.cz/smlouva/35542029"
+    },
+    {
+     "id_verze": "35418609",
+     "zverejneno": "2025-10-31",
+     "Kc": 1500000,
+     "dph": "s",
+     "url": "https://smlouvy.gov.cz/smlouva/35418609"
+    },
+    {
+     "id_verze": "35624105",
+     "zverejneno": "2025-11-14",
+     "Kc": 950000,
+     "dph": "s",
+     "url": "https://smlouvy.gov.cz/smlouva/35624105"
+    }
+   ]
+  },
+  {
+   "ico": "25845420",
+   "nazev": "LPT System, s.r.o.",
+   "pocet_smluv": 39,
+   "pocet_vicestranne": 1,
+   "pocet_publikuje_protistrana": 0,
+   "soucet_bez_DPH_Kc": 13113276,
+   "soucet_s_DPH_Kc": 320509,
+   "bez_hodnoty": 2,
+   "prvni_zverejneni": "2016-09-26",
+   "posledni_zverejneni": "2026-09-02",
+   "dodatky": 1,
+   "dodatky_zmena_ceny": 0,
+   "dary_mestu": [
+    {
+     "id_verze": "36254277",
+     "zverejneno": "2026-01-05",
+     "Kc_s_DPH": 10000
+    }
+   ],
+   "nejvetsi": [
+    {
+     "id_verze": "35196521",
+     "zverejneno": "2025-10-14",
+     "Kc": 3477670,
+     "dph": "bez",
+     "url": "https://smlouvy.gov.cz/smlouva/35196521"
+    },
+    {
+     "id_verze": "8937567",
+     "zverejneno": "2019-05-03",
+     "Kc": 1196128,
+     "dph": "bez",
+     "url": "https://smlouvy.gov.cz/smlouva/8937567"
+    },
+    {
+     "id_verze": "39359857",
+     "zverejneno": "2026-09-02",
+     "Kc": 749770,
+     "dph": "bez",
+     "url": "https://smlouvy.gov.cz/smlouva/39359857"
+    }
+   ]
+  },
+  {
+   "ico": "27752771",
+   "nazev": "SPORT Construction a.s.",
+   "pocet_smluv": 1,
+   "pocet_vicestranne": 0,
+   "pocet_publikuje_protistrana": 0,
+   "soucet_bez_DPH_Kc": 11999917,
+   "soucet_s_DPH_Kc": 0,
+   "bez_hodnoty": 0,
+   "prvni_zverejneni": "2026-06-19",
+   "posledni_zverejneni": "2026-06-19",
+   "dodatky": 0,
+   "dodatky_zmena_ceny": 0,
+   "dary_mestu": [],
+   "nejvetsi": [
+    {
+     "id_verze": "38438862",
+     "zverejneno": "2026-06-19",
+     "Kc": 11999917,
+     "dph": "bez",
+     "url": "https://smlouvy.gov.cz/smlouva/38438862"
+    }
+   ]
+  },
+  {
+   "ico": "25301144",
+   "nazev": "Navláčil stavební firma, s.r.o.",
+   "pocet_smluv": 2,
+   "pocet_vicestranne": 0,
+   "pocet_publikuje_protistrana": 0,
+   "soucet_bez_DPH_Kc": 9144466,
+   "soucet_s_DPH_Kc": 0,
+   "bez_hodnoty": 0,
+   "prvni_zverejneni": "2020-03-09",
+   "posledni_zverejneni": "2020-11-06",
+   "dodatky": 0,
+   "dodatky_zmena_ceny": 0,
+   "dary_mestu": [],
+   "nejvetsi": [
+    {
+     "id_verze": "11912576",
+     "zverejneno": "2020-03-09",
+     "Kc": 8978923,
+     "dph": "bez",
+     "url": "https://smlouvy.gov.cz/smlouva/11912576"
+    },
+    {
+     "id_verze": "14381752",
+     "zverejneno": "2020-11-06",
+     "Kc": 165543,
+     "dph": "bez",
+     "url": "https://smlouvy.gov.cz/smlouva/14381752"
+    }
+   ]
+  },
+  {
+   "ico": "41084837",
+   "nazev": "ZETEX spol. s r.o.",
+   "pocet_smluv": 1,
+   "pocet_vicestranne": 1,
+   "pocet_publikuje_protistrana": 0,
+   "soucet_bez_DPH_Kc": 0,
+   "soucet_s_DPH_Kc": 9000000,
+   "bez_hodnoty": 0,
+   "prvni_zverejneni": "2026-04-20",
+   "posledni_zverejneni": "2026-04-20",
+   "dodatky": 0,
+   "dodatky_zmena_ceny": 0,
+   "dary_mestu": [],
+   "nejvetsi": [
+    {
+     "id_verze": "37624069",
+     "zverejneno": "2026-04-20",
+     "Kc": 9000000,
+     "dph": "s",
+     "url": "https://smlouvy.gov.cz/smlouva/37624069"
+    }
+   ]
+  },
+  {
+   "ico": "70887306",
+   "nazev": "Hasičský záchranný sbor Zlínského kraje",
+   "pocet_smluv": 24,
+   "pocet_vicestranne": 0,
+   "pocet_publikuje_protistrana": 11,
+   "soucet_bez_DPH_Kc": 1175472,
+   "soucet_s_DPH_Kc": 5242708,
+   "bez_hodnoty": 6,
+   "prvni_zverejneni": "2017-03-20",
+   "posledni_zverejneni": "2026-09-11",
+   "dodatky": 0,
+   "dodatky_zmena_ceny": 0,
+   "dary_mestu": [
+    {
+     "id_verze": "6523959",
+     "zverejneno": "2018-08-29",
+     "Kc_s_DPH": 172290
+    }
+   ],
+   "nejvetsi": [
+    {
+     "id_verze": "3491402",
+     "zverejneno": "2017-10-19",
+     "Kc": 1339872,
+     "dph": "s",
+     "url": "https://smlouvy.gov.cz/smlouva/3491402"
+    },
+    {
+     "id_verze": "4800904",
+     "zverejneno": "2018-02-27",
+     "Kc": 575472,
+     "dph": "bez",
+     "url": "https://smlouvy.gov.cz/smlouva/4800904"
+    },
+    {
+     "id_verze": "36356033",
+     "zverejneno": "2026-01-12",
+     "Kc": 300000,
+     "dph": "s",
+     "url": "https://smlouvy.gov.cz/smlouva/36356033"
+    }
+   ]
+  },
+  {
+   "ico": "62587978",
+   "nazev": "VERA, spol. s r.o.",
+   "pocet_smluv": 20,
+   "pocet_vicestranne": 0,
+   "pocet_publikuje_protistrana": 0,
+   "soucet_bez_DPH_Kc": 5469354,
+   "soucet_s_DPH_Kc": 426250,
+   "bez_hodnoty": 1,
+   "prvni_zverejneni": "2017-12-07",
+   "posledni_zverejneni": "2026-02-18",
+   "dodatky": 7,
+   "dodatky_zmena_ceny": 1,
+   "dary_mestu": [],
+   "nejvetsi": [
+    {
+     "id_verze": "27843123",
+     "zverejneno": "2024-03-04",
+     "Kc": 1387210,
+     "dph": "bez",
+     "url": "https://smlouvy.gov.cz/smlouva/27843123"
+    },
+    {
+     "id_verze": "26254655",
+     "zverejneno": "2023-10-27",
+     "Kc": 973849,
+     "dph": "bez",
+     "url": "https://smlouvy.gov.cz/smlouva/26254655"
+    },
+    {
+     "id_verze": "22513173",
+     "zverejneno": "2022-11-28",
+     "Kc": 670000,
+     "dph": "bez",
+     "url": "https://smlouvy.gov.cz/smlouva/22513173"
+    }
+   ]
+  },
+  {
+   "ico": "42340802",
+   "nazev": "KKS, spol. s r.o.",
+   "pocet_smluv": 3,
+   "pocet_vicestranne": 6,
+   "pocet_publikuje_protistrana": 0,
+   "soucet_bez_DPH_Kc": 5674469,
+   "soucet_s_DPH_Kc": 0,
+   "bez_hodnoty": 0,
+   "prvni_zverejneni": "2026-01-23",
+   "posledni_zverejneni": "2026-10-19",
+   "dodatky": 2,
+   "dodatky_zmena_ceny": 2,
+   "dary_mestu": [],
+   "nejvetsi": [
+    {
+     "id_verze": "36511417",
+     "zverejneno": "2026-01-23",
+     "Kc": 5644321,
+     "dph": "bez",
+     "url": "https://smlouvy.gov.cz/smlouva/36511417"
+    },
+    {
+     "id_verze": "39606885",
+     "zverejneno": "2026-09-21",
+     "Kc": 69207,
+     "dph": "bez",
+     "url": "https://smlouvy.gov.cz/smlouva/39606885"
+    },
+    {
+     "id_verze": "39987509",
+     "zverejneno": "2026-10-19",
+     "Kc": -39059,
+     "dph": "bez",
+     "url": "https://smlouvy.gov.cz/smlouva/39987509"
+    }
+   ]
+  },
+  {
+   "ico": "25317628",
+   "nazev": "FIRESTA-Fišer, rekonstrukce, stavby a.s.",
+   "pocet_smluv": 2,
+   "pocet_vicestranne": 0,
+   "pocet_publikuje_protistrana": 0,
+   "soucet_bez_DPH_Kc": 5334888,
+   "soucet_s_DPH_Kc": 0,
+   "bez_hodnoty": 0,
+   "prvni_zverejneni": "2020-09-11",
+   "posledni_zverejneni": "2020-11-30",
+   "dodatky": 1,
+   "dodatky_zmena_ceny": 0,
+   "dary_mestu": [],
+   "nejvetsi": [
+    {
+     "id_verze": "13762260",
+     "zverejneno": "2020-09-11",
+     "Kc": 4771889,
+     "dph": "bez",
+     "url": "https://smlouvy.gov.cz/smlouva/13762260"
+    },
+    {
+     "id_verze": "14684209",
+     "zverejneno": "2020-11-30",
+     "Kc": 562999,
+     "dph": "bez",
+     "url": "https://smlouvy.gov.cz/smlouva/14684209"
+    }
+   ]
+  },
+  {
+   "ico": "24726443",
+   "nazev": "FUSION ARCHITECTS s.r.o.",
+   "pocet_smluv": 6,
+   "pocet_vicestranne": 0,
+   "pocet_publikuje_protistrana": 0,
+   "soucet_bez_DPH_Kc": 4790215,
+   "soucet_s_DPH_Kc": 15000,
+   "bez_hodnoty": 0,
+   "prvni_zverejneni": "2022-01-12",
+   "posledni_zverejneni": "2026-01-05",
+   "dodatky": 3,
+   "dodatky_zmena_ceny": 2,
+   "dary_mestu": [
+    {
+     "id_verze": "36254269",
+     "zverejneno": "2026-01-05",
+     "Kc_s_DPH": 15000
+    }
+   ],
+   "nejvetsi": [
+    {
+     "id_verze": "20444299",
+     "zverejneno": "2022-05-24",
+     "Kc": 4175015,
+     "dph": "bez",
+     "url": "https://smlouvy.gov.cz/smlouva/20444299"
+    },
+    {
+     "id_verze": "19050471",
+     "zverejneno": "2022-01-12",
+     "Kc": 199500,
+     "dph": "bez",
+     "url": "https://smlouvy.gov.cz/smlouva/19050471"
+    },
+    {
+     "id_verze": "30330652",
+     "zverejneno": "2024-09-30",
+     "Kc": 170000,
+     "dph": "bez",
+     "url": "https://smlouvy.gov.cz/smlouva/30330652"
+    }
+   ]
+  },
+  {
+   "ico": "47678054",
+   "nazev": "Městské lesy Vsetín, s. r. o.",
+   "pocet_smluv": 11,
+   "pocet_vicestranne": 0,
+   "pocet_publikuje_protistrana": 1,
+   "soucet_bez_DPH_Kc": 1122500,
+   "soucet_s_DPH_Kc": 2260000,
+   "bez_hodnoty": 3,
+   "prvni_zverejneni": "2017-05-15",
+   "posledni_zverejneni": "2026-03-27",
+   "dodatky": 7,
+   "dodatky_zmena_ceny": 1,
+   "dary_mestu": [],
+   "nejvetsi": [
+    {
+     "id_verze": "17724011",
+     "zverejneno": "2021-09-10",
+     "Kc": 750000,
+     "dph": "bez",
+     "url": "https://smlouvy.gov.cz/smlouva/17724011"
+    },
+    {
+     "id_verze": "11037828",
+     "zverejneno": "2019-12-10",
+     "Kc": 750000,
+     "dph": "s",
+     "url": "https://smlouvy.gov.cz/smlouva/11037828"
+    },
+    {
+     "id_verze": "9014963",
+     "zverejneno": "2019-05-13",
+     "Kc": 750000,
+     "dph": "s",
+     "url": "https://smlouvy.gov.cz/smlouva/9014963"
+    }
+   ]
+  },
+  {
+   "ico": "25114638",
+   "nazev": "Kayaku Safety Systems Europe a.s.",
+   "pocet_smluv": 2,
+   "pocet_vicestranne": 0,
+   "pocet_publikuje_protistrana": 0,
+   "soucet_bez_DPH_Kc": 2997963,
+   "soucet_s_DPH_Kc": 0,
+   "bez_hodnoty": 1,
+   "prvni_zverejneni": "2021-06-16",
+   "posledni_zverejneni": "2021-06-16",
+   "dodatky": 0,
+   "dodatky_zmena_ceny": 0,
+   "dary_mestu": [],
+   "nejvetsi": [
+    {
+     "id_verze": "16936263",
+     "zverejneno": "2021-06-16",
+     "Kc": 2997963,
+     "dph": "bez",
+     "url": "https://smlouvy.gov.cz/smlouva/16936263"
+    }
+   ]
+  },
+  {
+   "ico": "02536986",
+   "nazev": "MDDr. Helena Kozárková",
+   "pocet_smluv": 3,
+   "pocet_vicestranne": 0,
+   "pocet_publikuje_protistrana": 0,
+   "soucet_bez_DPH_Kc": 0,
+   "soucet_s_DPH_Kc": 2555570,
+   "bez_hodnoty": 0,
+   "prvni_zverejneni": "2020-01-10",
+   "posledni_zverejneni": "2025-07-25",
+   "dodatky": 2,
+   "dodatky_zmena_ceny": 0,
+   "dary_mestu": [],
+   "nejvetsi": [
+    {
+     "id_verze": "33559032",
+     "zverejneno": "2025-06-05",
+     "Kc": 1395270,
+     "dph": "s",
+     "url": "https://smlouvy.gov.cz/smlouva/33559032"
+    },
+    {
+     "id_verze": "11341536",
+     "zverejneno": "2020-01-10",
+     "Kc": 660300,
+     "dph": "s",
+     "url": "https://smlouvy.gov.cz/smlouva/11341536"
+    },
+    {
+     "id_verze": "34218837",
+     "zverejneno": "2025-07-25",
+     "Kc": 500000,
+     "dph": "s",
+     "url": "https://smlouvy.gov.cz/smlouva/34218837"
+    }
+   ]
+  },
+  {
+   "ico": "70872236",
+   "nazev": "Mateřská škola Vsetín, Na Kopečku 13, příspěvková organizace",
+   "pocet_smluv": 1,
+   "pocet_vicestranne": 9,
+   "pocet_publikuje_protistrana": 0,
+   "soucet_bez_DPH_Kc": 0,
+   "soucet_s_DPH_Kc": 2159319,
+   "bez_hodnoty": 0,
+   "prvni_zverejneni": "2018-10-30",
+   "posledni_zverejneni": "2018-10-30",
+   "dodatky": 0,
+   "dodatky_zmena_ceny": 0,
+   "dary_mestu": [],
+   "nejvetsi": [
+    {
+     "id_verze": "7153587",
+     "zverejneno": "2018-10-30",
+     "Kc": 2159319,
+     "dph": "s",
+     "url": "https://smlouvy.gov.cz/smlouva/7153587"
+    }
+   ]
+  },
+  {
+   "ico": "25396269",
+   "nazev": "SIDAR - plus s.r.o.",
+   "pocet_smluv": 8,
+   "pocet_vicestranne": 0,
+   "pocet_publikuje_protistrana": 0,
+   "soucet_bez_DPH_Kc": 797910,
+   "soucet_s_DPH_Kc": 1219312,
+   "bez_hodnoty": 0,
+   "prvni_zverejneni": "2022-06-22",
+   "posledni_zverejneni": "2026-06-24",
+   "dodatky": 0,
+   "dodatky_zmena_ceny": 0,
+   "dary_mestu": [],
+   "nejvetsi": [
+    {
+     "id_verze": "35488881",
+     "zverejneno": "2025-11-06",
+     "Kc": 963312,
+     "dph": "s",
+     "url": "https://smlouvy.gov.cz/smlouva/35488881"
+    },
+    {
+     "id_verze": "20810047",
+     "zverejneno": "2022-06-22",
+     "Kc": 198800,
+     "dph": "bez",
+     "url": "https://smlouvy.gov.cz/smlouva/20810047"
+    },
+    {
+     "id_verze": "35312873",
+     "zverejneno": "2025-10-22",
+     "Kc": 184110,
+     "dph": "bez",
+     "url": "https://smlouvy.gov.cz/smlouva/35312873"
+    }
+   ]
+  },
+  {
+   "ico": "22851593",
+   "nazev": "Cyklostezka Bečva, z.s.",
+   "pocet_smluv": 2,
+   "pocet_vicestranne": 0,
+   "pocet_publikuje_protistrana": 0,
+   "soucet_bez_DPH_Kc": 0,
+   "soucet_s_DPH_Kc": 1940262,
+   "bez_hodnoty": 0,
+   "prvni_zverejneni": "2025-10-17",
+   "posledni_zverejneni": "2026-07-13",
+   "dodatky": 1,
+   "dodatky_zmena_ceny": 0,
+   "dary_mestu": [],
+   "nejvetsi": [
+    {
+     "id_verze": "35249065",
+     "zverejneno": "2025-10-17",
+     "Kc": 1505825,
+     "dph": "s",
+     "url": "https://smlouvy.gov.cz/smlouva/35249065"
+    },
+    {
+     "id_verze": "38737076",
+     "zverejneno": "2026-07-13",
+     "Kc": 434437,
+     "dph": "s",
+     "url": "https://smlouvy.gov.cz/smlouva/38737076"
+    }
+   ]
+  },
+  {
+   "ico": "66184606",
+   "nazev": "Hokejbalový klub Vsetín, z.s.",
+   "pocet_smluv": 12,
+   "pocet_vicestranne": 0,
+   "pocet_publikuje_protistrana": 0,
+   "soucet_bez_DPH_Kc": 175920,
+   "soucet_s_DPH_Kc": 1303180,
+   "bez_hodnoty": 1,
+   "prvni_zverejneni": "2019-03-14",
+   "posledni_zverejneni": "2026-04-29",
+   "dodatky": 0,
+   "dodatky_zmena_ceny": 0,
+   "dary_mestu": [],
+   "nejvetsi": [
+    {
+     "id_verze": "8477655",
+     "zverejneno": "2019-03-14",
+     "Kc": 427190,
+     "dph": "s",
+     "url": "https://smlouvy.gov.cz/smlouva/8477655"
+    },
+    {
+     "id_verze": "35213661",
+     "zverejneno": "2025-10-15",
+     "Kc": 250000,
+     "dph": "s",
+     "url": "https://smlouvy.gov.cz/smlouva/35213661"
+    },
+    {
+     "id_verze": "36180593",
+     "zverejneno": "2025-12-22",
+     "Kc": 220000,
+     "dph": "s",
+     "url": "https://smlouvy.gov.cz/smlouva/36180593"
+    }
+   ]
+  },
+  {
+   "ico": "06110266",
+   "nazev": "QUICK Transport Zlín s.r.o.",
+   "pocet_smluv": 2,
+   "pocet_vicestranne": 0,
+   "pocet_publikuje_protistrana": 0,
+   "soucet_bez_DPH_Kc": 0,
+   "soucet_s_DPH_Kc": 1300000,
+   "bez_hodnoty": 0,
+   "prvni_zverejneni": "2018-05-29",
+   "posledni_zverejneni": "2020-05-27",
+   "dodatky": 0,
+   "dodatky_zmena_ceny": 0,
+   "dary_mestu": [],
+   "nejvetsi": [
+    {
+     "id_verze": "12788564",
+     "zverejneno": "2020-05-27",
+     "Kc": 750000,
+     "dph": "s",
+     "url": "https://smlouvy.gov.cz/smlouva/12788564"
+    },
+    {
+     "id_verze": "5686635",
+     "zverejneno": "2018-05-29",
+     "Kc": 550000,
+     "dph": "s",
+     "url": "https://smlouvy.gov.cz/smlouva/5686635"
+    }
+   ]
+  },
+  {
+   "ico": "03642259",
+   "nazev": "UNITED 3P, z. s.",
+   "pocet_smluv": 7,
+   "pocet_vicestranne": 0,
+   "pocet_publikuje_protistrana": 0,
+   "soucet_bez_DPH_Kc": 300000,
+   "soucet_s_DPH_Kc": 970000,
+   "bez_hodnoty": 0,
+   "prvni_zverejneni": "2019-08-05",
+   "posledni_zverejneni": "2026-07-20",
+   "dodatky": 0,
+   "dodatky_zmena_ceny": 0,
+   "dary_mestu": [],
+   "nejvetsi": [
+    {
+     "id_verze": "38829430",
+     "zverejneno": "2026-07-20",
+     "Kc": 300000,
+     "dph": "s",
+     "url": "https://smlouvy.gov.cz/smlouva/38829430"
+    },
+    {
+     "id_verze": "33818153",
+     "zverejneno": "2025-06-24",
+     "Kc": 250000,
+     "dph": "s",
+     "url": "https://smlouvy.gov.cz/smlouva/33818153"
+    },
+    {
+     "id_verze": "29662180",
+     "zverejneno": "2024-07-31",
+     "Kc": 250000,
+     "dph": "s",
+     "url": "https://smlouvy.gov.cz/smlouva/29662180"
+    }
+   ]
+  },
+  {
+   "ico": "29453411",
+   "nazev": "AUDIT TEAM, s.r.o.",
+   "pocet_smluv": 4,
+   "pocet_vicestranne": 0,
+   "pocet_publikuje_protistrana": 0,
+   "soucet_bez_DPH_Kc": 1075000,
+   "soucet_s_DPH_Kc": 0,
+   "bez_hodnoty": 0,
+   "prvni_zverejneni": "2022-12-13",
+   "posledni_zverejneni": "2025-10-03",
+   "dodatky": 1,
+   "dodatky_zmena_ceny": 0,
+   "dary_mestu": [],
+   "nejvetsi": [
+    {
+     "id_verze": "29161728",
+     "zverejneno": "2024-06-20",
+     "Kc": 650000,
+     "dph": "bez",
+     "url": "https://smlouvy.gov.cz/smlouva/29161728"
+    },
+    {
+     "id_verze": "35064561",
+     "zverejneno": "2025-10-03",
+     "Kc": 165000,
+     "dph": "bez",
+     "url": "https://smlouvy.gov.cz/smlouva/35064561"
+    },
+    {
+     "id_verze": "26012087",
+     "zverejneno": "2023-10-09",
+     "Kc": 130000,
+     "dph": "bez",
+     "url": "https://smlouvy.gov.cz/smlouva/26012087"
+    }
+   ]
+  },
+  {
+   "ico": "47659068",
+   "nazev": "Farní sbor Českobratrské církve evangelické ve Vsetíně (dolní sbor)",
+   "pocet_smluv": 2,
+   "pocet_vicestranne": 0,
+   "pocet_publikuje_protistrana": 0,
+   "soucet_bez_DPH_Kc": 0,
+   "soucet_s_DPH_Kc": 850000,
+   "bez_hodnoty": 0,
+   "prvni_zverejneni": "2023-05-23",
+   "posledni_zverejneni": "2026-10-12",
+   "dodatky": 0,
+   "dodatky_zmena_ceny": 0,
+   "dary_mestu": [],
+   "nejvetsi": [
+    {
+     "id_verze": "24521015",
+     "zverejneno": "2023-05-23",
+     "Kc": 600000,
+     "dph": "s",
+     "url": "https://smlouvy.gov.cz/smlouva/24521015"
+    },
+    {
+     "id_verze": "39888653",
+     "zverejneno": "2026-10-12",
+     "Kc": 250000,
+     "dph": "s",
+     "url": "https://smlouvy.gov.cz/smlouva/39888653"
+    }
+   ]
+  },
+  {
+   "ico": "60990449",
+   "nazev": "Základní škola a Mateřská škola Vsetín, Trávníky 1217, příspěvková organizace",
+   "pocet_smluv": 4,
+   "pocet_vicestranne": 10,
+   "pocet_publikuje_protistrana": 0,
+   "soucet_bez_DPH_Kc": 215000,
+   "soucet_s_DPH_Kc": 570048,
+   "bez_hodnoty": 1,
+   "prvni_zverejneni": "2017-05-19",
+   "posledni_zverejneni": "2025-10-13",
+   "dodatky": 0,
+   "dodatky_zmena_ceny": 0,
+   "dary_mestu": [
+    {
+     "id_verze": "35178353",
+     "zverejneno": "2025-10-13",
+     "Kc_s_DPH": 500048
+    }
+   ],
+   "nejvetsi": [
+    {
+     "id_verze": "35178353",
+     "zverejneno": "2025-10-13",
+     "Kc": 500048,
+     "dph": "s",
+     "url": "https://smlouvy.gov.cz/smlouva/35178353"
+    },
+    {
+     "id_verze": "14887498",
+     "zverejneno": "2020-12-14",
+     "Kc": 215000,
+     "dph": "bez",
+     "url": "https://smlouvy.gov.cz/smlouva/14887498"
+    },
+    {
+     "id_verze": "34679977",
+     "zverejneno": "2025-09-04",
+     "Kc": 70000,
+     "dph": "s",
+     "url": "https://smlouvy.gov.cz/smlouva/34679977"
+    }
+   ]
+  },
+  {
+   "ico": "29198950",
+   "nazev": "MUNIPOLIS s.r.o.",
+   "pocet_smluv": 3,
+   "pocet_vicestranne": 0,
+   "pocet_publikuje_protistrana": 0,
+   "soucet_bez_DPH_Kc": 742320,
+   "soucet_s_DPH_Kc": 0,
+   "bez_hodnoty": 0,
+   "prvni_zverejneni": "2020-03-16",
+   "posledni_zverejneni": "2024-07-08",
+   "dodatky": 2,
+   "dodatky_zmena_ceny": 0,
+   "dary_mestu": [],
+   "nejvetsi": [
+    {
+     "id_verze": "29398120",
+     "zverejneno": "2024-07-08",
+     "Kc": 467640,
+     "dph": "bez",
+     "url": "https://smlouvy.gov.cz/smlouva/29398120"
+    },
+    {
+     "id_verze": "25028487",
+     "zverejneno": "2023-07-03",
+     "Kc": 155880,
+     "dph": "bez",
+     "url": "https://smlouvy.gov.cz/smlouva/25028487"
+    },
+    {
+     "id_verze": "11975648",
+     "zverejneno": "2020-03-16",
+     "Kc": 118800,
+     "dph": "bez",
+     "url": "https://smlouvy.gov.cz/smlouva/11975648"
+    }
+   ]
+  },
+  {
+   "ico": "23287152",
+   "nazev": "Damostis s.r.o.",
+   "pocet_smluv": 2,
+   "pocet_vicestranne": 0,
+   "pocet_publikuje_protistrana": 0,
+   "soucet_bez_DPH_Kc": 538900,
+   "soucet_s_DPH_Kc": 0,
+   "bez_hodnoty": 0,
+   "prvni_zverejneni": "2026-03-20",
+   "posledni_zverejneni": "2026-09-16",
+   "dodatky": 0,
+   "dodatky_zmena_ceny": 0,
+   "dary_mestu": [],
+   "nejvetsi": [
+    {
+     "id_verze": "37251477",
+     "zverejneno": "2026-03-20",
+     "Kc": 439900,
+     "dph": "bez",
+     "url": "https://smlouvy.gov.cz/smlouva/37251477"
+    },
+    {
+     "id_verze": "39548425",
+     "zverejneno": "2026-09-16",
+     "Kc": 99000,
+     "dph": "bez",
+     "url": "https://smlouvy.gov.cz/smlouva/39548425"
+    }
+   ]
+  },
+  {
+   "ico": "19957050",
+   "nazev": "Stomatologické centrum Univerzitní s.r.o.",
+   "pocet_smluv": 1,
+   "pocet_vicestranne": 0,
+   "pocet_publikuje_protistrana": 0,
+   "soucet_bez_DPH_Kc": 0,
+   "soucet_s_DPH_Kc": 500000,
+   "bez_hodnoty": 0,
+   "prvni_zverejneni": "2024-11-26",
+   "posledni_zverejneni": "2024-11-26",
+   "dodatky": 0,
+   "dodatky_zmena_ceny": 0,
+   "dary_mestu": [],
+   "nejvetsi": [
+    {
+     "id_verze": "31146508",
+     "zverejneno": "2024-11-26",
+     "Kc": 500000,
+     "dph": "s",
+     "url": "https://smlouvy.gov.cz/smlouva/31146508"
+    }
+   ]
+  },
+  {
+   "ico": "68349742",
+   "nazev": "Pavel Škrabánek",
+   "pocet_smluv": 2,
+   "pocet_vicestranne": 0,
+   "pocet_publikuje_protistrana": 0,
+   "soucet_bez_DPH_Kc": 347213,
+   "soucet_s_DPH_Kc": 81000,
+   "bez_hodnoty": 0,
+   "prvni_zverejneni": "2025-07-15",
+   "posledni_zverejneni": "2025-08-15",
+   "dodatky": 0,
+   "dodatky_zmena_ceny": 0,
+   "dary_mestu": [],
+   "nejvetsi": [
+    {
+     "id_verze": "34101853",
+     "zverejneno": "2025-07-15",
+     "Kc": 347213,
+     "dph": "bez",
+     "url": "https://smlouvy.gov.cz/smlouva/34101853"
+    },
+    {
+     "id_verze": "34453409",
+     "zverejneno": "2025-08-15",
+     "Kc": 81000,
+     "dph": "s",
+     "url": "https://smlouvy.gov.cz/smlouva/34453409"
+    }
+   ]
+  },
+  {
+   "ico": "26686503",
+   "nazev": "M.O.Z. Consult s.r.o.",
+   "pocet_smluv": 1,
+   "pocet_vicestranne": 0,
+   "pocet_publikuje_protistrana": 0,
+   "soucet_bez_DPH_Kc": 385000,
+   "soucet_s_DPH_Kc": 0,
+   "bez_hodnoty": 0,
+   "prvni_zverejneni": "2026-03-26",
+   "posledni_zverejneni": "2026-03-26",
+   "dodatky": 0,
+   "dodatky_zmena_ceny": 0,
+   "dary_mestu": [],
+   "nejvetsi": [
+    {
+     "id_verze": "37331077",
+     "zverejneno": "2026-03-26",
+     "Kc": 385000,
+     "dph": "bez",
+     "url": "https://smlouvy.gov.cz/smlouva/37331077"
+    }
+   ]
+  },
+  {
+   "ico": "22233300",
+   "nazev": "MDDr. Daniel Sušeň s.r.o.",
+   "pocet_smluv": 1,
+   "pocet_vicestranne": 0,
+   "pocet_publikuje_protistrana": 0,
+   "soucet_bez_DPH_Kc": 0,
+   "soucet_s_DPH_Kc": 300000,
+   "bez_hodnoty": 0,
+   "prvni_zverejneni": "2025-07-24",
+   "posledni_zverejneni": "2025-07-24",
+   "dodatky": 0,
+   "dodatky_zmena_ceny": 0,
+   "dary_mestu": [],
+   "nejvetsi": [
+    {
+     "id_verze": "34214017",
+     "zverejneno": "2025-07-24",
+     "Kc": 300000,
+     "dph": "s",
+     "url": "https://smlouvy.gov.cz/smlouva/34214017"
+    }
+   ]
+  },
+  {
+   "ico": "45272956",
+   "nazev": "Generali Česká pojišťovna a.s.",
+   "pocet_smluv": 1,
+   "pocet_vicestranne": 0,
+   "pocet_publikuje_protistrana": 0,
+   "soucet_bez_DPH_Kc": 0,
+   "soucet_s_DPH_Kc": 261810,
+   "bez_hodnoty": 0,
+   "prvni_zverejneni": "2025-12-22",
+   "posledni_zverejneni": "2025-12-22",
+   "dodatky": 0,
+   "dodatky_zmena_ceny": 0,
+   "dary_mestu": [],
+   "nejvetsi": [
+    {
+     "id_verze": "36173237",
+     "zverejneno": "2025-12-22",
+     "Kc": 261810,
+     "dph": "s",
+     "url": "https://smlouvy.gov.cz/smlouva/36173237"
+    }
+   ]
+  },
+  {
+   "ico": "26805375",
+   "nazev": "JH KOVO s.r.o.",
+   "pocet_smluv": 1,
+   "pocet_vicestranne": 1,
+   "pocet_publikuje_protistrana": 0,
+   "soucet_bez_DPH_Kc": 254025,
+   "soucet_s_DPH_Kc": 0,
+   "bez_hodnoty": 0,
+   "prvni_zverejneni": "2021-12-09",
+   "posledni_zverejneni": "2021-12-09",
+   "dodatky": 0,
+   "dodatky_zmena_ceny": 0,
+   "dary_mestu": [],
+   "nejvetsi": [
+    {
+     "id_verze": "18678695",
+     "zverejneno": "2021-12-09",
+     "Kc": 254025,
+     "dph": "bez",
+     "url": "https://smlouvy.gov.cz/smlouva/18678695"
+    }
+   ]
+  },
+  {
+   "ico": "60609249",
+   "nazev": "Mateřská škola Vsetín, Ohrada 1879, příspěvková organizace",
+   "pocet_smluv": 1,
+   "pocet_vicestranne": 8,
+   "pocet_publikuje_protistrana": 0,
+   "soucet_bez_DPH_Kc": 228000,
+   "soucet_s_DPH_Kc": 0,
+   "bez_hodnoty": 0,
+   "prvni_zverejneni": "2018-02-12",
+   "posledni_zverejneni": "2018-02-12",
+   "dodatky": 0,
+   "dodatky_zmena_ceny": 0,
+   "dary_mestu": [],
+   "nejvetsi": [
+    {
+     "id_verze": "4670844",
+     "zverejneno": "2018-02-12",
+     "Kc": 228000,
+     "dph": "bez",
+     "url": "https://smlouvy.gov.cz/smlouva/4670844"
+    }
+   ]
+  },
+  {
+   "ico": "64086712",
+   "nazev": "VASMO s.r.o.",
+   "pocet_smluv": 1,
+   "pocet_vicestranne": 1,
+   "pocet_publikuje_protistrana": 0,
+   "soucet_bez_DPH_Kc": 132525,
+   "soucet_s_DPH_Kc": 0,
+   "bez_hodnoty": 0,
+   "prvni_zverejneni": "2021-12-13",
+   "posledni_zverejneni": "2021-12-13",
+   "dodatky": 0,
+   "dodatky_zmena_ceny": 0,
+   "dary_mestu": [],
+   "nejvetsi": [
+    {
+     "id_verze": "18704707",
+     "zverejneno": "2021-12-13",
+     "Kc": 132525,
+     "dph": "bez",
+     "url": "https://smlouvy.gov.cz/smlouva/18704707"
+    }
+   ]
+  },
+  {
+   "ico": "27822371",
+   "nazev": "TREND gastronomie s.r.o.",
+   "pocet_smluv": 1,
+   "pocet_vicestranne": 0,
+   "pocet_publikuje_protistrana": 0,
+   "soucet_bez_DPH_Kc": 0,
+   "soucet_s_DPH_Kc": 48837,
+   "bez_hodnoty": 0,
+   "prvni_zverejneni": "2018-01-04",
+   "posledni_zverejneni": "2018-01-04",
+   "dodatky": 0,
+   "dodatky_zmena_ceny": 0,
+   "dary_mestu": [],
+   "nejvetsi": [
+    {
+     "id_verze": "4277272",
+     "zverejneno": "2018-01-04",
+     "Kc": 48837,
+     "dph": "s",
+     "url": "https://smlouvy.gov.cz/smlouva/4277272"
+    }
+   ]
+  },
+  {
+   "ico": "60042354",
+   "nazev": null,
+   "pocet_smluv": 0,
+   "pocet_vicestranne": 8,
+   "pocet_publikuje_protistrana": 0,
+   "soucet_bez_DPH_Kc": 0,
+   "soucet_s_DPH_Kc": 0,
+   "bez_hodnoty": 0,
+   "prvni_zverejneni": null,
+   "posledni_zverejneni": null,
+   "dodatky": 0,
+   "dodatky_zmena_ceny": 0,
+   "dary_mestu": [],
+   "nejvetsi": []
+  },
+  {
+   "ico": "60042362",
+   "nazev": "Mateřská škola Vsetín, Sychrov 96, příspěvková organizace",
+   "pocet_smluv": 0,
+   "pocet_vicestranne": 9,
+   "pocet_publikuje_protistrana": 0,
+   "soucet_bez_DPH_Kc": 0,
+   "soucet_s_DPH_Kc": 0,
+   "bez_hodnoty": 0,
+   "prvni_zverejneni": null,
+   "posledni_zverejneni": null,
+   "dodatky": 0,
+   "dodatky_zmena_ceny": 0,
+   "dary_mestu": [],
+   "nejvetsi": []
+  },
+  {
+   "ico": "60042389",
+   "nazev": "Mateřská škola Vsetín, Benátky 1175, příspěvková organizace",
+   "pocet_smluv": 0,
+   "pocet_vicestranne": 9,
+   "pocet_publikuje_protistrana": 0,
+   "soucet_bez_DPH_Kc": 0,
+   "soucet_s_DPH_Kc": 0,
+   "bez_hodnoty": 0,
+   "prvni_zverejneni": null,
+   "posledni_zverejneni": null,
+   "dodatky": 0,
+   "dodatky_zmena_ceny": 0,
+   "dary_mestu": [],
+   "nejvetsi": []
+  },
+  {
+   "ico": "60990368",
+   "nazev": "Základní škola a Mateřská škola Vsetín, Ohrada 1876, příspěvková organizace",
+   "pocet_smluv": 1,
+   "pocet_vicestranne": 9,
+   "pocet_publikuje_protistrana": 0,
+   "soucet_bez_DPH_Kc": 0,
+   "soucet_s_DPH_Kc": 0,
+   "bez_hodnoty": 1,
+   "prvni_zverejneni": "2017-05-19",
+   "posledni_zverejneni": "2017-05-19",
+   "dodatky": 0,
+   "dodatky_zmena_ceny": 0,
+   "dary_mestu": [],
+   "nejvetsi": []
+  },
+  {
+   "ico": "60990406",
+   "nazev": "Základní škola a Mateřská škola Vsetín, Luh 1544, příspěvková organizace",
+   "pocet_smluv": 3,
+   "pocet_vicestranne": 10,
+   "pocet_publikuje_protistrana": 0,
+   "soucet_bez_DPH_Kc": 0,
+   "soucet_s_DPH_Kc": 0,
+   "bez_hodnoty": 3,
+   "prvni_zverejneni": "2017-05-19",
+   "posledni_zverejneni": "2025-11-26",
+   "dodatky": 1,
+   "dodatky_zmena_ceny": 0,
+   "dary_mestu": [],
+   "nejvetsi": []
+  }
+ ],
+ "signaly_k_overeni": [
+  {
+   "id": "P-01",
+   "typ": "dárce → dodavatel (projekt MVK 1356)",
+   "ico": [
+    "24726443",
+    "43964532",
+    "25845420",
+    "25835661"
+   ],
+   "popis": "Čtyři dodavatelé stavebních úprav a vybavení Masarykovy veřejné knihovny a TIC č.p. 1356 uzavřeli s městem darovací smlouvy s po sobě jdoucími čísly 0781–0784 2025 (uzavřeny 12.–15. 12. 2025, podepsal starosta): FUSION ARCHITECTS 15 000 Kč, FORM 20 000 Kč, LPT System 10 000 Kč, H & B delta 25 000 Kč. Jejich zakázky: FUSION ARCHITECTS – PD knihovny 4,18 mil. + 3 dodatky; FORM – interiér 24,77 mil. + 2 cenové dodatky; LPT – IT vybavení 3,48 mil.; H & B delta – střecha 3,42 mil. + dodatek ceny. Malé částky, zřejmě hromadná akce (účel darů neuveden v metadatech). K ověření: účel darů, pravidla přijímání darů od dodavatelů.",
+   "zdroje": [
+    "36123905",
+    "36254269",
+    "36254273",
+    "36254277"
+   ]
+  },
+  {
+   "id": "P-02",
+   "typ": "městská o.p.s. – vklad po rozhodnutí o zrušení",
+   "ico": [
+    "26863081"
+   ],
+   "popis": "AERV o.p.s.: Dodatek č. 2 k nájemní smlouvě 4836/1S/2012 'Zhodnocení předmětu nájmu – rekonstrukce' 18 328 000 Kč bez DPH (uzavřen 28. 6. 2023); rozhodnutí správní rady o zrušení 11. 10. 2023 (ARES-VR); dodatek č. 11 k 3137/1S/2008 – ukončení nájmu (23. 11. 2023); Smlouva o poskytnutí vkladu 714/1S/2023, 3 600 000 Kč (uzavřena 21. 12. 2023, 10 dní před dnem zrušení 31. 12. 2023); výpůjčka movitých věcí od AERV v likvidaci (3/2024); Smlouva o převodu likvidačního zůstatku obci 0740 2024 (18. 11. 2024, hodnota neuvedena). K ověření: účel vkladu do rušené společnosti, výše likvidačního zůstatku, vztah narovnání 3,85 mil. (RO 8/2023) ke zhodnocení předmětu nájmu.",
+   "zdroje": [
+    "24977135",
+    "26636603",
+    "27076075",
+    "28019327",
+    "31146484"
+   ],
+   "stav": "zčásti vysvětleno – viz kauza K-004",
+   "vysvetleni": "RO 21/2023 a usn. 1/10/ZM/2023: vklad 3,6 mil. Kč byl schválen ZM 18. 12. 2023 k dofinancování nákladů likvidace a daňové povinnosti 2023. Narovnání 3 848 880 Kč (RO 8/2023, usn. 11/6/ZM/2023) = 21 % DPH ze zhodnocení předmětu nájmu 18 328 000 Kč, opomenuté v dohodě z 19. 12. 2012. Otevřené: výše likvidačního zůstatku."
+  },
+  {
+   "id": "P-03",
+   "typ": "vysoký podíl dodatků",
+   "ico": [
+    "73257958",
+    "48399477"
+   ],
+   "popis": "Martin Urban: 37 smluv, 14 dodatků (11 se změnou ceny). TM Stav: 71 smluv (259 mil. Kč bez DPH, 2016–2024), 31 dodatků. Doplňuje pravidlo R13 (kumulace dodatků)."
+  },
+  {
+   "id": "P-04",
+   "typ": "oprava/doplnění K-003",
+   "ico": [
+    "26944022"
+   ],
+   "popis": "Smlouva 39830353 (dříve 'k ověření, zda dodatek') je Dodatek č. 1 'D1 0138 2025' k SoD 0138 2025 na lávku Vs-04-Bel (ID návazné smlouvy 33033369): změna termínu plnění a ceny díla +641 950,51 Kč bez DPH (776 760 Kč s DPH), uzavřen 5. 10. 2026. Cena díla tím 69 625 701 Kč bez DPH (+0,93 %).",
+   "zdroje": [
+    "39830353"
+   ]
+  }
+ ]
+}

@@ -856,7 +856,8 @@
     {
       "typ": "městská o.p.s. – zrušení",
       "ico": "26863081",
-      "popis": "AERV o.p.s. (jediný zakladatel Město Vsetín) byla rozhodnutím správní rady 11. 10. 2023 zrušena k 31. 12. 2023, likvidace 2024, výmaz z OR 18. 12. 2024 (ARES-VR). Ve stejném roce město uhradilo 'Dohodu o narovnání AERV' 3 848 880 Kč (RO 8/2023) a peněžitý vklad 3,6 mil. Kč (RO 21/2023). K ověření: účel vkladu do rušené společnosti, předmět narovnání, likvidační zůstatek a jeho vrácení městu, osud nájemní smlouvy 4836/1S/2012."
+      "popis": "AERV o.p.s. (jediný zakladatel Město Vsetín) byla rozhodnutím správní rady 11. 10. 2023 zrušena k 31. 12. 2023, likvidace 2024, výmaz z OR 18. 12. 2024 (ARES-VR). Ve stejném roce město uhradilo 'Dohodu o narovnání AERV' 3 848 880 Kč (RO 8/2023) a peněžitý vklad 3,6 mil. Kč (RO 21/2023). K ověření: účel vkladu do rušené společnosti, předmět narovnání, likvidační zůstatek a jeho vrácení městu, osud nájemní smlouvy 4836/1S/2012.",
+      "stav": "zčásti vysvětleno – kauza K-004 (data/kauzy/K-004_AERV_zruseni.json)"
     }
   ],
   "osoby_z_verejnych_dokumentu": [
