@@ -1,0 +1,41 @@
+{
+ "schema": "vsetin-osint/cenove-body@1",
+ "poznamka": "Normalizovaný vstup pro pravidlo R16 (rozdíl ceny usnesení / smlouva / RO). Hodnoty jsou PŘEVZATY z existujících souborů repa (zdroj = cesta + JSON pointer), nic není dopočteno. Základ: bez_DPH | s_DPH | neurceno; 'rozpocet' = částka akce v rozpočtu po RO (základ dle rozpočtu, typicky vč. neodpočitatelné DPH – předpoklad).",
+ "typy": {
+  "rozpocet": "částka akce v rozpočtu po rozpočtovém opatření",
+  "navrh": "cena v návrhu materiálu pro orgán",
+  "schvaleno": "cena ve schváleném usnesení",
+  "predp_hodnota": "předpokládaná hodnota veřejné zakázky",
+  "smlouva": "cena ve smlouvě / registru smluv"
+ },
+ "akce": [
+  {
+   "akce": "K-002 Tribuna Na Ohradě – nabytí od TJ MEZ",
+   "kauza": "K-002",
+   "body": [
+    {"typ": "navrh", "castka": 34000000, "zaklad": "neurceno", "zdroj": "data/kauzy/K-002_tribuna_ohrada_TJ_MEZ.json#/penize/navrh_cena"},
+    {"typ": "schvaleno", "castka": 33150000, "zaklad": "neurceno", "zdroj": "data/kauzy/K-002_tribuna_ohrada_TJ_MEZ.json#/penize/schvalena_cena"},
+    {"typ": "rozpocet", "castka": 33152000, "zaklad": "rozpocet", "zdroj": "data/kauzy/K-002_tribuna_ohrada_TJ_MEZ.json#/penize/zverejnene_RO_po"},
+    {"typ": "smlouva", "castka": 33150000, "zaklad": "neurceno", "zdroj": "data/kauzy/K-002_tribuna_ohrada_TJ_MEZ.json#/smlouvy_registr/nemovitosti/1/Kc", "ref": "https://www.hlidacstatu.cz/Detail/34141081"}
+   ]
+  },
+  {
+   "akce": "K-003 Lávka Vs-04-Bel – SoD TM Stav (2022)",
+   "kauza": "K-003",
+   "body": [
+    {"typ": "rozpocet", "castka": 23000000, "zaklad": "rozpocet", "zdroj": "data/kauzy/K-003_lavka_Vs-04-Bel.json#/casova_osa/1/popis", "ref": "RO-2022-04"},
+    {"typ": "smlouva", "castka": 19483170, "zaklad": "bez_DPH", "zdroj": "data/kauzy/K-003_lavka_Vs-04-Bel.json#/penize/puvodni_SoD_bez_DPH", "ref": "https://www.hlidacstatu.cz/Detail/19955007"},
+    {"typ": "smlouva", "castka": 23574636, "zaklad": "s_DPH", "zdroj": "data/kauzy/K-003_lavka_Vs-04-Bel.json#/casova_osa/0/popis", "ref": "https://www.hlidacstatu.cz/Detail/19955007"}
+   ]
+  },
+  {
+   "akce": "K-003 Lávka Vs-04-Bel – VZ II / SoD Mitrenga (2025)",
+   "kauza": "K-003",
+   "body": [
+    {"typ": "predp_hodnota", "castka": 72000000, "zaklad": "bez_DPH", "zdroj": "data/kauzy/K-003_lavka_Vs-04-Bel.json#/penize/VZ_II_predp"},
+    {"typ": "smlouva", "castka": 68983751, "zaklad": "bez_DPH", "zdroj": "data/kauzy/K-003_lavka_Vs-04-Bel.json#/penize/nova_SoD_bez_DPH"},
+    {"typ": "schvaleno", "castka": 68983750.54, "zaklad": "bez_DPH", "zdroj": "data/kauzy/K-003_lavka_Vs-04-Bel.json#/penize/VZ_II_vitezna_bez_DPH", "pozn": "vítězná nabídka VZ II (výběr dodavatele)"}
+   ]
+  }
+ ]
+}

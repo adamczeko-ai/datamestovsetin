@@ -1,0 +1,5344 @@
+{
+ "schema": "vsetin-osint/signaly@2",
+ "vygenerovano": "2026-10-23T10:35:33+02:00",
+ "upozorneni": "Signály a nesoulady slouží k prioritizaci ověřování. Nejsou zjištěním pochybení ani obviněním. Stav 'potvrzeno' znamená, že nesoulad v datech byl potvrzen nezávislým zdrojem, nikoli že došlo k porušení předpisů.",
+ "souhrn": {
+  "podle_kodu": {
+   "A-anomalie-dat": 15,
+   "R1-velke-navyseni": 44,
+   "R10-narust-ceny-proti-rozpoctu": 1,
+   "R6-soudni-spory": 3,
+   "R7-dofinancovani-PO": 2,
+   "R15-zruseni-VZ-a-prodlouzeni": 1,
+   "R16-smlouva-nad-rozpoctem": 1,
+   "R2-opakovane-navysovani": 10,
+   "R4-nakup-nemovitosti": 6,
+   "R9-cena-u-predpokladane-hodnoty": 1,
+   "R12-opakovane-zruseni-VZ": 4,
+   "R14-tesne-pod-limitem-VZMR": 3,
+   "R16-cena-navrh-vs-schvaleno": 1,
+   "R3-RM-velka-investice": 9,
+   "R5-dotace-subjektu": 19,
+   "R8-malo-nabidek": 1
+  },
+  "podle_stavu": {
+   "potvrzeno": 3,
+   "novy": 118
+  },
+  "celkem": 121
+ },
+ "osirele_stavy": [],
+ "signaly": [
+  {
+   "id": "A-2025-01",
+   "kod": "A-anomalie-dat",
+   "zdroj_signalu": "anomalie",
+   "zavaznost": "vysoka",
+   "popis": "RO 4/2025 (ZM 35/18/ZM/2025) není vyrovnané: příjmy 1 533 699,66 + financování 75 896 000 ≠ výdaje 76 772 603,72; rozdíl 657 095,94 Kč.",
+   "castka_Kc": null,
+   "dukazy": [
+    {
+     "typ": "datovy_soubor",
+     "ref": "data/rozpocet/2025/rozpoctova_opatreni_2025.json",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    }
+   ],
+   "stav": "potvrzeno",
+   "stav_detail": {
+    "stav": "potvrzeno",
+    "overil": "migrace (text pole 'stav' v data/rozpocet/2025/rozpoctova_opatreni_2025.json)",
+    "datum": "2026-10-23",
+    "oduvodneni": "Potvrzeno dvěma nezávislými zdroji: ZÚ 2025 (rozdíl v pol. 8115 −657 069,39 Kč; odchylka 26,55 Kč od −657 095,94 = samostatná anomálie A-2025-05) a MONITOR FIN 2-12 M 04/2025 (přesně −657 095,94 Kč). Úprava bodu 5 RO 4/2025 rozdíl nevysvětluje (U-03). Revize 2026-10-23: potvrzeno včetně výše.",
+    "dukazy_overeni": [
+     "data/zaverecny_ucet/zaverecny_ucet_2023_2025.json#/rekonciliace_RO_vs_ZU/2025/pol_8115",
+     "data/monitor/kontrola_RO_8115_monitor.json#/kontroly/1"
+    ],
+    "druhe_overeni": null
+   },
+   "puvodni": {
+    "id": "A-2025-01",
+    "zavaznost": "vysoka",
+    "popis": "RO 4/2025 (ZM 35/18/ZM/2025) není vyrovnané: příjmy 1 533 699,66 + financování 75 896 000 ≠ výdaje 76 772 603,72; rozdíl 657 095,94 Kč.",
+    "doklad": "Stejný rozdíl se objevuje v řadě pol. 8115: RO 5 končí na 150 190 284,54, RO 8 začíná na 149 533 188,60 (−657 095,94). Skutečně zaúčtované financování RO 4 tedy pravděpodobně bylo 75 238 904,06 Kč; zveřejněné PDF neodpovídá.",
+    "dalsi_krok": "Porovnat se zápisem/usnesením ZM 18. zasedání a se závěrečným účtem 2025.",
+    "stav": "POTVRZENO závěrečným účtem 2025 (rozdíl ZÚ vs. RO v pol. 8115 = −657 069,39 Kč).",
+    "vysvetleni": "Úprava bodu 5 (Tribuna, −850 tis.) rozdíl nevysvětluje; otevřené – ověřit v zápisu ZM 18 a v účetnictví (RO 4 v systému GINIS/účetní sestava)."
+   }
+  },
+  {
+   "id": "S-f1ef36bbfa",
+   "kod": "R1-velke-navyseni",
+   "zdroj_signalu": "pravidlo",
+   "zavaznost": "vysoka",
+   "popis": "Sportovní areál Ohrada  I. etapa: 5 000 000 → 52 000 000 Kč",
+   "castka_Kc": 47000000.0,
+   "dukazy": [
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2026-12",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "usneseni",
+     "ref": "24,38/26/ZM/2026",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    }
+   ],
+   "stav": "novy",
+   "stav_detail": null,
+   "puvodni": {
+    "kod": "R1-velke-navyseni",
+    "zavaznost": "vysoka",
+    "popis": "Sportovní areál Ohrada  I. etapa: 5 000 000 → 52 000 000 Kč",
+    "castka_Kc": 47000000.0,
+    "odkazy": [
+     "RO-2026-12",
+     "24,38/26/ZM/2026"
+    ]
+   }
+  },
+  {
+   "id": "S-8c8ec2d041",
+   "kod": "R1-velke-navyseni",
+   "zdroj_signalu": "pravidlo",
+   "zavaznost": "vysoka",
+   "popis": "Fotovoltaická elektrárna na budově ZŠ Ohrada - AD  stavební práce: 1 000 000 → 36 300 000 Kč",
+   "castka_Kc": 35300000.0,
+   "dukazy": [
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2026-12",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "usneseni",
+     "ref": "24,38/26/ZM/2026",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    }
+   ],
+   "stav": "novy",
+   "stav_detail": null,
+   "puvodni": {
+    "kod": "R1-velke-navyseni",
+    "zavaznost": "vysoka",
+    "popis": "Fotovoltaická elektrárna na budově ZŠ Ohrada - AD  stavební práce: 1 000 000 → 36 300 000 Kč",
+    "castka_Kc": 35300000.0,
+    "odkazy": [
+     "RO-2026-12",
+     "24,38/26/ZM/2026"
+    ]
+   }
+  },
+  {
+   "id": "S-ae95b1df91",
+   "kod": "R1-velke-navyseni",
+   "zdroj_signalu": "pravidlo",
+   "zavaznost": "vysoka",
+   "popis": "Rekonstrukce hřbitova ve Vsetíně - rozšíření kolumbária  1. etapa: 1 000 000 → 26 200 000 Kč",
+   "castka_Kc": 25200000.0,
+   "dukazy": [
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2026-12",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "usneseni",
+     "ref": "24,38/26/ZM/2026",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    }
+   ],
+   "stav": "novy",
+   "stav_detail": null,
+   "puvodni": {
+    "kod": "R1-velke-navyseni",
+    "zavaznost": "vysoka",
+    "popis": "Rekonstrukce hřbitova ve Vsetíně - rozšíření kolumbária  1. etapa: 1 000 000 → 26 200 000 Kč",
+    "castka_Kc": 25200000.0,
+    "odkazy": [
+     "RO-2026-12",
+     "24,38/26/ZM/2026"
+    ]
+   }
+  },
+  {
+   "id": "S-aeb3ab9624",
+   "kod": "R1-velke-navyseni",
+   "zdroj_signalu": "pravidlo",
+   "zavaznost": "vysoka",
+   "popis": "MŠ Rokytnice - snížení energetické náročnosti: 0 → 25 000 000 Kč",
+   "castka_Kc": 25000000.0,
+   "dukazy": [
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2023-10",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "usneseni",
+     "ref": "19,20/7/ZM/2023",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    }
+   ],
+   "stav": "novy",
+   "stav_detail": null,
+   "puvodni": {
+    "kod": "R1-velke-navyseni",
+    "zavaznost": "vysoka",
+    "popis": "MŠ Rokytnice - snížení energetické náročnosti: 0 → 25 000 000 Kč",
+    "castka_Kc": 25000000.0,
+    "odkazy": [
+     "RO-2023-10",
+     "19,20/7/ZM/2023"
+    ]
+   }
+  },
+  {
+   "id": "S-9b88e8a503",
+   "kod": "R1-velke-navyseni",
+   "zdroj_signalu": "pravidlo",
+   "zavaznost": "vysoka",
+   "popis": "Přednádražní prostor - stavební práce: 60 000 000 → 80 000 000 Kč",
+   "castka_Kc": 20000000.0,
+   "dukazy": [
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2025-13",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "usneseni",
+     "ref": "12,31/20/ZM/2025",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    }
+   ],
+   "stav": "novy",
+   "stav_detail": null,
+   "puvodni": {
+    "kod": "R1-velke-navyseni",
+    "zavaznost": "vysoka",
+    "popis": "Přednádražní prostor - stavební práce: 60 000 000 → 80 000 000 Kč",
+    "castka_Kc": 20000000.0,
+    "odkazy": [
+     "RO-2025-13",
+     "12,31/20/ZM/2025"
+    ]
+   }
+  },
+  {
+   "id": "S-ccc0e88596",
+   "kod": "R1-velke-navyseni",
+   "zdroj_signalu": "pravidlo",
+   "zavaznost": "vysoka",
+   "popis": "Dotace TJ Zbrojovka Vsetín  z.s. - výstavba tenisové haly: 0 → 20 000 000 Kč",
+   "castka_Kc": 20000000.0,
+   "dukazy": [
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2026-07",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "usneseni",
+     "ref": "24/24/ZM/2026",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    }
+   ],
+   "stav": "novy",
+   "stav_detail": null,
+   "puvodni": {
+    "kod": "R1-velke-navyseni",
+    "zavaznost": "vysoka",
+    "popis": "Dotace TJ Zbrojovka Vsetín  z.s. - výstavba tenisové haly: 0 → 20 000 000 Kč",
+    "castka_Kc": 20000000.0,
+    "odkazy": [
+     "RO-2026-07",
+     "24/24/ZM/2026"
+    ]
+   }
+  },
+  {
+   "id": "S-2822c65ed9",
+   "kod": "R10-narust-ceny-proti-rozpoctu",
+   "zdroj_signalu": "pravidlo",
+   "zavaznost": "vysoka",
+   "popis": "Původní SoD 19,48 mil. (TM Stav, 2022) ukončena narovnáním 2,17 mil.; nová SoD 68,98 mil. bez DPH (Mitrenga, 2025) = 3,5× – viz K-003.",
+   "castka_Kc": 68983751,
+   "dukazy": [
+    {
+     "typ": "smlouva",
+     "ref": "https://www.hlidacstatu.cz/Detail/35219709",
+     "url": "https://www.hlidacstatu.cz/Detail/35219709",
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    }
+   ],
+   "stav": "novy",
+   "stav_detail": null,
+   "puvodni": {
+    "kod": "R10-narust-ceny-proti-rozpoctu",
+    "zavaznost": "vysoka",
+    "popis": "Původní SoD 19,48 mil. (TM Stav, 2022) ukončena narovnáním 2,17 mil.; nová SoD 68,98 mil. bez DPH (Mitrenga, 2025) = 3,5× – viz K-003.",
+    "castka_Kc": 68983751,
+    "odkazy": [
+     "https://www.hlidacstatu.cz/Detail/35219709"
+    ]
+   }
+  },
+  {
+   "id": "S-9c5cd6d5a5",
+   "kod": "R6-soudni-spory",
+   "zdroj_signalu": "pravidlo",
+   "zavaznost": "vysoka",
+   "popis": "Náklady řízení ve sporech na ochranu osobnosti: +3 159 962 Kč",
+   "castka_Kc": 3159962.0,
+   "dukazy": [
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2024-15",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "usneseni",
+     "ref": "13/14/ZM/2024",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    }
+   ],
+   "stav": "novy",
+   "stav_detail": null,
+   "puvodni": {
+    "kod": "R6-soudni-spory",
+    "zavaznost": "vysoka",
+    "popis": "Náklady řízení ve sporech na ochranu osobnosti: +3 159 962 Kč",
+    "castka_Kc": 3159962.0,
+    "odkazy": [
+     "RO-2024-15",
+     "13/14/ZM/2024"
+    ]
+   }
+  },
+  {
+   "id": "S-d04fe72b6b",
+   "kod": "R6-soudni-spory",
+   "zdroj_signalu": "pravidlo",
+   "zavaznost": "vysoka",
+   "popis": "Peněžité satisfakce ve sporu na ochranu osobnosti: +1 850 000 Kč",
+   "castka_Kc": 1850000.0,
+   "dukazy": [
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2024-02",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "usneseni",
+     "ref": "12/11/ZM/2024",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    }
+   ],
+   "stav": "novy",
+   "stav_detail": null,
+   "puvodni": {
+    "kod": "R6-soudni-spory",
+    "zavaznost": "vysoka",
+    "popis": "Peněžité satisfakce ve sporu na ochranu osobnosti: +1 850 000 Kč",
+    "castka_Kc": 1850000.0,
+    "odkazy": [
+     "RO-2024-02",
+     "12/11/ZM/2024"
+    ]
+   }
+  },
+  {
+   "id": "S-6e12ef853a",
+   "kod": "R6-soudni-spory",
+   "zdroj_signalu": "pravidlo",
+   "zavaznost": "vysoka",
+   "popis": "Spor na ochranu osobnosti: +745 000 Kč",
+   "castka_Kc": 745000.0,
+   "dukazy": [
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2023-21",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "usneseni",
+     "ref": "18,36/10/ZM/2023",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    }
+   ],
+   "stav": "novy",
+   "stav_detail": null,
+   "puvodni": {
+    "kod": "R6-soudni-spory",
+    "zavaznost": "vysoka",
+    "popis": "Spor na ochranu osobnosti: +745 000 Kč",
+    "castka_Kc": 745000.0,
+    "odkazy": [
+     "RO-2023-21",
+     "18,36/10/ZM/2023"
+    ]
+   }
+  },
+  {
+   "id": "S-64938f36ba",
+   "kod": "R7-dofinancovani-PO",
+   "zdroj_signalu": "pravidlo",
+   "zavaznost": "vysoka",
+   "popis": "TS - dofinancování minulých let: +7 500 000 Kč",
+   "castka_Kc": 7500000.0,
+   "dukazy": [
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2024-10",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "usneseni",
+     "ref": "15,16/13/ZM/2024",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    }
+   ],
+   "stav": "novy",
+   "stav_detail": null,
+   "puvodni": {
+    "kod": "R7-dofinancovani-PO",
+    "zavaznost": "vysoka",
+    "popis": "TS - dofinancování minulých let: +7 500 000 Kč",
+    "castka_Kc": 7500000.0,
+    "odkazy": [
+     "RO-2024-10",
+     "15,16/13/ZM/2024"
+    ]
+   }
+  },
+  {
+   "id": "S-96f46f48bd",
+   "kod": "R7-dofinancovani-PO",
+   "zdroj_signalu": "pravidlo",
+   "zavaznost": "vysoka",
+   "popis": "Individuální dotace - NA CESTĚ  z.s. - dofinancování vícenákladů: +2 000 000 Kč",
+   "castka_Kc": 2000000.0,
+   "dukazy": [
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2026-12",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "usneseni",
+     "ref": "24,38/26/ZM/2026",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    }
+   ],
+   "stav": "novy",
+   "stav_detail": null,
+   "puvodni": {
+    "kod": "R7-dofinancovani-PO",
+    "zavaznost": "vysoka",
+    "popis": "Individuální dotace - NA CESTĚ  z.s. - dofinancování vícenákladů: +2 000 000 Kč",
+    "castka_Kc": 2000000.0,
+    "odkazy": [
+     "RO-2026-12",
+     "24,38/26/ZM/2026"
+    ]
+   }
+  },
+  {
+   "id": "A-2022-02",
+   "kod": "A-anomalie-dat",
+   "zdroj_signalu": "anomalie",
+   "zavaznost": "stredni",
+   "popis": "Nejednotný formát zveřejnění (PDF bez tabulek, .doc) – snižuje strojovou čitelnost a ověřitelnost (open data).",
+   "castka_Kc": null,
+   "dukazy": [
+    {
+     "typ": "datovy_soubor",
+     "ref": "data/rozpocet/2022/rozpoctova_opatreni_2022_narativ.json",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    }
+   ],
+   "stav": "novy",
+   "stav_detail": null,
+   "puvodni": {
+    "id": "A-2022-02",
+    "zavaznost": "stredni",
+    "popis": "Nejednotný formát zveřejnění (PDF bez tabulek, .doc) – snižuje strojovou čitelnost a ověřitelnost (open data)."
+   }
+  },
+  {
+   "id": "A-2023-01",
+   "kod": "A-anomalie-dat",
+   "zdroj_signalu": "anomalie",
+   "zavaznost": "stredni",
+   "popis": "Pol. 8115: RO 5 končí 68 710 667,18, RO 8 začíná 69 148 970,49 (+438 303,31 Kč) bez zveřejněného RO.",
+   "castka_Kc": null,
+   "dukazy": [
+    {
+     "typ": "datovy_soubor",
+     "ref": "data/rozpocet/2023/rozpoctova_opatreni_2023.json",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    }
+   ],
+   "stav": "potvrzeno",
+   "stav_detail": {
+    "stav": "potvrzeno",
+    "overil": "migrace (text pole 'stav' v data/rozpocet/2023/rozpoctova_opatreni_2023.json)",
+    "datum": "2026-10-23",
+    "oduvodneni": "Nesoulad potvrzen ZÚ 2023: rozdíl ZÚ − součet zveřejněných RO v pol. 8115 = +432 789,31 Kč. Částka se NEshoduje přesně se skokem v řadě RO (+438 303,31 Kč); zbytek 5 514,00 Kč nevysvětlen. Revize 2026-10-23: potvrzena existence nesouladu, ne jeho přesná výše.",
+    "dukazy_overeni": [
+     "data/zaverecny_ucet/zaverecny_ucet_2023_2025.json#/rekonciliace_RO_vs_ZU/2023/pol_8115"
+    ],
+    "druhe_overeni": null
+   },
+   "puvodni": {
+    "id": "A-2023-01",
+    "zavaznost": "stredni",
+    "popis": "Pol. 8115: RO 5 končí 68 710 667,18, RO 8 začíná 69 148 970,49 (+438 303,31 Kč) bez zveřejněného RO.",
+    "stav": "Potvrzeno ZÚ 2023: financování ZÚ − RO = +432 789,31 Kč."
+   }
+  },
+  {
+   "id": "A-2023-03",
+   "kod": "A-anomalie-dat",
+   "zdroj_signalu": "anomalie",
+   "zavaznost": "stredni",
+   "popis": "RO 16/2023 nevyrovnané: výdaje +238 965,10, příjmy +36 043 → 202 922,10 Kč (opravy po škodních událostech) bez krytí v RO.",
+   "castka_Kc": null,
+   "dukazy": [
+    {
+     "typ": "datovy_soubor",
+     "ref": "data/rozpocet/2023/rozpoctova_opatreni_2023.json",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    }
+   ],
+   "stav": "novy",
+   "stav_detail": null,
+   "puvodni": {
+    "id": "A-2023-03",
+    "zavaznost": "stredni",
+    "popis": "RO 16/2023 nevyrovnané: výdaje +238 965,10, příjmy +36 043 → 202 922,10 Kč (opravy po škodních událostech) bez krytí v RO.",
+    "stav": "Rezerva 6402/5901 ORJ 0001 klesla mezi RO 10 a RO 20 o 200 000 Kč mimo RO – pravděpodobné krytí, ověřit."
+   }
+  },
+  {
+   "id": "A-2023-04",
+   "kod": "A-anomalie-dat",
+   "zdroj_signalu": "anomalie",
+   "zavaznost": "stredni",
+   "popis": "Chyba v ZÚ 2023, Tabulka 1: u tř. 4 Přijaté transfery uvedena změna 116 616 550,37 Kč (= upravený rozpočet), správně 49 815 550,37; součet 'Příjmy celkem – změny' 108 879 329,93 Kč, správně 42 078 329,93 (dopočteno z upraveného rozpočtu 715 856 329,93).",
+   "castka_Kc": null,
+   "dukazy": [
+    {
+     "typ": "datovy_soubor",
+     "ref": "data/rozpocet/2023/rozpoctova_opatreni_2023.json",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    }
+   ],
+   "stav": "novy",
+   "stav_detail": null,
+   "puvodni": {
+    "id": "A-2023-04",
+    "zavaznost": "stredni",
+    "popis": "Chyba v ZÚ 2023, Tabulka 1: u tř. 4 Přijaté transfery uvedena změna 116 616 550,37 Kč (= upravený rozpočet), správně 49 815 550,37; součet 'Příjmy celkem – změny' 108 879 329,93 Kč, správně 42 078 329,93 (dopočteno z upraveného rozpočtu 715 856 329,93).",
+    "stav": "Chyba v oficiálním dokumentu schváleném ZM (ZÚ 2023 bez výhrad, 12/12/ZM/2024)."
+   }
+  },
+  {
+   "id": "A-2024-01",
+   "kod": "A-anomalie-dat",
+   "zdroj_signalu": "anomalie",
+   "zavaznost": "stredni",
+   "popis": "Pol. 8115 skočila mezi RO 6 (konec 86 382 639,82) a RO 9 (začátek 95 646 278,27) o +9 263 638,45 Kč, přestože RO 7 a 8 financování nemění.",
+   "castka_Kc": null,
+   "dukazy": [
+    {
+     "typ": "datovy_soubor",
+     "ref": "data/rozpocet/2024/rozpoctova_opatreni_2024.json",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    }
+   ],
+   "stav": "potvrzeno",
+   "stav_detail": {
+    "stav": "potvrzeno",
+    "overil": "migrace (text pole 'stav' v data/rozpocet/2024/rozpoctova_opatreni_2024.json)",
+    "datum": "2026-10-23",
+    "oduvodneni": "Nesoulad potvrzen ZÚ 2024: rozdíl ZÚ − RO v pol. 8115 = +9 229 626,45 Kč (příjmy −8 442 620,60; výdaje +793 605,85). Skok v řadě RO je +9 263 638,45 Kč; zbytek 34 012,00 Kč nevysvětlen. Kandidát na vysvětlení: nezveřejněné 'RO č. 10 – DODATEK' (usnesení 16/13/ZM/2024, data/usneseni/usneseni_vazby_RO.json U-02) – neověřeno. Revize 2026-10-23: potvrzena existence nesouladu, ne jeho přesná výše.",
+    "dukazy_overeni": [
+     "data/zaverecny_ucet/zaverecny_ucet_2023_2025.json#/rekonciliace_RO_vs_ZU/2024",
+     "data/usneseni/usneseni_vazby_RO.json#/zjisteni/1"
+    ],
+    "druhe_overeni": null
+   },
+   "puvodni": {
+    "id": "A-2024-01",
+    "zavaznost": "stredni",
+    "popis": "Pol. 8115 skočila mezi RO 6 (konec 86 382 639,82) a RO 9 (začátek 95 646 278,27) o +9 263 638,45 Kč, přestože RO 7 a 8 financování nemění.",
+    "vyklad": "Změna proběhla mimo zveřejněná RO (např. zapojení výsledku 2023 / ZM bez čísla RO). Ověřit v závěrečném účtu 2024 a usneseních ZM duben–červen 2024.",
+    "stav": "POTVRZENO závěrečným účtem 2024 (rozdíl ZÚ vs. RO: příjmy −8 442 620,60; výdaje +793 605,85; 8115 +9 229 626,45 Kč).",
+    "vysvetleni": "Pravděpodobné vysvětlení: ZM 14/12/ZM/2024 stáhlo body RO 6; ZM 16/13/ZM/2024 schválilo nezveřejněný 'RO 10 – DODATEK' (ORJ 0001)."
+   }
+  },
+  {
+   "id": "A-2025-03",
+   "kod": "A-anomalie-dat",
+   "zdroj_signalu": "anomalie",
+   "zavaznost": "stredni",
+   "popis": "RO 1/2025 je zveřejněno jako 'neschváleno', ale PDF je prázdná stránka – obsah neschváleného návrhu není dohledatelný.",
+   "castka_Kc": null,
+   "dukazy": [
+    {
+     "typ": "datovy_soubor",
+     "ref": "data/rozpocet/2025/rozpoctova_opatreni_2025.json",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    }
+   ],
+   "stav": "novy",
+   "stav_detail": null,
+   "puvodni": {
+    "id": "A-2025-03",
+    "zavaznost": "stredni",
+    "popis": "RO 1/2025 je zveřejněno jako 'neschváleno', ale PDF je prázdná stránka – obsah neschváleného návrhu není dohledatelný.",
+    "dalsi_krok": "Dohledat v materiálech RM (leden 2025)."
+   }
+  },
+  {
+   "id": "S-14c234b64a",
+   "kod": "R1-velke-navyseni",
+   "zdroj_signalu": "pravidlo",
+   "zavaznost": "stredni",
+   "popis": "Přednádražní prostor  etapa 1.A  1.B - stavební práce: 36 416 740 → 52 416 740 Kč",
+   "castka_Kc": 16000000.0,
+   "dukazy": [
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2024-15",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "usneseni",
+     "ref": "13/14/ZM/2024",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    }
+   ],
+   "stav": "novy",
+   "stav_detail": null,
+   "puvodni": {
+    "kod": "R1-velke-navyseni",
+    "zavaznost": "stredni",
+    "popis": "Přednádražní prostor  etapa 1.A  1.B - stavební práce: 36 416 740 → 52 416 740 Kč",
+    "castka_Kc": 16000000.0,
+    "odkazy": [
+     "RO-2024-15",
+     "13/14/ZM/2024"
+    ]
+   }
+  },
+  {
+   "id": "S-ff4663871f",
+   "kod": "R1-velke-navyseni",
+   "zdroj_signalu": "pravidlo",
+   "zavaznost": "stredni",
+   "popis": "Oprava MK Ohrada a U Huti - III. etapa - stavební práce: 0 → 16 000 000 Kč",
+   "castka_Kc": 16000000.0,
+   "dukazy": [
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2025-04",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "usneseni",
+     "ref": "35/18/ZM/2025",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    }
+   ],
+   "stav": "novy",
+   "stav_detail": null,
+   "puvodni": {
+    "kod": "R1-velke-navyseni",
+    "zavaznost": "stredni",
+    "popis": "Oprava MK Ohrada a U Huti - III. etapa - stavební práce: 0 → 16 000 000 Kč",
+    "castka_Kc": 16000000.0,
+    "odkazy": [
+     "RO-2025-04",
+     "35/18/ZM/2025"
+    ]
+   }
+  },
+  {
+   "id": "S-d3bb7f594c",
+   "kod": "R1-velke-navyseni",
+   "zdroj_signalu": "pravidlo",
+   "zavaznost": "stredni",
+   "popis": "Hřiště Pod Pecníkem - výměna umělého trávníku: 600 000 → 15 200 000 Kč",
+   "castka_Kc": 14600000.0,
+   "dukazy": [
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2026-10",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "usneseni",
+     "ref": "19,20/94/RM/2026",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    }
+   ],
+   "stav": "novy",
+   "stav_detail": null,
+   "puvodni": {
+    "kod": "R1-velke-navyseni",
+    "zavaznost": "stredni",
+    "popis": "Hřiště Pod Pecníkem - výměna umělého trávníku: 600 000 → 15 200 000 Kč",
+    "castka_Kc": 14600000.0,
+    "odkazy": [
+     "RO-2026-10",
+     "19,20/94/RM/2026"
+    ]
+   }
+  },
+  {
+   "id": "S-92733cef36",
+   "kod": "R1-velke-navyseni",
+   "zdroj_signalu": "pravidlo",
+   "zavaznost": "stredni",
+   "popis": "Dotace Domeček pro MŠ a ZŠ Luh: 0 → 14 151 325 Kč",
+   "castka_Kc": 14151325.03,
+   "dukazy": [
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2026-03",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "usneseni",
+     "ref": "6/88/RM/2026",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    }
+   ],
+   "stav": "novy",
+   "stav_detail": null,
+   "puvodni": {
+    "kod": "R1-velke-navyseni",
+    "zavaznost": "stredni",
+    "popis": "Dotace Domeček pro MŠ a ZŠ Luh: 0 → 14 151 325 Kč",
+    "castka_Kc": 14151325.03,
+    "odkazy": [
+     "RO-2026-03",
+     "6/88/RM/2026"
+    ]
+   }
+  },
+  {
+   "id": "S-991dac75b1",
+   "kod": "R1-velke-navyseni",
+   "zdroj_signalu": "pravidlo",
+   "zavaznost": "stredni",
+   "popis": "Zanádražní prostor - stavební práce: 50 000 000 → 63 000 000 Kč",
+   "castka_Kc": 13000000.0,
+   "dukazy": [
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2024-15",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "usneseni",
+     "ref": "13/14/ZM/2024",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    }
+   ],
+   "stav": "novy",
+   "stav_detail": null,
+   "puvodni": {
+    "kod": "R1-velke-navyseni",
+    "zavaznost": "stredni",
+    "popis": "Zanádražní prostor - stavební práce: 50 000 000 → 63 000 000 Kč",
+    "castka_Kc": 13000000.0,
+    "odkazy": [
+     "RO-2024-15",
+     "13/14/ZM/2024"
+    ]
+   }
+  },
+  {
+   "id": "S-221a183192",
+   "kod": "R1-velke-navyseni",
+   "zdroj_signalu": "pravidlo",
+   "zavaznost": "stredni",
+   "popis": "Oprava lávky Vs-01-Bel v Lázkách - stavební práce: 0 → 12 800 000 Kč",
+   "castka_Kc": 12800000.0,
+   "dukazy": [
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2026-12",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "usneseni",
+     "ref": "24,38/26/ZM/2026",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    }
+   ],
+   "stav": "novy",
+   "stav_detail": null,
+   "puvodni": {
+    "kod": "R1-velke-navyseni",
+    "zavaznost": "stredni",
+    "popis": "Oprava lávky Vs-01-Bel v Lázkách - stavební práce: 0 → 12 800 000 Kč",
+    "castka_Kc": 12800000.0,
+    "odkazy": [
+     "RO-2026-12",
+     "24,38/26/ZM/2026"
+    ]
+   }
+  },
+  {
+   "id": "S-72dfbff616",
+   "kod": "R1-velke-navyseni",
+   "zdroj_signalu": "pravidlo",
+   "zavaznost": "stredni",
+   "popis": "Vzduchotechnika DK Vsetín (velký sál + kuchyň): 0 → 12 000 000 Kč",
+   "castka_Kc": 12000000.0,
+   "dukazy": [
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2025-08",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "usneseni",
+     "ref": "17,18/19/ZM/2025",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    }
+   ],
+   "stav": "novy",
+   "stav_detail": null,
+   "puvodni": {
+    "kod": "R1-velke-navyseni",
+    "zavaznost": "stredni",
+    "popis": "Vzduchotechnika DK Vsetín (velký sál + kuchyň): 0 → 12 000 000 Kč",
+    "castka_Kc": 12000000.0,
+    "odkazy": [
+     "RO-2025-08",
+     "17,18/19/ZM/2025"
+    ]
+   }
+  },
+  {
+   "id": "S-f9f16c27cb",
+   "kod": "R1-velke-navyseni",
+   "zdroj_signalu": "pravidlo",
+   "zavaznost": "stredni",
+   "popis": "Městské lázně - vzduchotechnika: 350 000 → 11 850 000 Kč",
+   "castka_Kc": 11500000.0,
+   "dukazy": [
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2026-11",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "usneseni",
+     "ref": "44,45,46/98/RM/2026",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    }
+   ],
+   "stav": "novy",
+   "stav_detail": null,
+   "puvodni": {
+    "kod": "R1-velke-navyseni",
+    "zavaznost": "stredni",
+    "popis": "Městské lázně - vzduchotechnika: 350 000 → 11 850 000 Kč",
+    "castka_Kc": 11500000.0,
+    "odkazy": [
+     "RO-2026-11",
+     "44,45,46/98/RM/2026"
+    ]
+   }
+  },
+  {
+   "id": "S-b84a66082c",
+   "kod": "R1-velke-navyseni",
+   "zdroj_signalu": "pravidlo",
+   "zavaznost": "stredni",
+   "popis": "Stavební úpravy MVK  TIC - investiční část: 2 444 000 → 13 734 000 Kč",
+   "castka_Kc": 11290000.0,
+   "dukazy": [
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2025-04",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "usneseni",
+     "ref": "35/18/ZM/2025",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    }
+   ],
+   "stav": "novy",
+   "stav_detail": null,
+   "puvodni": {
+    "kod": "R1-velke-navyseni",
+    "zavaznost": "stredni",
+    "popis": "Stavební úpravy MVK  TIC - investiční část: 2 444 000 → 13 734 000 Kč",
+    "castka_Kc": 11290000.0,
+    "odkazy": [
+     "RO-2025-04",
+     "35/18/ZM/2025"
+    ]
+   }
+  },
+  {
+   "id": "S-4cc4948213",
+   "kod": "R1-velke-navyseni",
+   "zdroj_signalu": "pravidlo",
+   "zavaznost": "stredni",
+   "popis": "Výkup pozemku s tribunou + přístavba - Ohrada: 23 002 000 → 33 152 000 Kč",
+   "castka_Kc": 10150000.0,
+   "dukazy": [
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2025-04",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "usneseni",
+     "ref": "35/18/ZM/2025",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    }
+   ],
+   "stav": "novy",
+   "stav_detail": null,
+   "puvodni": {
+    "kod": "R1-velke-navyseni",
+    "zavaznost": "stredni",
+    "popis": "Výkup pozemku s tribunou + přístavba - Ohrada: 23 002 000 → 33 152 000 Kč",
+    "castka_Kc": 10150000.0,
+    "odkazy": [
+     "RO-2025-04",
+     "35/18/ZM/2025"
+    ]
+   }
+  },
+  {
+   "id": "S-5038819b38",
+   "kod": "R1-velke-navyseni",
+   "zdroj_signalu": "pravidlo",
+   "zavaznost": "stredni",
+   "popis": "Městské lázně 2023: 0 → 10 000 000 Kč",
+   "castka_Kc": 10000000.0,
+   "dukazy": [
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2023-05",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "usneseni",
+     "ref": "19/5/ZM/2023",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    }
+   ],
+   "stav": "novy",
+   "stav_detail": null,
+   "puvodni": {
+    "kod": "R1-velke-navyseni",
+    "zavaznost": "stredni",
+    "popis": "Městské lázně 2023: 0 → 10 000 000 Kč",
+    "castka_Kc": 10000000.0,
+    "odkazy": [
+     "RO-2023-05",
+     "19/5/ZM/2023"
+    ]
+   }
+  },
+  {
+   "id": "S-8e4b841210",
+   "kod": "R1-velke-navyseni",
+   "zdroj_signalu": "pravidlo",
+   "zavaznost": "stredni",
+   "popis": "Oprava MK Ohrada + U Huti  I. etapa: 0 → 10 000 000 Kč",
+   "castka_Kc": 10000000.0,
+   "dukazy": [
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2023-10",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "usneseni",
+     "ref": "19,20/7/ZM/2023",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    }
+   ],
+   "stav": "novy",
+   "stav_detail": null,
+   "puvodni": {
+    "kod": "R1-velke-navyseni",
+    "zavaznost": "stredni",
+    "popis": "Oprava MK Ohrada + U Huti  I. etapa: 0 → 10 000 000 Kč",
+    "castka_Kc": 10000000.0,
+    "odkazy": [
+     "RO-2023-10",
+     "19,20/7/ZM/2023"
+    ]
+   }
+  },
+  {
+   "id": "S-cadffd199d",
+   "kod": "R1-velke-navyseni",
+   "zdroj_signalu": "pravidlo",
+   "zavaznost": "stredni",
+   "popis": "Lávka u průmyslovky Vs-04-Bel: 0 → 10 000 000 Kč",
+   "castka_Kc": 10000000.0,
+   "dukazy": [
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2023-02",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "usneseni",
+     "ref": "12,24/4/ZM/2023",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    }
+   ],
+   "stav": "novy",
+   "stav_detail": null,
+   "puvodni": {
+    "kod": "R1-velke-navyseni",
+    "zavaznost": "stredni",
+    "popis": "Lávka u průmyslovky Vs-04-Bel: 0 → 10 000 000 Kč",
+    "castka_Kc": 10000000.0,
+    "odkazy": [
+     "RO-2023-02",
+     "12,24/4/ZM/2023"
+    ]
+   }
+  },
+  {
+   "id": "S-791db1466b",
+   "kod": "R1-velke-navyseni",
+   "zdroj_signalu": "pravidlo",
+   "zavaznost": "stredni",
+   "popis": "Cyklostezka Rokytenka od Kotrly po hranici: 200 000 → 9 700 000 Kč",
+   "castka_Kc": 9500000.0,
+   "dukazy": [
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2023-05",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "usneseni",
+     "ref": "19/5/ZM/2023",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    }
+   ],
+   "stav": "novy",
+   "stav_detail": null,
+   "puvodni": {
+    "kod": "R1-velke-navyseni",
+    "zavaznost": "stredni",
+    "popis": "Cyklostezka Rokytenka od Kotrly po hranici: 200 000 → 9 700 000 Kč",
+    "castka_Kc": 9500000.0,
+    "odkazy": [
+     "RO-2023-05",
+     "19/5/ZM/2023"
+    ]
+   }
+  },
+  {
+   "id": "S-23ad839111",
+   "kod": "R1-velke-navyseni",
+   "zdroj_signalu": "pravidlo",
+   "zavaznost": "stredni",
+   "popis": "Parkovací místa pod nadjezdem: 6 000 000 → 14 000 000 Kč",
+   "castka_Kc": 8000000.0,
+   "dukazy": [
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2025-04",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "usneseni",
+     "ref": "35/18/ZM/2025",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    }
+   ],
+   "stav": "novy",
+   "stav_detail": null,
+   "puvodni": {
+    "kod": "R1-velke-navyseni",
+    "zavaznost": "stredni",
+    "popis": "Parkovací místa pod nadjezdem: 6 000 000 → 14 000 000 Kč",
+    "castka_Kc": 8000000.0,
+    "odkazy": [
+     "RO-2025-04",
+     "35/18/ZM/2025"
+    ]
+   }
+  },
+  {
+   "id": "S-eb0413df81",
+   "kod": "R1-velke-navyseni",
+   "zdroj_signalu": "pravidlo",
+   "zavaznost": "stredni",
+   "popis": "TS - dofinancování minulých let: 0 → 7 500 000 Kč",
+   "castka_Kc": 7500000.0,
+   "dukazy": [
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2024-10",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "usneseni",
+     "ref": "15,16/13/ZM/2024",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    }
+   ],
+   "stav": "novy",
+   "stav_detail": null,
+   "puvodni": {
+    "kod": "R1-velke-navyseni",
+    "zavaznost": "stredni",
+    "popis": "TS - dofinancování minulých let: 0 → 7 500 000 Kč",
+    "castka_Kc": 7500000.0,
+    "odkazy": [
+     "RO-2024-10",
+     "15,16/13/ZM/2024"
+    ]
+   }
+  },
+  {
+   "id": "S-d5aa93eec1",
+   "kod": "R1-velke-navyseni",
+   "zdroj_signalu": "pravidlo",
+   "zavaznost": "stredni",
+   "popis": "Zvýšení limitu na platy+odvody: 111 345 000 → 118 768 000 Kč",
+   "castka_Kc": 7423000.0,
+   "dukazy": [
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2026-08",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "usneseni",
+     "ref": "25/92/RM/2026",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    }
+   ],
+   "stav": "novy",
+   "stav_detail": null,
+   "puvodni": {
+    "kod": "R1-velke-navyseni",
+    "zavaznost": "stredni",
+    "popis": "Zvýšení limitu na platy+odvody: 111 345 000 → 118 768 000 Kč",
+    "castka_Kc": 7423000.0,
+    "odkazy": [
+     "RO-2026-08",
+     "25/92/RM/2026"
+    ]
+   }
+  },
+  {
+   "id": "S-185e1d25fd",
+   "kod": "R1-velke-navyseni",
+   "zdroj_signalu": "pravidlo",
+   "zavaznost": "stredni",
+   "popis": "Chodník pod zámkem - PD a stavební práce: 5 000 000 → 12 000 000 Kč",
+   "castka_Kc": 7000000.0,
+   "dukazy": [
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2025-04",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "usneseni",
+     "ref": "35/18/ZM/2025",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    }
+   ],
+   "stav": "novy",
+   "stav_detail": null,
+   "puvodni": {
+    "kod": "R1-velke-navyseni",
+    "zavaznost": "stredni",
+    "popis": "Chodník pod zámkem - PD a stavební práce: 5 000 000 → 12 000 000 Kč",
+    "castka_Kc": 7000000.0,
+    "odkazy": [
+     "RO-2025-04",
+     "35/18/ZM/2025"
+    ]
+   }
+  },
+  {
+   "id": "S-1fe5e71854",
+   "kod": "R1-velke-navyseni",
+   "zdroj_signalu": "pravidlo",
+   "zavaznost": "stredni",
+   "popis": "Oprava MK a mostu VS-15-Jcm v Července (za objektem Trimil): 0 → 7 000 000 Kč",
+   "castka_Kc": 7000000.0,
+   "dukazy": [
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2025-08",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "usneseni",
+     "ref": "17,18/19/ZM/2025",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    }
+   ],
+   "stav": "novy",
+   "stav_detail": null,
+   "puvodni": {
+    "kod": "R1-velke-navyseni",
+    "zavaznost": "stredni",
+    "popis": "Oprava MK a mostu VS-15-Jcm v Července (za objektem Trimil): 0 → 7 000 000 Kč",
+    "castka_Kc": 7000000.0,
+    "odkazy": [
+     "RO-2025-08",
+     "17,18/19/ZM/2025"
+    ]
+   }
+  },
+  {
+   "id": "S-1fe5e71854-2",
+   "kod": "R1-velke-navyseni",
+   "zdroj_signalu": "pravidlo",
+   "zavaznost": "stredni",
+   "popis": "Oprava MK Rokytnice - PD a stavební práce: 0 → 7 000 000 Kč",
+   "castka_Kc": 7000000.0,
+   "dukazy": [
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2025-08",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "usneseni",
+     "ref": "17,18/19/ZM/2025",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    }
+   ],
+   "stav": "novy",
+   "stav_detail": null,
+   "puvodni": {
+    "kod": "R1-velke-navyseni",
+    "zavaznost": "stredni",
+    "popis": "Oprava MK Rokytnice - PD a stavební práce: 0 → 7 000 000 Kč",
+    "castka_Kc": 7000000.0,
+    "odkazy": [
+     "RO-2025-08",
+     "17,18/19/ZM/2025"
+    ]
+   }
+  },
+  {
+   "id": "S-7b8e621e88",
+   "kod": "R1-velke-navyseni",
+   "zdroj_signalu": "pravidlo",
+   "zavaznost": "stredni",
+   "popis": "Daň z příjmu právnických osob hrazená městem Vsetín: 16 000 000 → 22 737 000 Kč",
+   "castka_Kc": 6737000.0,
+   "dukazy": [
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2025-08",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "usneseni",
+     "ref": "17,18/19/ZM/2025",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    }
+   ],
+   "stav": "novy",
+   "stav_detail": null,
+   "puvodni": {
+    "kod": "R1-velke-navyseni",
+    "zavaznost": "stredni",
+    "popis": "Daň z příjmu právnických osob hrazená městem Vsetín: 16 000 000 → 22 737 000 Kč",
+    "castka_Kc": 6737000.0,
+    "odkazy": [
+     "RO-2025-08",
+     "17,18/19/ZM/2025"
+    ]
+   }
+  },
+  {
+   "id": "S-8acf4611ea",
+   "kod": "R1-velke-navyseni",
+   "zdroj_signalu": "pravidlo",
+   "zavaznost": "stredni",
+   "popis": "Cyklostezka Rokytenka I. část: 100 000 → 6 600 000 Kč",
+   "castka_Kc": 6500000.0,
+   "dukazy": [
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2023-05",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "usneseni",
+     "ref": "19/5/ZM/2023",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    }
+   ],
+   "stav": "novy",
+   "stav_detail": null,
+   "puvodni": {
+    "kod": "R1-velke-navyseni",
+    "zavaznost": "stredni",
+    "popis": "Cyklostezka Rokytenka I. část: 100 000 → 6 600 000 Kč",
+    "castka_Kc": 6500000.0,
+    "odkazy": [
+     "RO-2023-05",
+     "19/5/ZM/2023"
+    ]
+   }
+  },
+  {
+   "id": "S-2227b5ab88",
+   "kod": "R1-velke-navyseni",
+   "zdroj_signalu": "pravidlo",
+   "zavaznost": "stredni",
+   "popis": "Nabytí pozemků včetně objektu občanské vybavenosti (hospoda U Marka): 0 → 6 014 500 Kč",
+   "castka_Kc": 6014500.0,
+   "dukazy": [
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2026-09",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "usneseni",
+     "ref": "16,17/93/RM/2026",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    }
+   ],
+   "stav": "novy",
+   "stav_detail": null,
+   "puvodni": {
+    "kod": "R1-velke-navyseni",
+    "zavaznost": "stredni",
+    "popis": "Nabytí pozemků včetně objektu občanské vybavenosti (hospoda U Marka): 0 → 6 014 500 Kč",
+    "castka_Kc": 6014500.0,
+    "odkazy": [
+     "RO-2026-09",
+     "16,17/93/RM/2026"
+    ]
+   }
+  },
+  {
+   "id": "S-86e7281a2c",
+   "kod": "R1-velke-navyseni",
+   "zdroj_signalu": "pravidlo",
+   "zavaznost": "stredni",
+   "popis": "Cyklostezka Rokytenka - okolo HZ: 173 000 → 6 173 000 Kč",
+   "castka_Kc": 6000000.0,
+   "dukazy": [
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2023-05",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "usneseni",
+     "ref": "19/5/ZM/2023",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    }
+   ],
+   "stav": "novy",
+   "stav_detail": null,
+   "puvodni": {
+    "kod": "R1-velke-navyseni",
+    "zavaznost": "stredni",
+    "popis": "Cyklostezka Rokytenka - okolo HZ: 173 000 → 6 173 000 Kč",
+    "castka_Kc": 6000000.0,
+    "odkazy": [
+     "RO-2023-05",
+     "19/5/ZM/2023"
+    ]
+   }
+  },
+  {
+   "id": "S-5da0426bba",
+   "kod": "R1-velke-navyseni",
+   "zdroj_signalu": "pravidlo",
+   "zavaznost": "stredni",
+   "popis": "Navýšení neinvestičního příspěvku: 7 500 000 → 12 750 000 Kč",
+   "castka_Kc": 5250000.0,
+   "dukazy": [
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2024-10",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "usneseni",
+     "ref": "15,16/13/ZM/2024",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    }
+   ],
+   "stav": "novy",
+   "stav_detail": null,
+   "puvodni": {
+    "kod": "R1-velke-navyseni",
+    "zavaznost": "stredni",
+    "popis": "Navýšení neinvestičního příspěvku: 7 500 000 → 12 750 000 Kč",
+    "castka_Kc": 5250000.0,
+    "odkazy": [
+     "RO-2024-10",
+     "15,16/13/ZM/2024"
+    ]
+   }
+  },
+  {
+   "id": "S-4f74e8d187",
+   "kod": "R1-velke-navyseni",
+   "zdroj_signalu": "pravidlo",
+   "zavaznost": "stredni",
+   "popis": "Účelový investiční příspěvek - vánoční osvětlení: 0 → 5 000 000 Kč",
+   "castka_Kc": 5000000.0,
+   "dukazy": [
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2025-13",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "usneseni",
+     "ref": "12,31/20/ZM/2025",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    }
+   ],
+   "stav": "novy",
+   "stav_detail": null,
+   "puvodni": {
+    "kod": "R1-velke-navyseni",
+    "zavaznost": "stredni",
+    "popis": "Účelový investiční příspěvek - vánoční osvětlení: 0 → 5 000 000 Kč",
+    "castka_Kc": 5000000.0,
+    "odkazy": [
+     "RO-2025-13",
+     "12,31/20/ZM/2025"
+    ]
+   }
+  },
+  {
+   "id": "S-bb1ff0e0fe",
+   "kod": "R1-velke-navyseni",
+   "zdroj_signalu": "pravidlo",
+   "zavaznost": "stredni",
+   "popis": "Stavební úpravy MVK - navýšení výdajů o rekonstrukci střechy budovy čp. 1356: 36 580 000 → 41 580 000 Kč",
+   "castka_Kc": 5000000.0,
+   "dukazy": [
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2025-08",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "usneseni",
+     "ref": "17,18/19/ZM/2025",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    }
+   ],
+   "stav": "novy",
+   "stav_detail": null,
+   "puvodni": {
+    "kod": "R1-velke-navyseni",
+    "zavaznost": "stredni",
+    "popis": "Stavební úpravy MVK - navýšení výdajů o rekonstrukci střechy budovy čp. 1356: 36 580 000 → 41 580 000 Kč",
+    "castka_Kc": 5000000.0,
+    "odkazy": [
+     "RO-2025-08",
+     "17,18/19/ZM/2025"
+    ]
+   }
+  },
+  {
+   "id": "S-cea5631c11",
+   "kod": "R1-velke-navyseni",
+   "zdroj_signalu": "pravidlo",
+   "zavaznost": "stredni",
+   "popis": "Odstranění lávky VS-01-Bol přes silnici I/57 a III/05736  Vsetín  Bobrky: 400 000 → 5 400 000 Kč",
+   "castka_Kc": 5000000.0,
+   "dukazy": [
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2025-04",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "usneseni",
+     "ref": "35/18/ZM/2025",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    }
+   ],
+   "stav": "novy",
+   "stav_detail": null,
+   "puvodni": {
+    "kod": "R1-velke-navyseni",
+    "zavaznost": "stredni",
+    "popis": "Odstranění lávky VS-01-Bol přes silnici I/57 a III/05736  Vsetín  Bobrky: 400 000 → 5 400 000 Kč",
+    "castka_Kc": 5000000.0,
+    "odkazy": [
+     "RO-2025-04",
+     "35/18/ZM/2025"
+    ]
+   }
+  },
+  {
+   "id": "S-008e331a9a",
+   "kod": "R1-velke-navyseni",
+   "zdroj_signalu": "pravidlo",
+   "zavaznost": "stredni",
+   "popis": "Stavební úpravy DPS 1579/1580 ul. Pod Žamboškou: 4 000 000 → 8 500 000 Kč",
+   "castka_Kc": 4500000.0,
+   "dukazy": [
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2025-08",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "usneseni",
+     "ref": "17,18/19/ZM/2025",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    }
+   ],
+   "stav": "novy",
+   "stav_detail": null,
+   "puvodni": {
+    "kod": "R1-velke-navyseni",
+    "zavaznost": "stredni",
+    "popis": "Stavební úpravy DPS 1579/1580 ul. Pod Žamboškou: 4 000 000 → 8 500 000 Kč",
+    "castka_Kc": 4500000.0,
+    "odkazy": [
+     "RO-2025-08",
+     "17,18/19/ZM/2025"
+    ]
+   }
+  },
+  {
+   "id": "S-e422a29233",
+   "kod": "R1-velke-navyseni",
+   "zdroj_signalu": "pravidlo",
+   "zavaznost": "stredni",
+   "popis": "Vzduchotechnika ve velkém sále DK Vsetín  PD a stavební práce: 2 000 000 → 6 000 000 Kč",
+   "castka_Kc": 4000000.0,
+   "dukazy": [
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2025-04",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "usneseni",
+     "ref": "35/18/ZM/2025",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    }
+   ],
+   "stav": "novy",
+   "stav_detail": null,
+   "puvodni": {
+    "kod": "R1-velke-navyseni",
+    "zavaznost": "stredni",
+    "popis": "Vzduchotechnika ve velkém sále DK Vsetín  PD a stavební práce: 2 000 000 → 6 000 000 Kč",
+    "castka_Kc": 4000000.0,
+    "odkazy": [
+     "RO-2025-04",
+     "35/18/ZM/2025"
+    ]
+   }
+  },
+  {
+   "id": "S-86b6d85787",
+   "kod": "R1-velke-navyseni",
+   "zdroj_signalu": "pravidlo",
+   "zavaznost": "stredni",
+   "popis": "Náklady řízení ve sporech na ochranu osobnosti: 2 050 000 → 5 209 962 Kč",
+   "castka_Kc": 3159962.0,
+   "dukazy": [
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2024-15",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "usneseni",
+     "ref": "13/14/ZM/2024",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    }
+   ],
+   "stav": "novy",
+   "stav_detail": null,
+   "puvodni": {
+    "kod": "R1-velke-navyseni",
+    "zavaznost": "stredni",
+    "popis": "Náklady řízení ve sporech na ochranu osobnosti: 2 050 000 → 5 209 962 Kč",
+    "castka_Kc": 3159962.0,
+    "odkazy": [
+     "RO-2024-15",
+     "13/14/ZM/2024"
+    ]
+   }
+  },
+  {
+   "id": "S-500683e908",
+   "kod": "R1-velke-navyseni",
+   "zdroj_signalu": "pravidlo",
+   "zavaznost": "stredni",
+   "popis": "Stavební úpravy mostu VS-07-Rom (most do vnitrobloku budovy č.p. 413): 1 210 000 → 3 710 000 Kč",
+   "castka_Kc": 2500000.0,
+   "dukazy": [
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2026-05",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "usneseni",
+     "ref": "4/90/RM/2026",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    }
+   ],
+   "stav": "novy",
+   "stav_detail": null,
+   "puvodni": {
+    "kod": "R1-velke-navyseni",
+    "zavaznost": "stredni",
+    "popis": "Stavební úpravy mostu VS-07-Rom (most do vnitrobloku budovy č.p. 413): 1 210 000 → 3 710 000 Kč",
+    "castka_Kc": 2500000.0,
+    "odkazy": [
+     "RO-2026-05",
+     "4/90/RM/2026"
+    ]
+   }
+  },
+  {
+   "id": "S-4a58be3efd",
+   "kod": "R1-velke-navyseni",
+   "zdroj_signalu": "pravidlo",
+   "zavaznost": "stredni",
+   "popis": "Úsekové měření rychlosti v Ústí u Vsetína: 1 000 000 → 3 091 000 Kč",
+   "castka_Kc": 2091000.0,
+   "dukazy": [
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2023-13",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "usneseni",
+     "ref": "19,35/8/ZM/2023",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    }
+   ],
+   "stav": "novy",
+   "stav_detail": null,
+   "puvodni": {
+    "kod": "R1-velke-navyseni",
+    "zavaznost": "stredni",
+    "popis": "Úsekové měření rychlosti v Ústí u Vsetína: 1 000 000 → 3 091 000 Kč",
+    "castka_Kc": 2091000.0,
+    "odkazy": [
+     "RO-2023-13",
+     "19,35/8/ZM/2023"
+    ]
+   }
+  },
+  {
+   "id": "S-b87eb4a7bf",
+   "kod": "R1-velke-navyseni",
+   "zdroj_signalu": "pravidlo",
+   "zavaznost": "stredni",
+   "popis": "Sportovní areál Ohrada - PD: 2 000 000 → 4 000 000 Kč",
+   "castka_Kc": 2000000.0,
+   "dukazy": [
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2025-04",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "usneseni",
+     "ref": "35/18/ZM/2025",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    }
+   ],
+   "stav": "novy",
+   "stav_detail": null,
+   "puvodni": {
+    "kod": "R1-velke-navyseni",
+    "zavaznost": "stredni",
+    "popis": "Sportovní areál Ohrada - PD: 2 000 000 → 4 000 000 Kč",
+    "castka_Kc": 2000000.0,
+    "odkazy": [
+     "RO-2025-04",
+     "35/18/ZM/2025"
+    ]
+   }
+  },
+  {
+   "id": "S-d784e516bd",
+   "kod": "R1-velke-navyseni",
+   "zdroj_signalu": "pravidlo",
+   "zavaznost": "stredni",
+   "popis": "ZŠ Sychrov  neinvestiční příspěvek na odpisy: 1 400 000 → 3 378 646 Kč",
+   "castka_Kc": 1978646.0,
+   "dukazy": [
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2023-08",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "usneseni",
+     "ref": "12/6/ZM/2023",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    }
+   ],
+   "stav": "novy",
+   "stav_detail": null,
+   "puvodni": {
+    "kod": "R1-velke-navyseni",
+    "zavaznost": "stredni",
+    "popis": "ZŠ Sychrov  neinvestiční příspěvek na odpisy: 1 400 000 → 3 378 646 Kč",
+    "castka_Kc": 1978646.0,
+    "odkazy": [
+     "RO-2023-08",
+     "12/6/ZM/2023"
+    ]
+   }
+  },
+  {
+   "id": "S-b536b6e66d",
+   "kod": "R1-velke-navyseni",
+   "zdroj_signalu": "pravidlo",
+   "zavaznost": "stredni",
+   "popis": "Stavební úpravy MVK  TIC - investiční část: 1 500 000 → 3 050 000 Kč",
+   "castka_Kc": 1550000.0,
+   "dukazy": [
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2025-04",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "usneseni",
+     "ref": "35/18/ZM/2025",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    }
+   ],
+   "stav": "novy",
+   "stav_detail": null,
+   "puvodni": {
+    "kod": "R1-velke-navyseni",
+    "zavaznost": "stredni",
+    "popis": "Stavební úpravy MVK  TIC - investiční část: 1 500 000 → 3 050 000 Kč",
+    "castka_Kc": 1550000.0,
+    "odkazy": [
+     "RO-2025-04",
+     "35/18/ZM/2025"
+    ]
+   }
+  },
+  {
+   "id": "S-76ff28c06e",
+   "kod": "R1-velke-navyseni",
+   "zdroj_signalu": "pravidlo",
+   "zavaznost": "stredni",
+   "popis": "Stezka bosou nohou v arboretu Semetín: 1 000 000 → 2 000 000 Kč",
+   "castka_Kc": 1000000.0,
+   "dukazy": [
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2023-10",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "usneseni",
+     "ref": "19,20/7/ZM/2023",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    }
+   ],
+   "stav": "novy",
+   "stav_detail": null,
+   "puvodni": {
+    "kod": "R1-velke-navyseni",
+    "zavaznost": "stredni",
+    "popis": "Stezka bosou nohou v arboretu Semetín: 1 000 000 → 2 000 000 Kč",
+    "castka_Kc": 1000000.0,
+    "odkazy": [
+     "RO-2023-10",
+     "19,20/7/ZM/2023"
+    ]
+   }
+  },
+  {
+   "id": "S-921fe53839",
+   "kod": "R1-velke-navyseni",
+   "zdroj_signalu": "pravidlo",
+   "zavaznost": "stredni",
+   "popis": "Úprava dopravního řešení ul. Na Lapači  Vsetín: 1 000 000 → 2 000 000 Kč",
+   "castka_Kc": 1000000.0,
+   "dukazy": [
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2025-02",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "usneseni",
+     "ref": "11/17,24/ZM/2025",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    }
+   ],
+   "stav": "novy",
+   "stav_detail": null,
+   "puvodni": {
+    "kod": "R1-velke-navyseni",
+    "zavaznost": "stredni",
+    "popis": "Úprava dopravního řešení ul. Na Lapači  Vsetín: 1 000 000 → 2 000 000 Kč",
+    "castka_Kc": 1000000.0,
+    "odkazy": [
+     "RO-2025-02",
+     "11/17,24/ZM/2025"
+    ]
+   }
+  },
+  {
+   "id": "S-9cbc9199b6",
+   "kod": "R15-zruseni-VZ-a-prodlouzeni",
+   "zdroj_signalu": "pravidlo",
+   "zavaznost": "stredni",
+   "popis": "PROVOZOVÁNÍ SLUŽBY SENIOR TAXI: zrušeno 6× (naposledy 2026-07-02), poté 2026-07-31 'Dodatek č. 2 ke smlouvě o provozování služby senior taxi' – ověřit hodnotu a právní titul prodloužení bez soutěže.",
+   "castka_Kc": null,
+   "dukazy": [
+    {
+     "typ": "smlouva",
+     "ref": "https://www.hlidacstatu.cz/Detail/38999306",
+     "url": "https://www.hlidacstatu.cz/Detail/38999306",
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    }
+   ],
+   "stav": "novy",
+   "stav_detail": null,
+   "puvodni": {
+    "kod": "R15-zruseni-VZ-a-prodlouzeni",
+    "zavaznost": "stredni",
+    "popis": "PROVOZOVÁNÍ SLUŽBY SENIOR TAXI: zrušeno 6× (naposledy 2026-07-02), poté 2026-07-31 'Dodatek č. 2 ke smlouvě o provozování služby senior taxi' – ověřit hodnotu a právní titul prodloužení bez soutěže.",
+    "castka_Kc": null,
+    "odkazy": [
+     "https://www.hlidacstatu.cz/Detail/38999306"
+    ]
+   }
+  },
+  {
+   "id": "S-f8245ae2ee",
+   "kod": "R16-smlouva-nad-rozpoctem",
+   "zdroj_signalu": "pravidlo",
+   "zavaznost": "stredni",
+   "popis": "K-003 Lávka Vs-04-Bel – SoD TM Stav (2022): smlouva 23 574 636 Kč (s_DPH) převyšuje rozpočet akce 23 000 000 Kč o 574 636 Kč – ověřit krytí (další RO, odpočet DPH, etapizace).",
+   "castka_Kc": 574636,
+   "dukazy": [
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2022-04",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "datovy_soubor",
+     "ref": "data/kauzy/K-003_lavka_Vs-04-Bel.json#/casova_osa/1/popis",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "smlouva",
+     "ref": "https://www.hlidacstatu.cz/Detail/19955007",
+     "url": "https://www.hlidacstatu.cz/Detail/19955007",
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "datovy_soubor",
+     "ref": "data/kauzy/K-003_lavka_Vs-04-Bel.json#/casova_osa/0/popis",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    }
+   ],
+   "stav": "novy",
+   "stav_detail": null,
+   "puvodni": {
+    "kod": "R16-smlouva-nad-rozpoctem",
+    "zavaznost": "stredni",
+    "popis": "K-003 Lávka Vs-04-Bel – SoD TM Stav (2022): smlouva 23 574 636 Kč (s_DPH) převyšuje rozpočet akce 23 000 000 Kč o 574 636 Kč – ověřit krytí (další RO, odpočet DPH, etapizace).",
+    "castka_Kc": 574636,
+    "odkazy": [
+     "RO-2022-04",
+     "data/kauzy/K-003_lavka_Vs-04-Bel.json#/casova_osa/1/popis",
+     "https://www.hlidacstatu.cz/Detail/19955007",
+     "data/kauzy/K-003_lavka_Vs-04-Bel.json#/casova_osa/0/popis"
+    ]
+   }
+  },
+  {
+   "id": "S-3f1b56ae1c",
+   "kod": "R2-opakovane-navysovani",
+   "zdroj_signalu": "pravidlo",
+   "zavaznost": "stredni",
+   "popis": "Stavební úpravy MVK  TIC - neinvestiční část (ORG 00003213): 8× navýšeno  celkem +16 689 000 Kč",
+   "castka_Kc": 16689000.0,
+   "dukazy": [
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2024-02",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2025-04",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2025-04",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2025-04",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2025-04",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2025-04",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2025-04",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2025-04",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2025-04",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    }
+   ],
+   "stav": "novy",
+   "stav_detail": null,
+   "puvodni": {
+    "kod": "R2-opakovane-navysovani",
+    "zavaznost": "stredni",
+    "popis": "Stavební úpravy MVK  TIC - neinvestiční část (ORG 00003213): 8× navýšeno  celkem +16 689 000 Kč",
+    "castka_Kc": 16689000.0,
+    "odkazy": [
+     "RO-2024-02",
+     "RO-2025-04",
+     "RO-2025-04",
+     "RO-2025-04",
+     "RO-2025-04",
+     "RO-2025-04",
+     "RO-2025-04",
+     "RO-2025-04",
+     "RO-2025-04"
+    ]
+   }
+  },
+  {
+   "id": "S-62febeb861",
+   "kod": "R2-opakovane-navysovani",
+   "zdroj_signalu": "pravidlo",
+   "zavaznost": "stredni",
+   "popis": "Stavební úpravy MVK - navýšení výdajů o rekonstrukci střechy budovy čp. 1356 (ORG 00003180): 5× navýšeno  celkem +10 430 000 Kč",
+   "castka_Kc": 10430000.0,
+   "dukazy": [
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2023-10",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2025-04",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2025-04",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2025-04",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2025-08",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    }
+   ],
+   "stav": "novy",
+   "stav_detail": null,
+   "puvodni": {
+    "kod": "R2-opakovane-navysovani",
+    "zavaznost": "stredni",
+    "popis": "Stavební úpravy MVK - navýšení výdajů o rekonstrukci střechy budovy čp. 1356 (ORG 00003180): 5× navýšeno  celkem +10 430 000 Kč",
+    "castka_Kc": 10430000.0,
+    "odkazy": [
+     "RO-2023-10",
+     "RO-2025-04",
+     "RO-2025-04",
+     "RO-2025-04",
+     "RO-2025-08"
+    ]
+   }
+  },
+  {
+   "id": "S-dc9c6e2f4d",
+   "kod": "R2-opakovane-navysovani",
+   "zdroj_signalu": "pravidlo",
+   "zavaznost": "stredni",
+   "popis": "Stavební úpravy MVK  TIC - neinvestiční část (ORG 00009918): 6× navýšeno  celkem +3 676 000 Kč",
+   "castka_Kc": 3676000.0,
+   "dukazy": [
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2025-04",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2025-04",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2025-04",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2025-04",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2025-04",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2025-04",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2025-04",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    }
+   ],
+   "stav": "novy",
+   "stav_detail": null,
+   "puvodni": {
+    "kod": "R2-opakovane-navysovani",
+    "zavaznost": "stredni",
+    "popis": "Stavební úpravy MVK  TIC - neinvestiční část (ORG 00009918): 6× navýšeno  celkem +3 676 000 Kč",
+    "castka_Kc": 3676000.0,
+    "odkazy": [
+     "RO-2025-04",
+     "RO-2025-04",
+     "RO-2025-04",
+     "RO-2025-04",
+     "RO-2025-04",
+     "RO-2025-04",
+     "RO-2025-04"
+    ]
+   }
+  },
+  {
+   "id": "S-1ed9c7f7a4",
+   "kod": "R2-opakovane-navysovani",
+   "zdroj_signalu": "pravidlo",
+   "zavaznost": "stredni",
+   "popis": "ZŠ Sychrov - investiční příspěvek na připojení zařízení k distribuční soustavě (ORG 00003611): 3× navýšeno  celkem +2 635 175 Kč",
+   "castka_Kc": 2635175.0,
+   "dukazy": [
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2023-13",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2025-08",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2026-11",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    }
+   ],
+   "stav": "novy",
+   "stav_detail": null,
+   "puvodni": {
+    "kod": "R2-opakovane-navysovani",
+    "zavaznost": "stredni",
+    "popis": "ZŠ Sychrov - investiční příspěvek na připojení zařízení k distribuční soustavě (ORG 00003611): 3× navýšeno  celkem +2 635 175 Kč",
+    "castka_Kc": 2635175.0,
+    "odkazy": [
+     "RO-2023-13",
+     "RO-2025-08",
+     "RO-2026-11"
+    ]
+   }
+  },
+  {
+   "id": "S-5b0756e4c0",
+   "kod": "R2-opakovane-navysovani",
+   "zdroj_signalu": "pravidlo",
+   "zavaznost": "stredni",
+   "popis": "Parkovací stání a zpevněné plochy pro popelnice - Ohrada PD (ORG 00009933): 3× navýšeno  celkem +1 500 000 Kč",
+   "castka_Kc": 1500000.0,
+   "dukazy": [
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2024-02",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2025-04",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2025-04",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2026-07",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    }
+   ],
+   "stav": "novy",
+   "stav_detail": null,
+   "puvodni": {
+    "kod": "R2-opakovane-navysovani",
+    "zavaznost": "stredni",
+    "popis": "Parkovací stání a zpevněné plochy pro popelnice - Ohrada PD (ORG 00009933): 3× navýšeno  celkem +1 500 000 Kč",
+    "castka_Kc": 1500000.0,
+    "odkazy": [
+     "RO-2024-02",
+     "RO-2025-04",
+     "RO-2025-04",
+     "RO-2026-07"
+    ]
+   }
+  },
+  {
+   "id": "S-2c7ed0110d",
+   "kod": "R2-opakovane-navysovani",
+   "zdroj_signalu": "pravidlo",
+   "zavaznost": "stredni",
+   "popis": "Participativní rozpočet 2025 - Mlžné brány (ORG 00009966): 3× navýšeno  celkem +1 150 000 Kč",
+   "castka_Kc": 1150000.0,
+   "dukazy": [
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2025-02",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2025-08",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2025-08",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2025-08",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    }
+   ],
+   "stav": "novy",
+   "stav_detail": null,
+   "puvodni": {
+    "kod": "R2-opakovane-navysovani",
+    "zavaznost": "stredni",
+    "popis": "Participativní rozpočet 2025 - Mlžné brány (ORG 00009966): 3× navýšeno  celkem +1 150 000 Kč",
+    "castka_Kc": 1150000.0,
+    "odkazy": [
+     "RO-2025-02",
+     "RO-2025-08",
+     "RO-2025-08",
+     "RO-2025-08"
+    ]
+   }
+  },
+  {
+   "id": "S-f1998e8027",
+   "kod": "R2-opakovane-navysovani",
+   "zdroj_signalu": "pravidlo",
+   "zavaznost": "stredni",
+   "popis": "Stavební úpravy lávky Vs-02-Bel u Kablovky - dokončení PD  stavební práce (ORG 00009862): 4× navýšeno  celkem +764 000 Kč",
+   "castka_Kc": 764000.0,
+   "dukazy": [
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2023-17",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2024-06",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2024-15",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2025-02",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    }
+   ],
+   "stav": "novy",
+   "stav_detail": null,
+   "puvodni": {
+    "kod": "R2-opakovane-navysovani",
+    "zavaznost": "stredni",
+    "popis": "Stavební úpravy lávky Vs-02-Bel u Kablovky - dokončení PD  stavební práce (ORG 00009862): 4× navýšeno  celkem +764 000 Kč",
+    "castka_Kc": 764000.0,
+    "odkazy": [
+     "RO-2023-17",
+     "RO-2024-06",
+     "RO-2024-15",
+     "RO-2025-02"
+    ]
+   }
+  },
+  {
+   "id": "S-9bd351060b",
+   "kod": "R2-opakovane-navysovani",
+   "zdroj_signalu": "pravidlo",
+   "zavaznost": "stredni",
+   "popis": "Veřejné osvětlení přechodu u SŠ Kostka - stavební práce (ORG 00009905): 3× navýšeno  celkem +530 000 Kč",
+   "castka_Kc": 530000.0,
+   "dukazy": [
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2023-05",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2023-10",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2023-13",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    }
+   ],
+   "stav": "novy",
+   "stav_detail": null,
+   "puvodni": {
+    "kod": "R2-opakovane-navysovani",
+    "zavaznost": "stredni",
+    "popis": "Veřejné osvětlení přechodu u SŠ Kostka - stavební práce (ORG 00009905): 3× navýšeno  celkem +530 000 Kč",
+    "castka_Kc": 530000.0,
+    "odkazy": [
+     "RO-2023-05",
+     "RO-2023-10",
+     "RO-2023-13"
+    ]
+   }
+  },
+  {
+   "id": "S-ea157b995d",
+   "kod": "R2-opakovane-navysovani",
+   "zdroj_signalu": "pravidlo",
+   "zavaznost": "stredni",
+   "popis": "Projekt Prevence Vsetín II (ORG 00001416): 6× navýšeno  celkem +203 725 Kč",
+   "castka_Kc": 203724.7,
+   "dukazy": [
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2023-13",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2023-13",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2023-13",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2024-08",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2024-08",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2024-08",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    }
+   ],
+   "stav": "novy",
+   "stav_detail": null,
+   "puvodni": {
+    "kod": "R2-opakovane-navysovani",
+    "zavaznost": "stredni",
+    "popis": "Projekt Prevence Vsetín II (ORG 00001416): 6× navýšeno  celkem +203 725 Kč",
+    "castka_Kc": 203724.7,
+    "odkazy": [
+     "RO-2023-13",
+     "RO-2023-13",
+     "RO-2023-13",
+     "RO-2024-08",
+     "RO-2024-08",
+     "RO-2024-08"
+    ]
+   }
+  },
+  {
+   "id": "S-91806203ad",
+   "kod": "R2-opakovane-navysovani",
+   "zdroj_signalu": "pravidlo",
+   "zavaznost": "stredni",
+   "popis": "Projekt Prevence Vsetín II (ORG 00001417): 20× navýšeno  celkem +81 945 Kč",
+   "castka_Kc": 81945.24,
+   "dukazy": [
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2023-13",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2023-13",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2023-13",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2023-13",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2023-13",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2023-13",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2023-13",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2023-13",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2023-13",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2023-13",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2023-13",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2023-13",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2023-13",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2024-08",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2024-08",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2024-08",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2024-08",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2024-08",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2024-08",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2024-08",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    }
+   ],
+   "stav": "novy",
+   "stav_detail": null,
+   "puvodni": {
+    "kod": "R2-opakovane-navysovani",
+    "zavaznost": "stredni",
+    "popis": "Projekt Prevence Vsetín II (ORG 00001417): 20× navýšeno  celkem +81 945 Kč",
+    "castka_Kc": 81945.24,
+    "odkazy": [
+     "RO-2023-13",
+     "RO-2023-13",
+     "RO-2023-13",
+     "RO-2023-13",
+     "RO-2023-13",
+     "RO-2023-13",
+     "RO-2023-13",
+     "RO-2023-13",
+     "RO-2023-13",
+     "RO-2023-13",
+     "RO-2023-13",
+     "RO-2023-13",
+     "RO-2023-13",
+     "RO-2024-08",
+     "RO-2024-08",
+     "RO-2024-08",
+     "RO-2024-08",
+     "RO-2024-08",
+     "RO-2024-08",
+     "RO-2024-08"
+    ]
+   }
+  },
+  {
+   "id": "S-97317f6408",
+   "kod": "R4-nakup-nemovitosti",
+   "zdroj_signalu": "pravidlo",
+   "zavaznost": "stredni",
+   "popis": "Výkup pozemku s tribunou + přístavba - Ohrada: +10 150 000 Kč",
+   "castka_Kc": 10150000.0,
+   "dukazy": [
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2025-04",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "usneseni",
+     "ref": "35/18/ZM/2025",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    }
+   ],
+   "stav": "novy",
+   "stav_detail": null,
+   "puvodni": {
+    "kod": "R4-nakup-nemovitosti",
+    "zavaznost": "stredni",
+    "popis": "Výkup pozemku s tribunou + přístavba - Ohrada: +10 150 000 Kč",
+    "castka_Kc": 10150000.0,
+    "odkazy": [
+     "RO-2025-04",
+     "35/18/ZM/2025"
+    ]
+   }
+  },
+  {
+   "id": "S-fd530e9b4c",
+   "kod": "R4-nakup-nemovitosti",
+   "zdroj_signalu": "pravidlo",
+   "zavaznost": "stredni",
+   "popis": "Nabytí pozemků včetně objektu občanské vybavenosti (hospoda U Marka): +2 987 500 Kč",
+   "castka_Kc": 2987500.0,
+   "dukazy": [
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2026-09",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "usneseni",
+     "ref": "16,17/93/RM/2026",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    }
+   ],
+   "stav": "novy",
+   "stav_detail": null,
+   "puvodni": {
+    "kod": "R4-nakup-nemovitosti",
+    "zavaznost": "stredni",
+    "popis": "Nabytí pozemků včetně objektu občanské vybavenosti (hospoda U Marka): +2 987 500 Kč",
+    "castka_Kc": 2987500.0,
+    "odkazy": [
+     "RO-2026-09",
+     "16,17/93/RM/2026"
+    ]
+   }
+  },
+  {
+   "id": "S-15a8ce1ff9",
+   "kod": "R4-nakup-nemovitosti",
+   "zdroj_signalu": "pravidlo",
+   "zavaznost": "stredni",
+   "popis": "Nabytí spoluvlastnických podílů: +750 000 Kč",
+   "castka_Kc": 750000.0,
+   "dukazy": [
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2025-08",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "usneseni",
+     "ref": "17,18/19/ZM/2025",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    }
+   ],
+   "stav": "novy",
+   "stav_detail": null,
+   "puvodni": {
+    "kod": "R4-nakup-nemovitosti",
+    "zavaznost": "stredni",
+    "popis": "Nabytí spoluvlastnických podílů: +750 000 Kč",
+    "castka_Kc": 750000.0,
+    "odkazy": [
+     "RO-2025-08",
+     "17,18/19/ZM/2025"
+    ]
+   }
+  },
+  {
+   "id": "S-283715b86a",
+   "kod": "R4-nakup-nemovitosti",
+   "zdroj_signalu": "pravidlo",
+   "zavaznost": "stredni",
+   "popis": "Nabytí nemovitostí v elektronické aukci - garážové boxy + pozemky Velký Skalník: +500 000 Kč",
+   "castka_Kc": 500000.0,
+   "dukazy": [
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2026-17",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "usneseni",
+     "ref": "24/27/ZM/2026",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    }
+   ],
+   "stav": "novy",
+   "stav_detail": null,
+   "puvodni": {
+    "kod": "R4-nakup-nemovitosti",
+    "zavaznost": "stredni",
+    "popis": "Nabytí nemovitostí v elektronické aukci - garážové boxy + pozemky Velký Skalník: +500 000 Kč",
+    "castka_Kc": 500000.0,
+    "odkazy": [
+     "RO-2026-17",
+     "24/27/ZM/2026"
+    ]
+   }
+  },
+  {
+   "id": "S-21fe092ff5",
+   "kod": "R4-nakup-nemovitosti",
+   "zdroj_signalu": "pravidlo",
+   "zavaznost": "stredni",
+   "popis": "Výkup pozemku pro realizaci cyklostezky Rokytnice - Lhota u Vsetína: +323 000 Kč",
+   "castka_Kc": 323000.0,
+   "dukazy": [
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2024-10",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "usneseni",
+     "ref": "15,16/13/ZM/2024",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    }
+   ],
+   "stav": "novy",
+   "stav_detail": null,
+   "puvodni": {
+    "kod": "R4-nakup-nemovitosti",
+    "zavaznost": "stredni",
+    "popis": "Výkup pozemku pro realizaci cyklostezky Rokytnice - Lhota u Vsetína: +323 000 Kč",
+    "castka_Kc": 323000.0,
+    "odkazy": [
+     "RO-2024-10",
+     "15,16/13/ZM/2024"
+    ]
+   }
+  },
+  {
+   "id": "S-4ab6da7673",
+   "kod": "R4-nakup-nemovitosti",
+   "zdroj_signalu": "pravidlo",
+   "zavaznost": "stredni",
+   "popis": "Výkup pozemků pro propojení cyklostezky: +170 000 Kč",
+   "castka_Kc": 170000.0,
+   "dukazy": [
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2024-06",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "usneseni",
+     "ref": "14/12/ZM/2024",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    }
+   ],
+   "stav": "novy",
+   "stav_detail": null,
+   "puvodni": {
+    "kod": "R4-nakup-nemovitosti",
+    "zavaznost": "stredni",
+    "popis": "Výkup pozemků pro propojení cyklostezky: +170 000 Kč",
+    "castka_Kc": 170000.0,
+    "odkazy": [
+     "RO-2024-06",
+     "14/12/ZM/2024"
+    ]
+   }
+  },
+  {
+   "id": "S-123427a8f7",
+   "kod": "R9-cena-u-predpokladane-hodnoty",
+   "zdroj_signalu": "pravidlo",
+   "zavaznost": "stredni",
+   "popis": "HŘIŠTĚ POD PECNÍKEM – TRÁVNÍK 3. GENERACE, VSETÍN: cena 99.999 % předpokládané hodnoty",
+   "castka_Kc": 11999917,
+   "dukazy": [
+    {
+     "typ": "verejna_zakazka",
+     "ref": "https://www.vhodne-uverejneni.cz/zakazka/hriste-pod-pecnikem-travnik-3-generace-vsetin",
+     "url": "https://www.vhodne-uverejneni.cz/zakazka/hriste-pod-pecnikem-travnik-3-generace-vsetin",
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "smlouva",
+     "ref": "https://www.hlidacstatu.cz/Detail/38438862",
+     "url": "https://www.hlidacstatu.cz/Detail/38438862",
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    }
+   ],
+   "stav": "novy",
+   "stav_detail": null,
+   "puvodni": {
+    "kod": "R9-cena-u-predpokladane-hodnoty",
+    "zavaznost": "stredni",
+    "popis": "HŘIŠTĚ POD PECNÍKEM – TRÁVNÍK 3. GENERACE, VSETÍN: cena 99.999 % předpokládané hodnoty",
+    "castka_Kc": 11999917,
+    "odkazy": [
+     "https://www.vhodne-uverejneni.cz/zakazka/hriste-pod-pecnikem-travnik-3-generace-vsetin",
+     "https://www.hlidacstatu.cz/Detail/38438862"
+    ]
+   }
+  },
+  {
+   "id": "A-2022-01",
+   "kod": "A-anomalie-dat",
+   "zdroj_signalu": "anomalie",
+   "zavaznost": "nizka",
+   "popis": "RO 2, 4, 10 a 15 mají v záhlaví 'ROZPOČTOVÉ OPATŘENÍ NA ROK 2021' ačkoli jsou ve složce 2022 (překlep / kopírovaná šablona).",
+   "castka_Kc": null,
+   "dukazy": [
+    {
+     "typ": "datovy_soubor",
+     "ref": "data/rozpocet/2022/rozpoctova_opatreni_2022_narativ.json",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    }
+   ],
+   "stav": "novy",
+   "stav_detail": null,
+   "puvodni": {
+    "id": "A-2022-01",
+    "zavaznost": "nizka",
+    "popis": "RO 2, 4, 10 a 15 mají v záhlaví 'ROZPOČTOVÉ OPATŘENÍ NA ROK 2021' ačkoli jsou ve složce 2022 (překlep / kopírovaná šablona)."
+   }
+  },
+  {
+   "id": "A-2023-02",
+   "kod": "A-anomalie-dat",
+   "zdroj_signalu": "anomalie",
+   "zavaznost": "nizka",
+   "popis": "RO 6/2023 nevyrovnané o +68 000 Kč (dotace NEO 2023 jen přeúčtována ve výdajích).",
+   "castka_Kc": null,
+   "dukazy": [
+    {
+     "typ": "datovy_soubor",
+     "ref": "data/rozpocet/2023/rozpoctova_opatreni_2023.json",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    }
+   ],
+   "stav": "novy",
+   "stav_detail": null,
+   "puvodni": {
+    "id": "A-2023-02",
+    "zavaznost": "nizka",
+    "popis": "RO 6/2023 nevyrovnané o +68 000 Kč (dotace NEO 2023 jen přeúčtována ve výdajích).",
+    "stav": "Stejný vzorec jako RO 22/2024 (6 600 Kč)."
+   }
+  },
+  {
+   "id": "A-2024-02",
+   "kod": "A-anomalie-dat",
+   "zdroj_signalu": "anomalie",
+   "zavaznost": "nizka",
+   "popis": "RO 22/2024 není vyrovnané o 6 600 Kč (dotace JSDH 6 600 příjmem, ve výdajích jen přeúčtování z vlastních zdrojů).",
+   "castka_Kc": null,
+   "dukazy": [
+    {
+     "typ": "datovy_soubor",
+     "ref": "data/rozpocet/2024/rozpoctova_opatreni_2024.json",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    }
+   ],
+   "stav": "novy",
+   "stav_detail": null,
+   "puvodni": {
+    "id": "A-2024-02",
+    "zavaznost": "nizka",
+    "popis": "RO 22/2024 není vyrovnané o 6 600 Kč (dotace JSDH 6 600 příjmem, ve výdajích jen přeúčtování z vlastních zdrojů).",
+    "vyklad": "Buď chyba v pol. 8115, nebo chybějící řádek. Ověřit v ZÚ 2024."
+   }
+  },
+  {
+   "id": "A-2024-03",
+   "kod": "A-anomalie-dat",
+   "zdroj_signalu": "anomalie",
+   "zavaznost": "nizka",
+   "popis": "Rezerva ORJ 0003 (6409/5901) klesá mimo zveřejněná RO: RO4→RO6 −181 500, RO10→RO15 −350 000, RO15→RO18 −59 400 Kč.",
+   "castka_Kc": null,
+   "dukazy": [
+    {
+     "typ": "datovy_soubor",
+     "ref": "data/rozpocet/2024/rozpoctova_opatreni_2024.json",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    }
+   ],
+   "stav": "novy",
+   "stav_detail": null,
+   "puvodni": {
+    "id": "A-2024-03",
+    "zavaznost": "nizka",
+    "popis": "Rezerva ORJ 0003 (6409/5901) klesá mimo zveřejněná RO: RO4→RO6 −181 500, RO10→RO15 −350 000, RO15→RO18 −59 400 Kč.",
+    "vyklad": "Pravděpodobně čerpání rezervy rozhodnutím RM bez samostatného RO; dohledat v usneseních RM."
+   }
+  },
+  {
+   "id": "A-2024-04",
+   "kod": "A-anomalie-dat",
+   "zdroj_signalu": "anomalie",
+   "zavaznost": "nizka",
+   "popis": "RO 1/2024 nemá na podpisové straně číslo usnesení ani datum schválení.",
+   "castka_Kc": null,
+   "dukazy": [
+    {
+     "typ": "datovy_soubor",
+     "ref": "data/rozpocet/2024/rozpoctova_opatreni_2024.json",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    }
+   ],
+   "stav": "novy",
+   "stav_detail": null,
+   "puvodni": {
+    "id": "A-2024-04",
+    "zavaznost": "nizka",
+    "popis": "RO 1/2024 nemá na podpisové straně číslo usnesení ani datum schválení."
+   }
+  },
+  {
+   "id": "A-2025-02",
+   "kod": "A-anomalie-dat",
+   "zdroj_signalu": "anomalie",
+   "zavaznost": "nizka",
+   "popis": "Pol. 8115: RO 13 končí 188 973 734,25, RO 15 začíná 188 975 734,25 (+2 000) a RO 16 začíná 188 903 434,25 (o 2 000 méně než konec RO 15).",
+   "castka_Kc": null,
+   "dukazy": [
+    {
+     "typ": "datovy_soubor",
+     "ref": "data/rozpocet/2025/rozpoctova_opatreni_2025.json",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    }
+   ],
+   "stav": "novy",
+   "stav_detail": null,
+   "puvodni": {
+    "id": "A-2025-02",
+    "zavaznost": "nizka",
+    "popis": "Pol. 8115: RO 13 končí 188 973 734,25, RO 15 začíná 188 975 734,25 (+2 000) a RO 16 začíná 188 903 434,25 (o 2 000 méně než konec RO 15).",
+    "doklad": "Kompenzující se odchylka ±2 000 Kč – pravděpodobně překlep v RO 15.",
+    "dalsi_krok": "Ověřit v závěrečném účtu."
+   }
+  },
+  {
+   "id": "A-2025-04",
+   "kod": "A-anomalie-dat",
+   "zdroj_signalu": "anomalie",
+   "zavaznost": "nizka",
+   "popis": "Překlepy v číslech usnesení na podpisových stranách: '34/66/rM/2025' (RO 7), '8/84/RRM/2025' (RO 23); RO 23 datováno 08.12.2025 je zveřejněno za RO 22 z 15.12.2025.",
+   "castka_Kc": null,
+   "dukazy": [
+    {
+     "typ": "datovy_soubor",
+     "ref": "data/rozpocet/2025/rozpoctova_opatreni_2025.json",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    }
+   ],
+   "stav": "novy",
+   "stav_detail": null,
+   "puvodni": {
+    "id": "A-2025-04",
+    "zavaznost": "nizka",
+    "popis": "Překlepy v číslech usnesení na podpisových stranách: '34/66/rM/2025' (RO 7), '8/84/RRM/2025' (RO 23); RO 23 datováno 08.12.2025 je zveřejněno za RO 22 z 15.12.2025."
+   }
+  },
+  {
+   "id": "A-2025-05",
+   "kod": "A-anomalie-dat",
+   "zdroj_signalu": "anomalie",
+   "zavaznost": "nizka",
+   "popis": "Upravený rozpočet pol. 8115 k 31. 12. 2025 podle zveřejněných RO 1–24 = 207 352 071,31 Kč; MONITOR a ZÚ = 207 352 097,86 Kč (+26,55 Kč).",
+   "castka_Kc": null,
+   "dukazy": [
+    {
+     "typ": "datovy_soubor",
+     "ref": "data/monitor/kontrola_RO_8115_monitor.json",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    }
+   ],
+   "stav": "novy",
+   "stav_detail": null,
+   "puvodni": {
+    "id": "A-2025-05",
+    "zavaznost": "nizka",
+    "popis": "Upravený rozpočet pol. 8115 k 31. 12. 2025 podle zveřejněných RO 1–24 = 207 352 071,31 Kč; MONITOR a ZÚ = 207 352 097,86 Kč (+26,55 Kč).",
+    "doklad": "PDF RO 24/2025 (id_dokumenty=566233), FIN 2-12 M 12/2025 FINM202",
+    "dalsi_krok": "Dotaz na finanční odbor / porovnat s rozpočtovými opatřeními starosty, pokud existují."
+   }
+  },
+  {
+   "id": "S-dd5f72803a",
+   "kod": "R12-opakovane-zruseni-VZ",
+   "zdroj_signalu": "pravidlo",
+   "zavaznost": "nizka",
+   "popis": "ZKVALITNĚNÍ VÝUKY CIZÍCH JAZYKŮ VE VSETÍNSKÝCH ZÁKLADNÍCH ŠKOLÁCH: zrušeno 3×",
+   "castka_Kc": 4803968,
+   "dukazy": [
+    {
+     "typ": "verejna_zakazka",
+     "ref": "https://www.vhodne-uverejneni.cz/profil/00304450 (záložka Zrušeno, 9 stran)",
+     "url": "https://www.vhodne-uverejneni.cz/profil/00304450 (záložka Zrušeno, 9 stran)",
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    }
+   ],
+   "stav": "novy",
+   "stav_detail": null,
+   "puvodni": {
+    "kod": "R12-opakovane-zruseni-VZ",
+    "zavaznost": "nizka",
+    "popis": "ZKVALITNĚNÍ VÝUKY CIZÍCH JAZYKŮ VE VSETÍNSKÝCH ZÁKLADNÍCH ŠKOLÁCH: zrušeno 3×",
+    "castka_Kc": 4803968,
+    "odkazy": [
+     "https://www.vhodne-uverejneni.cz/profil/00304450 (záložka Zrušeno, 9 stran)"
+    ]
+   }
+  },
+  {
+   "id": "S-3034af1b73",
+   "kod": "R12-opakovane-zruseni-VZ",
+   "zdroj_signalu": "pravidlo",
+   "zavaznost": "nizka",
+   "popis": "PROVOZOVÁNÍ SLUŽBY SENIOR TAXI: zrušeno 6×",
+   "castka_Kc": 3000000,
+   "dukazy": [
+    {
+     "typ": "verejna_zakazka",
+     "ref": "https://www.vhodne-uverejneni.cz/profil/00304450 (záložka Zrušeno, 9 stran)",
+     "url": "https://www.vhodne-uverejneni.cz/profil/00304450 (záložka Zrušeno, 9 stran)",
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    }
+   ],
+   "stav": "novy",
+   "stav_detail": null,
+   "puvodni": {
+    "kod": "R12-opakovane-zruseni-VZ",
+    "zavaznost": "nizka",
+    "popis": "PROVOZOVÁNÍ SLUŽBY SENIOR TAXI: zrušeno 6×",
+    "castka_Kc": 3000000,
+    "odkazy": [
+     "https://www.vhodne-uverejneni.cz/profil/00304450 (záložka Zrušeno, 9 stran)"
+    ]
+   }
+  },
+  {
+   "id": "S-7a615ed09e",
+   "kod": "R12-opakovane-zruseni-VZ",
+   "zdroj_signalu": "pravidlo",
+   "zavaznost": "nizka",
+   "popis": "MĚSTSKÉ LÁZNĚ VSETÍN – PARNÍ KABINA V 1.NP: zrušeno 3×",
+   "castka_Kc": 2700000,
+   "dukazy": [
+    {
+     "typ": "verejna_zakazka",
+     "ref": "https://www.vhodne-uverejneni.cz/profil/00304450 (záložka Zrušeno, 9 stran)",
+     "url": "https://www.vhodne-uverejneni.cz/profil/00304450 (záložka Zrušeno, 9 stran)",
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    }
+   ],
+   "stav": "novy",
+   "stav_detail": null,
+   "puvodni": {
+    "kod": "R12-opakovane-zruseni-VZ",
+    "zavaznost": "nizka",
+    "popis": "MĚSTSKÉ LÁZNĚ VSETÍN – PARNÍ KABINA V 1.NP: zrušeno 3×",
+    "castka_Kc": 2700000,
+    "odkazy": [
+     "https://www.vhodne-uverejneni.cz/profil/00304450 (záložka Zrušeno, 9 stran)"
+    ]
+   }
+  },
+  {
+   "id": "S-e77e71d31f",
+   "kod": "R12-opakovane-zruseni-VZ",
+   "zdroj_signalu": "pravidlo",
+   "zavaznost": "nizka",
+   "popis": "ARCHIV Č. P. 53 – REGÁLY A VYBAVENÍ ARCHIVU: zrušeno 3×",
+   "castka_Kc": 460000,
+   "dukazy": [
+    {
+     "typ": "verejna_zakazka",
+     "ref": "https://www.vhodne-uverejneni.cz/profil/00304450 (záložka Zrušeno, 9 stran)",
+     "url": "https://www.vhodne-uverejneni.cz/profil/00304450 (záložka Zrušeno, 9 stran)",
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    }
+   ],
+   "stav": "novy",
+   "stav_detail": null,
+   "puvodni": {
+    "kod": "R12-opakovane-zruseni-VZ",
+    "zavaznost": "nizka",
+    "popis": "ARCHIV Č. P. 53 – REGÁLY A VYBAVENÍ ARCHIVU: zrušeno 3×",
+    "castka_Kc": 460000,
+    "odkazy": [
+     "https://www.vhodne-uverejneni.cz/profil/00304450 (záložka Zrušeno, 9 stran)"
+    ]
+   }
+  },
+  {
+   "id": "S-185309a479",
+   "kod": "R14-tesne-pod-limitem-VZMR",
+   "zdroj_signalu": "pravidlo",
+   "zavaznost": "nizka",
+   "popis": "PROVOZOVÁNÍ SLUŽBY SENIOR TAXI - II: předp. hodnota 1 800 000 Kč = 90.0 % limitu VZMR 2 000 000 Kč pro dodavky sluzby k 2022-05-06 (druh plnění neurčen – limit platí jen pokud jde o tento druh).",
+   "castka_Kc": 1800000,
+   "dukazy": [
+    {
+     "typ": "verejna_zakazka",
+     "ref": "https://www.vhodne-uverejneni.cz/profil/00304450 (záložka Zrušeno, 9 stran)",
+     "url": "https://www.vhodne-uverejneni.cz/profil/00304450 (záložka Zrušeno, 9 stran)",
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    }
+   ],
+   "stav": "novy",
+   "stav_detail": null,
+   "puvodni": {
+    "kod": "R14-tesne-pod-limitem-VZMR",
+    "zavaznost": "nizka",
+    "popis": "PROVOZOVÁNÍ SLUŽBY SENIOR TAXI - II: předp. hodnota 1 800 000 Kč = 90.0 % limitu VZMR 2 000 000 Kč pro dodavky sluzby k 2022-05-06 (druh plnění neurčen – limit platí jen pokud jde o tento druh).",
+    "castka_Kc": 1800000,
+    "odkazy": [
+     "https://www.vhodne-uverejneni.cz/profil/00304450 (záložka Zrušeno, 9 stran)"
+    ]
+   }
+  },
+  {
+   "id": "S-185309a479-2",
+   "kod": "R14-tesne-pod-limitem-VZMR",
+   "zdroj_signalu": "pravidlo",
+   "zavaznost": "nizka",
+   "popis": "PROVOZOVÁNÍ SLUŽBY SENIOR TAXI: předp. hodnota 1 800 000 Kč = 90.0 % limitu VZMR 2 000 000 Kč pro dodavky sluzby k 2022-04-22 (druh plnění neurčen – limit platí jen pokud jde o tento druh).",
+   "castka_Kc": 1800000,
+   "dukazy": [
+    {
+     "typ": "verejna_zakazka",
+     "ref": "https://www.vhodne-uverejneni.cz/profil/00304450 (záložka Zrušeno, 9 stran)",
+     "url": "https://www.vhodne-uverejneni.cz/profil/00304450 (záložka Zrušeno, 9 stran)",
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    }
+   ],
+   "stav": "novy",
+   "stav_detail": null,
+   "puvodni": {
+    "kod": "R14-tesne-pod-limitem-VZMR",
+    "zavaznost": "nizka",
+    "popis": "PROVOZOVÁNÍ SLUŽBY SENIOR TAXI: předp. hodnota 1 800 000 Kč = 90.0 % limitu VZMR 2 000 000 Kč pro dodavky sluzby k 2022-04-22 (druh plnění neurčen – limit platí jen pokud jde o tento druh).",
+    "castka_Kc": 1800000,
+    "odkazy": [
+     "https://www.vhodne-uverejneni.cz/profil/00304450 (záložka Zrušeno, 9 stran)"
+    ]
+   }
+  },
+  {
+   "id": "S-185309a479-3",
+   "kod": "R14-tesne-pod-limitem-VZMR",
+   "zdroj_signalu": "pravidlo",
+   "zavaznost": "nizka",
+   "popis": "PROVOZOVÁNÍ SLUŽBY SENIOR TAXI: předp. hodnota 1 800 000 Kč = 90.0 % limitu VZMR 2 000 000 Kč pro dodavky sluzby k 2020-04-17 (druh plnění neurčen – limit platí jen pokud jde o tento druh).",
+   "castka_Kc": 1800000,
+   "dukazy": [
+    {
+     "typ": "verejna_zakazka",
+     "ref": "https://www.vhodne-uverejneni.cz/profil/00304450 (záložka Zrušeno, 9 stran)",
+     "url": "https://www.vhodne-uverejneni.cz/profil/00304450 (záložka Zrušeno, 9 stran)",
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    }
+   ],
+   "stav": "novy",
+   "stav_detail": null,
+   "puvodni": {
+    "kod": "R14-tesne-pod-limitem-VZMR",
+    "zavaznost": "nizka",
+    "popis": "PROVOZOVÁNÍ SLUŽBY SENIOR TAXI: předp. hodnota 1 800 000 Kč = 90.0 % limitu VZMR 2 000 000 Kč pro dodavky sluzby k 2020-04-17 (druh plnění neurčen – limit platí jen pokud jde o tento druh).",
+    "castka_Kc": 1800000,
+    "odkazy": [
+     "https://www.vhodne-uverejneni.cz/profil/00304450 (záložka Zrušeno, 9 stran)"
+    ]
+   }
+  },
+  {
+   "id": "S-37962a8727",
+   "kod": "R16-cena-navrh-vs-schvaleno",
+   "zdroj_signalu": "pravidlo",
+   "zavaznost": "nizka",
+   "popis": "K-002 Tribuna Na Ohradě – nabytí od TJ MEZ: cena v návrhu 34 000 000 Kč ≠ schváleno 33 150 000 Kč (rozdíl -850 000 Kč) – ověřit zdůvodnění změny na jednání.",
+   "castka_Kc": -850000,
+   "dukazy": [
+    {
+     "typ": "datovy_soubor",
+     "ref": "data/kauzy/K-002_tribuna_ohrada_TJ_MEZ.json#/penize/navrh_cena",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "datovy_soubor",
+     "ref": "data/kauzy/K-002_tribuna_ohrada_TJ_MEZ.json#/penize/schvalena_cena",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    }
+   ],
+   "stav": "novy",
+   "stav_detail": null,
+   "puvodni": {
+    "kod": "R16-cena-navrh-vs-schvaleno",
+    "zavaznost": "nizka",
+    "popis": "K-002 Tribuna Na Ohradě – nabytí od TJ MEZ: cena v návrhu 34 000 000 Kč ≠ schváleno 33 150 000 Kč (rozdíl -850 000 Kč) – ověřit zdůvodnění změny na jednání.",
+    "castka_Kc": -850000,
+    "odkazy": [
+     "data/kauzy/K-002_tribuna_ohrada_TJ_MEZ.json#/penize/navrh_cena",
+     "data/kauzy/K-002_tribuna_ohrada_TJ_MEZ.json#/penize/schvalena_cena"
+    ]
+   }
+  },
+  {
+   "id": "S-f41d313450",
+   "kod": "R3-RM-velka-investice",
+   "zdroj_signalu": "pravidlo",
+   "zavaznost": "nizka",
+   "popis": "RM rozhodla o +14 600 000 Kč: Hřiště Pod Pecníkem - výměna umělého trávníku",
+   "castka_Kc": 14600000.0,
+   "dukazy": [
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2026-10",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "usneseni",
+     "ref": "19,20/94/RM/2026",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    }
+   ],
+   "stav": "novy",
+   "stav_detail": null,
+   "puvodni": {
+    "kod": "R3-RM-velka-investice",
+    "zavaznost": "nizka",
+    "popis": "RM rozhodla o +14 600 000 Kč: Hřiště Pod Pecníkem - výměna umělého trávníku",
+    "castka_Kc": 14600000.0,
+    "odkazy": [
+     "RO-2026-10",
+     "19,20/94/RM/2026"
+    ]
+   }
+  },
+  {
+   "id": "S-31c762c6ec",
+   "kod": "R3-RM-velka-investice",
+   "zdroj_signalu": "pravidlo",
+   "zavaznost": "nizka",
+   "popis": "RM rozhodla o +14 151 325 Kč: Dotace Domeček pro MŠ a ZŠ Luh",
+   "castka_Kc": 14151325.03,
+   "dukazy": [
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2026-03",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "usneseni",
+     "ref": "6/88/RM/2026",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    }
+   ],
+   "stav": "novy",
+   "stav_detail": null,
+   "puvodni": {
+    "kod": "R3-RM-velka-investice",
+    "zavaznost": "nizka",
+    "popis": "RM rozhodla o +14 151 325 Kč: Dotace Domeček pro MŠ a ZŠ Luh",
+    "castka_Kc": 14151325.03,
+    "odkazy": [
+     "RO-2026-03",
+     "6/88/RM/2026"
+    ]
+   }
+  },
+  {
+   "id": "S-3c37b242d8",
+   "kod": "R3-RM-velka-investice",
+   "zdroj_signalu": "pravidlo",
+   "zavaznost": "nizka",
+   "popis": "RM rozhodla o +11 500 000 Kč: Městské lázně - vzduchotechnika",
+   "castka_Kc": 11500000.0,
+   "dukazy": [
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2026-11",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "usneseni",
+     "ref": "44,45,46/98/RM/2026",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    }
+   ],
+   "stav": "novy",
+   "stav_detail": null,
+   "puvodni": {
+    "kod": "R3-RM-velka-investice",
+    "zavaznost": "nizka",
+    "popis": "RM rozhodla o +11 500 000 Kč: Městské lázně - vzduchotechnika",
+    "castka_Kc": 11500000.0,
+    "odkazy": [
+     "RO-2026-11",
+     "44,45,46/98/RM/2026"
+    ]
+   }
+  },
+  {
+   "id": "S-afd39ca320",
+   "kod": "R3-RM-velka-investice",
+   "zdroj_signalu": "pravidlo",
+   "zavaznost": "nizka",
+   "popis": "RM rozhodla o +6 014 500 Kč: Nabytí pozemků včetně objektu občanské vybavenosti (hospoda U Marka)",
+   "castka_Kc": 6014500.0,
+   "dukazy": [
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2026-09",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "usneseni",
+     "ref": "16,17/93/RM/2026",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    }
+   ],
+   "stav": "novy",
+   "stav_detail": null,
+   "puvodni": {
+    "kod": "R3-RM-velka-investice",
+    "zavaznost": "nizka",
+    "popis": "RM rozhodla o +6 014 500 Kč: Nabytí pozemků včetně objektu občanské vybavenosti (hospoda U Marka)",
+    "castka_Kc": 6014500.0,
+    "odkazy": [
+     "RO-2026-09",
+     "16,17/93/RM/2026"
+    ]
+   }
+  },
+  {
+   "id": "S-b12084dcd4",
+   "kod": "R3-RM-velka-investice",
+   "zdroj_signalu": "pravidlo",
+   "zavaznost": "nizka",
+   "popis": "RM rozhodla o +4 800 000 Kč: Stavební úpravy budovy MěÚ Vsetín",
+   "castka_Kc": 4800000.0,
+   "dukazy": [
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2026-10",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "usneseni",
+     "ref": "19,20/94/RM/2026",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    }
+   ],
+   "stav": "novy",
+   "stav_detail": null,
+   "puvodni": {
+    "kod": "R3-RM-velka-investice",
+    "zavaznost": "nizka",
+    "popis": "RM rozhodla o +4 800 000 Kč: Stavební úpravy budovy MěÚ Vsetín",
+    "castka_Kc": 4800000.0,
+    "odkazy": [
+     "RO-2026-10",
+     "19,20/94/RM/2026"
+    ]
+   }
+  },
+  {
+   "id": "S-b38a37938b",
+   "kod": "R3-RM-velka-investice",
+   "zdroj_signalu": "pravidlo",
+   "zavaznost": "nizka",
+   "popis": "RM rozhodla o +3 900 000 Kč: ZŠ Rokytnice - Školní hřiště",
+   "castka_Kc": 3900000.0,
+   "dukazy": [
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2026-11",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "usneseni",
+     "ref": "44,45,46/98/RM/2026",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    }
+   ],
+   "stav": "novy",
+   "stav_detail": null,
+   "puvodni": {
+    "kod": "R3-RM-velka-investice",
+    "zavaznost": "nizka",
+    "popis": "RM rozhodla o +3 900 000 Kč: ZŠ Rokytnice - Školní hřiště",
+    "castka_Kc": 3900000.0,
+    "odkazy": [
+     "RO-2026-11",
+     "44,45,46/98/RM/2026"
+    ]
+   }
+  },
+  {
+   "id": "S-1a4f90c902",
+   "kod": "R3-RM-velka-investice",
+   "zdroj_signalu": "pravidlo",
+   "zavaznost": "nizka",
+   "popis": "RM rozhodla o +2 987 500 Kč: Nabytí pozemků včetně objektu občanské vybavenosti (hospoda U Marka)",
+   "castka_Kc": 2987500.0,
+   "dukazy": [
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2026-09",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "usneseni",
+     "ref": "16,17/93/RM/2026",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    }
+   ],
+   "stav": "novy",
+   "stav_detail": null,
+   "puvodni": {
+    "kod": "R3-RM-velka-investice",
+    "zavaznost": "nizka",
+    "popis": "RM rozhodla o +2 987 500 Kč: Nabytí pozemků včetně objektu občanské vybavenosti (hospoda U Marka)",
+    "castka_Kc": 2987500.0,
+    "odkazy": [
+     "RO-2026-09",
+     "16,17/93/RM/2026"
+    ]
+   }
+  },
+  {
+   "id": "S-4ee2db6059",
+   "kod": "R3-RM-velka-investice",
+   "zdroj_signalu": "pravidlo",
+   "zavaznost": "nizka",
+   "popis": "RM rozhodla o +2 971 778 Kč: Dotace Domeček pro MŠ a ZŠ Luh",
+   "castka_Kc": 2971777.86,
+   "dukazy": [
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2026-03",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "usneseni",
+     "ref": "6/88/RM/2026",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    }
+   ],
+   "stav": "novy",
+   "stav_detail": null,
+   "puvodni": {
+    "kod": "R3-RM-velka-investice",
+    "zavaznost": "nizka",
+    "popis": "RM rozhodla o +2 971 778 Kč: Dotace Domeček pro MŠ a ZŠ Luh",
+    "castka_Kc": 2971777.86,
+    "odkazy": [
+     "RO-2026-03",
+     "6/88/RM/2026"
+    ]
+   }
+  },
+  {
+   "id": "S-dbc92c6fb2",
+   "kod": "R3-RM-velka-investice",
+   "zdroj_signalu": "pravidlo",
+   "zavaznost": "nizka",
+   "popis": "RM rozhodla o +2 500 000 Kč: Stavební úpravy mostu VS-07-Rom (most do vnitrobloku budovy č.p. 413)",
+   "castka_Kc": 2500000.0,
+   "dukazy": [
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2026-05",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "usneseni",
+     "ref": "4/90/RM/2026",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    }
+   ],
+   "stav": "novy",
+   "stav_detail": null,
+   "puvodni": {
+    "kod": "R3-RM-velka-investice",
+    "zavaznost": "nizka",
+    "popis": "RM rozhodla o +2 500 000 Kč: Stavební úpravy mostu VS-07-Rom (most do vnitrobloku budovy č.p. 413)",
+    "castka_Kc": 2500000.0,
+    "odkazy": [
+     "RO-2026-05",
+     "4/90/RM/2026"
+    ]
+   }
+  },
+  {
+   "id": "S-f434446b01",
+   "kod": "R5-dotace-subjektu",
+   "zdroj_signalu": "pravidlo",
+   "zavaznost": "nizka",
+   "popis": "Dotace TJ Zbrojovka Vsetín  z.s. - výstavba tenisové haly: +20 000 000 Kč",
+   "castka_Kc": 20000000.0,
+   "dukazy": [
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2026-07",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "usneseni",
+     "ref": "24/24/ZM/2026",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    }
+   ],
+   "stav": "novy",
+   "stav_detail": null,
+   "puvodni": {
+    "kod": "R5-dotace-subjektu",
+    "zavaznost": "nizka",
+    "popis": "Dotace TJ Zbrojovka Vsetín  z.s. - výstavba tenisové haly: +20 000 000 Kč",
+    "castka_Kc": 20000000.0,
+    "odkazy": [
+     "RO-2026-07",
+     "24/24/ZM/2026"
+    ]
+   }
+  },
+  {
+   "id": "S-51f5e614cd",
+   "kod": "R5-dotace-subjektu",
+   "zdroj_signalu": "pravidlo",
+   "zavaznost": "nizka",
+   "popis": "Peněžitý vklad - Agentura pro ekonomický rozvoj Vsetínska: +3 600 000 Kč",
+   "castka_Kc": 3600000.0,
+   "dukazy": [
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2023-21",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "usneseni",
+     "ref": "18,36/10/ZM/2023",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    }
+   ],
+   "stav": "novy",
+   "stav_detail": null,
+   "puvodni": {
+    "kod": "R5-dotace-subjektu",
+    "zavaznost": "nizka",
+    "popis": "Peněžitý vklad - Agentura pro ekonomický rozvoj Vsetínska: +3 600 000 Kč",
+    "castka_Kc": 3600000.0,
+    "odkazy": [
+     "RO-2023-21",
+     "18,36/10/ZM/2023"
+    ]
+   }
+  },
+  {
+   "id": "S-31b8b83cc2",
+   "kod": "R5-dotace-subjektu",
+   "zdroj_signalu": "pravidlo",
+   "zavaznost": "nizka",
+   "popis": "TJ Zbrojovka - výstavba tenisové haly: +2 500 000 Kč",
+   "castka_Kc": 2500000.0,
+   "dukazy": [
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2026-17",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "usneseni",
+     "ref": "24/27/ZM/2026",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    }
+   ],
+   "stav": "novy",
+   "stav_detail": null,
+   "puvodni": {
+    "kod": "R5-dotace-subjektu",
+    "zavaznost": "nizka",
+    "popis": "TJ Zbrojovka - výstavba tenisové haly: +2 500 000 Kč",
+    "castka_Kc": 2500000.0,
+    "odkazy": [
+     "RO-2026-17",
+     "24/27/ZM/2026"
+    ]
+   }
+  },
+  {
+   "id": "S-b152be7694",
+   "kod": "R5-dotace-subjektu",
+   "zdroj_signalu": "pravidlo",
+   "zavaznost": "nizka",
+   "popis": "Individuální dotace - NA CESTĚ  z.s. - dofinancování vícenákladů: +2 000 000 Kč",
+   "castka_Kc": 2000000.0,
+   "dukazy": [
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2026-12",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "usneseni",
+     "ref": "24,38/26/ZM/2026",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    }
+   ],
+   "stav": "novy",
+   "stav_detail": null,
+   "puvodni": {
+    "kod": "R5-dotace-subjektu",
+    "zavaznost": "nizka",
+    "popis": "Individuální dotace - NA CESTĚ  z.s. - dofinancování vícenákladů: +2 000 000 Kč",
+    "castka_Kc": 2000000.0,
+    "odkazy": [
+     "RO-2026-12",
+     "24,38/26/ZM/2026"
+    ]
+   }
+  },
+  {
+   "id": "S-b0cdfc5879",
+   "kod": "R5-dotace-subjektu",
+   "zdroj_signalu": "pravidlo",
+   "zavaznost": "nizka",
+   "popis": "Investiční dotace - Diakonie ČCE - středisko Vsetín: +1 500 000 Kč",
+   "castka_Kc": 1500000.0,
+   "dukazy": [
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2025-08",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "usneseni",
+     "ref": "17,18/19/ZM/2025",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    }
+   ],
+   "stav": "novy",
+   "stav_detail": null,
+   "puvodni": {
+    "kod": "R5-dotace-subjektu",
+    "zavaznost": "nizka",
+    "popis": "Investiční dotace - Diakonie ČCE - středisko Vsetín: +1 500 000 Kč",
+    "castka_Kc": 1500000.0,
+    "odkazy": [
+     "RO-2025-08",
+     "17,18/19/ZM/2025"
+    ]
+   }
+  },
+  {
+   "id": "S-72be90e67f",
+   "kod": "R5-dotace-subjektu",
+   "zdroj_signalu": "pravidlo",
+   "zavaznost": "nizka",
+   "popis": "Závazek veřejné služby - veřejná linková doprava: +1 357 717 Kč",
+   "castka_Kc": 1357717.0,
+   "dukazy": [
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2026-09",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "usneseni",
+     "ref": "16,17/93/RM/2026",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    }
+   ],
+   "stav": "novy",
+   "stav_detail": null,
+   "puvodni": {
+    "kod": "R5-dotace-subjektu",
+    "zavaznost": "nizka",
+    "popis": "Závazek veřejné služby - veřejná linková doprava: +1 357 717 Kč",
+    "castka_Kc": 1357717.0,
+    "odkazy": [
+     "RO-2026-09",
+     "16,17/93/RM/2026"
+    ]
+   }
+  },
+  {
+   "id": "S-a055d120cd",
+   "kod": "R5-dotace-subjektu",
+   "zdroj_signalu": "pravidlo",
+   "zavaznost": "nizka",
+   "popis": "Pilotní program - Sdílená kola - dotace 50% nákladů: +1 350 000 Kč",
+   "castka_Kc": 1350000.0,
+   "dukazy": [
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2025-04",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "usneseni",
+     "ref": "35/18/ZM/2025",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    }
+   ],
+   "stav": "novy",
+   "stav_detail": null,
+   "puvodni": {
+    "kod": "R5-dotace-subjektu",
+    "zavaznost": "nizka",
+    "popis": "Pilotní program - Sdílená kola - dotace 50% nákladů: +1 350 000 Kč",
+    "castka_Kc": 1350000.0,
+    "odkazy": [
+     "RO-2025-04",
+     "35/18/ZM/2025"
+    ]
+   }
+  },
+  {
+   "id": "S-4e5d20dce8",
+   "kod": "R5-dotace-subjektu",
+   "zdroj_signalu": "pravidlo",
+   "zavaznost": "nizka",
+   "popis": "Sdílená kola: +827 015 Kč",
+   "castka_Kc": 827015.0,
+   "dukazy": [
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2025-13",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "usneseni",
+     "ref": "12,31/20/ZM/2025",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    }
+   ],
+   "stav": "novy",
+   "stav_detail": null,
+   "puvodni": {
+    "kod": "R5-dotace-subjektu",
+    "zavaznost": "nizka",
+    "popis": "Sdílená kola: +827 015 Kč",
+    "castka_Kc": 827015.0,
+    "odkazy": [
+     "RO-2025-13",
+     "12,31/20/ZM/2025"
+    ]
+   }
+  },
+  {
+   "id": "S-2a6bd582d5",
+   "kod": "R5-dotace-subjektu",
+   "zdroj_signalu": "pravidlo",
+   "zavaznost": "nizka",
+   "popis": "Žádost o dotaci FC Fastav: +600 000 Kč",
+   "castka_Kc": 600000.0,
+   "dukazy": [
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2025-08",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "usneseni",
+     "ref": "17,18/19/ZM/2025",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    }
+   ],
+   "stav": "novy",
+   "stav_detail": null,
+   "puvodni": {
+    "kod": "R5-dotace-subjektu",
+    "zavaznost": "nizka",
+    "popis": "Žádost o dotaci FC Fastav: +600 000 Kč",
+    "castka_Kc": 600000.0,
+    "odkazy": [
+     "RO-2025-08",
+     "17,18/19/ZM/2025"
+    ]
+   }
+  },
+  {
+   "id": "S-1468068fec",
+   "kod": "R5-dotace-subjektu",
+   "zdroj_signalu": "pravidlo",
+   "zavaznost": "nizka",
+   "popis": "Finanční podpora na vybavení zubní ordinace MDDr. Kozárková: +500 000 Kč",
+   "castka_Kc": 500000.0,
+   "dukazy": [
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2025-08",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "usneseni",
+     "ref": "17,18/19/ZM/2025",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    }
+   ],
+   "stav": "novy",
+   "stav_detail": null,
+   "puvodni": {
+    "kod": "R5-dotace-subjektu",
+    "zavaznost": "nizka",
+    "popis": "Finanční podpora na vybavení zubní ordinace MDDr. Kozárková: +500 000 Kč",
+    "castka_Kc": 500000.0,
+    "odkazy": [
+     "RO-2025-08",
+     "17,18/19/ZM/2025"
+    ]
+   }
+  },
+  {
+   "id": "S-73eec79e39",
+   "kod": "R5-dotace-subjektu",
+   "zdroj_signalu": "pravidlo",
+   "zavaznost": "nizka",
+   "popis": "TJ Zbrojovka - rekonstrukce asfaltového kurtu: +500 000 Kč",
+   "castka_Kc": 500000.0,
+   "dukazy": [
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2024-15",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "usneseni",
+     "ref": "13/14/ZM/2024",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    }
+   ],
+   "stav": "novy",
+   "stav_detail": null,
+   "puvodni": {
+    "kod": "R5-dotace-subjektu",
+    "zavaznost": "nizka",
+    "popis": "TJ Zbrojovka - rekonstrukce asfaltového kurtu: +500 000 Kč",
+    "castka_Kc": 500000.0,
+    "odkazy": [
+     "RO-2024-15",
+     "13/14/ZM/2024"
+    ]
+   }
+  },
+  {
+   "id": "S-9df83108b1",
+   "kod": "R5-dotace-subjektu",
+   "zdroj_signalu": "pravidlo",
+   "zavaznost": "nizka",
+   "popis": "Finanční podpora na vybavení zubní ordinace: +500 000 Kč",
+   "castka_Kc": 500000.0,
+   "dukazy": [
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2024-18",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "usneseni",
+     "ref": "11,12/15/ZM/2024",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    }
+   ],
+   "stav": "novy",
+   "stav_detail": null,
+   "puvodni": {
+    "kod": "R5-dotace-subjektu",
+    "zavaznost": "nizka",
+    "popis": "Finanční podpora na vybavení zubní ordinace: +500 000 Kč",
+    "castka_Kc": 500000.0,
+    "odkazy": [
+     "RO-2024-18",
+     "11,12/15/ZM/2024"
+    ]
+   }
+  },
+  {
+   "id": "S-ade63d6cfd",
+   "kod": "R5-dotace-subjektu",
+   "zdroj_signalu": "pravidlo",
+   "zavaznost": "nizka",
+   "popis": "Dotace - Cyklostezka Bečva  z.s. - projekt Sdílená kola: +434 437 Kč",
+   "castka_Kc": 434436.88,
+   "dukazy": [
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2026-12",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "usneseni",
+     "ref": "24,38/26/ZM/2026",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    }
+   ],
+   "stav": "novy",
+   "stav_detail": null,
+   "puvodni": {
+    "kod": "R5-dotace-subjektu",
+    "zavaznost": "nizka",
+    "popis": "Dotace - Cyklostezka Bečva  z.s. - projekt Sdílená kola: +434 437 Kč",
+    "castka_Kc": 434436.88,
+    "odkazy": [
+     "RO-2026-12",
+     "24,38/26/ZM/2026"
+    ]
+   }
+  },
+  {
+   "id": "S-28363aa29c",
+   "kod": "R5-dotace-subjektu",
+   "zdroj_signalu": "pravidlo",
+   "zavaznost": "nizka",
+   "popis": "Dotace FC Vsetín - rozvoj činnosti: +400 000 Kč",
+   "castka_Kc": 400000.0,
+   "dukazy": [
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2024-18",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "usneseni",
+     "ref": "11,12/15/ZM/2024",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    }
+   ],
+   "stav": "novy",
+   "stav_detail": null,
+   "puvodni": {
+    "kod": "R5-dotace-subjektu",
+    "zavaznost": "nizka",
+    "popis": "Dotace FC Vsetín - rozvoj činnosti: +400 000 Kč",
+    "castka_Kc": 400000.0,
+    "odkazy": [
+     "RO-2024-18",
+     "11,12/15/ZM/2024"
+    ]
+   }
+  },
+  {
+   "id": "S-88b78060ee",
+   "kod": "R5-dotace-subjektu",
+   "zdroj_signalu": "pravidlo",
+   "zavaznost": "nizka",
+   "popis": "FC Fastav Vsetín - navýšení výdaje na hřiště Pod Pecníkem: +350 000 Kč",
+   "castka_Kc": 350000.0,
+   "dukazy": [
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2026-12",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "usneseni",
+     "ref": "24,38/26/ZM/2026",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    }
+   ],
+   "stav": "novy",
+   "stav_detail": null,
+   "puvodni": {
+    "kod": "R5-dotace-subjektu",
+    "zavaznost": "nizka",
+    "popis": "FC Fastav Vsetín - navýšení výdaje na hřiště Pod Pecníkem: +350 000 Kč",
+    "castka_Kc": 350000.0,
+    "odkazy": [
+     "RO-2026-12",
+     "24,38/26/ZM/2026"
+    ]
+   }
+  },
+  {
+   "id": "S-3308f6c458",
+   "kod": "R5-dotace-subjektu",
+   "zdroj_signalu": "pravidlo",
+   "zavaznost": "nizka",
+   "popis": "Dotace - UNITED 3P  z.s.: +300 000 Kč",
+   "castka_Kc": 300000.0,
+   "dukazy": [
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2026-12",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "usneseni",
+     "ref": "24,38/26/ZM/2026",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    }
+   ],
+   "stav": "novy",
+   "stav_detail": null,
+   "puvodni": {
+    "kod": "R5-dotace-subjektu",
+    "zavaznost": "nizka",
+    "popis": "Dotace - UNITED 3P  z.s.: +300 000 Kč",
+    "castka_Kc": 300000.0,
+    "odkazy": [
+     "RO-2026-12",
+     "24,38/26/ZM/2026"
+    ]
+   }
+  },
+  {
+   "id": "S-5e84b098f2",
+   "kod": "R5-dotace-subjektu",
+   "zdroj_signalu": "pravidlo",
+   "zavaznost": "nizka",
+   "popis": "Dotace - FC Fastav Vsetín  z.s.: +300 000 Kč",
+   "castka_Kc": 300000.0,
+   "dukazy": [
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2025-04",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "usneseni",
+     "ref": "35/18/ZM/2025",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    }
+   ],
+   "stav": "novy",
+   "stav_detail": null,
+   "puvodni": {
+    "kod": "R5-dotace-subjektu",
+    "zavaznost": "nizka",
+    "popis": "Dotace - FC Fastav Vsetín  z.s.: +300 000 Kč",
+    "castka_Kc": 300000.0,
+    "odkazy": [
+     "RO-2025-04",
+     "35/18/ZM/2025"
+    ]
+   }
+  },
+  {
+   "id": "S-76ca191c7e",
+   "kod": "R5-dotace-subjektu",
+   "zdroj_signalu": "pravidlo",
+   "zavaznost": "nizka",
+   "popis": "Finanční příspěvek - MUDr. Adéla Jenerál Chmelařová: +300 000 Kč",
+   "castka_Kc": 300000.0,
+   "dukazy": [
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2024-15",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "usneseni",
+     "ref": "13/14/ZM/2024",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    }
+   ],
+   "stav": "novy",
+   "stav_detail": null,
+   "puvodni": {
+    "kod": "R5-dotace-subjektu",
+    "zavaznost": "nizka",
+    "popis": "Finanční příspěvek - MUDr. Adéla Jenerál Chmelařová: +300 000 Kč",
+    "castka_Kc": 300000.0,
+    "odkazy": [
+     "RO-2024-15",
+     "13/14/ZM/2024"
+    ]
+   }
+  },
+  {
+   "id": "S-7e2b560093",
+   "kod": "R5-dotace-subjektu",
+   "zdroj_signalu": "pravidlo",
+   "zavaznost": "nizka",
+   "popis": "Převod zlepšeného výsledku hospodaření do peněžních fondů: +300 000 Kč",
+   "castka_Kc": 300000.0,
+   "dukazy": [
+    {
+     "typ": "rozpoctove_opatreni",
+     "ref": "RO-2025-08",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "usneseni",
+     "ref": "17,18/19/ZM/2025",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    }
+   ],
+   "stav": "novy",
+   "stav_detail": null,
+   "puvodni": {
+    "kod": "R5-dotace-subjektu",
+    "zavaznost": "nizka",
+    "popis": "Převod zlepšeného výsledku hospodaření do peněžních fondů: +300 000 Kč",
+    "castka_Kc": 300000.0,
+    "odkazy": [
+     "RO-2025-08",
+     "17,18/19/ZM/2025"
+    ]
+   }
+  },
+  {
+   "id": "S-9aed80116d",
+   "kod": "R8-malo-nabidek",
+   "zdroj_signalu": "pravidlo",
+   "zavaznost": "nizka",
+   "popis": "OPRAVA LÁVKY PŘES VSETÍNSKOU BEČVU VE VSETÍNĚ (LÁZKÁCH) – DESIGN AND BUILD: jen 2 nabídky",
+   "castka_Kc": 9440000,
+   "dukazy": [
+    {
+     "typ": "verejna_zakazka",
+     "ref": "https://www.vhodne-uverejneni.cz/zakazka/oprava-lavky-pres-vsetinskou-becvu-ve-vsetine-lazkach-design-and-build",
+     "url": "https://www.vhodne-uverejneni.cz/zakazka/oprava-lavky-pres-vsetinskou-becvu-ve-vsetine-lazkach-design-and-build",
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    }
+   ],
+   "stav": "novy",
+   "stav_detail": null,
+   "puvodni": {
+    "kod": "R8-malo-nabidek",
+    "zavaznost": "nizka",
+    "popis": "OPRAVA LÁVKY PŘES VSETÍNSKOU BEČVU VE VSETÍNĚ (LÁZKÁCH) – DESIGN AND BUILD: jen 2 nabídky",
+    "castka_Kc": 9440000,
+    "odkazy": [
+     "https://www.vhodne-uverejneni.cz/zakazka/oprava-lavky-pres-vsetinskou-becvu-ve-vsetine-lazkach-design-and-build"
+    ]
+   }
+  }
+ ]
+}

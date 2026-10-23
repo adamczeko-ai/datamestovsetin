@@ -1,0 +1,49 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "Signály k ověření (v2)",
+ "description": "Generovaný soubor data/analyzy/signaly.json. Stav ověření se NEukládá sem, ale do data/analyzy/signaly_stavy.json (vlastní ho člověk) a při generování se jen připojí.",
+ "type": "object",
+ "required": ["schema", "vygenerovano", "upozorneni", "souhrn", "signaly"],
+ "properties": {
+  "schema": {"const": "vsetin-osint/signaly@2"},
+  "vygenerovano": {"type": "string", "description": "Čas generování, Europe/Prague (ISO 8601 s offsetem)"},
+  "upozorneni": {"type": "string"},
+  "souhrn": {"type": "object"},
+  "osirele_stavy": {"type": "array", "items": {"type": "string"}, "description": "ID ze signaly_stavy.json, která už generátor nevytváří (pravidlo/data se změnila) – nutno projít ručně"},
+  "signaly": {"type": "array", "items": {"$ref": "#/$defs/signal"}}
+ },
+ "$defs": {
+  "dukaz": {
+   "type": "object",
+   "required": ["typ", "ref"],
+   "additionalProperties": false,
+   "properties": {
+    "typ": {"enum": ["rozpoctove_opatreni", "usneseni", "smlouva", "verejna_zakazka", "dokument", "url", "datovy_soubor"]},
+    "ref": {"type": "string", "description": "Interní ID (RO-2025-04, 35/18/ZM/2025), cesta v repu nebo URL"},
+    "url": {"type": ["string", "null"]},
+    "strana": {"type": ["integer", "null"], "minimum": 1},
+    "citace": {"type": ["string", "null"], "description": "Doslovná citace ze zdroje (jen je-li k dispozici text dokumentu)"},
+    "sha256": {"type": ["string", "null"], "pattern": "^[0-9a-f]{64}$"},
+    "stazeno": {"type": ["string", "null"], "description": "Čas stažení dokumentu, Europe/Prague"},
+    "overeno": {"type": "boolean", "description": "true = odkaz a hash ověřeny proti staženému dokumentu"}
+   }
+  },
+  "signal": {
+   "type": "object",
+   "required": ["id", "kod", "zdroj_signalu", "zavaznost", "popis", "dukazy", "stav"],
+   "additionalProperties": false,
+   "properties": {
+    "id": {"type": "string", "pattern": "^(S-[0-9a-f]{10}(-\\d+)?|A-\\d{4}-\\d{2})$"},
+    "kod": {"type": "string"},
+    "zdroj_signalu": {"enum": ["pravidlo", "anomalie", "llm"]},
+    "zavaznost": {"enum": ["vysoka", "stredni", "nizka"]},
+    "popis": {"type": "string"},
+    "castka_Kc": {"type": ["number", "null"]},
+    "dukazy": {"type": "array", "items": {"$ref": "#/$defs/dukaz"}},
+    "stav": {"enum": ["novy", "overuje_se", "vysvetleno", "potvrzeno", "zamitnuto"]},
+    "stav_detail": {"type": ["object", "null"], "description": "Kopie záznamu ze signaly_stavy.json"},
+    "puvodni": {"type": ["object", "null"], "description": "Původní záznam (red_flags@1 / anomálie) – migrace bez ztráty dat"}
+   }
+  }
+ }
+}
