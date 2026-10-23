@@ -1,0 +1,1 @@
+"""Konektory jednotlivých zdrojů."""
