@@ -44,3 +44,8 @@
 ## 2026-10-23 (10. várka – autonomní)
 - Veřejné zakázky z profilu zadavatele; smlouva na stavbu lávky Vs-01-Bel nalezena (oprava); Vs-04-Bel 83,47 mil.
 - Pravidla R8–R11, záložka Zakázky a smlouvy v prohlížeči.
+
+## 2026-10-23 (11. várka – autonomní, zkrácená)
+- K-003 lávka Vs-04-Bel: SoD TM Stav 19,48 mil. (2022) → narovnání 2,17 mil. (2023) → SoD Mitrenga 68,98 mil. (2025).
+- Přednádražní prostor I.B: smlouva EUROVIA+SMO 169,16 mil. (2024) + dodatky 9,0 mil.; profil zadavatele neaktualizován.
+- Zpráva o ověření účetní závěrky 2025 je sken bez textové vrstvy (25 str.) – nevytěženo.

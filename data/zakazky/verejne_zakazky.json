@@ -151,8 +151,32 @@
    "uverejneno": "2023-11-06",
    "lhuta": "2024-02-19",
    "predp_hodnota": 257565000,
-   "stav": "zakázka neukončena (Vyhodnocování) – k 23.10.2026, tj. 2,7 roku po lhůtě",
-   "signal": "Nejvyšší VZ profilu ve stavu 'vyhodnocování' téměř 3 roky po lhůtě – ověřit (zrušení? neaktualizovaný profil?)."
+   "stav": "profil: 'zakázka neukončena (Vyhodnocování)' – v rozporu s registrem smluv",
+   "signal": "Smlouva uzavřena 2.5.2024 (169,16 mil. Kč s DPH), ale profil zadavatele uvádí 'vyhodnocování' – neaktualizovaný profil (datová kvalita / transparentnost). Dodatky +9,0 mil. Kč.",
+   "smlouva": {
+    "id": "28569311",
+    "url": "https://www.hlidacstatu.cz/Detail/28569311",
+    "podpis": "2024-05-02",
+    "dodavatel": "EUROVIA CS, a.s. + SMO a.s. (+1)",
+    "s_DPH": 169163690,
+    "dodatky": [
+     {
+      "id": "33537300",
+      "datum": "2025-06-03",
+      "Kc": 3312962
+     },
+     {
+      "id": "35989505",
+      "datum": "2025-12-09",
+      "Kc": 2934825
+     },
+     {
+      "id": "39587661",
+      "datum": "2026-09-18",
+      "Kc": 2768374
+     }
+    ]
+   }
   },
   {
    "nazev": "Lávka přes Bečvu u průmyslovky (Vs-04-Bel)",
@@ -174,9 +198,19 @@
      "text": "rozpočet 23 000 000 Kč; v textu částky 26 479 138,50 / 32 039 757,59 / 19 483 170"
     },
     {
+     "rok": 2022,
+     "zdroj": "registr smluv 19955007",
+     "text": "SoD TM Stav 19 483 170 Kč bez DPH (8.4.2022)"
+    },
+    {
      "rok": 2023,
      "zdroj": "RO 2/2023 (ZM)",
      "text": "přesun 10 000 000 Kč z 5169 na 6121 ('Lávka u průmyslovky Vs-04-Bel')"
+    },
+    {
+     "rok": 2023,
+     "zdroj": "registr smluv 23734017",
+     "text": "Dohoda o narovnání s TM Stav 2 165 323 Kč (10.3.2023)"
     },
     {
      "rok": 2025,
@@ -184,7 +218,7 @@
      "text": "SoD 68 983 751 Kč bez DPH"
     }
    ],
-   "signal": "Cena díla ~3× vyšší než rozpočet 2022 (23 mil. Kč). Mitrenga-stavby vyhrála i opravu lávky v Lázkách (2026)."
+   "signal": "Původní SoD 19,48 mil. (TM Stav, 2022) ukončena narovnáním 2,17 mil.; nová SoD 68,98 mil. bez DPH (Mitrenga, 2025) = 3,5× – viz K-003."
   }
  ],
  "dalsi_zjisteni": [

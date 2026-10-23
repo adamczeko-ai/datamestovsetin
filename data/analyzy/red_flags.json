@@ -6,7 +6,6 @@
   "R1-velke-navyseni": 44,
   "R7-dofinancovani-PO": 2,
   "R6-soudni-spory": 3,
-  "R11-zakazka-dlouho-neukoncena": 1,
   "R2-opakovane-navysovani": 10,
   "R9-cena-u-predpokladane-hodnoty": 1,
   "R4-nakup-nemovitosti": 6,
@@ -18,7 +17,7 @@
   {
    "kod": "R10-narust-ceny-proti-rozpoctu",
    "zavaznost": "vysoka",
-   "popis": "Cena díla ~3× vyšší než rozpočet 2022 (23 mil. Kč). Mitrenga-stavby vyhrála i opravu lávky v Lázkách (2026).",
+   "popis": "Původní SoD 19,48 mil. (TM Stav, 2022) ukončena narovnáním 2,17 mil.; nová SoD 68,98 mil. bez DPH (Mitrenga, 2025) = 3,5× – viz K-003.",
    "castka_Kc": 68983751,
    "odkazy": [
     "https://www.hlidacstatu.cz/Detail/35219709"
@@ -132,15 +131,6 @@
    "odkazy": [
     "RO-2023-21",
     "18,36/10/ZM/2023"
-   ]
-  },
-  {
-   "kod": "R11-zakazka-dlouho-neukoncena",
-   "zavaznost": "stredni",
-   "popis": "Přednádražní prostor – I.B etapa – Vsetín: zakázka neukončena (Vyhodnocování) – k 23.10.2026, tj. 2,7 roku po lhůtě",
-   "castka_Kc": 257565000,
-   "odkazy": [
-    "https://www.vhodne-uverejneni.cz/zakazka/prednadrazni-prostor-i-b-etapa-vsetin"
    ]
   },
   {

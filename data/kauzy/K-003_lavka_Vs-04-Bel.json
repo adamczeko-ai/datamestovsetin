@@ -1,0 +1,72 @@
+{
+ "schema": "vsetin-osint/kauza@1",
+ "id": "K-003",
+ "nazev": "Lávka u průmyslovky přes Bečvu (Vs-04-Bel): ukončená smlouva, narovnání a nová smlouva za 3,5× vyšší cenu",
+ "subjekty": [
+  {
+   "nazev": "TM Stav, spol. s r.o.",
+   "role": "původní zhotovitel (2022)"
+  },
+  {
+   "nazev": "Mitrenga-stavby, spol. s r.o.",
+   "ico": "26944022",
+   "role": "nový zhotovitel (2025)"
+  },
+  {
+   "nazev": "Stráský, Hustý a partneři s.r.o.",
+   "role": "projektant/AD (2023–2024, dle registru)"
+  }
+ ],
+ "casova_osa": [
+  {
+   "datum": "2022-0x",
+   "organ": "ZM",
+   "popis": "RO 4/2022: 'Lávka u průmyslovky Vs-04-Bel' – rozpočet 23 000 000 Kč; v textu nabídky 19 483 170 / 26 479 138,50 / 32 039 757,59 Kč.",
+   "zdroj": "RO-2022-04"
+  },
+  {
+   "datum": "2022-04-08",
+   "popis": "SoD s TM Stav, spol. s r.o. č. 197/1S/2022 – 19 483 170 Kč bez DPH (23 574 636 Kč s DPH).",
+   "zdroj": "https://www.hlidacstatu.cz/Detail/19955007"
+  },
+  {
+   "datum": "2023-02-20",
+   "organ": "ZM",
+   "popis": "RO 2/2023: 'Lávka přes Bečvu Vs-04-Bel' −10 000 000 (5169) / +10 000 000 (6121) – přesun mezi položkami.",
+   "zdroj": "RO-2023-02"
+  },
+  {
+   "datum": "2023-03-10",
+   "popis": "Dohoda o narovnání s TM Stav č. 109/1S/2023 – 2 165 323 Kč (dle Hlídače státu).",
+   "zdroj": "https://www.hlidacstatu.cz/Detail/23734017"
+  },
+  {
+   "datum": "2023–2024",
+   "popis": "Smlouvy se Stráský, Hustý a partneři s.r.o. (24 200; 102 850; 93 170; 12 100 Kč).",
+   "zdroj": "hledání 'průmyslovky'"
+  },
+  {
+   "datum": "2025-10-14",
+   "popis": "Nová SoD 'Lávka přes Bečvu u průmyslovky ve Vsetíně' s Mitrenga-stavby č. 0138 2025 – 68 983 751 Kč bez DPH (83 470 339 Kč s DPH); schválil starosta Jiří Čunek.",
+   "zdroj": "https://www.hlidacstatu.cz/Detail/35219709"
+  },
+  {
+   "datum": "2026-10-05",
+   "popis": "Mitrenga-stavby – další smlouva 776 760 Kč (k ověření, zda dodatek).",
+   "zdroj": "https://www.hlidacstatu.cz/Detail/39830353"
+  }
+ ],
+ "penize": {
+  "puvodni_SoD_bez_DPH": 19483170,
+  "narovnani": 2165323,
+  "nova_SoD_bez_DPH": 68983751,
+  "narust_nasobek": 3.54
+ },
+ "otazky": [
+  "Proč byla smlouva s TM Stav ukončena a za co bylo placeno narovnání 2,17 mil. Kč?",
+  "Jak se změnil rozsah projektu (nová lávka vs. původní řešení)?",
+  "Kolik nabídek měla VZ 2025 a jaká byla předpokládaná hodnota?",
+  "Rozpočtová opatření 2025 k akci (ORG?) – dohledat."
+ ],
+ "upozorneni": "Fakta z registru smluv; důvody změn nejsou z dostupných dat zřejmé."
+}
