@@ -44,6 +44,51 @@ class Fetched:
         return self.status == "downloaded"
 
 
+def robots_pravidla(lines: list[str], user_agent: str) -> list[tuple[bool, str]]:
+    """Allow/Disallow pravidla skupiny pro náš User-Agent (jinak „*“). Podporuje * a $ (RFC 9309);
+    urllib.robotparser v Pythonu < 3.13 zástupné znaky nevyhodnocuje."""
+    skupiny, aktualni, ua_rezim = [], None, False
+    for raw in lines:
+        line = raw.split("#", 1)[0].strip()
+        if ":" not in line:
+            continue
+        k, v = (x.strip() for x in line.split(":", 1))
+        k = k.lower()
+        if k == "user-agent":
+            if not ua_rezim:
+                aktualni = {"ua": [], "pravidla": []}
+                skupiny.append(aktualni)
+                ua_rezim = True
+            aktualni["ua"].append(v.lower())
+        elif k in ("allow", "disallow") and aktualni is not None:
+            ua_rezim = False
+            if v:
+                aktualni["pravidla"].append((k == "allow", v))
+        else:
+            ua_rezim = False
+    nazev = user_agent.split("/")[0].split("(")[0].strip().lower()
+    vlastni = [g for g in skupiny if any(u != "*" and u in nazev for u in g["ua"])]
+    vybrane = vlastni or [g for g in skupiny if "*" in g["ua"]]
+    return [p for g in vybrane for p in g["pravidla"]]
+
+
+def robots_povoleno(pravidla: list[tuple[bool, str]], url: str) -> bool:
+    """Nejdelší shodné pravidlo rozhoduje; při shodě délky vyhrává Allow."""
+    import re
+    from urllib.parse import urlsplit
+    u = urlsplit(url)
+    cesta = (u.path or "/") + ("?" + u.query if u.query else "")
+    nejlepsi = None
+    for allow, vzor in pravidla:
+        rx = "^" + re.escape(vzor).replace(r"\*", ".*")
+        rx = rx[:-2] + "$" if rx.endswith(r"\$") else rx
+        if re.match(rx, cesta):
+            kandidat = (len(vzor), allow)
+            if nejlepsi is None or kandidat > nejlepsi:
+                nejlepsi = kandidat
+    return True if nejlepsi is None else nejlepsi[1]
+
+
 class RobotsDenied(Exception):
     """URL zakázaná v robots.txt (nebo robots.txt nedostupný)."""
 
@@ -89,7 +134,9 @@ class Http:
                 self._throttle(robots_url)
                 req = urllib.request.Request(robots_url, headers={"User-Agent": self.user_agent})
                 with self.opener.open(req, timeout=min(self.timeout, 60)) as r:
-                    rp.parse(r.read().decode("utf-8", "replace").splitlines())
+                    lines = r.read().decode("utf-8", "replace").splitlines()
+                    rp.parse(lines)
+                    rp.vsetin_pravidla = robots_pravidla(lines, self.user_agent)
             except urllib.error.HTTPError as e:
                 if 400 <= e.code < 500:
                     rp.parse([])  # robots.txt neexistuje -> vše povoleno
@@ -111,7 +158,9 @@ class Http:
         rp = self._robots_for(url)
         if rp is None:
             raise HostUnreachable(f"robots.txt hostitele {url.split('/')[2]} nedostupný – stahování vynecháno")
-        if not rp.can_fetch(self.user_agent, url):
+        pravidla = getattr(rp, "vsetin_pravidla", None)
+        ok = robots_povoleno(pravidla, url) if pravidla is not None else rp.can_fetch(self.user_agent, url)
+        if not ok:
             raise RobotsDenied(f"zakázáno v robots.txt: {url}")
 
     def _open(self, url: str, headers: dict, method: str = "GET"):

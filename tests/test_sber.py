@@ -343,6 +343,19 @@ class TestHttpRobots(unittest.TestCase):
         with self.assertRaises(RobotsDenied):
             h.get_bytes("https://www.vhodne-uverejneni.cz/x?c=1")
 
+    def test_robots_zastupne_znaky(self):
+        from integrace.http import robots_pravidla, robots_povoleno
+        pr = robots_pravidla(["User-agent: *", "Crawl-Delay: 30", "Disallow: /*?c=1", "Disallow: /tajne$",
+                              "Allow: /verejne/", "Disallow: /verejne/x", "", "User-agent: JinyBot", "Disallow: /"],
+                             zdroje.UA)
+        self.assertFalse(robots_povoleno(pr, "https://h/profil/1?c=1"))
+        self.assertTrue(robots_povoleno(pr, "https://h/profil/1?c=2"))
+        self.assertFalse(robots_povoleno(pr, "https://h/tajne"))
+        self.assertTrue(robots_povoleno(pr, "https://h/tajne/dalsi"))
+        self.assertFalse(robots_povoleno(pr, "https://h/verejne/x1"))
+        self.assertTrue(robots_povoleno(pr, "https://h/verejne/y"))
+        self.assertTrue(robots_povoleno(pr, "https://h/"))  # skupina JinyBot se nás netýká
+
     def test_nedostupny_robots_zakazuje(self):
         h = http_klient({"https://www.mestovsetin.cz/robots.txt": SITE_DOWN})
         with self.assertRaises(RobotsDenied):
