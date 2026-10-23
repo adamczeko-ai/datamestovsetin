@@ -1,0 +1,274 @@
+{
+ "schema": "vsetin-osint/spolecnosti-mesta@1",
+ "zdroj": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty-vr/{ico}",
+ "overeno": "2026-10-23 (SELČ)",
+ "minimalizace": "U fyzických osob jen jméno, funkce a datum zápisu; bez data narození a adresy.",
+ "spolecnosti": [
+  {
+   "ico": "28593987",
+   "nazev": "Vsetínská sportovní, s.r.o.",
+   "spisova_znacka": "C 33684, KS Ostrava",
+   "zapsano": "2009-07-20",
+   "zakladni_kapital": 5000000,
+   "spolecnik": {
+    "ico": "00304450",
+    "nazev": "Město Vsetín",
+    "podil": "100 %"
+   },
+   "statutarni_organ": [
+    {
+     "funkce": "Člen statutárního orgánu",
+     "jmeno": "PAVEL BARTOŇ",
+     "od": "2022-12-20"
+    },
+    {
+     "funkce": "Člen statutárního orgánu",
+     "jmeno": "TOMÁŠ BLABLA",
+     "od": "2026-05-12"
+    }
+   ],
+   "transfer_mesta_2026_08": 18298000,
+   "typ": "s.r.o. – 100 % město"
+  },
+  {
+   "ico": "47972114",
+   "nazev": "Dům kultury Vsetín, spol. s r. o.",
+   "spisova_znacka": "C 5321, KS Ostrava",
+   "zapsano": "1993-01-01",
+   "zakladni_kapital": 1806000,
+   "spolecnik": {
+    "ico": "00304450",
+    "nazev": "Město Vsetín",
+    "podil": "100 %"
+   },
+   "statutarni_organ": [
+    {
+     "funkce": "Člen statutárního orgánu",
+     "jmeno": "PETRA VAŇKOVÁ",
+     "od": "2019-01-11"
+    },
+    {
+     "funkce": "Člen statutárního orgánu",
+     "jmeno": "PAVEL BARTOŇ",
+     "od": "2019-05-16"
+    }
+   ],
+   "transfer_mesta_2026_08": 12400000,
+   "typ": "s.r.o. – 100 % město"
+  },
+  {
+   "ico": "47678054",
+   "nazev": "Městské lesy Vsetín, s. r. o.",
+   "typ": "s.r.o. – 100 % město",
+   "stav_VR": "AKTIVNI",
+   "zapsano": "1992-11-04",
+   "spisova_znacka": [
+    "C 4188, KSOS"
+   ],
+   "zakladni_kapital": 5000000.0,
+   "spolecnici": [
+    {
+     "ico": "00304450",
+     "nazev": "Město Vsetín",
+     "podil": "100 %"
+    }
+   ],
+   "statutarni_organ": [
+    {
+     "funkce": "Člen statutárního orgánu",
+     "jmeno": "BOHUMILA HOLEŇOVÁ",
+     "od": "2015-04-04"
+    },
+    {
+     "funkce": "Člen statutárního orgánu",
+     "jmeno": "VÍT ZGARBA",
+     "od": "2015-04-04"
+    }
+   ]
+  },
+  {
+   "ico": "26782596",
+   "nazev": "Technické služby Vsetín, s.r.o.",
+   "typ": "s.r.o. – 100 % město",
+   "stav_VR": "AKTIVNI",
+   "zapsano": "2002-08-22",
+   "spisova_znacka": [
+    "C 27115, KSOS"
+   ],
+   "zakladni_kapital": 34032000.0,
+   "spolecnici": [
+    {
+     "ico": "00304450",
+     "nazev": "Město Vsetín",
+     "podil": "100 %"
+    }
+   ],
+   "statutarni_organ": [
+    {
+     "funkce": "Člen statutárního orgánu",
+     "jmeno": "SIMONA HLAVÁČOVÁ",
+     "od": "2022-12-13"
+    },
+    {
+     "funkce": "Člen statutárního orgánu",
+     "jmeno": "MARTINA HOVOŘÁKOVÁ",
+     "od": "2016-02-10"
+    },
+    {
+     "funkce": "Člen statutárního orgánu",
+     "jmeno": "JAN ŠTĚPANÍK",
+     "od": "2014-08-21"
+    }
+   ]
+  },
+  {
+   "ico": "19690711",
+   "nazev": "DN Vsetín s.r.o.",
+   "typ": "s.r.o. – 100 % město",
+   "stav_VR": "AKTIVNI",
+   "zapsano": "2023-09-05",
+   "spisova_znacka": [
+    "C 93582, KSOS"
+   ],
+   "zakladni_kapital": 1000.0,
+   "spolecnici": [
+    {
+     "ico": "00304450",
+     "nazev": "Město Vsetín",
+     "podil": "100"
+    }
+   ],
+   "statutarni_organ": [
+    {
+     "funkce": "Člen statutárního orgánu",
+     "jmeno": "PETR KUDLÍK",
+     "od": "2023-09-05"
+    }
+   ]
+  },
+  {
+   "ico": "25909614",
+   "nazev": "Azylový dům pro ženy a matky s dětmi o.p.s.",
+   "typ": "o.p.s. – zakladatel město",
+   "stav_VR": "AKTIVNI",
+   "zapsano": "2002-06-29",
+   "spisova_znacka": [
+    "O 140, KSOS"
+   ],
+   "zakladni_kapital": null,
+   "spolecnici": [
+    {
+     "ico": "00304450",
+     "nazev": "Město Vsetín",
+     "podil": null
+    }
+   ],
+   "statutarni_organ": [
+    {
+     "funkce": "Člen statutárního orgánu",
+     "jmeno": "MICHAL TRČÁLEK",
+     "od": "2014-07-16"
+    }
+   ]
+  },
+  {
+   "ico": "26838354",
+   "nazev": "Společnost pro komunitní práci Vsetín o.p.s. \"v likvidaci\"",
+   "typ": "o.p.s. – zakladatel město (v likvidaci)",
+   "stav_VR": "AKTIVNI",
+   "zapsano": "2004-07-28",
+   "spisova_znacka": [
+    "O 177, KSOS"
+   ],
+   "zakladni_kapital": null,
+   "spolecnici": [
+    {
+     "ico": "00304450",
+     "nazev": "Město Vsetín",
+     "podil": null
+    }
+   ],
+   "statutarni_organ": [
+    {
+     "funkce": "Likvidátor",
+     "jmeno": "TOMÁŠ PIFKA",
+     "od": "2025-08-23"
+    }
+   ]
+  },
+  {
+   "ico": "08012733",
+   "nazev": "VALAŠSKÁ PALAČINKÁRNA s.r.o.",
+   "typ": "s.r.o. – nepřímá účast (1/3 Dům kultury Vsetín)",
+   "stav_VR": "AKTIVNI",
+   "zapsano": "2019-03-21",
+   "spisova_znacka": [
+    "C 78039, KSOS"
+   ],
+   "zakladni_kapital": 3.0,
+   "spolecnici": [
+    {
+     "ico": "47972114",
+     "nazev": "Dům kultury Vsetín, spol. s r. o.",
+     "podil": "1/3"
+    },
+    {
+     "ico": null,
+     "nazev": "(fyzická osoba – neuvádíme)",
+     "podil": "2/3"
+    }
+   ],
+   "statutarni_organ": [],
+   "statutarni_organ_pozn": "Soukromá společnost s nepřímou účastí města – jména osob neukládáme (minimalizace)."
+  }
+ ],
+ "pozorovani": [
+  {
+   "typ": "fakt (VR)",
+   "text": "Stejné jméno je zapsáno ve statutárním orgánu obou společností města. Jde o veřejný zápis; bez dalšího ověření identity a bez hodnocení."
+  }
+ ],
+ "neuplnost": "Úplné pro s.r.o., a.s., o.p.s., ústavy, nadace, nadační fondy a družstva v obvodu KS Ostrava (platné zápisy k datu exportu). Neověřeno mimo tento obvod.",
+ "metoda_vyhledani": {
+  "zdroj": "dataor.justice.cz – platné výpisy (actual) KS Ostrava 2026, hledání IČO 304450 a IČO společností města v elementech osoba/ico",
+  "prohledano": {
+   "sro": {
+    "bytes": 39445175,
+    "sha256": "a8c2c2746a61ecf2af69c1a3fd11dbbd3aa21365a21c9acda0ac21beece716d8",
+    "subjektu": 63883
+   },
+   "as": {
+    "bytes": 2908589,
+    "sha256": "bc96fd57c74c44825eb81935cdd29afa694c53fa67cf0582ed92e3ffed0f6a3a",
+    "subjektu": 2575
+   },
+   "ops": {
+    "bytes": 383746,
+    "subjektu": 302
+   },
+   "ustav": {
+    "bytes": 270556,
+    "subjektu": 246
+   },
+   "nadf": {
+    "bytes": 352987,
+    "subjektu": 384
+   },
+   "nad": {
+    "bytes": 75702,
+    "subjektu": 67
+   },
+   "dr": {
+    "bytes": 1353460,
+    "subjektu": 1879
+   }
+  },
+  "neprohledano": [
+   "spolky (členství města se do VR nezapisuje)",
+   "zaj_sdr_po a spol_pod – soubor .gz poškozen/nekomprimovaný (chyba „incorrect header“)",
+   "subjekty mimo obvod KS Ostrava",
+   "dobrovolné svazky obcí (nejsou ve VR)"
+  ],
+  "overeni": "Každý nález ověřen v ARES VR (2026-10-23)."
+ }
+}
