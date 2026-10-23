@@ -1,0 +1,186 @@
+{
+ "schema": "vsetin-osint/konzistence@1",
+ "stav_k": "2026-10-23T21:27:42+02:00",
+ "poznamka": "Rozpory k ověření, nejsou zjištěním pochybení. Zdrojová data se nemění; stav upravuje člověk.",
+ "souhrn": [
+  {
+   "kontrola": "K1",
+   "popis": "RO: řádky JSON vs roční CSV vs souhrnné CSV",
+   "pocet": 0
+  },
+  {
+   "kontrola": "K2",
+   "popis": "RO: bilance a aritmetika řádků",
+   "pocet": 0
+  },
+  {
+   "kontrola": "K3",
+   "popis": "subjekty.json vs ares_overeni.json",
+   "pocet": 0
+  },
+  {
+   "kontrola": "K4",
+   "popis": "IČO – kontrolní číslice",
+   "pocet": 2
+  },
+  {
+   "kontrola": "K5",
+   "popis": "RO: datum vs index zasedání ZM / schůzí RM",
+   "pocet": 0
+  },
+  {
+   "kontrola": "K6",
+   "popis": "FO jménem v kurátorovaných datech (zakázky, smlouvy)",
+   "pocet": 6
+  }
+ ],
+ "zmizele_od_minula": [],
+ "rozpory": [
+  {
+   "id": "K4-ad888ee547",
+   "kontrola": "K4",
+   "popis": "IČO 00000000 nemá platnou kontrolní číslici (mod 11) – překlep nebo zástupná hodnota",
+   "a": {
+    "soubor": "data/zakazky/nipez_vz_okruh_mesta_2024_2026.json",
+    "cesta": "$.zakazky[0].zadavatele[1].ico",
+    "hodnota": "00000000"
+   },
+   "b": {
+    "soubor": "výpočet mod 11",
+    "cesta": "scripts/ares_overeni.ico_ok",
+    "hodnota": false
+   },
+   "vyskyty": 1,
+   "dalsi_mista": [],
+   "zjisteno": "2026-10-23T21:26:21+02:00",
+   "stav": "ke_kontrole"
+  },
+  {
+   "id": "K4-09705f121b",
+   "kontrola": "K4",
+   "popis": "IČO 00000111 nemá platnou kontrolní číslici (mod 11) – překlep nebo zástupná hodnota",
+   "a": {
+    "soubor": "data/transfery/transfery_mesta_2026_08.json",
+    "cesta": "$.prijemci[16].ico",
+    "hodnota": "00000111"
+   },
+   "b": {
+    "soubor": "výpočet mod 11",
+    "cesta": "scripts/ares_overeni.ico_ok",
+    "hodnota": false
+   },
+   "vyskyty": 1,
+   "dalsi_mista": [],
+   "zjisteno": "2026-10-23T21:26:21+02:00",
+   "stav": "ke_kontrole"
+  },
+  {
+   "id": "K6-76ab3a63a2",
+   "kontrola": "K6",
+   "popis": "IČO 73257958: fyzická osoba (právní forma 107) uvedena jménem",
+   "a": {
+    "soubor": "data/smlouvy/parovani_ico.json",
+    "cesta": "$.subjekty[7].nazev",
+    "hodnota": "(jméno – neuvádí se)"
+   },
+   "b": {
+    "soubor": "data/entity/ares_overeni.json",
+    "cesta": "subjekty[ico=73257958].pravni_forma",
+    "hodnota": "107"
+   },
+   "navrh": "pseudonymizovat jméno v odvozených datech (rozhodne vlastník dat)",
+   "zjisteno": "2026-10-23T21:26:21+02:00",
+   "stav": "ke_kontrole"
+  },
+  {
+   "id": "K6-e7fd9810eb",
+   "kontrola": "K6",
+   "popis": "IČO 02536986: fyzická osoba (právní forma 105) uvedena jménem",
+   "a": {
+    "soubor": "data/smlouvy/parovani_ico.json",
+    "cesta": "$.subjekty[37].nazev",
+    "hodnota": "(jméno – neuvádí se)"
+   },
+   "b": {
+    "soubor": "data/entity/ares_overeni.json",
+    "cesta": "subjekty[ico=02536986].pravni_forma",
+    "hodnota": "105"
+   },
+   "navrh": "pseudonymizovat jméno v odvozených datech (rozhodne vlastník dat)",
+   "zjisteno": "2026-10-23T21:26:21+02:00",
+   "stav": "ke_kontrole"
+  },
+  {
+   "id": "K6-cd931afed0",
+   "kontrola": "K6",
+   "popis": "IČO 68349742: fyzická osoba (právní forma 101) uvedena jménem",
+   "a": {
+    "soubor": "data/smlouvy/parovani_ico.json",
+    "cesta": "$.subjekty[50].nazev",
+    "hodnota": "(jméno – neuvádí se)"
+   },
+   "b": {
+    "soubor": "data/entity/ares_overeni.json",
+    "cesta": "subjekty[ico=68349742].pravni_forma",
+    "hodnota": "101"
+   },
+   "navrh": "pseudonymizovat jméno v odvozených datech (rozhodne vlastník dat)",
+   "zjisteno": "2026-10-23T21:26:21+02:00",
+   "stav": "ke_kontrole"
+  },
+  {
+   "id": "K6-3f56155957",
+   "kontrola": "K6",
+   "popis": "IČO 73257958: fyzická osoba (právní forma 107) uvedena jménem",
+   "a": {
+    "soubor": "data/zakazky/nipez_vz_okruh_mesta_2024_2026.json",
+    "cesta": "$.zakazky[5].smlouvy[0].dodavatele[0].nazev",
+    "hodnota": "(jméno – neuvádí se)"
+   },
+   "b": {
+    "soubor": "data/entity/ares_overeni.json",
+    "cesta": "subjekty[ico=73257958].pravni_forma",
+    "hodnota": "107"
+   },
+   "navrh": "pseudonymizovat jméno v odvozených datech (rozhodne vlastník dat)",
+   "zjisteno": "2026-10-23T21:26:21+02:00",
+   "stav": "ke_kontrole"
+  },
+  {
+   "id": "K6-d63ad2406b",
+   "kontrola": "K6",
+   "popis": "IČO 73257958: fyzická osoba (právní forma 107) uvedena jménem",
+   "a": {
+    "soubor": "data/zakazky/nipez_vz_okruh_mesta_2024_2026.json",
+    "cesta": "$.zakazky[61].smlouvy[0].dodavatele[0].nazev",
+    "hodnota": "(jméno – neuvádí se)"
+   },
+   "b": {
+    "soubor": "data/entity/ares_overeni.json",
+    "cesta": "subjekty[ico=73257958].pravni_forma",
+    "hodnota": "107"
+   },
+   "navrh": "pseudonymizovat jméno v odvozených datech (rozhodne vlastník dat)",
+   "zjisteno": "2026-10-23T21:26:21+02:00",
+   "stav": "ke_kontrole"
+  },
+  {
+   "id": "K6-cb9708b195",
+   "kontrola": "K6",
+   "popis": "IČO 73257958: fyzická osoba (právní forma 107) uvedena jménem",
+   "a": {
+    "soubor": "data/zakazky/verejne_zakazky.json",
+    "cesta": "$.zakazky[1].ucastnici[1].nazev",
+    "hodnota": "(jméno – neuvádí se)"
+   },
+   "b": {
+    "soubor": "data/entity/ares_overeni.json",
+    "cesta": "subjekty[ico=73257958].pravni_forma",
+    "hodnota": "107"
+   },
+   "navrh": "pseudonymizovat jméno v odvozených datech (rozhodne vlastník dat)",
+   "zjisteno": "2026-10-23T21:26:21+02:00",
+   "stav": "ke_kontrole"
+  }
+ ]
+}
