@@ -1,0 +1,2189 @@
+{
+ "schema": "vsetin-osint/dotace-statni@1",
+ "zdroj": "MONITOR – Státní registr dotací (data IS ReD/CEDR), API UI: /api/grants/state/search?receiver={ico}",
+ "stav_registru": "k 30. 6. 2026 (dle UI)",
+ "vytezeno": "2026-10-23 cca 08:00 SELČ",
+ "sledovani_prijemci": 23,
+ "zaznamu": 204,
+ "souhrn_podle_roku": {
+  "2014": 43587555.83,
+  "2015": 54068764.87,
+  "2016": 4122934.7,
+  "2017": 10145512.56,
+  "2018": 9034802.0,
+  "2019": 63527856.28,
+  "2020": 4502628.3,
+  "2021": 26389615.98,
+  "2022": 3857516.0,
+  "2023": 44884799.81,
+  "2024": 50642958.14,
+  "2025": 80406820.42,
+  "2026": 42970013.19
+ },
+ "souhrn_podle_prijemce": {
+  "00304450": {
+   "2014": 41380230.04,
+   "2015": 54068764.87,
+   "2016": 4122934.7,
+   "2017": 10145512.56,
+   "2018": 8251327.0,
+   "2019": 63527856.28,
+   "2020": 2709712.38,
+   "2021": 7125929.15,
+   "2022": 538188.0,
+   "2023": 13300471.81,
+   "2024": 40431191.76,
+   "2025": 71928654.69,
+   "2026": 20536768.51
+  },
+  "75063468": {
+   "2014": 2207325.79,
+   "2018": 783475.0,
+   "2023": 6869883.0,
+   "2024": 7220959.0
+  },
+  "60990406": {
+   "2023": 4169740.0,
+   "2025": 1885446.94,
+   "2026": 17129152.89
+  },
+  "00851817": {
+   "2022": 1655000.0,
+   "2023": 657000.0,
+   "2024": 464000.0,
+   "2025": 92000.0,
+   "2026": 46000.0
+  },
+  "60990449": {
+   "2023": 3451725.0,
+   "2025": 703000.0,
+   "2026": 1334012.8
+  },
+  "60990368": {
+   "2023": 3979669.0,
+   "2025": 1897071.15
+  },
+  "60990465": {
+   "2023": 2860897.0,
+   "2026": 1300770.4
+  },
+  "60990457": {
+   "2020": 79990.0,
+   "2021": 19263686.83,
+   "2023": 1501172.0,
+   "2026": 1209357.59
+  },
+  "00851922": {
+   "2023": 2678200.0,
+   "2024": 562904.38,
+   "2025": 1069364.49
+  },
+  "60042371": {
+   "2023": 656438.0
+  },
+  "60042362": {
+   "2023": 587825.0,
+   "2025": 406235.2
+  },
+  "60042389": {
+   "2023": 548400.0,
+   "2025": 389712.8
+  },
+  "70872236": {
+   "2023": 447579.0,
+   "2025": 337152.15
+  },
+  "60609231": {
+   "2023": 428938.0
+  },
+  "60042354": {
+   "2023": 520000.0
+  },
+  "47972114": {
+   "2022": 930000.0
+  },
+  "47678054": {
+   "2022": 734328.0,
+   "2023": 2101907.0,
+   "2024": 1849216.0,
+   "2025": 1568641.0,
+   "2026": 1413951.0
+  },
+  "25909614": {
+   "2020": 1712925.92,
+   "2023": 124955.0,
+   "2024": 114687.0,
+   "2025": 129542.0
+  }
+ },
+ "omezeni": [
+  "Název dotace zkrácen na 48 znaků.",
+  "Částka = hodnota transferu v daném roce dle registru; nejde o vyúčtování.",
+  "Fyzické osoby ve výsledcích nebyly (všechny záznamy receiverOrg=true).",
+  "Registr pokrývá státní rozpočet a státní fondy; dotace kraje a EU přímo od ŘO mohou chybět."
+ ],
+ "vazby_na_RO": [
+  {
+   "typ": "fakt (shoda částky)",
+   "dotace": "Z150402000046 „Školní gastro provoz – ZŠ Vsetín Sychrov“, 2024, 12 271 693,12 Kč",
+   "ro": "RO 18/2024: pol. 4116 ÚZ 147515016 (414 984,79) + pol. 4216 ÚZ 147515501 (11 856 708,33) = 12 271 693,12 Kč"
+  },
+  {
+   "typ": "fakt (shoda částky)",
+   "dotace": "Z221901000563 „2024 – EKIS Městský úřad Vsetín“, 2024, 23 833 Kč",
+   "ro": "RO 22/2024: pol. 4116 ÚZ 22024 +23 833 Kč"
+  },
+  {
+   "typ": "fakt (shoda částky)",
+   "dotace": "Z130501000771 „Dotace na sociální práci…“, 2024, 1 605 276 Kč",
+   "ro": "RO 12/2024: pol. 4116 ÚZ 13015 po změně 1 605 276 Kč"
+  },
+  {
+   "typ": "fakt (shoda částky)",
+   "dotace": "Z130701000234 „Dětské skupiny DOMEČEK“ (ZŠ a MŠ Luh), 2026, 17 129 152,89 Kč",
+   "vazba": "transfer města ZŠ a MŠ Luh 2026 pol. 6356 = 17 123 102,89 Kč (rozdíl 6 050 Kč) a zakázka RVZ2500068239 (stavební úpravy, 11,73 mil. bez DPH)"
+  }
+ ],
+ "zaznamy": [
+  {
+   "prijemce_ico": "00304450",
+   "prijemce": "Město Vsetín",
+   "rok": 2026,
+   "poskytovatel_ico": "00551023",
+   "poskytovatel": "Ministerstvo práce a sociálních věcí",
+   "id_dotace": "Z130501001555",
+   "nazev_zkraceny": "Dotace na sociální práci na obcích a krajích",
+   "castka": 1499352.0
+  },
+  {
+   "prijemce_ico": "00304450",
+   "prijemce": "Město Vsetín",
+   "rok": 2026,
+   "poskytovatel_ico": "00551023",
+   "poskytovatel": "Ministerstvo práce a sociálních věcí",
+   "id_dotace": "Z130901000878",
+   "nazev_zkraceny": "Projekt Prevence Vsetín II",
+   "castka": 498560.48
+  },
+  {
+   "prijemce_ico": "00304450",
+   "prijemce": "Město Vsetín",
+   "rok": 2026,
+   "poskytovatel_ico": "66002222",
+   "poskytovatel": "Ministerstvo pro místní rozvoj",
+   "id_dotace": "Z170201000003",
+   "nazev_zkraceny": "MVK Vsetín - Dolní náměstí 1356 - rekonstrukce",
+   "castka": 4733543.0
+  },
+  {
+   "prijemce_ico": "00304450",
+   "prijemce": "Město Vsetín",
+   "rok": 2026,
+   "poskytovatel_ico": "66002222",
+   "poskytovatel": "Ministerstvo pro místní rozvoj",
+   "id_dotace": "Z170201002715",
+   "nazev_zkraceny": "Turistické informační centrum Vsetín",
+   "castka": 2240713.03
+  },
+  {
+   "prijemce_ico": "00304450",
+   "prijemce": "Město Vsetín",
+   "rok": 2026,
+   "poskytovatel_ico": "00007064",
+   "poskytovatel": "Ministerstvo vnitra",
+   "id_dotace": "014D261004035",
+   "nazev_zkraceny": "FZŠ - Město Vsetín - Cisternová automobilová stř",
+   "castka": 4000000.0
+  },
+  {
+   "prijemce_ico": "00304450",
+   "prijemce": "Město Vsetín",
+   "rok": 2026,
+   "poskytovatel_ico": "00007064",
+   "poskytovatel": "Ministerstvo vnitra",
+   "id_dotace": "114D422005252",
+   "nazev_zkraceny": "Město Vsetín - Zvýšení kybernetické bezpečnosti",
+   "castka": 7064600.0
+  },
+  {
+   "prijemce_ico": "00304450",
+   "prijemce": "Město Vsetín",
+   "rok": 2026,
+   "poskytovatel_ico": "66002222",
+   "poskytovatel": "Ministerstvo pro místní rozvoj",
+   "id_dotace": "117D762400005",
+   "nazev_zkraceny": "Rozšíření hřbitova ve Vsetíně - kolumbárium - pr",
+   "castka": 500000.0
+  },
+  {
+   "prijemce_ico": "00304450",
+   "prijemce": "Město Vsetín",
+   "rok": 2025,
+   "poskytovatel_ico": "00551023",
+   "poskytovatel": "Ministerstvo práce a sociálních věcí",
+   "id_dotace": "Z130501001126",
+   "nazev_zkraceny": "Dotace na sociální práci na obcích a krajích",
+   "castka": 1482101.0
+  },
+  {
+   "prijemce_ico": "00304450",
+   "prijemce": "Město Vsetín",
+   "rok": 2025,
+   "poskytovatel_ico": "00551023",
+   "poskytovatel": "Ministerstvo práce a sociálních věcí",
+   "id_dotace": "Z130901000878",
+   "nazev_zkraceny": "Projekt Prevence Vsetín II",
+   "castka": 1940834.84
+  },
+  {
+   "prijemce_ico": "00304450",
+   "prijemce": "Město Vsetín",
+   "rok": 2025,
+   "poskytovatel_ico": "00551023",
+   "poskytovatel": "Ministerstvo práce a sociálních věcí",
+   "id_dotace": "Z131102000088",
+   "nazev_zkraceny": "Dotační titul Obec přátelská rodině a seniorům 2",
+   "castka": 666820.0
+  },
+  {
+   "prijemce_ico": "00304450",
+   "prijemce": "Město Vsetín",
+   "rok": 2025,
+   "poskytovatel_ico": "00007064",
+   "poskytovatel": "Ministerstvo vnitra",
+   "id_dotace": "Z141401008228",
+   "nazev_zkraceny": "Město Vsetín - Odborná příprava a zásah mimo kat",
+   "castka": 3000.0
+  },
+  {
+   "prijemce_ico": "00304450",
+   "prijemce": "Město Vsetín",
+   "rok": 2025,
+   "poskytovatel_ico": "00007064",
+   "poskytovatel": "Ministerstvo vnitra",
+   "id_dotace": "Z141401008240",
+   "nazev_zkraceny": "Město Vsetín - Odborná příprava a zásah mimo kat",
+   "castka": 1500.0
+  },
+  {
+   "prijemce_ico": "00304450",
+   "prijemce": "Město Vsetín",
+   "rok": 2025,
+   "poskytovatel_ico": "00007064",
+   "poskytovatel": "Ministerstvo vnitra",
+   "id_dotace": "Z143901000801",
+   "nazev_zkraceny": "Město Vsetín - výdaje za zásah JSDH Vsetín-město",
+   "castka": 47933.0
+  },
+  {
+   "prijemce_ico": "00304450",
+   "prijemce": "Město Vsetín",
+   "rok": 2025,
+   "poskytovatel_ico": "00007064",
+   "poskytovatel": "Ministerstvo vnitra",
+   "id_dotace": "Z143901000802",
+   "nazev_zkraceny": "Město Vsetín - Výdaje za zásah JSDH Semetín",
+   "castka": 2500.0
+  },
+  {
+   "prijemce_ico": "00304450",
+   "prijemce": "Město Vsetín",
+   "rok": 2025,
+   "poskytovatel_ico": "00007064",
+   "poskytovatel": "Ministerstvo vnitra",
+   "id_dotace": "Z143901000803",
+   "nazev_zkraceny": "Město Vsetín - Výdaje za zásah JSDH Jasenka",
+   "castka": 17916.0
+  },
+  {
+   "prijemce_ico": "00304450",
+   "prijemce": "Město Vsetín",
+   "rok": 2025,
+   "poskytovatel_ico": "00007064",
+   "poskytovatel": "Ministerstvo vnitra",
+   "id_dotace": "Z143901000807",
+   "nazev_zkraceny": "Město Vsetín - výdaje za zásah JSDH Rokytnice",
+   "castka": 983.0
+  },
+  {
+   "prijemce_ico": "00304450",
+   "prijemce": "Město Vsetín",
+   "rok": 2025,
+   "poskytovatel_ico": "00007064",
+   "poskytovatel": "Ministerstvo vnitra",
+   "id_dotace": "Z143901000817",
+   "nazev_zkraceny": "Město Vsetín - výdaje za zásah JSDH Dušná",
+   "castka": 968.0
+  },
+  {
+   "prijemce_ico": "00304450",
+   "prijemce": "Město Vsetín",
+   "rok": 2025,
+   "poskytovatel_ico": "00007064",
+   "poskytovatel": "Ministerstvo vnitra",
+   "id_dotace": "Z143901000881",
+   "nazev_zkraceny": "Vsetín - výdaje na mimořádné odměny JSDH Rokytni",
+   "castka": 28600.0
+  },
+  {
+   "prijemce_ico": "00304450",
+   "prijemce": "Město Vsetín",
+   "rok": 2025,
+   "poskytovatel_ico": "00007064",
+   "poskytovatel": "Ministerstvo vnitra",
+   "id_dotace": "Z143901000896",
+   "nazev_zkraceny": "Vsetín - výdaje na mimořádné odměny JSDH Jasenka",
+   "castka": 49500.0
+  },
+  {
+   "prijemce_ico": "00304450",
+   "prijemce": "Město Vsetín",
+   "rok": 2025,
+   "poskytovatel_ico": "00007064",
+   "poskytovatel": "Ministerstvo vnitra",
+   "id_dotace": "Z143901000898",
+   "nazev_zkraceny": "Vsetín - výdaje na mimořádné odměny JSDH Dušná",
+   "castka": 7800.0
+  },
+  {
+   "prijemce_ico": "00304450",
+   "prijemce": "Město Vsetín",
+   "rok": 2025,
+   "poskytovatel_ico": "00007064",
+   "poskytovatel": "Ministerstvo vnitra",
+   "id_dotace": "Z143901000920",
+   "nazev_zkraceny": "Vsetín - výdaje na mimořádné odměny JSDH Semetín",
+   "castka": 37800.0
+  },
+  {
+   "prijemce_ico": "00304450",
+   "prijemce": "Město Vsetín",
+   "rok": 2025,
+   "poskytovatel_ico": "00007064",
+   "poskytovatel": "Ministerstvo vnitra",
+   "id_dotace": "Z143901000926",
+   "nazev_zkraceny": "Vsetín - výdaje na mimořádné odměny JSDH Vsetín-",
+   "castka": 48900.0
+  },
+  {
+   "prijemce_ico": "00304450",
+   "prijemce": "Město Vsetín",
+   "rok": 2025,
+   "poskytovatel_ico": "66002222",
+   "poskytovatel": "Ministerstvo pro místní rozvoj",
+   "id_dotace": "Z170201000003",
+   "nazev_zkraceny": "MVK Vsetín - Dolní náměstí 1356 - rekonstrukce",
+   "castka": 29781628.1
+  },
+  {
+   "prijemce_ico": "00304450",
+   "prijemce": "Město Vsetín",
+   "rok": 2025,
+   "poskytovatel_ico": "66002222",
+   "poskytovatel": "Ministerstvo pro místní rozvoj",
+   "id_dotace": "Z170201000029",
+   "nazev_zkraceny": "MVK Vsetín - Dolní náměstí 1356 - vybavení",
+   "castka": 3223702.9
+  },
+  {
+   "prijemce_ico": "00304450",
+   "prijemce": "Město Vsetín",
+   "rok": 2025,
+   "poskytovatel_ico": "66002222",
+   "poskytovatel": "Ministerstvo pro místní rozvoj",
+   "id_dotace": "Z170201000094",
+   "nazev_zkraceny": "Cyklostezka Rokytenka - I. část - úsek č. 2 (od",
+   "castka": 22683909.34
+  },
+  {
+   "prijemce_ico": "00304450",
+   "prijemce": "Město Vsetín",
+   "rok": 2025,
+   "poskytovatel_ico": "66002222",
+   "poskytovatel": "Ministerstvo pro místní rozvoj",
+   "id_dotace": "Z170201000863",
+   "nazev_zkraceny": "Cyklostezka Rokytenka - II. část - úsek okolo Ha",
+   "castka": 2908588.12
+  },
+  {
+   "prijemce_ico": "00304450",
+   "prijemce": "Město Vsetín",
+   "rok": 2025,
+   "poskytovatel_ico": "66002222",
+   "poskytovatel": "Ministerstvo pro místní rozvoj",
+   "id_dotace": "Z170201002715",
+   "nazev_zkraceny": "Turistické informační centrum Vsetín",
+   "castka": 3740373.94
+  },
+  {
+   "prijemce_ico": "00304450",
+   "prijemce": "Město Vsetín",
+   "rok": 2025,
+   "poskytovatel_ico": "00022985",
+   "poskytovatel": "Ministerstvo školství, mládeže a tělovýchovy",
+   "id_dotace": "Z332701005489",
+   "nazev_zkraceny": "MAP rozvoje vzdělávání Vsetínsko IV",
+   "castka": 4679796.45
+  },
+  {
+   "prijemce_ico": "00304450",
+   "prijemce": "Město Vsetín",
+   "rok": 2025,
+   "poskytovatel_ico": "00023671",
+   "poskytovatel": "Ministerstvo kultury",
+   "id_dotace": "Z342001000667",
+   "nazev_zkraceny": "památník československých a sovětských vojáků, r",
+   "castka": 182000.0
+  },
+  {
+   "prijemce_ico": "00304450",
+   "prijemce": "Město Vsetín",
+   "rok": 2025,
+   "poskytovatel_ico": "00007064",
+   "poskytovatel": "Ministerstvo vnitra",
+   "id_dotace": "114D422005252",
+   "nazev_zkraceny": "Město Vsetín - Zvýšení kybernetické bezpečnosti",
+   "castka": 391500.0
+  },
+  {
+   "prijemce_ico": "00304450",
+   "prijemce": "Město Vsetín",
+   "rok": 2024,
+   "poskytovatel_ico": "00551023",
+   "poskytovatel": "Ministerstvo práce a sociálních věcí",
+   "id_dotace": "Z130501000771",
+   "nazev_zkraceny": "Dotace na sociální práci na obcích a krajích",
+   "castka": 1605276.0
+  },
+  {
+   "prijemce_ico": "00304450",
+   "prijemce": "Město Vsetín",
+   "rok": 2024,
+   "poskytovatel_ico": "00551023",
+   "poskytovatel": "Ministerstvo práce a sociálních věcí",
+   "id_dotace": "Z130901000878",
+   "nazev_zkraceny": "Projekt Prevence Vsetín II",
+   "castka": 1784509.73
+  },
+  {
+   "prijemce_ico": "00304450",
+   "prijemce": "Město Vsetín",
+   "rok": 2024,
+   "poskytovatel_ico": "00007064",
+   "poskytovatel": "Ministerstvo vnitra",
+   "id_dotace": "Z141401005357",
+   "nazev_zkraceny": "Město Vsetín - žádost o dotaci na výdaje spojené",
+   "castka": 6600.0
+  },
+  {
+   "prijemce_ico": "00304450",
+   "prijemce": "Město Vsetín",
+   "rok": 2024,
+   "poskytovatel_ico": "00164801",
+   "poskytovatel": "Ministerstvo životního prostředí",
+   "id_dotace": "Z150402000046",
+   "nazev_zkraceny": "Školní gastro provoz - ZŠ Vsetín Sychrov",
+   "castka": 12271693.12
+  },
+  {
+   "prijemce_ico": "00304450",
+   "prijemce": "Město Vsetín",
+   "rok": 2024,
+   "poskytovatel_ico": "66002222",
+   "poskytovatel": "Ministerstvo pro místní rozvoj",
+   "id_dotace": "Z170201000003",
+   "nazev_zkraceny": "MVK Vsetín - Dolní náměstí 1356 - rekonstrukce",
+   "castka": 2950736.29
+  },
+  {
+   "prijemce_ico": "00304450",
+   "prijemce": "Město Vsetín",
+   "rok": 2024,
+   "poskytovatel_ico": "66002222",
+   "poskytovatel": "Ministerstvo pro místní rozvoj",
+   "id_dotace": "Z170201000094",
+   "nazev_zkraceny": "Cyklostezka Rokytenka - I. část - úsek č. 2 (od",
+   "castka": 10816141.64
+  },
+  {
+   "prijemce_ico": "00304450",
+   "prijemce": "Město Vsetín",
+   "rok": 2024,
+   "poskytovatel_ico": "66002222",
+   "poskytovatel": "Ministerstvo pro místní rozvoj",
+   "id_dotace": "Z170201000111",
+   "nazev_zkraceny": "Cyklostezka Rokytenka, 1. část - za areálem ČS,",
+   "castka": 3840234.97
+  },
+  {
+   "prijemce_ico": "00304450",
+   "prijemce": "Město Vsetín",
+   "rok": 2024,
+   "poskytovatel_ico": "66002222",
+   "poskytovatel": "Ministerstvo pro místní rozvoj",
+   "id_dotace": "Z171601000516",
+   "nazev_zkraceny": "609_Vsetín_IT vybavení pro stavební úřad - počet",
+   "castka": 987335.8
+  },
+  {
+   "prijemce_ico": "00304450",
+   "prijemce": "Město Vsetín",
+   "rok": 2024,
+   "poskytovatel_ico": "47609109",
+   "poskytovatel": "Ministerstvo průmyslu a obchodu",
+   "id_dotace": "Z220317000211",
+   "nazev_zkraceny": "NEO pro EKIS 3018 - EKIS Vsetín Městský úřad",
+   "castka": 448000.0
+  },
+  {
+   "prijemce_ico": "00304450",
+   "prijemce": "Město Vsetín",
+   "rok": 2024,
+   "poskytovatel_ico": "47609109",
+   "poskytovatel": "Ministerstvo průmyslu a obchodu",
+   "id_dotace": "Z220317000454",
+   "nazev_zkraceny": "4018 - EKIS Městský úřad Vsetín",
+   "castka": 349233.0
+  },
+  {
+   "prijemce_ico": "00304450",
+   "prijemce": "Město Vsetín",
+   "rok": 2024,
+   "poskytovatel_ico": "47609109",
+   "poskytovatel": "Ministerstvo průmyslu a obchodu",
+   "id_dotace": "Z221901000563",
+   "nazev_zkraceny": "2024 - EKIS Městský úřad Vsetín",
+   "castka": 23833.0
+  },
+  {
+   "prijemce_ico": "00304450",
+   "prijemce": "Město Vsetín",
+   "rok": 2024,
+   "poskytovatel_ico": "00022985",
+   "poskytovatel": "Ministerstvo školství, mládeže a tělovýchovy",
+   "id_dotace": "Z332701005489",
+   "nazev_zkraceny": "MAP rozvoje vzdělávání Vsetínsko IV",
+   "castka": 5347598.21
+  },
+  {
+   "prijemce_ico": "00304450",
+   "prijemce": "Město Vsetín",
+   "rok": 2023,
+   "poskytovatel_ico": "00551023",
+   "poskytovatel": "Ministerstvo práce a sociálních věcí",
+   "id_dotace": "Z130501000041",
+   "nazev_zkraceny": "Dotace na sociální práci na obcích a krajích",
+   "castka": 1698368.0
+  },
+  {
+   "prijemce_ico": "00304450",
+   "prijemce": "Město Vsetín",
+   "rok": 2023,
+   "poskytovatel_ico": "00551023",
+   "poskytovatel": "Ministerstvo práce a sociálních věcí",
+   "id_dotace": "Z130901000878",
+   "nazev_zkraceny": "Projekt Prevence Vsetín II",
+   "castka": 1810245.03
+  },
+  {
+   "prijemce_ico": "00304450",
+   "prijemce": "Město Vsetín",
+   "rok": 2023,
+   "poskytovatel_ico": "00007064",
+   "poskytovatel": "Ministerstvo vnitra",
+   "id_dotace": "Z141401002951",
+   "nazev_zkraceny": "Město Vsetín - žádost o dotaci na výdaje spojené",
+   "castka": 4800.0
+  },
+  {
+   "prijemce_ico": "00304450",
+   "prijemce": "Město Vsetín",
+   "rok": 2023,
+   "poskytovatel_ico": "47609109",
+   "poskytovatel": "Ministerstvo průmyslu a obchodu",
+   "id_dotace": "Z220317000048",
+   "nazev_zkraceny": "NEO pro EKIS 2018 Vsetín Městský úřad",
+   "castka": 68000.0
+  },
+  {
+   "prijemce_ico": "00304450",
+   "prijemce": "Město Vsetín",
+   "rok": 2023,
+   "poskytovatel_ico": "47609109",
+   "poskytovatel": "Ministerstvo průmyslu a obchodu",
+   "id_dotace": "Z221901000164",
+   "nazev_zkraceny": "3018 - EKIS Vsetín Městský úřad",
+   "castka": 265523.0
+  },
+  {
+   "prijemce_ico": "00304450",
+   "prijemce": "Město Vsetín",
+   "rok": 2023,
+   "poskytovatel_ico": "00022985",
+   "poskytovatel": "Ministerstvo školství, mládeže a tělovýchovy",
+   "id_dotace": "Z330601000042",
+   "nazev_zkraceny": "MAP rozvoje vzdělávání Vsetínsko III",
+   "castka": 568353.42
+  },
+  {
+   "prijemce_ico": "00304450",
+   "prijemce": "Město Vsetín",
+   "rok": 2023,
+   "poskytovatel_ico": "00164801",
+   "poskytovatel": "Ministerstvo životního prostředí",
+   "id_dotace": "115D312040726",
+   "nazev_zkraceny": "Protipovodňová opatření města Vsetín",
+   "castka": 8885182.36
+  },
+  {
+   "prijemce_ico": "00304450",
+   "prijemce": "Město Vsetín",
+   "rok": 2022,
+   "poskytovatel_ico": "00007064",
+   "poskytovatel": "Ministerstvo vnitra",
+   "id_dotace": "Z141401000910",
+   "nazev_zkraceny": "Město Vsetín - žádost o dotaci na výdaje spojené",
+   "castka": 24770.0
+  },
+  {
+   "prijemce_ico": "00304450",
+   "prijemce": "Město Vsetín",
+   "rok": 2022,
+   "poskytovatel_ico": "00007064",
+   "poskytovatel": "Ministerstvo vnitra",
+   "id_dotace": "Z141401000911",
+   "nazev_zkraceny": "Město Vsetín-Dušná - žádost o dotaci na výdaje s",
+   "castka": 2000.0
+  },
+  {
+   "prijemce_ico": "00304450",
+   "prijemce": "Město Vsetín",
+   "rok": 2022,
+   "poskytovatel_ico": "00007064",
+   "poskytovatel": "Ministerstvo vnitra",
+   "id_dotace": "Z141401000912",
+   "nazev_zkraceny": "Město Vsetín-Semetín - žádost o dotaci na výdaje",
+   "castka": 16800.0
+  },
+  {
+   "prijemce_ico": "00304450",
+   "prijemce": "Město Vsetín",
+   "rok": 2022,
+   "poskytovatel_ico": "00007064",
+   "poskytovatel": "Ministerstvo vnitra",
+   "id_dotace": "Z141401000913",
+   "nazev_zkraceny": "Město Vsetín- Jasenka- žádost o dotaci na výdaje",
+   "castka": 4000.0
+  },
+  {
+   "prijemce_ico": "00304450",
+   "prijemce": "Město Vsetín",
+   "rok": 2022,
+   "poskytovatel_ico": "00007064",
+   "poskytovatel": "Ministerstvo vnitra",
+   "id_dotace": "Z141401000914",
+   "nazev_zkraceny": "Město Vsetín-Rokytnice - žádost o dotaci na výda",
+   "castka": 1700.0
+  },
+  {
+   "prijemce_ico": "00304450",
+   "prijemce": "Město Vsetín",
+   "rok": 2022,
+   "poskytovatel_ico": "47609109",
+   "poskytovatel": "Ministerstvo průmyslu a obchodu",
+   "id_dotace": "Z221901000030",
+   "nazev_zkraceny": "2018 - EKIS 2022 Vsetín Městský úřad",
+   "castka": 295318.0
+  },
+  {
+   "prijemce_ico": "00304450",
+   "prijemce": "Město Vsetín",
+   "rok": 2022,
+   "poskytovatel_ico": "47609109",
+   "poskytovatel": "Ministerstvo průmyslu a obchodu",
+   "id_dotace": "122D222001708",
+   "nazev_zkraceny": "Zpracování místní energetické koncepce Vsetín",
+   "castka": 193600.0
+  },
+  {
+   "prijemce_ico": "00304450",
+   "prijemce": "Město Vsetín",
+   "rok": 2021,
+   "poskytovatel_ico": "66002222",
+   "poskytovatel": "Ministerstvo pro místní rozvoj",
+   "id_dotace": "117D03H002313",
+   "nazev_zkraceny": "Stavební úpravy bytového domu 1846 na ul. Generá",
+   "castka": 2872740.15
+  },
+  {
+   "prijemce_ico": "00304450",
+   "prijemce": "Město Vsetín",
+   "rok": 2021,
+   "poskytovatel_ico": "66002222",
+   "poskytovatel": "Ministerstvo pro místní rozvoj",
+   "id_dotace": "117D8230A3283",
+   "nazev_zkraceny": "Obnova místních komunikací v sídlištích Sychrov",
+   "castka": 3388814.0
+  },
+  {
+   "prijemce_ico": "00304450",
+   "prijemce": "Město Vsetín",
+   "rok": 2021,
+   "poskytovatel_ico": "47609109",
+   "poskytovatel": "Ministerstvo průmyslu a obchodu",
+   "id_dotace": "122D222001018",
+   "nazev_zkraceny": "EKIS 2021 Vsetín Městský úřad",
+   "castka": 207384.0
+  },
+  {
+   "prijemce_ico": "00304450",
+   "prijemce": "Město Vsetín",
+   "rok": 2021,
+   "poskytovatel_ico": "47609109",
+   "poskytovatel": "Ministerstvo průmyslu a obchodu",
+   "id_dotace": "122D222001301",
+   "nazev_zkraceny": "Zavádění systému hospodaření s energií v podobě",
+   "castka": 298991.0
+  },
+  {
+   "prijemce_ico": "00304450",
+   "prijemce": "Město Vsetín",
+   "rok": 2021,
+   "poskytovatel_ico": "00007064",
+   "poskytovatel": "Ministerstvo vnitra",
+   "id_dotace": "314D083009261",
+   "nazev_zkraceny": "Vsetín - Asistent prevence kriminality - 2021",
+   "castka": 326000.0
+  },
+  {
+   "prijemce_ico": "00304450",
+   "prijemce": "Město Vsetín",
+   "rok": 2021,
+   "poskytovatel_ico": "00007064",
+   "poskytovatel": "Ministerstvo vnitra",
+   "id_dotace": "314D083009262",
+   "nazev_zkraceny": "Vsetín - Domovník preventista - 2021",
+   "castka": 32000.0
+  },
+  {
+   "prijemce_ico": "00304450",
+   "prijemce": "Město Vsetín",
+   "rok": 2020,
+   "poskytovatel_ico": "00164801",
+   "poskytovatel": "Ministerstvo životního prostředí",
+   "id_dotace": "115D316011651",
+   "nazev_zkraceny": "Zateplení budovy Mateřské školy Vsetín, Ohrada 1",
+   "castka": 2597062.38
+  },
+  {
+   "prijemce_ico": "00304450",
+   "prijemce": "Město Vsetín",
+   "rok": 2020,
+   "poskytovatel_ico": "47609109",
+   "poskytovatel": "Ministerstvo průmyslu a obchodu",
+   "id_dotace": "122D222000018",
+   "nazev_zkraceny": "EKIS 2020 Vsetín Městský úřad",
+   "castka": 112650.0
+  },
+  {
+   "prijemce_ico": "00304450",
+   "prijemce": "Město Vsetín",
+   "rok": 2019,
+   "poskytovatel_ico": "00164801",
+   "poskytovatel": "Ministerstvo životního prostředí",
+   "id_dotace": "115D316010480",
+   "nazev_zkraceny": "ZÁKLADNÍ ŠKOLA VSETÍN, ROKYTNICE 436 - SNÍŽENÍ E",
+   "castka": 11872458.4
+  },
+  {
+   "prijemce_ico": "00304450",
+   "prijemce": "Město Vsetín",
+   "rok": 2019,
+   "poskytovatel_ico": "66002222",
+   "poskytovatel": "Ministerstvo pro místní rozvoj",
+   "id_dotace": "117D03G000597",
+   "nazev_zkraceny": "Řemeslo má budoucnost",
+   "castka": 51162021.88
+  },
+  {
+   "prijemce_ico": "00304450",
+   "prijemce": "Město Vsetín",
+   "rok": 2019,
+   "poskytovatel_ico": "47609109",
+   "poskytovatel": "Ministerstvo průmyslu a obchodu",
+   "id_dotace": "122D222009018",
+   "nazev_zkraceny": "EKIS 2019 Město Vsetín",
+   "castka": 98376.0
+  },
+  {
+   "prijemce_ico": "00304450",
+   "prijemce": "Město Vsetín",
+   "rok": 2019,
+   "poskytovatel_ico": "00007064",
+   "poskytovatel": "Ministerstvo vnitra",
+   "id_dotace": "314D082009118",
+   "nazev_zkraceny": "Vsetín - modernizace MKDS 2019",
+   "castka": 350000.0
+  },
+  {
+   "prijemce_ico": "00304450",
+   "prijemce": "Město Vsetín",
+   "rok": 2019,
+   "poskytovatel_ico": "00007064",
+   "poskytovatel": "Ministerstvo vnitra",
+   "id_dotace": "314D083009114",
+   "nazev_zkraceny": "Vsetín - prevencí proti krádežím jízdních kol 20",
+   "castka": 45000.0
+  },
+  {
+   "prijemce_ico": "00304450",
+   "prijemce": "Město Vsetín",
+   "rok": 2018,
+   "poskytovatel_ico": "00164801",
+   "poskytovatel": "Ministerstvo životního prostředí",
+   "id_dotace": "115D316010774",
+   "nazev_zkraceny": "Stavební úpravy č. p. 362 (Lidový dům) - I. etap",
+   "castka": 3325058.0
+  },
+  {
+   "prijemce_ico": "00304450",
+   "prijemce": "Město Vsetín",
+   "rok": 2018,
+   "poskytovatel_ico": "66002222",
+   "poskytovatel": "Ministerstvo pro místní rozvoj",
+   "id_dotace": "117D03G000597",
+   "nazev_zkraceny": "Řemeslo má budoucnost",
+   "castka": 1698102.0
+  },
+  {
+   "prijemce_ico": "00304450",
+   "prijemce": "Město Vsetín",
+   "rok": 2018,
+   "poskytovatel_ico": "47609109",
+   "poskytovatel": "Ministerstvo průmyslu a obchodu",
+   "id_dotace": "122D222008018",
+   "nazev_zkraceny": "EKIS 2018 Vsetín, Město Vsetín",
+   "castka": 82920.0
+  },
+  {
+   "prijemce_ico": "00304450",
+   "prijemce": "Město Vsetín",
+   "rok": 2018,
+   "poskytovatel_ico": "00022985",
+   "poskytovatel": "Ministerstvo školství, mládeže a tělovýchovy",
+   "id_dotace": "133D531008171",
+   "nazev_zkraceny": "M - Vsetín - Modernizace šaten u fotbalového hři",
+   "castka": 2753747.0
+  },
+  {
+   "prijemce_ico": "00304450",
+   "prijemce": "Město Vsetín",
+   "rok": 2018,
+   "poskytovatel_ico": "00007064",
+   "poskytovatel": "Ministerstvo vnitra",
+   "id_dotace": "314D082009042",
+   "nazev_zkraceny": "Vsetín - modernizace MKDS 2018",
+   "castka": 339500.0
+  },
+  {
+   "prijemce_ico": "00304450",
+   "prijemce": "Město Vsetín",
+   "rok": 2018,
+   "poskytovatel_ico": "00007064",
+   "poskytovatel": "Ministerstvo vnitra",
+   "id_dotace": "314D083008038",
+   "nazev_zkraceny": "Vsetín - prevencí proti krádežím jízdních kol 20",
+   "castka": 52000.0
+  },
+  {
+   "prijemce_ico": "00304450",
+   "prijemce": "Město Vsetín",
+   "rok": 2017,
+   "poskytovatel_ico": "00007064",
+   "poskytovatel": "Ministerstvo vnitra",
+   "id_dotace": "014D241006423",
+   "nazev_zkraceny": "Vsetín (Semetín) - Dopravní automobil",
+   "castka": 450000.0
+  },
+  {
+   "prijemce_ico": "00304450",
+   "prijemce": "Město Vsetín",
+   "rok": 2017,
+   "poskytovatel_ico": "00164801",
+   "poskytovatel": "Ministerstvo životního prostředí",
+   "id_dotace": "115D312030018",
+   "nazev_zkraceny": "Sanace svahu Ohýřov",
+   "castka": 3951864.56
+  },
+  {
+   "prijemce_ico": "00304450",
+   "prijemce": "Město Vsetín",
+   "rok": 2017,
+   "poskytovatel_ico": "66002222",
+   "poskytovatel": "Ministerstvo pro místní rozvoj",
+   "id_dotace": "117D03M000004",
+   "nazev_zkraceny": "Územní studie Město Vsetín - přednádražní prosto",
+   "castka": 1611720.0
+  },
+  {
+   "prijemce_ico": "00304450",
+   "prijemce": "Město Vsetín",
+   "rok": 2017,
+   "poskytovatel_ico": "66002222",
+   "poskytovatel": "Ministerstvo pro místní rozvoj",
+   "id_dotace": "117D062000055",
+   "nazev_zkraceny": "RS-Vsetín-Luh, III. etapa",
+   "castka": 4000000.0
+  },
+  {
+   "prijemce_ico": "00304450",
+   "prijemce": "Město Vsetín",
+   "rok": 2017,
+   "poskytovatel_ico": "47609109",
+   "poskytovatel": "Ministerstvo průmyslu a obchodu",
+   "id_dotace": "122D222007018",
+   "nazev_zkraceny": "7018 EKIS Vsetín, Město Vsetín",
+   "castka": 131928.0
+  },
+  {
+   "prijemce_ico": "00304450",
+   "prijemce": "Město Vsetín",
+   "rok": 2016,
+   "poskytovatel_ico": "00164801",
+   "poskytovatel": "Ministerstvo životního prostředí",
+   "id_dotace": "115D222003836",
+   "nazev_zkraceny": "CZ.1.02/3.2.00/13.19575 MŠ Vsetín, Jasenka 757 -",
+   "castka": 41226.7
+  },
+  {
+   "prijemce_ico": "00304450",
+   "prijemce": "Město Vsetín",
+   "rok": 2016,
+   "poskytovatel_ico": "66002222",
+   "poskytovatel": "Ministerstvo pro místní rozvoj",
+   "id_dotace": "117D062000025",
+   "nazev_zkraceny": "RS - Vsetín, Luh, II. etapa",
+   "castka": 4000000.0
+  },
+  {
+   "prijemce_ico": "00304450",
+   "prijemce": "Město Vsetín",
+   "rok": 2016,
+   "poskytovatel_ico": "47609109",
+   "poskytovatel": "Ministerstvo průmyslu a obchodu",
+   "id_dotace": "122D142006018",
+   "nazev_zkraceny": "6018 EKIS Vsetín Město Vsetín",
+   "castka": 81708.0
+  },
+  {
+   "prijemce_ico": "00304450",
+   "prijemce": "Město Vsetín",
+   "rok": 2015,
+   "poskytovatel_ico": "00007064",
+   "poskytovatel": "Ministerstvo vnitra",
+   "id_dotace": "114D082005007",
+   "nazev_zkraceny": "Vsetín - rozšíření MKDS o mobilní kamerový bod",
+   "castka": 74801.0
+  },
+  {
+   "prijemce_ico": "00304450",
+   "prijemce": "Město Vsetín",
+   "rok": 2015,
+   "poskytovatel_ico": "00164801",
+   "poskytovatel": "Ministerstvo životního prostředí",
+   "id_dotace": "115D222003836",
+   "nazev_zkraceny": "CZ.1.02/3.2.00/13.19575 MŠ Vsetín, Jasenka 757 -",
+   "castka": 2223101.9
+  },
+  {
+   "prijemce_ico": "00304450",
+   "prijemce": "Město Vsetín",
+   "rok": 2015,
+   "poskytovatel_ico": "00164801",
+   "poskytovatel": "Ministerstvo životního prostředí",
+   "id_dotace": "115D222004587",
+   "nazev_zkraceny": "CZ.1.02/3.2.00/13.21029 Snížení energetické náro",
+   "castka": 3260369.64
+  },
+  {
+   "prijemce_ico": "00304450",
+   "prijemce": "Město Vsetín",
+   "rok": 2015,
+   "poskytovatel_ico": "00164801",
+   "poskytovatel": "Ministerstvo životního prostředí",
+   "id_dotace": "115D222004789",
+   "nazev_zkraceny": "CZ.1.02/3.2.00/13.20610 Výměna oken, dveří a zat",
+   "castka": 1673693.34
+  },
+  {
+   "prijemce_ico": "00304450",
+   "prijemce": "Město Vsetín",
+   "rok": 2015,
+   "poskytovatel_ico": "00164801",
+   "poskytovatel": "Ministerstvo životního prostředí",
+   "id_dotace": "115D222006235",
+   "nazev_zkraceny": "CZ.1.02/3.2.00/14.25534 Stavební úpravy sportovn",
+   "castka": 5276224.99
+  },
+  {
+   "prijemce_ico": "00304450",
+   "prijemce": "Město Vsetín",
+   "rok": 2015,
+   "poskytovatel_ico": "66002222",
+   "poskytovatel": "Ministerstvo pro místní rozvoj",
+   "id_dotace": "117D11H001461",
+   "nazev_zkraceny": "Revitalizace veřejných ploch Kolonie, Vsetín",
+   "castka": 36886712.0
+  },
+  {
+   "prijemce_ico": "00304450",
+   "prijemce": "Město Vsetín",
+   "rok": 2015,
+   "poskytovatel_ico": "66002222",
+   "poskytovatel": "Ministerstvo pro místní rozvoj",
+   "id_dotace": "117D512003563",
+   "nazev_zkraceny": "RPS - Vsetín - Luh, I. etapa",
+   "castka": 4000000.0
+  },
+  {
+   "prijemce_ico": "00304450",
+   "prijemce": "Město Vsetín",
+   "rok": 2015,
+   "poskytovatel_ico": "66002222",
+   "poskytovatel": "Ministerstvo pro místní rozvoj",
+   "id_dotace": "117D713005133",
+   "nazev_zkraceny": "Cyklostezka Jasenice, Vsetín SO 103.1 – odpočink",
+   "castka": 573518.0
+  },
+  {
+   "prijemce_ico": "00304450",
+   "prijemce": "Město Vsetín",
+   "rok": 2015,
+   "poskytovatel_ico": "47609109",
+   "poskytovatel": "Ministerstvo průmyslu a obchodu",
+   "id_dotace": "122D142005018",
+   "nazev_zkraceny": "5018 EKIS Vsetín, Město Vsetín",
+   "castka": 100344.0
+  },
+  {
+   "prijemce_ico": "00304450",
+   "prijemce": "Město Vsetín",
+   "rok": 2014,
+   "poskytovatel_ico": "00164801",
+   "poskytovatel": "Ministerstvo životního prostředí",
+   "id_dotace": "115D112000809",
+   "nazev_zkraceny": "CZ.1.02/1.3.00/11.10912 Varovný systém města Vse",
+   "castka": 1258576.3
+  },
+  {
+   "prijemce_ico": "00304450",
+   "prijemce": "Město Vsetín",
+   "rok": 2014,
+   "poskytovatel_ico": "00164801",
+   "poskytovatel": "Ministerstvo životního prostředí",
+   "id_dotace": "115D122002848",
+   "nazev_zkraceny": "CZ.1.02/6.6.00/12.16937 Sanace sesuvu Bobrky - o",
+   "castka": 523965.04
+  },
+  {
+   "prijemce_ico": "00304450",
+   "prijemce": "Město Vsetín",
+   "rok": 2014,
+   "poskytovatel_ico": "66002222",
+   "poskytovatel": "Ministerstvo pro místní rozvoj",
+   "id_dotace": "117D11H001048",
+   "nazev_zkraceny": "Stavební úpravy DPS č.p. 1271 ul. Tyršova, Vsetí",
+   "castka": 2626400.0
+  },
+  {
+   "prijemce_ico": "00304450",
+   "prijemce": "Město Vsetín",
+   "rok": 2014,
+   "poskytovatel_ico": "66002222",
+   "poskytovatel": "Ministerstvo pro místní rozvoj",
+   "id_dotace": "117D11H001088",
+   "nazev_zkraceny": "Revitalizace území Rybníky - ulice Pod Žamboškou",
+   "castka": 4034642.0
+  },
+  {
+   "prijemce_ico": "00304450",
+   "prijemce": "Město Vsetín",
+   "rok": 2014,
+   "poskytovatel_ico": "66002222",
+   "poskytovatel": "Ministerstvo pro místní rozvoj",
+   "id_dotace": "117D11H001213",
+   "nazev_zkraceny": "Parkovací stání a stavební úpravy chodníku pro p",
+   "castka": 1212031.0
+  },
+  {
+   "prijemce_ico": "00304450",
+   "prijemce": "Město Vsetín",
+   "rok": 2014,
+   "poskytovatel_ico": "66002222",
+   "poskytovatel": "Ministerstvo pro místní rozvoj",
+   "id_dotace": "117D11H001261",
+   "nazev_zkraceny": "Revitalizace veřejného prostranství v části měst",
+   "castka": 4451495.0
+  },
+  {
+   "prijemce_ico": "00304450",
+   "prijemce": "Město Vsetín",
+   "rok": 2014,
+   "poskytovatel_ico": "66002222",
+   "poskytovatel": "Ministerstvo pro místní rozvoj",
+   "id_dotace": "117D11H001425",
+   "nazev_zkraceny": "Úpravy ploch u trati ČD Trávníky - Rybníky, Vset",
+   "castka": 23426414.0
+  },
+  {
+   "prijemce_ico": "00304450",
+   "prijemce": "Město Vsetín",
+   "rok": 2014,
+   "poskytovatel_ico": "66002222",
+   "poskytovatel": "Ministerstvo pro místní rozvoj",
+   "id_dotace": "117D111001123",
+   "nazev_zkraceny": "I.Zřízení technologic. centra, II.pořízení elekt",
+   "castka": 3757042.7
+  },
+  {
+   "prijemce_ico": "00304450",
+   "prijemce": "Město Vsetín",
+   "rok": 2014,
+   "poskytovatel_ico": "47609109",
+   "poskytovatel": "Ministerstvo průmyslu a obchodu",
+   "id_dotace": "122D142004918",
+   "nazev_zkraceny": "4918 EKIS Město Vsetín",
+   "castka": 89664.0
+  },
+  {
+   "prijemce_ico": "75063468",
+   "prijemce": "Technické služby města Vsetína, příspěvková organizace",
+   "rok": 2024,
+   "poskytovatel_ico": "47609109",
+   "poskytovatel": "Ministerstvo průmyslu a obchodu",
+   "id_dotace": "Z220310000723",
+   "nazev_zkraceny": "Výměna VO - Vsetín 2023",
+   "castka": 7220959.0
+  },
+  {
+   "prijemce_ico": "75063468",
+   "prijemce": "Technické služby města Vsetína, příspěvková organizace",
+   "rok": 2023,
+   "poskytovatel_ico": "47609109",
+   "poskytovatel": "Ministerstvo průmyslu a obchodu",
+   "id_dotace": "Z220310000071",
+   "nazev_zkraceny": "Výměna VO I. etapa",
+   "castka": 6869883.0
+  },
+  {
+   "prijemce_ico": "75063468",
+   "prijemce": "Technické služby města Vsetína, příspěvková organizace",
+   "rok": 2018,
+   "poskytovatel_ico": "00164801",
+   "poskytovatel": "Ministerstvo životního prostředí",
+   "id_dotace": "115D314020894",
+   "nazev_zkraceny": "Pořízení vozidla pro svoz bioodpadů - Technické",
+   "castka": 783475.0
+  },
+  {
+   "prijemce_ico": "75063468",
+   "prijemce": "Technické služby města Vsetína, příspěvková organizace",
+   "rok": 2014,
+   "poskytovatel_ico": "00164801",
+   "poskytovatel": "Ministerstvo životního prostředí",
+   "id_dotace": "115D212001593",
+   "nazev_zkraceny": "CZ.1.02/2.1.00/13.18546 Snížení imisní zátěže z",
+   "castka": 2207325.79
+  },
+  {
+   "prijemce_ico": "60990406",
+   "prijemce": "ZŠ a MŠ Vsetín, Luh 1544, p. o.",
+   "rok": 2026,
+   "poskytovatel_ico": "00551023",
+   "poskytovatel": "Ministerstvo práce a sociálních věcí",
+   "id_dotace": "Z130701000234",
+   "nazev_zkraceny": "Dětské skupiny DOMEČEK",
+   "castka": 17129152.89
+  },
+  {
+   "prijemce_ico": "60990406",
+   "prijemce": "ZŠ a MŠ Vsetín, Luh 1544, p. o.",
+   "rok": 2025,
+   "poskytovatel_ico": "00022985",
+   "poskytovatel": "Ministerstvo školství, mládeže a tělovýchovy",
+   "id_dotace": "Z332701012602",
+   "nazev_zkraceny": "Vzdělávání III",
+   "castka": 1885446.94
+  },
+  {
+   "prijemce_ico": "60990406",
+   "prijemce": "ZŠ a MŠ Vsetín, Luh 1544, p. o.",
+   "rok": 2023,
+   "poskytovatel_ico": "00022985",
+   "poskytovatel": "Ministerstvo školství, mládeže a tělovýchovy",
+   "id_dotace": "Z332701002755",
+   "nazev_zkraceny": "Podpora vzdělávání žáků",
+   "castka": 2895885.0
+  },
+  {
+   "prijemce_ico": "60990406",
+   "prijemce": "ZŠ a MŠ Vsetín, Luh 1544, p. o.",
+   "rok": 2023,
+   "poskytovatel_ico": "00022985",
+   "poskytovatel": "Ministerstvo školství, mládeže a tělovýchovy",
+   "id_dotace": "Z332701002795",
+   "nazev_zkraceny": "Školní asistent MŠ Luh III",
+   "castka": 665292.0
+  },
+  {
+   "prijemce_ico": "60990406",
+   "prijemce": "ZŠ a MŠ Vsetín, Luh 1544, p. o.",
+   "rok": 2023,
+   "poskytovatel_ico": "00022985",
+   "poskytovatel": "Ministerstvo školství, mládeže a tělovýchovy",
+   "id_dotace": "Z332701003358",
+   "nazev_zkraceny": "MŠ Kobzáňova - šablony OP JAK",
+   "castka": 608563.0
+  },
+  {
+   "prijemce_ico": "00851817",
+   "prijemce": "Masarykova veřejná knihovna Vsetín, p. o.",
+   "rok": 2026,
+   "poskytovatel_ico": "00023671",
+   "poskytovatel": "Ministerstvo kultury",
+   "id_dotace": "Z340812002468",
+   "nazev_zkraceny": "Dny seniorů a osob se zdravotním postižením ve V",
+   "castka": 46000.0
+  },
+  {
+   "prijemce_ico": "00851817",
+   "prijemce": "Masarykova veřejná knihovna Vsetín, p. o.",
+   "rok": 2025,
+   "poskytovatel_ico": "00023671",
+   "poskytovatel": "Ministerstvo kultury",
+   "id_dotace": "Z340812001441",
+   "nazev_zkraceny": "Dny seniorů a osob se zdravotním postižením ve V",
+   "castka": 40000.0
+  },
+  {
+   "prijemce_ico": "00851817",
+   "prijemce": "Masarykova veřejná knihovna Vsetín, p. o.",
+   "rok": 2025,
+   "poskytovatel_ico": "00023671",
+   "poskytovatel": "Ministerstvo kultury",
+   "id_dotace": "Z341001001692",
+   "nazev_zkraceny": "Robotická výuka a rozvoj kreativity v MVK Vsetín",
+   "castka": 52000.0
+  },
+  {
+   "prijemce_ico": "00851817",
+   "prijemce": "Masarykova veřejná knihovna Vsetín, p. o.",
+   "rok": 2024,
+   "poskytovatel_ico": "00023671",
+   "poskytovatel": "Ministerstvo kultury",
+   "id_dotace": "Z340812001023",
+   "nazev_zkraceny": "Akademie seniorů a osob se zdravotním postižením",
+   "castka": 21000.0
+  },
+  {
+   "prijemce_ico": "00851817",
+   "prijemce": "Masarykova veřejná knihovna Vsetín, p. o.",
+   "rok": 2024,
+   "poskytovatel_ico": "00023671",
+   "poskytovatel": "Ministerstvo kultury",
+   "id_dotace": "Z340812001024",
+   "nazev_zkraceny": "Dny seniorů a osob se zdravotním postižením ve V",
+   "castka": 34000.0
+  },
+  {
+   "prijemce_ico": "00851817",
+   "prijemce": "Masarykova veřejná knihovna Vsetín, p. o.",
+   "rok": 2024,
+   "poskytovatel_ico": "00023671",
+   "poskytovatel": "Ministerstvo kultury",
+   "id_dotace": "Z341001001082",
+   "nazev_zkraceny": "Zahájení výpůjček audioknih online ve vsetínské",
+   "castka": 39000.0
+  },
+  {
+   "prijemce_ico": "00851817",
+   "prijemce": "Masarykova veřejná knihovna Vsetín, p. o.",
+   "rok": 2024,
+   "poskytovatel_ico": "00023671",
+   "poskytovatel": "Ministerstvo kultury",
+   "id_dotace": "Z341001001083",
+   "nazev_zkraceny": "Multifunkční učebna celoživotního vzdělávání v M",
+   "castka": 105000.0
+  },
+  {
+   "prijemce_ico": "00851817",
+   "prijemce": "Masarykova veřejná knihovna Vsetín, p. o.",
+   "rok": 2024,
+   "poskytovatel_ico": "00023671",
+   "poskytovatel": "Ministerstvo kultury",
+   "id_dotace": "Z341001001084",
+   "nazev_zkraceny": "Robotická výuka ve vsetínské knihovně pro všechn",
+   "castka": 65000.0
+  },
+  {
+   "prijemce_ico": "00851817",
+   "prijemce": "Masarykova veřejná knihovna Vsetín, p. o.",
+   "rok": 2024,
+   "poskytovatel_ico": "00023671",
+   "poskytovatel": "Ministerstvo kultury",
+   "id_dotace": "Z342801000819",
+   "nazev_zkraceny": "Kreativní učení v Masarykově veřejné knihovně Vs",
+   "castka": 200000.0
+  },
+  {
+   "prijemce_ico": "00851817",
+   "prijemce": "Masarykova veřejná knihovna Vsetín, p. o.",
+   "rok": 2023,
+   "poskytovatel_ico": "00023671",
+   "poskytovatel": "Ministerstvo kultury",
+   "id_dotace": "Z340808000777",
+   "nazev_zkraceny": "Rozšíření fondu zvukové knihovny pro uživatele s",
+   "castka": 10000.0
+  },
+  {
+   "prijemce_ico": "00851817",
+   "prijemce": "Masarykova veřejná knihovna Vsetín, p. o.",
+   "rok": 2023,
+   "poskytovatel_ico": "00023671",
+   "poskytovatel": "Ministerstvo kultury",
+   "id_dotace": "Z340808000778",
+   "nazev_zkraceny": "Čteme, myslíme, poznáváme! Globálně i lokálně.",
+   "castka": 10000.0
+  },
+  {
+   "prijemce_ico": "00851817",
+   "prijemce": "Masarykova veřejná knihovna Vsetín, p. o.",
+   "rok": 2023,
+   "poskytovatel_ico": "00023671",
+   "poskytovatel": "Ministerstvo kultury",
+   "id_dotace": "Z340812000487",
+   "nazev_zkraceny": "Dny seniorů a osob se zdravotním postižením ve V",
+   "castka": 37000.0
+  },
+  {
+   "prijemce_ico": "00851817",
+   "prijemce": "Masarykova veřejná knihovna Vsetín, p. o.",
+   "rok": 2023,
+   "poskytovatel_ico": "00023671",
+   "poskytovatel": "Ministerstvo kultury",
+   "id_dotace": "Z341001000545",
+   "nazev_zkraceny": "Inovace knihovnických, informačních a platebních",
+   "castka": 48000.0
+  },
+  {
+   "prijemce_ico": "00851817",
+   "prijemce": "Masarykova veřejná knihovna Vsetín, p. o.",
+   "rok": 2023,
+   "poskytovatel_ico": "00023671",
+   "poskytovatel": "Ministerstvo kultury",
+   "id_dotace": "Z341001000546",
+   "nazev_zkraceny": "Roboti jako trvalá součást vzdělávání ve vsetíns",
+   "castka": 92000.0
+  },
+  {
+   "prijemce_ico": "00851817",
+   "prijemce": "Masarykova veřejná knihovna Vsetín, p. o.",
+   "rok": 2023,
+   "poskytovatel_ico": "00023671",
+   "poskytovatel": "Ministerstvo kultury",
+   "id_dotace": "Z342801000126",
+   "nazev_zkraceny": "Kreativní učení v Masarykově veřejné knihovně Vs",
+   "castka": 133000.0
+  },
+  {
+   "prijemce_ico": "00851817",
+   "prijemce": "Masarykova veřejná knihovna Vsetín, p. o.",
+   "rok": 2023,
+   "poskytovatel_ico": "00023671",
+   "poskytovatel": "Ministerstvo kultury",
+   "id_dotace": "Z342801000516",
+   "nazev_zkraceny": "Kreativní učení v Masarykově veřejné knihovně Vs",
+   "castka": 327000.0
+  },
+  {
+   "prijemce_ico": "00851817",
+   "prijemce": "Masarykova veřejná knihovna Vsetín, p. o.",
+   "rok": 2022,
+   "poskytovatel_ico": "00023671",
+   "poskytovatel": "Ministerstvo kultury",
+   "id_dotace": "Z340808000408",
+   "nazev_zkraceny": "Zvukové knihy pro uživatele se zrakovým postižen",
+   "castka": 15000.0
+  },
+  {
+   "prijemce_ico": "00851817",
+   "prijemce": "Masarykova veřejná knihovna Vsetín, p. o.",
+   "rok": 2022,
+   "poskytovatel_ico": "00023671",
+   "poskytovatel": "Ministerstvo kultury",
+   "id_dotace": "Z340808000409",
+   "nazev_zkraceny": "Lekotéka a aktivity pro uživatele se specifickým",
+   "castka": 10000.0
+  },
+  {
+   "prijemce_ico": "00851817",
+   "prijemce": "Masarykova veřejná knihovna Vsetín, p. o.",
+   "rok": 2022,
+   "poskytovatel_ico": "00023671",
+   "poskytovatel": "Ministerstvo kultury",
+   "id_dotace": "Z340812000097",
+   "nazev_zkraceny": "Akademie seniorů a zdravotně handicapovaných ve",
+   "castka": 22000.0
+  },
+  {
+   "prijemce_ico": "00851817",
+   "prijemce": "Masarykova veřejná knihovna Vsetín, p. o.",
+   "rok": 2022,
+   "poskytovatel_ico": "00023671",
+   "poskytovatel": "Ministerstvo kultury",
+   "id_dotace": "Z340812000098",
+   "nazev_zkraceny": "Dny seniorů a zdravotně handicapovaných ve Vsetí",
+   "castka": 35000.0
+  },
+  {
+   "prijemce_ico": "00851817",
+   "prijemce": "Masarykova veřejná knihovna Vsetín, p. o.",
+   "rok": 2022,
+   "poskytovatel_ico": "00023671",
+   "poskytovatel": "Ministerstvo kultury",
+   "id_dotace": "Z341001000292",
+   "nazev_zkraceny": "Knihovna dostupná pro všechny - MVK Vsetín bez b",
+   "castka": 42000.0
+  },
+  {
+   "prijemce_ico": "00851817",
+   "prijemce": "Masarykova veřejná knihovna Vsetín, p. o.",
+   "rok": 2022,
+   "poskytovatel_ico": "00023671",
+   "poskytovatel": "Ministerstvo kultury",
+   "id_dotace": "Z341001000294",
+   "nazev_zkraceny": "Samoobslužná bezkontaktní knihovna ve Vsetíně",
+   "castka": 1255000.0
+  },
+  {
+   "prijemce_ico": "00851817",
+   "prijemce": "Masarykova veřejná knihovna Vsetín, p. o.",
+   "rok": 2022,
+   "poskytovatel_ico": "00023671",
+   "poskytovatel": "Ministerstvo kultury",
+   "id_dotace": "Z341001000295",
+   "nazev_zkraceny": "Roboherny v dětských knihovnách ve Vsetíně",
+   "castka": 51000.0
+  },
+  {
+   "prijemce_ico": "00851817",
+   "prijemce": "Masarykova veřejná knihovna Vsetín, p. o.",
+   "rok": 2022,
+   "poskytovatel_ico": "00023671",
+   "poskytovatel": "Ministerstvo kultury",
+   "id_dotace": "Z342801000151",
+   "nazev_zkraceny": "Kreativní učení v Masarykově veřejné knihovně Vs",
+   "castka": 225000.0
+  },
+  {
+   "prijemce_ico": "60990449",
+   "prijemce": "ZŠ a MŠ Vsetín, Trávníky 1217, p. o.",
+   "rok": 2026,
+   "poskytovatel_ico": "00022985",
+   "poskytovatel": "Ministerstvo školství, mládeže a tělovýchovy",
+   "id_dotace": "Z332701014559",
+   "nazev_zkraceny": "Šablony II OP JAK - ZŠ Vsetín, Trávníky",
+   "castka": 1334012.8
+  },
+  {
+   "prijemce_ico": "60990449",
+   "prijemce": "ZŠ a MŠ Vsetín, Trávníky 1217, p. o.",
+   "rok": 2025,
+   "poskytovatel_ico": "00022985",
+   "poskytovatel": "Ministerstvo školství, mládeže a tělovýchovy",
+   "id_dotace": "Z332701008515",
+   "nazev_zkraceny": "Poznáváme svět kolem nás II.",
+   "castka": 380000.0
+  },
+  {
+   "prijemce_ico": "60990449",
+   "prijemce": "ZŠ a MŠ Vsetín, Trávníky 1217, p. o.",
+   "rok": 2025,
+   "poskytovatel_ico": "00022985",
+   "poskytovatel": "Ministerstvo školství, mládeže a tělovýchovy",
+   "id_dotace": "Z332701009813",
+   "nazev_zkraceny": "Šablony OP JAK II - MŠ Jasenka",
+   "castka": 323000.0
+  },
+  {
+   "prijemce_ico": "60990449",
+   "prijemce": "ZŠ a MŠ Vsetín, Trávníky 1217, p. o.",
+   "rok": 2023,
+   "poskytovatel_ico": "00022985",
+   "poskytovatel": "Ministerstvo školství, mládeže a tělovýchovy",
+   "id_dotace": "Z332701004481",
+   "nazev_zkraceny": "Šablony I OP JAK - ZŠ Vsetín, Trávníky",
+   "castka": 3451725.0
+  },
+  {
+   "prijemce_ico": "60990368",
+   "prijemce": "ZŠ a MŠ Vsetín, Ohrada 1876, p. o.",
+   "rok": 2025,
+   "poskytovatel_ico": "00022985",
+   "poskytovatel": "Ministerstvo školství, mládeže a tělovýchovy",
+   "id_dotace": "Z332701012562",
+   "nazev_zkraceny": "JAK pro ZŠ Ohrada II",
+   "castka": 1530182.1
+  },
+  {
+   "prijemce_ico": "60990368",
+   "prijemce": "ZŠ a MŠ Vsetín, Ohrada 1876, p. o.",
+   "rok": 2025,
+   "poskytovatel_ico": "00022985",
+   "poskytovatel": "Ministerstvo školství, mládeže a tělovýchovy",
+   "id_dotace": "Z332701013797",
+   "nazev_zkraceny": "Barevný svět II",
+   "castka": 366889.05
+  },
+  {
+   "prijemce_ico": "60990368",
+   "prijemce": "ZŠ a MŠ Vsetín, Ohrada 1876, p. o.",
+   "rok": 2023,
+   "poskytovatel_ico": "00022985",
+   "poskytovatel": "Ministerstvo školství, mládeže a tělovýchovy",
+   "id_dotace": "Z332701003723",
+   "nazev_zkraceny": "JAK pro ZŠ Ohrada",
+   "castka": 3485184.0
+  },
+  {
+   "prijemce_ico": "60990368",
+   "prijemce": "ZŠ a MŠ Vsetín, Ohrada 1876, p. o.",
+   "rok": 2023,
+   "poskytovatel_ico": "00022985",
+   "poskytovatel": "Ministerstvo školství, mládeže a tělovýchovy",
+   "id_dotace": "Z332701004836",
+   "nazev_zkraceny": "Barevný svět",
+   "castka": 494485.0
+  },
+  {
+   "prijemce_ico": "60990465",
+   "prijemce": "Základní škola Vsetín, Sychrov 97, příspěvková organizace",
+   "rok": 2026,
+   "poskytovatel_ico": "00022985",
+   "poskytovatel": "Ministerstvo školství, mládeže a tělovýchovy",
+   "id_dotace": "Z332701014624",
+   "nazev_zkraceny": "Šablony II OP JAK - ZŠ Vsetín, Sychrov 97",
+   "castka": 1300770.4
+  },
+  {
+   "prijemce_ico": "60990465",
+   "prijemce": "Základní škola Vsetín, Sychrov 97, příspěvková organizace",
+   "rok": 2023,
+   "poskytovatel_ico": "00022985",
+   "poskytovatel": "Ministerstvo školství, mládeže a tělovýchovy",
+   "id_dotace": "Z332701004363",
+   "nazev_zkraceny": "Šablony I OP JAK - ZŠ Vsetín, Sychrov 97",
+   "castka": 2860897.0
+  },
+  {
+   "prijemce_ico": "60990457",
+   "prijemce": "ZŠ Vsetín, Rokytnice 436, p. o.",
+   "rok": 2026,
+   "poskytovatel_ico": "00022985",
+   "poskytovatel": "Ministerstvo školství, mládeže a tělovýchovy",
+   "id_dotace": "Z332701014753",
+   "nazev_zkraceny": "Vzdělávání 2026",
+   "castka": 1209357.59
+  },
+  {
+   "prijemce_ico": "60990457",
+   "prijemce": "ZŠ Vsetín, Rokytnice 436, p. o.",
+   "rok": 2023,
+   "poskytovatel_ico": "00022985",
+   "poskytovatel": "Ministerstvo školství, mládeže a tělovýchovy",
+   "id_dotace": "Z332701005114",
+   "nazev_zkraceny": "Vzdělávání 2023",
+   "castka": 1501172.0
+  },
+  {
+   "prijemce_ico": "60990457",
+   "prijemce": "ZŠ Vsetín, Rokytnice 436, p. o.",
+   "rok": 2021,
+   "poskytovatel_ico": "66002222",
+   "poskytovatel": "Ministerstvo pro místní rozvoj",
+   "id_dotace": "117D03G001655",
+   "nazev_zkraceny": "Vybudování infrastruktury pro výuku klíčových ko",
+   "castka": 19263686.83
+  },
+  {
+   "prijemce_ico": "60990457",
+   "prijemce": "ZŠ Vsetín, Rokytnice 436, p. o.",
+   "rok": 2020,
+   "poskytovatel_ico": "00022985",
+   "poskytovatel": "Ministerstvo školství, mládeže a tělovýchovy",
+   "id_dotace": "133D321000092",
+   "nazev_zkraceny": "ZŠ Vsetín, Rokytnice - pořízení zápisníku pro ne",
+   "castka": 79990.0
+  },
+  {
+   "prijemce_ico": "00851922",
+   "prijemce": "ALCEDO - středisko volného času a plavecká škola Vsetín, příspěvková organizace",
+   "rok": 2025,
+   "poskytovatel_ico": "00551023",
+   "poskytovatel": "Ministerstvo práce a sociálních věcí",
+   "id_dotace": "Z130701000363",
+   "nazev_zkraceny": "Dětská skupina ALCEDO - KLUBÍČKO - přístavba pož",
+   "castka": 241244.73
+  },
+  {
+   "prijemce_ico": "00851922",
+   "prijemce": "ALCEDO - středisko volného času a plavecká škola Vsetín, příspěvková organizace",
+   "rok": 2025,
+   "poskytovatel_ico": "00022985",
+   "poskytovatel": "Ministerstvo školství, mládeže a tělovýchovy",
+   "id_dotace": "Z332701012587",
+   "nazev_zkraceny": "ALCEDO - Šablony JAK II",
+   "castka": 828119.76
+  },
+  {
+   "prijemce_ico": "00851922",
+   "prijemce": "ALCEDO - středisko volného času a plavecká škola Vsetín, příspěvková organizace",
+   "rok": 2024,
+   "poskytovatel_ico": "00551023",
+   "poskytovatel": "Ministerstvo práce a sociálních věcí",
+   "id_dotace": "Z130701000363",
+   "nazev_zkraceny": "Dětská skupina ALCEDO - KLUBÍČKO - přístavba pož",
+   "castka": 562904.38
+  },
+  {
+   "prijemce_ico": "00851922",
+   "prijemce": "ALCEDO - středisko volného času a plavecká škola Vsetín, příspěvková organizace",
+   "rok": 2023,
+   "poskytovatel_ico": "00022985",
+   "poskytovatel": "Ministerstvo školství, mládeže a tělovýchovy",
+   "id_dotace": "Z332701004918",
+   "nazev_zkraceny": "ALCEDO - Šablony JAK",
+   "castka": 2678200.0
+  },
+  {
+   "prijemce_ico": "60042371",
+   "prijemce": "Mateřská škola Vsetín, Rokytnice 425, příspěvková organizace",
+   "rok": 2023,
+   "poskytovatel_ico": "00022985",
+   "poskytovatel": "Ministerstvo školství, mládeže a tělovýchovy",
+   "id_dotace": "Z332701005311",
+   "nazev_zkraceny": "Šablony I v MŠ Rokytnice, Vsetín",
+   "castka": 656438.0
+  },
+  {
+   "prijemce_ico": "60042362",
+   "prijemce": "MŠ Vsetín, Sychrov 96, p. o.",
+   "rok": 2025,
+   "poskytovatel_ico": "00022985",
+   "poskytovatel": "Ministerstvo školství, mládeže a tělovýchovy",
+   "id_dotace": "Z332701012026",
+   "nazev_zkraceny": "Šablony OP JAK MŠ Sychrov II",
+   "castka": 406235.2
+  },
+  {
+   "prijemce_ico": "60042362",
+   "prijemce": "MŠ Vsetín, Sychrov 96, p. o.",
+   "rok": 2023,
+   "poskytovatel_ico": "00022985",
+   "poskytovatel": "Ministerstvo školství, mládeže a tělovýchovy",
+   "id_dotace": "Z332701002936",
+   "nazev_zkraceny": "Šablony OP JAK MŠ Sychrov",
+   "castka": 587825.0
+  },
+  {
+   "prijemce_ico": "60042389",
+   "prijemce": "MŠ Vsetín, Benátky 1175, p. o.",
+   "rok": 2025,
+   "poskytovatel_ico": "00022985",
+   "poskytovatel": "Ministerstvo školství, mládeže a tělovýchovy",
+   "id_dotace": "Z332701013693",
+   "nazev_zkraceny": "MŠ Benátky - šablony OP JAK II",
+   "castka": 389712.8
+  },
+  {
+   "prijemce_ico": "60042389",
+   "prijemce": "MŠ Vsetín, Benátky 1175, p. o.",
+   "rok": 2023,
+   "poskytovatel_ico": "00022985",
+   "poskytovatel": "Ministerstvo školství, mládeže a tělovýchovy",
+   "id_dotace": "Z332701002726",
+   "nazev_zkraceny": "MŠ Benátky - šablony OP JAK",
+   "castka": 548400.0
+  },
+  {
+   "prijemce_ico": "70872236",
+   "prijemce": "MŠ Vsetín, Na Kopečku 13, p. o.",
+   "rok": 2025,
+   "poskytovatel_ico": "00022985",
+   "poskytovatel": "Ministerstvo školství, mládeže a tělovýchovy",
+   "id_dotace": "Z332701009691",
+   "nazev_zkraceny": "Společně s námi V.",
+   "castka": 337152.15
+  },
+  {
+   "prijemce_ico": "70872236",
+   "prijemce": "MŠ Vsetín, Na Kopečku 13, p. o.",
+   "rok": 2023,
+   "poskytovatel_ico": "00022985",
+   "poskytovatel": "Ministerstvo školství, mládeže a tělovýchovy",
+   "id_dotace": "Z332701000907",
+   "nazev_zkraceny": "Společně s námi IV.",
+   "castka": 447579.0
+  },
+  {
+   "prijemce_ico": "60609231",
+   "prijemce": "Mateřská škola Vsetín, Jasenka 757, příspěvková organizace",
+   "rok": 2023,
+   "poskytovatel_ico": "00022985",
+   "poskytovatel": "Ministerstvo školství, mládeže a tělovýchovy",
+   "id_dotace": "Z332701002810",
+   "nazev_zkraceny": "Šablony OP JAK - MŠ Jasenka",
+   "castka": 428938.0
+  },
+  {
+   "prijemce_ico": "60042354",
+   "prijemce": "MŠ Vsetín, Trávníky 1218, p. o.",
+   "rok": 2023,
+   "poskytovatel_ico": "00022985",
+   "poskytovatel": "Ministerstvo školství, mládeže a tělovýchovy",
+   "id_dotace": "Z332701000978",
+   "nazev_zkraceny": "Poznáváme svět kolem nás",
+   "castka": 520000.0
+  },
+  {
+   "prijemce_ico": "47972114",
+   "prijemce": "Dům kultury Vsetín, spol. s r.o.",
+   "rok": 2022,
+   "poskytovatel_ico": "47609109",
+   "poskytovatel": "Ministerstvo průmyslu a obchodu",
+   "id_dotace": "Z221501000463",
+   "nazev_zkraceny": "Dům kultury Vsetín, spol. s r. o.",
+   "castka": 930000.0
+  },
+  {
+   "prijemce_ico": "47678054",
+   "prijemce": "Městské lesy Vsetín, s. r. o.",
+   "rok": 2026,
+   "poskytovatel_ico": "00020478",
+   "poskytovatel": "Ministerstvo zemědělství",
+   "id_dotace": "Z290301066122",
+   "nazev_zkraceny": "BDI.2022",
+   "castka": 364616.0
+  },
+  {
+   "prijemce_ico": "47678054",
+   "prijemce": "Městské lesy Vsetín, s. r. o.",
+   "rok": 2026,
+   "poskytovatel_ico": "00020478",
+   "poskytovatel": "Ministerstvo zemědělství",
+   "id_dotace": "Z290301067043",
+   "nazev_zkraceny": "BDI.2022",
+   "castka": 490447.0
+  },
+  {
+   "prijemce_ico": "47678054",
+   "prijemce": "Městské lesy Vsetín, s. r. o.",
+   "rok": 2026,
+   "poskytovatel_ico": "00020478",
+   "poskytovatel": "Ministerstvo zemědělství",
+   "id_dotace": "Z290301075884",
+   "nazev_zkraceny": "BDI.2022",
+   "castka": 14034.0
+  },
+  {
+   "prijemce_ico": "47678054",
+   "prijemce": "Městské lesy Vsetín, s. r. o.",
+   "rok": 2026,
+   "poskytovatel_ico": "00020478",
+   "poskytovatel": "Ministerstvo zemědělství",
+   "id_dotace": "Z290301075913",
+   "nazev_zkraceny": "BDI.2022",
+   "castka": 94664.0
+  },
+  {
+   "prijemce_ico": "47678054",
+   "prijemce": "Městské lesy Vsetín, s. r. o.",
+   "rok": 2026,
+   "poskytovatel_ico": "00020478",
+   "poskytovatel": "Ministerstvo zemědělství",
+   "id_dotace": "Z290301076692",
+   "nazev_zkraceny": "BDI.2022",
+   "castka": 113000.0
+  },
+  {
+   "prijemce_ico": "47678054",
+   "prijemce": "Městské lesy Vsetín, s. r. o.",
+   "rok": 2026,
+   "poskytovatel_ico": "00020478",
+   "poskytovatel": "Ministerstvo zemědělství",
+   "id_dotace": "Z290301077007",
+   "nazev_zkraceny": "BDI.2022",
+   "castka": 38900.0
+  },
+  {
+   "prijemce_ico": "47678054",
+   "prijemce": "Městské lesy Vsetín, s. r. o.",
+   "rok": 2026,
+   "poskytovatel_ico": "00020478",
+   "poskytovatel": "Ministerstvo zemědělství",
+   "id_dotace": "Z290301077055",
+   "nazev_zkraceny": "BDI.2022",
+   "castka": 298290.0
+  },
+  {
+   "prijemce_ico": "47678054",
+   "prijemce": "Městské lesy Vsetín, s. r. o.",
+   "rok": 2025,
+   "poskytovatel_ico": "00020478",
+   "poskytovatel": "Ministerstvo zemědělství",
+   "id_dotace": "Z290301051703",
+   "nazev_zkraceny": "BDI.2022",
+   "castka": 99700.0
+  },
+  {
+   "prijemce_ico": "47678054",
+   "prijemce": "Městské lesy Vsetín, s. r. o.",
+   "rok": 2025,
+   "poskytovatel_ico": "00020478",
+   "poskytovatel": "Ministerstvo zemědělství",
+   "id_dotace": "Z290301052933",
+   "nazev_zkraceny": "BDI.2022",
+   "castka": 92513.0
+  },
+  {
+   "prijemce_ico": "47678054",
+   "prijemce": "Městské lesy Vsetín, s. r. o.",
+   "rok": 2025,
+   "poskytovatel_ico": "00020478",
+   "poskytovatel": "Ministerstvo zemědělství",
+   "id_dotace": "Z290301052937",
+   "nazev_zkraceny": "BDI.2022",
+   "castka": 12308.0
+  },
+  {
+   "prijemce_ico": "47678054",
+   "prijemce": "Městské lesy Vsetín, s. r. o.",
+   "rok": 2025,
+   "poskytovatel_ico": "00020478",
+   "poskytovatel": "Ministerstvo zemědělství",
+   "id_dotace": "Z290301055350",
+   "nazev_zkraceny": "BDI.2022",
+   "castka": 108700.0
+  },
+  {
+   "prijemce_ico": "47678054",
+   "prijemce": "Městské lesy Vsetín, s. r. o.",
+   "rok": 2025,
+   "poskytovatel_ico": "00020478",
+   "poskytovatel": "Ministerstvo zemědělství",
+   "id_dotace": "Z290301055974",
+   "nazev_zkraceny": "BDI.2022",
+   "castka": 663035.0
+  },
+  {
+   "prijemce_ico": "47678054",
+   "prijemce": "Městské lesy Vsetín, s. r. o.",
+   "rok": 2025,
+   "poskytovatel_ico": "00020478",
+   "poskytovatel": "Ministerstvo zemědělství",
+   "id_dotace": "Z290301057135",
+   "nazev_zkraceny": "BDI.2022",
+   "castka": 18568.0
+  },
+  {
+   "prijemce_ico": "47678054",
+   "prijemce": "Městské lesy Vsetín, s. r. o.",
+   "rok": 2025,
+   "poskytovatel_ico": "00020478",
+   "poskytovatel": "Ministerstvo zemědělství",
+   "id_dotace": "Z290301060681",
+   "nazev_zkraceny": "BDI.2022",
+   "castka": 116529.0
+  },
+  {
+   "prijemce_ico": "47678054",
+   "prijemce": "Městské lesy Vsetín, s. r. o.",
+   "rok": 2025,
+   "poskytovatel_ico": "00020478",
+   "poskytovatel": "Ministerstvo zemědělství",
+   "id_dotace": "Z290301062957",
+   "nazev_zkraceny": "BDI.2022",
+   "castka": 61293.0
+  },
+  {
+   "prijemce_ico": "47678054",
+   "prijemce": "Městské lesy Vsetín, s. r. o.",
+   "rok": 2025,
+   "poskytovatel_ico": "00020478",
+   "poskytovatel": "Ministerstvo zemědělství",
+   "id_dotace": "Z290301064263",
+   "nazev_zkraceny": "BDI.2022",
+   "castka": 90700.0
+  },
+  {
+   "prijemce_ico": "47678054",
+   "prijemce": "Městské lesy Vsetín, s. r. o.",
+   "rok": 2025,
+   "poskytovatel_ico": "00020478",
+   "poskytovatel": "Ministerstvo zemědělství",
+   "id_dotace": "Z290301064863",
+   "nazev_zkraceny": "BDI.2022",
+   "castka": 265295.0
+  },
+  {
+   "prijemce_ico": "47678054",
+   "prijemce": "Městské lesy Vsetín, s. r. o.",
+   "rok": 2025,
+   "poskytovatel_ico": "00020478",
+   "poskytovatel": "Ministerstvo zemědělství",
+   "id_dotace": "Z290301068409",
+   "nazev_zkraceny": "P.P0-P6",
+   "castka": 40000.0
+  },
+  {
+   "prijemce_ico": "47678054",
+   "prijemce": "Městské lesy Vsetín, s. r. o.",
+   "rok": 2024,
+   "poskytovatel_ico": "00020478",
+   "poskytovatel": "Ministerstvo zemědělství",
+   "id_dotace": "Z290301037558",
+   "nazev_zkraceny": "BDI.2022",
+   "castka": 611509.0
+  },
+  {
+   "prijemce_ico": "47678054",
+   "prijemce": "Městské lesy Vsetín, s. r. o.",
+   "rok": 2024,
+   "poskytovatel_ico": "00020478",
+   "poskytovatel": "Ministerstvo zemědělství",
+   "id_dotace": "Z290301045607",
+   "nazev_zkraceny": "BDI.2022",
+   "castka": 143570.0
+  },
+  {
+   "prijemce_ico": "47678054",
+   "prijemce": "Městské lesy Vsetín, s. r. o.",
+   "rok": 2024,
+   "poskytovatel_ico": "00020478",
+   "poskytovatel": "Ministerstvo zemědělství",
+   "id_dotace": "Z290301045888",
+   "nazev_zkraceny": "BDI.2022",
+   "castka": 313841.0
+  },
+  {
+   "prijemce_ico": "47678054",
+   "prijemce": "Městské lesy Vsetín, s. r. o.",
+   "rok": 2024,
+   "poskytovatel_ico": "00020478",
+   "poskytovatel": "Ministerstvo zemědělství",
+   "id_dotace": "Z290301048366",
+   "nazev_zkraceny": "BDI.2022",
+   "castka": 690596.0
+  },
+  {
+   "prijemce_ico": "47678054",
+   "prijemce": "Městské lesy Vsetín, s. r. o.",
+   "rok": 2024,
+   "poskytovatel_ico": "00020478",
+   "poskytovatel": "Ministerstvo zemědělství",
+   "id_dotace": "Z290301048575",
+   "nazev_zkraceny": "BDI.2022",
+   "castka": 89700.0
+  },
+  {
+   "prijemce_ico": "47678054",
+   "prijemce": "Městské lesy Vsetín, s. r. o.",
+   "rok": 2023,
+   "poskytovatel_ico": "00020478",
+   "poskytovatel": "Ministerstvo zemědělství",
+   "id_dotace": "Z290301020093",
+   "nazev_zkraceny": "BDI.2022",
+   "castka": 97002.0
+  },
+  {
+   "prijemce_ico": "47678054",
+   "prijemce": "Městské lesy Vsetín, s. r. o.",
+   "rok": 2023,
+   "poskytovatel_ico": "00020478",
+   "poskytovatel": "Ministerstvo zemědělství",
+   "id_dotace": "Z290301020156",
+   "nazev_zkraceny": "BDI.2022",
+   "castka": 736745.0
+  },
+  {
+   "prijemce_ico": "47678054",
+   "prijemce": "Městské lesy Vsetín, s. r. o.",
+   "rok": 2023,
+   "poskytovatel_ico": "00020478",
+   "poskytovatel": "Ministerstvo zemědělství",
+   "id_dotace": "Z290301026878",
+   "nazev_zkraceny": "BDI.2022",
+   "castka": 507980.0
+  },
+  {
+   "prijemce_ico": "47678054",
+   "prijemce": "Městské lesy Vsetín, s. r. o.",
+   "rok": 2023,
+   "poskytovatel_ico": "00020478",
+   "poskytovatel": "Ministerstvo zemědělství",
+   "id_dotace": "Z290301026888",
+   "nazev_zkraceny": "BDI.2022",
+   "castka": 175900.0
+  },
+  {
+   "prijemce_ico": "47678054",
+   "prijemce": "Městské lesy Vsetín, s. r. o.",
+   "rok": 2023,
+   "poskytovatel_ico": "00020478",
+   "poskytovatel": "Ministerstvo zemědělství",
+   "id_dotace": "Z290301030228",
+   "nazev_zkraceny": "BDI.2022",
+   "castka": 40600.0
+  },
+  {
+   "prijemce_ico": "47678054",
+   "prijemce": "Městské lesy Vsetín, s. r. o.",
+   "rok": 2023,
+   "poskytovatel_ico": "00020478",
+   "poskytovatel": "Ministerstvo zemědělství",
+   "id_dotace": "Z290301033949",
+   "nazev_zkraceny": "BDI.2022",
+   "castka": 273422.0
+  },
+  {
+   "prijemce_ico": "47678054",
+   "prijemce": "Městské lesy Vsetín, s. r. o.",
+   "rok": 2023,
+   "poskytovatel_ico": "00020478",
+   "poskytovatel": "Ministerstvo zemědělství",
+   "id_dotace": "Z290301036905",
+   "nazev_zkraceny": "BDI.2022",
+   "castka": 141458.0
+  },
+  {
+   "prijemce_ico": "47678054",
+   "prijemce": "Městské lesy Vsetín, s. r. o.",
+   "rok": 2023,
+   "poskytovatel_ico": "00020478",
+   "poskytovatel": "Ministerstvo zemědělství",
+   "id_dotace": "Z290301037176",
+   "nazev_zkraceny": "BDI.2022",
+   "castka": 88800.0
+  },
+  {
+   "prijemce_ico": "47678054",
+   "prijemce": "Městské lesy Vsetín, s. r. o.",
+   "rok": 2023,
+   "poskytovatel_ico": "00020478",
+   "poskytovatel": "Ministerstvo zemědělství",
+   "id_dotace": "Z290301038983",
+   "nazev_zkraceny": "P.P0-P6",
+   "castka": 40000.0
+  },
+  {
+   "prijemce_ico": "47678054",
+   "prijemce": "Městské lesy Vsetín, s. r. o.",
+   "rok": 2022,
+   "poskytovatel_ico": "00020478",
+   "poskytovatel": "Ministerstvo zemědělství",
+   "id_dotace": "Z290301003736",
+   "nazev_zkraceny": "BDI.2020",
+   "castka": 107318.0
+  },
+  {
+   "prijemce_ico": "47678054",
+   "prijemce": "Městské lesy Vsetín, s. r. o.",
+   "rok": 2022,
+   "poskytovatel_ico": "00020478",
+   "poskytovatel": "Ministerstvo zemědělství",
+   "id_dotace": "Z290301009070",
+   "nazev_zkraceny": "BDI.2020",
+   "castka": 33540.0
+  },
+  {
+   "prijemce_ico": "47678054",
+   "prijemce": "Městské lesy Vsetín, s. r. o.",
+   "rok": 2022,
+   "poskytovatel_ico": "00020478",
+   "poskytovatel": "Ministerstvo zemědělství",
+   "id_dotace": "Z290301012758",
+   "nazev_zkraceny": "BDI.2022",
+   "castka": 232900.0
+  },
+  {
+   "prijemce_ico": "47678054",
+   "prijemce": "Městské lesy Vsetín, s. r. o.",
+   "rok": 2022,
+   "poskytovatel_ico": "00020478",
+   "poskytovatel": "Ministerstvo zemědělství",
+   "id_dotace": "Z290301013173",
+   "nazev_zkraceny": "BDI.2020",
+   "castka": 320570.0
+  },
+  {
+   "prijemce_ico": "47678054",
+   "prijemce": "Městské lesy Vsetín, s. r. o.",
+   "rok": 2022,
+   "poskytovatel_ico": "00020478",
+   "poskytovatel": "Ministerstvo zemědělství",
+   "id_dotace": "Z290301018323",
+   "nazev_zkraceny": "P.P1-P5",
+   "castka": 40000.0
+  },
+  {
+   "prijemce_ico": "25909614",
+   "prijemce": "Azylový dům pro ženy a matky s dětmi o.p.s.",
+   "rok": 2025,
+   "poskytovatel_ico": "00025429",
+   "poskytovatel": "Ministerstvo spravedlnosti",
+   "id_dotace": "Z360401000060",
+   "nazev_zkraceny": "Poskytování právních informací obětem trestných",
+   "castka": 129542.0
+  },
+  {
+   "prijemce_ico": "25909614",
+   "prijemce": "Azylový dům pro ženy a matky s dětmi o.p.s.",
+   "rok": 2024,
+   "poskytovatel_ico": "00025429",
+   "poskytovatel": "Ministerstvo spravedlnosti",
+   "id_dotace": "Z360401000044",
+   "nazev_zkraceny": "Poskytování právních informací obětem trestných",
+   "castka": 114687.0
+  },
+  {
+   "prijemce_ico": "25909614",
+   "prijemce": "Azylový dům pro ženy a matky s dětmi o.p.s.",
+   "rok": 2023,
+   "poskytovatel_ico": "00025429",
+   "poskytovatel": "Ministerstvo spravedlnosti",
+   "id_dotace": "Z360401000025",
+   "nazev_zkraceny": "POSKYTOVÁNÍ PRÁVNÍCH INFORMACÍ OBĚTEM TRESTNÝCH",
+   "castka": 124955.0
+  },
+  {
+   "prijemce_ico": "25909614",
+   "prijemce": "Azylový dům pro ženy a matky s dětmi o.p.s.",
+   "rok": 2020,
+   "poskytovatel_ico": "66002222",
+   "poskytovatel": "Ministerstvo pro místní rozvoj",
+   "id_dotace": "117D03D000602",
+   "nazev_zkraceny": "Zvýšení dostupnosti terénní asistenční služby Vs",
+   "castka": 1300625.92
+  },
+  {
+   "prijemce_ico": "25909614",
+   "prijemce": "Azylový dům pro ženy a matky s dětmi o.p.s.",
+   "rok": 2020,
+   "poskytovatel_ico": "66002222",
+   "poskytovatel": "Ministerstvo pro místní rozvoj",
+   "id_dotace": "117D03D000607",
+   "nazev_zkraceny": "Zvýšení dostupnosti pomoci rodinám s dětmi",
+   "castka": 412300.0
+  }
+ ]
+}
