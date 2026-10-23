@@ -64,3 +64,24 @@
 - K-003: písemná zpráva VZ I (MUVS 90996/2025) – nabídky 71,4–79,5 mil. bez DPH, zrušení 10. 7. 2025 dle § 127/2 d) (vše nad max. cenou 58 mil.; nejasná technická kvalifikace). Mitrenga ve VZ II o 3,35 % níž.
 - Senior taxi: 38999306 = Dodatek č. 2 (D2 0542 2025, 31. 7. 2026) – prodloužení po zrušených VZ 2026.
 - Odpad: hlavní smlouva 695/1S/2022 (HS 22831685) s Technickými službami Vsetín, s.r.o. (IČO 26782596); VZ otevřené řízení, předp. 138,6 mil./48 měs.; registr 28,3 mil. bez DPH; dodatky 1 a 4.
+## 2026-10-23
+- Audit 7 zdrojů pro integraci (`docs/AUDIT_INTEGRACI_2026-10-23.md`, `data/integrace/stav_zdroju_2026-10-23.json`).
+- Založena evidence stažení (`data/integrace/evidence_stazeni.json`).
+- MONITOR FIN 2-12 M 08/2026 – souhrn Vsetína a křížová kontrola s RO 2026 (`data/monitor/`).
+- Ověření 38 IČO v ARES (`data/entity/ares_overeni_2026-10-23.json`): 37 OK, 60042354 nenalezeno.
+- Prototyp idempotentního stahování `scripts/sync/` + testy `tests/` (6/6 OK, mock).
+- Zadání pro Claude Code (`docs/ZADANI_CLAUDE_CODE_integrace_2026-10-23.md`).
+
+## 2026-10-23 (MONITOR, registry dotací, VR, test webu)
+- MONITOR FIN 2-12 M 2020–2025: rekapitulace a financování; 2024/2025 = ZÚ na haléř (`data/monitor/finm_rada_2020_2025_vsetin.json`).
+- Měsíční 8115 vs RO 2025/2026: MONITOR nezávisle potvrzuje A-2025-01 (od 04/2025) a A-2025-02; nový drobný rozdíl +26,55 Kč u RO 24/2025 (`data/monitor/kontrola_RO_8115_monitor.json`).
+- ZÚ JSON: `pol_8115.skutecnost` zahrnuje 8117/8118 (rozdíl +60/−10/−50 mil.) – k opravě vlastníkem dat.
+- Registry dotací: územní (107 příjemců od města, 28 poskytovatelů městu) a státní (101 záznamů 2014–2026) → `data/dotace/`.
+- ARES-VR: společníci a aktuální orgány městských společností (minimalizováno) → `data/entity/vr_organy_mestske_spolecnosti_2026-10-23.json`.
+- Test webu nasvsetin.cz (20 kontrol, model, funkce, WCAG) → `docs/TEST_WEBU_2026-10-23.md`; zadání Z1–Z9 → `docs/ZADANI_CLAUDE_CODE_model_UI_2026-10-23.md`.
+
+## 2026-10-23 (úvěr ČSOB, oprava hodnot registru, K-003)
+- Řetězec úvěrového rámce 500 mil. Kč ČSOB: usnesení 25/24 a 23/26/ZM/2026 → smlouva 38540900 (splatnost 2049, splátky od 2030) → RO 12/17 → MONITOR čerpání 2,44 mil. k 31. 8. (`data/smlouvy/uver_CSOB_2026.json`).
+- Ověření hodnot 215 verzí registru „nezjištěno“: 149 má hodnotu vč. DPH (`data/smlouvy/oprava_hodnot_registru_2026-10-23.json`).
+- K-003: dotace Zlínského kraje 2,007 mil. (max. 5 % z CZV 40,16 mil., výplata po 11/2027) (`data/kauzy/doplneni/K-003_doplneni_dotace_ZK_2026-10-23.json`).
+- Nová anomálie A-2025-05: +26,55 Kč v 8115 mezi zveřejněnými RO 2025 a ZÚ/MONITOR.
