@@ -109,3 +109,8 @@
 - Testy `tests/test_dokumenty.py` (7, offline); ověřeno na reálné příloze registru smluv (kupní smlouva Tribuna): SHA-256 = hash uvedený registrem, 13/13 stran s textem.
 - Zadání pro Claude Code: `docs/ZADANI_CLAUDE_CODE_texty_dokumentu_2026-10-23.md`.
 - Revize stavů A-2023-01/A-2024-01 (potvrzena existence nesouladu, výše se liší o 5 514,00 / 34 012,00 Kč) a A-2025-01 (potvrzeno včetně výše).
+
+## 2026-10-23 (várka p – párování IČO se smlouvami)
+- `data/smlouvy/parovani_ico.json`: 73 ověřených IČO × registr smluv (obousměrně) → 60 IČO, 767 smluv; součty, dodatky, dary, největší smlouvy; skript `scripts/registr_smluv_parovani_ico.js`; schéma + validace.
+- Signály P-01 (dary 4 dodavatelů projektu MVK, smlouvy 0781–0784 2025), P-02 (AERV: vklad 3,6 mil. 10 dní před zrušením), P-03 (podíl dodatků Martin Urban, TM Stav).
+- K-003: 39830353 = Dodatek č. 1 k SoD Vs-04-Bel, +641 950,51 Kč bez DPH, cena díla 69,63 mil. bez DPH.
