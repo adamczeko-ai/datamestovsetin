@@ -1,0 +1,121 @@
+{
+  "schema": "vsetin-osint/sync-evidence@1",
+  "relace": "Claude in Chrome + cloudový sandbox, 22.–23. 10. 2026 (noc), SELČ",
+  "poznamka": "Testovací stažení provedená v prohlížeči (same-origin fetch). Data nebyla zapsána do databáze aplikace. Produkční server nebyl dotčen.",
+  "predchozi_stav_aplikace": {
+    "zdroj": "https://nasvsetin.cz/#rc/sources a /api/data-freshness (čteno 23. 10. 2026 ~00:10 SELČ)",
+    "katalog_konektoru": {"celkem": 20, "castecne": 11, "jen_rucne": 2, "neintegrovano": 7},
+    "neintegrovane": ["ČÚZK / katastr", "MONITOR – registry dotací", "Veřejný rejstřík a Sbírka listin", "ČÚZK REST API katastru", "MONITOR Státní pokladny (SOAP)", "RÚIAN / VFR", "Veřejné zakázky / NIPEZ"],
+    "provider_pro_tyto_zdroje_v_data_freshness": false,
+    "dnes_stazeno_aplikaci": "nic z těchto 7 zdrojů (žádný provider v /api/data-freshness)"
+  },
+  "zdroje": [
+    {
+      "source_id": "monitor.finm",
+      "stav": "TESTOVÁNO",
+      "resource_key": "FinM_2026/2026_08",
+      "katalog": "https://monitor.statnipokladna.gov.cz/api/opendata/monitor",
+      "url": "https://monitor.statnipokladna.gov.cz/data/extrakty/csv/FinM2026/2026_08_Data_CSUIS_FINM2026.zip",
+      "http_status": 200,
+      "etag": "\"6ab496d0-17be1a8\"",
+      "etag_mtime_utc": "2026-09-24T03:19:44Z",
+      "if_none_match_304": true,
+      "last_modified_spolehlive": false,
+      "content_length": 24895912,
+      "sha256": "9a13a88c640460e00567abb22862c6915f3a967b45ec1aba64efe6a9214652a9",
+      "soubory": {"FINM01_KRAJ_2026008.csv": 23196471, "FINM01_REP_2026008.csv": 15145140, "FINM01_UJ_2026008.csv": 163963052, "FINM02_2026008.csv": 4055366},
+      "vsetin_ico": "00304450",
+      "radku_vykazuje_vsetin": 1745,
+      "radku_vsetin_jako_partner": 55,
+      "vysledek": {
+        "vydaje_schvaleny_rozpocet": 1280498000.00,
+        "vydaje_rozpocet_po_zmenach": 1465975256.09,
+        "prijmy_tridy_1_4_schvaleny": 995899000.00,
+        "prijmy_tridy_1_4_po_zmenach": 1040017311.23,
+        "financovani_tr8_po_zmenach": 425957944.86,
+        "pol_8123_po_zmenach": 107500000.00
+      },
+      "krizova_kontrola": "Schválený rozpočet 1 280 498 000 + RO 1–15/2026 (výdaje, z data/rozpocet/2026) = 1 465 975 256,09 Kč = MONITOR 08/2026 na haléř. RO 16–18 (září) ve výkazu za srpen nejsou – očekávaný stav.",
+      "zjistene_vady_zdroje": [
+        "Distribuce v katalogu uvádí soubor_ke_stažení bez přípony .zip -> HTTP 404; funkční URL je s .zip.",
+        "Last-Modified vrací aktuální čas serveru; If-Modified-Since nefunguje (vždy 200).",
+        "V katalogu chybí období FinM_2026/2026_07 (je 02–06 a 08) – ověřit, zda jde o chybu katalogu, nebo souhrn."
+      ]
+    },
+    {
+      "source_id": "monitor.grants.local",
+      "stav": "PŘÍSTUP OVĚŘEN",
+      "url_ui": "https://monitor.statnipokladna.gov.cz/registr-dotaci/uzemi/vyhledavani?rad=j",
+      "api_nedokumentovane": "/api/grants/local/search?provider=00304450&receiver=&withPurpose=false&page=1&pageSize=20",
+      "vysledek": {"poskytovatel_vsetin_zaznamu_2026_08": 107, "prijemce_vsetin_zaznamu": 28},
+      "metodika": "Územní registr přebírá data z FIN 2-12 M (pole Partner) – nelze odlišit dotace od jiných transferů ani jednotlivé projekty.",
+      "doporuceni": "Odvodit z oficiálních open data FIN 2-12 M (ZC_PARTNF), nedokumentované /api/grants používat jen ke kontrole."
+    },
+    {
+      "source_id": "monitor.grants.state",
+      "stav": "PŘÍSTUP OVĚŘEN",
+      "api_nedokumentovane": "/api/grants/state/search?provider=&receiver=00304450&grant=&page=1&pageSize=20",
+      "vysledek": {"prijemce_vsetin_zaznamu": 101, "aktualnost_ui": "k 30. 6. 2026"},
+      "osobni_udaje": "Obsahuje pole receiverFirstName/receiverLastName (fyzické osoby) – filtrovat jen IČO právnických osob.",
+      "oficialni_open_data": "CEDR (IS ReD) – NEOVĚŘENO v této relaci"
+    },
+    {
+      "source_id": "ruian.vfr.ob",
+      "stav": "TESTOVÁNO",
+      "url": "https://vdp.cuzk.gov.cz/vymenny_format/soucasna/20260930_OB_541630_UKSH.xml.zip",
+      "http_status": 200,
+      "etag": "\"121f426b3751dd1:0\"",
+      "last_modified": "Wed, 30 Sep 2026 23:57:15 GMT",
+      "content_length": 6178614,
+      "sha256": "741c0d5f32f12508d0e4fec50bcacafeab4c61a8c926493e33c327ba30b93d8d",
+      "kod_obce": 541630,
+      "pocty": {"Obec": 1, "Ulice": 145, "Parcela": 26965, "StavebniObjekt": 6739, "AdresniMisto": 3778, "Zsj": 31, "KatastralniUzemi_nalezena": ["786764 Vsetín", "786951 Rokytnice u Vsetína", "786969 Jasenka"]},
+      "dalsi_soubory_overeny_head": {
+        "20260930_OB_ADR_csv.zip": 63460492,
+        "20260930_ST_UKSH.xml.zip": 35796856,
+        "20261022_ST_ZKSH.xml.zip": 4225513
+      }
+    },
+    {
+      "source_id": "nipez.rvz.opendata",
+      "stav": "PŘÍSTUP OVĚŘEN",
+      "url_prehled": "https://isvz.nipez.cz/opendata/nova/2026/kategorie",
+      "kategorie": ["VZ", "DNS", "SON", "SK", "RVP"],
+      "test": {
+        "url": "https://isvz.nipez.cz/sites/default/files/content/opendata-rvz/DNS-09-2026.zip",
+        "content_length": 340367, "zaznamu": 175, "verze": "2.10.2",
+        "cesta_ico_zadavatele": "…zadavatel_zadavaciho_postupu.zadavatele[].subjekt.ico"
+      },
+      "nestazeno": {
+        "url": "https://isvz.nipez.cz/sites/default/files/content/opendata-rvz/VZ-09-2026.zip",
+        "content_length": 182978633, "json_rozbaleno": 1328203206, "etag": "\"ae80849-65cd3913ebec4\"",
+        "duvod": "velikost – vyžaduje schválení a proudové zpracování na serveru"
+      }
+    },
+    {
+      "source_id": "justice.dataor",
+      "stav": "TESTOVÁNO",
+      "api": "https://dataor.justice.cz/api/3/action/package_list",
+      "datovych_sad": 9496,
+      "test": {
+        "url": "https://dataor.justice.cz/api/file/prisp-actual-ostrava-2026.xml.gz",
+        "content_length": 627241, "sha256": "ed5c0f3afb4ee90bee694477bd07f6125683c4d0192a3456866c49b830b0e948",
+        "subjektu": 1001, "etag": null, "last_modified": null
+      },
+      "zjisteni": ["IČO uloženo bez úvodních nul.", "Bez ETag/Last-Modified -> jen SHA-256.", "ZŠ/MŠ města Vsetína s ve_verejnem_rejstriku=NEEXISTUJICI v ARES v datasetu nejsou – konzistentní."]
+    },
+    {
+      "source_id": "ares.vr",
+      "stav": "TESTOVÁNO",
+      "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty-vr/{ico}",
+      "test": "41084837 (ZETEX) -> 200 JSON, 17 záznamů členů orgánů vč. historie; mapování bez data narození a adresy (živě z cloudu)"
+    },
+    {
+      "source_id": "cuzk.api-kn",
+      "stav": "BLOKOVÁNO",
+      "url": "https://api-kn.cuzk.gov.cz/",
+      "test": "GET /api/v1/Parcely/Vyhledani bez ApiKey -> HTTP 401",
+      "duvod": "Vyžaduje registraci (Identita občana / účet DP) a ApiKey v hlavičce; každé volání se započítává do limitu."
+    }
+  ]
+}

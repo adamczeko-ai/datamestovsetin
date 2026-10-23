@@ -1,0 +1,22 @@
+{
+  "schema": "vsetin-osint/sync-evidence@1",
+  "relace": "Claude in Chrome, 23. 10. 2026, 06:50–07:15 SELČ (04:50–05:15 UTC), dávka 2",
+  "objem_stazeno_MB": 94,
+  "limit_bez_schvaleni_MB": 100,
+  "poznamka": "Testovací/vytěžovací stažení v prohlížeči; nic nezapsáno do DB aplikace. Hashe jsou SHA-256 celého souboru.",
+  "polozky": [
+    {"source_id": "monitor.finm", "resource_key": "FinM/2025_12", "url": "https://monitor.statnipokladna.gov.cz/data/extrakty/csv/FinM/2025_12_Data_CSUIS_FINM.zip", "bytes": 24577068, "sha256": "3d48d2ea5e273273301b4c28888c03c4c3ae694c0620480d51ac8524a4f9b123", "radku_vsetin": 1045, "stav": "ok"},
+    {"source_id": "monitor.finm", "resource_key": "FinM/2024_12", "url": "https://monitor.statnipokladna.gov.cz/data/extrakty/csv/FinM/2024_12_Data_CSUIS_FINM.zip", "bytes": 24347830, "sha256": "634be377587abb45e61d2b2a7e2a12fad4a80cf531a5effa2815fe18c06a3ae6", "radku_vsetin": 1053, "stav": "ok"},
+    {"source_id": "monitor.finm", "resource_key": "FinM_2026/2026_08", "url": "https://monitor.statnipokladna.gov.cz/data/extrakty/csv/FinM2026/2026_08_Data_CSUIS_FINM2026.zip", "bytes": 24895912, "sha256": "9a13a88c640460e00567abb22862c6915f3a967b45ec1aba64efe6a9214652a9", "etag": "\"6ab496d0-17be1a8\"", "if_none_match": 304, "stav": "ok – opakované stažení zdůvodněno: v dávce 1 přeneseny jen agregáty; ETag i SHA-256 beze změny"},
+    {"source_id": "monitor.finm.head", "resource_key": "FinM/2010_12..2025_12", "metoda": "HEAD", "souboru": 16, "celkem_MB": 296, "stav": "nestaženo – nad limit, čeká na schválení (2010–2023 = 247 MB)"},
+    {"source_id": "monitor.ui_api", "endpoint": "/api/rozpocet?obdobi=RRMM&ic=00304450", "volani": 17, "stav": "ok", "pozn": "nedokumentované API UI"},
+    {"source_id": "monitor.ui_api", "endpoint": "/api/rozpocet/druhovy?obdobi=2412&ic=00304450&cast=p|v", "volani": 2, "stav": "ok"},
+    {"source_id": "monitor.ui_api", "endpoint": "/api/ukazatele + /api/ucetni-jednotka", "volani": 48, "stav": "ok", "subjektu": 16},
+    {"source_id": "monitor.grants.local", "endpoint": "/api/grants/local/search?provider=00304450", "volani": 3, "zaznamu": 107, "stav": "ok"},
+    {"source_id": "ares", "endpoint": "ekonomicke-subjekty/{ico}", "volani": 113, "nalezeno": 110, "pozn": "110 příjemců + 60042354 (404 i RES/RŽP) + vyhledávání", "stav": "ok"},
+    {"source_id": "ares.vr", "ico": ["28593987", "47972114"], "stav": "ok"},
+    {"source_id": "nipez.rvz.opendata", "resource_key": "DNS|SON|SK|RVP 02/2024–09/2026", "souboru": 128, "MB": 15.4, "chyb": 0, "zasahu_okruh_mesta": 0, "stav": "ok – negativní výsledek ověřen"},
+    {"source_id": "mestovsetin.ro2024", "url": "https://mestovsetin.cz/rozpocet-mesta-vsetin/ds-19802", "pdf": 22, "radku": 406, "stav": "ok – validováno (scripts/validate_ro2024.py)"},
+    {"source_id": "mestovsetin.zu2025", "id_dokumenty": [568728, 568729], "sha256_prefix": ["a5a5341cdf5d6f44", "f2278c049cd4d427"], "stran": [38, 10], "stav": "ok – čteny klíčové údaje"}
+  ]
+}

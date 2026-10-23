@@ -1,0 +1,11 @@
+{
+  "schema": "vsetin-osint/sync-evidence@1",
+  "relace": "Claude in Chrome, 23. 10. 2026, 07:55–08:30 SELČ, dávka 4",
+  "polozky": [
+    {"source_id": "mestovsetin.zu2024", "id_dokumenty": 562186, "bytes": 1254368, "sha256_prefix": "eb3e56830c1d81df", "stran": 36, "stav": "ok"},
+    {"source_id": "monitor.grants.state", "endpoint": "/api/grants/state/search?receiver={ico}", "ico": 23, "zaznamu": 204, "stav": "ok"},
+    {"source_id": "mestovsetin.ro2023", "url": "https://mestovsetin.cz/2023%2Drozpoctova%2Dopatreni/ds-19725/archiv=0", "pdf": 22, "radku": 473, "stav": "ok – validováno"},
+    {"source_id": "monitor.ui_api", "endpoint": "/api/rozpocet/druhovy?obdobi=2312&ic=00304450&cast=p|v", "volani": 2, "stav": "ok"},
+    {"source_id": "nipez.rvz.opendata", "pozn": "přenos 163 nálezů z paměti stránky po obnovení spojení (07:45)", "stav": "ok"}
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "vsetin-osint/sync-evidence@1",
+  "relace": "Claude in Chrome, 23. 10. 2026, 07:15–07:40 SELČ (05:15–05:40 UTC), dávka 3 – schválené objemové stahování",
+  "schvaleni": "Správce schválil 23. 10. 2026: FIN 2-12 M 2010–2023, NIPEZ VZ, dataor sro/as, MONITOR Rozvaha/VYKZZ",
+  "objem_stazeno_MB": null,
+  "objem_pozn": "MONITOR 284 MB + dataor ~45 MB + NIPEZ 25 souborů (jednotlivě do 207 MB; přesný součet nezaznamenán)",
+  "polozky": [
+    {"source_id": "monitor.finm", "resource_key": "FinM/2010_12..2023_12", "souboru": 14, "bytes_celkem": 246899826, "stav": "ok", "hashe": "viz data/monitor/finm_vsetin_2010_2026.json → obdobi.*.zdroj.sha256", "kontrola": "P+F=V 0,00 všechny roky; konsolidace = UI MONITOR na haléř 2010–2023"},
+    {"source_id": "monitor.rozvaha", "url": "https://monitor.statnipokladna.gov.cz/data/extrakty/csv/Rozvaha/2025_12_Data_CSUIS_ROZV.zip", "bytes": 23310699, "sha256": "80658386aff7e4254b5c5c3ba993a3fb409e29b1258f00a592e7aac94f3aa844", "radku": 2072, "stav": "ok"},
+    {"source_id": "monitor.vykzz", "url": "https://monitor.statnipokladna.gov.cz/data/extrakty/csv/Zisk-a-ztraty/2025_12_Data_CSUIS_VYKZZ.zip", "bytes": 13649186, "sha256": "c7618be4d3d87d37159febbf24aad76a4fd47f439e73d30749f1e554e7c7684a", "radku": 1240, "stav": "ok"},
+    {"source_id": "justice.dataor", "resource_key": "sro-actual-ostrava-2026", "bytes": 39445175, "sha256": "a8c2c2746a61ecf2af69c1a3fd11dbbd3aa21365a21c9acda0ac21beece716d8", "subjektu": 63883, "stav": "ok"},
+    {"source_id": "justice.dataor", "resource_key": "as-actual-ostrava-2026", "bytes": 2908589, "sha256": "bc96fd57c74c44825eb81935cdd29afa694c53fa67cf0582ed92e3ffed0f6a3a", "subjektu": 2575, "stav": "ok"},
+    {"source_id": "justice.dataor", "resource_key": "ops|ustav|nadf|nad|dr|zaj_sdr -actual-ostrava-2026", "stav": "ok", "pozn": "zaj_sdr_po a spol_pod: soubor nelze dekomprimovat (incorrect header) – vada zdroje nebo nekomprimovaný obsah"},
+    {"source_id": "ares.vr", "ico": ["47678054", "26782596", "19690711", "08012733", "25909614", "26838354"], "stav": "ok"},
+    {"source_id": "nipez.rvz.opendata", "resource_key": "VZ-2024_rocni + VZ-01-2025..VZ-09-2026", "souboru": 25, "nalezu": 163, "stav": "průchod ok, nálezy NEPŘENESENY (přerušeno spojení s prohlížečem)", "detail": "data/zakazky/nipez_vz_pruchod_2026-10-23.json", "sha256": "nepočítán – proudové zpracování, WebCrypto neumí inkrementální hash; evidováno ETag + velikost"}
+  ]
+}
