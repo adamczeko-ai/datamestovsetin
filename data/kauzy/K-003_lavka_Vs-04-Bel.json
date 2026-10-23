@@ -46,9 +46,19 @@
    "zdroj": "hledání 'průmyslovky'"
   },
   {
+   "datum": "2024-12-05",
+   "popis": "VZ 'Technický dozor stavebníka a koordinátor BOZP' na stavbu lávky – předp. hodnota 800 000 Kč.",
+   "zdroj": "profil zadavatele"
+  },
+  {
    "datum": "2025-04-29",
-   "popis": "VZ 'LÁVKA PŘES BEČVU U PRŮMYSLOVKY VE VSETÍNĚ' – předp. hodnota 58 000 000 Kč, lhůta 3.6.2025 – ZRUŠENA.",
-   "zdroj": "profil zadavatele, záložka Zrušeno"
+   "popis": "VZ I 'LÁVKA PŘES BEČVU U PRŮMYSLOVKY VE VSETÍNĚ' (P25V00004197) – předp. hodnota 58 000 000 Kč, lhůta 3.6.2025; 4 nabídky (IDS Olomouc, FIRESTA-Fišer, Mitrenga-stavby, MI Roads); zrušena ve fázi vyhodnocování.",
+   "zdroj": "https://www.vhodne-uverejneni.cz/zakazka/lavka-pres-becvu-u-prumyslovky-ve-vsetine"
+  },
+  {
+   "datum": "2025-07-24",
+   "popis": "VZ II (P25V00006806) – předp. hodnota zvýšena na 72 000 000 Kč (+24 %), lhůta 22.8.2025; 6 nabídek (STRABAG, Mitrenga, FIRESTA-Fišer, IDS Olomouc, MI Roads, REPONT); vybrána Mitrenga-stavby 68 983 750,54 Kč bez DPH (95,8 % předp. hodnoty).",
+   "zdroj": "https://www.vhodne-uverejneni.cz/zakazka/lavka-pres-becvu-u-prumyslovky-ve-vsetine-ii"
   },
   {
    "datum": "2025-10-14",
@@ -65,14 +75,18 @@
   "puvodni_SoD_bez_DPH": 19483170,
   "narovnani": 2165323,
   "nova_SoD_bez_DPH": 68983751,
-  "narust_nasobek": 3.54
+  "narust_nasobek": 3.54,
+  "VZ_I_predp": 58000000,
+  "VZ_II_predp": 72000000,
+  "VZ_II_vitezna_bez_DPH": 68983750.54
  },
  "otazky": [
   "Proč byla smlouva s TM Stav ukončena a za co bylo placeno narovnání 2,17 mil. Kč?",
   "Jak se změnil rozsah projektu (nová lávka vs. původní řešení)?",
-  "Kolik nabídek měla VZ 2025 a jaká byla předpokládaná hodnota?",
   "Rozpočtová opatření 2025 k akci (ORG?) – dohledat.",
-  "Proč byla VZ (58 mil.) zrušena a jakým postupem byla zadána smlouva za 68,98 mil. (o 19 % více)?"
+  "Proč byla VZ I zrušena po obdržení 4 nabídek (rozhodnutí o zrušení – důvod dle § 127 ZZVZ)?",
+  "Jaké byly nabídkové ceny ve VZ I (zpráva o hodnocení)?",
+  "Proč byla předp. hodnota VZ II navýšena o 14 mil. Kč?"
  ],
  "upozorneni": "Fakta z registru smluv; důvody změn nejsou z dostupných dat zřejmé."
 }

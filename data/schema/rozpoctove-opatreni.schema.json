@@ -1,0 +1,142 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "Rozpočtová opatření (rok)",
+ "type": "object",
+ "required": [
+  "schema",
+  "opatreni"
+ ],
+ "properties": {
+  "schema": {
+   "const": "vsetin-osint/rozpoctove-opatreni@1"
+  },
+  "anomalie": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "required": [
+     "id",
+     "zavaznost",
+     "popis"
+    ],
+    "properties": {
+     "id": {
+      "type": "string",
+      "pattern": "^A-\\d{4}-\\d{2}$"
+     },
+     "zavaznost": {
+      "enum": [
+       "nizka",
+       "stredni",
+       "vysoka"
+      ]
+     }
+    }
+   }
+  },
+  "opatreni": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "required": [
+     "id",
+     "cislo",
+     "url",
+     "radky"
+    ],
+    "properties": {
+     "id": {
+      "type": "string",
+      "pattern": "^RO-\\d{4}-\\d{2}$"
+     },
+     "cislo": {
+      "type": "integer",
+      "minimum": 1
+     },
+     "organ": {
+      "enum": [
+       "RM",
+       "ZM",
+       null
+      ]
+     },
+     "datum": {
+      "type": [
+       "string",
+       "null"
+      ],
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+     },
+     "usneseni": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "url": {
+      "type": "string",
+      "format": "uri"
+     },
+     "radky": {
+      "type": "array",
+      "items": {
+       "type": "object",
+       "required": [
+        "typ",
+        "pol",
+        "pred",
+        "zmena",
+        "po"
+       ],
+       "properties": {
+        "typ": {
+         "enum": [
+          "P",
+          "V",
+          "F"
+         ]
+        },
+        "odpa": {
+         "type": [
+          "string",
+          "null"
+         ],
+         "pattern": "^\\d{4}$"
+        },
+        "pol": {
+         "type": "string",
+         "pattern": "^\\d{4}$"
+        },
+        "org": {
+         "type": [
+          "string",
+          "null"
+         ]
+        },
+        "orj": {
+         "type": [
+          "string",
+          "null"
+         ],
+         "pattern": "^\\d{4}$"
+        },
+        "pred": {
+         "type": "number"
+        },
+        "zmena": {
+         "type": "number"
+        },
+        "po": {
+         "type": "number"
+        },
+        "popis": {
+         "type": "string"
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}

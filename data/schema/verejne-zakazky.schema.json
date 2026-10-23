@@ -1,0 +1,53 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "Veřejné zakázky",
+ "type": "object",
+ "required": [
+  "schema",
+  "zakazky"
+ ],
+ "properties": {
+  "schema": {
+   "const": "vsetin-osint/verejne-zakazky@1"
+  },
+  "zakazky": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "required": [
+     "nazev"
+    ],
+    "properties": {
+     "predp_hodnota": {
+      "type": "number"
+     },
+     "pomer_cena_predp": {
+      "type": "number",
+      "minimum": 0
+     },
+     "ucastnici": {
+      "type": "array",
+      "items": {
+       "type": "object",
+       "required": [
+        "nazev"
+       ],
+       "properties": {
+        "ico": {
+         "type": [
+          "string",
+          "null"
+         ],
+         "pattern": "^\\d{8}$"
+        },
+        "vybran": {
+         "type": "boolean"
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}

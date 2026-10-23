@@ -1,0 +1,42 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "Kauza",
+ "type": "object",
+ "required": [
+  "schema",
+  "id",
+  "nazev"
+ ],
+ "properties": {
+  "schema": {
+   "const": "vsetin-osint/kauza@1"
+  },
+  "id": {
+   "type": "string",
+   "pattern": "^K-\\d{3}$"
+  },
+  "nazev": {
+   "type": "string"
+  },
+  "casova_osa": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "required": [
+     "datum",
+     "popis"
+    ]
+   }
+  },
+  "udalosti": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "required": [
+     "datum",
+     "popis"
+    ]
+   }
+  }
+ }
+}

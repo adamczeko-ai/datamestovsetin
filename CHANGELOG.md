@@ -54,3 +54,8 @@
 - 80 zrušených VZ (2013–2026, předp. hodnoty celkem 377,9 mil. Kč); opakovaná zrušení (Senior taxi 6×); pravidlo R12.
 - K-003: zrušená VZ na lávku Vs-04-Bel (58 mil., 2025) před SoD 68,98 mil.
 - Audit účetní závěrky 2025 (AUDIT TEAM, s.r.o.) – výrok bez výhrad (OCR skenu).
+
+## 2026-10-23 (13. várka – autonomní)
+- K-003: VZ I (58 mil., 4 nabídky, zrušena) → VZ II (72 mil., 6 nabídek, Mitrenga 68,98 mil.).
+- Senior taxi: přehled smluv 2018–2026; svoz odpadu – Technické služby Vsetín, s.r.o.
+- JSON Schema (data/schema/) + scripts/validate_schemas.py – všechna data validní.

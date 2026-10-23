@@ -219,6 +219,51 @@
     }
    ],
    "signal": "Původní SoD 19,48 mil. (TM Stav, 2022) ukončena narovnáním 2,17 mil.; nová SoD 68,98 mil. bez DPH (Mitrenga, 2025) = 3,5× – viz K-003."
+  },
+  {
+   "nazev": "LÁVKA PŘES BEČVU U PRŮMYSLOVKY VE VSETÍNĚ II",
+   "sys": "P25V00006806",
+   "url": "https://www.vhodne-uverejneni.cz/zakazka/lavka-pres-becvu-u-prumyslovky-ve-vsetine-ii",
+   "uverejneno": "2025-07-24",
+   "lhuta": "2025-08-22",
+   "predp_hodnota": 72000000,
+   "ucastnici": [
+    {
+     "nazev": "STRABAG a.s.",
+     "ico": "60838744"
+    },
+    {
+     "nazev": "Mitrenga-stavby, spol. s r.o.",
+     "ico": "26944022",
+     "vybran": true,
+     "nabidka_bez_DPH": 68983750.54
+    },
+    {
+     "nazev": "FIRESTA-Fišer, rekonstrukce, stavby a.s.",
+     "ico": "25317628"
+    },
+    {
+     "nazev": "IDS - Inženýrské a dopravní stavby Olomouc a.s.",
+     "ico": "25869523"
+    },
+    {
+     "nazev": "MI Roads a.s.",
+     "ico": "17331099"
+    },
+    {
+     "nazev": "REPONT s.r.o.",
+     "ico": "26863057"
+    }
+   ],
+   "smlouva": {
+    "id": "35219709",
+    "url": "https://www.hlidacstatu.cz/Detail/35219709",
+    "bez_DPH": 68983751,
+    "s_DPH": 83470339
+   },
+   "akce_org": null,
+   "pomer_cena_predp": 0.958,
+   "signal": "Navazuje na zrušenou VZ I (58 mil., 4 nabídky) – předp. hodnota navýšena o 24 %."
   }
  ],
  "dalsi_zjisteni": [
