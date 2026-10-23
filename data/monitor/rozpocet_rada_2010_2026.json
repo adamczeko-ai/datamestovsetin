@@ -1,0 +1,155 @@
+{
+ "schema": "vsetin-osint/monitor-rada@1",
+ "ico": "00304450",
+ "licence": "Zdroj dat: Ministerstvo financí ČR, portál MONITOR (https://monitor.statnipokladna.gov.cz/datovy-katalog/licence)",
+ "vytezeno": "2026-10-23 (SELČ)",
+ "zdroj": "https://monitor.statnipokladna.gov.cz/api/rozpocet?obdobi=RRMM&ic=00304450",
+ "typ_zdroje": "nedokumentované API webového rozhraní MONITOR (stejná data jako UI); skutečnost je konsolidovaná",
+ "overeni": "Všechny roky 2010–2025 a 08/2026 ověřeny proti open data FIN 2-12 M (data/monitor/finm_vsetin_2010_2026.json): schválený a upravený rozpočet a konsolidovaná skutečnost (bez pol. 534x) se shodují na haléř; výjimka: konsolidované příjmy 08/2026 (UI o 140 287 460 Kč níže – metodika UI pro výkaz 2026 neověřena).",
+ "sloupce": [
+  "prijmy_schvaleny",
+  "prijmy_po_zmenach",
+  "prijmy_skutecnost_kons",
+  "vydaje_schvaleny",
+  "vydaje_po_zmenach",
+  "vydaje_skutecnost_kons"
+ ],
+ "rady": {
+  "2010": {
+   "prijmy_schvaleny": 632913000,
+   "prijmy_po_zmenach": 684332000,
+   "prijmy_skutecnost_kons": 613312020,
+   "vydaje_schvaleny": 813282000,
+   "vydaje_po_zmenach": 864701000,
+   "vydaje_skutecnost_kons": 663625060
+  },
+  "2011": {
+   "prijmy_schvaleny": 691293000,
+   "prijmy_po_zmenach": 721108000,
+   "prijmy_skutecnost_kons": 603277689.57,
+   "vydaje_schvaleny": 789491000,
+   "vydaje_po_zmenach": 819306000,
+   "vydaje_skutecnost_kons": 644601754.47
+  },
+  "2012": {
+   "prijmy_schvaleny": 466913000,
+   "prijmy_po_zmenach": 490277367,
+   "prijmy_skutecnost_kons": 484790851.22,
+   "vydaje_schvaleny": 505111000,
+   "vydaje_po_zmenach": 530306367,
+   "vydaje_skutecnost_kons": 446827566.54
+  },
+  "2013": {
+   "prijmy_schvaleny": 421691000,
+   "prijmy_po_zmenach": 474031989,
+   "prijmy_skutecnost_kons": 485024451.74,
+   "vydaje_schvaleny": 487247000,
+   "vydaje_po_zmenach": 545887989,
+   "vydaje_skutecnost_kons": 456327760.51
+  },
+  "2014": {
+   "prijmy_schvaleny": 488288900,
+   "prijmy_po_zmenach": 522005258,
+   "prijmy_skutecnost_kons": 565600540.53,
+   "vydaje_schvaleny": 598704900,
+   "vydaje_po_zmenach": 644457465,
+   "vydaje_skutecnost_kons": 563557337.32
+  },
+  "2015": {
+   "prijmy_schvaleny": 504692000,
+   "prijmy_po_zmenach": 558715028,
+   "prijmy_skutecnost_kons": 584186648.61,
+   "vydaje_schvaleny": 504108000,
+   "vydaje_po_zmenach": 596024229,
+   "vydaje_skutecnost_kons": 539545096.96
+  },
+  "2016": {
+   "prijmy_schvaleny": 462022000,
+   "prijmy_po_zmenach": 483678615,
+   "prijmy_skutecnost_kons": 537109594.8,
+   "vydaje_schvaleny": 476244000,
+   "vydaje_po_zmenach": 555985871,
+   "vydaje_skutecnost_kons": 468293406.4
+  },
+  "2017": {
+   "prijmy_schvaleny": 482065877,
+   "prijmy_po_zmenach": 501792877,
+   "prijmy_skutecnost_kons": 561748359.3,
+   "vydaje_schvaleny": 584119130,
+   "vydaje_po_zmenach": 665728427,
+   "vydaje_skutecnost_kons": 499036783.08
+  },
+  "2018": {
+   "prijmy_schvaleny": 613907400,
+   "prijmy_po_zmenach": 650948078,
+   "prijmy_skutecnost_kons": 646376125.01,
+   "vydaje_schvaleny": 810455300,
+   "vydaje_po_zmenach": 931658772,
+   "vydaje_skutecnost_kons": 687951878.67
+  },
+  "2019": {
+   "prijmy_schvaleny": 669556000,
+   "prijmy_po_zmenach": 704086656,
+   "prijmy_skutecnost_kons": 709005728.15,
+   "vydaje_schvaleny": 827805000,
+   "vydaje_po_zmenach": 891226431,
+   "vydaje_skutecnost_kons": 688367153.55
+  },
+  "2020": {
+   "prijmy_schvaleny": 630256700,
+   "prijmy_po_zmenach": 640870347,
+   "prijmy_skutecnost_kons": 651913014.51,
+   "vydaje_schvaleny": 824803000,
+   "vydaje_po_zmenach": 868942033,
+   "vydaje_skutecnost_kons": 692814954.6
+  },
+  "2021": {
+   "prijmy_schvaleny": 563021400,
+   "prijmy_po_zmenach": 627934176,
+   "prijmy_skutecnost_kons": 712032829.06,
+   "vydaje_schvaleny": 721242800,
+   "vydaje_po_zmenach": 817539386,
+   "vydaje_skutecnost_kons": 709260077.62
+  },
+  "2022": {
+   "prijmy_schvaleny": 622066400,
+   "prijmy_po_zmenach": 617598165,
+   "prijmy_skutecnost_kons": 727755843.07,
+   "vydaje_schvaleny": 790577000,
+   "vydaje_po_zmenach": 877343966,
+   "vydaje_skutecnost_kons": 740771189.5
+  },
+  "2023": {
+   "prijmy_schvaleny": 673778000,
+   "prijmy_po_zmenach": 715856329.93,
+   "prijmy_skutecnost_kons": 831043154.89,
+   "vydaje_schvaleny": 799729000,
+   "vydaje_po_zmenach": 953526840.42,
+   "vydaje_skutecnost_kons": 781237772.74
+  },
+  "2024": {
+   "prijmy_schvaleny": 848583111,
+   "prijmy_po_zmenach": 867639713.7,
+   "prijmy_skutecnost_kons": 954467444.47,
+   "vydaje_schvaleny": 1121615527,
+   "vydaje_po_zmenach": 1180661268.23,
+   "vydaje_skutecnost_kons": 933707707.92
+  },
+  "2025": {
+   "prijmy_schvaleny": 914746594,
+   "prijmy_po_zmenach": 941235992.41,
+   "prijmy_skutecnost_kons": 1003369035.77,
+   "vydaje_schvaleny": 1194299646,
+   "vydaje_po_zmenach": 1348588090.27,
+   "vydaje_skutecnost_kons": 1082275065.54
+  },
+  "2026-08": {
+   "prijmy_schvaleny": 995899000,
+   "prijmy_po_zmenach": 1040017311.23,
+   "prijmy_skutecnost_kons": 738241745.16,
+   "vydaje_schvaleny": 1280498000,
+   "vydaje_po_zmenach": 1465975256.09,
+   "vydaje_skutecnost_kons": 756480614.5
+  }
+ }
+}

@@ -12,6 +12,7 @@
 | `python -m integrace vr` | ARES-VR | `vr_subjekt`, `vr_angazma` | SHA-256 odpovědi | 9 dotazů |
 | `python -m integrace smlouvy --verze-soubor F` | Registr smluv (XML verze) | `rs_verze` | verze jsou neměnné, stahuje se jen chybějící `idVerze` | 1 dotaz / 2 s |
 | `python -m integrace dotace --allow-undocumented` | MONITOR Registr dotací (**nedokumentované API**) | `dotace_uzemni`, `dotace_statni` | přepis podle klíče | ~4 dotazy |
+| `python -m integrace dokumenty --seznam data/integrace/dokumenty_seznam.txt --texty raw/texty` | dokumenty města (PDF/HTML/ZIP) | `dokument_text` + `raw/texty/<sha256>/p<N>.txt`, `meta.json` | podmíněné stahování; stejný SHA-256 = beze změny | 158 URL, 1 dotaz / 2 s |
 | `python -m integrace stav` | evidence | `sync_run`, `sync_ledger` | – | – |
 
 - Používá jen standardní knihovnu Pythonu 3.10+, žádné závislosti.

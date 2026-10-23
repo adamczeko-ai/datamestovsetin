@@ -1,0 +1,4002 @@
+{
+ "schema": "vsetin-osint/zakazky-nipez@1",
+ "zdroj": "ISVZ – nová open data RVZ (https://isvz.nipez.cz/opendata/nova), soubory VZ-2024_rocni a VZ-01-2025 … VZ-09-2026",
+ "vytezeno": "2026-10-23 07:15–07:50 SELČ (prohlížeč, proudové zpracování)",
+ "kriterium": "IČO okruhu města kdekoli v záznamu; deduplikace podle identifikator_NIPEZ (nejnovější casova_znacka)",
+ "souhrn": {
+  "zakazek": 83,
+  "mesto_nebo_po_jako_zadavatel": 53,
+  "mestska_firma_jako_dodavatel": 28,
+  "dodavatelske_vyskyty": {
+   "26782596 Technické služby Vsetín, s.r.o.": 25,
+   "47972114 Dům kultury Vsetín": 3,
+   "19690711 DN Vsetín s.r.o.": 3
+  },
+  "soutez_mesto": {
+   "zakazek_OR_ZPR": 45,
+   "s_udajem_o_nabidkach": 40,
+   "jedna_nabidka": 9,
+   "jedna_nabidka_id": [
+    "RVZ2600072450 STAVEBNÍ ÚPRAVY STŘECHY NAD KINEM VATRA,",
+    "RVZ2600003136 VÁNOČNÍ OSVĚTLENÍ – DODÁVKA A MONTÁŽ",
+    "RVZ2500056564 INTERIÉR MASARYKOVY VEŘEJNÉ KNIHOVNY A T",
+    "RVZ2500113691 IT VYBAVENÍ MASARYKOVY VEŘEJNÉ KNIHOVNY ",
+    "RVZ2500091748 IT VYBAVENÍ MASARYKOVY VEŘEJNÉ KNIHOVNY ",
+    "RVZ2500084982 DOHLEDOVÝ SYSTÉM PRO MĚSTO VSETÍN 2025",
+    "RVZ2500091028 REVITALIZACE DOLNÍHO NÁMĚSTÍ VE VSETÍNĚ ",
+    "RVZ2500076728 DODÁVKA HW, SW A SLUŽEB PRO ZABEZPEČENÍ ",
+    "RVZ2500084981 ZAJIŠTĚNÍ, VÝROBA A ODBAVENÍ TELEVIZNÍHO"
+   ],
+   "median_nabidek": 3
+  }
+ },
+ "omezeni": [
+  "Název zakázky zkrácen na 55 znaků; u zakázky RVZ2600120973 přeneseny 4 z 11 smluv.",
+  "Cena bez DPH je hodnota smlouvy dle RVZ; u rámcových/jednotkových smluv může jít o jednotkovou cenu (např. 407 Kč, 89,21 Kč).",
+  "Smlouvy uzavřené společně více zadavateli (např. Přednádražní prostor) se mohou opakovat – nesčítat.",
+  "Dodavatel bez IČO v záznamu (CAS město Vsetín) – identita neověřena.",
+  "IČO 46186123 (dodavatel u Dětské skupiny „DOMEČEK“) v ARES neexistuje (404).",
+  "pocet_ucastniku ve smlouvách = počet účastníků uvedených v záznamu (obvykle jen vybraný dodavatel). Počet nabídek viz pole nabidky_casti (RVZ: podane_nabidky_nebo_zadosti_o_ucast) a pocet_nabidek_odhad = max(celkový počet, podané elektronicky)."
+ ],
+ "zakazky": [
+  {
+   "id": "RVZ2600120973",
+   "posledni_verze": "2026-09-03",
+   "role_okruhu_mesta": [
+    "ucastnik",
+    "dodavatel"
+   ],
+   "druh": "Služby",
+   "rezim": "VZMR",
+   "stav": "Dokončen/Zadán",
+   "zahajeni": "2023-04-18",
+   "zadavatele": [
+    {
+     "ico": "62334743",
+     "role": "Hlavní",
+     "nazev": "Sdružení obcí Hornolidečska"
+    },
+    {
+     "ico": "00000000",
+     "role": "Člen s",
+     "nazev": null
+    }
+   ],
+   "nazev_zkraceny": "„SVOZ, RECYKLACE A LIKVIDACE KOMUNÁLNÍHO ODPADU V ČLENS",
+   "smlouvy": [
+    {
+     "datum_uzavreni": "2023-09-06",
+     "cena_bez_dph": 407.0,
+     "dodavatele": [
+      {
+       "ico": "26782596",
+       "nazev": "Technické služby Vsetín, s.r.o.",
+       "pravni_forma": "112"
+      }
+     ],
+     "dodavatel_bez_ico": false,
+     "pocet_ucastniku": 2
+    },
+    {
+     "datum_uzavreni": "2023-09-08",
+     "cena_bez_dph": 407.0,
+     "dodavatele": [
+      {
+       "ico": "26782596",
+       "nazev": "Technické služby Vsetín, s.r.o.",
+       "pravni_forma": "112"
+      }
+     ],
+     "dodavatel_bez_ico": false,
+     "pocet_ucastniku": 1
+    },
+    {
+     "datum_uzavreni": "2023-09-06",
+     "cena_bez_dph": 407.0,
+     "dodavatele": [
+      {
+       "ico": "26782596",
+       "nazev": "Technické služby Vsetín, s.r.o.",
+       "pravni_forma": "112"
+      }
+     ],
+     "dodavatel_bez_ico": false,
+     "pocet_ucastniku": 1
+    },
+    {
+     "datum_uzavreni": "2023-09-06",
+     "cena_bez_dph": 407.0,
+     "dodavatele": [
+      {
+       "ico": "26782596",
+       "nazev": "Technické služby Vsetín, s.r.o.",
+       "pravni_forma": "112"
+      }
+     ],
+     "dodavatel_bez_ico": false,
+     "pocet_ucastniku": 1
+    }
+   ],
+   "dalsich_smluv_neprenseno": 7,
+   "predpokladana_hodnota_bez_dph": null,
+   "druh_rizeni": "Otevřené řízení",
+   "nabidky_casti": [
+    {
+     "celkem_nabidek": 1,
+     "elektronicky": 0,
+     "vyloucenych": null,
+     "zadosti_o_ucast": 0
+    },
+    {
+     "celkem_nabidek": 0,
+     "elektronicky": 0,
+     "vyloucenych": null,
+     "zadosti_o_ucast": 0
+    },
+    {
+     "celkem_nabidek": 0,
+     "elektronicky": 0,
+     "vyloucenych": null,
+     "zadosti_o_ucast": 0
+    }
+   ],
+   "dalsich_casti": 8,
+   "pocet_nabidek_odhad": 1
+  },
+  {
+   "id": "RVZ2600143078",
+   "posledni_verze": "2026-09-05",
+   "role_okruhu_mesta": [
+    "ucastnik",
+    "dodavatel"
+   ],
+   "druh": "Služby",
+   "rezim": null,
+   "stav": "Dokončen/Zadán",
+   "zahajeni": "2019-07-04",
+   "zadavatele": [
+    {
+     "ico": "00303968",
+     "role": null,
+     "nazev": "Obec Lačnov"
+    }
+   ],
+   "nazev_zkraceny": "SVOZ, RECYKLACE A LIKVIDACE KOMUNÁLNÍHO ODPADU V ČLENSK",
+   "smlouvy": [
+    {
+     "datum_uzavreni": "2019-09-16",
+     "cena_bez_dph": 1492000.0,
+     "dodavatele": [
+      {
+       "ico": "26782596",
+       "nazev": "Technické služby Vsetín, s.r.o.",
+       "pravni_forma": "112"
+      }
+     ],
+     "dodavatel_bez_ico": false,
+     "pocet_ucastniku": 1
+    }
+   ],
+   "dalsich_smluv_neprenseno": 0,
+   "predpokladana_hodnota_bez_dph": null,
+   "druh_rizeni": "Otevřené řízení",
+   "nabidky_casti": [],
+   "dalsich_casti": 0,
+   "pocet_nabidek_odhad": null
+  },
+  {
+   "id": "RVZ2600177587",
+   "posledni_verze": "2026-09-10",
+   "role_okruhu_mesta": [
+    "ucastnik",
+    "dodavatel"
+   ],
+   "druh": "Služby",
+   "rezim": null,
+   "stav": "Ukončeno plnění smlo",
+   "zahajeni": "2019-07-04",
+   "zadavatele": [
+    {
+     "ico": "00303984",
+     "role": null,
+     "nazev": "Obec Leskovec"
+    }
+   ],
+   "nazev_zkraceny": "SVOZ, RECYKLACE A LIKVIDACE KOMUNÁLNÍHO ODPADU V ČLENSK",
+   "smlouvy": [
+    {
+     "datum_uzavreni": "2019-09-16",
+     "cena_bez_dph": 1564000.0,
+     "dodavatele": [
+      {
+       "ico": "26782596",
+       "nazev": "Technické služby Vsetín, s.r.o.",
+       "pravni_forma": "112"
+      }
+     ],
+     "dodavatel_bez_ico": false,
+     "pocet_ucastniku": 1
+    }
+   ],
+   "dalsich_smluv_neprenseno": 0,
+   "predpokladana_hodnota_bez_dph": null,
+   "druh_rizeni": "Otevřené řízení",
+   "nabidky_casti": [],
+   "dalsich_casti": 0,
+   "pocet_nabidek_odhad": null
+  },
+  {
+   "id": "RVZ2600118314",
+   "posledni_verze": "2026-08-20",
+   "role_okruhu_mesta": [
+    "zadavatel"
+   ],
+   "druh": "Služby",
+   "rezim": "Nadlimitní",
+   "stav": null,
+   "zahajeni": "2026-08-19",
+   "zadavatele": [
+    {
+     "ico": "00304450",
+     "role": null,
+     "nazev": "Město Vsetín"
+    }
+   ],
+   "nazev_zkraceny": "POJIŠTĚNÍ MAJETKU MĚSTA VSETÍN VČETNĚ ZŘÍZENÝCH PŘÍSPĚV",
+   "smlouvy": [],
+   "dalsich_smluv_neprenseno": 0,
+   "predpokladana_hodnota_bez_dph": 6500000.0,
+   "druh_rizeni": "Otevřené řízení",
+   "nabidky_casti": [],
+   "dalsich_casti": 0,
+   "pocet_nabidek_odhad": null
+  },
+  {
+   "id": "RVZ2600107582",
+   "posledni_verze": "2026-07-29",
+   "role_okruhu_mesta": [
+    "zadavatel"
+   ],
+   "druh": "Služby",
+   "rezim": "Nadlimitní",
+   "stav": null,
+   "zahajeni": "2026-07-01",
+   "zadavatele": [
+    {
+     "ico": "00304450",
+     "role": null,
+     "nazev": "Město Vsetín"
+    }
+   ],
+   "nazev_zkraceny": "PROVOZOVÁNÍ SLUŽBY SENIOR TAXI II",
+   "smlouvy": [],
+   "dalsich_smluv_neprenseno": 0,
+   "predpokladana_hodnota_bez_dph": 3000000.0,
+   "druh_rizeni": "Otevřené řízení",
+   "nabidky_casti": [
+    {
+     "celkem_nabidek": 0,
+     "elektronicky": 0,
+     "vyloucenych": 0,
+     "zadosti_o_ucast": 0
+    }
+   ],
+   "dalsich_casti": 0,
+   "pocet_nabidek_odhad": 0
+  },
+  {
+   "id": "RVZ2600113002",
+   "posledni_verze": "2026-07-28",
+   "role_okruhu_mesta": [
+    "zadavatel"
+   ],
+   "druh": "Stavební práce",
+   "rezim": "Podlimitní",
+   "stav": null,
+   "zahajeni": null,
+   "zadavatele": [
+    {
+     "ico": "60990457",
+     "role": null,
+     "nazev": "Základní škola Vsetín, Rokytnice 436, příspěvková organizace"
+    }
+   ],
+   "nazev_zkraceny": "MODERNIZACE SPORTOVIŠTĚ ZŠ VSETÍN, ROKYTNICE 436",
+   "smlouvy": [
+    {
+     "datum_uzavreni": "2026-07-09",
+     "cena_bez_dph": 13716266.26,
+     "dodavatele": [
+      {
+       "ico": "73257958",
+       "nazev": "Martin Urban",
+       "pravni_forma": "107"
+      }
+     ],
+     "dodavatel_bez_ico": false,
+     "pocet_ucastniku": 1
+    }
+   ],
+   "dalsich_smluv_neprenseno": 0,
+   "predpokladana_hodnota_bez_dph": 15000000.0,
+   "druh_rizeni": "Zjednodušené podlimitní řízení",
+   "nabidky_casti": [
+    {
+     "celkem_nabidek": 4,
+     "elektronicky": 4,
+     "vyloucenych": 0,
+     "zadosti_o_ucast": 4
+    }
+   ],
+   "dalsich_casti": 0,
+   "pocet_nabidek_odhad": 4
+  },
+  {
+   "id": "RVZ2600110987",
+   "posledni_verze": "2026-07-17",
+   "role_okruhu_mesta": [
+    "zadavatel"
+   ],
+   "druh": "Stavební práce",
+   "rezim": "Podlimitní",
+   "stav": null,
+   "zahajeni": null,
+   "zadavatele": [
+    {
+     "ico": "00304450",
+     "role": null,
+     "nazev": "Město Vsetín"
+    }
+   ],
+   "nazev_zkraceny": "OPRAVA LÁVKY PŘES VSETÍNSKOU BEČVU VE VSETÍNĚ (LÁZKÁCH)",
+   "smlouvy": [
+    {
+     "datum_uzavreni": "2026-06-23",
+     "cena_bez_dph": 9440000.0,
+     "dodavatele": [
+      {
+       "ico": "26944022",
+       "nazev": "Mitrenga-stavby, spol. s r.o.",
+       "pravni_forma": "112"
+      }
+     ],
+     "dodavatel_bez_ico": false,
+     "pocet_ucastniku": 1
+    }
+   ],
+   "dalsich_smluv_neprenseno": 0,
+   "predpokladana_hodnota_bez_dph": 12000000.0,
+   "druh_rizeni": "Zjednodušené podlimitní řízení",
+   "nabidky_casti": [
+    {
+     "celkem_nabidek": 2,
+     "elektronicky": 2,
+     "vyloucenych": 0,
+     "zadosti_o_ucast": 2
+    }
+   ],
+   "dalsich_casti": 0,
+   "pocet_nabidek_odhad": 2
+  },
+  {
+   "id": "RVZ2600099698",
+   "posledni_verze": "2026-06-05",
+   "role_okruhu_mesta": [
+    "zadavatel"
+   ],
+   "druh": "Stavební práce",
+   "rezim": "Podlimitní",
+   "stav": null,
+   "zahajeni": null,
+   "zadavatele": [
+    {
+     "ico": "00304450",
+     "role": null,
+     "nazev": "Město Vsetín"
+    }
+   ],
+   "nazev_zkraceny": "STAVEBNÍ ÚPRAVY STŘECH A FOTOVOLTAICKÁ ELEKTRÁRNA NA BU",
+   "smlouvy": [
+    {
+     "datum_uzavreni": "2026-05-18",
+     "cena_bez_dph": 26407000.0,
+     "dodavatele": [
+      {
+       "ico": "25835661",
+       "nazev": "H  & B delta, s.r.o.",
+       "pravni_forma": "112"
+      }
+     ],
+     "dodavatel_bez_ico": false,
+     "pocet_ucastniku": 1
+    }
+   ],
+   "dalsich_smluv_neprenseno": 0,
+   "predpokladana_hodnota_bez_dph": 31000000.0,
+   "druh_rizeni": "Zjednodušené podlimitní řízení",
+   "nabidky_casti": [
+    {
+     "celkem_nabidek": 2,
+     "elektronicky": 2,
+     "vyloucenych": 0,
+     "zadosti_o_ucast": 2
+    }
+   ],
+   "dalsich_casti": 0,
+   "pocet_nabidek_odhad": 2
+  },
+  {
+   "id": "RVZ2600052718",
+   "posledni_verze": "2026-05-22",
+   "role_okruhu_mesta": [
+    "zadavatel"
+   ],
+   "druh": "Stavební práce",
+   "rezim": "Nadlimitní",
+   "stav": null,
+   "zahajeni": "2026-02-06",
+   "zadavatele": [
+    {
+     "ico": "00304450",
+     "role": null,
+     "nazev": "Město Vsetín"
+    }
+   ],
+   "nazev_zkraceny": "STAVEBNÍ ÚPRAVY MASARYKOVY VEŘEJNÉ KNIHOVNY VSETÍN POBO",
+   "smlouvy": [
+    {
+     "datum_uzavreni": "2026-04-21",
+     "cena_bez_dph": 13263994.0,
+     "dodavatele": [
+      {
+       "ico": "29451124",
+       "nazev": "OBA-MONT s.r.o.",
+       "pravni_forma": "112"
+      }
+     ],
+     "dodavatel_bez_ico": false,
+     "pocet_ucastniku": 1
+    }
+   ],
+   "dalsich_smluv_neprenseno": 0,
+   "predpokladana_hodnota_bez_dph": 15600000.0,
+   "druh_rizeni": "Otevřené řízení",
+   "nabidky_casti": [
+    {
+     "celkem_nabidek": 3,
+     "elektronicky": 3,
+     "vyloucenych": 0,
+     "zadosti_o_ucast": 3
+    }
+   ],
+   "dalsich_casti": 0,
+   "pocet_nabidek_odhad": 3
+  },
+  {
+   "id": "RVZ2500055473",
+   "posledni_verze": "2026-05-22",
+   "role_okruhu_mesta": [
+    "zadavatel"
+   ],
+   "druh": "Stavební práce",
+   "rezim": "Nadlimitní",
+   "stav": null,
+   "zahajeni": null,
+   "zadavatele": [
+    {
+     "ico": "00304450",
+     "role": "Hlavní",
+     "nazev": "Město Vsetín"
+    },
+    {
+     "ico": "70934860",
+     "role": "Člen s",
+     "nazev": "Ředitelství silnic Zlínského kraje,příspěvková organizace"
+    }
+   ],
+   "nazev_zkraceny": "Přednádražní prostor - I.B etapa - Vsetín",
+   "smlouvy": [
+    {
+     "datum_uzavreni": "2024-05-02",
+     "cena_bez_dph": 154483954.94,
+     "dodavatele": [
+      {
+       "ico": "45274924",
+       "nazev": "EUROVIA CZ a.s.",
+       "pravni_forma": "121"
+      },
+      {
+       "ico": "42339839",
+       "nazev": "SMO a.s.",
+       "pravni_forma": "121"
+      },
+      {
+       "ico": "42340802",
+       "nazev": "KKS, spol. s r.o.",
+       "pravni_forma": "112"
+      }
+     ],
+     "dodavatel_bez_ico": false,
+     "pocet_ucastniku": 1
+    },
+    {
+     "datum_uzavreni": "2024-04-15",
+     "cena_bez_dph": 154483954.94,
+     "dodavatele": [
+      {
+       "ico": "45274924",
+       "nazev": "EUROVIA CZ a.s.",
+       "pravni_forma": "121"
+      },
+      {
+       "ico": "42339839",
+       "nazev": "SMO a.s.",
+       "pravni_forma": "121"
+      },
+      {
+       "ico": "42340802",
+       "nazev": "KKS, spol. s r.o.",
+       "pravni_forma": "112"
+      }
+     ],
+     "dodavatel_bez_ico": false,
+     "pocet_ucastniku": 1
+    }
+   ],
+   "dalsich_smluv_neprenseno": 0,
+   "predpokladana_hodnota_bez_dph": 257565000.0,
+   "druh_rizeni": "Otevřené řízení",
+   "nabidky_casti": [
+    {
+     "celkem_nabidek": null,
+     "elektronicky": 7,
+     "vyloucenych": null,
+     "zadosti_o_ucast": null
+    }
+   ],
+   "dalsich_casti": 0,
+   "pocet_nabidek_odhad": 7
+  },
+  {
+   "id": "RVZ2500228673",
+   "posledni_verze": "2026-05-22",
+   "role_okruhu_mesta": [
+    "zadavatel"
+   ],
+   "druh": "Dodávky",
+   "rezim": "Nadlimitní",
+   "stav": null,
+   "zahajeni": "2025-12-30",
+   "zadavatele": [
+    {
+     "ico": "00304450",
+     "role": null,
+     "nazev": "Město Vsetín"
+    }
+   ],
+   "nazev_zkraceny": "INTERIÉR MASARYKOVY VEŘEJNÉ KNIHOVNY VSETÍN POBOČKA ROK",
+   "smlouvy": [
+    {
+     "datum_uzavreni": "2026-05-12",
+     "cena_bez_dph": 4526106.84,
+     "dodavatele": [
+      {
+       "ico": "25864068",
+       "nazev": "ZK Design a.s.",
+       "pravni_forma": "121"
+      }
+     ],
+     "dodavatel_bez_ico": false,
+     "pocet_ucastniku": 1
+    }
+   ],
+   "dalsich_smluv_neprenseno": 0,
+   "predpokladana_hodnota_bez_dph": 7000000.0,
+   "druh_rizeni": "Otevřené řízení",
+   "nabidky_casti": [
+    {
+     "celkem_nabidek": 5,
+     "elektronicky": 5,
+     "vyloucenych": 0,
+     "zadosti_o_ucast": 5
+    }
+   ],
+   "dalsich_casti": 0,
+   "pocet_nabidek_odhad": 5
+  },
+  {
+   "id": "RVZ2400190744",
+   "posledni_verze": "2026-04-15",
+   "role_okruhu_mesta": [
+    "zadavatel"
+   ],
+   "druh": "Dodávky",
+   "rezim": "VZMR",
+   "stav": "Dokončen/Zadán",
+   "zahajeni": "2024-11-12",
+   "zadavatele": [
+    {
+     "ico": "00304450",
+     "role": "Bez sp",
+     "nazev": "Město Vsetín"
+    }
+   ],
+   "nazev_zkraceny": "CAS město Vsetín",
+   "smlouvy": [
+    {
+     "datum_uzavreni": "2024-11-18",
+     "cena_bez_dph": 8677590.0,
+     "dodavatele": [],
+     "dodavatel_bez_ico": true,
+     "pocet_ucastniku": 2
+    }
+   ],
+   "dalsich_smluv_neprenseno": 0,
+   "predpokladana_hodnota_bez_dph": null,
+   "druh_rizeni": "Postup bez o",
+   "nabidky_casti": [
+    {
+     "celkem_nabidek": 1,
+     "elektronicky": 0,
+     "vyloucenych": null,
+     "zadosti_o_ucast": 0
+    }
+   ],
+   "dalsich_casti": 0,
+   "pocet_nabidek_odhad": 1
+  },
+  {
+   "id": "RVZ2600074203",
+   "posledni_verze": "2026-04-10",
+   "role_okruhu_mesta": [
+    "ucastnik",
+    "dodavatel"
+   ],
+   "druh": "Služby",
+   "rezim": "VZMR",
+   "stav": "Dokončen/Zadán",
+   "zahajeni": "2026-03-03",
+   "zadavatele": [
+    {
+     "ico": "72052767",
+     "role": "Bez sp",
+     "nazev": "Krajské ředitelství policie Zlínského kraje"
+    }
+   ],
+   "nazev_zkraceny": "Smlouva o odvozu a odstranění komunálního a tříděného o",
+   "smlouvy": [
+    {
+     "datum_uzavreni": "2026-03-20",
+     "cena_bez_dph": 198347.11,
+     "dodavatele": [
+      {
+       "ico": "26782596",
+       "nazev": "Technické služby Vsetín, s.r.o.",
+       "pravni_forma": "112"
+      }
+     ],
+     "dodavatel_bez_ico": false,
+     "pocet_ucastniku": 1
+    }
+   ],
+   "dalsich_smluv_neprenseno": 0,
+   "predpokladana_hodnota_bez_dph": null,
+   "druh_rizeni": "Přímé zadání",
+   "nabidky_casti": [
+    {
+     "celkem_nabidek": 1,
+     "elektronicky": 0,
+     "vyloucenych": null,
+     "zadosti_o_ucast": 0
+    }
+   ],
+   "dalsich_casti": 0,
+   "pocet_nabidek_odhad": 1
+  },
+  {
+   "id": "RVZ2500140292",
+   "posledni_verze": "2026-04-17",
+   "role_okruhu_mesta": [
+    "ucastnik",
+    "dodavatel"
+   ],
+   "druh": "Služby",
+   "rezim": "VZMR",
+   "stav": "Dokončen/Zadán",
+   "zahajeni": "2019-07-04",
+   "zadavatele": [
+    {
+     "ico": "00851825",
+     "role": "Bez sp",
+     "nazev": "Obec Ústí"
+    }
+   ],
+   "nazev_zkraceny": "SVOZ, RECYKLACE A LIKVIDACE KOMUNÁLNÍHO ODPADU V ČLENSK",
+   "smlouvy": [
+    {
+     "datum_uzavreni": null,
+     "cena_bez_dph": 1408000.0,
+     "dodavatele": [
+      {
+       "ico": "26782596",
+       "nazev": "Technické služby Vsetín, s.r.o.",
+       "pravni_forma": "112"
+      }
+     ],
+     "dodavatel_bez_ico": false,
+     "pocet_ucastniku": 1
+    }
+   ],
+   "dalsich_smluv_neprenseno": 0,
+   "predpokladana_hodnota_bez_dph": null,
+   "druh_rizeni": "Otevřené řízení",
+   "nabidky_casti": [
+    {
+     "celkem_nabidek": 1,
+     "elektronicky": 0,
+     "vyloucenych": null,
+     "zadosti_o_ucast": 0
+    }
+   ],
+   "dalsich_casti": 0,
+   "pocet_nabidek_odhad": 1
+  },
+  {
+   "id": "RVZ2400050845",
+   "posledni_verze": "2026-04-19",
+   "role_okruhu_mesta": [
+    "ucastnik"
+   ],
+   "druh": "Služby",
+   "rezim": "VZMR",
+   "stav": "Ukončeno plnění smlo",
+   "zahajeni": "2019-07-23",
+   "zadavatele": [
+    {
+     "ico": "72052767",
+     "role": "Bez sp",
+     "nazev": "Krajské ředitelství policie Zlínského kraje"
+    }
+   ],
+   "nazev_zkraceny": "Smlouva o odvozu a odstranění komunálního a tříděného o",
+   "smlouvy": [
+    {
+     "datum_uzavreni": "2019-08-20",
+     "cena_bez_dph": 140496.0,
+     "dodavatele": [
+      {
+       "ico": "26230330",
+       "nazev": "JOGA RECYCLING s.r.o.",
+       "pravni_forma": "112"
+      }
+     ],
+     "dodavatel_bez_ico": false,
+     "pocet_ucastniku": 2
+    }
+   ],
+   "dalsich_smluv_neprenseno": 0,
+   "predpokladana_hodnota_bez_dph": null,
+   "druh_rizeni": "Uzavřená výz",
+   "nabidky_casti": [
+    {
+     "celkem_nabidek": 2,
+     "elektronicky": 0,
+     "vyloucenych": null,
+     "zadosti_o_ucast": 0
+    }
+   ],
+   "dalsich_casti": 0,
+   "pocet_nabidek_odhad": 2
+  },
+  {
+   "id": "RVZ2400123301",
+   "posledni_verze": "2026-04-15",
+   "role_okruhu_mesta": [
+    "ucastnik"
+   ],
+   "druh": "Služby",
+   "rezim": "VZMR",
+   "stav": "Zrušen",
+   "zahajeni": "2023-06-19",
+   "zadavatele": [
+    {
+     "ico": "72496991",
+     "role": "Bez sp",
+     "nazev": "Úřad práce České republiky"
+    }
+   ],
+   "nazev_zkraceny": "Pronájem prostor pro Burzu práce a přehlídku středních",
+   "smlouvy": [],
+   "dalsich_smluv_neprenseno": 0,
+   "predpokladana_hodnota_bez_dph": null,
+   "druh_rizeni": "Přímé zadání",
+   "nabidky_casti": [
+    {
+     "celkem_nabidek": 1,
+     "elektronicky": 1,
+     "vyloucenych": null,
+     "zadosti_o_ucast": 0
+    }
+   ],
+   "dalsich_casti": 0,
+   "pocet_nabidek_odhad": 1
+  },
+  {
+   "id": "RVZ2400046366",
+   "posledni_verze": "2026-04-19",
+   "role_okruhu_mesta": [
+    "ucastnik",
+    "dodavatel"
+   ],
+   "druh": "Služby",
+   "rezim": "VZMR",
+   "stav": "Dokončen/Zadán",
+   "zahajeni": "2019-05-16",
+   "zadavatele": [
+    {
+     "ico": "72496991",
+     "role": "Bez sp",
+     "nazev": "Úřad práce České republiky"
+    }
+   ],
+   "nazev_zkraceny": "Pronájem prostor pro Burzu práce a přehlídku středních",
+   "smlouvy": [
+    {
+     "datum_uzavreni": "2019-06-13",
+     "cena_bez_dph": 60875.0,
+     "dodavatele": [
+      {
+       "ico": "47972114",
+       "nazev": "Dům kultury Vsetín, spol. s r. o.",
+       "pravni_forma": "112"
+      }
+     ],
+     "dodavatel_bez_ico": false,
+     "pocet_ucastniku": 1
+    }
+   ],
+   "dalsich_smluv_neprenseno": 0,
+   "predpokladana_hodnota_bez_dph": null,
+   "druh_rizeni": "Otevřená výz",
+   "nabidky_casti": [
+    {
+     "celkem_nabidek": 1,
+     "elektronicky": 1,
+     "vyloucenych": null,
+     "zadosti_o_ucast": 0
+    }
+   ],
+   "dalsich_casti": 0,
+   "pocet_nabidek_odhad": 1
+  },
+  {
+   "id": "RVZ2500227171",
+   "posledni_verze": "2026-04-18",
+   "role_okruhu_mesta": [
+    "ucastnik",
+    "dodavatel"
+   ],
+   "druh": "Služby",
+   "rezim": "VZMR",
+   "stav": "Dokončen/Zadán",
+   "zahajeni": "2025-12-01",
+   "zadavatele": [
+    {
+     "ico": "72052767",
+     "role": "Bez sp",
+     "nazev": "Krajské ředitelství policie Zlínského kraje"
+    }
+   ],
+   "nazev_zkraceny": "Smlouva o odvozu a odstranění komunálního a tříděného o",
+   "smlouvy": [
+    {
+     "datum_uzavreni": "2025-12-16",
+     "cena_bez_dph": 12396.69,
+     "dodavatele": [
+      {
+       "ico": "26782596",
+       "nazev": "Technické služby Vsetín, s.r.o.",
+       "pravni_forma": "112"
+      }
+     ],
+     "dodavatel_bez_ico": false,
+     "pocet_ucastniku": 1
+    }
+   ],
+   "dalsich_smluv_neprenseno": 0,
+   "predpokladana_hodnota_bez_dph": null,
+   "druh_rizeni": "Uzavřená výz",
+   "nabidky_casti": [
+    {
+     "celkem_nabidek": 1,
+     "elektronicky": 0,
+     "vyloucenych": null,
+     "zadosti_o_ucast": 0
+    }
+   ],
+   "dalsich_casti": 0,
+   "pocet_nabidek_odhad": 1
+  },
+  {
+   "id": "RVZ2400121637",
+   "posledni_verze": "2026-04-14",
+   "role_okruhu_mesta": [
+    "ucastnik",
+    "dodavatel"
+   ],
+   "druh": "Služby",
+   "rezim": "VZMR",
+   "stav": "Dokončen/Zadán",
+   "zahajeni": "2023-04-28",
+   "zadavatele": [
+    {
+     "ico": "72052767",
+     "role": "Bez sp",
+     "nazev": "Krajské ředitelství policie Zlínského kraje"
+    }
+   ],
+   "nazev_zkraceny": "Smlouva o odvozu a odstranění komunálního a tříděného o",
+   "smlouvy": [
+    {
+     "datum_uzavreni": "2023-05-29",
+     "cena_bez_dph": 5785.12,
+     "dodavatele": [
+      {
+       "ico": "26782596",
+       "nazev": "Technické služby Vsetín, s.r.o.",
+       "pravni_forma": "112"
+      }
+     ],
+     "dodavatel_bez_ico": false,
+     "pocet_ucastniku": 1
+    }
+   ],
+   "dalsich_smluv_neprenseno": 0,
+   "predpokladana_hodnota_bez_dph": null,
+   "druh_rizeni": "Přímé zadání",
+   "nabidky_casti": [
+    {
+     "celkem_nabidek": 0,
+     "elektronicky": 0,
+     "vyloucenych": null,
+     "zadosti_o_ucast": 0
+    }
+   ],
+   "dalsich_casti": 0,
+   "pocet_nabidek_odhad": 0
+  },
+  {
+   "id": "RVZ2400131655",
+   "posledni_verze": "2026-04-12",
+   "role_okruhu_mesta": [
+    "ucastnik",
+    "dodavatel"
+   ],
+   "druh": "Služby",
+   "rezim": "VZMR",
+   "stav": "Dokončen/Zadán",
+   "zahajeni": "2023-11-01",
+   "zadavatele": [
+    {
+     "ico": "72052767",
+     "role": "Bez sp",
+     "nazev": "Krajské ředitelství policie Zlínského kraje"
+    }
+   ],
+   "nazev_zkraceny": "Smlouva o odvozu a odstranění komunálního a tříděného o",
+   "smlouvy": [
+    {
+     "datum_uzavreni": "2023-11-23",
+     "cena_bez_dph": 198347.11,
+     "dodavatele": [
+      {
+       "ico": "26782596",
+       "nazev": "Technické služby Vsetín, s.r.o.",
+       "pravni_forma": "112"
+      }
+     ],
+     "dodavatel_bez_ico": false,
+     "pocet_ucastniku": 1
+    }
+   ],
+   "dalsich_smluv_neprenseno": 0,
+   "predpokladana_hodnota_bez_dph": null,
+   "druh_rizeni": "Přímé zadání",
+   "nabidky_casti": [
+    {
+     "celkem_nabidek": 1,
+     "elektronicky": 0,
+     "vyloucenych": null,
+     "zadosti_o_ucast": 0
+    }
+   ],
+   "dalsich_casti": 0,
+   "pocet_nabidek_odhad": 1
+  },
+  {
+   "id": "RVZ2400115155",
+   "posledni_verze": "2026-04-14",
+   "role_okruhu_mesta": [
+    "ucastnik",
+    "dodavatel"
+   ],
+   "druh": "Služby",
+   "rezim": "VZMR",
+   "stav": "Dokončen/Zadán",
+   "zahajeni": "2023-01-11",
+   "zadavatele": [
+    {
+     "ico": "72052767",
+     "role": "Bez sp",
+     "nazev": "Krajské ředitelství policie Zlínského kraje"
+    }
+   ],
+   "nazev_zkraceny": "Smlouva o odvozu a odstranění komunálního a tříděného o",
+   "smlouvy": [
+    {
+     "datum_uzavreni": "2023-01-26",
+     "cena_bez_dph": 123966.94,
+     "dodavatele": [
+      {
+       "ico": "26782596",
+       "nazev": "Technické služby Vsetín, s.r.o.",
+       "pravni_forma": "112"
+      }
+     ],
+     "dodavatel_bez_ico": false,
+     "pocet_ucastniku": 1
+    }
+   ],
+   "dalsich_smluv_neprenseno": 0,
+   "predpokladana_hodnota_bez_dph": null,
+   "druh_rizeni": "Přímé zadání",
+   "nabidky_casti": [
+    {
+     "celkem_nabidek": 0,
+     "elektronicky": 0,
+     "vyloucenych": null,
+     "zadosti_o_ucast": 0
+    }
+   ],
+   "dalsich_casti": 0,
+   "pocet_nabidek_odhad": 0
+  },
+  {
+   "id": "RVZ2400121636",
+   "posledni_verze": "2026-04-17",
+   "role_okruhu_mesta": [
+    "ucastnik",
+    "dodavatel"
+   ],
+   "druh": "Služby",
+   "rezim": "VZMR",
+   "stav": "Dokončen/Zadán",
+   "zahajeni": "2023-04-28",
+   "zadavatele": [
+    {
+     "ico": "72052767",
+     "role": "Bez sp",
+     "nazev": "Krajské ředitelství policie Zlínského kraje"
+    }
+   ],
+   "nazev_zkraceny": "Smlouva o odvozu a odstranění komunálního a tříděného o",
+   "smlouvy": [
+    {
+     "datum_uzavreni": "2023-05-29",
+     "cena_bez_dph": 2800.0,
+     "dodavatele": [
+      {
+       "ico": "26782596",
+       "nazev": "Technické služby Vsetín, s.r.o.",
+       "pravni_forma": "112"
+      }
+     ],
+     "dodavatel_bez_ico": false,
+     "pocet_ucastniku": 1
+    }
+   ],
+   "dalsich_smluv_neprenseno": 0,
+   "predpokladana_hodnota_bez_dph": null,
+   "druh_rizeni": "Přímé zadání",
+   "nabidky_casti": [
+    {
+     "celkem_nabidek": 0,
+     "elektronicky": 0,
+     "vyloucenych": null,
+     "zadosti_o_ucast": 0
+    }
+   ],
+   "dalsich_casti": 0,
+   "pocet_nabidek_odhad": 0
+  },
+  {
+   "id": "RVZ2400127041",
+   "posledni_verze": "2026-04-12",
+   "role_okruhu_mesta": [
+    "ucastnik",
+    "dodavatel"
+   ],
+   "druh": "Služby",
+   "rezim": "VZMR",
+   "stav": "Dokončen/Zadán",
+   "zahajeni": "2023-08-18",
+   "zadavatele": [
+    {
+     "ico": "72052767",
+     "role": "Bez sp",
+     "nazev": "Krajské ředitelství policie Zlínského kraje"
+    }
+   ],
+   "nazev_zkraceny": "Smlouva o odvozu a odstranění komunálního odpadu - OOP",
+   "smlouvy": [
+    {
+     "datum_uzavreni": "2023-09-18",
+     "cena_bez_dph": 4132.23,
+     "dodavatele": [
+      {
+       "ico": "26782596",
+       "nazev": "Technické služby Vsetín, s.r.o.",
+       "pravni_forma": "112"
+      }
+     ],
+     "dodavatel_bez_ico": false,
+     "pocet_ucastniku": 1
+    }
+   ],
+   "dalsich_smluv_neprenseno": 0,
+   "predpokladana_hodnota_bez_dph": null,
+   "druh_rizeni": "Uzavřená výz",
+   "nabidky_casti": [
+    {
+     "celkem_nabidek": 1,
+     "elektronicky": 0,
+     "vyloucenych": null,
+     "zadosti_o_ucast": 0
+    }
+   ],
+   "dalsich_casti": 0,
+   "pocet_nabidek_odhad": 1
+  },
+  {
+   "id": "RVZ2400124462",
+   "posledni_verze": "2026-04-14",
+   "role_okruhu_mesta": [
+    "ucastnik",
+    "dodavatel"
+   ],
+   "druh": "Služby",
+   "rezim": "VZMR",
+   "stav": "Dokončen/Zadán",
+   "zahajeni": "2023-07-11",
+   "zadavatele": [
+    {
+     "ico": "72496991",
+     "role": "Bez sp",
+     "nazev": "Úřad práce České republiky"
+    }
+   ],
+   "nazev_zkraceny": "Pronájem prostor pro Burzu práce a přehlídku středních",
+   "smlouvy": [
+    {
+     "datum_uzavreni": "2023-08-07",
+     "cena_bez_dph": 99710.5,
+     "dodavatele": [
+      {
+       "ico": "47972114",
+       "nazev": "Dům kultury Vsetín, spol. s r. o.",
+       "pravni_forma": "112"
+      }
+     ],
+     "dodavatel_bez_ico": false,
+     "pocet_ucastniku": 1
+    }
+   ],
+   "dalsich_smluv_neprenseno": 0,
+   "predpokladana_hodnota_bez_dph": null,
+   "druh_rizeni": "Přímé zadání",
+   "nabidky_casti": [
+    {
+     "celkem_nabidek": 1,
+     "elektronicky": 1,
+     "vyloucenych": null,
+     "zadosti_o_ucast": 0
+    }
+   ],
+   "dalsich_casti": 0,
+   "pocet_nabidek_odhad": 1
+  },
+  {
+   "id": "RVZ2500000433",
+   "posledni_verze": "2026-04-16",
+   "role_okruhu_mesta": [
+    "ucastnik",
+    "dodavatel"
+   ],
+   "druh": "Služby",
+   "rezim": "VZMR",
+   "stav": "Dokončen/Zadán",
+   "zahajeni": "2023-11-02",
+   "zadavatele": [
+    {
+     "ico": "72052767",
+     "role": "Bez sp",
+     "nazev": "Krajské ředitelství policie Zlínského kraje"
+    }
+   ],
+   "nazev_zkraceny": "Smlouva o odvozu a odstranění komunálního a tříděného o",
+   "smlouvy": [
+    {
+     "datum_uzavreni": "2023-12-06",
+     "cena_bez_dph": 22314.05,
+     "dodavatele": [
+      {
+       "ico": "26782596",
+       "nazev": "Technické služby Vsetín, s.r.o.",
+       "pravni_forma": "112"
+      }
+     ],
+     "dodavatel_bez_ico": false,
+     "pocet_ucastniku": 1
+    }
+   ],
+   "dalsich_smluv_neprenseno": 0,
+   "predpokladana_hodnota_bez_dph": null,
+   "druh_rizeni": "Přímé zadání",
+   "nabidky_casti": [
+    {
+     "celkem_nabidek": 1,
+     "elektronicky": 0,
+     "vyloucenych": null,
+     "zadosti_o_ucast": 0
+    }
+   ],
+   "dalsich_casti": 0,
+   "pocet_nabidek_odhad": 1
+  },
+  {
+   "id": "RVZ2500141589",
+   "posledni_verze": "2026-04-17",
+   "role_okruhu_mesta": [
+    "ucastnik",
+    "dodavatel"
+   ],
+   "druh": "Služby",
+   "rezim": "VZMR",
+   "stav": "Dokončen/Zadán",
+   "zahajeni": "2023-09-14",
+   "zadavatele": [
+    {
+     "ico": "00851825",
+     "role": "Bez sp",
+     "nazev": "Obec Ústí"
+    }
+   ],
+   "nazev_zkraceny": "SVOZ, RECYKLACE A LIKVIDACE KOMUNÁLNÍHO ODPADU V ČLENSK",
+   "smlouvy": [
+    {
+     "datum_uzavreni": null,
+     "cena_bez_dph": 33000000.0,
+     "dodavatele": [
+      {
+       "ico": "26782596",
+       "nazev": "Technické služby Vsetín, s.r.o.",
+       "pravni_forma": "112"
+      }
+     ],
+     "dodavatel_bez_ico": false,
+     "pocet_ucastniku": 1
+    }
+   ],
+   "dalsich_smluv_neprenseno": 0,
+   "predpokladana_hodnota_bez_dph": null,
+   "druh_rizeni": "Otevřené řízení",
+   "nabidky_casti": [
+    {
+     "celkem_nabidek": 1,
+     "elektronicky": 0,
+     "vyloucenych": null,
+     "zadosti_o_ucast": 0
+    }
+   ],
+   "dalsich_casti": 0,
+   "pocet_nabidek_odhad": 1
+  },
+  {
+   "id": "RVZ2400131530",
+   "posledni_verze": "2026-04-17",
+   "role_okruhu_mesta": [
+    "ucastnik",
+    "dodavatel"
+   ],
+   "druh": "Služby",
+   "rezim": "VZMR",
+   "stav": "Dokončen/Zadán",
+   "zahajeni": "2023-11-02",
+   "zadavatele": [
+    {
+     "ico": "72052767",
+     "role": "Bez sp",
+     "nazev": "Krajské ředitelství policie Zlínského kraje"
+    }
+   ],
+   "nazev_zkraceny": "Smlouva o odvozu a odstranění komunálního a tříděného o",
+   "smlouvy": [
+    {
+     "datum_uzavreni": "2023-12-06",
+     "cena_bez_dph": 9917.36,
+     "dodavatele": [
+      {
+       "ico": "26782596",
+       "nazev": "Technické služby Vsetín, s.r.o.",
+       "pravni_forma": "112"
+      }
+     ],
+     "dodavatel_bez_ico": false,
+     "pocet_ucastniku": 1
+    }
+   ],
+   "dalsich_smluv_neprenseno": 0,
+   "predpokladana_hodnota_bez_dph": null,
+   "druh_rizeni": "Uzavřená výz",
+   "nabidky_casti": [
+    {
+     "celkem_nabidek": 1,
+     "elektronicky": 0,
+     "vyloucenych": null,
+     "zadosti_o_ucast": 0
+    }
+   ],
+   "dalsich_casti": 0,
+   "pocet_nabidek_odhad": 1
+  },
+  {
+   "id": "RVZ2600000980",
+   "posledni_verze": "2026-04-17",
+   "role_okruhu_mesta": [
+    "ucastnik",
+    "dodavatel"
+   ],
+   "druh": "Služby",
+   "rezim": "VZMR",
+   "stav": "Dokončen/Zadán",
+   "zahajeni": "2025-09-03",
+   "zadavatele": [
+    {
+     "ico": "72052767",
+     "role": "Bez sp",
+     "nazev": "Krajské ředitelství policie Zlínského kraje"
+    }
+   ],
+   "nazev_zkraceny": "Smlouva o odvozu a odstranění komunálního odpadu - OOP",
+   "smlouvy": [
+    {
+     "datum_uzavreni": "2025-09-25",
+     "cena_bez_dph": 5371.9,
+     "dodavatele": [
+      {
+       "ico": "26782596",
+       "nazev": "Technické služby Vsetín, s.r.o.",
+       "pravni_forma": "112"
+      }
+     ],
+     "dodavatel_bez_ico": false,
+     "pocet_ucastniku": 1
+    }
+   ],
+   "dalsich_smluv_neprenseno": 0,
+   "predpokladana_hodnota_bez_dph": null,
+   "druh_rizeni": "Uzavřená výz",
+   "nabidky_casti": [
+    {
+     "celkem_nabidek": 1,
+     "elektronicky": 0,
+     "vyloucenych": null,
+     "zadosti_o_ucast": 0
+    }
+   ],
+   "dalsich_casti": 0,
+   "pocet_nabidek_odhad": 1
+  },
+  {
+   "id": "RVZ2400058090",
+   "posledni_verze": "2026-04-19",
+   "role_okruhu_mesta": [
+    "ucastnik",
+    "dodavatel"
+   ],
+   "druh": "Služby",
+   "rezim": "VZMR",
+   "stav": "Ukončeno plnění smlo",
+   "zahajeni": "2019-11-20",
+   "zadavatele": [
+    {
+     "ico": "72052767",
+     "role": "Bez sp",
+     "nazev": "Krajské ředitelství policie Zlínského kraje"
+    }
+   ],
+   "nazev_zkraceny": "Smlouva o odvozu a odstranění komunálního a tříděného o",
+   "smlouvy": [
+    {
+     "datum_uzavreni": "2019-12-09",
+     "cena_bez_dph": 4959.0,
+     "dodavatele": [
+      {
+       "ico": "26782596",
+       "nazev": "Technické služby Vsetín, s.r.o.",
+       "pravni_forma": "112"
+      }
+     ],
+     "dodavatel_bez_ico": false,
+     "pocet_ucastniku": 2
+    }
+   ],
+   "dalsich_smluv_neprenseno": 0,
+   "predpokladana_hodnota_bez_dph": null,
+   "druh_rizeni": "Uzavřená výz",
+   "nabidky_casti": [
+    {
+     "celkem_nabidek": 2,
+     "elektronicky": 0,
+     "vyloucenych": null,
+     "zadosti_o_ucast": 0
+    }
+   ],
+   "dalsich_casti": 0,
+   "pocet_nabidek_odhad": 2
+  },
+  {
+   "id": "RVZ2500114093",
+   "posledni_verze": "2026-04-16",
+   "role_okruhu_mesta": [
+    "ucastnik",
+    "dodavatel"
+   ],
+   "druh": "Služby",
+   "rezim": "VZMR",
+   "stav": "Dokončen/Zadán",
+   "zahajeni": "2025-07-07",
+   "zadavatele": [
+    {
+     "ico": "70891320",
+     "role": "Bez sp",
+     "nazev": "Zlínský kraj"
+    }
+   ],
+   "nazev_zkraceny": "Vjezdy na autobusové nádraží na Vsetíně II",
+   "smlouvy": [
+    {
+     "datum_uzavreni": "2025-07-30",
+     "cena_bez_dph": 89.21,
+     "dodavatele": [
+      {
+       "ico": "19690711",
+       "nazev": "DN Vsetín s.r.o.",
+       "pravni_forma": "112"
+      }
+     ],
+     "dodavatel_bez_ico": false,
+     "pocet_ucastniku": 1
+    }
+   ],
+   "dalsich_smluv_neprenseno": 0,
+   "predpokladana_hodnota_bez_dph": null,
+   "druh_rizeni": "Jednací řízení bez uveřejnění",
+   "nabidky_casti": [
+    {
+     "celkem_nabidek": 0,
+     "elektronicky": 0,
+     "vyloucenych": null,
+     "zadosti_o_ucast": 0
+    }
+   ],
+   "dalsich_casti": 0,
+   "pocet_nabidek_odhad": 0
+  },
+  {
+   "id": "RVZ2400025170",
+   "posledni_verze": "2026-04-18",
+   "role_okruhu_mesta": [
+    "ucastnik",
+    "dodavatel"
+   ],
+   "druh": "Služby",
+   "rezim": "VZMR",
+   "stav": "Dokončen/Zadán",
+   "zahajeni": "2018-06-21",
+   "zadavatele": [
+    {
+     "ico": "72496991",
+     "role": "Bez sp",
+     "nazev": "Úřad práce České republiky"
+    }
+   ],
+   "nazev_zkraceny": "VS - Pronájem prostor pro Burzu práce a přehlídku střed",
+   "smlouvy": [
+    {
+     "datum_uzavreni": "2018-07-17",
+     "cena_bez_dph": 50900.0,
+     "dodavatele": [
+      {
+       "ico": "47972114",
+       "nazev": "Dům kultury Vsetín, spol. s r. o.",
+       "pravni_forma": "112"
+      }
+     ],
+     "dodavatel_bez_ico": false,
+     "pocet_ucastniku": 2
+    }
+   ],
+   "dalsich_smluv_neprenseno": 0,
+   "predpokladana_hodnota_bez_dph": null,
+   "druh_rizeni": "Přímé zadání",
+   "nabidky_casti": [
+    {
+     "celkem_nabidek": 1,
+     "elektronicky": 1,
+     "vyloucenych": null,
+     "zadosti_o_ucast": 0
+    }
+   ],
+   "dalsich_casti": 0,
+   "pocet_nabidek_odhad": 1
+  },
+  {
+   "id": "RVZ2400130507",
+   "posledni_verze": "2026-04-12",
+   "role_okruhu_mesta": [
+    "ucastnik",
+    "dodavatel"
+   ],
+   "druh": "Služby",
+   "rezim": "VZMR",
+   "stav": "Ukončeno plnění smlo",
+   "zahajeni": "2023-09-12",
+   "zadavatele": [
+    {
+     "ico": "70891320",
+     "role": "Bez sp",
+     "nazev": "Zlínský kraj"
+    }
+   ],
+   "nazev_zkraceny": "Vjezdy na autobusové nádraží na Vsetíně",
+   "smlouvy": [
+    {
+     "datum_uzavreni": "2023-09-27",
+     "cena_bez_dph": 78.7,
+     "dodavatele": [
+      {
+       "ico": "19690711",
+       "nazev": "DN Vsetín s.r.o.",
+       "pravni_forma": "112"
+      }
+     ],
+     "dodavatel_bez_ico": false,
+     "pocet_ucastniku": 1
+    }
+   ],
+   "dalsich_smluv_neprenseno": 0,
+   "predpokladana_hodnota_bez_dph": null,
+   "druh_rizeni": "Jednací řízení bez uveřejnění",
+   "nabidky_casti": [
+    {
+     "celkem_nabidek": 0,
+     "elektronicky": 0,
+     "vyloucenych": null,
+     "zadosti_o_ucast": 0
+    }
+   ],
+   "dalsich_casti": 0,
+   "pocet_nabidek_odhad": 0
+  },
+  {
+   "id": "RVZ2500226419",
+   "posledni_verze": "2026-04-17",
+   "role_okruhu_mesta": [
+    "ucastnik",
+    "dodavatel"
+   ],
+   "druh": "Služby",
+   "rezim": "VZMR",
+   "stav": "Dokončen/Zadán",
+   "zahajeni": "2025-11-28",
+   "zadavatele": [
+    {
+     "ico": "72052767",
+     "role": "Bez sp",
+     "nazev": "Krajské ředitelství policie Zlínského kraje"
+    }
+   ],
+   "nazev_zkraceny": "Smlouva o odvozu a odstranění komunálního a tříděného o",
+   "smlouvy": [
+    {
+     "datum_uzavreni": "2025-12-12",
+     "cena_bez_dph": 21487.6,
+     "dodavatele": [
+      {
+       "ico": "26782596",
+       "nazev": "Technické služby Vsetín, s.r.o.",
+       "pravni_forma": "112"
+      }
+     ],
+     "dodavatel_bez_ico": false,
+     "pocet_ucastniku": 1
+    }
+   ],
+   "dalsich_smluv_neprenseno": 0,
+   "predpokladana_hodnota_bez_dph": null,
+   "druh_rizeni": "Přímé zadání",
+   "nabidky_casti": [
+    {
+     "celkem_nabidek": 1,
+     "elektronicky": 0,
+     "vyloucenych": null,
+     "zadosti_o_ucast": 0
+    }
+   ],
+   "dalsich_casti": 0,
+   "pocet_nabidek_odhad": 1
+  },
+  {
+   "id": "RVZ2500157518",
+   "posledni_verze": "2026-03-09",
+   "role_okruhu_mesta": [
+    "ucastnik",
+    "dodavatel"
+   ],
+   "druh": "Služby",
+   "rezim": null,
+   "stav": "Dokončen/Zadán",
+   "zahajeni": "2023-09-19",
+   "zadavatele": [
+    {
+     "ico": "00304204",
+     "role": null,
+     "nazev": "Obec Pozděchov"
+    }
+   ],
+   "nazev_zkraceny": "SVOZ, RECYKLACE A LIKVIDACE KOMUNÁLNÍHO ODPADU V ČLENSK",
+   "smlouvy": [
+    {
+     "datum_uzavreni": "2023-09-06",
+     "cena_bez_dph": null,
+     "dodavatele": [
+      {
+       "ico": "26782596",
+       "nazev": "Technické služby Vsetín, s.r.o.",
+       "pravni_forma": "112"
+      }
+     ],
+     "dodavatel_bez_ico": false,
+     "pocet_ucastniku": 1
+    }
+   ],
+   "dalsich_smluv_neprenseno": 0,
+   "predpokladana_hodnota_bez_dph": null,
+   "druh_rizeni": "Otevřené řízení",
+   "nabidky_casti": [
+    {
+     "celkem_nabidek": 0,
+     "elektronicky": null,
+     "vyloucenych": 0,
+     "zadosti_o_ucast": null
+    }
+   ],
+   "dalsich_casti": 0,
+   "pocet_nabidek_odhad": 0
+  },
+  {
+   "id": "RVZ2600072450",
+   "posledni_verze": "2026-03-19",
+   "role_okruhu_mesta": [
+    "zadavatel"
+   ],
+   "druh": "Stavební práce",
+   "rezim": "Podlimitní",
+   "stav": null,
+   "zahajeni": null,
+   "zadavatele": [
+    {
+     "ico": "00304450",
+     "role": null,
+     "nazev": "Město Vsetín"
+    }
+   ],
+   "nazev_zkraceny": "STAVEBNÍ ÚPRAVY STŘECHY NAD KINEM VATRA, VSETÍN",
+   "smlouvy": [],
+   "dalsich_smluv_neprenseno": 0,
+   "predpokladana_hodnota_bez_dph": 9000000.0,
+   "druh_rizeni": "Zjednodušené podlimitní řízení",
+   "nabidky_casti": [
+    {
+     "celkem_nabidek": 1,
+     "elektronicky": 1,
+     "vyloucenych": 0,
+     "zadosti_o_ucast": 0
+    }
+   ],
+   "dalsich_casti": 0,
+   "pocet_nabidek_odhad": 1
+  },
+  {
+   "id": "RVZ2500218806",
+   "posledni_verze": "2026-02-09",
+   "role_okruhu_mesta": [
+    "zadavatel"
+   ],
+   "druh": "Stavební práce",
+   "rezim": "Nadlimitní",
+   "stav": null,
+   "zahajeni": "2025-11-14",
+   "zadavatele": [
+    {
+     "ico": "00304450",
+     "role": null,
+     "nazev": "Město Vsetín"
+    }
+   ],
+   "nazev_zkraceny": "STAVEBNÍ ÚPRAVY MASARYKOVY VEŘEJNÉ KNIHOVNY VSETÍN POBO",
+   "smlouvy": [],
+   "dalsich_smluv_neprenseno": 0,
+   "predpokladana_hodnota_bez_dph": 15600000.0,
+   "druh_rizeni": "Otevřené řízení",
+   "nabidky_casti": [
+    {
+     "celkem_nabidek": 3,
+     "elektronicky": 3,
+     "vyloucenych": 0,
+     "zadosti_o_ucast": 0
+    }
+   ],
+   "dalsich_casti": 0,
+   "pocet_nabidek_odhad": 3
+  },
+  {
+   "id": "RVZ2500157521",
+   "posledni_verze": "2026-02-15",
+   "role_okruhu_mesta": [
+    "ucastnik",
+    "dodavatel"
+   ],
+   "druh": "Služby",
+   "rezim": null,
+   "stav": "Dokončen/Zadán",
+   "zahajeni": "2023-09-14",
+   "zadavatele": [
+    {
+     "ico": "00304077",
+     "role": null,
+     "nazev": "Obec Lužná"
+    }
+   ],
+   "nazev_zkraceny": "SVOZ, RECYKLACE A LIKVIDACE KOMUNÁLNÍHO ODPADU V ČLENSK",
+   "smlouvy": [
+    {
+     "datum_uzavreni": "2023-09-06",
+     "cena_bez_dph": null,
+     "dodavatele": [
+      {
+       "ico": "26782596",
+       "nazev": "Technické služby Vsetín, s.r.o.",
+       "pravni_forma": "112"
+      }
+     ],
+     "dodavatel_bez_ico": false,
+     "pocet_ucastniku": 1
+    }
+   ],
+   "dalsich_smluv_neprenseno": 0,
+   "predpokladana_hodnota_bez_dph": null,
+   "druh_rizeni": "Otevřené řízení",
+   "nabidky_casti": [
+    {
+     "celkem_nabidek": 0,
+     "elektronicky": null,
+     "vyloucenych": 0,
+     "zadosti_o_ucast": null
+    }
+   ],
+   "dalsich_casti": 0,
+   "pocet_nabidek_odhad": 0
+  },
+  {
+   "id": "RVZ2500165425",
+   "posledni_verze": "2026-02-15",
+   "role_okruhu_mesta": [
+    "ucastnik",
+    "dodavatel"
+   ],
+   "druh": "Služby",
+   "rezim": null,
+   "stav": "Dokončen/Zadán",
+   "zahajeni": "2023-09-15",
+   "zadavatele": [
+    {
+     "ico": "00635821",
+     "role": null,
+     "nazev": "Obec Seninka"
+    }
+   ],
+   "nazev_zkraceny": "SVOZ, RECYKLACE A LIKVIDACE KOMUNÁLNÍHO ODPADU V ČLENSK",
+   "smlouvy": [
+    {
+     "datum_uzavreni": "2023-09-06",
+     "cena_bez_dph": null,
+     "dodavatele": [
+      {
+       "ico": "26782596",
+       "nazev": "Technické služby Vsetín, s.r.o.",
+       "pravni_forma": "112"
+      }
+     ],
+     "dodavatel_bez_ico": false,
+     "pocet_ucastniku": 1
+    }
+   ],
+   "dalsich_smluv_neprenseno": 0,
+   "predpokladana_hodnota_bez_dph": null,
+   "druh_rizeni": "Otevřené řízení",
+   "nabidky_casti": [
+    {
+     "celkem_nabidek": 1,
+     "elektronicky": null,
+     "vyloucenych": 0,
+     "zadosti_o_ucast": null
+    }
+   ],
+   "dalsich_casti": 0,
+   "pocet_nabidek_odhad": 1
+  },
+  {
+   "id": "RVZ2500157686",
+   "posledni_verze": "2026-02-15",
+   "role_okruhu_mesta": [
+    "ucastnik",
+    "dodavatel"
+   ],
+   "druh": "Služby",
+   "rezim": null,
+   "stav": "Dokončen/Zadán",
+   "zahajeni": "2023-09-15",
+   "zadavatele": [
+    {
+     "ico": "00635774",
+     "role": null,
+     "nazev": "Obec Valašská Senice"
+    }
+   ],
+   "nazev_zkraceny": "SVOZ, RECYKLACE A LIKVIDACE KOMUNÁLNÍHO ODPADU V ČLENSK",
+   "smlouvy": [
+    {
+     "datum_uzavreni": "2023-09-06",
+     "cena_bez_dph": 55.0,
+     "dodavatele": [
+      {
+       "ico": "26782596",
+       "nazev": "Technické služby Vsetín, s.r.o.",
+       "pravni_forma": "112"
+      }
+     ],
+     "dodavatel_bez_ico": false,
+     "pocet_ucastniku": 1
+    }
+   ],
+   "dalsich_smluv_neprenseno": 0,
+   "predpokladana_hodnota_bez_dph": null,
+   "druh_rizeni": "Otevřené řízení",
+   "nabidky_casti": [
+    {
+     "celkem_nabidek": 1,
+     "elektronicky": null,
+     "vyloucenych": 0,
+     "zadosti_o_ucast": null
+    }
+   ],
+   "dalsich_casti": 0,
+   "pocet_nabidek_odhad": 1
+  },
+  {
+   "id": "RVZ2500165426",
+   "posledni_verze": "2026-02-15",
+   "role_okruhu_mesta": [
+    "ucastnik",
+    "dodavatel"
+   ],
+   "druh": "Služby",
+   "rezim": null,
+   "stav": "Dokončen/Zadán",
+   "zahajeni": "2023-09-15",
+   "zadavatele": [
+    {
+     "ico": "00303984",
+     "role": null,
+     "nazev": "Obec Leskovec"
+    }
+   ],
+   "nazev_zkraceny": "SVOZ, RECYKLACE A LIKVIDACE KOMUNÁLNÍHO ODPADU V ČLENSK",
+   "smlouvy": [
+    {
+     "datum_uzavreni": "2023-09-06",
+     "cena_bez_dph": null,
+     "dodavatele": [
+      {
+       "ico": "26782596",
+       "nazev": "Technické služby Vsetín, s.r.o.",
+       "pravni_forma": "112"
+      }
+     ],
+     "dodavatel_bez_ico": false,
+     "pocet_ucastniku": 1
+    }
+   ],
+   "dalsich_smluv_neprenseno": 0,
+   "predpokladana_hodnota_bez_dph": null,
+   "druh_rizeni": "Otevřené řízení",
+   "nabidky_casti": [
+    {
+     "celkem_nabidek": 1,
+     "elektronicky": null,
+     "vyloucenych": 0,
+     "zadosti_o_ucast": null
+    }
+   ],
+   "dalsich_casti": 0,
+   "pocet_nabidek_odhad": 1
+  },
+  {
+   "id": "RVZ2600002540",
+   "posledni_verze": "2026-01-14",
+   "role_okruhu_mesta": [
+    "zadavatel"
+   ],
+   "druh": "Stavební práce",
+   "rezim": "Podlimitní",
+   "stav": null,
+   "zahajeni": null,
+   "zadavatele": [
+    {
+     "ico": "00304450",
+     "role": null,
+     "nazev": "Město Vsetín"
+    }
+   ],
+   "nazev_zkraceny": "STAVEBNÍ ÚPRAVY DPS 1580 STAVEBNÍ ÚPRAVY BYTŮ 4x2+KK -",
+   "smlouvy": [
+    {
+     "datum_uzavreni": "2025-12-22",
+     "cena_bez_dph": 2508328.0,
+     "dodavatele": [
+      {
+       "ico": "48395242",
+       "nazev": "STABET, spol. s r. o.",
+       "pravni_forma": "112"
+      }
+     ],
+     "dodavatel_bez_ico": false,
+     "pocet_ucastniku": 1
+    }
+   ],
+   "dalsich_smluv_neprenseno": 0,
+   "predpokladana_hodnota_bez_dph": 3000000.0,
+   "druh_rizeni": "Zjednodušené podlimitní řízení",
+   "nabidky_casti": [
+    {
+     "celkem_nabidek": 5,
+     "elektronicky": 5,
+     "vyloucenych": 0,
+     "zadosti_o_ucast": 5
+    }
+   ],
+   "dalsich_casti": 0,
+   "pocet_nabidek_odhad": 5
+  },
+  {
+   "id": "RVZ2600002529",
+   "posledni_verze": "2026-01-14",
+   "role_okruhu_mesta": [
+    "zadavatel"
+   ],
+   "druh": "Služby",
+   "rezim": "Podlimitní",
+   "stav": null,
+   "zahajeni": null,
+   "zadavatele": [
+    {
+     "ico": "00304450",
+     "role": null,
+     "nazev": "Město Vsetín"
+    }
+   ],
+   "nazev_zkraceny": "Reklama a propagace města Vsetín 2025",
+   "smlouvy": [
+    {
+     "datum_uzavreni": "2025-12-19",
+     "cena_bez_dph": 3305785.0,
+     "dodavatele": [
+      {
+       "ico": "25399985",
+       "nazev": "VHK Vsetín s.r.o.",
+       "pravni_forma": "112"
+      }
+     ],
+     "dodavatel_bez_ico": false,
+     "pocet_ucastniku": 1
+    }
+   ],
+   "dalsich_smluv_neprenseno": 0,
+   "predpokladana_hodnota_bez_dph": 3305785.0,
+   "druh_rizeni": "Jednací řízení bez uveřejnění",
+   "nabidky_casti": [
+    {
+     "celkem_nabidek": 1,
+     "elektronicky": 1,
+     "vyloucenych": 0,
+     "zadosti_o_ucast": 1
+    }
+   ],
+   "dalsich_casti": 0,
+   "pocet_nabidek_odhad": 1
+  },
+  {
+   "id": "RVZ2600036623",
+   "posledni_verze": "2026-01-19",
+   "role_okruhu_mesta": [
+    "zadavatel"
+   ],
+   "druh": "Služby",
+   "rezim": "Nadlimitní",
+   "stav": null,
+   "zahajeni": "2026-01-16",
+   "zadavatele": [
+    {
+     "ico": "75063468",
+     "role": null,
+     "nazev": "Technické služby města Vsetína, příspěvková organizace"
+    }
+   ],
+   "nazev_zkraceny": "Údržba veřejné zeleně Vsetín",
+   "smlouvy": [],
+   "dalsich_smluv_neprenseno": 0,
+   "predpokladana_hodnota_bez_dph": 19300000.0,
+   "druh_rizeni": "Otevřené řízení",
+   "nabidky_casti": [
+    {
+     "celkem_nabidek": null,
+     "elektronicky": null,
+     "vyloucenych": null,
+     "zadosti_o_ucast": null
+    },
+    {
+     "celkem_nabidek": null,
+     "elektronicky": null,
+     "vyloucenych": null,
+     "zadosti_o_ucast": null
+    }
+   ],
+   "dalsich_casti": 0,
+   "pocet_nabidek_odhad": null
+  },
+  {
+   "id": "RVZ2600003136",
+   "posledni_verze": "2026-01-16",
+   "role_okruhu_mesta": [
+    "zadavatel"
+   ],
+   "druh": "Dodávky",
+   "rezim": "Podlimitní",
+   "stav": null,
+   "zahajeni": null,
+   "zadavatele": [
+    {
+     "ico": "75063468",
+     "role": null,
+     "nazev": "Technické služby města Vsetína, příspěvková organizace"
+    }
+   ],
+   "nazev_zkraceny": "VÁNOČNÍ OSVĚTLENÍ – DODÁVKA A MONTÁŽ",
+   "smlouvy": [
+    {
+     "datum_uzavreni": "2025-11-10",
+     "cena_bez_dph": 3749918.0,
+     "dodavatele": [
+      {
+       "ico": "26397561",
+       "nazev": "Barcana s.r.o.",
+       "pravni_forma": "112"
+      }
+     ],
+     "dodavatel_bez_ico": false,
+     "pocet_ucastniku": 1
+    }
+   ],
+   "dalsich_smluv_neprenseno": 0,
+   "predpokladana_hodnota_bez_dph": 3750000.0,
+   "druh_rizeni": "Zjednodušené podlimitní řízení",
+   "nabidky_casti": [
+    {
+     "celkem_nabidek": 1,
+     "elektronicky": 1,
+     "vyloucenych": 0,
+     "zadosti_o_ucast": 1
+    }
+   ],
+   "dalsich_casti": 0,
+   "pocet_nabidek_odhad": 1
+  },
+  {
+   "id": "RVZ2600036652",
+   "posledni_verze": "2026-01-30",
+   "role_okruhu_mesta": [
+    "zadavatel"
+   ],
+   "druh": "Dodávky",
+   "rezim": "Nadlimitní",
+   "stav": null,
+   "zahajeni": "2026-01-16",
+   "zadavatele": [
+    {
+     "ico": "75063468",
+     "role": null,
+     "nazev": "Technické služby města Vsetína, příspěvková organizace"
+    }
+   ],
+   "nazev_zkraceny": "Dodávka starších multifunkčních komunálních vozidel",
+   "smlouvy": [],
+   "dalsich_smluv_neprenseno": 0,
+   "predpokladana_hodnota_bez_dph": 7852000.0,
+   "druh_rizeni": "Otevřené řízení",
+   "nabidky_casti": [
+    {
+     "celkem_nabidek": null,
+     "elektronicky": null,
+     "vyloucenych": null,
+     "zadosti_o_ucast": null
+    },
+    {
+     "celkem_nabidek": null,
+     "elektronicky": null,
+     "vyloucenych": null,
+     "zadosti_o_ucast": null
+    }
+   ],
+   "dalsich_casti": 0,
+   "pocet_nabidek_odhad": null
+  },
+  {
+   "id": "RVZ2500222453",
+   "posledni_verze": "2025-12-04",
+   "role_okruhu_mesta": [
+    "zadavatel"
+   ],
+   "druh": "Stavební práce",
+   "rezim": "Podlimitní",
+   "stav": null,
+   "zahajeni": "2025-12-04",
+   "zadavatele": [
+    {
+     "ico": "00304450",
+     "role": null,
+     "nazev": "Město Vsetín"
+    }
+   ],
+   "nazev_zkraceny": "STAVEBNÍ ÚPRAVY BYTŮ V DOMĚ TYRŠOVA 1271, VSETÍN - 2026",
+   "smlouvy": [],
+   "dalsich_smluv_neprenseno": 0,
+   "predpokladana_hodnota_bez_dph": 15000000.0,
+   "druh_rizeni": "Otevřené řízení",
+   "nabidky_casti": [
+    {
+     "celkem_nabidek": null,
+     "elektronicky": null,
+     "vyloucenych": null,
+     "zadosti_o_ucast": null
+    }
+   ],
+   "dalsich_casti": 0,
+   "pocet_nabidek_odhad": null
+  },
+  {
+   "id": "RVZ2500056564",
+   "posledni_verze": "2025-10-23",
+   "role_okruhu_mesta": [
+    "zadavatel"
+   ],
+   "druh": "Dodávky",
+   "rezim": "Nadlimitní",
+   "stav": null,
+   "zahajeni": "2024-02-12",
+   "zadavatele": [
+    {
+     "ico": "00304450",
+     "role": null,
+     "nazev": "Město Vsetín"
+    }
+   ],
+   "nazev_zkraceny": "INTERIÉR MASARYKOVY VEŘEJNÉ KNIHOVNY A TURISTICKÉHO INF",
+   "smlouvy": [
+    {
+     "datum_uzavreni": "2024-05-09",
+     "cena_bez_dph": null,
+     "dodavatele": [
+      {
+       "ico": "43964532",
+       "nazev": "FORM, spol. s r.o.",
+       "pravni_forma": "112"
+      }
+     ],
+     "dodavatel_bez_ico": false,
+     "pocet_ucastniku": 1
+    }
+   ],
+   "dalsich_smluv_neprenseno": 0,
+   "predpokladana_hodnota_bez_dph": 29300000.0,
+   "druh_rizeni": "Otevřené řízení",
+   "nabidky_casti": [
+    {
+     "celkem_nabidek": null,
+     "elektronicky": 1,
+     "vyloucenych": null,
+     "zadosti_o_ucast": null
+    }
+   ],
+   "dalsich_casti": 0,
+   "pocet_nabidek_odhad": 1
+  },
+  {
+   "id": "RVZ2500113691",
+   "posledni_verze": "2025-10-20",
+   "role_okruhu_mesta": [
+    "zadavatel"
+   ],
+   "druh": "Dodávky",
+   "rezim": "Nadlimitní",
+   "stav": null,
+   "zahajeni": "2025-08-18",
+   "zadavatele": [
+    {
+     "ico": "00304450",
+     "role": null,
+     "nazev": "Město Vsetín"
+    }
+   ],
+   "nazev_zkraceny": "IT VYBAVENÍ MASARYKOVY VEŘEJNÉ KNIHOVNY A TURISTICKÉHO",
+   "smlouvy": [
+    {
+     "datum_uzavreni": "2025-10-13",
+     "cena_bez_dph": 3837670.0,
+     "dodavatele": [
+      {
+       "ico": "25845420",
+       "nazev": "LPT System, s.r.o.",
+       "pravni_forma": "112"
+      }
+     ],
+     "dodavatel_bez_ico": false,
+     "pocet_ucastniku": 1
+    },
+    {
+     "datum_uzavreni": "2025-10-13",
+     "cena_bez_dph": 3837670.0,
+     "dodavatele": [
+      {
+       "ico": "25845420",
+       "nazev": "LPT System, s.r.o.",
+       "pravni_forma": "112"
+      }
+     ],
+     "dodavatel_bez_ico": false,
+     "pocet_ucastniku": 1
+    },
+    {
+     "datum_uzavreni": "2025-10-14",
+     "cena_bez_dph": 210722.0,
+     "dodavatele": [
+      {
+       "ico": "25845420",
+       "nazev": "LPT System, s.r.o.",
+       "pravni_forma": "112"
+      }
+     ],
+     "dodavatel_bez_ico": false,
+     "pocet_ucastniku": 1
+    }
+   ],
+   "dalsich_smluv_neprenseno": 0,
+   "predpokladana_hodnota_bez_dph": 3866650.0,
+   "druh_rizeni": "Otevřené řízení",
+   "nabidky_casti": [
+    {
+     "celkem_nabidek": 1,
+     "elektronicky": 1,
+     "vyloucenych": 0,
+     "zadosti_o_ucast": 1
+    },
+    {
+     "celkem_nabidek": 1,
+     "elektronicky": 1,
+     "vyloucenych": 0,
+     "zadosti_o_ucast": 1
+    }
+   ],
+   "dalsich_casti": 0,
+   "pocet_nabidek_odhad": 1
+  },
+  {
+   "id": "RVZ2500056570",
+   "posledni_verze": "2025-10-17",
+   "role_okruhu_mesta": [
+    "zadavatel"
+   ],
+   "druh": "Stavební práce",
+   "rezim": "Nadlimitní",
+   "stav": null,
+   "zahajeni": "2024-02-12",
+   "zadavatele": [
+    {
+     "ico": "00304450",
+     "role": null,
+     "nazev": "Město Vsetín"
+    }
+   ],
+   "nazev_zkraceny": "STAVEBNÍ ÚPRAVY MASARYKOVY VEŘEJNÉ KNIHOVNY A TURISTICK",
+   "smlouvy": [
+    {
+     "datum_uzavreni": "2024-05-03",
+     "cena_bez_dph": 42620000.0,
+     "dodavatele": [
+      {
+       "ico": "25021915",
+       "nazev": "Metrostav CZ s.r.o.",
+       "pravni_forma": "112"
+      }
+     ],
+     "dodavatel_bez_ico": false,
+     "pocet_ucastniku": 1
+    }
+   ],
+   "dalsich_smluv_neprenseno": 0,
+   "predpokladana_hodnota_bez_dph": 53500000.0,
+   "druh_rizeni": "Otevřené řízení",
+   "nabidky_casti": [
+    {
+     "celkem_nabidek": null,
+     "elektronicky": 5,
+     "vyloucenych": null,
+     "zadosti_o_ucast": null
+    }
+   ],
+   "dalsich_casti": 0,
+   "pocet_nabidek_odhad": 5
+  },
+  {
+   "id": "RVZ2500102267",
+   "posledni_verze": "2025-10-23",
+   "role_okruhu_mesta": [
+    "zadavatel"
+   ],
+   "druh": "Stavební práce",
+   "rezim": "Podlimitní",
+   "stav": null,
+   "zahajeni": "2025-07-24",
+   "zadavatele": [
+    {
+     "ico": "00304450",
+     "role": null,
+     "nazev": "Město Vsetín"
+    }
+   ],
+   "nazev_zkraceny": "LÁVKA PŘES BEČVU U PRŮMYSLOVKY VE VSETÍNĚ II",
+   "smlouvy": [
+    {
+     "datum_uzavreni": "2025-10-14",
+     "cena_bez_dph": 68983750.54,
+     "dodavatele": [
+      {
+       "ico": "26944022",
+       "nazev": "Mitrenga-stavby, spol. s r.o.",
+       "pravni_forma": "112"
+      }
+     ],
+     "dodavatel_bez_ico": true,
+     "pocet_ucastniku": 1
+    }
+   ],
+   "dalsich_smluv_neprenseno": 0,
+   "predpokladana_hodnota_bez_dph": 72000000.0,
+   "druh_rizeni": "Otevřené řízení",
+   "nabidky_casti": [
+    {
+     "celkem_nabidek": 6,
+     "elektronicky": 6,
+     "vyloucenych": 0,
+     "zadosti_o_ucast": 6
+    }
+   ],
+   "dalsich_casti": 0,
+   "pocet_nabidek_odhad": 6
+  },
+  {
+   "id": "RVZ2500095665",
+   "posledni_verze": "2025-09-23",
+   "role_okruhu_mesta": [
+    "zadavatel"
+   ],
+   "druh": "Dodávky",
+   "rezim": "Nadlimitní",
+   "stav": null,
+   "zahajeni": "2025-07-01",
+   "zadavatele": [
+    {
+     "ico": "00304450",
+     "role": null,
+     "nazev": "Město Vsetín"
+    }
+   ],
+   "nazev_zkraceny": "DOHLEDOVÝ SYSTÉM PRO MĚSTO VSETÍN 2025 II",
+   "smlouvy": [
+    {
+     "datum_uzavreni": "2025-09-18",
+     "cena_bez_dph": 779000.0,
+     "dodavatele": [
+      {
+       "ico": "61249157",
+       "nazev": "DATASYS s.r.o.",
+       "pravni_forma": "112"
+      }
+     ],
+     "dodavatel_bez_ico": false,
+     "pocet_ucastniku": 1
+    }
+   ],
+   "dalsich_smluv_neprenseno": 0,
+   "predpokladana_hodnota_bez_dph": 823649.0,
+   "druh_rizeni": "Otevřené řízení",
+   "nabidky_casti": [
+    {
+     "celkem_nabidek": 2,
+     "elektronicky": 2,
+     "vyloucenych": 0,
+     "zadosti_o_ucast": 0
+    }
+   ],
+   "dalsich_casti": 0,
+   "pocet_nabidek_odhad": 2
+  },
+  {
+   "id": "RVZ2500124588",
+   "posledni_verze": "2025-09-16",
+   "role_okruhu_mesta": [
+    "zadavatel"
+   ],
+   "druh": "Služby",
+   "rezim": "Podlimitní",
+   "stav": null,
+   "zahajeni": null,
+   "zadavatele": [
+    {
+     "ico": "00304450",
+     "role": null,
+     "nazev": "Město Vsetín"
+    }
+   ],
+   "nazev_zkraceny": "Sportovní areál Ohrada 2026 – projektová dokumentace",
+   "smlouvy": [
+    {
+     "datum_uzavreni": "2025-09-11",
+     "cena_bez_dph": 3140000.0,
+     "dodavatele": [
+      {
+       "ico": "05725674",
+       "nazev": "CHVÁLEK ATELIÉR s.r.o.",
+       "pravni_forma": "112"
+      }
+     ],
+     "dodavatel_bez_ico": false,
+     "pocet_ucastniku": 1
+    }
+   ],
+   "dalsich_smluv_neprenseno": 0,
+   "predpokladana_hodnota_bez_dph": 3200000.0,
+   "druh_rizeni": "Zjednodušené podlimitní řízení",
+   "nabidky_casti": [
+    {
+     "celkem_nabidek": 2,
+     "elektronicky": 2,
+     "vyloucenych": 0,
+     "zadosti_o_ucast": 2
+    }
+   ],
+   "dalsich_casti": 0,
+   "pocet_nabidek_odhad": 2
+  },
+  {
+   "id": "RVZ2500113689",
+   "posledni_verze": "2025-08-18",
+   "role_okruhu_mesta": [
+    "ucastnik",
+    "dodavatel"
+   ],
+   "druh": "Služby",
+   "rezim": "Nadlimitní",
+   "stav": null,
+   "zahajeni": null,
+   "zadavatele": [
+    {
+     "ico": "70891320",
+     "role": null,
+     "nazev": "Zlínský kraj"
+    }
+   ],
+   "nazev_zkraceny": "Vjezdy na autobusové nádraží na Vsetíně II",
+   "smlouvy": [
+    {
+     "datum_uzavreni": "2025-07-30",
+     "cena_bez_dph": 89.21,
+     "dodavatele": [
+      {
+       "ico": "19690711",
+       "nazev": "DN Vsetín s.r.o.",
+       "pravni_forma": "112"
+      }
+     ],
+     "dodavatel_bez_ico": false,
+     "pocet_ucastniku": 1
+    }
+   ],
+   "dalsich_smluv_neprenseno": 0,
+   "predpokladana_hodnota_bez_dph": null,
+   "druh_rizeni": "Jednací řízení bez uveřejnění",
+   "nabidky_casti": [
+    {
+     "celkem_nabidek": 1,
+     "elektronicky": 0,
+     "vyloucenych": 0,
+     "zadosti_o_ucast": 0
+    }
+   ],
+   "dalsich_casti": 0,
+   "pocet_nabidek_odhad": 1
+  },
+  {
+   "id": "RVZ2500086808",
+   "posledni_verze": "2025-08-14",
+   "role_okruhu_mesta": [
+    "zadavatel"
+   ],
+   "druh": "Dodávky",
+   "rezim": "Nadlimitní",
+   "stav": null,
+   "zahajeni": "2025-05-20",
+   "zadavatele": [
+    {
+     "ico": "00304450",
+     "role": null,
+     "nazev": "Město Vsetín"
+    }
+   ],
+   "nazev_zkraceny": "DODÁVKA VYBAVENÍ ZÁLOŽNÍ INFRASTRUKTURY PRO MĚSTO VSETÍ",
+   "smlouvy": [
+    {
+     "datum_uzavreni": "2025-08-06",
+     "cena_bez_dph": 2733300.0,
+     "dodavatele": [
+      {
+       "ico": "03431045",
+       "nazev": "IT AWACS SOLUTION s.r.o.",
+       "pravni_forma": "112"
+      }
+     ],
+     "dodavatel_bez_ico": false,
+     "pocet_ucastniku": 1
+    }
+   ],
+   "dalsich_smluv_neprenseno": 0,
+   "predpokladana_hodnota_bez_dph": 2994815.0,
+   "druh_rizeni": "Otevřené řízení",
+   "nabidky_casti": [
+    {
+     "celkem_nabidek": 2,
+     "elektronicky": 2,
+     "vyloucenych": 0,
+     "zadosti_o_ucast": 2
+    }
+   ],
+   "dalsich_casti": 0,
+   "pocet_nabidek_odhad": 2
+  },
+  {
+   "id": "RVZ2500113141",
+   "posledni_verze": "2025-08-19",
+   "role_okruhu_mesta": [
+    "zadavatel"
+   ],
+   "druh": "Stavební práce",
+   "rezim": "Podlimitní",
+   "stav": null,
+   "zahajeni": null,
+   "zadavatele": [
+    {
+     "ico": "00304450",
+     "role": null,
+     "nazev": "Město Vsetín"
+    }
+   ],
+   "nazev_zkraceny": "VZDUCHOTECHNIKA DŮM KULTURY VSETÍN",
+   "smlouvy": [
+    {
+     "datum_uzavreni": "2025-08-14",
+     "cena_bez_dph": 8190000.0,
+     "dodavatele": [
+      {
+       "ico": "46994955",
+       "nazev": "INSTOP, spol. s r.o.",
+       "pravni_forma": "112"
+      }
+     ],
+     "dodavatel_bez_ico": false,
+     "pocet_ucastniku": 1
+    }
+   ],
+   "dalsich_smluv_neprenseno": 0,
+   "predpokladana_hodnota_bez_dph": 9800000.0,
+   "druh_rizeni": "Zjednodušené podlimitní řízení",
+   "nabidky_casti": [
+    {
+     "celkem_nabidek": 3,
+     "elektronicky": 3,
+     "vyloucenych": 0,
+     "zadosti_o_ucast": 0
+    }
+   ],
+   "dalsich_casti": 0,
+   "pocet_nabidek_odhad": 3
+  },
+  {
+   "id": "RVZ2500099825",
+   "posledni_verze": "2025-07-16",
+   "role_okruhu_mesta": [
+    "zadavatel"
+   ],
+   "druh": "Stavební práce",
+   "rezim": "Podlimitní",
+   "stav": null,
+   "zahajeni": null,
+   "zadavatele": [
+    {
+     "ico": "00304450",
+     "role": null,
+     "nazev": "Město Vsetín"
+    }
+   ],
+   "nazev_zkraceny": "PARKOVIŠTĚ POD NADJEZDEM, VSETÍN",
+   "smlouvy": [
+    {
+     "datum_uzavreni": "2025-07-15",
+     "cena_bez_dph": 6562223.0,
+     "dodavatele": [
+      {
+       "ico": "14443244",
+       "nazev": "VSPN stavební s.r.o.",
+       "pravni_forma": "112"
+      }
+     ],
+     "dodavatel_bez_ico": false,
+     "pocet_ucastniku": 1
+    }
+   ],
+   "dalsich_smluv_neprenseno": 0,
+   "predpokladana_hodnota_bez_dph": 11000000.0,
+   "druh_rizeni": "Zjednodušené podlimitní řízení",
+   "nabidky_casti": [
+    {
+     "celkem_nabidek": 6,
+     "elektronicky": 6,
+     "vyloucenych": 0,
+     "zadosti_o_ucast": 6
+    }
+   ],
+   "dalsich_casti": 0,
+   "pocet_nabidek_odhad": 6
+  },
+  {
+   "id": "RVZ2500091748",
+   "posledni_verze": "2025-07-02",
+   "role_okruhu_mesta": [
+    "zadavatel"
+   ],
+   "druh": "Dodávky",
+   "rezim": "Nadlimitní",
+   "stav": null,
+   "zahajeni": "2025-05-20",
+   "zadavatele": [
+    {
+     "ico": "00304450",
+     "role": null,
+     "nazev": "Město Vsetín"
+    }
+   ],
+   "nazev_zkraceny": "IT VYBAVENÍ MASARYKOVY VEŘEJNÉ KNIHOVNY A TURISTICKÉHO",
+   "smlouvy": [],
+   "dalsich_smluv_neprenseno": 0,
+   "predpokladana_hodnota_bez_dph": 3830000.0,
+   "druh_rizeni": "Otevřené řízení",
+   "nabidky_casti": [
+    {
+     "celkem_nabidek": 1,
+     "elektronicky": 1,
+     "vyloucenych": 0,
+     "zadosti_o_ucast": 1
+    }
+   ],
+   "dalsich_casti": 0,
+   "pocet_nabidek_odhad": 1
+  },
+  {
+   "id": "RVZ2500087172",
+   "posledni_verze": "2025-07-21",
+   "role_okruhu_mesta": [
+    "zadavatel"
+   ],
+   "druh": "Stavební práce",
+   "rezim": "Podlimitní",
+   "stav": null,
+   "zahajeni": "2025-04-29",
+   "zadavatele": [
+    {
+     "ico": "00304450",
+     "role": null,
+     "nazev": "Město Vsetín"
+    }
+   ],
+   "nazev_zkraceny": "LÁVKA PŘES BEČVU U PRŮMYSLOVKY VE VSETÍNĚ",
+   "smlouvy": [],
+   "dalsich_smluv_neprenseno": 0,
+   "predpokladana_hodnota_bez_dph": 58000000.0,
+   "druh_rizeni": "Otevřené řízení",
+   "nabidky_casti": [
+    {
+     "celkem_nabidek": 4,
+     "elektronicky": 4,
+     "vyloucenych": 0,
+     "zadosti_o_ucast": 4
+    }
+   ],
+   "dalsich_casti": 0,
+   "pocet_nabidek_odhad": 4
+  },
+  {
+   "id": "RVZ2500097684",
+   "posledni_verze": "2025-07-09",
+   "role_okruhu_mesta": [
+    "zadavatel"
+   ],
+   "druh": "Stavební práce",
+   "rezim": "Podlimitní",
+   "stav": null,
+   "zahajeni": null,
+   "zadavatele": [
+    {
+     "ico": "00304450",
+     "role": "Hlavní",
+     "nazev": "Město Vsetín"
+    },
+    {
+     "ico": "00843407",
+     "role": "Člen s",
+     "nazev": "Střední průmyslová škola strojnická Vsetín"
+    }
+   ],
+   "nazev_zkraceny": "REVITALIZACE ÚZEMÍ U SPŠS, VSETÍN",
+   "smlouvy": [
+    {
+     "datum_uzavreni": "2025-06-20",
+     "cena_bez_dph": 5944061.91,
+     "dodavatele": [
+      {
+       "ico": "48035599",
+       "nazev": "SWIETELSKY stavební s.r.o.",
+       "pravni_forma": "112"
+      }
+     ],
+     "dodavatel_bez_ico": false,
+     "pocet_ucastniku": 1
+    },
+    {
+     "datum_uzavreni": "2025-06-18",
+     "cena_bez_dph": 5944061.91,
+     "dodavatele": [
+      {
+       "ico": "48035599",
+       "nazev": "SWIETELSKY stavební s.r.o.",
+       "pravni_forma": "112"
+      }
+     ],
+     "dodavatel_bez_ico": false,
+     "pocet_ucastniku": 1
+    }
+   ],
+   "dalsich_smluv_neprenseno": 0,
+   "predpokladana_hodnota_bez_dph": 9800000.0,
+   "druh_rizeni": "Zjednodušené podlimitní řízení",
+   "nabidky_casti": [
+    {
+     "celkem_nabidek": 8,
+     "elektronicky": 8,
+     "vyloucenych": 0,
+     "zadosti_o_ucast": 8
+    }
+   ],
+   "dalsich_casti": 0,
+   "pocet_nabidek_odhad": 8
+  },
+  {
+   "id": "RVZ2500099744",
+   "posledni_verze": "2025-07-16",
+   "role_okruhu_mesta": [
+    "zadavatel"
+   ],
+   "druh": "Služby",
+   "rezim": "Podlimitní",
+   "stav": null,
+   "zahajeni": null,
+   "zadavatele": [
+    {
+     "ico": "00304450",
+     "role": null,
+     "nazev": "Město Vsetín"
+    }
+   ],
+   "nazev_zkraceny": "PRAVIDELNÝ ÚKLID BUDOV MĚSTA VSETÍN 2025 - 2028",
+   "smlouvy": [
+    {
+     "datum_uzavreni": "2025-07-09",
+     "cena_bez_dph": 133398.5,
+     "dodavatele": [
+      {
+       "ico": "09769544",
+       "nazev": "TREKVILA NÁHRADNÍ PLNĚNÍ s.r.o.",
+       "pravni_forma": "112"
+      }
+     ],
+     "dodavatel_bez_ico": false,
+     "pocet_ucastniku": 1
+    }
+   ],
+   "dalsich_smluv_neprenseno": 0,
+   "predpokladana_hodnota_bez_dph": 5400000.0,
+   "druh_rizeni": "Zjednodušené podlimitní řízení",
+   "nabidky_casti": [
+    {
+     "celkem_nabidek": 3,
+     "elektronicky": 3,
+     "vyloucenych": 0,
+     "zadosti_o_ucast": 3
+    }
+   ],
+   "dalsich_casti": 0,
+   "pocet_nabidek_odhad": 3
+  },
+  {
+   "id": "RVZ2500084982",
+   "posledni_verze": "2025-07-01",
+   "role_okruhu_mesta": [
+    "zadavatel"
+   ],
+   "druh": "Dodávky",
+   "rezim": "Nadlimitní",
+   "stav": null,
+   "zahajeni": "2025-04-15",
+   "zadavatele": [
+    {
+     "ico": "00304450",
+     "role": null,
+     "nazev": "Město Vsetín"
+    }
+   ],
+   "nazev_zkraceny": "DOHLEDOVÝ SYSTÉM PRO MĚSTO VSETÍN 2025",
+   "smlouvy": [],
+   "dalsich_smluv_neprenseno": 0,
+   "predpokladana_hodnota_bez_dph": 823649.0,
+   "druh_rizeni": "Otevřené řízení",
+   "nabidky_casti": [
+    {
+     "celkem_nabidek": 1,
+     "elektronicky": 1,
+     "vyloucenych": 0,
+     "zadosti_o_ucast": 1
+    }
+   ],
+   "dalsich_casti": 0,
+   "pocet_nabidek_odhad": 1
+  },
+  {
+   "id": "RVZ2500097374",
+   "posledni_verze": "2025-07-08",
+   "role_okruhu_mesta": [
+    "zadavatel"
+   ],
+   "druh": "Stavební práce",
+   "rezim": "Podlimitní",
+   "stav": null,
+   "zahajeni": null,
+   "zadavatele": [
+    {
+     "ico": "00304450",
+     "role": null,
+     "nazev": "Město Vsetín"
+    }
+   ],
+   "nazev_zkraceny": "CHODNÍK POD ZÁMKEM, VSETÍN",
+   "smlouvy": [
+    {
+     "datum_uzavreni": "2025-06-20",
+     "cena_bez_dph": 7875400.0,
+     "dodavatele": [
+      {
+       "ico": "73257958",
+       "nazev": "Martin Urban",
+       "pravni_forma": "107"
+      }
+     ],
+     "dodavatel_bez_ico": false,
+     "pocet_ucastniku": 1
+    }
+   ],
+   "dalsich_smluv_neprenseno": 0,
+   "predpokladana_hodnota_bez_dph": 10000000.0,
+   "druh_rizeni": "Zjednodušené podlimitní řízení",
+   "nabidky_casti": [
+    {
+     "celkem_nabidek": 2,
+     "elektronicky": 2,
+     "vyloucenych": 0,
+     "zadosti_o_ucast": 2
+    }
+   ],
+   "dalsich_casti": 0,
+   "pocet_nabidek_odhad": 2
+  },
+  {
+   "id": "RVZ2500056481",
+   "posledni_verze": "2024-02-12",
+   "role_okruhu_mesta": [
+    "zadavatel"
+   ],
+   "druh": "Stavební práce",
+   "rezim": "Podlimitní",
+   "stav": null,
+   "zahajeni": null,
+   "zadavatele": [
+    {
+     "ico": "00304450",
+     "role": null,
+     "nazev": "Město Vsetín"
+    }
+   ],
+   "nazev_zkraceny": "Stavební úpravy DPS 1579, stavební úpravy bytů 3x2+KK 2",
+   "smlouvy": [
+    {
+     "datum_uzavreni": "2024-01-29",
+     "cena_bez_dph": 1999634.9,
+     "dodavatele": [
+      {
+       "ico": "05931738",
+       "nazev": "ADAR ing s.r.o.",
+       "pravni_forma": "112"
+      }
+     ],
+     "dodavatel_bez_ico": false,
+     "pocet_ucastniku": 1
+    }
+   ],
+   "dalsich_smluv_neprenseno": 0,
+   "predpokladana_hodnota_bez_dph": 2700000.0,
+   "druh_rizeni": "Zjednodušené podlimitní řízení",
+   "nabidky_casti": [
+    {
+     "celkem_nabidek": null,
+     "elektronicky": null,
+     "vyloucenych": null,
+     "zadosti_o_ucast": null
+    }
+   ],
+   "dalsich_casti": 0,
+   "pocet_nabidek_odhad": null
+  },
+  {
+   "id": "RVZ2500068239",
+   "posledni_verze": "2024-07-30",
+   "role_okruhu_mesta": [
+    "zadavatel"
+   ],
+   "druh": "Stavební práce",
+   "rezim": "Podlimitní",
+   "stav": null,
+   "zahajeni": null,
+   "zadavatele": [
+    {
+     "ico": "60990406",
+     "role": null,
+     "nazev": "Základní škola a Mateřská škola Vsetín, Luh 1544, příspěvková organizace"
+    }
+   ],
+   "nazev_zkraceny": "Dětské skupiny „DOMEČEK“ (Stavební úpravy budovy Vsetín",
+   "smlouvy": [
+    {
+     "datum_uzavreni": "2024-07-08",
+     "cena_bez_dph": 11734392.04,
+     "dodavatele": [
+      {
+       "ico": "26850648",
+       "nazev": "TESP Contract s.r.o.",
+       "pravni_forma": "112"
+      }
+     ],
+     "dodavatel_bez_ico": false,
+     "pocet_ucastniku": 1
+    },
+    {
+     "datum_uzavreni": "2024-07-15",
+     "cena_bez_dph": 709396.0,
+     "dodavatele": [
+      {
+       "ico": "25860852",
+       "nazev": "JASY Vsetín s.r.o.",
+       "pravni_forma": "112"
+      }
+     ],
+     "dodavatel_bez_ico": false,
+     "pocet_ucastniku": 1
+    },
+    {
+     "datum_uzavreni": "2024-07-19",
+     "cena_bez_dph": 236678.0,
+     "dodavatele": [
+      {
+       "ico": "46186123",
+       "nazev": null,
+       "pravni_forma": null
+      }
+     ],
+     "dodavatel_bez_ico": false,
+     "pocet_ucastniku": 1
+    }
+   ],
+   "dalsich_smluv_neprenseno": 0,
+   "predpokladana_hodnota_bez_dph": 15715000.0,
+   "druh_rizeni": "Zjednodušené podlimitní řízení",
+   "nabidky_casti": [
+    {
+     "celkem_nabidek": 3,
+     "elektronicky": 3,
+     "vyloucenych": 0,
+     "zadosti_o_ucast": null
+    },
+    {
+     "celkem_nabidek": 3,
+     "elektronicky": 3,
+     "vyloucenych": 0,
+     "zadosti_o_ucast": 3
+    },
+    {
+     "celkem_nabidek": 4,
+     "elektronicky": 4,
+     "vyloucenych": 0,
+     "zadosti_o_ucast": 4
+    }
+   ],
+   "dalsich_casti": 0,
+   "pocet_nabidek_odhad": 4
+  },
+  {
+   "id": "RVZ2500068793",
+   "posledni_verze": "2024-08-07",
+   "role_okruhu_mesta": [
+    "zadavatel"
+   ],
+   "druh": "Dodávky",
+   "rezim": "Nadlimitní",
+   "stav": null,
+   "zahajeni": null,
+   "zadavatele": [
+    {
+     "ico": "00304450",
+     "role": null,
+     "nazev": "Město Vsetín"
+    }
+   ],
+   "nazev_zkraceny": "Dodávka zemního plynu na období 01.01.2025 – 31.12.2026",
+   "smlouvy": [
+    {
+     "datum_uzavreni": null,
+     "cena_bez_dph": null,
+     "dodavatele": [
+      {
+       "ico": "60193492",
+       "nazev": "Pražská plynárenská, a.s.",
+       "pravni_forma": "121"
+      }
+     ],
+     "dodavatel_bez_ico": false,
+     "pocet_ucastniku": 1
+    }
+   ],
+   "dalsich_smluv_neprenseno": 0,
+   "predpokladana_hodnota_bez_dph": 19776960.0,
+   "druh_rizeni": "Jednací řízení bez uveřejnění",
+   "nabidky_casti": [
+    {
+     "celkem_nabidek": 13,
+     "elektronicky": 13,
+     "vyloucenych": null,
+     "zadosti_o_ucast": null
+    }
+   ],
+   "dalsich_casti": 0,
+   "pocet_nabidek_odhad": 13
+  },
+  {
+   "id": "RVZ2500063562",
+   "posledni_verze": "2024-05-22",
+   "role_okruhu_mesta": [
+    "zadavatel"
+   ],
+   "druh": "Stavební práce",
+   "rezim": "Zjednoduše",
+   "stav": null,
+   "zahajeni": null,
+   "zadavatele": [
+    {
+     "ico": "00304450",
+     "role": null,
+     "nazev": "Město Vsetín"
+    }
+   ],
+   "nazev_zkraceny": "OPRAVA MÍSTNÍ KOMUNIKACE OHRADA – II. ETAPA",
+   "smlouvy": [
+    {
+     "datum_uzavreni": "2024-04-30",
+     "cena_bez_dph": 3153382.0,
+     "dodavatele": [
+      {
+       "ico": "43005560",
+       "nazev": "PORR a.s.",
+       "pravni_forma": "121"
+      }
+     ],
+     "dodavatel_bez_ico": false,
+     "pocet_ucastniku": 1
+    }
+   ],
+   "dalsich_smluv_neprenseno": 0,
+   "predpokladana_hodnota_bez_dph": 4700000.0,
+   "druh_rizeni": "Zjednodušené podlimitní řízení",
+   "nabidky_casti": [
+    {
+     "celkem_nabidek": null,
+     "elektronicky": 6,
+     "vyloucenych": null,
+     "zadosti_o_ucast": null
+    }
+   ],
+   "dalsich_casti": 0,
+   "pocet_nabidek_odhad": 6
+  },
+  {
+   "id": "RVZ2500077994",
+   "posledni_verze": "2025-01-15",
+   "role_okruhu_mesta": [
+    "zadavatel"
+   ],
+   "druh": "Služby",
+   "rezim": "Podlimitní",
+   "stav": null,
+   "zahajeni": null,
+   "zadavatele": [
+    {
+     "ico": "00304450",
+     "role": null,
+     "nazev": "Město Vsetín"
+    }
+   ],
+   "nazev_zkraceny": "ALCEDO Vsetín – snížení energetické náročnosti – projek",
+   "smlouvy": [
+    {
+     "datum_uzavreni": "2024-12-17",
+     "cena_bez_dph": 2075000.0,
+     "dodavatele": [
+      {
+       "ico": "25388606",
+       "nazev": "MR Design CZ, s.r.o.",
+       "pravni_forma": "112"
+      }
+     ],
+     "dodavatel_bez_ico": false,
+     "pocet_ucastniku": 1
+    }
+   ],
+   "dalsich_smluv_neprenseno": 0,
+   "predpokladana_hodnota_bez_dph": 2310000.0,
+   "druh_rizeni": "Zjednodušené podlimitní řízení",
+   "nabidky_casti": [
+    {
+     "celkem_nabidek": 3,
+     "elektronicky": 3,
+     "vyloucenych": 1,
+     "zadosti_o_ucast": 3
+    }
+   ],
+   "dalsich_casti": 0,
+   "pocet_nabidek_odhad": 3
+  },
+  {
+   "id": "RVZ2500091028",
+   "posledni_verze": "2025-01-03",
+   "role_okruhu_mesta": [
+    "zadavatel"
+   ],
+   "druh": "Služby",
+   "rezim": "Podlimitní",
+   "stav": null,
+   "zahajeni": null,
+   "zadavatele": [
+    {
+     "ico": "00304450",
+     "role": null,
+     "nazev": "Město Vsetín"
+    }
+   ],
+   "nazev_zkraceny": "REVITALIZACE DOLNÍHO NÁMĚSTÍ VE VSETÍNĚ - projektová do",
+   "smlouvy": [],
+   "dalsich_smluv_neprenseno": 0,
+   "predpokladana_hodnota_bez_dph": 2100000.0,
+   "druh_rizeni": "Zjednodušené podlimitní řízení",
+   "nabidky_casti": [
+    {
+     "celkem_nabidek": 1,
+     "elektronicky": 1,
+     "vyloucenych": 0,
+     "zadosti_o_ucast": 1
+    }
+   ],
+   "dalsich_casti": 0,
+   "pocet_nabidek_odhad": 1
+  },
+  {
+   "id": "RVZ2500091994",
+   "posledni_verze": "2025-06-16",
+   "role_okruhu_mesta": [
+    "zadavatel"
+   ],
+   "druh": "Služby",
+   "rezim": "Nadlimitní",
+   "stav": null,
+   "zahajeni": null,
+   "zadavatele": [
+    {
+     "ico": "00304450",
+     "role": "Hlavní",
+     "nazev": "Město Vsetín"
+    },
+    {
+     "ico": "70934860",
+     "role": "Člen s",
+     "nazev": "Ředitelství silnic Zlínského kraje,příspěvková organizace"
+    }
+   ],
+   "nazev_zkraceny": "Přednádražní prostor - I. etapa - Vsetín - DSP a DPS",
+   "smlouvy": [
+    {
+     "datum_uzavreni": "2020-07-02",
+     "cena_bez_dph": null,
+     "dodavatele": [
+      {
+       "ico": "44961944",
+       "nazev": "HBH Projekt spol. s r.o.",
+       "pravni_forma": "112"
+      }
+     ],
+     "dodavatel_bez_ico": false,
+     "pocet_ucastniku": 1
+    }
+   ],
+   "dalsich_smluv_neprenseno": 0,
+   "predpokladana_hodnota_bez_dph": null,
+   "druh_rizeni": "",
+   "nabidky_casti": [
+    {
+     "celkem_nabidek": null,
+     "elektronicky": null,
+     "vyloucenych": null,
+     "zadosti_o_ucast": null
+    }
+   ],
+   "dalsich_casti": 0,
+   "pocet_nabidek_odhad": null
+  },
+  {
+   "id": "RVZ2500056492",
+   "posledni_verze": "2024-02-12",
+   "role_okruhu_mesta": [
+    "zadavatel"
+   ],
+   "druh": "Stavební práce",
+   "rezim": "Podlimitní",
+   "stav": null,
+   "zahajeni": null,
+   "zadavatele": [
+    {
+     "ico": "00304450",
+     "role": null,
+     "nazev": "Město Vsetín"
+    }
+   ],
+   "nazev_zkraceny": "Stavební úpravy DPS 1846 ul. Generála Klapálka -  SO 04",
+   "smlouvy": [
+    {
+     "datum_uzavreni": "2024-01-29",
+     "cena_bez_dph": 3820943.47,
+     "dodavatele": [
+      {
+       "ico": "05931738",
+       "nazev": "ADAR ing s.r.o.",
+       "pravni_forma": "112"
+      }
+     ],
+     "dodavatel_bez_ico": false,
+     "pocet_ucastniku": 1
+    }
+   ],
+   "dalsich_smluv_neprenseno": 0,
+   "predpokladana_hodnota_bez_dph": 4250000.0,
+   "druh_rizeni": "Zjednodušené podlimitní řízení",
+   "nabidky_casti": [
+    {
+     "celkem_nabidek": null,
+     "elektronicky": 2,
+     "vyloucenych": null,
+     "zadosti_o_ucast": null
+    }
+   ],
+   "dalsich_casti": 0,
+   "pocet_nabidek_odhad": 2
+  },
+  {
+   "id": "RVZ2500076728",
+   "posledni_verze": "2025-03-06",
+   "role_okruhu_mesta": [
+    "zadavatel"
+   ],
+   "druh": "Dodávky",
+   "rezim": "Nadlimitní",
+   "stav": null,
+   "zahajeni": "2024-12-17",
+   "zadavatele": [
+    {
+     "ico": "00304450",
+     "role": null,
+     "nazev": "Město Vsetín"
+    }
+   ],
+   "nazev_zkraceny": "DODÁVKA HW, SW A SLUŽEB PRO ZABEZPEČENÍ A PROVOZ SÍTĚ P",
+   "smlouvy": [
+    {
+     "datum_uzavreni": "2025-02-28",
+     "cena_bez_dph": 4870200.0,
+     "dodavatele": [
+      {
+       "ico": "03431045",
+       "nazev": "IT AWACS SOLUTION s.r.o.",
+       "pravni_forma": "112"
+      }
+     ],
+     "dodavatel_bez_ico": false,
+     "pocet_ucastniku": 1
+    }
+   ],
+   "dalsich_smluv_neprenseno": 0,
+   "predpokladana_hodnota_bez_dph": 4969763.0,
+   "druh_rizeni": "Otevřené řízení",
+   "nabidky_casti": [
+    {
+     "celkem_nabidek": 1,
+     "elektronicky": 1,
+     "vyloucenych": 0,
+     "zadosti_o_ucast": 1
+    }
+   ],
+   "dalsich_casti": 0,
+   "pocet_nabidek_odhad": 1
+  },
+  {
+   "id": "RVZ2500084981",
+   "posledni_verze": "2025-06-27",
+   "role_okruhu_mesta": [
+    "zadavatel"
+   ],
+   "druh": "Služby",
+   "rezim": "Nadlimitní",
+   "stav": null,
+   "zahajeni": "2025-04-15",
+   "zadavatele": [
+    {
+     "ico": "00304450",
+     "role": null,
+     "nazev": "Město Vsetín"
+    }
+   ],
+   "nazev_zkraceny": "ZAJIŠTĚNÍ, VÝROBA A ODBAVENÍ TELEVIZNÍHO ZPRAVODAJSTVÍ",
+   "smlouvy": [
+    {
+     "datum_uzavreni": "2025-06-25",
+     "cena_bez_dph": 8352800.0,
+     "dodavatele": [
+      {
+       "ico": "19851936",
+       "nazev": "ES videoprodukce s.r.o.",
+       "pravni_forma": "112"
+      }
+     ],
+     "dodavatel_bez_ico": false,
+     "pocet_ucastniku": 1
+    }
+   ],
+   "dalsich_smluv_neprenseno": 0,
+   "predpokladana_hodnota_bez_dph": 8192000.0,
+   "druh_rizeni": "Otevřené řízení",
+   "nabidky_casti": [
+    {
+     "celkem_nabidek": 1,
+     "elektronicky": 1,
+     "vyloucenych": 0,
+     "zadosti_o_ucast": 1
+    }
+   ],
+   "dalsich_casti": 0,
+   "pocet_nabidek_odhad": 1
+  },
+  {
+   "id": "RVZ2500075030",
+   "posledni_verze": "2024-11-20",
+   "role_okruhu_mesta": [
+    "zadavatel"
+   ],
+   "druh": "Služby",
+   "rezim": "Podlimitní",
+   "stav": null,
+   "zahajeni": null,
+   "zadavatele": [
+    {
+     "ico": "00304450",
+     "role": null,
+     "nazev": "Město Vsetín"
+    }
+   ],
+   "nazev_zkraceny": "Zpracování Studie systému sídelní zeleně města Vsetín",
+   "smlouvy": [
+    {
+     "datum_uzavreni": "2024-11-12",
+     "cena_bez_dph": 926500.0,
+     "dodavatele": [
+      {
+       "ico": "02017342",
+       "nazev": "Atregia s.r.o.",
+       "pravni_forma": "112"
+      }
+     ],
+     "dodavatel_bez_ico": false,
+     "pocet_ucastniku": 1
+    }
+   ],
+   "dalsich_smluv_neprenseno": 0,
+   "predpokladana_hodnota_bez_dph": 3600000.0,
+   "druh_rizeni": "Zjednodušené podlimitní řízení",
+   "nabidky_casti": [
+    {
+     "celkem_nabidek": 3,
+     "elektronicky": 3,
+     "vyloucenych": 0,
+     "zadosti_o_ucast": 0
+    }
+   ],
+   "dalsich_casti": 0,
+   "pocet_nabidek_odhad": 3
+  },
+  {
+   "id": "RVZ2500077990",
+   "posledni_verze": "2025-01-15",
+   "role_okruhu_mesta": [
+    "zadavatel"
+   ],
+   "druh": "Služby",
+   "rezim": "Podlimitní",
+   "stav": null,
+   "zahajeni": null,
+   "zadavatele": [
+    {
+     "ico": "00304450",
+     "role": null,
+     "nazev": "Město Vsetín"
+    }
+   ],
+   "nazev_zkraceny": "Reklama a propagace města Vsetín 2024",
+   "smlouvy": [
+    {
+     "datum_uzavreni": "2024-12-18",
+     "cena_bez_dph": 3305785.0,
+     "dodavatele": [
+      {
+       "ico": "25399985",
+       "nazev": "VHK Vsetín s.r.o.",
+       "pravni_forma": "112"
+      }
+     ],
+     "dodavatel_bez_ico": false,
+     "pocet_ucastniku": 1
+    }
+   ],
+   "dalsich_smluv_neprenseno": 0,
+   "predpokladana_hodnota_bez_dph": 3305785.0,
+   "druh_rizeni": "Jednací řízení bez uveřejnění",
+   "nabidky_casti": [
+    {
+     "celkem_nabidek": 1,
+     "elektronicky": 1,
+     "vyloucenych": 0,
+     "zadosti_o_ucast": 1
+    }
+   ],
+   "dalsich_casti": 0,
+   "pocet_nabidek_odhad": 1
+  },
+  {
+   "id": "RVZ2500079982",
+   "posledni_verze": "2024-11-20",
+   "role_okruhu_mesta": [
+    "zadavatel"
+   ],
+   "druh": "Služby",
+   "rezim": "Podlimitní",
+   "stav": null,
+   "zahajeni": null,
+   "zadavatele": [
+    {
+     "ico": "00304450",
+     "role": null,
+     "nazev": "Město Vsetín"
+    }
+   ],
+   "nazev_zkraceny": "ZPRACOVÁNÍ LHO VSETÍN – ZAŘIZOVACÍ OBVOD VELKÉ KARLOVIC",
+   "smlouvy": [
+    {
+     "datum_uzavreni": "2024-11-12",
+     "cena_bez_dph": 2880000.0,
+     "dodavatele": [
+      {
+       "ico": "24170852",
+       "nazev": "ING-FOREST s.r.o.",
+       "pravni_forma": "112"
+      }
+     ],
+     "dodavatel_bez_ico": false,
+     "pocet_ucastniku": 1
+    }
+   ],
+   "dalsich_smluv_neprenseno": 0,
+   "predpokladana_hodnota_bez_dph": 2500000.0,
+   "druh_rizeni": "Zjednodušené podlimitní řízení",
+   "nabidky_casti": [
+    {
+     "celkem_nabidek": 2,
+     "elektronicky": 2,
+     "vyloucenych": 0,
+     "zadosti_o_ucast": 0
+    }
+   ],
+   "dalsich_casti": 0,
+   "pocet_nabidek_odhad": 2
+  },
+  {
+   "id": "RVZ2500079330",
+   "posledni_verze": "2024-08-07",
+   "role_okruhu_mesta": [
+    "zadavatel"
+   ],
+   "druh": "Dodávky",
+   "rezim": "Nadlimitní",
+   "stav": null,
+   "zahajeni": null,
+   "zadavatele": [
+    {
+     "ico": "00304450",
+     "role": null,
+     "nazev": "Město Vsetín"
+    }
+   ],
+   "nazev_zkraceny": "Dodávka elektřiny na období 01.01.2025 – 31.12.2026",
+   "smlouvy": [
+    {
+     "datum_uzavreni": null,
+     "cena_bez_dph": null,
+     "dodavatele": [
+      {
+       "ico": "60193492",
+       "nazev": "Pražská plynárenská, a.s.",
+       "pravni_forma": "121"
+      }
+     ],
+     "dodavatel_bez_ico": false,
+     "pocet_ucastniku": 1
+    },
+    {
+     "datum_uzavreni": null,
+     "cena_bez_dph": null,
+     "dodavatele": [
+      {
+       "ico": "60193492",
+       "nazev": "Pražská plynárenská, a.s.",
+       "pravni_forma": "121"
+      }
+     ],
+     "dodavatel_bez_ico": false,
+     "pocet_ucastniku": 1
+    }
+   ],
+   "dalsich_smluv_neprenseno": 0,
+   "predpokladana_hodnota_bez_dph": 39718292.0,
+   "druh_rizeni": "Jednací řízení bez uveřejnění",
+   "nabidky_casti": [
+    {
+     "celkem_nabidek": 15,
+     "elektronicky": 15,
+     "vyloucenych": null,
+     "zadosti_o_ucast": null
+    },
+    {
+     "celkem_nabidek": 15,
+     "elektronicky": 15,
+     "vyloucenych": null,
+     "zadosti_o_ucast": null
+    }
+   ],
+   "dalsich_casti": 0,
+   "pocet_nabidek_odhad": 15
+  },
+  {
+   "id": "RVZ2500080990",
+   "posledni_verze": "2025-02-04",
+   "role_okruhu_mesta": [
+    "zadavatel"
+   ],
+   "druh": "Stavební práce",
+   "rezim": "Podlimitní",
+   "stav": null,
+   "zahajeni": null,
+   "zadavatele": [
+    {
+     "ico": "00304450",
+     "role": null,
+     "nazev": "Město Vsetín"
+    }
+   ],
+   "nazev_zkraceny": "STAVEBNÍ ÚPRAVY DPS 1579, STAVEBNÍ ÚPRAVY BYTŮ 4x2+KK -",
+   "smlouvy": [
+    {
+     "datum_uzavreni": "2025-01-08",
+     "cena_bez_dph": 2591194.75,
+     "dodavatele": [
+      {
+       "ico": "26850648",
+       "nazev": "TESP Contract s.r.o.",
+       "pravni_forma": "112"
+      }
+     ],
+     "dodavatel_bez_ico": false,
+     "pocet_ucastniku": 1
+    }
+   ],
+   "dalsich_smluv_neprenseno": 0,
+   "predpokladana_hodnota_bez_dph": 3300000.0,
+   "druh_rizeni": "Zjednodušené podlimitní řízení",
+   "nabidky_casti": [
+    {
+     "celkem_nabidek": 8,
+     "elektronicky": 8,
+     "vyloucenych": 0,
+     "zadosti_o_ucast": 8
+    }
+   ],
+   "dalsich_casti": 0,
+   "pocet_nabidek_odhad": 8
+  },
+  {
+   "id": "RVZ2500078853",
+   "posledni_verze": "2024-05-20",
+   "role_okruhu_mesta": [
+    "zadavatel"
+   ],
+   "druh": "Stavební práce",
+   "rezim": "Zjednoduše",
+   "stav": null,
+   "zahajeni": null,
+   "zadavatele": [
+    {
+     "ico": "00304450",
+     "role": null,
+     "nazev": "Město Vsetín"
+    }
+   ],
+   "nazev_zkraceny": "STAVEBNÍ ÚPRAVY LÁVKY EV. Č. VS-02-BEL",
+   "smlouvy": [
+    {
+     "datum_uzavreni": "2024-05-03",
+     "cena_bez_dph": 7478610.0,
+     "dodavatele": [
+      {
+       "ico": "48399477",
+       "nazev": "TM  Stav, spol. s r.o.",
+       "pravni_forma": "112"
+      }
+     ],
+     "dodavatel_bez_ico": false,
+     "pocet_ucastniku": 1
+    }
+   ],
+   "dalsich_smluv_neprenseno": 0,
+   "predpokladana_hodnota_bez_dph": 7000000.0,
+   "druh_rizeni": "Zjednodušené podlimitní řízení",
+   "nabidky_casti": [
+    {
+     "celkem_nabidek": null,
+     "elektronicky": 4,
+     "vyloucenych": null,
+     "zadosti_o_ucast": null
+    }
+   ],
+   "dalsich_casti": 0,
+   "pocet_nabidek_odhad": 4
+  },
+  {
+   "id": "RVZ2500078011",
+   "posledni_verze": "2025-01-15",
+   "role_okruhu_mesta": [
+    "zadavatel"
+   ],
+   "druh": "Stavební práce",
+   "rezim": "Podlimitní",
+   "stav": null,
+   "zahajeni": null,
+   "zadavatele": [
+    {
+     "ico": "00304450",
+     "role": null,
+     "nazev": "Město Vsetín"
+    }
+   ],
+   "nazev_zkraceny": "Zanádražní prostor Vsetín",
+   "smlouvy": [],
+   "dalsich_smluv_neprenseno": 0,
+   "predpokladana_hodnota_bez_dph": null,
+   "druh_rizeni": "",
+   "nabidky_casti": [
+    {
+     "celkem_nabidek": null,
+     "elektronicky": null,
+     "vyloucenych": null,
+     "zadosti_o_ucast": null
+    }
+   ],
+   "dalsich_casti": 0,
+   "pocet_nabidek_odhad": null
+  },
+  {
+   "id": "RVZ2500078015",
+   "posledni_verze": "2025-04-29",
+   "role_okruhu_mesta": [
+    "zadavatel"
+   ],
+   "druh": "Služby",
+   "rezim": "Nadlimitní",
+   "stav": null,
+   "zahajeni": "2025-01-15",
+   "zadavatele": [
+    {
+     "ico": "00304450",
+     "role": null,
+     "nazev": "Město Vsetín"
+    }
+   ],
+   "nazev_zkraceny": "REVITALIZACE DOLNÍHO NÁMĚSTÍ VE VSETÍNĚ - projektová do",
+   "smlouvy": [
+    {
+     "datum_uzavreni": "2025-04-16",
+     "cena_bez_dph": 3999906.0,
+     "dodavatele": [
+      {
+       "ico": "08014469",
+       "nazev": "FILDMAN PROJEKT s.r.o.",
+       "pravni_forma": "112"
+      }
+     ],
+     "dodavatel_bez_ico": false,
+     "pocet_ucastniku": 1
+    }
+   ],
+   "dalsich_smluv_neprenseno": 0,
+   "predpokladana_hodnota_bez_dph": 4200000.0,
+   "druh_rizeni": "Otevřené řízení",
+   "nabidky_casti": [
+    {
+     "celkem_nabidek": 3,
+     "elektronicky": 3,
+     "vyloucenych": 0,
+     "zadosti_o_ucast": 0
+    }
+   ],
+   "dalsich_casti": 0,
+   "pocet_nabidek_odhad": 3
+  },
+  {
+   "id": "RVZ2500057182",
+   "posledni_verze": "2024-05-20",
+   "role_okruhu_mesta": [
+    "zadavatel"
+   ],
+   "druh": "Dodávky",
+   "rezim": "Nadlimitní",
+   "stav": null,
+   "zahajeni": "2024-02-19",
+   "zadavatele": [
+    {
+     "ico": "00304450",
+     "role": null,
+     "nazev": "Město Vsetín"
+    }
+   ],
+   "nazev_zkraceny": "DODÁVKA PRUŽNÝCH MANTINELŮ A OCHRANNÝCH PLEXISKEL",
+   "smlouvy": [
+    {
+     "datum_uzavreni": "2024-05-03",
+     "cena_bez_dph": 6981112.11,
+     "dodavatele": [
+      {
+       "ico": "27860221",
+       "nazev": "PERFECT ICE s.r.o.",
+       "pravni_forma": "112"
+      }
+     ],
+     "dodavatel_bez_ico": false,
+     "pocet_ucastniku": 1
+    }
+   ],
+   "dalsich_smluv_neprenseno": 0,
+   "predpokladana_hodnota_bez_dph": 7700000.0,
+   "druh_rizeni": "Otevřené řízení",
+   "nabidky_casti": [
+    {
+     "celkem_nabidek": null,
+     "elektronicky": 2,
+     "vyloucenych": null,
+     "zadosti_o_ucast": null
+    }
+   ],
+   "dalsich_casti": 0,
+   "pocet_nabidek_odhad": 2
+  },
+  {
+   "id": "RVZ2500068788",
+   "posledni_verze": "2024-08-07",
+   "role_okruhu_mesta": [
+    "zadavatel"
+   ],
+   "druh": "Dodávky",
+   "rezim": "Nadlimitní",
+   "stav": null,
+   "zahajeni": null,
+   "zadavatele": [
+    {
+     "ico": "00304450",
+     "role": null,
+     "nazev": "Město Vsetín"
+    }
+   ],
+   "nazev_zkraceny": "Dodávka elektřiny na období 01.01.2025 – 31.12.2026",
+   "smlouvy": [
+    {
+     "datum_uzavreni": null,
+     "cena_bez_dph": null,
+     "dodavatele": [
+      {
+       "ico": "60193492",
+       "nazev": "Pražská plynárenská, a.s.",
+       "pravni_forma": "121"
+      }
+     ],
+     "dodavatel_bez_ico": false,
+     "pocet_ucastniku": 1
+    },
+    {
+     "datum_uzavreni": null,
+     "cena_bez_dph": null,
+     "dodavatele": [
+      {
+       "ico": "60193492",
+       "nazev": "Pražská plynárenská, a.s.",
+       "pravni_forma": "121"
+      }
+     ],
+     "dodavatel_bez_ico": false,
+     "pocet_ucastniku": 1
+    }
+   ],
+   "dalsich_smluv_neprenseno": 0,
+   "predpokladana_hodnota_bez_dph": 39718292.0,
+   "druh_rizeni": "Jednací řízení bez uveřejnění",
+   "nabidky_casti": [
+    {
+     "celkem_nabidek": 15,
+     "elektronicky": 15,
+     "vyloucenych": 0,
+     "zadosti_o_ucast": 15
+    },
+    {
+     "celkem_nabidek": 15,
+     "elektronicky": 15,
+     "vyloucenych": 0,
+     "zadosti_o_ucast": null
+    }
+   ],
+   "dalsich_casti": 0,
+   "pocet_nabidek_odhad": 15
+  },
+  {
+   "id": "RVZ2500080997",
+   "posledni_verze": "2025-02-04",
+   "role_okruhu_mesta": [
+    "zadavatel"
+   ],
+   "druh": "Stavební práce",
+   "rezim": "Podlimitní",
+   "stav": null,
+   "zahajeni": null,
+   "zadavatele": [
+    {
+     "ico": "00304450",
+     "role": null,
+     "nazev": "Město Vsetín"
+    }
+   ],
+   "nazev_zkraceny": "STAVEBNÍ ÚPRAVY DPS 1846 UL. GENERÁLA KLAPÁLKA -  SO 04",
+   "smlouvy": [
+    {
+     "datum_uzavreni": "2025-01-08",
+     "cena_bez_dph": 5571080.76,
+     "dodavatele": [
+      {
+       "ico": "26850648",
+       "nazev": "TESP Contract s.r.o.",
+       "pravni_forma": "112"
+      }
+     ],
+     "dodavatel_bez_ico": false,
+     "pocet_ucastniku": 1
+    }
+   ],
+   "dalsich_smluv_neprenseno": 0,
+   "predpokladana_hodnota_bez_dph": 7000000.0,
+   "druh_rizeni": "Zjednodušené podlimitní řízení",
+   "nabidky_casti": [
+    {
+     "celkem_nabidek": 4,
+     "elektronicky": 4,
+     "vyloucenych": 0,
+     "zadosti_o_ucast": 4
+    }
+   ],
+   "dalsich_casti": 0,
+   "pocet_nabidek_odhad": 4
+  }
+ ],
+ "nabidky_zdroj": "Druhý průchod 22 souborů VZ (2024 roční + 01/2025–09/2026) 23. 10. 2026, dokončeno 10:45 SELČ; nejnovější verze záznamu.",
+ "profil_zadavatele_mesta": "www.vhodne-uverejneni.cz/profil/00304450 (dle RVZ, pole adresa_profilu)"
+}

@@ -110,3 +110,19 @@
 - `subjekty.json`: blok `ares` u všech subjektů s IČO; doplněna IČO Damostis (23287152) a MUNIPOLIS (29198950).
 - AERV o.p.s. (zakladatel město) zrušena k 31. 12. 2023, vymazána z OR 18. 12. 2024 – souvislost s narovnáním 3,85 mil. a vkladem 3,6 mil. (2023) zapsána k ověření.
 - MŠ Trávníky 1218 (IČO 60042354 dle RO 11/2025) v ARES neexistuje – k ověření.
+
+## 2026-10-23 (texty dokumentů – schváleno pro dev)
+- `integrace/sources/dokumenty.py` + CLI `python -m integrace dokumenty`: stažení dokumentů města (PDF/HTML/ZIP), text po stranách do `raw/texty/<sha256>/p<N>.txt` + `meta.json`, tabulka `dokument_text`; skeny označeny `textova_vrstva: false` (bez OCR).
+- `scripts/seznam_dokumentu.py` → `data/integrace/dokumenty_seznam.txt` (158 URL z dat repa).
+- Testy `tests/test_dokumenty.py` (7, offline); ověřeno na reálné příloze registru smluv (kupní smlouva Tribuna): SHA-256 = hash uvedený registrem, 13/13 stran s textem.
+- Zadání pro Claude Code: `docs/ZADANI_CLAUDE_CODE_texty_dokumentu_2026-10-23.md`.
+- Revize stavů A-2023-01/A-2024-01 (potvrzena existence nesouladu, výše se liší o 5 514,00 / 34 012,00 Kč) a A-2025-01 (potvrzeno včetně výše).
+
+## 2026-10-23 (várka p – párování IČO se smlouvami)
+- `data/smlouvy/parovani_ico.json`: 73 ověřených IČO × registr smluv (obousměrně) → 60 IČO, 767 smluv; součty, dodatky, dary, největší smlouvy; skript `scripts/registr_smluv_parovani_ico.js`; schéma + validace.
+- Signály P-01 (dary 4 dodavatelů projektu MVK, smlouvy 0781–0784 2025), P-02 (AERV: vklad 3,6 mil. 10 dní před zrušením), P-03 (podíl dodatků Martin Urban, TM Stav).
+- K-003: 39830353 = Dodatek č. 1 k SoD Vs-04-Bel, +641 950,51 Kč bez DPH, cena díla 69,63 mil. bez DPH.
+
+## 2026-10-23 (várka q – kauza K-004 AERV)
+- `data/kauzy/K-004_AERV_zruseni.json`: řetězec dohoda 2012 → narovnání DPH 3 848 880 Kč (= 21 % z 18 328 000) → zrušení (usn. 10/9/ZM/2023) → vklad 3,6 mil. na likvidaci (usn. 1/10/ZM/2023) → převod likvidačního zůstatku (2024) → výmaz.
+- Signál P-02 „zčásti vysvětleno“; otevřené: výše likvidačního zůstatku.

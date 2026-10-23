@@ -1,0 +1,59 @@
+{
+ "schema": "vsetin-osint/retezec-rozhodnuti-penize@1",
+ "id": "UVER-2011-CSOB-KONTOKORENT",
+ "nazev": "Kontokorentní úvěr ČSOB č. 2053/10/5625 (smlouva 611/1S/2011)",
+ "vytezeno": "2026-10-23 11:30 SELČ",
+ "retezec": [
+  {
+   "datum": "2011-01-05",
+   "typ": "smlouva",
+   "id": "č. 2053/10/5625 (interně 611/1S/2011)",
+   "text": "Kontokorentní úvěr, úvěrový limit 100 000 000 Kč; úrok 7denní PRIBOR + marže 0,6 % p.a.; bez zajištění; na dobu neurčitou s výpovědí (konečná splatnost = konec 3měsíční výpovědní lhůty)",
+   "zdroj": "https://smlouvy.gov.cz/smlouva/23638677",
+   "priloha": "https://smlouvy.gov.cz/smlouva/soubor/29309089/0611_2011_A.pdf",
+   "overeni": "text PDF (sken s OCR, pdftotext)"
+  },
+  {
+   "datum": "2023-02-24",
+   "typ": "dodatek č. 1",
+   "id": "registr smluv verze 23638677 (zveřejněno 3. 3. 2023)",
+   "text": "marže se mění na 0,3 % p.a.; doplněno prohlášení o povinnosti uveřejnění v registru smluv. Výše limitu se dodatkem č. 1 NEMĚNÍ.",
+   "zdroj": "https://smlouvy.gov.cz/smlouva/23638677",
+   "priloha": "https://smlouvy.gov.cz/smlouva/soubor/29309093/D1_0611_2011_A.pdf",
+   "overeni": "text PDF"
+  },
+  {
+   "datum": "neuvedeno (mezi 2023-02-24 a 2026-09)",
+   "typ": "dodatek č. 2",
+   "id": "není v registru smluv",
+   "text": "limit kontokorentu zvýšen na 200 000 000 Kč „s ohledem na plánovaný vysoký objem připravovaných investičních akcí“ (podle důvodové zprávy k 23/27/ZM/2026)",
+   "zdroj": "https://mestovsetin.cz/assets/File.ashx?id_org=18676&id_dokumenty=570297",
+   "overeni": "text důvodové zprávy (balíček materiálů ZM 27, HTML); samotný dodatek č. 2 neviděn"
+  },
+  {
+   "datum": "2026-09-21",
+   "typ": "usnesení ZM",
+   "id": "23/27/ZM/2026",
+   "text": "ZM schvaluje uzavření Dodatku č. 3 ke smlouvě o úvěru č. 2053/10/5625. Podle důvodové zprávy dodatek č. 3 SNIŽUJE limit kontokorentu z 200 000 000 na 100 000 000 Kč (ostatní podmínky beze změny), protože město uzavřelo investiční úvěrový rámec 500 mil. Kč.",
+   "zdroj": "https://mestovsetin.cz/assets/File.ashx?id_org=18676&id_dokumenty=570501",
+   "overeni": "text PDF usnesení",
+   "zdroj_duvodova_zprava": "https://mestovsetin.cz/assets/File.ashx?id_org=18676&id_dokumenty=570297"
+  },
+  {
+   "datum": "2026-09-21",
+   "typ": "rozpočtové opatření",
+   "id": "RO-2026-17 (24/27/ZM/2026)",
+   "text": "financování schodku: krátkodobé prostředky (8113) 200 → 100 mil. Kč, investiční úvěrový rámec (8123) +100 mil. Kč; podle důvodové zprávy budou z úvěru v případě nutnosti dofinancovány akce „Lávka Vs-04-Bel přes Bečvu u SPŠS“ a „Přednádražní prostor, etapa 1.B“",
+   "zdroj": "https://mestovsetin.cz/assets/File.ashx?id_org=18676&id_dokumenty=570297",
+   "overeni": "text důvodové zprávy"
+  }
+ ],
+ "zjisteni": [
+  "FAKT: kontokorent 2053/10/5625 (od 5. 1. 2011) slouží k překlenutí časového nesouladu příjmů a výdajů; podle důvodové zprávy byl čerpán jen v letech 2011–2012 a je veden bez poplatků a bez úroku z nečerpané částky. MONITOR 2020–2025: pol. 8113 výsledek 0 ve všech letech – shoda.",
+  "FAKT: limit 100 mil. (2011) → 200 mil. (dodatek č. 2) → 100 mil. (dodatek č. 3, schválen 21. 9. 2026). Rozpočtová částka 8113 = 200 mil. v letech 2024–2026 odpovídá limitu po dodatku č. 2 (dříve hypotéza, nyní doloženo důvodovou zprávou).",
+  "FAKT: dodatek č. 2 ani č. 3 v registru smluv nejsou (vyhledávání 23. 10. 2026). Nesoulad k vysvětlení, ne zjištění pochybení (výjimky zákona 340/2015 Sb., případně dodatek č. 3 ještě nemusí být podepsán).",
+  "NESOULAD (ověřeno 23. 10. 11:30 SELČ): důvodová zpráva k 23/27/ZM/2026 uvádí, že ZM schválilo úvěrový rámec „dne 08.06.2026“. Výpis usnesení ZM 26 (id_dokumenty=569002) uvádí konání 22. 6. 2026 a usnesení 23/26/ZM/2026; dne 8. 6. 2026 zasedala jen Rada (schůze 98 a 99, id 568715 a 568454) a její výpisy úvěr nezmiňují (stejně RM 100, 22. 6.). Datum 8. 6. tedy není doloženo žádným zveřejněným usnesením – jde o chybu v textu důvodové zprávy, nikoli o jiné schválení.",
+  "NESOULAD (drobný): důvodová zpráva uvádí číslo smlouvy „2053/10/5325“ místo 2053/10/5625 (překlep).",
+  "VAZBA K-003: investiční úvěr má podle důvodové zprávy v případě potřeby dofinancovat lávku Vs-04-Bel a Přednádražní prostor 1.B."
+ ]
+}

@@ -77,8 +77,8 @@
     },
     {
       "datum": "2026-10-05",
-      "popis": "Mitrenga-stavby – další smlouva 776 760 Kč (k ověření, zda dodatek).",
-      "zdroj": "https://www.hlidacstatu.cz/Detail/39830353"
+      "popis": "Dodatek č. 1 (D1 0138 2025) k SoD 0138 2025 s Mitrenga-stavby: změna termínu plnění a ceny díla +641 950,51 Kč bez DPH (776 760 Kč s DPH); cena díla 69 625 701 Kč bez DPH. Ověřeno v registru smluv (ID návazné smlouvy 33033369).",
+      "zdroj": "https://smlouvy.gov.cz/smlouva/39830353"
     }
   ],
   "penize": {
@@ -88,7 +88,9 @@
     "narust_nasobek": 3.54,
     "VZ_I_predp": 58000000,
     "VZ_II_predp": 72000000,
-    "VZ_II_vitezna_bez_DPH": 68983750.54
+    "VZ_II_vitezna_bez_DPH": 68983750.54,
+    "dodatek_1_bez_DPH": 641950.51,
+    "SoD_po_dodatku_1_bez_DPH": 69625701.05
   },
   "otazky": [
     "Proč byla smlouva s TM Stav ukončena a za co bylo placeno narovnání 2,17 mil. Kč?",

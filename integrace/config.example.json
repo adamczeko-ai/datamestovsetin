@@ -3,7 +3,7 @@
  "obec_kod": 541630,
  "monitor_od": 2020,
  "monitor_mesicne_pred_2026": false,
- "min_interval_s": {"monitor": 1.0, "ruian": 1.0, "rvz": 2.0, "vr": 0.7, "smlouvy": 2.0, "dotace": 1.5},
+ "min_interval_s": {"monitor": 1.0, "ruian": 1.0, "rvz": 2.0, "vr": 0.7, "smlouvy": 2.0, "dokumenty": 2.0, "dotace": 1.5},
  "sledovana_ico": [
   "00304450",
   "00851817", "00851922", "75063468",

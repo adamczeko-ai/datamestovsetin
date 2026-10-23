@@ -1,0 +1,88 @@
+{
+ "schema": "vsetin-osint/nipez-pruchod@1",
+ "stav": "DOKONČENO – po obnovení spojení s prohlížečem přeneseno všech 163 nálezů → 83 unikátních zakázek (data/zakazky/nipez_vz_okruh_mesta_2024_2026.json)",
+ "provedeno": "2026-10-23 cca 07:15–07:40 SELČ (05:15–05:40 UTC), Claude in Chrome, proudové zpracování ZIP→deflate→JSON v prohlížeči",
+ "zdroj": "https://isvz.nipez.cz/opendata/nova/{rok}/kategorie",
+ "sledovana_ico": [
+  "00304450",
+  "75063468",
+  "60990406",
+  "00851817",
+  "60990449",
+  "60990368",
+  "60990465",
+  "60990457",
+  "00851922",
+  "60042371",
+  "60042362",
+  "60042389",
+  "70872236",
+  "60609231",
+  "60609249",
+  "60042354",
+  "28593987",
+  "47972114",
+  "47678054",
+  "26782596",
+  "19690711",
+  "25909614"
+ ],
+ "kriterium": "IČO kdekoli v záznamu (zadavatel, účastník, dodavatel) – shoda řetězce \"ico\"",
+ "soubory": {
+  "zpracovano": 25,
+  "rozsah": "VZ-2024_rocni (02–12/2024, jeden roční soubor) + VZ-01-2025 … VZ-09-2026 měsíčně",
+  "zjisteni_formatu": "Rok 2024 je zveřejněn jen jako roční soubor VZ-2024_rocni.zip (206 947 856 B, ETag \"c55c610-653518d329951\"); měsíční názvy VZ-MM-2024 vrací 404.",
+  "ukazky": [
+   {
+    "klic": "VZ-09-2026",
+    "bytes": 182978633,
+    "etag": "\"ae80849-65cd3913ebec4\"",
+    "zaznamu": 156169,
+    "nalezu": 3,
+    "sekund": 41
+   },
+   {
+    "klic": "VZ-03-2026",
+    "zaznamu": 18080,
+    "nalezu": 5
+   },
+   {
+    "klic": "VZ-02-2026",
+    "zaznamu": 78548,
+    "nalezu": 8
+   },
+   {
+    "klic": "VZ-01-2026",
+    "zaznamu": 70600,
+    "nalezu": 12
+   },
+   {
+    "klic": "VZ-2024_rocni",
+    "bytes": 206947856,
+    "zaznamu": 191406,
+    "nalezu": 11,
+    "sekund": 86
+   }
+  ],
+  "nalezu_celkem": 163,
+  "chyb": 0,
+  "pozn": "Nálezy jsou VERZE záznamů (stejná zakázka se opakuje v měsících podle změn) – před analýzou deduplikovat podle identifikator_NIPEZ a casova_znacka."
+ },
+ "overena_struktura": {
+  "id": "verejna_zakazka.identifikator_NIPEZ",
+  "nazev": "verejna_zakazka.nazev_verejne_zakazky",
+  "casova_znacka": "verejna_zakazka.casova_znacka",
+  "zadavatel": "…zadavaci_postupy[].zadavatel_zadavaciho_postupu.zadavatele[].subjekt.{ico,nazev_subjektu}, role_zadavatele",
+  "cast": "verejna_zakazka.casti_verejne_zakazky[].zadavaci_postup_pro_cast.{stav,datum_zahajeni_zadavaciho_postupu}",
+  "ucastnici": "…zadavaci_postup_pro_cast.ucastnici[].dodavatele[].subjekt.{ico,nazev_subjektu}",
+  "smlouva": "…vysledek.smlouva[].{identifikator_NIPEZ,datum_uzavreni_smlouvy,hodnota_smluvni_ceny_bez_DPH,hodnota_smluvni_ceny_s_DPH,hodnota_smluvni_ceny_mena,odkaz_na_umisteni_smlouvy}",
+  "dodavatel_smlouvy": "…smlouva[].dodavatele_se_kterymi_byla_uzavrena_smlouva[].subjekt.{ico,nazev_subjektu}"
+ },
+ "jediny_preneseny_nalez": {
+  "id": "RVZ2600120973",
+  "typ": "fakt (ISVZ open data VZ-09-2026)",
+  "popis": "Společná zakázka „SVOZ, RECYKLACE A LIKVIDACE K…“ (hlavní člen sdružení zadavatelů: Sdružení obcí, IČO 62334743); v části „obec Valašská Senice“ (RVZ2600120973/011, stav Dokončen/Zadán) je účastníkem i dodavatelem smlouvy Technické služby Vsetín, s.r.o. (26782596, 100 % město). Datum uzavření smlouvy 2023-09-06.",
+  "pozn": "Pole hodnota_smluvni_ceny_bez_DPH = 407 (CZK) – pravděpodobně jednotková cena, neinterpretovat jako hodnotu zakázky."
+ },
+ "dalsi_krok": "Zopakovat průchod na serveru (connectors/nipez_rvz.py, proudově) a uložit deduplikované záznamy; v prohlížeči jen po dávkách s okamžitým přenosem."
+}

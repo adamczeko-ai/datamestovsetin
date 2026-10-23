@@ -1,0 +1,363 @@
+{
+ "schema": "vsetin-osint/ukazatele-organizaci@1",
+ "zdroj": "https://monitor.statnipokladna.gov.cz/api/ukazatele?ic={ico}&obdobi={2412|2512} a /api/ucetni-jednotka/{ico}",
+ "typ_zdroje": "API UI MONITOR, ověřeno proti open data Rozvaha a VYKZZ 12/2025",
+ "vytezeno": "2026-10-23 (SELČ)",
+ "licence": "Zdroj dat: Ministerstvo financí ČR, MONITOR",
+ "mesto_2025": {
+  "aktiva": 3453022842,
+  "vysledek_hospodareni": 118504309,
+  "vynosy": 923206124,
+  "cizi_zdroje": 182377302,
+  "dlouhodobe_zavazky": 40040627,
+  "dluh": 2390395,
+  "stav_bankovnich_uctu": 148522066,
+  "stav_bu_celkem": 230464912,
+  "obyvatele": 25185,
+  "naklady": 804701815
+ },
+ "organizace": [
+  {
+   "ico": "75063468",
+   "nazev": "Technické služby města Vsetína, příspěvková organizace",
+   "zrizovatel_ico": "00304450",
+   "zanikla_dle_MONITOR": false,
+   "2024": {
+    "aktiva": 119234540,
+    "vysledek_hospodareni": 4491612,
+    "vynosy": 116218567,
+    "naklady": 111726955,
+    "cizi_zdroje": 9516358
+   },
+   "2025": {
+    "aktiva": 128163222,
+    "vysledek_hospodareni": 1392577,
+    "vynosy": 120591016,
+    "naklady": 119198438,
+    "cizi_zdroje": 8895091
+   }
+  },
+  {
+   "ico": "60990406",
+   "nazev": "Základní škola a Mateřská škola Vsetín, Luh 1544, příspěvková organizace",
+   "zrizovatel_ico": "00304450",
+   "zanikla_dle_MONITOR": false,
+   "2024": {
+    "aktiva": 91274915,
+    "vysledek_hospodareni": 411444,
+    "vynosy": 60709487,
+    "naklady": 60298043,
+    "cizi_zdroje": 15555848
+   },
+   "2025": {
+    "aktiva": 124507200,
+    "vysledek_hospodareni": 361437,
+    "vynosy": 96343130,
+    "naklady": 95981693,
+    "cizi_zdroje": 16025360
+   }
+  },
+  {
+   "ico": "00851817",
+   "nazev": "Masarykova veřejná knihovna Vsetín, příspěvková organizace",
+   "zrizovatel_ico": "00304450",
+   "zanikla_dle_MONITOR": false,
+   "2024": {
+    "aktiva": 8179734,
+    "vysledek_hospodareni": 48957,
+    "vynosy": 25821805,
+    "naklady": 25772848,
+    "cizi_zdroje": 5340779
+   },
+   "2025": {
+    "aktiva": 8208979,
+    "vysledek_hospodareni": 37485,
+    "vynosy": 28206384,
+    "naklady": 28168899,
+    "cizi_zdroje": 5849611
+   }
+  },
+  {
+   "ico": "60990449",
+   "nazev": "Základní škola a Mateřská škola Vsetín, Trávníky 1217, příspěvková organizace",
+   "zrizovatel_ico": "00304450",
+   "zanikla_dle_MONITOR": false,
+   "2024": {
+    "aktiva": 99086448,
+    "vysledek_hospodareni": 183477,
+    "vynosy": 56084764,
+    "naklady": 55901287,
+    "cizi_zdroje": 8688580
+   },
+   "2025": {
+    "aktiva": 105089685,
+    "vysledek_hospodareni": 111806,
+    "vynosy": 54108503,
+    "naklady": 53996697,
+    "cizi_zdroje": 9856143
+   }
+  },
+  {
+   "ico": "60990368",
+   "nazev": "Základní škola a Mateřská škola Vsetín, Ohrada 1876, příspěvková organizace",
+   "zrizovatel_ico": "00304450",
+   "zanikla_dle_MONITOR": false,
+   "2024": {
+    "aktiva": 82239762,
+    "vysledek_hospodareni": 69225,
+    "vynosy": 58276122,
+    "naklady": 58206897,
+    "cizi_zdroje": 9543190
+   },
+   "2025": {
+    "aktiva": 80944624,
+    "vysledek_hospodareni": 82422,
+    "vynosy": 62752517,
+    "naklady": 62670095,
+    "cizi_zdroje": 12803416
+   }
+  },
+  {
+   "ico": "60990465",
+   "nazev": "Základní škola Vsetín, Sychrov 97, příspěvková organizace",
+   "zrizovatel_ico": "00304450",
+   "zanikla_dle_MONITOR": false,
+   "2024": {
+    "aktiva": 114104087,
+    "vysledek_hospodareni": 32365,
+    "vynosy": 60743258,
+    "naklady": 60710893,
+    "cizi_zdroje": 7789864
+   },
+   "2025": {
+    "aktiva": 109542573,
+    "vysledek_hospodareni": 46253,
+    "vynosy": 66100716,
+    "naklady": 66054463,
+    "cizi_zdroje": 6921837
+   }
+  },
+  {
+   "ico": "60990457",
+   "nazev": "Základní škola Vsetín, Rokytnice 436, příspěvková organizace",
+   "zrizovatel_ico": "00304450",
+   "zanikla_dle_MONITOR": false,
+   "2024": {
+    "aktiva": 78916383,
+    "vysledek_hospodareni": 133576,
+    "vynosy": 56674202,
+    "naklady": 56540626,
+    "cizi_zdroje": 6641523
+   },
+   "2025": {
+    "aktiva": 76366152,
+    "vysledek_hospodareni": 147131,
+    "vynosy": 56611159,
+    "naklady": 56464028,
+    "cizi_zdroje": 6827124
+   }
+  },
+  {
+   "ico": "00851922",
+   "nazev": "ALCEDO - středisko volného času a plavecká škola Vsetín, příspěvková organizace",
+   "zrizovatel_ico": "00304450",
+   "zanikla_dle_MONITOR": false,
+   "2024": {
+    "aktiva": 42865414,
+    "vysledek_hospodareni": 54482,
+    "vynosy": 23343667,
+    "naklady": 23289185,
+    "cizi_zdroje": 7529265
+   },
+   "2025": {
+    "aktiva": 41298706,
+    "vysledek_hospodareni": 81366,
+    "vynosy": 27807988,
+    "naklady": 27726622,
+    "cizi_zdroje": 6733683
+   }
+  },
+  {
+   "ico": "60042371",
+   "nazev": "Mateřská škola Vsetín, Rokytnice 425, příspěvková organizace",
+   "zrizovatel_ico": "00304450",
+   "zanikla_dle_MONITOR": false,
+   "2024": {
+    "aktiva": 42702006,
+    "vysledek_hospodareni": 2030,
+    "vynosy": 17290242,
+    "naklady": 17288212,
+    "cizi_zdroje": 3207248
+   },
+   "2025": {
+    "aktiva": 40823069,
+    "vysledek_hospodareni": 18192,
+    "vynosy": 18003519,
+    "naklady": 17985327,
+    "cizi_zdroje": 2414217
+   }
+  },
+  {
+   "ico": "60042362",
+   "nazev": "Mateřská škola Vsetín, Sychrov 96, příspěvková organizace",
+   "zrizovatel_ico": "00304450",
+   "zanikla_dle_MONITOR": false,
+   "2024": {
+    "aktiva": 9930457,
+    "vysledek_hospodareni": 24058,
+    "vynosy": 14297014,
+    "naklady": 14272956,
+    "cizi_zdroje": 1843393
+   },
+   "2025": {
+    "aktiva": 10241950,
+    "vysledek_hospodareni": 26266,
+    "vynosy": 15101581,
+    "naklady": 15075315,
+    "cizi_zdroje": 2024586
+   }
+  },
+  {
+   "ico": "60042389",
+   "nazev": "Mateřská škola Vsetín, Benátky 1175, příspěvková organizace",
+   "zrizovatel_ico": "00304450",
+   "zanikla_dle_MONITOR": false,
+   "2024": {
+    "aktiva": 10281153,
+    "vysledek_hospodareni": 9328,
+    "vynosy": 10950514,
+    "naklady": 10941186,
+    "cizi_zdroje": 1484165
+   },
+   "2025": {
+    "aktiva": 10156683,
+    "vysledek_hospodareni": 16681,
+    "vynosy": 12082060,
+    "naklady": 12065379,
+    "cizi_zdroje": 1574419
+   }
+  },
+  {
+   "ico": "70872236",
+   "nazev": "Mateřská škola Vsetín, Na Kopečku 13, příspěvková organizace",
+   "zrizovatel_ico": "00304450",
+   "zanikla_dle_MONITOR": false,
+   "2024": {
+    "aktiva": 13263453,
+    "vysledek_hospodareni": 27315,
+    "vynosy": 6595026,
+    "naklady": 6567711,
+    "cizi_zdroje": 912140
+   },
+   "2025": {
+    "aktiva": 13141895,
+    "vysledek_hospodareni": 38400,
+    "vynosy": 6172194,
+    "naklady": 6133794,
+    "cizi_zdroje": 879333
+   }
+  },
+  {
+   "ico": "60609231",
+   "nazev": "Mateřská škola Vsetín, Jasenka 757, příspěvková organizace",
+   "zrizovatel_ico": "00304450",
+   "zanikla_dle_MONITOR": true,
+   "2024": {
+    "aktiva": 9622184,
+    "vysledek_hospodareni": 1,
+    "vynosy": 6150183,
+    "naklady": 6150182,
+    "cizi_zdroje": 962680
+   },
+   "2025": {
+    "aktiva": 9225614,
+    "vysledek_hospodareni": 0,
+    "vynosy": 6933738,
+    "naklady": 6933738,
+    "cizi_zdroje": 986142
+   }
+  },
+  {
+   "ico": "60609249",
+   "nazev": "Mateřská škola Vsetín, Ohrada 1879, příspěvková organizace",
+   "zrizovatel_ico": "00304450",
+   "zanikla_dle_MONITOR": true,
+   "2024": {
+    "aktiva": 21707100,
+    "vysledek_hospodareni": 5071,
+    "vynosy": 9974665,
+    "naklady": 9969594,
+    "cizi_zdroje": 1700104
+   },
+   "2025": {
+    "aktiva": 20952415,
+    "vysledek_hospodareni": 0,
+    "vynosy": 9518188,
+    "naklady": 9518188,
+    "cizi_zdroje": 1715154
+   }
+  },
+  {
+   "ico": "60042354",
+   "nazev": "Mateřská škola Vsetín, Trávníky 1218, příspěvková organizace",
+   "zrizovatel_ico": "00304450",
+   "zanikla_dle_MONITOR": true,
+   "2024": {
+    "aktiva": 6112680,
+    "vysledek_hospodareni": 5164,
+    "vynosy": 8816190,
+    "naklady": 8811026,
+    "cizi_zdroje": 659411
+   },
+   "2025": {
+    "aktiva": 6558584,
+    "vysledek_hospodareni": 0,
+    "vynosy": 9924535,
+    "naklady": 9924535,
+    "cizi_zdroje": 1391321
+   }
+  },
+  {
+   "ico": "49562827",
+   "nazev": "Sociální služby Vsetín, příspěvková organizace",
+   "zrizovatel_ico": "70891320",
+   "zanikla_dle_MONITOR": false,
+   "2024": {
+    "aktiva": 605984886,
+    "vysledek_hospodareni": 7207301,
+    "vynosy": 397371572,
+    "naklady": 390164271,
+    "cizi_zdroje": 103345140
+   },
+   "2025": {
+    "aktiva": 912380104,
+    "vysledek_hospodareni": 697798,
+    "vynosy": 441511127,
+    "naklady": 440813328,
+    "cizi_zdroje": 95282001
+   }
+  }
+ ],
+ "poznamky": [
+  "Sociální služby Vsetín (49562827) zřizuje Zlínský kraj, ne město – uvedeno jen pro odlišení.",
+  "MONITOR označuje 60609231, 60609249 a 60042354 jako zaniklé, ale za 12/2025 ještě vykazují rozvahu (VH 0) – zánik pravděpodobně v roce 2026. ARES u 60609249 hlásí AKTIVNI, 60042354 v ARES neexistuje – nesoulad registrů."
+ ],
+ "overeni_open_data": {
+  "datum": "2026-10-23",
+  "zdroje": [
+   {
+    "url": "https://monitor.statnipokladna.gov.cz/data/extrakty/csv/Rozvaha/2025_12_Data_CSUIS_ROZV.zip",
+    "bytes": 23310699,
+    "sha256": "80658386aff7e4254b5c5c3ba993a3fb409e29b1258f00a592e7aac94f3aa844",
+    "pole": "AKTIVA (netto běžné i minulé), D. cizí zdroje, C.III.1. výsledek hospodaření"
+   },
+   {
+    "url": "https://monitor.statnipokladna.gov.cz/data/extrakty/csv/Zisk-a-ztraty/2025_12_Data_CSUIS_VYKZZ.zip",
+    "bytes": 13649186,
+    "sha256": "c7618be4d3d87d37159febbf24aad76a4fd47f439e73d30749f1e554e7c7684a",
+    "pole": "A. náklady, B. výnosy (hlavní + hospodářská činnost)"
+   }
+  ],
+  "vysledek": "Všech 16 subjektů: aktiva 2024 a 2025, cizí zdroje, výsledek hospodaření, náklady a výnosy 2025 se shodují s API UI na celé koruny (ověřený fakt)."
+ }
+}
