@@ -13,24 +13,32 @@
    "stav": "potvrzeno",
    "overil": "migrace (text pole 'stav' v data/rozpocet/2023/rozpoctova_opatreni_2023.json)",
    "datum": "2026-10-23",
-   "oduvodneni": "Potvrzeno ZÚ 2023: financování ZÚ − RO = +432 789,31 Kč.",
-   "dukazy_overeni": ["data/zaverecny_ucet/zaverecny_ucet_2023_2025.json"],
+   "oduvodneni": "Nesoulad potvrzen ZÚ 2023: rozdíl ZÚ − součet zveřejněných RO v pol. 8115 = +432 789,31 Kč. Částka se NEshoduje přesně se skokem v řadě RO (+438 303,31 Kč); zbytek 5 514,00 Kč nevysvětlen. Revize 2026-10-23: potvrzena existence nesouladu, ne jeho přesná výše.",
+   "dukazy_overeni": [
+    "data/zaverecny_ucet/zaverecny_ucet_2023_2025.json#/rekonciliace_RO_vs_ZU/2023/pol_8115"
+   ],
    "druhe_overeni": null
   },
   "A-2024-01": {
    "stav": "potvrzeno",
    "overil": "migrace (text pole 'stav' v data/rozpocet/2024/rozpoctova_opatreni_2024.json)",
    "datum": "2026-10-23",
-   "oduvodneni": "POTVRZENO závěrečným účtem 2024 (rozdíl ZÚ vs. RO: příjmy −8 442 620,60; výdaje +793 605,85; 8115 +9 229 626,45 Kč).",
-   "dukazy_overeni": ["data/zaverecny_ucet/zaverecny_ucet_2023_2025.json"],
+   "oduvodneni": "Nesoulad potvrzen ZÚ 2024: rozdíl ZÚ − RO v pol. 8115 = +9 229 626,45 Kč (příjmy −8 442 620,60; výdaje +793 605,85). Skok v řadě RO je +9 263 638,45 Kč; zbytek 34 012,00 Kč nevysvětlen. Kandidát na vysvětlení: nezveřejněné 'RO č. 10 – DODATEK' (usnesení 16/13/ZM/2024, data/usneseni/usneseni_vazby_RO.json U-02) – neověřeno. Revize 2026-10-23: potvrzena existence nesouladu, ne jeho přesná výše.",
+   "dukazy_overeni": [
+    "data/zaverecny_ucet/zaverecny_ucet_2023_2025.json#/rekonciliace_RO_vs_ZU/2024",
+    "data/usneseni/usneseni_vazby_RO.json#/zjisteni/1"
+   ],
    "druhe_overeni": null
   },
   "A-2025-01": {
    "stav": "potvrzeno",
    "overil": "migrace (text pole 'stav' v data/rozpocet/2025/rozpoctova_opatreni_2025.json)",
    "datum": "2026-10-23",
-   "oduvodneni": "POTVRZENO závěrečným účtem 2025 (rozdíl ZÚ vs. RO v pol. 8115 = −657 069,39 Kč); nezávisle potvrzeno MONITOR FIN 2-12 M (data/monitor/kontrola_RO_8115_monitor.json).",
-   "dukazy_overeni": ["data/zaverecny_ucet/zaverecny_ucet_2023_2025.json", "data/monitor/kontrola_RO_8115_monitor.json"],
+   "oduvodneni": "Potvrzeno dvěma nezávislými zdroji: ZÚ 2025 (rozdíl v pol. 8115 −657 069,39 Kč; odchylka 26,55 Kč od −657 095,94 = samostatná anomálie A-2025-05) a MONITOR FIN 2-12 M 04/2025 (přesně −657 095,94 Kč). Úprava bodu 5 RO 4/2025 rozdíl nevysvětluje (U-03). Revize 2026-10-23: potvrzeno včetně výše.",
+   "dukazy_overeni": [
+    "data/zaverecny_ucet/zaverecny_ucet_2023_2025.json#/rekonciliace_RO_vs_ZU/2025/pol_8115",
+    "data/monitor/kontrola_RO_8115_monitor.json#/kontroly/1"
+   ],
    "druhe_overeni": null
   }
  }
