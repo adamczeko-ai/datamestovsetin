@@ -135,3 +135,4 @@
 - Zjištění: předávka P2f má zakázky jen 2017–2023 (export od 2024 mísí dvě struktury XML); portál odmítá export přes 1. 7. 2024 (HTTP 400). Kurzor profilu = 2023-12-31.
 - Oprava pseudonymizace po kontrole: rozšířený slovník jmen (česká, slovenská, cizí), příjemci dotací FO („bytem/nar.“, dativ po „poskytnutí dotace“), celoplošně dokumenty o volbách, ochrana ulic a institucí; slova institucí jen jako celá slova. Kontrola zúženým vzorcem: 0 osob.
 - `sber.py`: síťově nedosažitelný zdroj = stav `unreachable` (není chyba běhu); web města (www, mapy) z cloudu nedosažitelný – zdroje webu města spouštět mimo cloud (`docs/SBER.md`).
+- Oprava pseudonymizace po kontrole PR #8 (24. 10. 2026): strana smlouvy „jméno, nar. rok“ → FO, iniciály s rokem narození, rok narození FO minimalizován („nar. …“), jména verzálkami (křestní jméno ze slovníku). Data přegenerována; kontrola: 0 jmen s „nar. rok“, 0 iniciál po oslovení, 0 jmen verzálkami.

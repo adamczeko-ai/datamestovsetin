@@ -50,6 +50,7 @@ NE_JMENO = {
     "Česká", "Český", "Moravská", "Lávka", "Most", "Ulice", "Náměstí", "Zápis", "Dražební", "Oznámení",
     "Hradec", "Králové", "Dvůr", "Labem", "Meziříčí", "Bystřice", "Polanka", "Lhota", "Ústí", "Karolinka",
     "Morava", "Moravy", "Moravu", "Slezsko", "Valašsko", "Valašska", "Škoda", "Grand", "Prix", "Velkou",
+    "Dětem", "Domov", "Domova",
 }
 # kontext před jménem, kdy jde o ulici nebo instituci pojmenovanou po osobě
 RE_PRED_ULICE = re.compile(
@@ -130,12 +131,30 @@ RE_PRIJEMCE = re.compile(rf"((?:poskytnutí|poskytnout|poskytuje|schvaluje)\s+(?
                          rf"({SLOVO}(?:\s+{SLOVO}){{1,2}})(?=\s*,)")
 RE_FYZ_OSOBA = re.compile(rf"(fyzick\w+\s+osob\w+\s*:?\s*)({SLOVO}(?:\s+{SLOVO}){{1,2}})")
 
+# jméno verzálkami: „VÁCLAV NOVÁK“ / „NOVÁK VÁCLAV“ (jedno slovo = křestní jméno ze slovníku)
+RE_VERZALKY = re.compile(rf"\b([{V}]{{2,}})\s+([{V}]{{2,}})(?:\s+([{V}]{{2,}}))?\b")
+
+
+def _verzalky(m: re.Match) -> str:
+    slova = [w for w in m.groups() if w]
+    if not any(w.capitalize() in KRESTNI_SET for w in slova[:2]):
+        return m.group(0)
+    if any(w.capitalize() in NE_JMENO for w in slova) or je_pravnicka(m.group(0)) or _chraneny_kontext(m):
+        return m.group(0)
+    return FO
+
+
 TITUL = r"(?:Ing\.\s?arch\.|Ing\.|Mgr\.\s?A\.|Mgr\.|Bc\.\s?A\.|Bc\.|MUDr\.|MDDr\.|MVDr\.|JUDr\.|PhDr\.|RNDr\.|PaedDr\.|PharmDr\.|ThDr\.|ThLic\.|Dr\.|doc\.|prof\.)"
 RE_TITUL = re.compile(rf"(?:{TITUL}\s*)+{JMENO}(?:,?\s*(?:Ph\.\s?D\.|CSc\.|MBA|DiS\.|LL\.M\.|MPA|DBA))*")
 OSLOVENI = (r"pan|pana|panu|panem|paní|pí\.|manželé|manželů|manželům|manžele|manželi|manž\.|"
             r"žadatel|žadatelka|žadatelce|žadateli|nájemce|nájemci|nájemcem|nájemkyně|nájemkyni|kupující|kupujícímu|"
             r"prodávající|vlastník|vlastníkovi|vlastnice|vlastnici|obdarovaný|obdarované|příjemce|příjemci|příjemkyni")
 RE_OSLOVENI = re.compile(rf"\b((?i:{OSLOVENI}))\s+({JMENO}(?:\s+a\s+{JMENO})?)")  # i „Paní Nováková“
+# iniciály osoby: „pány R.K (rok nar. 1965)“, „J. N., nar.“
+RE_INICIALY = re.compile(rf"(\b(?i:{OSLOVENI}|pány|pánům|pánech|paním)\s+)([{V}]\.\s?[{V}]\.?(?:\s?[{V}]\.?)?)(?![{M}])"
+                         rf"|\b([{V}]\.\s?[{V}]\.?)(?=,?\s*\(?(?:rok\s+)?nar)")
+# rok/datum narození fyzické osoby se neuvádí (minimalizace): „nar. 1971“ -> „nar. …“
+RE_NAR = re.compile(r"((?:rok\s+)?nar(?:\.|ozen[aáýé]?)\s*)(?:\d{1,2}\.\s?\d{1,2}\.\s?)?\d{4}")
 RE_FUNKCE = re.compile(
     rf"(?m)^({JMENO})[ \t]*\n(?=[ \t]*(?:I+\.\s*)?(?:starost|místostarost|tajemn|vedouc|předsed|ředitel|"
     rf"jednatel|referent|zpracoval|člen))")
@@ -165,6 +184,8 @@ def nazev_subjektu(nazev: str | None, pravni_forma: str | None = None) -> str | 
         return nazev
     if pravni_forma is not None:
         return FO_ARES if str(pravni_forma) in FO_PRAVNI_FORMY else nazev
+    if re.search(r",?\s*(?:\(?rok\s+)?(?:nar\.|narozen|bytem|r\.\s?č\.)", nazev):
+        return FO_ARES  # „Jan Novák, nar. 1971“ – vždy fyzická osoba
     if je_pravnicka(nazev) or "[FO" in nazev:
         return nazev
     if re.search(r"\d", nazev):
@@ -236,10 +257,13 @@ def text(t: str | None, znama_jmena: list[str] | tuple = ()) -> str | None:
     t = RE_TITUL.sub(_titul, t)
     t = RE_BYTEM.sub(_bytem, t)
     t = RE_FYZ_OSOBA.sub(lambda m: m.group(1) + FO, t)
+    t = RE_INICIALY.sub(lambda m: (m.group(1) + FO) if m.group(1) else FO, t)
+    t = RE_NAR.sub(lambda m: m.group(1) + "…", t)
     t = RE_PRIJEMCE.sub(lambda m: m.group(0) if je_pravnicka(m.group(2)) or any(
         w in NE_JMENO for w in m.group(2).split()) else m.group(1) + FO, t)
     if RE_VOLBY.search(t):
         t = _volby(t)
+    t = RE_VERZALKY.sub(_verzalky, t)
     for rx in RE_KRESTNI:  # nejdřív „Jméno Příjmení“, pak „Příjmení Jméno“
         t = rx.sub(_krestni, t)
     t = RE_ZPRACOVAL.sub(lambda m: m.group(1) + FO, t)

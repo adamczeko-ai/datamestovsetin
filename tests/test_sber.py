@@ -247,6 +247,16 @@ class TestPseudoZnameUniky(unittest.TestCase):
         self.assertBezJmena("dohoda o uznání dluhu s [FO] a Ruprechtem Vymyšleným", "Ruprecht", "Vymyšlen")
         self.assertBezJmena("sleva z nájemného nájemci Thi Lan Vymyšlená, Jasenická 1, Vsetín", "Lan", "Vymyšlen")
         self.assertBezJmena("Paní Vymyšlená se zněním materiálů souhlasí", "Vymyšlen")
+        # nález z kontroly PR #8 (syntetická data): strana smlouvy „jméno, nar. rok“, iniciály s rokem narození
+        self.assertEqual(pseudo.nazev_subjektu("Kvido Neznámý, nar. 1971"), pseudo.FO_ARES)
+        self.assertEqual(pseudo.nazev_subjektu("ABC s.r.o."), "ABC s.r.o.")
+        out = pseudo.text("smlouvy uzavřené mezi městem a pány Q.Z (rok nar. 1965) a Q.Z (rok nar. 1966), a to")
+        self.assertNotIn("Q.Z", out)
+        self.assertNotIn("1965", out)
+        self.assertIn("k.ú. Vsetín", pseudo.text("pozemek p.č. 12, k.ú. Vsetín"))
+        self.assertBezJmena("dlužník KVIDO NEZNÁMÝ, Testovací 298, 75604 Testov, nar. 1960", "KVIDO", "NEZNÁMÝ")
+        for s in ("ZÁKLADNÍ ŠKOLA JANA PIVEČKY", "ROZŠÍŘENÍ HŘBITOVA VE VSETÍNĚ", "LÁVKA PŘES BEČVU", "TM STAV SPOL. S R.O."):
+            self.assertEqual(pseudo.text(s), s)
         out = pseudo.info_dokumentu("Oznámení o místě uložení písemnosti, Kvido Neznámý [PDF, 316 kB]Odbor správních agend")
         self.assertEqual(out, "Oznámení o místě uložení písemnosti, [FO] [PDF, 316 kB]Odbor správních agend")
         self.assertEqual(pseudo.nazev("údržba trailů BAV 1, BAV 2. - Kvido Neznámý"), "údržba trailů BAV 1, BAV 2. - [FO]")
