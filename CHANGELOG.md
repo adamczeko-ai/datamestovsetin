@@ -126,3 +126,8 @@
 ## 2026-10-23 (várka q – kauza K-004 AERV)
 - `data/kauzy/K-004_AERV_zruseni.json`: řetězec dohoda 2012 → narovnání DPH 3 848 880 Kč (= 21 % z 18 328 000) → zrušení (usn. 10/9/ZM/2023) → vklad 3,6 mil. na likvidaci (usn. 1/10/ZM/2023) → převod likvidačního zůstatku (2024) → výmaz.
 - Signál P-02 „zčásti vysvětleno“; otevřené: výše likvidačního zůstatku.
+
+## 2026-10-23 (várka r – podklady k AERV)
+- Důvodové zprávy ZM 2023 k AERV nejsou na webu města dostupné (materiály ZM jen od 2/2025, archiv prázdný, zápisy ZM nezveřejněny).
+- K-004 doplněna o usnesení RM 11/29/RM/2023, 12/29/RM/2023 (ukončení nájmu a výpůjček) a 4/53/RM/2024 (převod likvidačního zůstatku, výše neuvedena); `dostupnost_podkladu`.
+- Návrh žádosti dle zák. 106/1999 Sb. (`docs/ZADOST_106_AERV_2026-10-23.md`, neodesláno).
