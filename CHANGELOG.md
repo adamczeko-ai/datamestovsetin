@@ -114,3 +114,7 @@
 - `data/smlouvy/parovani_ico.json`: 73 ověřených IČO × registr smluv (obousměrně) → 60 IČO, 767 smluv; součty, dodatky, dary, největší smlouvy; skript `scripts/registr_smluv_parovani_ico.js`; schéma + validace.
 - Signály P-01 (dary 4 dodavatelů projektu MVK, smlouvy 0781–0784 2025), P-02 (AERV: vklad 3,6 mil. 10 dní před zrušením), P-03 (podíl dodatků Martin Urban, TM Stav).
 - K-003: 39830353 = Dodatek č. 1 k SoD Vs-04-Bel, +641 950,51 Kč bez DPH, cena díla 69,63 mil. bez DPH.
+
+## 2026-10-23 (várka q – kauza K-004 AERV)
+- `data/kauzy/K-004_AERV_zruseni.json`: řetězec dohoda 2012 → narovnání DPH 3 848 880 Kč (= 21 % z 18 328 000) → zrušení (usn. 10/9/ZM/2023) → vklad 3,6 mil. na likvidaci (usn. 1/10/ZM/2023) → převod likvidačního zůstatku (2024) → výmaz.
+- Signál P-02 „zčásti vysvětleno“; otevřené: výše likvidačního zůstatku.
