@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<profil xmlns="urn:cz:isvz:mmr:schemas:vz-z-profilu-zadavatele:v100" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<profil_kod>60056921</profil_kod>
+<zadavatel>
+<nazev_zadavatele>Město Vsetín</nazev_zadavatele>
+<ico_zadavatele>00304450</ico_zadavatele>
+</zadavatel>                <zakazka>
+<id_objektu>P26V00005860</id_objektu>
+<nazev_vz>OPRAVA STOUPAČEK NA MěÚ VSETÍN</nazev_vz>
+<druh_vz>stavební práce</druh_vz>
+<rezim_vz>Veřejné zakázky malého rozsahu</rezim_vz>
+<predmet_vz>Předmětem zakázky jsou stavební práce na akci: OPRAVA STOUPAČEK NA MěÚ VSETÍN
+Popis veřejné zakázky:
+- Předmětem veřejné zakázky je realizace opravy stoupaček formou kompletní výměny stoupaček v původních trasách a to kanalizace, rozvodů studené a teplé vody umístěné na Městském úřadě Vsetín na adrese Svárov 1080, 755 01 Vsetín.
+- Realizace zakázky probíhá za plného provozu Městského úřadu.
+Součástí prací je grafické zpracování axonometrie v 2D prostředí včetně popisu napojení větví na hlavní trasu stoupaček dále viz. př. č. 2 Základní soupis prací a dodávek. 
+- Nebyla zpracována projektová dokumentace z důvodu neexistující původní dokumentace, která by jednoznačně specifikovala přípojná místa a přesné vedení tras. Bylo provedeno zaměření stávajících stoupaček.</predmet_vz>
+<hlavni_cpv>45332000</hlavni_cpv>
+<delena_na_casti>0</delena_na_casti>
+<zadavaci_postupy>
+<zadavaci_postup>
+<id_objektu>ZP-P26V00005860</id_objektu>
+</zadavaci_postup>
+</zadavaci_postupy>
+<casti_vz>
+<cast_zakazky>
+<id_objektu>P26V00005860</id_objektu>
+<id_zadavaciho_postupu_vz>ZP-P26V00005860</id_zadavaciho_postupu_vz>
+<nazev_casti_vz>OPRAVA STOUPAČEK NA MěÚ VSETÍN</nazev_casti_vz>
+<druh_casti_vz>stavební práce</druh_casti_vz>
+<rezim_casti_vz>Veřejné zakázky malého rozsahu</rezim_casti_vz>
+<predmet_casti_vz>Předmětem zakázky jsou stavební práce na akci: OPRAVA STOUPAČEK NA MěÚ VSETÍN
+Popis veřejné zakázky:
+- Předmětem veřejné zakázky je realizace opravy stoupaček formou kompletní výměny stoupaček v původních trasách a to kanalizace, rozvodů studené a teplé vody umístěné na Městském úřadě Vsetín na adrese Svárov 1080, 755 01 Vsetín.
+- Realizace zakázky probíhá za plného provozu Městského úřadu.
+Součástí prací je grafické zpracování axonometrie v 2D prostředí včetně popisu napojení větví na hlavní trasu stoupaček dále viz. př. č. 2 Základní soupis prací a dodávek. 
+- Nebyla zpracována projektová dokumentace z důvodu neexistující původní dokumentace, která by jednoznačně specifikovala přípojná místa a přesné vedení tras. Bylo provedeno zaměření stávajících stoupaček.</predmet_casti_vz>
+<hlavni_cpv_casti_vz>45332000</hlavni_cpv_casti_vz>
+<zadavaci_postup_casti>
+<id_objektu>ZP-P26V00005860</id_objektu>
+<lhuty_zadavaciho_postupu>
+<lhuta>
+<druh_lhuty>lhůta podání nabídky</druh_lhuty>
+<datum_konce_lhuty>2026-09-22T10:00:00+02:00</datum_konce_lhuty>
+</lhuta>
+</lhuty_zadavaciho_postupu>
+<stav_zadavaciho_postupu>zahájen</stav_zadavaciho_postupu>
+<druh_zadavaciho_postupu>otevřená výzva</druh_zadavaciho_postupu>
+<ramcova_dohoda>0</ramcova_dohoda>
+<zavedeni_dns>0</zavedeni_dns>
+<dokumenty>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3920522</url>
+<typ_dokumentu>výběr dodavatele</typ_dokumentu>
+<jiny_dokument_nazev>Oznámení o výběru nejvhodnější nabídky</jiny_dokument_nazev>
+<cas_vlozeni_na_profil>2026-10-01T13:09:44+02:00</cas_vlozeni_na_profil>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3920523</url>
+<typ_dokumentu>jiný dokument</typ_dokumentu>
+<jiny_dokument_nazev>Ostatní</jiny_dokument_nazev>
+<cas_vlozeni_na_profil>2026-09-25T12:59:48+02:00</cas_vlozeni_na_profil>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3920524</url>
+<typ_dokumentu>vysvětlení zadávací dokumentace</typ_dokumentu>
+<jiny_dokument_nazev>Vysvětlení, doplnění, změna zadávací dokumentace</jiny_dokument_nazev>
+<cas_vlozeni_na_profil>2026-09-21T09:21:00+02:00</cas_vlozeni_na_profil>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3920525</url>
+<typ_dokumentu>výzva k podání nabídek</typ_dokumentu>
+<jiny_dokument_nazev>Výzva</jiny_dokument_nazev>
+<cas_vlozeni_na_profil>2026-09-11T12:44:14+02:00</cas_vlozeni_na_profil>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3920526</url>
+<typ_dokumentu>zadávací dokumentace</typ_dokumentu>
+<jiny_dokument_nazev>Zadávací a kvalifikační dokumentace, prohlídka místa plnění</jiny_dokument_nazev>
+<cas_vlozeni_na_profil>2026-09-11T12:44:14+02:00</cas_vlozeni_na_profil>
+</dokument>
+</dokumenty>
+<datum_uverejneni>2026-09-11T12:44:14+02:00</datum_uverejneni>
+<zjisten_stret_zajmu>0</zjisten_stret_zajmu>
+</zadavaci_postup_casti>
+</cast_zakazky>      </casti_vz>
+</zakazka>                    <zakazka>
+<id_objektu>P26V00006525</id_objektu>
+<nazev_vz>DODÁVKA VÝPOČETNÍ TECHNIKY PRO MĚSTO VSETÍN 2026</nazev_vz>
+<druh_vz>dodávky</druh_vz>
+<rezim_vz>Veřejné zakázky malého rozsahu</rezim_vz>
+<predmet_vz>Předmětem veřejné zakázky je dodání výpočetní techniky pro město Vsetín. 
+Podrobná specifikace jednotlivých položek této dodávky je uvedena v příloze č. 1 této výzvy s názvem Technická specifikace.</predmet_vz>
+<hlavni_cpv>30213000</hlavni_cpv>
+<delena_na_casti>0</delena_na_casti>
+<zadavaci_postupy>
+<zadavaci_postup>
+<id_objektu>ZP-P26V00006525</id_objektu>
+</zadavaci_postup>
+</zadavaci_postupy>
+<casti_vz>
+<cast_zakazky>
+<id_objektu>P26V00006525</id_objektu>
+<id_zadavaciho_postupu_vz>ZP-P26V00006525</id_zadavaciho_postupu_vz>
+<nazev_casti_vz>DODÁVKA VÝPOČETNÍ TECHNIKY PRO MĚSTO VSETÍN 2026</nazev_casti_vz>
+<druh_casti_vz>dodávky</druh_casti_vz>
+<rezim_casti_vz>Veřejné zakázky malého rozsahu</rezim_casti_vz>
+<predmet_casti_vz>Předmětem veřejné zakázky je dodání výpočetní techniky pro město Vsetín. 
+Podrobná specifikace jednotlivých položek této dodávky je uvedena v příloze č. 1 této výzvy s názvem Technická specifikace.</predmet_casti_vz>
+<hlavni_cpv_casti_vz>30213000</hlavni_cpv_casti_vz>
+<zadavaci_postup_casti>
+<id_objektu>ZP-P26V00006525</id_objektu>
+<lhuty_zadavaciho_postupu>
+<lhuta>
+<druh_lhuty>lhůta podání nabídky</druh_lhuty>
+<datum_konce_lhuty>2026-10-30T10:00:00+01:00</datum_konce_lhuty>
+</lhuta>
+</lhuty_zadavaciho_postupu>
+<stav_zadavaciho_postupu>zahájen</stav_zadavaciho_postupu>
+<druh_zadavaciho_postupu>otevřená výzva</druh_zadavaciho_postupu>
+<ramcova_dohoda>0</ramcova_dohoda>
+<zavedeni_dns>0</zavedeni_dns>
+<dokumenty>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3934188</url>
+<typ_dokumentu>výzva k podání nabídek</typ_dokumentu>
+<jiny_dokument_nazev>Výzva</jiny_dokument_nazev>
+<cas_vlozeni_na_profil>2026-10-20T12:50:34+02:00</cas_vlozeni_na_profil>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3934189</url>
+<typ_dokumentu>zadávací dokumentace</typ_dokumentu>
+<jiny_dokument_nazev>Zadávací a kvalifikační dokumentace, prohlídka místa plnění</jiny_dokument_nazev>
+<cas_vlozeni_na_profil>2026-10-20T12:50:34+02:00</cas_vlozeni_na_profil>
+</dokument>
+</dokumenty>
+<datum_uverejneni>2026-10-20T12:50:34+02:00</datum_uverejneni>
+<zjisten_stret_zajmu>0</zjisten_stret_zajmu>
+</zadavaci_postup_casti>
+</cast_zakazky>      </casti_vz>
+</zakazka>      </profil>

@@ -1,0 +1,1675 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<profil xmlns="urn:cz:isvz:mmr:schemas:vz-z-profilu-zadavatele:v100" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<profil_kod>60056921</profil_kod>
+<zadavatel>
+<nazev_zadavatele>Město Vsetín</nazev_zadavatele>
+<ico_zadavatele>00304450</ico_zadavatele>
+</zadavatel>                <zakazka>
+<id_objektu>P24V00012967</id_objektu>
+<nazev_vz>Reklama a propagace města Vsetín 2024</nazev_vz>
+<druh_vz>služby</druh_vz>
+<rezim_vz>Podlimitní</rezim_vz>
+<predmet_vz>Předmětem veřejné zakázky je provádění reklamní a propagační činnosti na celorepublikové úrovni dle zadání a ve prospěch zadavatele. Rozsah reklamní a propagační činnosti je uveden v příloze č. 1 této výzvy – návrhu smlouvy včetně příloh.</predmet_vz>
+<hlavni_cpv>79340000</hlavni_cpv>
+<delena_na_casti>0</delena_na_casti>
+<zadavaci_postupy>
+<zadavaci_postup>
+<id_objektu>ZP-P24V00012967</id_objektu>
+</zadavaci_postup>
+</zadavaci_postupy>
+<casti_vz>
+<cast_zakazky>
+<id_objektu>P24V00012967</id_objektu>
+<id_zadavaciho_postupu_vz>ZP-P24V00012967</id_zadavaciho_postupu_vz>
+<nazev_casti_vz>Reklama a propagace města Vsetín 2024</nazev_casti_vz>
+<druh_casti_vz>služby</druh_casti_vz>
+<rezim_casti_vz>Podlimitní</rezim_casti_vz>
+<predmet_casti_vz>Předmětem veřejné zakázky je provádění reklamní a propagační činnosti na celorepublikové úrovni dle zadání a ve prospěch zadavatele. Rozsah reklamní a propagační činnosti je uveden v příloze č. 1 této výzvy – návrhu smlouvy včetně příloh.</predmet_casti_vz>
+<hlavni_cpv_casti_vz>79340000</hlavni_cpv_casti_vz>
+<zadavaci_postup_casti>
+<id_objektu>ZP-P24V00012967</id_objektu>
+<lhuty_zadavaciho_postupu>
+<lhuta>
+<druh_lhuty>lhůta podání nabídky</druh_lhuty>
+<datum_konce_lhuty>2024-12-11T10:00:00+01:00</datum_konce_lhuty>
+</lhuta>
+</lhuty_zadavaciho_postupu>
+<stav_zadavaciho_postupu>dokončen</stav_zadavaciho_postupu>
+<druh_zadavaciho_postupu>jednací řízení bez uveřejnění</druh_zadavaciho_postupu>
+<ramcova_dohoda>0</ramcova_dohoda>
+<zavedeni_dns>0</zavedeni_dns>
+<dokumenty>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3454511</url>
+<typ_dokumentu>písemná zpráva zadavatele</typ_dokumentu>
+<jiny_dokument_nazev>Písemná zpráva zadavatele</jiny_dokument_nazev>
+<cas_vlozeni_na_profil>2025-01-20T08:42:11+01:00</cas_vlozeni_na_profil>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3454512</url>
+<typ_dokumentu>písemná zpráva zadavatele</typ_dokumentu>
+<jiny_dokument_nazev>Písemná zpráva zadavatele</jiny_dokument_nazev>
+<cas_vlozeni_na_profil>2025-01-20T08:42:11+01:00</cas_vlozeni_na_profil>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3454513</url>
+<typ_dokumentu>výzva k podání nabídek</typ_dokumentu>
+<jiny_dokument_nazev>Výzva</jiny_dokument_nazev>
+<cas_vlozeni_na_profil>2025-01-20T08:42:11+01:00</cas_vlozeni_na_profil>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3454514</url>
+<typ_dokumentu>zadávací dokumentace</typ_dokumentu>
+<jiny_dokument_nazev>Zadávací a kvalifikační dokumentace, prohlídka místa plnění</jiny_dokument_nazev>
+<cas_vlozeni_na_profil>2025-01-20T08:42:11+01:00</cas_vlozeni_na_profil>
+</dokument>
+</dokumenty>
+<datum_uverejneni>2025-01-20T08:42:11+01:00</datum_uverejneni>
+<ucastnici>
+<ucastnik>
+<subjekt>
+<ico>25399985</ico>
+<nazev_subjektu>VHK Vsetín s.r.o.</nazev_subjektu>
+<misto_podnikani>CZ</misto_podnikani>
+</subjekt>
+<role_ucastnika>dodavatel bez společné účasti</role_ucastnika>
+<ucastnik_vyloucen>0</ucastnik_vyloucen>
+<ucastnik_odstoupil>0</ucastnik_odstoupil>
+</ucastnik>          </ucastnici>
+<zjisten_stret_zajmu>0</zjisten_stret_zajmu>
+<datum_uzavreni_smlouvy>2024-12-16T00:00:00+01:00</datum_uzavreni_smlouvy>
+</zadavaci_postup_casti>
+</cast_zakazky>      </casti_vz>
+</zakazka>                    <zakazka>
+<id_objektu>P25V00000422</id_objektu>
+<nazev_vz>Oprava střešního pláště nad kinem Vatra – PD</nazev_vz>
+<druh_vz>služby</druh_vz>
+<rezim_vz>Veřejné zakázky malého rozsahu</rezim_vz>
+<predmet_vz>Předmětem zakázky je zpracování projektové dokumentace stavby pod názvem „Oprava střešního pláště nad kinem Vatra – PD&quot;.
+Součástí plnění zakázky je inženýrská činnost (IČ) nutná k zajištění vyjádření, stanovisek a podkladů nutných k podání žádosti o vydání povolení záměru či jiného povolení na uvedenou akci.
+Účelem je vypracování projektové dokumentace a získání příslušných povolení potřebných k následné realizaci opravy střešního pláště nad kinem Vatra na  pozemcích parcelní číslo 2936/1, 2937/2, 2937/3 a 2938 v katastru a obci Vsetín.</predmet_vz>
+<hlavni_cpv>71322000</hlavni_cpv>
+<delena_na_casti>0</delena_na_casti>
+<zadavaci_postupy>
+<zadavaci_postup>
+<id_objektu>ZP-P25V00000422</id_objektu>
+</zadavaci_postup>
+</zadavaci_postupy>
+<casti_vz>
+<cast_zakazky>
+<id_objektu>P25V00000422</id_objektu>
+<id_zadavaciho_postupu_vz>ZP-P25V00000422</id_zadavaciho_postupu_vz>
+<nazev_casti_vz>Oprava střešního pláště nad kinem Vatra – PD</nazev_casti_vz>
+<druh_casti_vz>služby</druh_casti_vz>
+<rezim_casti_vz>Veřejné zakázky malého rozsahu</rezim_casti_vz>
+<predmet_casti_vz>Předmětem zakázky je zpracování projektové dokumentace stavby pod názvem „Oprava střešního pláště nad kinem Vatra – PD&quot;.
+Součástí plnění zakázky je inženýrská činnost (IČ) nutná k zajištění vyjádření, stanovisek a podkladů nutných k podání žádosti o vydání povolení záměru či jiného povolení na uvedenou akci.
+Účelem je vypracování projektové dokumentace a získání příslušných povolení potřebných k následné realizaci opravy střešního pláště nad kinem Vatra na  pozemcích parcelní číslo 2936/1, 2937/2, 2937/3 a 2938 v katastru a obci Vsetín.</predmet_casti_vz>
+<hlavni_cpv_casti_vz>71322000</hlavni_cpv_casti_vz>
+<zadavaci_postup_casti>
+<id_objektu>ZP-P25V00000422</id_objektu>
+<lhuty_zadavaciho_postupu>
+<lhuta>
+<druh_lhuty>lhůta podání nabídky</druh_lhuty>
+<datum_konce_lhuty>2025-01-27T10:00:00+01:00</datum_konce_lhuty>
+</lhuta>
+</lhuty_zadavaciho_postupu>
+<stav_zadavaciho_postupu>dokončen</stav_zadavaciho_postupu>
+<druh_zadavaciho_postupu>otevřená výzva</druh_zadavaciho_postupu>
+<ramcova_dohoda>0</ramcova_dohoda>
+<zavedeni_dns>0</zavedeni_dns>
+<dokumenty>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3489308</url>
+<typ_dokumentu>písemná zpráva zadavatele</typ_dokumentu>
+<jiny_dokument_nazev>Písemná zpráva zadavatele</jiny_dokument_nazev>
+<cas_vlozeni_na_profil>2025-02-25T08:14:04+01:00</cas_vlozeni_na_profil>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3489309</url>
+<typ_dokumentu>výběr dodavatele</typ_dokumentu>
+<jiny_dokument_nazev>Oznámení o výběru nejvhodnější nabídky</jiny_dokument_nazev>
+<cas_vlozeni_na_profil>2025-02-03T15:24:41+01:00</cas_vlozeni_na_profil>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3489310</url>
+<typ_dokumentu>výzva k podání nabídek</typ_dokumentu>
+<jiny_dokument_nazev>Výzva</jiny_dokument_nazev>
+<cas_vlozeni_na_profil>2025-01-15T16:22:27+01:00</cas_vlozeni_na_profil>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3489311</url>
+<typ_dokumentu>zadávací dokumentace</typ_dokumentu>
+<jiny_dokument_nazev>Zadávací a kvalifikační dokumentace, prohlídka místa plnění</jiny_dokument_nazev>
+<cas_vlozeni_na_profil>2025-01-15T16:22:27+01:00</cas_vlozeni_na_profil>
+</dokument>
+</dokumenty>
+<datum_uverejneni>2025-01-15T16:22:26+01:00</datum_uverejneni>
+<ucastnici>
+<ucastnik>
+<subjekt>
+<ico>27642411</ico>
+<nazev_subjektu>DEKPROJEKT s.r.o.</nazev_subjektu>
+<misto_podnikani>CZ</misto_podnikani>
+</subjekt>
+<nabidkova_cena_bez_dph>420000.00</nabidkova_cena_bez_dph>
+<nabidkova_cena_s_dph>508200.00</nabidkova_cena_s_dph>
+<role_ucastnika>dodavatel bez společné účasti</role_ucastnika>
+<ucastnik_vyloucen>0</ucastnik_vyloucen>
+<ucastnik_odstoupil>0</ucastnik_odstoupil>
+</ucastnik>          </ucastnici>
+<vybrani_dodavatele>
+<vybrany_dodavatel>
+<subjekt>
+<ico>27642411</ico>
+<nazev_subjektu>DEKPROJEKT s.r.o.</nazev_subjektu>
+<misto_podnikani>CZ</misto_podnikani>
+</subjekt>
+<uzavrena_smlouva_nebo_rd>1</uzavrena_smlouva_nebo_rd>
+<smluvni_cena_s_DPH>508200.00</smluvni_cena_s_DPH>
+<smluvni_cena_bez_DPH>420000.00</smluvni_cena_bez_DPH>
+<role_dodavatele>dodavatel bez společné účasti</role_dodavatele>
+</vybrany_dodavatel>          </vybrani_dodavatele>
+<zjisten_stret_zajmu>0</zjisten_stret_zajmu>
+<datum_uzavreni_smlouvy>2025-02-11T00:00:00+01:00</datum_uzavreni_smlouvy>
+</zadavaci_postup_casti>
+</cast_zakazky>      </casti_vz>
+</zakazka>                    <zakazka>
+<id_objektu>P25V00000421</id_objektu>
+<nazev_vz>MOSTNÍ PROHLÍDKY 2025 - 2029, VSETÍN</nazev_vz>
+<druh_vz>služby</druh_vz>
+<rezim_vz>Veřejné zakázky malého rozsahu</rezim_vz>
+<predmet_vz>Předmětem veřejné zakázky je provedení a vypracování hlavních a běžných prohlídek u mostů a lávek v majetku města Vsetína v letech 2025 – 2029, v celkovém počtu 74 mostních objektů a lávek v termínech dle stavebního stavu mostu. 
+Jedná se tedy o provedení hlavních a běžných prohlídek mostů a lávek, včetně zpracování zpráv o výsledcích prohlídek všech mostů a lávek. Mostní prohlídky budou provedeny a výsledky předány každoročně, tj. průběžně v 5 letech, vždy s termínem předání do 30.6. konkrétního roku. 
+Četnost běžných prohlídek je každoroční. 
+Četnost hlavních prohlídek vychází ze stavebního stavu dle předchozí hlavní prohlídky. 
+Součástí veřejné zakázky je zpracování mostních listů v celkovém počtu 45 mostních objektů. 
+Součástí veřejné zakázky bude případné navýšení o nově vybudované mosty a lávky, které budou zrealizovány v následujících 5 letech (budoucích).</predmet_vz>
+<hlavni_cpv>71000000</hlavni_cpv>
+<delena_na_casti>0</delena_na_casti>
+<zadavaci_postupy>
+<zadavaci_postup>
+<id_objektu>ZP-P25V00000421</id_objektu>
+</zadavaci_postup>
+</zadavaci_postupy>
+<casti_vz>
+<cast_zakazky>
+<id_objektu>P25V00000421</id_objektu>
+<id_zadavaciho_postupu_vz>ZP-P25V00000421</id_zadavaciho_postupu_vz>
+<nazev_casti_vz>MOSTNÍ PROHLÍDKY 2025 - 2029, VSETÍN</nazev_casti_vz>
+<druh_casti_vz>služby</druh_casti_vz>
+<rezim_casti_vz>Veřejné zakázky malého rozsahu</rezim_casti_vz>
+<predmet_casti_vz>Předmětem veřejné zakázky je provedení a vypracování hlavních a běžných prohlídek u mostů a lávek v majetku města Vsetína v letech 2025 – 2029, v celkovém počtu 74 mostních objektů a lávek v termínech dle stavebního stavu mostu. 
+Jedná se tedy o provedení hlavních a běžných prohlídek mostů a lávek, včetně zpracování zpráv o výsledcích prohlídek všech mostů a lávek. Mostní prohlídky budou provedeny a výsledky předány každoročně, tj. průběžně v 5 letech, vždy s termínem předání do 30.6. konkrétního roku. 
+Četnost běžných prohlídek je každoroční. 
+Četnost hlavních prohlídek vychází ze stavebního stavu dle předchozí hlavní prohlídky. 
+Součástí veřejné zakázky je zpracování mostních listů v celkovém počtu 45 mostních objektů. 
+Součástí veřejné zakázky bude případné navýšení o nově vybudované mosty a lávky, které budou zrealizovány v následujících 5 letech (budoucích).</predmet_casti_vz>
+<hlavni_cpv_casti_vz>71000000</hlavni_cpv_casti_vz>
+<zadavaci_postup_casti>
+<id_objektu>ZP-P25V00000421</id_objektu>
+<lhuty_zadavaciho_postupu>
+<lhuta>
+<druh_lhuty>lhůta podání nabídky</druh_lhuty>
+<datum_konce_lhuty>2025-01-27T10:00:00+01:00</datum_konce_lhuty>
+</lhuta>
+</lhuty_zadavaciho_postupu>
+<stav_zadavaciho_postupu>dokončen</stav_zadavaciho_postupu>
+<druh_zadavaciho_postupu>otevřená výzva</druh_zadavaciho_postupu>
+<ramcova_dohoda>0</ramcova_dohoda>
+<zavedeni_dns>0</zavedeni_dns>
+<dokumenty>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3507964</url>
+<typ_dokumentu>písemná zpráva zadavatele</typ_dokumentu>
+<jiny_dokument_nazev>Písemná zpráva zadavatele</jiny_dokument_nazev>
+<cas_vlozeni_na_profil>2025-03-17T08:41:45+01:00</cas_vlozeni_na_profil>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3507965</url>
+<typ_dokumentu>výběr dodavatele</typ_dokumentu>
+<jiny_dokument_nazev>Oznámení o výběru nejvhodnější nabídky</jiny_dokument_nazev>
+<cas_vlozeni_na_profil>2025-02-25T07:37:26+01:00</cas_vlozeni_na_profil>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3507966</url>
+<typ_dokumentu>výzva k podání nabídek</typ_dokumentu>
+<jiny_dokument_nazev>Výzva</jiny_dokument_nazev>
+<cas_vlozeni_na_profil>2025-01-15T16:16:35+01:00</cas_vlozeni_na_profil>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3507967</url>
+<typ_dokumentu>zadávací dokumentace</typ_dokumentu>
+<jiny_dokument_nazev>Zadávací a kvalifikační dokumentace, prohlídka místa plnění</jiny_dokument_nazev>
+<cas_vlozeni_na_profil>2025-01-15T16:16:35+01:00</cas_vlozeni_na_profil>
+</dokument>
+</dokumenty>
+<datum_uverejneni>2025-01-15T16:16:35+01:00</datum_uverejneni>
+<ucastnici>
+<ucastnik>
+<subjekt>
+<ico>29362393</ico>
+<nazev_subjektu>Rušar mosty, s.r.o.</nazev_subjektu>
+<misto_podnikani>CZ</misto_podnikani>
+</subjekt>
+<role_ucastnika>dodavatel bez společné účasti</role_ucastnika>
+<ucastnik_vyloucen>0</ucastnik_vyloucen>
+<ucastnik_odstoupil>0</ucastnik_odstoupil>
+</ucastnik>              <ucastnik>
+<subjekt>
+<ico>10770917</ico>
+<nazev_subjektu>SMMS Projekt s.r.o.</nazev_subjektu>
+<misto_podnikani>CZ</misto_podnikani>
+</subjekt>
+<role_ucastnika>dodavatel bez společné účasti</role_ucastnika>
+<ucastnik_vyloucen>0</ucastnik_vyloucen>
+<ucastnik_odstoupil>0</ucastnik_odstoupil>
+</ucastnik>              <ucastnik>
+<subjekt>
+<ico>28693094</ico>
+<nazev_subjektu>DIPONT s.r.o.</nazev_subjektu>
+<misto_podnikani>CZ</misto_podnikani>
+</subjekt>
+<role_ucastnika>dodavatel bez společné účasti</role_ucastnika>
+<ucastnik_vyloucen>0</ucastnik_vyloucen>
+<ucastnik_odstoupil>0</ucastnik_odstoupil>
+</ucastnik>              <ucastnik>
+<subjekt>
+<ico>26849836</ico>
+<nazev_subjektu>MSS - projekt s.r.o.</nazev_subjektu>
+<misto_podnikani>CZ</misto_podnikani>
+</subjekt>
+<role_ucastnika>dodavatel bez společné účasti</role_ucastnika>
+<ucastnik_vyloucen>0</ucastnik_vyloucen>
+<ucastnik_odstoupil>0</ucastnik_odstoupil>
+</ucastnik>          </ucastnici>
+<zjisten_stret_zajmu>0</zjisten_stret_zajmu>
+<datum_uzavreni_smlouvy>2025-03-05T00:00:00+01:00</datum_uzavreni_smlouvy>
+</zadavaci_postup_casti>
+</cast_zakazky>      </casti_vz>
+</zakazka>                    <zakazka>
+<id_objektu>P25V00002623</id_objektu>
+<nazev_vz>„VEŘEJNÉ OSVĚTLENÍ PŘECHODŮ PRO CHODCE VSETÍN - PD“</nazev_vz>
+<druh_vz>služby</druh_vz>
+<rezim_vz>Veřejné zakázky malého rozsahu</rezim_vz>
+<predmet_vz>Předmětem zakázky je zpracování projektové dokumentace stavby pod názvem „VEŘEJNÉ OSVĚTLENÍ PŘECHODŮ PRO CHODCE VSETÍN – PD“.
+Součástí plnění zakázky je inženýrská činnost (IČ) nutná k zajištění vyjádření, stanovisek a podkladů nutných k podání žádosti o vydání pravomocného povolení záměru či jiného povolení na uvedenou akci.
+Účelem je vypracování projektové dokumentace pro povolení záměru v podrobnostech pro realizaci stavby na dodatečné nasvětlení čtyř stávajících přechodů pro chodce včetně přípojek NN na stávající VO. Stavba bude rozdělena na tři stavební objekty:
+SO 01:	Přechod pro chodce ul. Generála Klapálka u Lidlu  
+SO 02:	Přechod pro chodce ul. Smetanova a Nádražní pod nadjezdem
+SO 03:	Přechod pro chodce ul. Josefa Sousedíka u ZŠ Trávníky
+Stávající přechody pro chodce budou dodatečně nasvětleny sloupy VO s asymetrickým osvětlení LED svítidly pro osvětlení přechodů v povrchově upravené nátěrem oranžové barvy včetně připojení na vedení NN.</predmet_vz>
+<hlavni_cpv>71322000</hlavni_cpv>
+<delena_na_casti>0</delena_na_casti>
+<zadavaci_postupy>
+<zadavaci_postup>
+<id_objektu>ZP-P25V00002623</id_objektu>
+</zadavaci_postup>
+</zadavaci_postupy>
+<casti_vz>
+<cast_zakazky>
+<id_objektu>P25V00002623</id_objektu>
+<id_zadavaciho_postupu_vz>ZP-P25V00002623</id_zadavaciho_postupu_vz>
+<nazev_casti_vz>„VEŘEJNÉ OSVĚTLENÍ PŘECHODŮ PRO CHODCE VSETÍN - PD“</nazev_casti_vz>
+<druh_casti_vz>služby</druh_casti_vz>
+<rezim_casti_vz>Veřejné zakázky malého rozsahu</rezim_casti_vz>
+<predmet_casti_vz>Předmětem zakázky je zpracování projektové dokumentace stavby pod názvem „VEŘEJNÉ OSVĚTLENÍ PŘECHODŮ PRO CHODCE VSETÍN – PD“.
+Součástí plnění zakázky je inženýrská činnost (IČ) nutná k zajištění vyjádření, stanovisek a podkladů nutných k podání žádosti o vydání pravomocného povolení záměru či jiného povolení na uvedenou akci.
+Účelem je vypracování projektové dokumentace pro povolení záměru v podrobnostech pro realizaci stavby na dodatečné nasvětlení čtyř stávajících přechodů pro chodce včetně přípojek NN na stávající VO. Stavba bude rozdělena na tři stavební objekty:
+SO 01:	Přechod pro chodce ul. Generála Klapálka u Lidlu  
+SO 02:	Přechod pro chodce ul. Smetanova a Nádražní pod nadjezdem
+SO 03:	Přechod pro chodce ul. Josefa Sousedíka u ZŠ Trávníky
+Stávající přechody pro chodce budou dodatečně nasvětleny sloupy VO s asymetrickým osvětlení LED svítidly pro osvětlení přechodů v povrchově upravené nátěrem oranžové barvy včetně připojení na vedení NN.</predmet_casti_vz>
+<hlavni_cpv_casti_vz>71322000</hlavni_cpv_casti_vz>
+<zadavaci_postup_casti>
+<id_objektu>ZP-P25V00002623</id_objektu>
+<lhuty_zadavaciho_postupu>
+<lhuta>
+<druh_lhuty>lhůta podání nabídky</druh_lhuty>
+<datum_konce_lhuty>2025-03-31T10:00:00+02:00</datum_konce_lhuty>
+</lhuta>
+</lhuty_zadavaciho_postupu>
+<stav_zadavaciho_postupu>dokončen</stav_zadavaciho_postupu>
+<druh_zadavaciho_postupu>otevřená výzva</druh_zadavaciho_postupu>
+<ramcova_dohoda>0</ramcova_dohoda>
+<zavedeni_dns>0</zavedeni_dns>
+<dokumenty>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3560502</url>
+<typ_dokumentu>písemná zpráva zadavatele</typ_dokumentu>
+<jiny_dokument_nazev>Písemná zpráva zadavatele</jiny_dokument_nazev>
+<cas_vlozeni_na_profil>2025-05-15T10:10:32+02:00</cas_vlozeni_na_profil>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3560503</url>
+<typ_dokumentu>výběr dodavatele</typ_dokumentu>
+<jiny_dokument_nazev>Oznámení o výběru nejvhodnější nabídky</jiny_dokument_nazev>
+<cas_vlozeni_na_profil>2025-04-09T08:36:27+02:00</cas_vlozeni_na_profil>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3560504</url>
+<typ_dokumentu>výzva k podání nabídek</typ_dokumentu>
+<jiny_dokument_nazev>Výzva</jiny_dokument_nazev>
+<cas_vlozeni_na_profil>2025-03-19T08:32:37+01:00</cas_vlozeni_na_profil>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3560505</url>
+<typ_dokumentu>zadávací dokumentace</typ_dokumentu>
+<jiny_dokument_nazev>Zadávací a kvalifikační dokumentace, prohlídka místa plnění</jiny_dokument_nazev>
+<cas_vlozeni_na_profil>2025-03-19T08:32:37+01:00</cas_vlozeni_na_profil>
+</dokument>
+</dokumenty>
+<datum_uverejneni>2025-03-19T08:32:37+01:00</datum_uverejneni>
+<ucastnici>
+<ucastnik>
+<subjekt>
+<ico>24190853</ico>
+<nazev_subjektu>ARTENDR s.r.o.</nazev_subjektu>
+<misto_podnikani>CZ</misto_podnikani>
+</subjekt>
+<role_ucastnika>dodavatel bez společné účasti</role_ucastnika>
+<ucastnik_vyloucen>0</ucastnik_vyloucen>
+<ucastnik_odstoupil>0</ucastnik_odstoupil>
+</ucastnik>              <ucastnik>
+<subjekt>
+<ico>66603773</ico>
+<nazev_subjektu>Jan Testovací</nazev_subjektu>
+<misto_podnikani>CZ</misto_podnikani>
+</subjekt>
+<role_ucastnika>dodavatel bez společné účasti</role_ucastnika>
+<ucastnik_vyloucen>0</ucastnik_vyloucen>
+<ucastnik_odstoupil>0</ucastnik_odstoupil>
+</ucastnik>          </ucastnici>
+<zjisten_stret_zajmu>0</zjisten_stret_zajmu>
+<datum_uzavreni_smlouvy>2025-04-29T00:00:00+02:00</datum_uzavreni_smlouvy>
+</zadavaci_postup_casti>
+</cast_zakazky>      </casti_vz>
+</zakazka>                    <zakazka>
+<id_objektu>P25V00001397</id_objektu>
+<nazev_vz>Technický dozor stavebníka a koordinátor BOZP na stavbě „Fotovoltaická elektrárna na budově ZŠ Ohrada Vsetín“</nazev_vz>
+<druh_vz>služby</druh_vz>
+<rezim_vz>Veřejné zakázky malého rozsahu</rezim_vz>
+<predmet_vz>Předmětem plnění je zajištění výkonu činnosti technického dozoru stavebníka (TDS) a koordinátora bezpečnosti a ochrany zdraví při práci (BOZP) na stavbu „Fotovoltaická elektrárna na budově ZŠ Ohrada Vsetín“. 
+Stavba se skládá ze dvou objektů:
+A.	OPRAVA / REKONSTRUKCE STŘECHY - Stávající skladba střechy bude odstraněna až na nosnou konstrukci střechy (ŽB panel a skořepinové panely). Následně bude skladba provedena zcela nově, dle stávajících předpisů a norem.
+B.	FOTOVOLTAICKÁ ELEKTRÁRNA NA BUDOVĚ ZŠ OHRADA VSETÍN - FVE 228,8 kWp - FVE bude sloužit pro přímou výrobu elektrické energie z energie slunečního záření. Vyrobená el. energie bude přednostně spotřebovaná v areálu (odběrném místě), případné přebytky budou převedeny do distribuční soustavy. Součástí FVE bude bateriové úložiště.
+Předmětem plnění veřejné zakázky jsou následující služby:
+A)	Kontrola projektové dokumentace a položkového rozpočtu
+B)	Výkon technického dozoru stavebníka v rámci spolupráce při výběru a uzavírání smlouvy                                 se zhotovitelem stavby
+C)	Inženýrská a investorská činnost včetně výkonu technického dozoru stavebníka – na stavbě:
+-	organizace kontrolních dnů na stavbě min 1 x týdně, účast na těchto kontrolních dnech a pořizování zápisů z nich – datum kontrolních dnů určí objednatel;
+-	fyzické kontroly na místě provádění 2x týdně, kontrola a ověřování kvality prováděných prací,
+-	inženýrská a investorská činnost včetně výkonu technického dozoru stavebníka – zajištění kolaudace
+D)	Koordinátor bezpečnosti a ochrany zdraví při práci na staveništi – na stavbě:
+-	minimální účast na stavbě (min. 3 dny v týdnu, a to minimálně 2 hodiny v době provádění stavebních prací), při případném přerušení stavby bude četnost kontrol upravena zápisem do stavebního deníku;
+-	koordinátor bezpečnosti a ochrany zdraví při práci na staveništi – zpracování plánu BOZP
+E)	Spolupráce s dotačním orgánem - Státním fondem životního prostředí ČR.</predmet_vz>
+<hlavni_cpv>71315400</hlavni_cpv>
+<delena_na_casti>0</delena_na_casti>
+<zadavaci_postupy>
+<zadavaci_postup>
+<id_objektu>ZP-P25V00001397</id_objektu>
+</zadavaci_postup>
+</zadavaci_postupy>
+<casti_vz>
+<cast_zakazky>
+<id_objektu>P25V00001397</id_objektu>
+<id_zadavaciho_postupu_vz>ZP-P25V00001397</id_zadavaciho_postupu_vz>
+<nazev_casti_vz>Technický dozor stavebníka a koordinátor BOZP na stavbě „Fotovoltaická elektrárna na budově ZŠ Ohrada Vsetín“</nazev_casti_vz>
+<druh_casti_vz>služby</druh_casti_vz>
+<rezim_casti_vz>Veřejné zakázky malého rozsahu</rezim_casti_vz>
+<predmet_casti_vz>Předmětem plnění je zajištění výkonu činnosti technického dozoru stavebníka (TDS) a koordinátora bezpečnosti a ochrany zdraví při práci (BOZP) na stavbu „Fotovoltaická elektrárna na budově ZŠ Ohrada Vsetín“. 
+Stavba se skládá ze dvou objektů:
+A.	OPRAVA / REKONSTRUKCE STŘECHY - Stávající skladba střechy bude odstraněna až na nosnou konstrukci střechy (ŽB panel a skořepinové panely). Následně bude skladba provedena zcela nově, dle stávajících předpisů a norem.
+B.	FOTOVOLTAICKÁ ELEKTRÁRNA NA BUDOVĚ ZŠ OHRADA VSETÍN - FVE 228,8 kWp - FVE bude sloužit pro přímou výrobu elektrické energie z energie slunečního záření. Vyrobená el. energie bude přednostně spotřebovaná v areálu (odběrném místě), případné přebytky budou převedeny do distribuční soustavy. Součástí FVE bude bateriové úložiště.
+Předmětem plnění veřejné zakázky jsou následující služby:
+A)	Kontrola projektové dokumentace a položkového rozpočtu
+B)	Výkon technického dozoru stavebníka v rámci spolupráce při výběru a uzavírání smlouvy                                 se zhotovitelem stavby
+C)	Inženýrská a investorská činnost včetně výkonu technického dozoru stavebníka – na stavbě:
+-	organizace kontrolních dnů na stavbě min 1 x týdně, účast na těchto kontrolních dnech a pořizování zápisů z nich – datum kontrolních dnů určí objednatel;
+-	fyzické kontroly na místě provádění 2x týdně, kontrola a ověřování kvality prováděných prací,
+-	inženýrská a investorská činnost včetně výkonu technického dozoru stavebníka – zajištění kolaudace
+D)	Koordinátor bezpečnosti a ochrany zdraví při práci na staveništi – na stavbě:
+-	minimální účast na stavbě (min. 3 dny v týdnu, a to minimálně 2 hodiny v době provádění stavebních prací), při případném přerušení stavby bude četnost kontrol upravena zápisem do stavebního deníku;
+-	koordinátor bezpečnosti a ochrany zdraví při práci na staveništi – zpracování plánu BOZP
+E)	Spolupráce s dotačním orgánem - Státním fondem životního prostředí ČR.</predmet_casti_vz>
+<hlavni_cpv_casti_vz>71315400</hlavni_cpv_casti_vz>
+<zadavaci_postup_casti>
+<id_objektu>ZP-P25V00001397</id_objektu>
+<lhuty_zadavaciho_postupu>
+<lhuta>
+<druh_lhuty>lhůta podání nabídky</druh_lhuty>
+<datum_konce_lhuty>2025-02-25T10:00:00+01:00</datum_konce_lhuty>
+</lhuta>
+</lhuty_zadavaciho_postupu>
+<stav_zadavaciho_postupu>dokončen</stav_zadavaciho_postupu>
+<druh_zadavaciho_postupu>otevřená výzva</druh_zadavaciho_postupu>
+<ramcova_dohoda>0</ramcova_dohoda>
+<zavedeni_dns>0</zavedeni_dns>
+<dokumenty>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3560515</url>
+<typ_dokumentu>písemná zpráva zadavatele</typ_dokumentu>
+<jiny_dokument_nazev>Písemná zpráva zadavatele</jiny_dokument_nazev>
+<cas_vlozeni_na_profil>2025-05-15T10:14:45+02:00</cas_vlozeni_na_profil>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3560516</url>
+<typ_dokumentu>výběr dodavatele</typ_dokumentu>
+<jiny_dokument_nazev>Oznámení o výběru nejvhodnější nabídky</jiny_dokument_nazev>
+<cas_vlozeni_na_profil>2025-03-05T12:52:45+01:00</cas_vlozeni_na_profil>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3560517</url>
+<typ_dokumentu>výzva k podání nabídek</typ_dokumentu>
+<jiny_dokument_nazev>Výzva</jiny_dokument_nazev>
+<cas_vlozeni_na_profil>2025-02-14T11:24:34+01:00</cas_vlozeni_na_profil>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3560518</url>
+<typ_dokumentu>zadávací dokumentace</typ_dokumentu>
+<jiny_dokument_nazev>Zadávací a kvalifikační dokumentace, prohlídka místa plnění</jiny_dokument_nazev>
+<cas_vlozeni_na_profil>2025-02-14T11:24:34+01:00</cas_vlozeni_na_profil>
+</dokument>
+</dokumenty>
+<datum_uverejneni>2025-02-14T11:24:34+01:00</datum_uverejneni>
+<ucastnici>
+<ucastnik>
+<subjekt>
+<ico>09399895</ico>
+<nazev_subjektu>ZERO Emission Consulting</nazev_subjektu>
+<misto_podnikani>CZ</misto_podnikani>
+</subjekt>
+<role_ucastnika>dodavatel bez společné účasti</role_ucastnika>
+<ucastnik_vyloucen>0</ucastnik_vyloucen>
+<ucastnik_odstoupil>0</ucastnik_odstoupil>
+</ucastnik>          </ucastnici>
+<zjisten_stret_zajmu>0</zjisten_stret_zajmu>
+<datum_uzavreni_smlouvy>2025-04-08T00:00:00+02:00</datum_uzavreni_smlouvy>
+</zadavaci_postup_casti>
+</cast_zakazky>      </casti_vz>
+</zakazka>                    <zakazka>
+<id_objektu>P25V00002875</id_objektu>
+<nazev_vz>DODÁVKA SPOTŘEBNÍHO MATERIÁLU DO TISKÁREN PRO MĚSTO VSETÍN ROK 2025 - 2027</nazev_vz>
+<druh_vz>dodávky</druh_vz>
+<rezim_vz>Veřejné zakázky malého rozsahu</rezim_vz>
+<predmet_vz>Předmětem veřejné zakázky je realizace dodávek spotřebního materiálu do tiskáren pro potřeby města Vsetína.
+Podrobná specifikace jednotlivých položek tohoto materiálu je uvedena v příloze č. 1 této výzvy
+s názvem Cenová kalkulace.
+Dodavatel bude předmětný materiál dodávat zadavateli na základě Rámcové kupní smlouvy, a to po dobu dvou let ode dne uzavření této smlouvy s tím, že zadavatel bude vždy v příslušném kalendářním měsíci objednávat dle aktuální potřeby příslušné položky tohoto materiálu na základě písemné objednávky. 
+Zadavatel v souladu s § 38 stanoví, že se tohoto zadávacího řízení může účastnit pouze dodavatel zaměstnávající na chráněných pracovních místech dle zákona o zaměstnanosti alespoň 50% osob se zdravotním postižením z celkového počtu svých zaměstnanců</predmet_vz>
+<hlavni_cpv>30192000</hlavni_cpv>
+<delena_na_casti>0</delena_na_casti>
+<zadavaci_postupy>
+<zadavaci_postup>
+<id_objektu>ZP-P25V00002875</id_objektu>
+</zadavaci_postup>
+</zadavaci_postupy>
+<casti_vz>
+<cast_zakazky>
+<id_objektu>P25V00002875</id_objektu>
+<id_zadavaciho_postupu_vz>ZP-P25V00002875</id_zadavaciho_postupu_vz>
+<nazev_casti_vz>DODÁVKA SPOTŘEBNÍHO MATERIÁLU DO TISKÁREN PRO MĚSTO VSETÍN ROK 2025 - 2027</nazev_casti_vz>
+<druh_casti_vz>dodávky</druh_casti_vz>
+<rezim_casti_vz>Veřejné zakázky malého rozsahu</rezim_casti_vz>
+<predmet_casti_vz>Předmětem veřejné zakázky je realizace dodávek spotřebního materiálu do tiskáren pro potřeby města Vsetína.
+Podrobná specifikace jednotlivých položek tohoto materiálu je uvedena v příloze č. 1 této výzvy
+s názvem Cenová kalkulace.
+Dodavatel bude předmětný materiál dodávat zadavateli na základě Rámcové kupní smlouvy, a to po dobu dvou let ode dne uzavření této smlouvy s tím, že zadavatel bude vždy v příslušném kalendářním měsíci objednávat dle aktuální potřeby příslušné položky tohoto materiálu na základě písemné objednávky. 
+Zadavatel v souladu s § 38 stanoví, že se tohoto zadávacího řízení může účastnit pouze dodavatel zaměstnávající na chráněných pracovních místech dle zákona o zaměstnanosti alespoň 50% osob se zdravotním postižením z celkového počtu svých zaměstnanců</predmet_casti_vz>
+<hlavni_cpv_casti_vz>30192000</hlavni_cpv_casti_vz>
+<zadavaci_postup_casti>
+<id_objektu>ZP-P25V00002875</id_objektu>
+<lhuty_zadavaciho_postupu>
+<lhuta>
+<druh_lhuty>lhůta podání nabídky</druh_lhuty>
+<datum_konce_lhuty>2025-04-04T10:00:00+02:00</datum_konce_lhuty>
+</lhuta>
+</lhuty_zadavaciho_postupu>
+<stav_zadavaciho_postupu>dokončen</stav_zadavaciho_postupu>
+<druh_zadavaciho_postupu>otevřená výzva</druh_zadavaciho_postupu>
+<ramcova_dohoda>0</ramcova_dohoda>
+<zavedeni_dns>0</zavedeni_dns>
+<dokumenty>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3560528</url>
+<typ_dokumentu>písemná zpráva zadavatele</typ_dokumentu>
+<jiny_dokument_nazev>Písemná zpráva zadavatele</jiny_dokument_nazev>
+<cas_vlozeni_na_profil>2025-05-15T10:18:20+02:00</cas_vlozeni_na_profil>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3560529</url>
+<typ_dokumentu>výběr dodavatele</typ_dokumentu>
+<jiny_dokument_nazev>Oznámení o výběru nejvhodnější nabídky</jiny_dokument_nazev>
+<cas_vlozeni_na_profil>2025-04-09T08:49:17+02:00</cas_vlozeni_na_profil>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3560530</url>
+<typ_dokumentu>výzva k podání nabídek</typ_dokumentu>
+<jiny_dokument_nazev>Výzva</jiny_dokument_nazev>
+<cas_vlozeni_na_profil>2025-03-25T13:30:43+01:00</cas_vlozeni_na_profil>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3560531</url>
+<typ_dokumentu>zadávací dokumentace</typ_dokumentu>
+<jiny_dokument_nazev>Zadávací a kvalifikační dokumentace, prohlídka místa plnění</jiny_dokument_nazev>
+<cas_vlozeni_na_profil>2025-03-25T13:30:43+01:00</cas_vlozeni_na_profil>
+</dokument>
+</dokumenty>
+<datum_uverejneni>2025-03-25T13:30:43+01:00</datum_uverejneni>
+<ucastnici>
+<ucastnik>
+<subjekt>
+<ico>06189521</ico>
+<nazev_subjektu>TONERSYSTEM FACILITY s.r.o.</nazev_subjektu>
+<misto_podnikani>CZ</misto_podnikani>
+</subjekt>
+<role_ucastnika>dodavatel bez společné účasti</role_ucastnika>
+<ucastnik_vyloucen>0</ucastnik_vyloucen>
+<ucastnik_odstoupil>0</ucastnik_odstoupil>
+</ucastnik>          </ucastnici>
+<zjisten_stret_zajmu>0</zjisten_stret_zajmu>
+<datum_uzavreni_smlouvy>2025-04-25T00:00:00+02:00</datum_uzavreni_smlouvy>
+</zadavaci_postup_casti>
+</cast_zakazky>      </casti_vz>
+</zakazka>                    <zakazka>
+<id_objektu>P25V00002707</id_objektu>
+<nazev_vz>„STAVEBNÍ ÚPRAVY MÍSTNÍCH KOMUNKACÍ BOBRKY - PD“</nazev_vz>
+<druh_vz>služby</druh_vz>
+<rezim_vz>Veřejné zakázky malého rozsahu</rezim_vz>
+<predmet_vz>Předmětem zakázky je zpracování projektové dokumentace stavby pod názvem „Stavební úpravy místních komunikací Bobrky - PD“.
+Předmětem veřejné zakázky je vypracování projektové dokumentace (PD) místních komunikací Jasmínová, Šeříková, K Dubu, Veselá, Duhová v lokalitě Bobrky pro vydání rozhodnutí o povolení záměru (PDPZ) a ve stupni pro provádění stavby (PDPS). PD bude zhotovena dle platných norem. Součástí PD bude zjištění a řešení dotčených inženýrských sítí dle skutečného stavu. 
+Součástí plnění zakázky je inženýrská činnost (IČ) nutná k zajištění vyjádření, stanovisek a podkladů nutných k podání žádosti o vydání pravomocného povolení záměru či jiného povolení na uvedenou akci.
+Stavba bude rozdělena na stavební objekty:
+Část 1.	SO 101 MK Jasmínová
+SO 102 MK K Dubu
+SO 103 Šeříková
+SO 201 Propustek pod MK Bobrky
+Část 2.	 SO 104 MK Veselá
+SO 105 MK Duhová</predmet_vz>
+<hlavni_cpv>71250000</hlavni_cpv>
+<delena_na_casti>0</delena_na_casti>
+<zadavaci_postupy>
+<zadavaci_postup>
+<id_objektu>ZP-P25V00002707</id_objektu>
+</zadavaci_postup>
+</zadavaci_postupy>
+<casti_vz>
+<cast_zakazky>
+<id_objektu>P25V00002707</id_objektu>
+<id_zadavaciho_postupu_vz>ZP-P25V00002707</id_zadavaciho_postupu_vz>
+<nazev_casti_vz>„STAVEBNÍ ÚPRAVY MÍSTNÍCH KOMUNKACÍ BOBRKY - PD“</nazev_casti_vz>
+<druh_casti_vz>služby</druh_casti_vz>
+<rezim_casti_vz>Veřejné zakázky malého rozsahu</rezim_casti_vz>
+<predmet_casti_vz>Předmětem zakázky je zpracování projektové dokumentace stavby pod názvem „Stavební úpravy místních komunikací Bobrky - PD“.
+Předmětem veřejné zakázky je vypracování projektové dokumentace (PD) místních komunikací Jasmínová, Šeříková, K Dubu, Veselá, Duhová v lokalitě Bobrky pro vydání rozhodnutí o povolení záměru (PDPZ) a ve stupni pro provádění stavby (PDPS). PD bude zhotovena dle platných norem. Součástí PD bude zjištění a řešení dotčených inženýrských sítí dle skutečného stavu. 
+Součástí plnění zakázky je inženýrská činnost (IČ) nutná k zajištění vyjádření, stanovisek a podkladů nutných k podání žádosti o vydání pravomocného povolení záměru či jiného povolení na uvedenou akci.
+Stavba bude rozdělena na stavební objekty:
+Část 1.	SO 101 MK Jasmínová
+SO 102 MK K Dubu
+SO 103 Šeříková
+SO 201 Propustek pod MK Bobrky
+Část 2.	 SO 104 MK Veselá
+SO 105 MK Duhová</predmet_casti_vz>
+<hlavni_cpv_casti_vz>71250000</hlavni_cpv_casti_vz>
+<zadavaci_postup_casti>
+<id_objektu>ZP-P25V00002707</id_objektu>
+<lhuty_zadavaciho_postupu>
+<lhuta>
+<druh_lhuty>lhůta podání nabídky</druh_lhuty>
+<datum_konce_lhuty>2025-03-31T10:00:00+02:00</datum_konce_lhuty>
+</lhuta>
+</lhuty_zadavaciho_postupu>
+<stav_zadavaciho_postupu>dokončen</stav_zadavaciho_postupu>
+<druh_zadavaciho_postupu>otevřená výzva</druh_zadavaciho_postupu>
+<ramcova_dohoda>0</ramcova_dohoda>
+<zavedeni_dns>0</zavedeni_dns>
+<dokumenty>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3560535</url>
+<typ_dokumentu>písemná zpráva zadavatele</typ_dokumentu>
+<jiny_dokument_nazev>Písemná zpráva zadavatele</jiny_dokument_nazev>
+<cas_vlozeni_na_profil>2025-05-15T10:22:20+02:00</cas_vlozeni_na_profil>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3560536</url>
+<typ_dokumentu>výběr dodavatele</typ_dokumentu>
+<jiny_dokument_nazev>Oznámení o výběru nejvhodnější nabídky</jiny_dokument_nazev>
+<cas_vlozeni_na_profil>2025-04-09T08:57:12+02:00</cas_vlozeni_na_profil>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3560537</url>
+<typ_dokumentu>výzva k podání nabídek</typ_dokumentu>
+<jiny_dokument_nazev>Výzva</jiny_dokument_nazev>
+<cas_vlozeni_na_profil>2025-03-20T12:44:55+01:00</cas_vlozeni_na_profil>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3560538</url>
+<typ_dokumentu>zadávací dokumentace</typ_dokumentu>
+<jiny_dokument_nazev>Zadávací a kvalifikační dokumentace, prohlídka místa plnění</jiny_dokument_nazev>
+<cas_vlozeni_na_profil>2025-03-20T12:44:55+01:00</cas_vlozeni_na_profil>
+</dokument>
+</dokumenty>
+<datum_uverejneni>2025-03-20T12:44:55+01:00</datum_uverejneni>
+<ucastnici>
+<ucastnik>
+<subjekt>
+<ico>04449461</ico>
+<nazev_subjektu>HYDROPROGRESS, s.r.o.</nazev_subjektu>
+<misto_podnikani>CZ</misto_podnikani>
+</subjekt>
+<role_ucastnika>dodavatel bez společné účasti</role_ucastnika>
+<ucastnik_vyloucen>0</ucastnik_vyloucen>
+<ucastnik_odstoupil>0</ucastnik_odstoupil>
+</ucastnik>              <ucastnik>
+<subjekt>
+<ico>26849836</ico>
+<nazev_subjektu>MSS - projekt s.r.o.</nazev_subjektu>
+<misto_podnikani>CZ</misto_podnikani>
+</subjekt>
+<role_ucastnika>dodavatel bez společné účasti</role_ucastnika>
+<ucastnik_vyloucen>0</ucastnik_vyloucen>
+<ucastnik_odstoupil>0</ucastnik_odstoupil>
+</ucastnik>          </ucastnici>
+<zjisten_stret_zajmu>0</zjisten_stret_zajmu>
+<datum_uzavreni_smlouvy>2025-04-16T00:00:00+02:00</datum_uzavreni_smlouvy>
+</zadavaci_postup_casti>
+</cast_zakazky>      </casti_vz>
+</zakazka>                    <zakazka>
+<id_objektu>P25V00001713</id_objektu>
+<nazev_vz>Technický dozor stavebníka a koordinátor BOZP - „Dopravní stavby Vsetín 2025“</nazev_vz>
+<druh_vz>služby</druh_vz>
+<rezim_vz>Veřejné zakázky malého rozsahu</rezim_vz>
+<predmet_vz>Předmětem plnění je zajištění výkonu činnosti technického dozoru stavebníka (TDS) a koordinátora bezpečnosti a ochrany zdraví při práci (BOZP) v rámci akcí „Dopravní stavby Vsetín 2025“. 
+Předmět veřejné zakázky spočívá ve výkonu činnosti technického dozoru stavebníka (TDS) a koordinátora bezpečnosti a ochrany zdraví při práci (BOZP) u staveb:
+A.	Parkovací místa pod nadjezdem, Rokytnice u Vsetína (naproti Kotova)       
+•	Projektovou dokumentaci pro provádění stavby vypracovala společnost: MSS-projekt, s.r.o., IČO: 26849836, Sídlo: Michelská 580/63, 140 00 Praha 4, Pobočka: Žerotínova 992, 755 01 Vsetín.
+•	Předpokládaná hodnota stavebních prací 11.000.000,- Kč bez DPH
+•	Předpokládané zahájení stavebních prací: červen 2025
+•	Dokončení stavebních prací včetně předání všech dokladů do: 120 dnů od zahájení stavebních prací.
+B.	Chodník pod zámkem   
+•	Projektovou dokumentaci pro provádění stavby vypracovala společnost: MSS-projekt, s.r.o., IČO: 26849836, Sídlo: Michelská 580/63, 140 00 Praha 4, Pobočka: Žerotínova 992, 755 01 Vsetín.                                           
+•	Předpokládaná hodnota stavebních prací 10.000.000,- Kč bez DPH
+•	Předpokládané zahájení stavebních prací: květen 2025
+•	Dokončení stavebních prací včetně předání všech dokladů do: 100 dnů od zahájení stavebních prací.
+C.	Stavební úpravy Horního náměstí II. etapa
+•	Projektová dokumentace pro provádění stavby vypracoval: Bc. Martin Vavřínek, Stanislavského 768, 72100 Ostrava IČ : 037 62 246 email : vavrinek@post.cz.                      
+•	Vysoutěžená cena stavebních prací 5.736.200,- Kč bez DPH
+•	Předpokládané zahájení stavebních prací: 28. 04. 2025
+•	Dokončení stavebních prací včetně předání všech dokladů do: 100 dnů od zahájení</predmet_vz>
+<hlavni_cpv>71315400</hlavni_cpv>
+<delena_na_casti>0</delena_na_casti>
+<zadavaci_postupy>
+<zadavaci_postup>
+<id_objektu>ZP-P25V00001713</id_objektu>
+</zadavaci_postup>
+</zadavaci_postupy>
+<casti_vz>
+<cast_zakazky>
+<id_objektu>P25V00001713</id_objektu>
+<id_zadavaciho_postupu_vz>ZP-P25V00001713</id_zadavaciho_postupu_vz>
+<nazev_casti_vz>Technický dozor stavebníka a koordinátor BOZP - „Dopravní stavby Vsetín 2025“</nazev_casti_vz>
+<druh_casti_vz>služby</druh_casti_vz>
+<rezim_casti_vz>Veřejné zakázky malého rozsahu</rezim_casti_vz>
+<predmet_casti_vz>Předmětem plnění je zajištění výkonu činnosti technického dozoru stavebníka (TDS) a koordinátora bezpečnosti a ochrany zdraví při práci (BOZP) v rámci akcí „Dopravní stavby Vsetín 2025“. 
+Předmět veřejné zakázky spočívá ve výkonu činnosti technického dozoru stavebníka (TDS) a koordinátora bezpečnosti a ochrany zdraví při práci (BOZP) u staveb:
+A.	Parkovací místa pod nadjezdem, Rokytnice u Vsetína (naproti Kotova)       
+•	Projektovou dokumentaci pro provádění stavby vypracovala společnost: MSS-projekt, s.r.o., IČO: 26849836, Sídlo: Michelská 580/63, 140 00 Praha 4, Pobočka: Žerotínova 992, 755 01 Vsetín.
+•	Předpokládaná hodnota stavebních prací 11.000.000,- Kč bez DPH
+•	Předpokládané zahájení stavebních prací: červen 2025
+•	Dokončení stavebních prací včetně předání všech dokladů do: 120 dnů od zahájení stavebních prací.
+B.	Chodník pod zámkem   
+•	Projektovou dokumentaci pro provádění stavby vypracovala společnost: MSS-projekt, s.r.o., IČO: 26849836, Sídlo: Michelská 580/63, 140 00 Praha 4, Pobočka: Žerotínova 992, 755 01 Vsetín.                                           
+•	Předpokládaná hodnota stavebních prací 10.000.000,- Kč bez DPH
+•	Předpokládané zahájení stavebních prací: květen 2025
+•	Dokončení stavebních prací včetně předání všech dokladů do: 100 dnů od zahájení stavebních prací.
+C.	Stavební úpravy Horního náměstí II. etapa
+•	Projektová dokumentace pro provádění stavby vypracoval: Bc. Martin Vavřínek, Stanislavského 768, 72100 Ostrava IČ : 037 62 246 email : vavrinek@post.cz.                      
+•	Vysoutěžená cena stavebních prací 5.736.200,- Kč bez DPH
+•	Předpokládané zahájení stavebních prací: 28. 04. 2025
+•	Dokončení stavebních prací včetně předání všech dokladů do: 100 dnů od zahájení</predmet_casti_vz>
+<hlavni_cpv_casti_vz>71315400</hlavni_cpv_casti_vz>
+<zadavaci_postup_casti>
+<id_objektu>ZP-P25V00001713</id_objektu>
+<lhuty_zadavaciho_postupu>
+<lhuta>
+<druh_lhuty>lhůta podání nabídky</druh_lhuty>
+<datum_konce_lhuty>2025-03-10T10:00:00+01:00</datum_konce_lhuty>
+</lhuta>
+</lhuty_zadavaciho_postupu>
+<stav_zadavaciho_postupu>dokončen</stav_zadavaciho_postupu>
+<druh_zadavaciho_postupu>otevřená výzva</druh_zadavaciho_postupu>
+<ramcova_dohoda>0</ramcova_dohoda>
+<zavedeni_dns>0</zavedeni_dns>
+<dokumenty>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3560546</url>
+<typ_dokumentu>písemná zpráva zadavatele</typ_dokumentu>
+<jiny_dokument_nazev>Písemná zpráva zadavatele</jiny_dokument_nazev>
+<cas_vlozeni_na_profil>2025-05-15T10:32:48+02:00</cas_vlozeni_na_profil>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3560547</url>
+<typ_dokumentu>výběr dodavatele</typ_dokumentu>
+<jiny_dokument_nazev>Oznámení o výběru nejvhodnější nabídky</jiny_dokument_nazev>
+<cas_vlozeni_na_profil>2025-03-20T12:58:12+01:00</cas_vlozeni_na_profil>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3560548</url>
+<typ_dokumentu>výzva k podání nabídek</typ_dokumentu>
+<jiny_dokument_nazev>Výzva</jiny_dokument_nazev>
+<cas_vlozeni_na_profil>2025-02-25T07:27:30+01:00</cas_vlozeni_na_profil>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3560549</url>
+<typ_dokumentu>zadávací dokumentace</typ_dokumentu>
+<jiny_dokument_nazev>Zadávací a kvalifikační dokumentace, prohlídka místa plnění</jiny_dokument_nazev>
+<cas_vlozeni_na_profil>2025-02-25T07:27:30+01:00</cas_vlozeni_na_profil>
+</dokument>
+</dokumenty>
+<datum_uverejneni>2025-02-25T07:27:30+01:00</datum_uverejneni>
+<ucastnici>
+<ucastnik>
+<subjekt>
+<ico>06395074</ico>
+<nazev_subjektu>NABOZ-servis, s.r.o.</nazev_subjektu>
+<misto_podnikani>CZ</misto_podnikani>
+</subjekt>
+<role_ucastnika>dodavatel bez společné účasti</role_ucastnika>
+<ucastnik_vyloucen>0</ucastnik_vyloucen>
+<ucastnik_odstoupil>0</ucastnik_odstoupil>
+</ucastnik>              <ucastnik>
+<subjekt>
+<ico>64088545</ico>
+<nazev_subjektu>360 DEGREES CONSTRUCT s.r.o.</nazev_subjektu>
+<misto_podnikani>CZ</misto_podnikani>
+</subjekt>
+<role_ucastnika>dodavatel bez společné účasti</role_ucastnika>
+<ucastnik_vyloucen>0</ucastnik_vyloucen>
+<ucastnik_odstoupil>0</ucastnik_odstoupil>
+</ucastnik>              <ucastnik>
+<subjekt>
+<ico>28571690</ico>
+<nazev_subjektu>SAFETY PRO s.r.o.</nazev_subjektu>
+<misto_podnikani>CZ</misto_podnikani>
+</subjekt>
+<role_ucastnika>dodavatel bez společné účasti</role_ucastnika>
+<ucastnik_vyloucen>0</ucastnik_vyloucen>
+<ucastnik_odstoupil>0</ucastnik_odstoupil>
+</ucastnik>              <ucastnik>
+<subjekt>
+<ico>21738726</ico>
+<nazev_subjektu>Ing. Karel Vzorový</nazev_subjektu>
+<misto_podnikani>CZ</misto_podnikani>
+</subjekt>
+<role_ucastnika>dodavatel bez společné účasti</role_ucastnika>
+<ucastnik_vyloucen>0</ucastnik_vyloucen>
+<ucastnik_odstoupil>0</ucastnik_odstoupil>
+</ucastnik>          </ucastnici>
+<zjisten_stret_zajmu>0</zjisten_stret_zajmu>
+<datum_uzavreni_smlouvy>2025-04-14T00:00:00+02:00</datum_uzavreni_smlouvy>
+</zadavaci_postup_casti>
+</cast_zakazky>      </casti_vz>
+</zakazka>                    <zakazka>
+<id_objektu>P25V00001313</id_objektu>
+<nazev_vz>ZMĚNA Č. 7 ÚZEMNÍHO PLÁNU VSETÍN</nazev_vz>
+<druh_vz>služby</druh_vz>
+<rezim_vz>Veřejné zakázky malého rozsahu</rezim_vz>
+<predmet_vz>Předmětem zakázky je zpracování změny č. 7 ÚP Vsetín. 
+Bližší specifikace předmětu plnění je uvedena ve Výzvě k podání nabídek a jejích přílohách.</predmet_vz>
+<hlavni_cpv>71410000</hlavni_cpv>
+<delena_na_casti>0</delena_na_casti>
+<zadavaci_postupy>
+<zadavaci_postup>
+<id_objektu>ZP-P25V00001313</id_objektu>
+</zadavaci_postup>
+</zadavaci_postupy>
+<casti_vz>
+<cast_zakazky>
+<id_objektu>P25V00001313</id_objektu>
+<id_zadavaciho_postupu_vz>ZP-P25V00001313</id_zadavaciho_postupu_vz>
+<nazev_casti_vz>ZMĚNA Č. 7 ÚZEMNÍHO PLÁNU VSETÍN</nazev_casti_vz>
+<druh_casti_vz>služby</druh_casti_vz>
+<rezim_casti_vz>Veřejné zakázky malého rozsahu</rezim_casti_vz>
+<predmet_casti_vz>Předmětem zakázky je zpracování změny č. 7 ÚP Vsetín. 
+Bližší specifikace předmětu plnění je uvedena ve Výzvě k podání nabídek a jejích přílohách.</predmet_casti_vz>
+<hlavni_cpv_casti_vz>71410000</hlavni_cpv_casti_vz>
+<zadavaci_postup_casti>
+<id_objektu>ZP-P25V00001313</id_objektu>
+<lhuty_zadavaciho_postupu>
+<lhuta>
+<druh_lhuty>lhůta podání nabídky</druh_lhuty>
+<datum_konce_lhuty>2025-02-26T10:00:00+01:00</datum_konce_lhuty>
+</lhuta>
+</lhuty_zadavaciho_postupu>
+<stav_zadavaciho_postupu>dokončen</stav_zadavaciho_postupu>
+<druh_zadavaciho_postupu>otevřená výzva</druh_zadavaciho_postupu>
+<ramcova_dohoda>0</ramcova_dohoda>
+<zavedeni_dns>0</zavedeni_dns>
+<dokumenty>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3560558</url>
+<typ_dokumentu>písemná zpráva zadavatele</typ_dokumentu>
+<jiny_dokument_nazev>Písemná zpráva zadavatele</jiny_dokument_nazev>
+<cas_vlozeni_na_profil>2025-05-15T10:39:19+02:00</cas_vlozeni_na_profil>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3560560</url>
+<typ_dokumentu>výběr dodavatele</typ_dokumentu>
+<jiny_dokument_nazev>Oznámení o výběru nejvhodnější nabídky</jiny_dokument_nazev>
+<cas_vlozeni_na_profil>2025-03-05T09:40:17+01:00</cas_vlozeni_na_profil>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3560561</url>
+<typ_dokumentu>výzva k podání nabídek</typ_dokumentu>
+<jiny_dokument_nazev>Výzva</jiny_dokument_nazev>
+<cas_vlozeni_na_profil>2025-02-12T10:16:09+01:00</cas_vlozeni_na_profil>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3560562</url>
+<typ_dokumentu>výzva k podání nabídek</typ_dokumentu>
+<jiny_dokument_nazev>Výzva</jiny_dokument_nazev>
+<cas_vlozeni_na_profil>2025-02-12T10:16:09+01:00</cas_vlozeni_na_profil>
+</dokument>
+</dokumenty>
+<datum_uverejneni>2025-02-12T10:16:09+01:00</datum_uverejneni>
+<ucastnici>
+<ucastnik>
+<subjekt>
+<ico>28203011</ico>
+<nazev_subjektu>Stemio a.s.</nazev_subjektu>
+<misto_podnikani>CZ</misto_podnikani>
+</subjekt>
+<role_ucastnika>dodavatel bez společné účasti</role_ucastnika>
+<ucastnik_vyloucen>0</ucastnik_vyloucen>
+<ucastnik_odstoupil>0</ucastnik_odstoupil>
+</ucastnik>          </ucastnici>
+<zjisten_stret_zajmu>0</zjisten_stret_zajmu>
+<datum_uzavreni_smlouvy>2025-03-21T00:00:00+01:00</datum_uzavreni_smlouvy>
+</zadavaci_postup_casti>
+</cast_zakazky>      </casti_vz>
+</zakazka>                    <zakazka>
+<id_objektu>P25V00002050</id_objektu>
+<nazev_vz>ZRUŠENA PROVOZOVÁNÍ SLUŽBY SENIOR TAXI</nazev_vz>
+<druh_vz>služby</druh_vz>
+<rezim_vz>Veřejné zakázky malého rozsahu</rezim_vz>
+<predmet_vz>Předmětem veřejné zakázky je provozování služby Senior taxi.
+Služba bude poskytována občanům s trvalým pobytem v katastrálním území Vsetín, Rokytnice u Vsetína, Jasenka, starším 65 let včetně a držitelům ZTP či ZTP/P bez ohledu na věk (dále jen oprávněná osoba) k dopravě do / ze zadavatelem vybraných přepravních míst včetně přepravy menších břemen a spoluzavazadel těchto oprávněných osob. Služba Senior taxi bude poskytována v režimu taxislužby dle zákona č. 111/1994 Sb., o silniční dopravě, ve znění pozdějších předpisů a vyhlášky č. 478/2000Sb., kterou se provádí zákon o silniční dopravě, ve znění pozdějších předpisů.</predmet_vz>
+<hlavni_cpv>60120000</hlavni_cpv>
+<delena_na_casti>0</delena_na_casti>
+<zadavaci_postupy>
+<zadavaci_postup>
+<id_objektu>ZP-P25V00002050</id_objektu>
+</zadavaci_postup>
+</zadavaci_postupy>
+<casti_vz>
+<cast_zakazky>
+<id_objektu>P25V00002050</id_objektu>
+<id_zadavaciho_postupu_vz>ZP-P25V00002050</id_zadavaciho_postupu_vz>
+<nazev_casti_vz>ZRUŠENA PROVOZOVÁNÍ SLUŽBY SENIOR TAXI</nazev_casti_vz>
+<druh_casti_vz>služby</druh_casti_vz>
+<rezim_casti_vz>Veřejné zakázky malého rozsahu</rezim_casti_vz>
+<predmet_casti_vz>Předmětem veřejné zakázky je provozování služby Senior taxi.
+Služba bude poskytována občanům s trvalým pobytem v katastrálním území Vsetín, Rokytnice u Vsetína, Jasenka, starším 65 let včetně a držitelům ZTP či ZTP/P bez ohledu na věk (dále jen oprávněná osoba) k dopravě do / ze zadavatelem vybraných přepravních míst včetně přepravy menších břemen a spoluzavazadel těchto oprávněných osob. Služba Senior taxi bude poskytována v režimu taxislužby dle zákona č. 111/1994 Sb., o silniční dopravě, ve znění pozdějších předpisů a vyhlášky č. 478/2000Sb., kterou se provádí zákon o silniční dopravě, ve znění pozdějších předpisů.</predmet_casti_vz>
+<hlavni_cpv_casti_vz>60120000</hlavni_cpv_casti_vz>
+<zadavaci_postup_casti>
+<id_objektu>ZP-P25V00002050</id_objektu>
+<lhuty_zadavaciho_postupu>
+<lhuta>
+<druh_lhuty>lhůta podání nabídky</druh_lhuty>
+<datum_konce_lhuty>2025-03-17T10:00:00+01:00</datum_konce_lhuty>
+</lhuta>
+</lhuty_zadavaciho_postupu>
+<stav_zadavaciho_postupu>zrušen</stav_zadavaciho_postupu>
+<druh_zadavaciho_postupu>otevřená výzva</druh_zadavaciho_postupu>
+<ramcova_dohoda>0</ramcova_dohoda>
+<zavedeni_dns>0</zavedeni_dns>
+<dokumenty>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3579161</url>
+<typ_dokumentu>písemná zpráva zadavatele</typ_dokumentu>
+<jiny_dokument_nazev>Písemná zpráva zadavatele</jiny_dokument_nazev>
+<cas_vlozeni_na_profil>2025-06-06T07:36:12+02:00</cas_vlozeni_na_profil>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3579162</url>
+<typ_dokumentu>písemná zpráva zadavatele</typ_dokumentu>
+<jiny_dokument_nazev>Písemná zpráva zadavatele</jiny_dokument_nazev>
+<cas_vlozeni_na_profil>2025-04-29T09:31:22+02:00</cas_vlozeni_na_profil>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3579163</url>
+<typ_dokumentu>výzva k podání nabídek</typ_dokumentu>
+<jiny_dokument_nazev>Výzva</jiny_dokument_nazev>
+<cas_vlozeni_na_profil>2025-03-05T14:26:23+01:00</cas_vlozeni_na_profil>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3579164</url>
+<typ_dokumentu>zadávací dokumentace</typ_dokumentu>
+<jiny_dokument_nazev>Zadávací a kvalifikační dokumentace, prohlídka místa plnění</jiny_dokument_nazev>
+<cas_vlozeni_na_profil>2025-03-05T14:26:23+01:00</cas_vlozeni_na_profil>
+</dokument>
+</dokumenty>
+<datum_uverejneni>2025-03-05T14:26:23+01:00</datum_uverejneni>
+<zjisten_stret_zajmu>0</zjisten_stret_zajmu>
+<datum_zruseni_rizeni>2025-04-29T00:00:00+02:00</datum_zruseni_rizeni>
+</zadavaci_postup_casti>
+</cast_zakazky>      </casti_vz>
+</zakazka>                    <zakazka>
+<id_objektu>P25V00003011</id_objektu>
+<nazev_vz>DODÁVKA SPOTŘEBNÍHO MATERIÁLU KANCELÁŘSKÝCH POTŘEB PRO MĚSTO VSETÍN ROK 2025-2027</nazev_vz>
+<druh_vz>dodávky</druh_vz>
+<rezim_vz>Veřejné zakázky malého rozsahu</rezim_vz>
+<predmet_vz>Předmětem veřejné zakázky je realizace dodávek spotřebního materiálu kancelářských potřeb pro potřeby města Vsetína.
+Podrobná specifikace jednotlivých položek tohoto materiálu je uvedena v příloze č. 1 výzvy
+s názvem Cenová kalkulace.
+Zadavatel v souladu s § 38 stanoví, že se tohoto zadávacího řízení může účastnit pouze dodavatel zaměstnávající na chráněných pracovních místech dle zákona o zaměstnanosti alespoň 50% osob se zdravotním postižením z celkového počtu svých zaměstnanců.</predmet_vz>
+<hlavni_cpv>30192000</hlavni_cpv>
+<delena_na_casti>0</delena_na_casti>
+<zadavaci_postupy>
+<zadavaci_postup>
+<id_objektu>ZP-P25V00003011</id_objektu>
+</zadavaci_postup>
+</zadavaci_postupy>
+<casti_vz>
+<cast_zakazky>
+<id_objektu>P25V00003011</id_objektu>
+<id_zadavaciho_postupu_vz>ZP-P25V00003011</id_zadavaciho_postupu_vz>
+<nazev_casti_vz>DODÁVKA SPOTŘEBNÍHO MATERIÁLU KANCELÁŘSKÝCH POTŘEB PRO MĚSTO VSETÍN ROK 2025-2027</nazev_casti_vz>
+<druh_casti_vz>dodávky</druh_casti_vz>
+<rezim_casti_vz>Veřejné zakázky malého rozsahu</rezim_casti_vz>
+<predmet_casti_vz>Předmětem veřejné zakázky je realizace dodávek spotřebního materiálu kancelářských potřeb pro potřeby města Vsetína.
+Podrobná specifikace jednotlivých položek tohoto materiálu je uvedena v příloze č. 1 výzvy
+s názvem Cenová kalkulace.
+Zadavatel v souladu s § 38 stanoví, že se tohoto zadávacího řízení může účastnit pouze dodavatel zaměstnávající na chráněných pracovních místech dle zákona o zaměstnanosti alespoň 50% osob se zdravotním postižením z celkového počtu svých zaměstnanců.</predmet_casti_vz>
+<hlavni_cpv_casti_vz>30192000</hlavni_cpv_casti_vz>
+<zadavaci_postup_casti>
+<id_objektu>ZP-P25V00003011</id_objektu>
+<lhuty_zadavaciho_postupu>
+<lhuta>
+<druh_lhuty>lhůta podání nabídky</druh_lhuty>
+<datum_konce_lhuty>2025-04-07T10:00:00+02:00</datum_konce_lhuty>
+</lhuta>
+</lhuty_zadavaciho_postupu>
+<stav_zadavaciho_postupu>dokončen</stav_zadavaciho_postupu>
+<druh_zadavaciho_postupu>otevřená výzva</druh_zadavaciho_postupu>
+<ramcova_dohoda>0</ramcova_dohoda>
+<zavedeni_dns>0</zavedeni_dns>
+<dokumenty>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3579173</url>
+<typ_dokumentu>písemná zpráva zadavatele</typ_dokumentu>
+<jiny_dokument_nazev>Písemná zpráva zadavatele</jiny_dokument_nazev>
+<cas_vlozeni_na_profil>2025-06-06T07:40:50+02:00</cas_vlozeni_na_profil>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3579174</url>
+<typ_dokumentu>výběr dodavatele</typ_dokumentu>
+<jiny_dokument_nazev>Oznámení o výběru nejvhodnější nabídky</jiny_dokument_nazev>
+<cas_vlozeni_na_profil>2025-04-17T11:13:40+02:00</cas_vlozeni_na_profil>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3579175</url>
+<typ_dokumentu>výzva k podání nabídek</typ_dokumentu>
+<jiny_dokument_nazev>Výzva</jiny_dokument_nazev>
+<cas_vlozeni_na_profil>2025-03-27T15:08:30+01:00</cas_vlozeni_na_profil>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3579176</url>
+<typ_dokumentu>výzva k podání nabídek</typ_dokumentu>
+<jiny_dokument_nazev>Výzva</jiny_dokument_nazev>
+<cas_vlozeni_na_profil>2025-03-27T15:08:30+01:00</cas_vlozeni_na_profil>
+</dokument>
+</dokumenty>
+<datum_uverejneni>2025-03-27T15:08:30+01:00</datum_uverejneni>
+<ucastnici>
+<ucastnik>
+<subjekt>
+<ico>26810093</ico>
+<nazev_subjektu>Bartoň a Partner s.r.o.</nazev_subjektu>
+<misto_podnikani>CZ</misto_podnikani>
+</subjekt>
+<role_ucastnika>dodavatel bez společné účasti</role_ucastnika>
+<ucastnik_vyloucen>0</ucastnik_vyloucen>
+<ucastnik_odstoupil>0</ucastnik_odstoupil>
+</ucastnik>              <ucastnik>
+<subjekt>
+<ico>02119463</ico>
+<nazev_subjektu>ŠEDOVÁ perfect service, o.p.s.</nazev_subjektu>
+<misto_podnikani>CZ</misto_podnikani>
+</subjekt>
+<role_ucastnika>dodavatel bez společné účasti</role_ucastnika>
+<ucastnik_vyloucen>0</ucastnik_vyloucen>
+<ucastnik_odstoupil>0</ucastnik_odstoupil>
+</ucastnik>              <ucastnik>
+<subjekt>
+<ico>27714357</ico>
+<nazev_subjektu>Chráněná dílna TiRO Blansko s.r.o.</nazev_subjektu>
+<misto_podnikani>CZ</misto_podnikani>
+</subjekt>
+<role_ucastnika>dodavatel bez společné účasti</role_ucastnika>
+<ucastnik_vyloucen>0</ucastnik_vyloucen>
+<ucastnik_odstoupil>0</ucastnik_odstoupil>
+</ucastnik>          </ucastnici>
+<zjisten_stret_zajmu>0</zjisten_stret_zajmu>
+<datum_uzavreni_smlouvy>2025-05-05T00:00:00+02:00</datum_uzavreni_smlouvy>
+</zadavaci_postup_casti>
+</cast_zakazky>      </casti_vz>
+</zakazka>                    <zakazka>
+<id_objektu>P25V00000420</id_objektu>
+<nazev_vz>REVITALIZACE DOLNÍHO NÁMĚSTÍ VE VSETÍNĚ - projektová dokumentace, autorský dozor II</nazev_vz>
+<druh_vz>služby</druh_vz>
+<rezim_vz>Nadlimitní</rezim_vz>
+<predmet_vz>Předmětem zakázky je zpracování projektové dokumentace, průzkumů, autorského dozoru a inženýrské činnosti na akci „REVITALIZACE DOLNÍHO NÁMĚSTÍ VE VSETÍNĚ- projektová dokumentace, autorský dozor“.
+Předmětem veřejné zakázky je vypracování projektové dokumentace (PD) pro vydání rozhodnutí o povolení záměru (PDPZ) a ve stupni pro provádění stavby (PDPS). PD bude zhotovena dle platných norem. Součástí PD bude i návrh DIO, zjištění a řešení dotčených inženýrských sítí dle skutečného stavu. 
+Součástí zakázky je inženýrská činnost (IČ) nutná k zajištění vyjádření, stanovisek a podkladů nutných k podání žádostí o vydání všech povolení na uvedenou akci.
+Dolní náměstí ve Vsetíně je urbanisticky významnou části centrální zóny města s hlavní funkcí obchodu, služeb, administrativy. Hlavní prostor náměstí je v půdorysu trojúhelníku vymezený souvislými zástavbovými frontami ze severozápadní a jihovýchodní strany. V jižní časti pokračuje uličním koridorem Svárov, který je součástí průjezdné trasy napojující náměstí na dopravní systém – v jižní časti na ulici Na Hlásence a Tyršovu a v severozápadním cípu náměstí na ul. Mosteckou. Dopravní obsluha zahrnuje i městskou hromadnou (autobusovou) dopravu. Řešené úpravy náměstí zasahují veškeré zpevněné plochy i plochy městské zeleně, nemění však s výjimkou dílčích uprav nijak stávající provozní, urbanistickou a architektonickou koncepci prostoru (danou návrhem a projektem pro celkovou rekonstrukci realizovanou v r. 2002). Dosavadní využití, charakter ani zastavěnost území se nemění. Nejvýraznější změna je v řešení zeleně. Alejové řady stromů v komunikačních dlažbových pásech jsou v novém řešení rozšířeny a doplněny o 22 stromů (původních 28 + 22).</predmet_vz>
+<hlavni_cpv>71250000</hlavni_cpv>
+<delena_na_casti>0</delena_na_casti>
+<zadavaci_postupy>
+<zadavaci_postup>
+<id_objektu>ZP-P25V00000420</id_objektu>
+<evidencni_cislo_vvz>Z2025-003084</evidencni_cislo_vvz>
+</zadavaci_postup>
+</zadavaci_postupy>
+<casti_vz>
+<cast_zakazky>
+<id_objektu>P25V00000420</id_objektu>
+<id_zadavaciho_postupu_vz>ZP-P25V00000420</id_zadavaciho_postupu_vz>
+<nazev_casti_vz>REVITALIZACE DOLNÍHO NÁMĚSTÍ VE VSETÍNĚ - projektová dokumentace, autorský dozor II</nazev_casti_vz>
+<druh_casti_vz>služby</druh_casti_vz>
+<rezim_casti_vz>Nadlimitní</rezim_casti_vz>
+<predmet_casti_vz>Předmětem zakázky je zpracování projektové dokumentace, průzkumů, autorského dozoru a inženýrské činnosti na akci „REVITALIZACE DOLNÍHO NÁMĚSTÍ VE VSETÍNĚ- projektová dokumentace, autorský dozor“.
+Předmětem veřejné zakázky je vypracování projektové dokumentace (PD) pro vydání rozhodnutí o povolení záměru (PDPZ) a ve stupni pro provádění stavby (PDPS). PD bude zhotovena dle platných norem. Součástí PD bude i návrh DIO, zjištění a řešení dotčených inženýrských sítí dle skutečného stavu. 
+Součástí zakázky je inženýrská činnost (IČ) nutná k zajištění vyjádření, stanovisek a podkladů nutných k podání žádostí o vydání všech povolení na uvedenou akci.
+Dolní náměstí ve Vsetíně je urbanisticky významnou části centrální zóny města s hlavní funkcí obchodu, služeb, administrativy. Hlavní prostor náměstí je v půdorysu trojúhelníku vymezený souvislými zástavbovými frontami ze severozápadní a jihovýchodní strany. V jižní časti pokračuje uličním koridorem Svárov, který je součástí průjezdné trasy napojující náměstí na dopravní systém – v jižní časti na ulici Na Hlásence a Tyršovu a v severozápadním cípu náměstí na ul. Mosteckou. Dopravní obsluha zahrnuje i městskou hromadnou (autobusovou) dopravu. Řešené úpravy náměstí zasahují veškeré zpevněné plochy i plochy městské zeleně, nemění však s výjimkou dílčích uprav nijak stávající provozní, urbanistickou a architektonickou koncepci prostoru (danou návrhem a projektem pro celkovou rekonstrukci realizovanou v r. 2002). Dosavadní využití, charakter ani zastavěnost území se nemění. Nejvýraznější změna je v řešení zeleně. Alejové řady stromů v komunikačních dlažbových pásech jsou v novém řešení rozšířeny a doplněny o 22 stromů (původních 28 + 22).</predmet_casti_vz>
+<hlavni_cpv_casti_vz>71250000</hlavni_cpv_casti_vz>
+<zadavaci_postup_casti>
+<id_objektu>ZP-P25V00000420</id_objektu>
+<evidencni_cislo_vvz>Z2025-003084</evidencni_cislo_vvz>
+<lhuty_zadavaciho_postupu>
+<lhuta>
+<druh_lhuty>lhůta podání nabídky</druh_lhuty>
+<datum_konce_lhuty>2025-02-18T10:00:00+01:00</datum_konce_lhuty>
+</lhuta>
+</lhuty_zadavaciho_postupu>
+<stav_zadavaciho_postupu>dokončen</stav_zadavaciho_postupu>
+<druh_zadavaciho_postupu>otevřené řízení</druh_zadavaciho_postupu>
+<ramcova_dohoda>0</ramcova_dohoda>
+<zavedeni_dns>0</zavedeni_dns>
+<dokumenty>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3607924</url>
+<typ_dokumentu>písemná zpráva zadavatele</typ_dokumentu>
+<jiny_dokument_nazev>Písemná zpráva zadavatele</jiny_dokument_nazev>
+<cas_vlozeni_na_profil>2025-04-25T11:14:14+02:00</cas_vlozeni_na_profil>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3607925</url>
+<typ_dokumentu>písemná zpráva zadavatele</typ_dokumentu>
+<jiny_dokument_nazev>Písemná zpráva zadavatele</jiny_dokument_nazev>
+<cas_vlozeni_na_profil>2025-04-25T11:14:14+02:00</cas_vlozeni_na_profil>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3607926</url>
+<typ_dokumentu>vysvětlení zadávací dokumentace</typ_dokumentu>
+<jiny_dokument_nazev>Vysvětlení, doplnění, změna zadávací dokumentace</jiny_dokument_nazev>
+<cas_vlozeni_na_profil>2025-01-21T13:06:02+01:00</cas_vlozeni_na_profil>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3607927</url>
+<typ_dokumentu>výzva k podání nabídek</typ_dokumentu>
+<jiny_dokument_nazev>Výzva</jiny_dokument_nazev>
+<cas_vlozeni_na_profil>2025-01-15T16:10:05+01:00</cas_vlozeni_na_profil>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3607928</url>
+<typ_dokumentu>zadávací dokumentace</typ_dokumentu>
+<jiny_dokument_nazev>Zadávací a kvalifikační dokumentace, prohlídka místa plnění</jiny_dokument_nazev>
+<cas_vlozeni_na_profil>2025-01-15T16:10:06+01:00</cas_vlozeni_na_profil>
+</dokument>
+</dokumenty>
+<datum_uverejneni>2025-01-15T16:10:05+01:00</datum_uverejneni>
+<ucastnici>
+<ucastnik>
+<subjekt>
+<ico>46345761</ico>
+<nazev_subjektu>CityTraffic, s.r.o.</nazev_subjektu>
+<misto_podnikani>CZ</misto_podnikani>
+</subjekt>
+<role_ucastnika>dodavatel bez společné účasti</role_ucastnika>
+<ucastnik_vyloucen>0</ucastnik_vyloucen>
+<ucastnik_odstoupil>0</ucastnik_odstoupil>
+</ucastnik>              <ucastnik>
+<subjekt>
+<ico>08014469</ico>
+<nazev_subjektu>FILDMAN PROJEKT s.r.o.</nazev_subjektu>
+<misto_podnikani>CZ</misto_podnikani>
+</subjekt>
+<nabidkova_cena_bez_dph>3999906.00</nabidkova_cena_bez_dph>
+<role_ucastnika>dodavatel bez společné účasti</role_ucastnika>
+<ucastnik_vyloucen>0</ucastnik_vyloucen>
+<ucastnik_odstoupil>0</ucastnik_odstoupil>
+</ucastnik>              <ucastnik>
+<subjekt>
+<ico>03994601</ico>
+<nazev_subjektu>F.E.D. s.r.o.</nazev_subjektu>
+<misto_podnikani>CZ</misto_podnikani>
+</subjekt>
+<role_ucastnika>dodavatel bez společné účasti</role_ucastnika>
+<ucastnik_vyloucen>0</ucastnik_vyloucen>
+<ucastnik_odstoupil>0</ucastnik_odstoupil>
+</ucastnik>          </ucastnici>
+<vybrani_dodavatele>
+<vybrany_dodavatel>
+<subjekt>
+<ico>08014469</ico>
+<nazev_subjektu>FILDMAN PROJEKT s.r.o.</nazev_subjektu>
+<misto_podnikani>CZ</misto_podnikani>
+</subjekt>
+<uzavrena_smlouva_nebo_rd>1</uzavrena_smlouva_nebo_rd>
+<smluvni_cena_bez_DPH>3999906.00</smluvni_cena_bez_DPH>
+<role_dodavatele>dodavatel bez společné účasti</role_dodavatele>
+</vybrany_dodavatel>          </vybrani_dodavatele>
+<zjisten_stret_zajmu>0</zjisten_stret_zajmu>
+<datum_uzavreni_smlouvy>2025-04-16T00:00:00+02:00</datum_uzavreni_smlouvy>
+</zadavaci_postup_casti>
+</cast_zakazky>      </casti_vz>
+</zakazka>                    <zakazka>
+<id_objektu>P25V00000850</id_objektu>
+<nazev_vz>Energetické společenství Vsetín</nazev_vz>
+<druh_vz>služby</druh_vz>
+<rezim_vz>Veřejné zakázky malého rozsahu</rezim_vz>
+<predmet_vz>Předmětem zakázky je zpracování materiálu, který musí obsahovat:
+-Technickou studii proveditelnosti zahrnující informace o spotřebě energie, výrobnách energie, řízení, regulaci a komunikaci a dále doporučení k rozvoji energetického společenství. Podrobnější obsah a charakteristika musí být v souladu s Výzvou č.7/2023 k předkládání žádostí o poskytnutí podpory na zakládání energetických společenství, dle aktuálního znění.
+- Ekonomickou studii proveditelnosti zahrnující provozní model energetického společenství, analýzu nákladů a výnosů, model nakládání se ziskem energetického společenství a vyhodnocení ekonomického potenciálu vzniku, fungování a rozvoje energetického společenství. Podrobnější obsah a charakteristika musí být v souladu s Výzvou č.7/2023 k předkládání žádostí o poskytnutí podpory na zakládání energetických společenství, dle aktuálního znění.
+- Potenciál komunitní energetiky města Vsetín 
+- technický potenciál - zohlednění FVE, které jsou již v provozu nebo ve fázi rozpracovanosti, kvantifikovat další OZE, které by byly technicky i ekonomicky vhodné, návrh optimálního technického řešení, datové architektury a optimální SW platformy a její implementace
+- ekonomický potenciál – redukce hodnot na základě očekávaných nákladů a výnosů v koordinaci s technickou částí
+- stanovení variant ve vztahu k rozvoji komunitní energetiky
+- Návrh optimálního řešení energetického společenství města Vsetín
+- vytvořit variantní návrh velikosti a struktury společenství s vyhodnocením očekávaných energetických a ekonomických dopadů, a to na všechny zainteresované strany</predmet_vz>
+<hlavni_cpv>71314000</hlavni_cpv>
+<delena_na_casti>0</delena_na_casti>
+<zadavaci_postupy>
+<zadavaci_postup>
+<id_objektu>ZP-P25V00000850</id_objektu>
+</zadavaci_postup>
+</zadavaci_postupy>
+<casti_vz>
+<cast_zakazky>
+<id_objektu>P25V00000850</id_objektu>
+<id_zadavaciho_postupu_vz>ZP-P25V00000850</id_zadavaciho_postupu_vz>
+<nazev_casti_vz>Energetické společenství Vsetín</nazev_casti_vz>
+<druh_casti_vz>služby</druh_casti_vz>
+<rezim_casti_vz>Veřejné zakázky malého rozsahu</rezim_casti_vz>
+<predmet_casti_vz>Předmětem zakázky je zpracování materiálu, který musí obsahovat:
+-Technickou studii proveditelnosti zahrnující informace o spotřebě energie, výrobnách energie, řízení, regulaci a komunikaci a dále doporučení k rozvoji energetického společenství. Podrobnější obsah a charakteristika musí být v souladu s Výzvou č.7/2023 k předkládání žádostí o poskytnutí podpory na zakládání energetických společenství, dle aktuálního znění.
+- Ekonomickou studii proveditelnosti zahrnující provozní model energetického společenství, analýzu nákladů a výnosů, model nakládání se ziskem energetického společenství a vyhodnocení ekonomického potenciálu vzniku, fungování a rozvoje energetického společenství. Podrobnější obsah a charakteristika musí být v souladu s Výzvou č.7/2023 k předkládání žádostí o poskytnutí podpory na zakládání energetických společenství, dle aktuálního znění.
+- Potenciál komunitní energetiky města Vsetín 
+- technický potenciál - zohlednění FVE, které jsou již v provozu nebo ve fázi rozpracovanosti, kvantifikovat další OZE, které by byly technicky i ekonomicky vhodné, návrh optimálního technického řešení, datové architektury a optimální SW platformy a její implementace
+- ekonomický potenciál – redukce hodnot na základě očekávaných nákladů a výnosů v koordinaci s technickou částí
+- stanovení variant ve vztahu k rozvoji komunitní energetiky
+- Návrh optimálního řešení energetického společenství města Vsetín
+- vytvořit variantní návrh velikosti a struktury společenství s vyhodnocením očekávaných energetických a ekonomických dopadů, a to na všechny zainteresované strany</predmet_casti_vz>
+<hlavni_cpv_casti_vz>71314000</hlavni_cpv_casti_vz>
+<zadavaci_postup_casti>
+<id_objektu>ZP-P25V00000850</id_objektu>
+<lhuty_zadavaciho_postupu>
+<lhuta>
+<druh_lhuty>lhůta podání nabídky</druh_lhuty>
+<datum_konce_lhuty>2025-02-12T10:00:00+01:00</datum_konce_lhuty>
+</lhuta>
+</lhuty_zadavaciho_postupu>
+<stav_zadavaciho_postupu>dokončen</stav_zadavaciho_postupu>
+<druh_zadavaciho_postupu>otevřená výzva</druh_zadavaciho_postupu>
+<ramcova_dohoda>0</ramcova_dohoda>
+<zavedeni_dns>0</zavedeni_dns>
+<dokumenty>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3610976</url>
+<typ_dokumentu>písemná zpráva zadavatele</typ_dokumentu>
+<jiny_dokument_nazev>Písemná zpráva zadavatele</jiny_dokument_nazev>
+<cas_vlozeni_na_profil>2025-03-17T08:49:25+01:00</cas_vlozeni_na_profil>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3610977</url>
+<typ_dokumentu>výběr dodavatele</typ_dokumentu>
+<jiny_dokument_nazev>Oznámení o výběru nejvhodnější nabídky</jiny_dokument_nazev>
+<cas_vlozeni_na_profil>2025-02-19T08:56:55+01:00</cas_vlozeni_na_profil>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3610978</url>
+<typ_dokumentu>vysvětlení zadávací dokumentace</typ_dokumentu>
+<jiny_dokument_nazev>Vysvětlení, doplnění, změna zadávací dokumentace</jiny_dokument_nazev>
+<cas_vlozeni_na_profil>2025-02-05T16:12:59+01:00</cas_vlozeni_na_profil>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3610979</url>
+<typ_dokumentu>výzva k podání nabídek</typ_dokumentu>
+<jiny_dokument_nazev>Výzva</jiny_dokument_nazev>
+<cas_vlozeni_na_profil>2025-01-29T20:42:34+01:00</cas_vlozeni_na_profil>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3610980</url>
+<typ_dokumentu>zadávací dokumentace</typ_dokumentu>
+<jiny_dokument_nazev>Zadávací a kvalifikační dokumentace, prohlídka místa plnění</jiny_dokument_nazev>
+<cas_vlozeni_na_profil>2025-01-29T20:42:34+01:00</cas_vlozeni_na_profil>
+</dokument>
+</dokumenty>
+<datum_uverejneni>2025-01-29T20:42:34+01:00</datum_uverejneni>
+<ucastnici>
+<ucastnik>
+<subjekt>
+<ico>19058080</ico>
+<nazev_subjektu>ORGREZ ECO s.r.o.</nazev_subjektu>
+<misto_podnikani>CZ</misto_podnikani>
+</subjekt>
+<role_ucastnika>dodavatel bez společné účasti</role_ucastnika>
+<ucastnik_vyloucen>0</ucastnik_vyloucen>
+<ucastnik_odstoupil>0</ucastnik_odstoupil>
+</ucastnik>              <ucastnik>
+<subjekt>
+<ico>46900896</ico>
+<nazev_subjektu>EGÚ Brno, a.s.</nazev_subjektu>
+<misto_podnikani>CZ</misto_podnikani>
+</subjekt>
+<role_ucastnika>dodavatel bez společné účasti</role_ucastnika>
+<ucastnik_vyloucen>0</ucastnik_vyloucen>
+<ucastnik_odstoupil>0</ucastnik_odstoupil>
+</ucastnik>              <ucastnik>
+<subjekt>
+<ico>28149785</ico>
+<nazev_subjektu>PKV BUILD s.r.o.</nazev_subjektu>
+<misto_podnikani>CZ</misto_podnikani>
+</subjekt>
+<role_ucastnika>dodavatel bez společné účasti</role_ucastnika>
+<ucastnik_vyloucen>0</ucastnik_vyloucen>
+<ucastnik_odstoupil>0</ucastnik_odstoupil>
+</ucastnik>              <ucastnik>
+<subjekt>
+<ico>28582136</ico>
+<nazev_subjektu>ENSYTRA s.r.o.</nazev_subjektu>
+<misto_podnikani>CZ</misto_podnikani>
+</subjekt>
+<role_ucastnika>dodavatel bez společné účasti</role_ucastnika>
+<ucastnik_vyloucen>0</ucastnik_vyloucen>
+<ucastnik_odstoupil>0</ucastnik_odstoupil>
+</ucastnik>              <ucastnik>
+<subjekt>
+<ico>19853190</ico>
+<nazev_subjektu>BlueBen servisní a.s.</nazev_subjektu>
+<misto_podnikani>CZ</misto_podnikani>
+</subjekt>
+<role_ucastnika>dodavatel bez společné účasti</role_ucastnika>
+<ucastnik_vyloucen>0</ucastnik_vyloucen>
+<ucastnik_odstoupil>0</ucastnik_odstoupil>
+</ucastnik>              <ucastnik>
+<subjekt>
+<ico>04153499</ico>
+<nazev_subjektu>Gatum Group s.r.o.</nazev_subjektu>
+<misto_podnikani>CZ</misto_podnikani>
+</subjekt>
+<role_ucastnika>dodavatel bez společné účasti</role_ucastnika>
+<ucastnik_vyloucen>0</ucastnik_vyloucen>
+<ucastnik_odstoupil>0</ucastnik_odstoupil>
+</ucastnik>              <ucastnik>
+<subjekt>
+<ico>07836686</ico>
+<nazev_subjektu>ASITIS s.r.o.</nazev_subjektu>
+<misto_podnikani>CZ</misto_podnikani>
+</subjekt>
+<role_ucastnika>dodavatel bez společné účasti</role_ucastnika>
+<ucastnik_vyloucen>0</ucastnik_vyloucen>
+<ucastnik_odstoupil>0</ucastnik_odstoupil>
+</ucastnik>              <ucastnik>
+<subjekt>
+<ico>04301188</ico>
+<nazev_subjektu>Leon Taurus s.r.o.</nazev_subjektu>
+<misto_podnikani>CZ</misto_podnikani>
+</subjekt>
+<role_ucastnika>dodavatel bez společné účasti</role_ucastnika>
+<ucastnik_vyloucen>0</ucastnik_vyloucen>
+<ucastnik_odstoupil>0</ucastnik_odstoupil>
+</ucastnik>              <ucastnik>
+<subjekt>
+<ico>61989100</ico>
+<nazev_subjektu>VYSOKÁ ŠKOLA BÁŇSKÁ-TECHNICKÁ UNIVERZITA OSTRAVA</nazev_subjektu>
+<misto_podnikani>CZ</misto_podnikani>
+</subjekt>
+<role_ucastnika>dodavatel bez společné účasti</role_ucastnika>
+<ucastnik_vyloucen>0</ucastnik_vyloucen>
+<ucastnik_odstoupil>0</ucastnik_odstoupil>
+</ucastnik>              <ucastnik>
+<subjekt>
+<ico>09692142</ico>
+<nazev_subjektu>Moore Advisory CZ</nazev_subjektu>
+<misto_podnikani>CZ</misto_podnikani>
+</subjekt>
+<role_ucastnika>dodavatel bez společné účasti</role_ucastnika>
+<ucastnik_vyloucen>0</ucastnik_vyloucen>
+<ucastnik_odstoupil>0</ucastnik_odstoupil>
+</ucastnik>              <ucastnik>
+<subjekt>
+<ico>26475081</ico>
+<nazev_subjektu>Sweco a.s.</nazev_subjektu>
+<misto_podnikani>CZ</misto_podnikani>
+</subjekt>
+<role_ucastnika>dodavatel bez společné účasti</role_ucastnika>
+<ucastnik_vyloucen>0</ucastnik_vyloucen>
+<ucastnik_odstoupil>0</ucastnik_odstoupil>
+</ucastnik>          </ucastnici>
+<vybrani_dodavatele>
+<vybrany_dodavatel>
+<subjekt>
+<ico>46900896</ico>
+<nazev_subjektu>EGÚ Brno, a.s.</nazev_subjektu>
+<misto_podnikani>CZ</misto_podnikani>
+</subjekt>
+<uzavrena_smlouva_nebo_rd>1</uzavrena_smlouva_nebo_rd>
+<role_dodavatele>dodavatel bez společné účasti</role_dodavatele>
+</vybrany_dodavatel>          </vybrani_dodavatele>
+<zjisten_stret_zajmu>0</zjisten_stret_zajmu>
+<datum_uzavreni_smlouvy>2025-02-28T00:00:00+01:00</datum_uzavreni_smlouvy>
+<id_dotacniho_projektu>5230700078</id_dotacniho_projektu>
+</zadavaci_postup_casti>
+</cast_zakazky>      </casti_vz>
+</zakazka>                    <zakazka>
+<id_objektu>P25V00002449</id_objektu>
+<nazev_vz>Autobusová zastávka v průmyslové zóně Bobrky II.</nazev_vz>
+<druh_vz>stavební práce</druh_vz>
+<rezim_vz>Veřejné zakázky malého rozsahu</rezim_vz>
+<predmet_vz>Předmětem zakázky jsou stavební práce na akci: „Autobusová zastávka v průmyslové zóně Bobrky II“.
+Popis veřejné zakázky:
+Jedná se o vybudování nové autobusové zastávky s nástupištěm a s přístupovým chodníky v půmyslové zóně Bobrky, Vsetín. Součástí stavby je úprava vstupu na vozovku umožňující přecházení chodců. 
+Vybudováním zastávky se zlepší dopravní obslužnost průmyslové zóně Bobrky.</predmet_vz>
+<hlavni_cpv>45213316</hlavni_cpv>
+<delena_na_casti>0</delena_na_casti>
+<zadavaci_postupy>
+<zadavaci_postup>
+<id_objektu>ZP-P25V00002449</id_objektu>
+</zadavaci_postup>
+</zadavaci_postupy>
+<casti_vz>
+<cast_zakazky>
+<id_objektu>P25V00002449</id_objektu>
+<id_zadavaciho_postupu_vz>ZP-P25V00002449</id_zadavaciho_postupu_vz>
+<nazev_casti_vz>Autobusová zastávka v průmyslové zóně Bobrky II.</nazev_casti_vz>
+<druh_casti_vz>stavební práce</druh_casti_vz>
+<rezim_casti_vz>Veřejné zakázky malého rozsahu</rezim_casti_vz>
+<predmet_casti_vz>Předmětem zakázky jsou stavební práce na akci: „Autobusová zastávka v průmyslové zóně Bobrky II“.
+Popis veřejné zakázky:
+Jedná se o vybudování nové autobusové zastávky s nástupištěm a s přístupovým chodníky v půmyslové zóně Bobrky, Vsetín. Součástí stavby je úprava vstupu na vozovku umožňující přecházení chodců. 
+Vybudováním zastávky se zlepší dopravní obslužnost průmyslové zóně Bobrky.</predmet_casti_vz>
+<hlavni_cpv_casti_vz>45213316</hlavni_cpv_casti_vz>
+<zadavaci_postup_casti>
+<id_objektu>ZP-P25V00002449</id_objektu>
+<lhuty_zadavaciho_postupu>
+<lhuta>
+<druh_lhuty>lhůta podání nabídky</druh_lhuty>
+<datum_konce_lhuty>2025-03-25T10:00:00+01:00</datum_konce_lhuty>
+</lhuta>
+</lhuty_zadavaciho_postupu>
+<stav_zadavaciho_postupu>dokončen</stav_zadavaciho_postupu>
+<druh_zadavaciho_postupu>otevřená výzva</druh_zadavaciho_postupu>
+<ramcova_dohoda>0</ramcova_dohoda>
+<zavedeni_dns>0</zavedeni_dns>
+<dokumenty>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3802231</url>
+<typ_dokumentu>písemná zpráva zadavatele</typ_dokumentu>
+<jiny_dokument_nazev>Písemná zpráva zadavatele</jiny_dokument_nazev>
+<cas_vlozeni_na_profil>2025-05-15T10:29:10+02:00</cas_vlozeni_na_profil>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3802232</url>
+<typ_dokumentu>výběr dodavatele</typ_dokumentu>
+<jiny_dokument_nazev>Oznámení o výběru nejvhodnější nabídky</jiny_dokument_nazev>
+<cas_vlozeni_na_profil>2025-04-09T08:06:28+02:00</cas_vlozeni_na_profil>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3802233</url>
+<typ_dokumentu>jiný dokument</typ_dokumentu>
+<jiny_dokument_nazev>Ostatní</jiny_dokument_nazev>
+<cas_vlozeni_na_profil>2025-03-28T10:19:18+01:00</cas_vlozeni_na_profil>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3802234</url>
+<typ_dokumentu>výzva k podání nabídek</typ_dokumentu>
+<jiny_dokument_nazev>Výzva</jiny_dokument_nazev>
+<cas_vlozeni_na_profil>2025-03-14T08:13:17+01:00</cas_vlozeni_na_profil>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3802235</url>
+<typ_dokumentu>zadávací dokumentace</typ_dokumentu>
+<jiny_dokument_nazev>Zadávací a kvalifikační dokumentace, prohlídka místa plnění</jiny_dokument_nazev>
+<cas_vlozeni_na_profil>2025-03-14T08:13:17+01:00</cas_vlozeni_na_profil>
+</dokument>
+</dokumenty>
+<datum_uverejneni>2025-03-14T08:13:16+01:00</datum_uverejneni>
+<ucastnici>
+<ucastnik>
+<subjekt>
+<ico>28614291</ico>
+<nazev_subjektu>Vlastimil Stupka s.r.o.</nazev_subjektu>
+<misto_podnikani>CZ</misto_podnikani>
+</subjekt>
+<role_ucastnika>dodavatel bez společné účasti</role_ucastnika>
+<ucastnik_vyloucen>0</ucastnik_vyloucen>
+<ucastnik_odstoupil>0</ucastnik_odstoupil>
+</ucastnik>              <ucastnik>
+<subjekt>
+<ico>48399477</ico>
+<nazev_subjektu>TM  Stav, spol. s r.o.</nazev_subjektu>
+<misto_podnikani>CZ</misto_podnikani>
+</subjekt>
+<role_ucastnika>dodavatel bez společné účasti</role_ucastnika>
+<ucastnik_vyloucen>0</ucastnik_vyloucen>
+<ucastnik_odstoupil>0</ucastnik_odstoupil>
+</ucastnik>              <ucastnik>
+<subjekt>
+<ico>25860852</ico>
+<nazev_subjektu>JASY Vsetín s.r.o.</nazev_subjektu>
+<misto_podnikani>CZ</misto_podnikani>
+</subjekt>
+<role_ucastnika>dodavatel bez společné účasti</role_ucastnika>
+<ucastnik_vyloucen>0</ucastnik_vyloucen>
+<ucastnik_odstoupil>0</ucastnik_odstoupil>
+</ucastnik>          </ucastnici>
+<vybrani_dodavatele>
+<vybrany_dodavatel>
+<subjekt>
+<ico>28614291</ico>
+<nazev_subjektu>Vlastimil Stupka s.r.o.</nazev_subjektu>
+<misto_podnikani>CZ</misto_podnikani>
+</subjekt>
+<uzavrena_smlouva_nebo_rd>1</uzavrena_smlouva_nebo_rd>
+<role_dodavatele>dodavatel bez společné účasti</role_dodavatele>
+<plneni_dodavateli>
+<plneni>
+<rok_smlouvy>2025</rok_smlouvy>
+<cena_za_rok_bez_dph>621485.67</cena_za_rok_bez_dph>
+<cena_za_rok_s_dph>751997.66</cena_za_rok_s_dph>
+</plneni>
+</plneni_dodavateli>
+</vybrany_dodavatel>          </vybrani_dodavatele>
+<zjisten_stret_zajmu>0</zjisten_stret_zajmu>
+<datum_uzavreni_smlouvy>2025-04-24T00:00:00+02:00</datum_uzavreni_smlouvy>
+</zadavaci_postup_casti>
+</cast_zakazky>      </casti_vz>
+</zakazka>                    <zakazka>
+<id_objektu>P25V00003001</id_objektu>
+<nazev_vz>OPRAVA MÍSTNÍ KOMUNIKACE OHRADA A U HUTI – III. ETAPA</nazev_vz>
+<druh_vz>stavební práce</druh_vz>
+<rezim_vz>Podlimitní</rezim_vz>
+<predmet_vz>Předmětem této stavby je třetí etapa opravy místní komunikace, chodníků a parkovacích stání na ulicích Ohrada a U Huti ve Vsetíně. V zájmovém území se nachází převážně panelové bytové domy, dále se zde nachází budovy občanské vybavenosti, jako jsou základní škola, pošta či restaurace. 
+Řešený úsek navazuje na II. etapu stavby v místě křižovatky (včetně) u Sport baru na Nové a pokračuje až do konce místní komunikace Ohrada. 
+Celá lokalita byla, s ohledem na realizaci, rozdělena na tři etapy. Předmětem tohoto výběrového řízení je aktuálně III.  etapa prací v této lokalitě (viz. koordinační situace).
+Konec řešeného úseku se nachází v křižovatce v místě napojení MK Ohrada na ulici Luční.
+Stavba je rozdělena na následující stavební objekty:
+SO 101.1 – Zpevněné plochy
+SO 101.2 – Dopravní značení
+SO 103    – Uliční vpusti
+SO 801    – Výsadba</predmet_vz>
+<hlavni_cpv>45233000</hlavni_cpv>
+<delena_na_casti>0</delena_na_casti>
+<zadavaci_postupy>
+<zadavaci_postup>
+<id_objektu>ZP-P25V00003001</id_objektu>
+</zadavaci_postup>
+</zadavaci_postupy>
+<casti_vz>
+<cast_zakazky>
+<id_objektu>P25V00003001</id_objektu>
+<id_zadavaciho_postupu_vz>ZP-P25V00003001</id_zadavaciho_postupu_vz>
+<nazev_casti_vz>OPRAVA MÍSTNÍ KOMUNIKACE OHRADA A U HUTI – III. ETAPA</nazev_casti_vz>
+<druh_casti_vz>stavební práce</druh_casti_vz>
+<rezim_casti_vz>Podlimitní</rezim_casti_vz>
+<predmet_casti_vz>Předmětem této stavby je třetí etapa opravy místní komunikace, chodníků a parkovacích stání na ulicích Ohrada a U Huti ve Vsetíně. V zájmovém území se nachází převážně panelové bytové domy, dále se zde nachází budovy občanské vybavenosti, jako jsou základní škola, pošta či restaurace. 
+Řešený úsek navazuje na II. etapu stavby v místě křižovatky (včetně) u Sport baru na Nové a pokračuje až do konce místní komunikace Ohrada. 
+Celá lokalita byla, s ohledem na realizaci, rozdělena na tři etapy. Předmětem tohoto výběrového řízení je aktuálně III.  etapa prací v této lokalitě (viz. koordinační situace).
+Konec řešeného úseku se nachází v křižovatce v místě napojení MK Ohrada na ulici Luční.
+Stavba je rozdělena na následující stavební objekty:
+SO 101.1 – Zpevněné plochy
+SO 101.2 – Dopravní značení
+SO 103    – Uliční vpusti
+SO 801    – Výsadba</predmet_casti_vz>
+<hlavni_cpv_casti_vz>45233000</hlavni_cpv_casti_vz>
+<zadavaci_postup_casti>
+<id_objektu>ZP-P25V00003001</id_objektu>
+<lhuty_zadavaciho_postupu>
+<lhuta>
+<druh_lhuty>lhůta podání nabídky</druh_lhuty>
+<datum_konce_lhuty>2025-04-11T13:00:00+02:00</datum_konce_lhuty>
+</lhuta>
+</lhuty_zadavaciho_postupu>
+<stav_zadavaciho_postupu>dokončen</stav_zadavaciho_postupu>
+<druh_zadavaciho_postupu>zjednodušené podlimitní řízení</druh_zadavaciho_postupu>
+<ramcova_dohoda>0</ramcova_dohoda>
+<zavedeni_dns>0</zavedeni_dns>
+<dokumenty>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3802387</url>
+<typ_dokumentu>písemná zpráva zadavatele</typ_dokumentu>
+<jiny_dokument_nazev>Písemná zpráva zadavatele</jiny_dokument_nazev>
+<cas_vlozeni_na_profil>2025-06-06T07:43:11+02:00</cas_vlozeni_na_profil>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3802388</url>
+<typ_dokumentu>písemná zpráva zadavatele</typ_dokumentu>
+<jiny_dokument_nazev>Písemná zpráva zadavatele</jiny_dokument_nazev>
+<cas_vlozeni_na_profil>2025-06-06T07:43:11+02:00</cas_vlozeni_na_profil>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3802389</url>
+<typ_dokumentu>výběr dodavatele</typ_dokumentu>
+<jiny_dokument_nazev>Oznámení o výběru nejvhodnější nabídky</jiny_dokument_nazev>
+<cas_vlozeni_na_profil>2025-04-17T10:06:10+02:00</cas_vlozeni_na_profil>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3802390</url>
+<typ_dokumentu>jiný dokument</typ_dokumentu>
+<jiny_dokument_nazev>Ostatní</jiny_dokument_nazev>
+<cas_vlozeni_na_profil>2025-04-14T10:10:43+02:00</cas_vlozeni_na_profil>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3802391</url>
+<typ_dokumentu>výzva k podání nabídek</typ_dokumentu>
+<jiny_dokument_nazev>Výzva</jiny_dokument_nazev>
+<cas_vlozeni_na_profil>2025-03-27T13:24:28+01:00</cas_vlozeni_na_profil>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3802392</url>
+<typ_dokumentu>zadávací dokumentace</typ_dokumentu>
+<jiny_dokument_nazev>Zadávací a kvalifikační dokumentace, prohlídka místa plnění</jiny_dokument_nazev>
+<cas_vlozeni_na_profil>2025-03-27T13:24:28+01:00</cas_vlozeni_na_profil>
+</dokument>
+</dokumenty>
+<datum_uverejneni>2025-03-27T13:24:28+01:00</datum_uverejneni>
+<ucastnici>
+<ucastnik>
+<subjekt>
+<ico>26944022</ico>
+<nazev_subjektu>Mitrenga-stavby, spol. s r.o.</nazev_subjektu>
+<misto_podnikani>CZ</misto_podnikani>
+</subjekt>
+<role_ucastnika>dodavatel bez společné účasti</role_ucastnika>
+<ucastnik_vyloucen>0</ucastnik_vyloucen>
+<ucastnik_odstoupil>0</ucastnik_odstoupil>
+</ucastnik>              <ucastnik>
+<subjekt>
+<ico>14443244</ico>
+<nazev_subjektu>VSPN stavební s.r.o.</nazev_subjektu>
+<misto_podnikani>CZ</misto_podnikani>
+</subjekt>
+<role_ucastnika>dodavatel bez společné účasti</role_ucastnika>
+<ucastnik_vyloucen>0</ucastnik_vyloucen>
+<ucastnik_odstoupil>0</ucastnik_odstoupil>
+</ucastnik>              <ucastnik>
+<subjekt>
+<ico>73257958</ico>
+<nazev_subjektu>Petr Zkušební</nazev_subjektu>
+<misto_podnikani>CZ</misto_podnikani>
+</subjekt>
+<role_ucastnika>dodavatel bez společné účasti</role_ucastnika>
+<ucastnik_vyloucen>0</ucastnik_vyloucen>
+<ucastnik_odstoupil>0</ucastnik_odstoupil>
+</ucastnik>              <ucastnik>
+<subjekt>
+<ico>25860852</ico>
+<nazev_subjektu>JASY Vsetín s.r.o.</nazev_subjektu>
+<misto_podnikani>CZ</misto_podnikani>
+</subjekt>
+<role_ucastnika>dodavatel bez společné účasti</role_ucastnika>
+<ucastnik_vyloucen>0</ucastnik_vyloucen>
+<ucastnik_odstoupil>0</ucastnik_odstoupil>
+</ucastnik>              <ucastnik>
+<subjekt>
+<ico>43005560</ico>
+<nazev_subjektu>PORR a.s.</nazev_subjektu>
+<misto_podnikani>CZ</misto_podnikani>
+</subjekt>
+<role_ucastnika>dodavatel bez společné účasti</role_ucastnika>
+<ucastnik_vyloucen>0</ucastnik_vyloucen>
+<ucastnik_odstoupil>0</ucastnik_odstoupil>
+</ucastnik>              <ucastnik>
+<subjekt>
+<ico>60838744</ico>
+<nazev_subjektu>STRABAG a.s.</nazev_subjektu>
+<misto_podnikani>CZ</misto_podnikani>
+</subjekt>
+<role_ucastnika>dodavatel bez společné účasti</role_ucastnika>
+<ucastnik_vyloucen>0</ucastnik_vyloucen>
+<ucastnik_odstoupil>0</ucastnik_odstoupil>
+</ucastnik>              <ucastnik>
+<subjekt>
+<ico>48035599</ico>
+<nazev_subjektu>SWIETELSKY stavební s.r.o.</nazev_subjektu>
+<misto_podnikani>CZ</misto_podnikani>
+</subjekt>
+<role_ucastnika>dodavatel bez společné účasti</role_ucastnika>
+<ucastnik_vyloucen>0</ucastnik_vyloucen>
+<ucastnik_odstoupil>0</ucastnik_odstoupil>
+</ucastnik>          </ucastnici>
+<vybrani_dodavatele>
+<vybrany_dodavatel>
+<subjekt>
+<ico>48035599</ico>
+<nazev_subjektu>SWIETELSKY stavební s.r.o.</nazev_subjektu>
+<misto_podnikani>CZ</misto_podnikani>
+</subjekt>
+<uzavrena_smlouva_nebo_rd>1</uzavrena_smlouva_nebo_rd>
+<role_dodavatele>dodavatel bez společné účasti</role_dodavatele>
+<plneni_dodavateli>
+<plneni>
+<rok_smlouvy>2025</rok_smlouvy>
+<cena_za_rok_bez_dph>8690283.89</cena_za_rok_bez_dph>
+<cena_za_rok_s_dph>10515243.51</cena_za_rok_s_dph>
+</plneni>
+</plneni_dodavateli>
+</vybrany_dodavatel>          </vybrani_dodavatele>
+<zjisten_stret_zajmu>0</zjisten_stret_zajmu>
+<datum_uzavreni_smlouvy>2025-05-07T00:00:00+02:00</datum_uzavreni_smlouvy>
+</zadavaci_postup_casti>
+</cast_zakazky>      </casti_vz>
+</zakazka>      </profil>
