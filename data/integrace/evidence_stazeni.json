@@ -1,0 +1,267 @@
+{
+ "schema": "vsetin-osint/evidence-stazeni@1",
+ "poznamka": "Testovací a vytěžovací stažení v prohlížeči (Claude in Chrome). Časy v UTC. U MONITORu se od 23. 10. používá HTTP Range (stahují se jen potřebné členy ZIP).",
+ "zaznamy": [
+  {
+   "source_id": "monitor.finm",
+   "url": "https://monitor.statnipokladna.gov.cz/data/extrakty/csv/FinM2026/2026_08_Data_CSUIS_FINM2026.zip",
+   "cas_utc": "2026-10-22T22:01Z",
+   "http": 200,
+   "etag": "\"6ab496d0-17be1a8\"",
+   "size": 24895912,
+   "obdobi": "2026-08",
+   "vysledek": "zpracováno v paměti, souhrn v data/monitor/",
+   "sha256": null
+  },
+  {
+   "source_id": "monitor.registr_dotaci.local",
+   "url": "https://monitor.statnipokladna.gov.cz/api/grants/local/search (provider=00304450, pageSize=100)",
+   "cas_utc": "2026-10-22T22:03Z",
+   "http": 200,
+   "total": 107,
+   "stazeno": 100,
+   "vysledek": "neúplné (1 stránka) – jen test"
+  },
+  {
+   "source_id": "monitor.registr_dotaci.state",
+   "url": "https://monitor.statnipokladna.gov.cz/api/grants/state/search (receiver=00304450, pageSize=100)",
+   "cas_utc": "2026-10-22T22:05Z",
+   "http": 200,
+   "total": 101,
+   "stazeno": 100,
+   "vysledek": "neúplné (1 stránka) – jen test"
+  },
+  {
+   "source_id": "ruian.vfr",
+   "url": "https://vdp.cuzk.gov.cz/vymenny_format/soucasna/20260930_OB_541630_UKSH.xml.zip",
+   "cas_utc": "2026-10-22T22:45Z",
+   "http": 200,
+   "etag": "\"121f426b3751dd1:0\"",
+   "last_modified": "Wed, 30 Sep 2026 23:57:15 GMT",
+   "size": 6178614
+  },
+  {
+   "source_id": "nipez.rvz_opendata",
+   "url": "https://isvz.nipez.cz/sites/default/files/content/opendata-rvz/VZ-09-2026.zip",
+   "cas_utc": "2026-10-22T23:05Z",
+   "http": 200,
+   "etag": "\"ae80849-65cd3913ebec4\"",
+   "last_modified": "Fri, 02 Oct 2026 04:00:04 GMT",
+   "size": 182978633,
+   "vysledek": "0 záznamů s IČO 00304450"
+  },
+  {
+   "source_id": "justice.or_opendata",
+   "url": "https://dataor.justice.cz/api/file/spolek-actual-ostrava-2026.csv.gz",
+   "cas_utc": "2026-10-22T23:00Z",
+   "http": 200,
+   "size": 5885132
+  },
+  {
+   "source_id": "justice.or_opendata",
+   "url": "https://dataor.justice.cz/api/file/spolek-actual-brno-2026.csv.gz",
+   "cas_utc": "2026-10-22T22:58Z",
+   "http": 200,
+   "size": 7768951,
+   "vysledek": "nesprávný soud pro Vsetín – 0 nálezů"
+  },
+  {
+   "source_id": "ares.rest",
+   "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/{ico} ×38",
+   "cas_utc": "2026-10-22T23:20Z",
+   "vysledek": "37×200, 1×404; uloženo data/entity/ares_overeni_2026-10-23.json"
+  },
+  {
+   "source_id": "monitor.finm",
+   "url": "https://monitor.statnipokladna.gov.cz/data/extrakty/csv/FinM/2025_12_Data_CSUIS_FINM.zip",
+   "cas_utc": "2026-10-23T05:15Z",
+   "http": 200,
+   "etag": "\"69a182db-177042c\"",
+   "size": 24577068,
+   "vysledek": "celý ZIP (24,6 MB); FINM201–205"
+  },
+  {
+   "source_id": "monitor.finm",
+   "url": "https://monitor.statnipokladna.gov.cz/data/extrakty/csv/FinM/2024_12_Data_CSUIS_FINM.zip",
+   "cas_utc": "2026-10-23T05:20Z",
+   "http": 200,
+   "etag": "\"67ed1383-17384b6\"",
+   "size": 24347830,
+   "vysledek": "HTTP Range: FINM202+203 (4,31 MB)"
+  },
+  {
+   "source_id": "monitor.finm",
+   "url": "https://monitor.statnipokladna.gov.cz/data/extrakty/csv/FinM/2023_12_Data_CSUIS_FINM.zip",
+   "cas_utc": "2026-10-23T05:22Z",
+   "http": 200,
+   "etag": "\"65e6cb29-16a9f19\"",
+   "size": 23764761,
+   "vysledek": "HTTP Range: FINM202+203 (4,33 MB)"
+  },
+  {
+   "source_id": "monitor.finm",
+   "url": "https://monitor.statnipokladna.gov.cz/data/extrakty/csv/FinM/2022_12_Data_CSUIS_FINM.zip",
+   "cas_utc": "2026-10-23T05:22Z",
+   "http": 200,
+   "etag": "\"63f35358-1585017\"",
+   "size": 22564887,
+   "vysledek": "HTTP Range (4,18 MB)"
+  },
+  {
+   "source_id": "monitor.finm",
+   "url": "https://monitor.statnipokladna.gov.cz/data/extrakty/csv/FinM/2021_12_Data_CSUIS_FINM.zip",
+   "cas_utc": "2026-10-23T05:23Z",
+   "http": 200,
+   "etag": "\"62b18528-1277237\"",
+   "size": 19362359,
+   "vysledek": "HTTP Range (4,36 MB)"
+  },
+  {
+   "source_id": "monitor.finm",
+   "url": "https://monitor.statnipokladna.gov.cz/data/extrakty/csv/FinM/2020_12_Data_CSUIS_FINM.zip",
+   "cas_utc": "2026-10-23T05:23Z",
+   "http": 200,
+   "etag": "\"603c9ce0-123e720\"",
+   "size": 19130144,
+   "vysledek": "HTTP Range (4,32 MB)"
+  },
+  {
+   "source_id": "monitor.finm",
+   "url": "https://monitor.statnipokladna.gov.cz/data/extrakty/csv/FinM2026/2026_03_Data_CSUIS_FINM2026.zip",
+   "cas_utc": "2026-10-23T05:30Z",
+   "http": 200,
+   "etag": "\"6a062e76-11d14cb\"",
+   "size": 18683083,
+   "vysledek": "HTTP Range: FINM01_UJ (15,05 MB)"
+  },
+  {
+   "source_id": "monitor.finm",
+   "url": "https://monitor.statnipokladna.gov.cz/data/extrakty/csv/FinM2026/2026_06_Data_CSUIS_FINM2026.zip",
+   "cas_utc": "2026-10-23T05:31Z",
+   "http": 200,
+   "etag": "\"6a60775b-1607593\"",
+   "size": 23098771,
+   "vysledek": "HTTP Range: FINM01_UJ (18,07 MB)"
+  },
+  {
+   "source_id": "monitor.finm",
+   "url": "https://monitor.statnipokladna.gov.cz/data/extrakty/csv/FinM/2025_03_Data_CSUIS_FINM.zip",
+   "cas_utc": "2026-10-23T05:45Z",
+   "http": 200,
+   "etag": "\"6811ed57-1139df2\"",
+   "size": null,
+   "vysledek": "HTTP Range: FINM202 (~1,1 MB)"
+  },
+  {
+   "source_id": "monitor.finm",
+   "url": "https://monitor.statnipokladna.gov.cz/data/extrakty/csv/FinM/2025_04_Data_CSUIS_FINM.zip",
+   "cas_utc": "2026-10-23T05:45Z",
+   "http": 200,
+   "etag": "\"682edaa0-122037b\"",
+   "size": null,
+   "vysledek": "HTTP Range: FINM202 (~1,1 MB)"
+  },
+  {
+   "source_id": "monitor.finm",
+   "url": "https://monitor.statnipokladna.gov.cz/data/extrakty/csv/FinM/2025_05_Data_CSUIS_FINM.zip",
+   "cas_utc": "2026-10-23T05:45Z",
+   "http": 200,
+   "etag": "\"6859a3c1-12c945a\"",
+   "size": null,
+   "vysledek": "HTTP Range: FINM202 (~1,1 MB)"
+  },
+  {
+   "source_id": "monitor.finm",
+   "url": "https://monitor.statnipokladna.gov.cz/data/extrakty/csv/FinM/2025_06_Data_CSUIS_FINM.zip",
+   "cas_utc": "2026-10-23T05:45Z",
+   "http": 200,
+   "etag": "\"6880a4dd-139233d\"",
+   "size": null,
+   "vysledek": "HTTP Range: FINM202 (~1,1 MB)"
+  },
+  {
+   "source_id": "monitor.finm",
+   "url": "https://monitor.statnipokladna.gov.cz/data/extrakty/csv/FinM/2025_09_Data_CSUIS_FINM.zip",
+   "cas_utc": "2026-10-23T05:45Z",
+   "http": 200,
+   "etag": "\"68f8ec6c-1571874\"",
+   "size": null,
+   "vysledek": "HTTP Range: FINM202 (~1,1 MB)"
+  },
+  {
+   "source_id": "monitor.finm",
+   "url": "https://monitor.statnipokladna.gov.cz/data/extrakty/csv/FinM/2025_10_Data_CSUIS_FINM.zip",
+   "cas_utc": "2026-10-23T05:45Z",
+   "http": 200,
+   "etag": "\"692611f8-161d138\"",
+   "size": null,
+   "vysledek": "HTTP Range: FINM202 (~1,1 MB)"
+  },
+  {
+   "source_id": "monitor.finm",
+   "url": "https://monitor.statnipokladna.gov.cz/data/extrakty/csv/FinM/2025_11_Data_CSUIS_FINM.zip",
+   "cas_utc": "2026-10-23T05:45Z",
+   "http": 200,
+   "etag": "\"695253da-16b73c8\"",
+   "size": null,
+   "vysledek": "HTTP Range: FINM202 (~1,1 MB)"
+  },
+  {
+   "source_id": "monitor.finm",
+   "url": "https://monitor.statnipokladna.gov.cz/data/extrakty/csv/FinM/2025_07_Data_CSUIS_FINM.zip",
+   "cas_utc": "2026-10-23T05:45Z",
+   "http": 404,
+   "etag": null,
+   "size": null,
+   "vysledek": "HTTP 404 – období neexistuje"
+  },
+  {
+   "source_id": "monitor.registr_dotaci.local",
+   "url": "https://monitor.statnipokladna.gov.cz/api/grants/local/search (provider=00304450, 2 stránky)",
+   "cas_utc": "2026-10-23T05:40Z",
+   "http": 200,
+   "total": 107,
+   "stazeno": 107,
+   "vysledek": "úplné → data/dotace/uzemni_registr_vsetin_poskytovatel_2026.csv"
+  },
+  {
+   "source_id": "monitor.registr_dotaci.local",
+   "url": "https://monitor.statnipokladna.gov.cz/api/grants/local/search (receiver=00304450)",
+   "cas_utc": "2026-10-23T06:10Z",
+   "http": 200,
+   "total": 28,
+   "stazeno": 28,
+   "vysledek": "úplné → data/dotace/uzemni_registr_vsetin_prijemce_2026.json"
+  },
+  {
+   "source_id": "monitor.registr_dotaci.state",
+   "url": "https://monitor.statnipokladna.gov.cz/api/grants/state/search (receiver=00304450, 2 stránky)",
+   "cas_utc": "2026-10-23T06:05Z",
+   "http": 200,
+   "total": 101,
+   "stazeno": 101,
+   "vysledek": "úplné → data/dotace/statni_registr_vsetin_prijemce.csv"
+  },
+  {
+   "source_id": "ares.vr",
+   "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty-vr/{ico} ×7",
+   "cas_utc": "2026-10-23T05:24Z",
+   "http": 200,
+   "vysledek": "→ data/entity/vr_organy_mestske_spolecnosti_2026-10-23.json (minimalizováno)"
+  },
+  {
+   "source_id": "ares.rest",
+   "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/{ico} ×12 (organizace z nasvsetin.cz)",
+   "cas_utc": "2026-10-23T05:05Z",
+   "http": 200,
+   "vysledek": "12/12 shoda názvu a právní formy"
+  },
+  {
+   "source_id": "registr_smluv.web",
+   "url": "https://smlouvy.gov.cz/smlouva/{idVerze} ×41",
+   "cas_utc": "2026-10-23T05:00Z",
+   "http": 200,
+   "vysledek": "kontrola hodnot u vzorku verzí z nasvsetin.cz, 1 req/s"
+  }
+ ]
+}

@@ -1,0 +1,125 @@
+{
+ "schema": "vsetin-osint/stav-integraci@1",
+ "overeno": "2026-10-23 00:00–01:30 SELČ (22:00–23:30 UTC 22. 10.)",
+ "poznamka": "Stav produkční aplikace (/opt/vsetin-osint) NEOVĚŘEN – relace nemá přístup na server. Stavy popisují zdroj, ne produkci.",
+ "zdroje": [
+  {
+   "id": "monitor.finm",
+   "nazev": "MONITOR – FIN 2-12 M (plnění rozpočtu ÚSC)",
+   "priorita": 1,
+   "stav": "TESTOVÁNO",
+   "pristup": "Open data katalog DCAT-AP-CZ (JSON-LD) → ZIP s CSV; bez autentizace",
+   "katalog": "https://monitor.statnipokladna.gov.cz/api/opendata/monitor",
+   "vzor_url": "https://monitor.statnipokladna.gov.cz/data/extrakty/csv/FinM2026/{RRRR}_{MM}_Data_CSUIS_FINM2026.zip",
+   "formaty": [
+    "JSON-LD",
+    "CSV v ZIP",
+    "XML",
+    "SOAP"
+   ],
+   "aktualizace": "měsíčně; RSS https://monitor.statnipokladna.gov.cz/api/opendata/rss",
+   "zmena_detekce": "ETag (nginx mtime-size) + If-None-Match → 304 ověřeno; Last-Modified je generován aktuálním časem – nepoužívat",
+   "omezeni": [
+    "URL distribuce v katalogu je bez přípony .zip a vrací 404 – nutné doplnit .zip",
+    "Od 2026 nový výkaz FINM2026 (jiná složka než FinM)",
+    "V katalogu chybí období 01/2026 a 07/2026",
+    "Bez konsolidace: pol. 4134/5345 nafukují příjmy i výdaje o ~1,2–1,4 mld. Kč"
+   ],
+   "test": "stažen 2026_08 (24 895 912 B, ETag \"6ab496d0-17be1a8\"); Vsetín 1 745 vlastních řádků + 55 partnerských; kontrola proti RO 2026 souhlasí (8115, 8123, 8113); 23. 10.: řada 12/2020–12/2025 (tab. IV) = ZÚ 2024/2025 na haléř; HTTP Range funguje (stahují se jen členy ZIP)"
+  },
+  {
+   "id": "monitor.registr_dotaci",
+   "nazev": "MONITOR – Registr dotací (státní / územní / NNO)",
+   "priorita": 5,
+   "stav": "TESTOVÁNO",
+   "pristup": "Neveřejně dokumentované JSON API webové aplikace (/api/grants/state|local/search); v open data katalogu není",
+   "omezeni": [
+    "API není dokumentované ani deklarované jako open data – riziko změny bez ohlášení; použití potvrdit u MF (monitor@mfcr.cz / kontakt)",
+    "Územní registr = data z FIN 2-12 M kumulativně (sloupec Partner Fin) – nejde o jednotlivá rozhodnutí",
+    "Státní registr obsahuje i fyzické osoby → minimalizace",
+    "Endpoint NNO nenalezen (404) – parametry nezjištěny"
+   ],
+   "test": "územní: Vsetín jako poskytovatel 107 příjemců (2026, load 2608); jako příjemce 28; státní: Vsetín jako příjemce 101 záznamů 2014–2026; 23. 10.: úplné stažení – územní 107 (poskytovatel) + 28 (příjemce), státní 101 → data/dotace/"
+  },
+  {
+   "id": "ruian.vfr",
+   "nazev": "RÚIAN – výměnný formát (VFR), obec Vsetín 541630",
+   "priorita": 2,
+   "stav": "TESTOVÁNO",
+   "pristup": "https://vdp.cuzk.gov.cz/vymenny_format/soucasna/{RRRRMMDD}_OB_541630_UKSH.xml.zip; bez autentizace",
+   "formaty": [
+    "XML (VFR) v ZIP",
+    "GML geometrie S-JTSK"
+   ],
+   "aktualizace": "měsíčně k poslednímu dni měsíce; denní přírůstky dostupné",
+   "zmena_detekce": "ETag + Last-Modified (IIS)",
+   "test": "20260930 UKSH: 6 178 614 B, 54 MB XML; 1 obec, 3 části obce, 3 KÚ, 30 ZSJ, 144 ulic, 6 739 stavebních objektů, 3 778 adresních míst, 26 965 parcel",
+   "omezeni": [
+    "Není důkaz vlastnictví",
+    "Parcely bez LV a vlastníků"
+   ]
+  },
+  {
+   "id": "nipez.rvz_opendata",
+   "nazev": "NIPEZ – Registr veřejných zakázek, open data",
+   "priorita": 3,
+   "stav": "TESTOVÁNO",
+   "pristup": "https://isvz.nipez.cz/sites/default/files/content/opendata-rvz/{KAT}-{MM}-{RRRR}.zip (KAT: VZ, DNS, SON, …); měsíčně k 5. dni",
+   "zmena_detekce": "ETag + Last-Modified, 304 ověřeno",
+   "test": "VZ-09-2026.zip 182 978 633 B → 1,29 GB JSON (verze 2.10.2); IČO 00304450 nenalezeno; 'Vsetín' 1 021 výskytů (jiní zadavatelé, např. Okresní soud)",
+   "omezeni": [
+    "Zdroje pouze VVZ, NEN, Tender arena, TENDERMARKET – ostatní certifikované nástroje (např. E-ZAK) zatím ne",
+    "Velikost: nutné streamové zpracování (ijson)",
+    "Synchronní/asynchronní API RVZ vyžaduje oprávnění dle RPP"
+   ]
+  },
+  {
+   "id": "justice.or_opendata",
+   "nazev": "Veřejný rejstřík – dataor.justice.cz",
+   "priorita": 4,
+   "stav": "TESTOVÁNO",
+   "pristup": "CKAN API /api/3/action/package_show + /api/file/{forma}-actual-ostrava-{RRRR}.csv.gz|xml.gz",
+   "test": "spolek-actual-ostrava-2026.csv.gz 5,9 MB: 14 801 subjektů, 1 130 s 'Vsetín'; TJ Zbrojovka nalezena; ARES-VR potvrzuje soud KSOS",
+   "omezeni": [
+    "Bez ETag/Last-Modified → dedup jen přes SHA-256",
+    "IČO bez úvodních nul (536024) → normalizace na 8 znaků",
+    "Subjekty z Vsetínska jsou u KS Ostrava (ne Brno)",
+    "Sbírka listin: žádná oficiální strojová služba nenalezena → BLOKOVÁNO pro hromadné stahování"
+   ]
+  },
+  {
+   "id": "ares.rest",
+   "nazev": "ARES REST API (doplněk k VR)",
+   "priorita": 4,
+   "stav": "TESTOVÁNO",
+   "pristup": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/{ico} a /ekonomicke-subjekty-vr/{ico}",
+   "test": "38 IČO z data/entity/subjekty.json: 37 nalezeno, 60042354 (MŠ Trávníky 1218) HTTP 404; 23. 10.: VR pro 7 městských společností + TJ Zbrojovka → data/entity/vr_organy_*"
+  },
+  {
+   "id": "cuzk.api_kn",
+   "nazev": "ČÚZK – REST API KN",
+   "priorita": 6,
+   "stav": "BLOKOVÁNO",
+   "pristup": "https://api-kn.cuzk.gov.cz/ – bezplatné po registraci (Identita občana / účet DP), ApiKey v HTTP hlavičce",
+   "omezeni": [
+    "Vyžaduje registraci vlastníkem projektu",
+    "Klíč nesmí být na klientovi; nepředávat jiné osobě/službě",
+    "Limit volání na časový úsek",
+    "Neposkytuje osobní údaje; užití jen k účelům §1 odst. 2 zák. 256/2013 Sb."
+   ],
+   "duvod_blokace": "chybí API klíč – rozhodnutí a registrace na straně vlastníka"
+  },
+  {
+   "id": "cuzk.kn_dp",
+   "nazev": "ČÚZK – Dálkový přístup / WSDP",
+   "priorita": 6,
+   "stav": "DOKUMENTACE OVĚŘENA",
+   "pristup": "placená služba pro registrované; výstupy s pečetí",
+   "omezeni": [
+    "placené",
+    "osobní údaje vlastníků – mimo rozsah bez právního titulu"
+   ]
+  }
+ ],
+ "aktualizace": "2026-10-23 08:40 SELČ"
+}
