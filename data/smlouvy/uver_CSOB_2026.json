@@ -1,0 +1,69 @@
+{
+ "schema": "vsetin-osint/retezec-rozhodnuti-penize@1",
+ "id": "UVER-2026-CSOB",
+ "nazev": "Investiční úvěrový rámec 500 mil. Kč – ČSOB (smlouva č. 2026006012)",
+ "vytezeno": "2026-10-23 09:40 SELČ",
+ "retezec": [
+  {
+   "datum": "2026-03-30",
+   "typ": "usnesení ZM",
+   "id": "25/24/ZM/2026",
+   "text": "závazek financování akce „Fotovoltaická elektrárna na budově ZŠ Ohrada“ v roce 2026 v objemu 32 880 000 Kč připravovaným investičním úvěrem",
+   "zdroj": "https://mestovsetin.cz/assets/File.ashx?id_org=18676&id_dokumenty=567593",
+   "overeni": "text PDF usnesení"
+  },
+  {
+   "datum": "2026-06-22",
+   "typ": "usnesení ZM",
+   "id": "23/26/ZM/2026",
+   "text": "ZM schvaluje přijetí investičního úvěrového rámce ve výši 500 000 000 Kč a uzavření smlouvy o úvěru č. 2026006012 s ČSOB, a.s. (IČO 00001350); ukládá starostovi podepsat",
+   "zdroj": "https://mestovsetin.cz/assets/File.ashx?id_org=18676&id_dokumenty=569002",
+   "overeni": "text PDF usnesení"
+  },
+  {
+   "datum": "2026-06-22",
+   "typ": "rozpočtové opatření",
+   "id": "RO-2026-12 (24,38/26/ZM/2026)",
+   "text": "pol. 8123 dlouhodobé úvěry 0 → 107 500 000 Kč",
+   "zdroj": "data/rozpocet/2026/rozpoctova_opatreni_2026.json"
+  },
+  {
+   "datum": "2026-06-26",
+   "typ": "smlouva",
+   "id": "registr smluv – verze 38540900 (ID smlouvy 36214340), č. 0485 2026",
+   "text": "Smlouva o úvěru č. 2026006012 – úvěrový limit 500 000 000 Kč, účelový (probíhající a připravované investiční akce), sazba 3M PRIBOR + 0,001 % p.a. (záporný PRIBOR = 0), čerpání do 31. 12. 2029, splatnost do 31. 12. 2049, splátky 6 250 000 Kč čtvrtletně od 29. 3. 2030 (80 splátek), dluhy nezajištěny; podmínka čerpání: projekt zahrnut ve schváleném rozpočtu",
+   "zdroj": "https://smlouvy.gov.cz/smlouva/38540900",
+   "priloha": "https://smlouvy.gov.cz/smlouva/soubor/46539412/0485_2026_A.pdf",
+   "overeni": "text PDF smlouvy (17 s., anonymizováno Q-integra)"
+  },
+  {
+   "datum": "2026-08-31",
+   "typ": "MONITOR FIN 2-12 M",
+   "id": "2026_08_Data_CSUIS_FINM2026",
+   "text": "pol. 8123: rozpočet po změnách 107 500 000 Kč, čerpáno od počátku roku 2 439 797 Kč",
+   "zdroj": "https://monitor.statnipokladna.gov.cz/data/extrakty/csv/FinM2026/2026_08_Data_CSUIS_FINM2026.zip",
+   "overeni": "strojově"
+  },
+  {
+   "datum": "2026-09-21",
+   "typ": "rozpočtové opatření",
+   "id": "RO-2026-17 (24/27/ZM/2026)",
+   "text": "pol. 8113 −100 mil., pol. 8123 +100 mil. → úvěr v rozpočtu 207 500 000 Kč",
+   "zdroj": "data/rozpocet/2026/rozpoctova_opatreni_2026.json"
+  },
+  {
+   "datum": "2026-09-21",
+   "typ": "usnesení ZM",
+   "id": "23/27/ZM/2026",
+   "text": "ZM schvaluje Dodatek č. 3 ke smlouvě o úvěru č. 2053/10/5625 s ČSOB (jiný, starší úvěr; obsah dodatku nevytěžen)",
+   "zdroj": "https://mestovsetin.cz/assets/File.ashx?id_org=18676&id_dokumenty=570501",
+   "overeni": "text PDF usnesení"
+  }
+ ],
+ "zjisteni": [
+  "FAKT: úvěrový rámec 500 mil. Kč je ~2,4× vyšší než úvěr zatím zapojený do rozpočtu 2026 (207,5 mil.); zbytek je rámec pro roky do 2029.",
+  "FAKT: splácení začíná až 29. 3. 2030 a končí 2049 (≈ 25 mil. Kč jistiny ročně + úroky).",
+  "FAKT: nasvsetin.cz má smlouvu v importu registru (38540900), ale bez částky (value_kind=nezjisteno, registr uvádí 500 000 000 vč. DPH) a bez vazby na usnesení 23/26/ZM/2026.",
+  "OTEVŘENÉ: obsah a výše úvěru č. 2053/10/5625 a dodatku č. 3; krátkodobý úvěr pol. 8113 (200 mil. v rozpočtu) – s kým."
+ ]
+}

@@ -1,0 +1,2165 @@
+{
+ "schema": "vsetin-osint/oprava-hodnot-registru@1",
+ "zdroj": "https://smlouvy.gov.cz/smlouva/{version_id} (HTML detail, 1 dotaz/1–6 s)",
+ "stazeno": "2026-10-23 09:00–09:30 SELČ",
+ "vstup": "244 verzí s value_kind='nezjisteno' z /api/registry/contracts nasvsetin.cz (vzorek 500 nejnovějších verzí, 05–10/2026); 215 unikátních version_id (29 duplicit = obě strany jsou sledované subjekty)",
+ "souhrn": {
+  "unikatnich": 215,
+  "nezjisteno": 66,
+  "s_dph": 149,
+  "soucet_s_dph_doplnitelny": 1182189965.31
+ },
+ "pozor": "Hodnoty jsou formální údaj registru (pole hodnotaVcetneDph), nikoli platba. DPH nepřepočítávat.",
+ "verze": [
+  {
+   "version_id": "37926737",
+   "bez_dph": null,
+   "s_dph": null,
+   "mena": null,
+   "cizi_mena": null,
+   "predmet": "Dodatek č. 1 - změna termínu plnění",
+   "datum_uzavreni": "12.05.2026",
+   "value_kind_navrh": "nezjisteno"
+  },
+  {
+   "version_id": "37942785",
+   "bez_dph": null,
+   "s_dph": null,
+   "mena": null,
+   "cizi_mena": null,
+   "predmet": "OSTATNÍ - Smlouva o centralizovaném zadávání na nákup komodit pro rok 2029",
+   "datum_uzavreni": "12.05.2026",
+   "value_kind_navrh": "nezjisteno"
+  },
+  {
+   "version_id": "37942793",
+   "bez_dph": null,
+   "s_dph": null,
+   "mena": null,
+   "cizi_mena": null,
+   "predmet": "OSTATNÍ - Smlouva o centralizovaném zadávání na nákup komodit pro rok 2029",
+   "datum_uzavreni": "12.05.2026",
+   "value_kind_navrh": "nezjisteno"
+  },
+  {
+   "version_id": "37942809",
+   "bez_dph": null,
+   "s_dph": null,
+   "mena": null,
+   "cizi_mena": null,
+   "predmet": "OSTATNÍ - Smlouva o centralizovaném zadávání na nákup komodit pro rok 2029",
+   "datum_uzavreni": "12.05.2026",
+   "value_kind_navrh": "nezjisteno"
+  },
+  {
+   "version_id": "37947337",
+   "bez_dph": null,
+   "s_dph": 129954.0,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": "Nákup multifunkční zařízení Konica Minolta bizhub C301i",
+   "datum_uzavreni": "12.05.2026",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "37947357",
+   "bez_dph": null,
+   "s_dph": null,
+   "mena": null,
+   "cizi_mena": null,
+   "predmet": "OSTATNÍ - Smlouva o centralizovaném zadávání na nákup komodit pro rok 2026",
+   "datum_uzavreni": "12.05.2026",
+   "value_kind_navrh": "nezjisteno"
+  },
+  {
+   "version_id": "37947361",
+   "bez_dph": null,
+   "s_dph": null,
+   "mena": null,
+   "cizi_mena": null,
+   "predmet": "OSTATNÍ - Smlouva o cnetralizovaném zadávání na nákup komodit pro rok 2029",
+   "datum_uzavreni": "12.05.2026",
+   "value_kind_navrh": "nezjisteno"
+  },
+  {
+   "version_id": "37947365",
+   "bez_dph": null,
+   "s_dph": null,
+   "mena": null,
+   "cizi_mena": null,
+   "predmet": "OSTATNÍ - Smlouva o centralizovaném zadávání na nákup komodit pro rok 2029",
+   "datum_uzavreni": "12.05.2026",
+   "value_kind_navrh": "nezjisteno"
+  },
+  {
+   "version_id": "37954813",
+   "bez_dph": null,
+   "s_dph": 65500.0,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": "Objednávka pobytového programu",
+   "datum_uzavreni": "07.04.2026",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "37977165",
+   "bez_dph": null,
+   "s_dph": 290640.0,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": "Elektronické stravné na 05/2026, 2076 ks á140 Kč",
+   "datum_uzavreni": "13.05.2026",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "37977169",
+   "bez_dph": null,
+   "s_dph": null,
+   "mena": null,
+   "cizi_mena": null,
+   "predmet": "Dodatek č. 2 o prodloužení smlouvy",
+   "datum_uzavreni": "13.05.2026",
+   "value_kind_navrh": "nezjisteno"
+  },
+  {
+   "version_id": "38001917",
+   "bez_dph": null,
+   "s_dph": 75000.0,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": "Podchod - Rybníky trávníky (výmalba čelní strana)",
+   "datum_uzavreni": "28.04.2026",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "38006101",
+   "bez_dph": null,
+   "s_dph": null,
+   "mena": null,
+   "cizi_mena": null,
+   "predmet": "Smlouva o postoupení nájemní smlouvy",
+   "datum_uzavreni": "18.05.2026",
+   "value_kind_navrh": "nezjisteno"
+  },
+  {
+   "version_id": "38107021",
+   "bez_dph": null,
+   "s_dph": 156000.0,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": "DOTACE - Veřejnoprávní smlouva o poskytnutí dotace z rozpočtu města Vsetína",
+   "datum_uzavreni": "22.05.2026",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "38107033",
+   "bez_dph": null,
+   "s_dph": null,
+   "mena": null,
+   "cizi_mena": null,
+   "predmet": null,
+   "datum_uzavreni": "19.05.2026",
+   "value_kind_navrh": "nezjisteno"
+  },
+  {
+   "version_id": "38107037",
+   "bez_dph": null,
+   "s_dph": 190000.0,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": "DOTACE - Veřejnoprávní smlouva o poskytnutí dotace na pravidelnou celoroční sportovní činnost v roce 2026",
+   "datum_uzavreni": "22.05.2026",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "38108093",
+   "bez_dph": null,
+   "s_dph": 600000.0,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": null,
+   "datum_uzavreni": "22.05.2026",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "38119505",
+   "bez_dph": null,
+   "s_dph": 1000000.0,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": "Darovací smlouva - rozvoj sportovní činnost mládeže v klubu obdarovaného v roce 2026",
+   "datum_uzavreni": "21.04.2026",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "38123189",
+   "bez_dph": null,
+   "s_dph": 81438.0,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": "Revize a kontrola hasících přístrojů a hydrantů v bytových domech města Vsetín.",
+   "datum_uzavreni": "21.05.2026",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "38123205",
+   "bez_dph": null,
+   "s_dph": 60085.0,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": "NÁJEM - Nájemní smlouva na pronájem prostor č.p.305, k.ú. Rokytnice u Vsetína.",
+   "datum_uzavreni": "25.05.2026",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "38123209",
+   "bez_dph": null,
+   "s_dph": 223360.0,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": "NÁJEM - Nájemní smlouva na pronájem prostor č.p.1827,k.ú. Vsetín",
+   "datum_uzavreni": "25.05.2026",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "38164473",
+   "bez_dph": null,
+   "s_dph": 1028500.0,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": "Příkazní smlouva při realizaci stavby &quot;Kanalizace a vodovod Velký Skalník&quot;",
+   "datum_uzavreni": "20.08.2025",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "38164649",
+   "bez_dph": null,
+   "s_dph": 302500.0,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": "Smlouva o výkonu BOZP při realizaci stavby &quot;Kanalizace a vodovod Velký Skalník&quot;",
+   "datum_uzavreni": "20.08.2025",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "38164849",
+   "bez_dph": null,
+   "s_dph": 1808950.0,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": "Příkazní smlouva při realizaci stavby - Obnova vodovodního přivaděče v úseku ČS Ohrada - VDJ Bečevná, Vsetín",
+   "datum_uzavreni": "20.08.2025",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "38165029",
+   "bez_dph": null,
+   "s_dph": 484000.0,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": "Smlouva o výkonu BOZP při realizaci stavby - Obnova vodovodního přivaděče v úseku ČS Ohrada - VDJ Bečevná, Vsetín",
+   "datum_uzavreni": "20.08.2025",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "38165177",
+   "bez_dph": null,
+   "s_dph": 22767787.24,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": "Smlouva o dílo na realizaci stavby - Kanalizace a vodovod Velký Skalník",
+   "datum_uzavreni": "20.08.2025",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "38165509",
+   "bez_dph": null,
+   "s_dph": 32537640.37,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": "Smlouva o dílo na realizaci stavby - Vodovod Zašová - rozšíření HTP",
+   "datum_uzavreni": "25.08.2025",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "38165757",
+   "bez_dph": null,
+   "s_dph": 78473548.19,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": "Smlouva o dílo na realizaci stavby - Prodloužení vodovodu a kanalizace Nový Hrozenkov - Vranča a Malá Vranča",
+   "datum_uzavreni": "20.08.2025",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "38181189",
+   "bez_dph": null,
+   "s_dph": 72150.0,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": "Objednávka pobytového programu",
+   "datum_uzavreni": "18.05.2026",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "38181501",
+   "bez_dph": null,
+   "s_dph": 1317000.0,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": null,
+   "datum_uzavreni": "27.05.2026",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "38181505",
+   "bez_dph": null,
+   "s_dph": null,
+   "mena": null,
+   "cizi_mena": null,
+   "predmet": "Dohoda o skončení nájemní smlouvy na pronájem nebytových prostor",
+   "datum_uzavreni": "11.05.2026",
+   "value_kind_navrh": "nezjisteno"
+  },
+  {
+   "version_id": "38181509",
+   "bez_dph": null,
+   "s_dph": 43300.0,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": "NÁJEM - Nájemní smlouva na pronájem nebytových prostor č.p.1484, k.ú. Vsetín",
+   "datum_uzavreni": "29.05.2026",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "38181605",
+   "bez_dph": null,
+   "s_dph": 51450.0,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": "Objednávka pobytového programu",
+   "datum_uzavreni": "18.05.2026",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "38184953",
+   "bez_dph": null,
+   "s_dph": 290707.0,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": "Vybudování dřevěného přístřešku Pro JSDH Vsetín - Rokytnice",
+   "datum_uzavreni": "21.05.2026",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "38194181",
+   "bez_dph": null,
+   "s_dph": null,
+   "mena": null,
+   "cizi_mena": null,
+   "predmet": "Dodatek č. 1 ke Smlouvě o zajištění služby venkovního osvětlení",
+   "datum_uzavreni": "12.05.2026",
+   "value_kind_navrh": "nezjisteno"
+  },
+  {
+   "version_id": "38196681",
+   "bez_dph": null,
+   "s_dph": null,
+   "mena": null,
+   "cizi_mena": null,
+   "predmet": "Smlouva o spolupráci",
+   "datum_uzavreni": "26.05.2026",
+   "value_kind_navrh": "nezjisteno"
+  },
+  {
+   "version_id": "38205861",
+   "bez_dph": null,
+   "s_dph": 899999.0,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": "KOUPĚ, SMĚNA, PRODEJ - Kupní smlouva o prodeji automobilu TOYOTA",
+   "datum_uzavreni": "01.06.2026",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "38209865",
+   "bez_dph": null,
+   "s_dph": 174000.0,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": "Dodatek č. 1 ke smlouvě na zajištění výkonu regionálních funkcí 2026 - Knihovna VS",
+   "datum_uzavreni": "29.05.2026",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "38211805",
+   "bez_dph": null,
+   "s_dph": 263704.98,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": null,
+   "datum_uzavreni": "01.06.2026",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "38255137",
+   "bez_dph": null,
+   "s_dph": 210000.0,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": "Papírové stravné na 06/2026, 1500 ks á 140 Kč",
+   "datum_uzavreni": "03.06.2026",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "38267782",
+   "bez_dph": null,
+   "s_dph": 342160.0,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": "NÁJEM - Nájemní smlouva na pronájem prostor sloužících k podnikání stavba č.p. 1356, k.ú. Vsetín.",
+   "datum_uzavreni": "02.06.2026",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "38270257",
+   "bez_dph": null,
+   "s_dph": null,
+   "mena": null,
+   "cizi_mena": null,
+   "predmet": "OSTATNÍ - Dohoda o zrušení předkupního práva k objektu čp 714, k.ú. Vsetín.",
+   "datum_uzavreni": "04.06.2026",
+   "value_kind_navrh": "nezjisteno"
+  },
+  {
+   "version_id": "38280376",
+   "bez_dph": null,
+   "s_dph": null,
+   "mena": null,
+   "cizi_mena": null,
+   "predmet": "Dodatek č. 1 - k připojení odběrného místa",
+   "datum_uzavreni": "04.06.2026",
+   "value_kind_navrh": "nezjisteno"
+  },
+  {
+   "version_id": "38291167",
+   "bez_dph": null,
+   "s_dph": 90000.0,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": null,
+   "datum_uzavreni": "03.06.2026",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "38300125",
+   "bez_dph": null,
+   "s_dph": null,
+   "mena": null,
+   "cizi_mena": null,
+   "predmet": "Dodatek č. 1 k NS na pronájem prostor sloužících k podnikání - dočasné opuštění pronajatých prostor",
+   "datum_uzavreni": "05.06.2026",
+   "value_kind_navrh": "nezjisteno"
+  },
+  {
+   "version_id": "38301706",
+   "bez_dph": null,
+   "s_dph": 110000.0,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": null,
+   "datum_uzavreni": "04.06.2026",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "38340592",
+   "bez_dph": null,
+   "s_dph": 20000.0,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": "OSTATNÍ - Smlouva o předběžné náhradní péči o týraná zvířata TS Valašské Meziříčí.",
+   "datum_uzavreni": "09.06.2026",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "38340598",
+   "bez_dph": null,
+   "s_dph": 369600.0,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": "Elektronické stravné na červen 2640 ks á 140 Kč",
+   "datum_uzavreni": "03.06.2026",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "38370907",
+   "bez_dph": null,
+   "s_dph": 407198.0,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": "DOTACE - Veřejnoprávní smlouva o poskytnutí dotace z rozpočtu města Vsetína - nákladů projektu Centrum pro závislost.",
+   "datum_uzavreni": "15.06.2026",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "38372958",
+   "bez_dph": null,
+   "s_dph": null,
+   "mena": null,
+   "cizi_mena": null,
+   "predmet": "OSTATNÍ - Smlouva o předběžné náhradní péči Technické služby Kroměříž",
+   "datum_uzavreni": "11.06.2026",
+   "value_kind_navrh": "nezjisteno"
+  },
+  {
+   "version_id": "38378830",
+   "bez_dph": null,
+   "s_dph": 60000.0,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": null,
+   "datum_uzavreni": "16.06.2026",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "38388658",
+   "bez_dph": null,
+   "s_dph": 110000.0,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": null,
+   "datum_uzavreni": "15.06.2026",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "38423574",
+   "bez_dph": null,
+   "s_dph": null,
+   "mena": null,
+   "cizi_mena": null,
+   "predmet": "OSTATNÍ - Smlouva o předběžné náhradní péči TS Vsetín",
+   "datum_uzavreni": "17.06.2026",
+   "value_kind_navrh": "nezjisteno"
+  },
+  {
+   "version_id": "38423578",
+   "bez_dph": null,
+   "s_dph": null,
+   "mena": null,
+   "cizi_mena": null,
+   "predmet": "OSTATNÍ - Smlouva o předběžné náhradní péči Dobré ruce Zlín",
+   "datum_uzavreni": "17.06.2026",
+   "value_kind_navrh": "nezjisteno"
+  },
+  {
+   "version_id": "38464146",
+   "bez_dph": null,
+   "s_dph": 215360.0,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": "NÁJEM - Nájemní smlouva na pronájem prostor sloužících k podnikání stavba č.p. 1356, k.ú. Vsetín.",
+   "datum_uzavreni": "19.06.2026",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "38464158",
+   "bez_dph": null,
+   "s_dph": 197840.0,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": "NÁJEM - Nájemní smlouva na pronájem prostor sloužících k podnikání stavba č.p. 1356, k.ú. Vsetín.",
+   "datum_uzavreni": "19.06.2026",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "38468786",
+   "bez_dph": null,
+   "s_dph": 420000.0,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": "Papírové stravenky na 07/2026, 3000 ks á 140 Kč",
+   "datum_uzavreni": "18.06.2026",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "38483662",
+   "bez_dph": null,
+   "s_dph": 33750.0,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": null,
+   "datum_uzavreni": "18.06.2026",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "38502642",
+   "bez_dph": null,
+   "s_dph": 225000.0,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": "RP28-26 Podpora turistických informačních center ve Zlínském kraji",
+   "datum_uzavreni": "18.06.2026",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "38540900",
+   "bez_dph": null,
+   "s_dph": 500000000.0,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": "ÚVĚR - Smlouva o úvěru č. 2026006012 - na probíhající a připravované investiční akce.",
+   "datum_uzavreni": "26.06.2026",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "38544964",
+   "bez_dph": null,
+   "s_dph": null,
+   "mena": null,
+   "cizi_mena": null,
+   "predmet": "Smlouva o spolupráci-Digitální odysea 26/27",
+   "datum_uzavreni": "23.06.2026",
+   "value_kind_navrh": "nezjisteno"
+  },
+  {
+   "version_id": "38581544",
+   "bez_dph": null,
+   "s_dph": 60000.0,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": "Dodatek č. 3 k NS - změna rozsahu smlouvy",
+   "datum_uzavreni": "26.06.2026",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "38581548",
+   "bez_dph": null,
+   "s_dph": null,
+   "mena": null,
+   "cizi_mena": null,
+   "predmet": "Dohoda o skončení nájemní smlouvy dnem 30.06.2026",
+   "datum_uzavreni": "29.06.2026",
+   "value_kind_navrh": "nezjisteno"
+  },
+  {
+   "version_id": "38586720",
+   "bez_dph": null,
+   "s_dph": 300000.0,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": "Smlouva o poskytnutí neinvestiční dotace k žádosti KUL06-26/006 Mezinárodní folklorní festival Vsetínský krpec",
+   "datum_uzavreni": "10.06.2026",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "38599032",
+   "bez_dph": null,
+   "s_dph": null,
+   "mena": null,
+   "cizi_mena": null,
+   "predmet": "Dodatek č. 3 - změna termínu plnění",
+   "datum_uzavreni": "30.06.2026",
+   "value_kind_navrh": "nezjisteno"
+  },
+  {
+   "version_id": "38628052",
+   "bez_dph": null,
+   "s_dph": 90000.0,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": null,
+   "datum_uzavreni": "02.07.2026",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "38646664",
+   "bez_dph": null,
+   "s_dph": null,
+   "mena": null,
+   "cizi_mena": null,
+   "predmet": "Dodatek č. 1 - změna platebních podmínek",
+   "datum_uzavreni": "03.07.2026",
+   "value_kind_navrh": "nezjisteno"
+  },
+  {
+   "version_id": "38662224",
+   "bez_dph": null,
+   "s_dph": 152700.0,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": "NÁJEM - Nájemní smlouva na pronájem prostor č.p.1056, k.ú. Vsetí - obchod - za účelem prodeje textilu.",
+   "datum_uzavreni": "01.07.2026",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "38668532",
+   "bez_dph": null,
+   "s_dph": null,
+   "mena": null,
+   "cizi_mena": null,
+   "predmet": "RÁMCOVÁ SMLOUVA O POSKYTOVÁNÍ SLUŽEB",
+   "datum_uzavreni": "30.06.2026",
+   "value_kind_navrh": "nezjisteno"
+  },
+  {
+   "version_id": "38674180",
+   "bez_dph": null,
+   "s_dph": 816000.0,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": null,
+   "datum_uzavreni": "08.07.2026",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "38685072",
+   "bez_dph": null,
+   "s_dph": 80000.0,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": "Smlouva o poskytnutí dotace - KUL01-26/030 25. Vsetínské kulturné léto",
+   "datum_uzavreni": "24.06.2026",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "38695252",
+   "bez_dph": null,
+   "s_dph": 1.0,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": "DARY - Darovací smlouva - sokl s rokajovou kartuší a erbem hrabat Illeshazyů, na spodní části s vyrytým letopočtem 1771.",
+   "datum_uzavreni": "08.07.2026",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "38703940",
+   "bez_dph": null,
+   "s_dph": 155400.0,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": "Objednávka ubytování a plné penze Climbing camp",
+   "datum_uzavreni": "09.07.2026",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "38715924",
+   "bez_dph": null,
+   "s_dph": 331240.0,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": "Elektronické stravenky - červenec 2026 - 331.240 Kč (2.366 ks/140 Kč)",
+   "datum_uzavreni": "07.07.2026",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "38715940",
+   "bez_dph": null,
+   "s_dph": null,
+   "mena": null,
+   "cizi_mena": null,
+   "predmet": "Dodatek č. 1 - změna doby plnění .",
+   "datum_uzavreni": "07.07.2026",
+   "value_kind_navrh": "nezjisteno"
+  },
+  {
+   "version_id": "38731076",
+   "bez_dph": null,
+   "s_dph": 2235000.0,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": null,
+   "datum_uzavreni": "08.07.2026",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "38737076",
+   "bez_dph": null,
+   "s_dph": 434436.88,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": "Dodatek č. 1 k Veřejnoprávní smlouvě o poskytnutí dotace na realizaci projektu Cyklostezka Bečva - sdílená kola",
+   "datum_uzavreni": "10.07.2026",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "38747356",
+   "bez_dph": null,
+   "s_dph": 55055.0,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": "Dodatek č.2 - Cena za vícepráce.",
+   "datum_uzavreni": "10.07.2026",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "38754564",
+   "bez_dph": null,
+   "s_dph": 1052700.0,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": "Příkazní smlouva o výkonu technického dozoru stavebníka k akci &quot;Vodovod Zašová - rozšíření HTP&quot;",
+   "datum_uzavreni": "20.08.2025",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "38754880",
+   "bez_dph": null,
+   "s_dph": 350900.0,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": "Příkazní smlouva na výkon činnosti koordinátora BOZP k akci &quot;Vodovod Zašová - rozšíření HTP&quot;",
+   "datum_uzavreni": "20.08.2025",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "38771000",
+   "bez_dph": null,
+   "s_dph": null,
+   "mena": null,
+   "cizi_mena": null,
+   "predmet": "D1 ke Smlouvě o provádění předběžné náhradní péče o týraná zvířata - úprava doby péče.",
+   "datum_uzavreni": "09.07.2026",
+   "value_kind_navrh": "nezjisteno"
+  },
+  {
+   "version_id": "38780620",
+   "bez_dph": null,
+   "s_dph": null,
+   "mena": null,
+   "cizi_mena": null,
+   "predmet": "Smlouva o zajištění stravování táborů",
+   "datum_uzavreni": "29.06.2026",
+   "value_kind_navrh": "nezjisteno"
+  },
+  {
+   "version_id": "38789708",
+   "bez_dph": null,
+   "s_dph": null,
+   "mena": null,
+   "cizi_mena": null,
+   "predmet": "Dodatek č. 1 - předběžná náhradné péče o týraná zvířata",
+   "datum_uzavreni": "13.07.2026",
+   "value_kind_navrh": "nezjisteno"
+  },
+  {
+   "version_id": "38789716",
+   "bez_dph": null,
+   "s_dph": 99500.0,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": "Oprava předstěny po výměně oken v tanečním sále Kotovo sekce C.",
+   "datum_uzavreni": "15.07.2026",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "38824686",
+   "bez_dph": null,
+   "s_dph": null,
+   "mena": null,
+   "cizi_mena": null,
+   "predmet": "D1 - ke Smlouvě o provádění předběžné náhradní péče o týranná zvířata - doba převzetí zvířat",
+   "datum_uzavreni": "10.07.2026",
+   "value_kind_navrh": "nezjisteno"
+  },
+  {
+   "version_id": "38824694",
+   "bez_dph": null,
+   "s_dph": 584.0,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": null,
+   "datum_uzavreni": "17.07.2026",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "38829422",
+   "bez_dph": null,
+   "s_dph": 246254.0,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": "Zajištění opravy topných větví v DK čp.1055",
+   "datum_uzavreni": "14.07.2026",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "38829430",
+   "bez_dph": null,
+   "s_dph": 300000.0,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": "DOTACE - Veřejnoprávní smlouva o poskytnutí dotace na Festival UNITED 2026",
+   "datum_uzavreni": "10.07.2026",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "38835766",
+   "bez_dph": null,
+   "s_dph": 276000.0,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": "Smlouva o zajištění stravování táborů",
+   "datum_uzavreni": "29.06.2026",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "38842086",
+   "bez_dph": null,
+   "s_dph": 514700.0,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": "Smluva na zajištění adaptačních programů na Hájence a v Kempu Bystřička",
+   "datum_uzavreni": "21.07.2026",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "38843974",
+   "bez_dph": null,
+   "s_dph": 75500.0,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": null,
+   "datum_uzavreni": "21.07.2026",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "38851774",
+   "bez_dph": null,
+   "s_dph": 350000.0,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": null,
+   "datum_uzavreni": "21.07.2026",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "38851782",
+   "bez_dph": null,
+   "s_dph": 325000.0,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": null,
+   "datum_uzavreni": "21.07.2026",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "38885266",
+   "bez_dph": null,
+   "s_dph": null,
+   "mena": null,
+   "cizi_mena": null,
+   "predmet": "Smlouva o spolupráci při rozvoji vzdělávání seniorů_ VU3V",
+   "datum_uzavreni": "22.07.2026",
+   "value_kind_navrh": "nezjisteno"
+  },
+  {
+   "version_id": "38919890",
+   "bez_dph": null,
+   "s_dph": 100130.0,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": "NÁJEM - Nájemní smlouva na pronájem prostor č.p.1056, k.ú. Vsetín",
+   "datum_uzavreni": "15.07.2026",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "38966738",
+   "bez_dph": null,
+   "s_dph": null,
+   "mena": null,
+   "cizi_mena": null,
+   "predmet": "Dodatek ke smlouvě o inkasu – změna způsobu informování o provedených platbách",
+   "datum_uzavreni": "28.07.2026",
+   "value_kind_navrh": "nezjisteno"
+  },
+  {
+   "version_id": "38978930",
+   "bez_dph": null,
+   "s_dph": 319151.0,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": "DÍLO - Nátěr oken a dveří v domě Pod Žamboškou 252 a253, Vsetín.",
+   "datum_uzavreni": "27.07.2026",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "38996010",
+   "bez_dph": null,
+   "s_dph": 170321.48,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": "OSTATNÍ - Notářský zápis - Prohlášení o uznání dluhu a dohoda o úhradě a dohoda o svolení k vykonatelnosti",
+   "datum_uzavreni": "30.07.2026",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "38996014",
+   "bez_dph": null,
+   "s_dph": 1583987.0,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": "Servisní smlouva na poskytování pravidelného servisu a údržby zařízení pr měření rychloszi v obci Valašská Polanka",
+   "datum_uzavreni": "31.07.2026",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "38999306",
+   "bez_dph": null,
+   "s_dph": null,
+   "mena": null,
+   "cizi_mena": null,
+   "predmet": "Dodatek č. 2 ke smlouvě o provozování služby senior taxi",
+   "datum_uzavreni": "31.07.2026",
+   "value_kind_navrh": "nezjisteno"
+  },
+  {
+   "version_id": "38999318",
+   "bez_dph": null,
+   "s_dph": 94148.0,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": "Dodávka a montáž přístupového systému na ZS",
+   "datum_uzavreni": "07.07.2026",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "38999326",
+   "bez_dph": null,
+   "s_dph": 421080.0,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": "číštění a test trubek kondenzátoru RTND ZS na Lapči",
+   "datum_uzavreni": "07.07.2026",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "38999330",
+   "bez_dph": null,
+   "s_dph": 322313.0,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": "nová dávkovací stanice bazénové chemie koupaliště Pod Pecníkem",
+   "datum_uzavreni": "07.07.2026",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "38999334",
+   "bez_dph": null,
+   "s_dph": 2036585.0,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": "Repase kompresorové jednotky pro chlazení ZS",
+   "datum_uzavreni": "27.07.2026",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "38999338",
+   "bez_dph": null,
+   "s_dph": 210000.0,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": "Výměna pojistných ventilů ve strojovně chlazení ZS na Lapači",
+   "datum_uzavreni": "27.07.2026",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "38999342",
+   "bez_dph": null,
+   "s_dph": 181120.0,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": "Výměna oken v prostororu sauny městské lázně",
+   "datum_uzavreni": "27.07.2026",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "39006374",
+   "bez_dph": null,
+   "s_dph": 10043000.0,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": "Příkazní smlouva o výkonu technického dozoru investora při akci Modernizace úpravny pitné vody Karolinka",
+   "datum_uzavreni": "03.08.2026",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "39006442",
+   "bez_dph": null,
+   "s_dph": 834900.0,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": "Příkazní smlouva na výkon činnosti koordinátora BOZP při akci Modernizace úpravny pitné vody Karolinka",
+   "datum_uzavreni": "03.08.2026",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "39010086",
+   "bez_dph": null,
+   "s_dph": 350000.0,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": "Stravné papírové na 08/2025, 2500 ks á 140 Kč",
+   "datum_uzavreni": "04.08.2026",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "39010090",
+   "bez_dph": null,
+   "s_dph": null,
+   "mena": null,
+   "cizi_mena": null,
+   "predmet": "Dodatek č. 5 - Smlouva o Roznášce informačních materiálů",
+   "datum_uzavreni": "28.07.2026",
+   "value_kind_navrh": "nezjisteno"
+  },
+  {
+   "version_id": "39014030",
+   "bez_dph": null,
+   "s_dph": 463912790.0,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": "Modernizace úpravny pitné vody Karolinka",
+   "datum_uzavreni": "03.08.2026",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "39016714",
+   "bez_dph": null,
+   "s_dph": 2000000.0,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": null,
+   "datum_uzavreni": "05.08.2026",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "39061670",
+   "bez_dph": null,
+   "s_dph": 80000.0,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": "Smlouva o poskytnutí dotace - KUL01-26/141 - 2. kolo - XXXII. Vsetínský jazzový festival",
+   "datum_uzavreni": "28.07.2026",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "39108850",
+   "bez_dph": null,
+   "s_dph": 260680.0,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": "Elektronické stravné na 08/2026",
+   "datum_uzavreni": "05.08.2026",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "39141398",
+   "bez_dph": null,
+   "s_dph": null,
+   "mena": null,
+   "cizi_mena": null,
+   "predmet": "Dodatek č. 2 - prodloužení termínu",
+   "datum_uzavreni": "13.08.2026",
+   "value_kind_navrh": "nezjisteno"
+  },
+  {
+   "version_id": "39158238",
+   "bez_dph": null,
+   "s_dph": null,
+   "mena": null,
+   "cizi_mena": null,
+   "predmet": "Dodatek ke smlouvě o inkasu – změna způsobu informování o provedených platbách",
+   "datum_uzavreni": "10.08.2026",
+   "value_kind_navrh": "nezjisteno"
+  },
+  {
+   "version_id": "39180102",
+   "bez_dph": null,
+   "s_dph": 2240587.3,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": "D3 k NS o nájmu části budovy - úprava podmínek nájemního vztahu",
+   "datum_uzavreni": "19.08.2026",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "39183302",
+   "bez_dph": null,
+   "s_dph": null,
+   "mena": null,
+   "cizi_mena": null,
+   "predmet": "PŘEVOD - Darovací smlouva - cisternová automobilová střkačka (CAS) RTHP 706 Š.",
+   "datum_uzavreni": "04.08.2026",
+   "value_kind_navrh": "nezjisteno"
+  },
+  {
+   "version_id": "39197486",
+   "bez_dph": null,
+   "s_dph": 130000.0,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": "Smlouva o podnájmu nebytových prostor",
+   "datum_uzavreni": "10.06.2026",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "39197518",
+   "bez_dph": null,
+   "s_dph": null,
+   "mena": null,
+   "cizi_mena": null,
+   "predmet": "Smlouva o podnájmu prostor sloužících k podnikání",
+   "datum_uzavreni": "30.05.2017",
+   "value_kind_navrh": "nezjisteno"
+  },
+  {
+   "version_id": "39197554",
+   "bez_dph": null,
+   "s_dph": null,
+   "mena": null,
+   "cizi_mena": null,
+   "predmet": "Smlouva o podnájmu prostor sloužících k podnikání",
+   "datum_uzavreni": "05.12.2017",
+   "value_kind_navrh": "nezjisteno"
+  },
+  {
+   "version_id": "39206742",
+   "bez_dph": null,
+   "s_dph": 1738000.0,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": "Objednávka bazénu na výuku plavání na školní rok 2026/2027",
+   "datum_uzavreni": "31.05.2026",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "39206874",
+   "bez_dph": null,
+   "s_dph": 490000.0,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": "Objednávka bazénu na výuku plavání na školní rok 2026/2027",
+   "datum_uzavreni": "18.06.2026",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "39207030",
+   "bez_dph": null,
+   "s_dph": 654000.0,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": "Objednávka hodin na tréninkovou činnost na školní rok 2026/2027",
+   "datum_uzavreni": "15.06.2026",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "39207314",
+   "bez_dph": null,
+   "s_dph": 68000.0,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": "Objednávka pronájmu bazénu na školní rok 2026/2027",
+   "datum_uzavreni": "16.06.2026",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "39207414",
+   "bez_dph": null,
+   "s_dph": 144000.0,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": "Objednávka bazénu na školní rok 2026/2027",
+   "datum_uzavreni": "15.06.2026",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "39207534",
+   "bez_dph": null,
+   "s_dph": 51000.0,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": "Objednávka pronájmu bazénu na školní rok 2026/2027",
+   "datum_uzavreni": "15.06.2026",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "39233394",
+   "bez_dph": null,
+   "s_dph": 615790.0,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": null,
+   "datum_uzavreni": "21.08.2026",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "39253570",
+   "bez_dph": null,
+   "s_dph": 2007000.0,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": null,
+   "datum_uzavreni": "26.08.2026",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "39271330",
+   "bez_dph": null,
+   "s_dph": 110000.0,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": "Objednání PC",
+   "datum_uzavreni": "27.08.2026",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "39313563",
+   "bez_dph": null,
+   "s_dph": 145000.0,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": "Veřejnoprávní smlouva o poskytnutí vyrovnávací platby z rozpočtu ZK pro SSL rok 2026 (část A)",
+   "datum_uzavreni": "27.08.2026",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "39339653",
+   "bez_dph": null,
+   "s_dph": null,
+   "mena": null,
+   "cizi_mena": null,
+   "predmet": "smlouva o ubytování",
+   "datum_uzavreni": "01.09.2026",
+   "value_kind_navrh": "nezjisteno"
+  },
+  {
+   "version_id": "39358217",
+   "bez_dph": null,
+   "s_dph": 626250.0,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": "NÁJEM - Nájemní smlouva na pronájem prostor sloužících k podnikání č.p. 1827, k.ú. Vsetín - provozování studia jógy.",
+   "datum_uzavreni": "26.08.2026",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "39364537",
+   "bez_dph": null,
+   "s_dph": 158000.0,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": "DOTACE - Veřejnoprávní smlouva o poskytnutí dotace na vybudování naučné stezky Josefa Sousedíka",
+   "datum_uzavreni": "28.08.2026",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "39364549",
+   "bez_dph": null,
+   "s_dph": null,
+   "mena": null,
+   "cizi_mena": null,
+   "predmet": "OSTATNÍ - Trojstranná smlouva o zpracování osobních údajů",
+   "datum_uzavreni": "23.06.2026",
+   "value_kind_navrh": "nezjisteno"
+  },
+  {
+   "version_id": "39368217",
+   "bez_dph": null,
+   "s_dph": null,
+   "mena": null,
+   "cizi_mena": null,
+   "predmet": "Dodatek č. 3 - změna termínu plnění",
+   "datum_uzavreni": "25.08.2026",
+   "value_kind_navrh": "nezjisteno"
+  },
+  {
+   "version_id": "39377565",
+   "bez_dph": null,
+   "s_dph": 20000000.0,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": "NÁJEM - Nájemní smlouva s dohodou o ukončneí nájemního vztahu - Pronájem funkčního celku nového autobusového nádraží",
+   "datum_uzavreni": "02.09.2026",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "39384165",
+   "bez_dph": null,
+   "s_dph": 678645.0,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": null,
+   "datum_uzavreni": "28.08.2026",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "39384833",
+   "bez_dph": null,
+   "s_dph": null,
+   "mena": null,
+   "cizi_mena": null,
+   "predmet": "Svoz komunálního odpadu",
+   "datum_uzavreni": "13.03.2020",
+   "value_kind_navrh": "nezjisteno"
+  },
+  {
+   "version_id": "39396501",
+   "bez_dph": null,
+   "s_dph": 210000.0,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": "Papírové stravné na 09/2026, 1500 ks á 140 Kč",
+   "datum_uzavreni": "03.09.2026",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "39418673",
+   "bez_dph": null,
+   "s_dph": 2160000.0,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": "D2 - úprava doby nájmu a nájemného",
+   "datum_uzavreni": "04.09.2026",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "39438557",
+   "bez_dph": null,
+   "s_dph": null,
+   "mena": null,
+   "cizi_mena": null,
+   "predmet": "Ostatní - Komisionářská smlouva Rámcová smlouva",
+   "datum_uzavreni": "10.08.2026",
+   "value_kind_navrh": "nezjisteno"
+  },
+  {
+   "version_id": "39439397",
+   "bez_dph": null,
+   "s_dph": null,
+   "mena": null,
+   "cizi_mena": null,
+   "predmet": "Smlouva o účtu - Invest Konto",
+   "datum_uzavreni": "10.08.2026",
+   "value_kind_navrh": "nezjisteno"
+  },
+  {
+   "version_id": "39440125",
+   "bez_dph": null,
+   "s_dph": null,
+   "mena": null,
+   "cizi_mena": null,
+   "predmet": "Smlouva o elektronickém bankovnictví",
+   "datum_uzavreni": "10.08.2026",
+   "value_kind_navrh": "nezjisteno"
+  },
+  {
+   "version_id": "39451837",
+   "bez_dph": null,
+   "s_dph": 50000.0,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": "Účelová dotace",
+   "datum_uzavreni": "07.09.2026",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "39455381",
+   "bez_dph": null,
+   "s_dph": null,
+   "mena": null,
+   "cizi_mena": null,
+   "predmet": "dodávka pitné vody",
+   "datum_uzavreni": "21.11.2024",
+   "value_kind_navrh": "nezjisteno"
+  },
+  {
+   "version_id": "39468393",
+   "bez_dph": null,
+   "s_dph": 94659.28,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": "DARY - Darovací smlouva - MAS Hornolidečska, z.s.- využití majetku k ukončení programu.",
+   "datum_uzavreni": "19.08.2026",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "39468409",
+   "bez_dph": null,
+   "s_dph": 93523.83,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": null,
+   "datum_uzavreni": "19.08.2026",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "39473121",
+   "bez_dph": null,
+   "s_dph": 61122.0,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": "DARY - Darovací smlouva - MAS Střední Vsetínsko, z.s. - využití majetku po ukončení projektu.",
+   "datum_uzavreni": "26.08.2026",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "39474681",
+   "bez_dph": null,
+   "s_dph": 645534.0,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": "Dodávka a montáž turniketů a odbavovacího systému na Koupaliště pod Pecníkem",
+   "datum_uzavreni": "02.07.2026",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "39474701",
+   "bez_dph": null,
+   "s_dph": 313632.0,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": "Dodávka krycích matrací na batonové hrany hřiště Pod Pecníkem",
+   "datum_uzavreni": "29.07.2026",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "39479869",
+   "bez_dph": null,
+   "s_dph": null,
+   "mena": null,
+   "cizi_mena": null,
+   "predmet": "DOHODA O UKONČENÍ SMLOUVY, ÚČASTNICKÁ SMLOUVA",
+   "datum_uzavreni": "07.09.2026",
+   "value_kind_navrh": "nezjisteno"
+  },
+  {
+   "version_id": "39487401",
+   "bez_dph": null,
+   "s_dph": 150000.0,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": "PRODEJ - Prodej části pozemků parc.č. 3519/1 a 3519/2 v k.ú. Vsetín",
+   "datum_uzavreni": "11.09.2026",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "39487433",
+   "bez_dph": null,
+   "s_dph": 1721414.0,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": "BANKOVÍ ÚČET - Smlouva o poskytnutí finančních prostředků z rozpočtu Státního fondu dopravní infrastruktury na rok 2026",
+   "datum_uzavreni": "10.09.2026",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "39487489",
+   "bez_dph": null,
+   "s_dph": null,
+   "mena": null,
+   "cizi_mena": null,
+   "predmet": "Smlouva o výpůjčce nebyt.prostor-dod.č.1",
+   "datum_uzavreni": "11.09.2026",
+   "value_kind_navrh": "nezjisteno"
+  },
+  {
+   "version_id": "39521673",
+   "bez_dph": null,
+   "s_dph": 64500.0,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": "JSDH Vsetín: trička, SRŠEŇ, rukavice, svítilny PARAT, proudnice TAJFUN, lana",
+   "datum_uzavreni": "09.09.2026",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "39529061",
+   "bez_dph": null,
+   "s_dph": 124250.0,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": "Smlouva na zajištění adaptačních programů",
+   "datum_uzavreni": "10.09.2026",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "39529981",
+   "bez_dph": null,
+   "s_dph": 93900.84,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": "Světelná souprava na služební vozidlo+ montáž",
+   "datum_uzavreni": "17.08.2026",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "39529985",
+   "bez_dph": null,
+   "s_dph": 83635.2,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": "Prodloužení služby SOS tlačítek SeniAngel",
+   "datum_uzavreni": "17.03.2026",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "39529989",
+   "bez_dph": null,
+   "s_dph": 241104.89,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": "MKDS - Poschla",
+   "datum_uzavreni": "16.07.2026",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "39533841",
+   "bez_dph": null,
+   "s_dph": 73600.0,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": "Smlouva o za jištění adaptačních pobytů",
+   "datum_uzavreni": "15.09.2026",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "39546101",
+   "bez_dph": null,
+   "s_dph": null,
+   "mena": null,
+   "cizi_mena": null,
+   "predmet": "Dohoda o ukončení Smlouvy o provádění úklidových prací",
+   "datum_uzavreni": "31.08.2026",
+   "value_kind_navrh": "nezjisteno"
+  },
+  {
+   "version_id": "39548417",
+   "bez_dph": null,
+   "s_dph": 296040.0,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": "PC včetně SW a radiostanic",
+   "datum_uzavreni": "13.04.2026",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "39569461",
+   "bez_dph": null,
+   "s_dph": null,
+   "mena": null,
+   "cizi_mena": null,
+   "predmet": "DOHODA - Smlouva o umístění a provozu vizuálních prvků v rámci projektu &quot;Po stopách Josefa Sousedíka&quot;",
+   "datum_uzavreni": "16.09.2026",
+   "value_kind_navrh": "nezjisteno"
+  },
+  {
+   "version_id": "39601873",
+   "bez_dph": null,
+   "s_dph": 276220.0,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": "Elektronické stravné na září 1973 ks á 140 Kč",
+   "datum_uzavreni": "03.09.2026",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "39606889",
+   "bez_dph": null,
+   "s_dph": 90000.0,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": "DOTACE - Veřejnoprávní smlouva o poskytnutí dotace na XXII. PARTR RALLY VSETÍN 2026",
+   "datum_uzavreni": "18.09.2026",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "39606893",
+   "bez_dph": null,
+   "s_dph": 300000.0,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": "DOHODA - Dohoda o zrušení předkupního práva k funkčnímu celku objektu čp 50, vč. přilehlých pozemků, k.ú. Vsetín",
+   "datum_uzavreni": "18.09.2026",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "39639113",
+   "bez_dph": null,
+   "s_dph": 107481.0,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": "Dodávka a montáž kamer. systému na objektu &quot;Tyršova 1272&quot;",
+   "datum_uzavreni": "16.09.2026",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "39639117",
+   "bez_dph": null,
+   "s_dph": 67200.0,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": "Objednávka - Pronájem bazénů Městkých lázní Vsetín 1. pol.2026, Vsetínský senior",
+   "datum_uzavreni": "13.01.2026",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "39639121",
+   "bez_dph": null,
+   "s_dph": 262042.04,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": "MKDS - náměstí Svobody 1321",
+   "datum_uzavreni": "16.09.2026",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "39645933",
+   "bez_dph": null,
+   "s_dph": 241550.0,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": "Objednávka na zpracování a dodání hlasovacích lístků",
+   "datum_uzavreni": "21.09.2026",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "39649961",
+   "bez_dph": null,
+   "s_dph": 112000.0,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": "Oprava vozidla značky Superb 6Z3 2627",
+   "datum_uzavreni": "14.09.2026",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "39649969",
+   "bez_dph": null,
+   "s_dph": 89105.0,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": "Dodatek č. 1 - úprava společných prostor, výše nájmu, doby nájmu",
+   "datum_uzavreni": "22.09.2026",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "39659657",
+   "bez_dph": null,
+   "s_dph": null,
+   "mena": null,
+   "cizi_mena": null,
+   "predmet": "Dohoda o skončení nájemní smlouvy dnem 30.09.2026",
+   "datum_uzavreni": "18.09.2026",
+   "value_kind_navrh": "nezjisteno"
+  },
+  {
+   "version_id": "39662293",
+   "bez_dph": null,
+   "s_dph": 75000.0,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": "362 - Havarijní stav stropu, demolice + příprava na rekolaudaci (nesplňuje odolnost proti požáru)",
+   "datum_uzavreni": "04.09.2026",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "39675557",
+   "bez_dph": null,
+   "s_dph": 85000.0,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": null,
+   "datum_uzavreni": "24.09.2026",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "39675561",
+   "bez_dph": null,
+   "s_dph": 250000.0,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": null,
+   "datum_uzavreni": "24.09.2026",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "39695493",
+   "bez_dph": null,
+   "s_dph": null,
+   "mena": null,
+   "cizi_mena": null,
+   "predmet": "Smlouva o spolupráci",
+   "datum_uzavreni": "24.09.2026",
+   "value_kind_navrh": "nezjisteno"
+  },
+  {
+   "version_id": "39698605",
+   "bez_dph": null,
+   "s_dph": null,
+   "mena": null,
+   "cizi_mena": null,
+   "predmet": "Dodatek č. 3 ke Smlouvě o úvěru č. 2053/10/5625",
+   "datum_uzavreni": "25.09.2026",
+   "value_kind_navrh": "nezjisteno"
+  },
+  {
+   "version_id": "39703353",
+   "bez_dph": null,
+   "s_dph": null,
+   "mena": null,
+   "cizi_mena": null,
+   "predmet": "Dohoda o skončení nájemní smlouvy dnem 30.09.2026",
+   "datum_uzavreni": "25.09.2026",
+   "value_kind_navrh": "nezjisteno"
+  },
+  {
+   "version_id": "39707665",
+   "bez_dph": null,
+   "s_dph": 188620.0,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": "Dodatek č. 1 - úprava společných prostor, výše nájmu",
+   "datum_uzavreni": "25.09.2026",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "39734477",
+   "bez_dph": null,
+   "s_dph": null,
+   "mena": null,
+   "cizi_mena": null,
+   "predmet": "OSTATNÍ - Smlouva o provádění náhradní péče o týraná zvířata",
+   "datum_uzavreni": "29.09.2026",
+   "value_kind_navrh": "nezjisteno"
+  },
+  {
+   "version_id": "39734481",
+   "bez_dph": null,
+   "s_dph": null,
+   "mena": null,
+   "cizi_mena": null,
+   "predmet": "OSTATNÍ - Smlouva o provádění náhradní péče o týraná zvířata",
+   "datum_uzavreni": "29.09.2026",
+   "value_kind_navrh": "nezjisteno"
+  },
+  {
+   "version_id": "39734485",
+   "bez_dph": null,
+   "s_dph": null,
+   "mena": null,
+   "cizi_mena": null,
+   "predmet": "OSTATNÍ - Smlouva o provádění náhradní péče o týraná zvířata",
+   "datum_uzavreni": "29.09.2026",
+   "value_kind_navrh": "nezjisteno"
+  },
+  {
+   "version_id": "39761597",
+   "bez_dph": null,
+   "s_dph": null,
+   "mena": null,
+   "cizi_mena": null,
+   "predmet": "Smlouva o zajištění uměleckého výkonu",
+   "datum_uzavreni": "29.09.2026",
+   "value_kind_navrh": "nezjisteno"
+  },
+  {
+   "version_id": "39764961",
+   "bez_dph": null,
+   "s_dph": null,
+   "mena": null,
+   "cizi_mena": null,
+   "predmet": "Dohoda o skončení nájemní smlouvy dnem 30.9.2026",
+   "datum_uzavreni": "30.09.2026",
+   "value_kind_navrh": "nezjisteno"
+  },
+  {
+   "version_id": "39764965",
+   "bez_dph": null,
+   "s_dph": null,
+   "mena": null,
+   "cizi_mena": null,
+   "predmet": "Dohoda o skončení nájemní smlouvy dnem 30.9.2026",
+   "datum_uzavreni": "30.09.2026",
+   "value_kind_navrh": "nezjisteno"
+  },
+  {
+   "version_id": "39810741",
+   "bez_dph": null,
+   "s_dph": 411600.0,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": "Dodávka amontáž parních generátorů do sauny ML",
+   "datum_uzavreni": "06.10.2026",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "39813205",
+   "bez_dph": null,
+   "s_dph": 53200.0,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": "Oprava výmalby stropní světlíky, stříbrných držáků stropního osvětlění",
+   "datum_uzavreni": "06.10.2026",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "39813209",
+   "bez_dph": null,
+   "s_dph": 54799.0,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": "Oprava přívodů a osvětlení na rampě nad ledovou plochou",
+   "datum_uzavreni": "06.10.2026",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "39815461",
+   "bez_dph": null,
+   "s_dph": 60000.0,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": "Objednávka - Stravné pro členy komise k volbám do zastupitelstev obcí",
+   "datum_uzavreni": "01.10.2026",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "39830357",
+   "bez_dph": null,
+   "s_dph": 350000.0,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": "Papírové stravné na 10/2026, 2.500 ks á 140 Kč",
+   "datum_uzavreni": "06.10.2026",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "39843333",
+   "bez_dph": null,
+   "s_dph": null,
+   "mena": null,
+   "cizi_mena": null,
+   "predmet": "Nájemní smlouva",
+   "datum_uzavreni": "07.10.2026",
+   "value_kind_navrh": "nezjisteno"
+  },
+  {
+   "version_id": "39848241",
+   "bez_dph": null,
+   "s_dph": null,
+   "mena": null,
+   "cizi_mena": null,
+   "predmet": "Dodatek č. 1 - změna termínu plnění",
+   "datum_uzavreni": "07.10.2026",
+   "value_kind_navrh": "nezjisteno"
+  },
+  {
+   "version_id": "39882233",
+   "bez_dph": null,
+   "s_dph": 6030.0,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": "DN Vsetín s.r.o. - Dodatek č.3 k pojistné smlouvě - pojištění podnikatelů TREND - změna rozsahu pojištění",
+   "datum_uzavreni": "01.10.2026",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "39882293",
+   "bez_dph": null,
+   "s_dph": 400000.0,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": "Darovací smlouva",
+   "datum_uzavreni": "29.09.2026",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "39888637",
+   "bez_dph": null,
+   "s_dph": null,
+   "mena": null,
+   "cizi_mena": null,
+   "predmet": "Dodatek č. 1 k veřejnoprávní smlouvě o poskytnutí návratné finanční výpomoci",
+   "datum_uzavreni": "08.10.2026",
+   "value_kind_navrh": "nezjisteno"
+  },
+  {
+   "version_id": "39888645",
+   "bez_dph": null,
+   "s_dph": 2500000.0,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": null,
+   "datum_uzavreni": "08.10.2026",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "39888653",
+   "bez_dph": null,
+   "s_dph": 250000.0,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": "DOTACE - Veřejnoprávní smlouva o poskytnutí dotace na 2. etapu obnovy varhan v kostele Dolního sboru v roce 2026",
+   "datum_uzavreni": "08.10.2026",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "39897917",
+   "bez_dph": null,
+   "s_dph": 151900.0,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": null,
+   "datum_uzavreni": "08.10.2026",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "39897925",
+   "bez_dph": null,
+   "s_dph": 137500.0,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": null,
+   "datum_uzavreni": "08.10.2026",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "39897929",
+   "bez_dph": null,
+   "s_dph": 600000.0,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": null,
+   "datum_uzavreni": "08.10.2026",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "39924349",
+   "bez_dph": null,
+   "s_dph": null,
+   "mena": null,
+   "cizi_mena": null,
+   "predmet": "Smlouva o spolupráci",
+   "datum_uzavreni": "12.10.2026",
+   "value_kind_navrh": "nezjisteno"
+  },
+  {
+   "version_id": "39927929",
+   "bez_dph": null,
+   "s_dph": null,
+   "mena": null,
+   "cizi_mena": null,
+   "predmet": "Dodatek č. 1 k veřejnoprávní smlouvě o poskytnutí dotace z rozpočtu města Vsetína",
+   "datum_uzavreni": "12.10.2026",
+   "value_kind_navrh": "nezjisteno"
+  },
+  {
+   "version_id": "39945277",
+   "bez_dph": null,
+   "s_dph": null,
+   "mena": null,
+   "cizi_mena": null,
+   "predmet": null,
+   "datum_uzavreni": "29.09.2026",
+   "value_kind_navrh": "nezjisteno"
+  },
+  {
+   "version_id": "39948821",
+   "bez_dph": null,
+   "s_dph": 142500.0,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": "Objednávka plavecké výuky pro školní rok 2026/2027",
+   "datum_uzavreni": "12.10.2026",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "39948985",
+   "bez_dph": null,
+   "s_dph": 222000.0,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": "Objednávka plavecké výuka pro školní rok 2026/2027",
+   "datum_uzavreni": "05.10.2026",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "39949161",
+   "bez_dph": null,
+   "s_dph": 97500.0,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": "Objednávka plavecké výuky pro školní rok 2026/2027",
+   "datum_uzavreni": "12.10.2026",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "39949221",
+   "bez_dph": null,
+   "s_dph": 360000.0,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": "Objednávka plavecké výuky pro školní rok 2026/2027",
+   "datum_uzavreni": "12.10.2026",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "39949265",
+   "bez_dph": null,
+   "s_dph": 15000.0,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": "Objednávka plavecké výuky pro školní rok 2026/2027, 1. pololetí",
+   "datum_uzavreni": "12.10.2026",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "39949365",
+   "bez_dph": null,
+   "s_dph": 129000.0,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": "Objednávka plavecké výuky pro školní rok 2026/2027",
+   "datum_uzavreni": "12.10.2026",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "39949437",
+   "bez_dph": null,
+   "s_dph": 120000.0,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": "Objednávka plavecké výuky pro školní rok 2026/2027, 1. pololetí",
+   "datum_uzavreni": "12.10.2026",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "39949517",
+   "bez_dph": null,
+   "s_dph": 54000.0,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": "Objednávka plavecké výuky pro školní rok 2026/2027",
+   "datum_uzavreni": "12.10.2026",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "39950633",
+   "bez_dph": null,
+   "s_dph": 63426.99,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": "Oprava silničního rychloměru - NAB 2026-00077",
+   "datum_uzavreni": "09.10.2026",
+   "value_kind_navrh": "s_dph"
+  },
+  {
+   "version_id": "39950637",
+   "bez_dph": null,
+   "s_dph": 114804.8,
+   "mena": "CZK",
+   "cizi_mena": null,
+   "predmet": "Metrologické ověření silničního rychloměru + stanovišť",
+   "datum_uzavreni": "09.10.2026",
+   "value_kind_navrh": "s_dph"
+  }
+ ]
+}
