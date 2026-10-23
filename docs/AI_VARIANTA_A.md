@@ -29,6 +29,14 @@ server dev (sync_core) ──push dat──► GitHub repo ──clone──► 
 2. Merge PR s touto vrstvou. Úloha do té doby skončí se zprávou „čeká na merge“.
 3. Plánovaná úloha v Claude (nastavena 2026-10-23): pracovní dny ráno, výstup PR + oznámení.
 4. Texty dokumentů po stranách: `python -m integrace dokumenty` (balík `integrace/sources/dokumenty.py`) ukládá `raw/texty/<sha256>/p<N>.txt`. Schváleno 2026-10-23, nasazení v dev podle `docs/ZADANI_CLAUDE_CODE_texty_dokumentu_2026-10-23.md`. Dokud texty nejsou v repu, LLM cituje jen vytěžená data.
+5. **Automatizace na dev serveru** (schváleno 2026-10-23, rozsah jen dev): `scripts/dev_pipeline.sh` přes cron v pracovní dny.
+   - Pořadí kroků: testy → texty dokumentů → PR z větve `data/texty-auto` → deterministická analytika do `/home/administrator/vsetin-osint-dev/data/analytika/`.
+   - Nasazení: z Windows `scripts/nasad_dev_ai.ps1 -Server <ssh cíl>` (doporučeno), nebo přes Claude Code podle `docs/ZADANI_CLAUDE_CODE_dev_automatizace_2026-10-23.md`.
+6. **Zveřejnění na nasvsetin.cz** (rozhodnutí vlastníka 2026-10-23): jen signály ověřené člověkem.
+   - Podmínka: stav `potvrzeno`/`vysvetleno` a vyplněné `druhe_overeni`.
+   - Export dělá `scripts/export_verejne_signaly.py` → `verejne_signaly.json`.
+   - Výstupy LLM se nezveřejňují nikdy.
+   - Pozor: repo je veřejné, takže všechny signály jsou vidět na GitHubu bez ohledu na tento filtr.
 
 ### Zjištěná omezení prostředí (ověřeno 2026-10-23)
 - Shell cloudové úlohy **nedosáhne** na mestovsetin.cz, hlidacstatu.cz ani monitor.statnipokladna.cz. Na smlouvy.gov.cz a GitHub dosáhne. Stahování proto musí zůstat na serveru.

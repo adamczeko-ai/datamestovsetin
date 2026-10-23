@@ -126,3 +126,9 @@
 ## 2026-10-23 (várka q – kauza K-004 AERV)
 - `data/kauzy/K-004_AERV_zruseni.json`: řetězec dohoda 2012 → narovnání DPH 3 848 880 Kč (= 21 % z 18 328 000) → zrušení (usn. 10/9/ZM/2023) → vklad 3,6 mil. na likvidaci (usn. 1/10/ZM/2023) → převod likvidačního zůstatku (2024) → výmaz.
 - Signál P-02 „zčásti vysvětleno“; otevřené: výše likvidačního zůstatku.
+
+## 2026-10-23 (automatizace AI analytiky – dev)
+- `scripts/dev_pipeline.sh`: denní běh na dev serveru (testy → texty dokumentů → PR z `data/texty-auto` → deterministická analytika do dev složky); pojistky: odmítne `/opt`, nečistý klon, souběh (flock), bez zelených testů nic nezapíše; `--dry-run`.
+- `scripts/export_verejne_signaly.py`: export pro nasvsetin.cz – jen `potvrzeno`/`vysvetleno` s vyplněným `druhe_overeni`, bez výstupů LLM (rozhodnutí vlastníka).
+- Zadání pro Claude Code: `docs/ZADANI_CLAUDE_CODE_dev_automatizace_2026-10-23.md` (cron, akceptace, rollback).
+- Nasazení z Windows jedním příkazem: `scripts/nasad_dev_ai.ps1` (PowerShell 5.1/7, přes SSH spustí `scripts/nasazeni_dev.sh`: venv, testy, dry-run, ověření práv, ostrý běh, cron se zálohou); `dev_pipeline.sh` doplněn o úklid klonu při chybě, identitu commitu a odolné zakládání PR.
