@@ -11,6 +11,7 @@ Ověřitelná paměť rozhodnutí města Vsetín: **rozhodnutí → peníze → 
 | `data/usneseni/` | vazby usnesení ZM na RO, index výpisů a balíčků ZM |
 | `data/kauzy/` | K-001 spory na ochranu osobnosti, K-002 Tribuna Na Ohradě |
 | `data/entity/` | registr subjektů (IČO) ověřený v ARES (`ares_overeni.json`) |
+| `data/monitor/` | open data MF MONITOR: FIN 2-12 M (řada, souhrn 2026, transfery podle příjemce a období), účetní výkazy města a PO |
 | `data/analyzy/` | časová osa akcí, signály k ověření |
 | `scripts/` | `validate_ro.py <rok>`, `analyzy.py`, `validate_schemas.py`, `ares_overeni.py` |
 | `docs/` | předávací zprávy, roadmapa |
