@@ -9,7 +9,7 @@
   "vyznam_stavu": {"type": "object"},
   "stavy": {
    "type": "object",
-   "propertyNames": {"pattern": "^(S-[0-9a-f]{10}(-\\d+)?|A-\\d{4}-\\d{2})$"},
+   "propertyNames": {"pattern": "^(S-[0-9a-f]{10}(-\\d+)?|A-\\d{4}-\\d{2}|P-\\d{2,3})$"},
    "additionalProperties": {
     "type": "object",
     "required": ["stav", "overil", "datum", "oduvodneni"],

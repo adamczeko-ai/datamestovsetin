@@ -1,0 +1,172 @@
+{
+ "schema": "vsetin-osint/nesoulady-llm@1",
+ "beh": {
+  "cas": "2026-10-23T21:34:00+02:00",
+  "model": "claude-opus-5-5 (subagent)",
+  "prompt_verze": "nesoulady@2",
+  "vstupy": [
+   "ai/PROMPT_nesoulady.md",
+   "data/schema/nesoulady-llm.schema.json",
+   "ai/test/slepy/K-004.json"
+  ]
+ },
+ "nesoulady": [
+  {
+   "id": "N-20261023-001",
+   "akce": "K-004 Zrušení AERV – vypořádání s městem 2023–2024",
+   "typ": "chybejici_udaj",
+   "popis": "Likvidační zůstatek AERV převedený městu není v datech vyčíslen: smlouva o převodu likvidačního zůstatku je v registru bez hodnoty a pole likvidačního zůstatku je prázdné. Město přitom v prosinci 2023 poskytlo vklad 3 600 000 Kč na náklady likvidace. Z dat nelze zjistit, jaká část vkladu byla použita a kolik se městu vrátilo.",
+   "citace": [
+    {
+     "zdroj": "ai/test/slepy/K-004.json#/casova_osa/11/popis",
+     "strana": null,
+     "text": "Smlouva o převodu likvidačního zůstatku obecně prospěšné společnosti obci (0740 2024), hodnota v registru neuvedena."
+    },
+    {
+     "zdroj": "ai/test/slepy/K-004.json#/casova_osa/8/popis",
+     "strana": null,
+     "text": "Smlouva o poskytnutí vkladu 714/1S/2023 – 3 600 000 Kč."
+    },
+    {
+     "zdroj": "ai/test/slepy/K-004.json#/penize/2023_vklad_likvidace",
+     "strana": null,
+     "text": "3600000"
+    }
+   ],
+   "jistota": "vysoka",
+   "otazka_k_vysvetleni": "Jaká byla výše likvidačního zůstatku převedeného městu smlouvou 0740 2024 a jak byl použit vklad 3 600 000 Kč ze smlouvy 714/1S/2023 (likvidační účetní závěrka, vyúčtování vkladu)?",
+   "souvisejici_signal": null
+  },
+  {
+   "id": "N-20261023-002",
+   "akce": "K-004 Zrušení AERV – vypořádání s městem 2023–2024",
+   "typ": "jine",
+   "popis": "ZM schválilo dodatek č. 2 k Dohodě o převzetí plnění s dohodou o narovnání, kterým se cena vyrovnání navyšuje o DPH 3 848 880 Kč. V registru smluv je ale pod 28. 6. 2023 uveden dodatek č. 2 k nájemní smlouvě 4836/1S/2012, a to s částkou 18 328 000 Kč bez DPH. V datech není doloženo zveřejnění dodatku, kterým se doplňuje DPH, ani to, zda jde o tentýž dokument pod jiným názvem.",
+   "citace": [
+    {
+     "zdroj": "ai/test/slepy/K-004.json#/casova_osa/2/popis",
+     "strana": null,
+     "text": "ZM schválilo dodatek č. 2 k Dohodě o převzetí plnění s dohodou o narovnání (usn. 11/6/ZM/2023)"
+    },
+    {
+     "zdroj": "ai/test/slepy/K-004.json#/casova_osa/2/popis",
+     "strana": null,
+     "text": "cena vyrovnání 18 328 000 Kč se navyšuje o DPH 3 848 880 Kč (21 %)"
+    },
+    {
+     "zdroj": "ai/test/slepy/K-004.json#/casova_osa/3/popis",
+     "strana": null,
+     "text": "Registr smluv: Dodatek č. 2 k nájemní smlouvě 4836/1S/2012 – Zhodnocení předmětu nájmu – rekonstrukce, 18 328 000 Kč bez DPH."
+    }
+   ],
+   "jistota": "stredni",
+   "otazka_k_vysvetleni": "Je dodatek č. 2 schválený usnesením 11/6/ZM/2023 (navýšení o DPH 3 848 880 Kč) totožný s dodatkem č. 2 k nájemní smlouvě 4836/1S/2012 zveřejněným v registru smluv (smlouva 24977135)? Pokud ne, kde byl zveřejněn dodatek č. 2 k Dohodě o převzetí plnění?",
+   "souvisejici_signal": null
+  },
+  {
+   "id": "N-20261023-003",
+   "akce": "K-004 Zrušení AERV – vypořádání s městem 2023–2024",
+   "typ": "cena",
+   "popis": "Daňový dopad narovnání řešil v květnu 2023 dodatek č. 2: město mělo doplatit DPH 3 848 880 Kč. V prosinci 2023 ZM schválilo další vklad 3 600 000 Kč, který má mimo jiné krýt zvýšenou daňovou povinnost za rok 2023. Z dat není zřejmé, o jakou daňovou povinnost jde, ani v jakém vztahu je k již uhrazené DPH. Předpoklad: může jít o daň z příjmů ze zhodnocení předmětu nájmu, to ale ve zdroji uvedeno není.",
+   "citace": [
+    {
+     "zdroj": "ai/test/slepy/K-004.json#/casova_osa/2/popis",
+     "strana": null,
+     "text": "původní dohoda opomněla daňový dopad"
+    },
+    {
+     "zdroj": "ai/test/slepy/K-004.json#/casova_osa/7/popis",
+     "strana": null,
+     "text": "má krýt zvýšenou daňovou povinnost za 2023 i ostatní náklady likvidace"
+    },
+    {
+     "zdroj": "ai/test/slepy/K-004.json#/penize/2023_DPH_k_narovnani",
+     "strana": null,
+     "text": "3848880"
+    }
+   ],
+   "jistota": "stredni",
+   "otazka_k_vysvetleni": "Jakou daňovou povinnost AERV za rok 2023 (druh daně, výše) měl krýt vklad 3 600 000 Kč podle RO 21/2023 a jak souvisí s DPH 3 848 880 Kč uhrazenou podle dodatku č. 2? Lze doložit daňovým přiznáním AERV za 2023?",
+   "souvisejici_signal": null
+  },
+  {
+   "id": "N-20261023-004",
+   "akce": "K-004 Zrušení AERV – vypořádání s městem 2023–2024",
+   "typ": "chybejici_udaj",
+   "popis": "Podle RO 8/2023 má být DPH 3 848 880 Kč kryta nárokem města na odpočet, takže čistý dopad na rozpočet by byl nulový. Peněžní výdaje za rok 2023 jsou v datech přesto sečteny včetně této DPH na 10 039 880 Kč. Ze závěrečného účtu 2023 jsou uvedeny jen transfery 2 591 000 a 3 600 000. Úhrada DPH ani uplatněný odpočet v datech doloženy nejsou. Předpoklad: platba DPH může být v ZÚ vedena mimo položku transferů.",
+   "citace": [
+    {
+     "zdroj": "ai/test/slepy/K-004.json#/casova_osa/2/popis",
+     "strana": null,
+     "text": "krytí uplatněním nároku města na plný odpočet DPH"
+    },
+    {
+     "zdroj": "ai/test/slepy/K-004.json#/penize/2023_penezni_vydaje_celkem",
+     "strana": null,
+     "text": "10039880"
+    },
+    {
+     "zdroj": "ai/test/slepy/K-004.json#/penize/ZU_2023_transfery",
+     "strana": null,
+     "text": "Agentura … – činnost 2 591 000; – dofinancování 3 600 000 (ZÚ 2023, neinvestiční transfery o.p.s.)"
+    }
+   ],
+   "jistota": "nizka",
+   "otazka_k_vysvetleni": "Na které položce rozpočtu/ZÚ 2023 je zaúčtována úhrada DPH 3 848 880 Kč agentuře a v jakém přiznání k DPH (za které období) město uplatnilo odpočet této částky?",
+   "souvisejici_signal": null
+  },
+  {
+   "id": "N-20261023-005",
+   "akce": "K-004 Zrušení AERV – vypořádání s městem 2023–2024",
+   "typ": "cena",
+   "popis": "Roční kompenzace SOHZ je pro roky 2016–2019 a 2023 uvedena jako 2 591 000 Kč bez určení základu, pro roky 2020–2022 jako 2 141 322 Kč bez DPH. Ve stejné výši (2 591 000) je kompenzace 2023 vedena i v ZÚ 2023. Předpoklad: 2 141 322 × 1,21 ≈ 2 591 000, takže může jít o tutéž částku s DPH a bez DPH. Zdroj ale základ částky 2 591 000 neuvádí.",
+   "citace": [
+    {
+     "zdroj": "ai/test/slepy/K-004.json#/casova_osa/1/popis",
+     "strana": null,
+     "text": "2 591 000 Kč (2016–2019, 2023)"
+    },
+    {
+     "zdroj": "ai/test/slepy/K-004.json#/casova_osa/1/popis",
+     "strana": null,
+     "text": "2 141 322 Kč bez DPH (2020–2022)"
+    },
+    {
+     "zdroj": "ai/test/slepy/K-004.json#/penize/2023_kompenzace_SOHZ",
+     "strana": null,
+     "text": "2591000"
+    }
+   ],
+   "jistota": "nizka",
+   "otazka_k_vysvetleni": "Je kompenzace 2 591 000 Kč ve smlouvách na roky 2016–2019 a 2023 uvedena s DPH, nebo bez DPH, a proč smlouvy na roky 2020–2022 uvádějí částku 2 141 322 Kč bez DPH? Podléhala kompenzace SOHZ DPH?",
+   "souvisejici_signal": null
+  },
+  {
+   "id": "N-20261023-006",
+   "akce": "K-004 Zrušení AERV – vypořádání s městem 2023–2024",
+   "typ": "datum",
+   "popis": "Správní rada AERV rozhodla o zrušení společnosti 11. 10. 2023. Zastupitelstvo jako orgán jediného zakladatele schválilo zrušení až 30. 10. 2023, tedy po rozhodnutí správní rady. Z dat není zřejmé, zda zakládací listina vyžadovala předchozí souhlas zakladatele. U oznámení správní rady se navíc uvádí datum 12. 10. 2023.",
+   "citace": [
+    {
+     "zdroj": "ai/test/slepy/K-004.json#/casova_osa/4/popis",
+     "strana": null,
+     "text": "Správní rada AERV rozhodla o zrušení společnosti k 31. 12. 2023 (ARES-VR; výpis usnesení ZM uvádí oznámení správní rady ze dne 12. 10. 2023)."
+    },
+    {
+     "zdroj": "ai/test/slepy/K-004.json#/casova_osa/4/datum",
+     "strana": null,
+     "text": "2023-10-11"
+    },
+    {
+     "zdroj": "ai/test/slepy/K-004.json#/casova_osa/5/popis",
+     "strana": null,
+     "text": "ZM bere na vědomí oznámení správní rady a schvaluje zrušení AERV k 31. 12. 2023 (usn. 10/9/ZM/2023)."
+    }
+   ],
+   "jistota": "nizka",
+   "otazka_k_vysvetleni": "Vyžadovala zakládací listina AERV k rozhodnutí správní rady o zrušení předchozí souhlas zakladatele? Pokud ano, kdy a kterým usnesením byl souhlas udělen před 11. 10. 2023?",
+   "souvisejici_signal": null
+  }
+ ],
+ "zahozeno": []
+}

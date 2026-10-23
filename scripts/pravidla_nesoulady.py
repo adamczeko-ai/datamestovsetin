@@ -1,4 +1,4 @@
-"""Deterministická pravidla R13–R16 („nesoulady k vysvětlení“).
+"""Deterministická pravidla R13–R18 („nesoulady k vysvětlení“).
 
 Čisté funkce (testovatelné) + adaptéry na existující data repa. Výstup = seznam signálů
 ve tvaru red_flags@1 (kod, zavaznost, popis, castka_Kc, odkazy), které scripts/signaly_v2.py
@@ -8,6 +8,8 @@ R13 kumulace dodatků vs. původní smlouva (§ 222 odst. 4 a 9 ZZVZ)
 R14 veřejná zakázka těsně pod limitem VZMR / součet smluv jednoho dodavatele nad limitem
 R15 zrušená VZ následovaná prodloužením / dodatkem stávající smlouvy
 R16 cenový rozdíl návrh / usnesení / smlouva / rozpočet u téže akce
+R17 prodleva usnesení → podpis smlouvy (nebo smlouva před usnesením)
+R18 nárůst ceny mezi první a poslední smlouvou téže akce
 
 Limity a jejich zdroje: data/analyzy/pravidla_konfigurace.json.
 Signály nejsou zjištěním pochybení – slouží k prioritizaci ověřování.
@@ -226,6 +228,50 @@ def r16_cenovy_rozdil(akce, konf):
     return out
 
 
+# ---------------------------------------------------------------- R17
+def r17_prodleva(vazba, konf):
+    """vazba: {akce, usneseni, datum_usneseni, smlouva, datum_smlouvy, *_zdroj}
+    Smlouva podepsaná PŘED usnesením → stredni; prodleva nad limitem → nizka."""
+    k = konf.get("prodleva_usneseni_smlouva", {"limit_dni": 90})
+    du, ds = datum(vazba.get("datum_usneseni")), datum(vazba.get("datum_smlouvy"))
+    if not du or not ds:
+        return []
+    dni = (ds - du).days
+    odk = [vazba.get("usneseni"), vazba.get("smlouva"), vazba.get("datum_usneseni_zdroj"), vazba.get("datum_smlouvy_zdroj")]
+    if dni < 0:
+        return [{"kod": "R17-smlouva-pred-usnesenim", "zavaznost": "stredni",
+                 "popis": f"{vazba['akce']}: smlouva podepsána {ds.isoformat()}, tj. {-dni} dní PŘED usnesením {vazba['usneseni']} "
+                          f"({du.isoformat()}) – ověřit, zda šlo o jiné znění, nebo o dodatečné schválení.",
+                 "castka_Kc": None, "odkazy": [o for o in odk if o]}]
+    if dni > k["limit_dni"]:
+        return [{"kod": "R17-prodleva-usneseni-smlouva", "zavaznost": "nizka",
+                 "popis": f"{vazba['akce']}: smlouva podepsána {dni} dní po usnesení {vazba['usneseni']} "
+                          f"({du.isoformat()} → {ds.isoformat()}) – ověřit důvod prodlevy a shodu podmínek se schváleným zněním.",
+                 "castka_Kc": None, "odkazy": [o for o in odk if o]}]
+    return []
+
+
+# ---------------------------------------------------------------- R18
+def r18_vyvoj_ceny(retezec, konf):
+    """retezec: {akce, smlouvy:[{datum, castka, zaklad, ref, castka_zdroj}]} – první vs. poslední smlouva téže akce (stejný základ DPH)."""
+    k = konf.get("vyvoj_ceny_retezce", {"narust_stredni": 0.5, "narust_vysoka": 1.0})
+    ss = sorted((s for s in retezec.get("smlouvy", []) if datum(s.get("datum")) and s.get("castka")), key=lambda s: datum(s["datum"]))
+    if len(ss) < 2:
+        return []
+    a, b = ss[0], ss[-1]
+    if a["zaklad"] != b["zaklad"]:
+        return []
+    narust = (b["castka"] - a["castka"]) / a["castka"]
+    if narust <= k["narust_stredni"]:
+        return []
+    zav = "vysoka" if narust > k["narust_vysoka"] else "stredni"
+    return [{"kod": "R18-narust-ceny-v-retezci-smluv", "zavaznost": zav,
+             "popis": f"{retezec['akce']}: cena první smlouvy {fmt(a['castka'])} Kč ({a['datum']}) → poslední {fmt(b['castka'])} Kč "
+                      f"({b['datum']}), {a['zaklad']}, nárůst {narust*100:.0f} % ({len(ss)} {'smlouvy' if len(ss) < 5 else 'smluv'}) – ověřit změnu rozsahu a zdůvodnění.",
+             "castka_Kc": b["castka"] - a["castka"],
+             "odkazy": [x for s in (a, b) for x in (s.get("ref"), s.get("castka_zdroj")) if x]}]
+
+
 # ---------------------------------------------------------------- běh nad repem
 def _load(p):
     try:
@@ -258,6 +304,11 @@ def vsechna_pravidla(konf=None):
     cb = _load("data/analyzy/cenove_body.json") or {}
     for a in cb.get("akce", []):
         flags += r16_cenovy_rozdil(a, konf)
+    vr = _load("data/analyzy/vazby_rozhodnuti.json") or {}
+    for v in vr.get("usneseni_smlouva", []):
+        flags += r17_prodleva(v, konf)
+    for r in vr.get("retezce_smluv", []):
+        flags += r18_vyvoj_ceny(r, konf)
     return flags
 
 

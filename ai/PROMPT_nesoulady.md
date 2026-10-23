@@ -1,6 +1,6 @@
 # Prompt: nesoulady k vysvětlení (LLM vrstva)
 
-Verze: `nesoulady@1` (2026-10-23). Při každé změně textu zvyšte verzi a uveďte ji ve výstupu (`beh.prompt_verze`).
+Verze: `nesoulady@2` (2026-10-23; @2 přidává systematický kontrolní seznam). Při každé změně textu zvyšte verzi a uveďte ji ve výstupu (`beh.prompt_verze`).
 
 Tento prompt čte plánovaná úloha (varianta A) i ruční běh. Je to jediný zdroj pravdy pro LLM vrstvu. Zadání v plánované úloze na něj jen odkazuje.
 
@@ -19,6 +19,21 @@ Nejsi soudce. Nehodnotíš zákonnost ani úmysl.
 
 - Data k akci (JSON v repu). V hlavním běhu jde o soubory změněné od posledního běhu (seznam dodá zadání). Pro text dokumentů slouží `raw/texty/<sha256>/p<strana>.txt`, pokud existuje.
 - Existující signály: `data/analyzy/signaly.json`. Neduplikuj je. Pokud tvůj nesoulad souvisí s existujícím signálem, uveď jeho ID v `souvisejici_signal`.
+
+## Postup: kontrolní seznam (projdi u každé akce celý)
+
+Nejdřív si ke každé akci sestav časovou osu (rozhodnutí, zakázky, smlouvy, platby, rozpočtová opatření) a seznam všech částek se základem DPH. Pak projdi každý bod a zapiš nesoulad jen tam, kde ho doložíš citacemi:
+
+1. **Cena napříč kroky** – návrh → usnesení → zakázka (předpokládaná hodnota, nabídky) → smlouva → dodatky → rozpočet. Porovnej sousední kroky i **první a poslední cenu akce** (celkový nárůst, i přes více smluv a dodavatelů).
+2. **Čas mezi kroky** – usnesení → podpis smlouvy → zveřejnění v registru → zahájení plnění. Neobvykle dlouhá prodleva, nebo krok dřív, než ho povolil předchozí (smlouva před usnesením, platba před smlouvou).
+3. **Kdo rozhodl** – rozhodl orgán, který k tomu má působnost (ZM × RM × starosta)? Odpovídá podpis pověření?
+4. **Rozsah** – mění se předmět (např. oprava → nová stavba, část → celek) bez dohledatelného rozhodnutí?
+5. **Zakázka** – předpokládaná hodnota × nabídky × vítězná cena; zrušení a opakování; počet nabídek; kvalifikace.
+6. **Chybějící údaj** – prázdná cena, chybějící posudek, nezveřejněný dokument, smlouva bez hodnoty, ukončení smlouvy bez doloženého důvodu.
+7. **DPH a základ** – porovnávej jen stejný základ; režim (osvobozeno, přenesená povinnost) ber ze zdroje, ne z odhadu.
+8. **Vazby subjektů** – stejný subjekt v roli dárce/příjemce dotace i dodavatele téže akce (jen právnické osoby).
+
+Bod bez nálezu přeskoč, nevypisuj ho. Nálezy pravidel R1–R18 a analytiků (P-*) už jsou v `data/analyzy/signaly.json`; nový nesoulad k nim přiřaď přes `souvisejici_signal`.
 
 ## Pravidla (závazná)
 
@@ -43,7 +58,7 @@ Jeden JSON podle `data/schema/nesoulady-llm.schema.json`:
 ```json
 {
   "schema": "vsetin-osint/nesoulady-llm@1",
-  "beh": {"cas": "<ISO, Europe/Prague>", "model": "<model>", "prompt_verze": "nesoulady@1", "vstupy": ["..."]},
+  "beh": {"cas": "<ISO, Europe/Prague>", "model": "<model>", "prompt_verze": "nesoulady@2", "vstupy": ["..."]},
   "nesoulady": [
     {"id": "N-YYYYMMDD-001", "akce": "...", "typ": "cena|datum|rozsah|organ|chybejici_udaj|postup_vz|jine",
      "popis": "...", "citace": [{"zdroj": "data/...json#/a/0/b", "strana": null, "text": "..."}, {...}],

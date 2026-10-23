@@ -1,7 +1,8 @@
-"""Sestaví data/analyzy/signaly.json (vsetin-osint/signaly@2) ze tří zdrojů:
+"""Sestaví data/analyzy/signaly.json (vsetin-osint/signaly@2) ze čtyř zdrojů:
   1) data/analyzy/red_flags.json (pravidla R1–R12, formát red-flags@1 – beze změny, dál ho čte index.html)
   2) anomálie A-* ze souborů rozpočtových opatření a z kontroly MONITOR
-  3) nová pravidla R13–R16 (scripts/pravidla_nesoulady.py)
+  3) nová pravidla R13–R18 (scripts/pravidla_nesoulady.py)
+  4) ruční signály analytiků P-* (data/smlouvy/parovani_ico.json → signaly_k_overeni)
 a připojí ruční stavy ověření z data/analyzy/signaly_stavy.json (ten soubor skript NIKDY nezapisuje).
 
 ID signálu je deterministické (hash kódu pravidla, odkazů a částky), takže stav ověření přežije
@@ -100,6 +101,28 @@ def anomalie():
     return res
 
 
+def analyticke():
+    """Signály P-* sepsané analytiky (párování IČO se smlouvami). Stav z textu se NEpřebírá – ten nastavuje člověk."""
+    p = "data/smlouvy/parovani_ico.json"
+    if not os.path.exists(p):
+        return []
+    with open(p, encoding="utf-8") as fh:
+        d = json.load(fh)
+    out = []
+    for s in d.get("signaly_k_overeni", []) or []:
+        if not (isinstance(s, dict) and re.fullmatch(r"P-\d{2,3}", str(s.get("id", "")))):
+            continue
+        dukazy = [{"typ": "smlouva", "ref": str(z), "url": f"https://smlouvy.gov.cz/smlouva/{z}", "strana": None,
+                   "citace": None, "sha256": None, "stazeno": None, "overeno": False} for z in s.get("zdroje", []) or []]
+        dukazy.append({"typ": "datovy_soubor", "ref": p, "url": None, "strana": None, "citace": None,
+                       "sha256": None, "stazeno": None, "overeno": False})
+        out.append({"id": s["id"], "kod": "P-analyticky-signal", "zdroj_signalu": "analytik",
+                    "zavaznost": s.get("zavaznost") if s.get("zavaznost") in ("vysoka", "stredni", "nizka") else "stredni",
+                    "popis": f"{s.get('typ', '')}: {s.get('popis', '')}".strip(": "), "castka_Kc": None,
+                    "dukazy": dukazy, "stav": "novy", "stav_detail": None, "puvodni": s})
+    return out
+
+
 def nacti_stavy(p="data/analyzy/signaly_stavy.json"):
     if not os.path.exists(p):
         return {}
@@ -113,6 +136,7 @@ def sestav():
     sig = z_flagu(rf["signaly"], "pravidlo")
     sig += z_flagu(pravidla_nesoulady.vsechna_pravidla(), "pravidlo")
     sig += anomalie()
+    sig += analyticke()
     # kolize ID mezi zdroji (nemělo by nastat) → chyba
     dup = [k for k, n in collections.Counter(s["id"] for s in sig).items() if n > 1]
     if dup:

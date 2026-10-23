@@ -22,11 +22,11 @@
  ],
  "pasmo_tesne_pod_limitem": 0.9,
  "zmena_zavazku_222": {
-  "odst4_dodavky_sluzby": 0.10,
+  "odst4_dodavky_sluzby": 0.1,
   "odst4_stavebni_prace": 0.15,
   "odst4_zdroj": "§ 222 odst. 4 ZZVZ; komentář epravo.cz: https://www.epravo.cz/top/clanky/komentar-k-222-odst-4-zakona-c-1342016-sb-o-zadavani-verejnych-zakazek-108925.html",
   "odst4_poznamka": "Současně nesmí změna překročit finanční limit pro nadlimitní VZ (nařízení vlády, mění se) – NEOVĚŘENO pro rok 2026, pravidlo tuto podmínku nekontroluje. Součet všech změn podle odst. 4; MMR počítá absolutní hodnoty, směrnice 2014/24/EU čistý součet – pravidlo počítá obojí.",
-  "odst9_souhrn_odst5_6": 0.30,
+  "odst9_souhrn_odst5_6": 0.3,
   "odst9_zdroj": "§ 222 odst. 9 ZZVZ (společný limit 30 % pro změny podle odst. 5 a 6; samostatný 50% limit zrušen novelou č. 166/2023 Sb. od 16. 7. 2023); komentář epravo.cz: https://www.epravo.cz/top/clanky/cast-5-komentar-k-odst-5-odst-6-a-9-222-zzvz-dodatecne-plneni-nezahrnute-v-puvodnim-zavazku-ze-smlouvy-a-nepredvidatelne-zmeny-okolnosti-podle-zakona-c-1342016-sb-118249.html",
   "overeno": "z odborných komentářů, ne ze sbírky zákonů",
   "pasmo_blizko_limitu": 0.8
@@ -34,10 +34,22 @@
  "zruseni_a_prodlouzeni": {
   "okno_dni": 180,
   "min_shoda_nazvu": 0.5,
-  "klicova_slova_prodlouzeni": ["prodlou", "dodatek"]
+  "klicova_slova_prodlouzeni": [
+   "prodlou",
+   "dodatek"
+  ]
  },
  "cenovy_rozdil": {
   "tolerance_relativni": 0.01,
   "tolerance_absolutni_Kc": 10000
+ },
+ "prodleva_usneseni_smlouva": {
+  "limit_dni": 90,
+  "pozn": "Provozní práh projektu (ne zákonný limit): běžná doba od schválení ZM do podpisu u nemovitostí a úvěrů je v datech repa dny až týdny."
+ },
+ "vyvoj_ceny_retezce": {
+  "narust_stredni": 0.5,
+  "narust_vysoka": 1.0,
+  "pozn": "Provozní práhy projektu; srovnává se jen stejný základ DPH."
  }
 }
