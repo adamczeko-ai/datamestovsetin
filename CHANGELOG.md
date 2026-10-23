@@ -133,3 +133,5 @@
 - `integrace/sber/` (úložiště, pseudonymizace FO, parsery); `integrace/http.py` + robots.txt/Crawl-delay a volitelný User-Agent; `ares_overeni.overit_ico()`.
 - Schémata `data/schema/jsonl-*.schema.json`, `manifest.schema.json`; `validate_schemas.py` kontroluje i JSONL (sha256, duplicity).
 - Zjištění: předávka P2f má zakázky jen 2017–2023 (export od 2024 mísí dvě struktury XML); portál odmítá export přes 1. 7. 2024 (HTTP 400). Kurzor profilu = 2023-12-31.
+- Oprava pseudonymizace po kontrole: rozšířený slovník jmen (česká, slovenská, cizí), příjemci dotací FO („bytem/nar.“, dativ po „poskytnutí dotace“), celoplošně dokumenty o volbách, ochrana ulic a institucí; slova institucí jen jako celá slova. Kontrola zúženým vzorcem: 0 osob.
+- `sber.py`: síťově nedosažitelný zdroj = stav `unreachable` (není chyba běhu); web města (www, mapy) z cloudu nedosažitelný – zdroje webu města spouštět mimo cloud (`docs/SBER.md`).

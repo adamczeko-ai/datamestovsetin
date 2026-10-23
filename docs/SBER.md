@@ -44,12 +44,42 @@ Vztah k dřívějším datům: `data/rozpocet/`, `data/zakazky/`, `data/entity/`
 - Max. 1 požadavek/s na hostitele. Pokud robots.txt uvádí `Crawl-delay`, platí delší interval (vhodne-uverejneni.cz: 30 s).
 - robots.txt se načte před prvním požadavkem na hostitele. Zakázaná URL se nestahuje. Když robots.txt není dostupný (síť, 5xx), hostitel se pro běh vynechá (konzervativně). 404 = vše povoleno.
 - Selhání jednoho zdroje nezastaví ostatní; chyba jde do `manifest.json` (`zdroje.<z>.chyby`) a do RUNLOG. Kurzor zdroje se při chybě neposune.
-- Návratový kód `sber.py`: 0 = všechny zdroje ok, 1 = alespoň jeden zdroj selhal.
+- Síťově nedosažitelný hostitel (timeout, reset spojení, nedostupný robots.txt) má stav **`unreachable`**: zapíše se do `zdroje.<z>.nedosazitelny` (čas, důvod) a do RUNLOG, ale **není to chyba běhu** a nepřidává se do `chyby`. Odpověď serveru s HTTP chybou (4xx/5xx od cíle) zůstává `chyba`.
+- Návratový kód `sber.py`: 0 = všechny zdroje `ok` nebo `unreachable`, 1 = alespoň jeden zdroj `chyba`.
+
+## Dosažitelnost zdrojů z cloudu (diagnostika 23. 10. 2026)
+
+| Hostitel | Z cloudového prostředí Claude | Kde spouštět |
+|---|---|---|
+| www.mestovsetin.cz, mapy.mestovsetin.cz | **nedosažitelné**: egress proxy tunel povolí (CONNECT 200), ale brána se k serveru nespojí (HTTPS: reset při TLS handshaku; HTTP: `503 upstream connect error … connection timeout`). DNS v pořádku (78.156.158.91, 85.92.62.117). Příčinou je pravděpodobně IP/geo filtr na straně hostingu města (HYPOTÉZA, z cloudu neověřitelné). mestovsetin.cz bez www: 403 od proxy (není v allowlistu). | mimo cloud (server, lokálně) |
+| www.vhodne-uverejneni.cz | OK (Crawl-delay 30 s) | kdekoli |
+| smlouvy.gov.cz | OK, ale přerušovaně (občas reset spojení) | kdekoli |
+| ares.gov.cz | OK | kdekoli |
+
+Zdroje **`usneseni`, `materialy_zm`, `rozpoctova_opatreni` a `uredni_deska`** proto musí běžet mimo cloud, na serveru nebo lokálně:
+
+```bash
+python3 scripts/sber.py --source usneseni --source materialy_zm --source rozpoctova_opatreni --source uredni_deska
+```
+
+Cloudový běh je přeskočí bez chyby (stav `unreachable`). Ostatní zdroje (`profil_zadavatele`, `registr_smluv`, `ares`) mohou běžet i v cloudu.
 
 ## Pseudonymizace a interpretace
 
 - Fyzické osoby v odvozených datech (text, názvy, strany, účastníci) se nahrazují `[FO]`, u subjektů `[FO – pseudonymizováno]`. Firmy s právní formou, instituce a obce zůstávají. Jména se pseudonymizují i u funkcionářů (konzervativně).
-- Metoda je heuristická (`integrace/sber/pseudo.py`): oslovení, tituly, slovník křestních jmen se skloňováním, příjmení na -ová, instrumentál po „s/se“, jména odvozená z názvů pseudonymizovaných v předávce. Po importu prošla kontrola zbytkových vzorů (dvojice slov s velkým písmenem v kontextu jména). V textech, které kontrola neodhalí, **mohou zůstat jména, zejména vzácnější**. Před dalším zveřejněním (web, export) proto doporučujeme namátkovou kontrolu člověkem.
+- Metoda je heuristická (`integrace/sber/pseudo.py`):
+  - oslovení (i s velkým písmenem) a tituly,
+  - slovník křestních jmen se skloňováním (česká, slovenská, cizí a vietnamská jména), jméno + až 2 další slova,
+  - příjmení na -ová, instrumentál po „s/se/a“,
+  - jméno před „bytem / nar. / r. č.“,
+  - příjemce dotace či daru v dativu („poskytnutí dotace X Y, …“), „fyzické osobě X Y“,
+  - dokumenty o volbách (zápis o výsledku voleb, kandidáti) pseudonymizované celoplošně,
+  - jména odvozená z názvů, které předávka pseudonymizovala.
+- Nemění se:
+  - ulice a adresy („ul./třída/nábřeží …“, „Tomáše Bati 21, Zlín“),
+  - instituce pojmenované po osobě (škola, nadace, univerzita …),
+  - firmy s právní formou.
+- Kontrola 23. 10. 2026 po přegenerování: zúžený vzorec (křestní jméno nebo příjmení na -ová) našel 17 dvojic, **0 skutečných osob** (ulice, místa, instituce). Ve 173 náhodných vzorcích širokého vzorce nebyla žádná jednoznačná osoba. **Vzácná jména se však zachytit nemusí**, proto před dalším zveřejněním (web, export) doporučujeme namátkovou kontrolu člověkem.
 - U subjektu FO z ARES se nepřebírá jméno ani sídlo (právní formy 100–108, 424, 425).
 - Data nejsou zjištěním pochybení. Jakákoli interpretace (souvislost, podezření) se označuje jako **HYPOTÉZA** a ověřuje ji člověk.
 
@@ -80,7 +110,7 @@ Závislosti: Python 3.10+ (standardní knihovna), `jsonschema` (jen validace a t
 
 ## Naplánovaný běh (návrh – NEZAKLÁDAT bez schválení vlastníka)
 
-Běh musí probíhat v prostředí s přístupem na www.mestovsetin.cz a smlouvy.gov.cz. Z cloudového prostředí Claude je web města blokován a smlouvy.gov.cz jen přerušovaně dostupný.
+Zdroje webu města musí běžet mimo cloud (viz Dosažitelnost zdrojů z cloudu). V cloudu mohou běžet `profil_zadavatele`, `registr_smluv` a `ares`. Zdroje webu města tam skončí stavem `unreachable` a běh nespadne.
 
 1. `git pull` větve, `python3 scripts/sber.py` (výchozí limity: 20 dokumentů na zdroj, 500 detailů registru smluv, 200 IČO, 20 intervalů profilu).
 2. `python3 scripts/validate_schemas.py && python3 -m unittest discover -s tests`. Při chybě nevytvářet PR s daty, jen zprávu.
