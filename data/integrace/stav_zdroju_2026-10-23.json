@@ -69,13 +69,14 @@
    "stav": "TESTOVÁNO",
    "pristup": "https://isvz.nipez.cz/sites/default/files/content/opendata-rvz/{KAT}-{MM}-{RRRR}.zip (KAT: VZ, DNS, SON, …); měsíčně k 5. dni",
    "zmena_detekce": "ETag + Last-Modified, 304 ověřeno",
-   "test": "VZ-09-2026.zip 182 978 633 B → 1,29 GB JSON (verze 2.10.2); IČO 00304450 nenalezeno; 'Vsetín' 1 021 výskytů (jiní zadavatelé, např. Okresní soud)",
+   "test": "VZ-09-2026.zip 182 978 633 B → 1,29 GB JSON (verze 2.10.2); IČO 00304450 nenalezeno; 'Vsetín' 1 021 výskytů (jiní zadavatelé, např. Okresní soud); referenční průchod 2024–09/2026 v prohlížeči: 83 unikátních zakázek okruhu města (53 jako zadavatel)",
    "omezeni": [
     "Zdroje pouze VVZ, NEN, Tender arena, TENDERMARKET – ostatní certifikované nástroje (např. E-ZAK) zatím ne",
     "Velikost: nutné streamové zpracování (ijson)",
-    "Synchronní/asynchronní API RVZ vyžaduje oprávnění dle RPP"
+    "Synchronní/asynchronní API RVZ vyžaduje oprávnění dle RPP",
+    "Rok 2024 jen jako roční soubor VZ-2024_rocni.zip (měsíční názvy 404)"
    ],
-   "implementace": "IMPLEMENTOVÁNO (kód) – integrace/sources/rvz.py; proudový parser testován"
+   "implementace": "IMPLEMENTOVÁNO (kód) – integrace/sources/rvz.py; 23. 10. odpoledne doplněno: roční soubor VZ-2024_rocni, zpětné doplnění --od 2024 (22 souborů), role účastník; offline testy OK; živě ve vývoji neběželo"
   },
   {
    "id": "justice.or_opendata",
@@ -132,5 +133,7 @@
    "implementace": "IMPLEMENTOVÁNO a ŽIVĚ TESTOVÁNO z cloudu – integrace/sources/registr_smluv.py"
   }
  ],
- "aktualizace": "2026-10-23 11:30 SELČ"
+ "aktualizace": "2026-10-23 12:55 SELČ",
+ "web_nasvsetin_cz": "Ověřeno 23. 10. 12:45 SELČ: stránka Zdroje a metodika vede MONITOR, RÚIAN, NIPEZ, VR/Sbírku listin, Registr dotací a ČÚZK jako „neintegrováno“ – odpovídá skutečnosti (kód v repu, na serveru neběží).",
+ "dalsi_krok": "Spustit scripts/nasazeni_integrace_dev.sh na dev serveru (viz docs/HANDOFF_2026-10-23_integrace_akceptace.md)"
 }
