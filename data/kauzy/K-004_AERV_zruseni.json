@@ -48,6 +48,11 @@
       "zdroj": "https://mestovsetin.cz/assets/File.ashx?id_org=18676&id_dokumenty=555955"
     },
     {
+      "datum": "2023-10-30",
+      "popis": "RM schvaluje dohodu na ukončení nájemní smlouvy s AERV k 31. 12. 2023 na nebytové prostory v č.p. 3 a 4, Horní náměstí (usn. 11/29/RM/2023) a ukončení smluv o výpůjčce movitých věcí z let 2007 a 2015 k 31. 12. 2023 (usn. 12/29/RM/2023).",
+      "zdroj": "https://mestovsetin.cz/assets/File.ashx?id_org=18676&id_dokumenty=555918"
+    },
+    {
       "datum": "2023-11-23",
       "popis": "Dodatek č. 11 k 3137/1S/2008 – dohoda na ukončení nájmu.",
       "zdroj": "https://smlouvy.gov.cz/smlouva/26636603"
@@ -76,6 +81,11 @@
       "datum": "2024-11-18",
       "popis": "Smlouva o převodu likvidačního zůstatku obecně prospěšné společnosti obci (0740 2024), hodnota v registru neuvedena.",
       "zdroj": "https://smlouvy.gov.cz/smlouva/31146484"
+    },
+    {
+      "datum": "2024-11-18",
+      "popis": "RM schvaluje Smlouvu o převodu likvidačního zůstatku obecně prospěšné společnosti obci a Smlouvu o uložení dokumentace o.p.s. při likvidaci (usn. 4/53/RM/2024). Výše zůstatku ve výpisu usnesení neuvedena.",
+      "zdroj": "https://mestovsetin.cz/assets/File.ashx?id_org=18676&id_dokumenty=560515"
     },
     {
       "datum": "2024-12-18",
@@ -117,7 +127,11 @@
     "https://smlouvy.gov.cz/smlouva/31146484"
   ],
   "dalsi_krok": [
-    "Vyžádat/najít důvodovou zprávu k usn. 1/10/ZM/2023 (balíček materiálů ZM 18. 12. 2023) a k 11/6/ZM/2023.",
-    "Žádost dle zák. 106/1999 Sb. o výši likvidačního zůstatku a stav odpočtu DPH."
-  ]
+    "Odeslat žádost dle zák. 106/1999 Sb. (návrh v docs/ZADOST_106_AERV_2026-10-23.md) – rozhoduje vlastník projektu."
+  ],
+  "dostupnost_podkladu": {
+    "stav_k": "2026-10-23",
+    "zjisteni": "Důvodové zprávy k usn. 11/6/ZM/2023, 10/9/ZM/2023 a 1/10/ZM/2023 nejsou na webu města dostupné: složka 'Materiály ZM pro veřejnost' obsahuje balíčky až od 17. zasedání (3. 2. 2025), archiv je prázdný; zápisy ze zasedání ZM 2023 se na webu nenašly (prohledány dokumenty id 553950–554560, 555900–555990, 556450–557100). Zápisy finančního výboru 5/2023, 6/2023 a 9/2023 AERV nezmiňují.",
+    "doporuceni": "Žádost dle zák. 106/1999 Sb. – viz docs/ZADOST_106_AERV_2026-10-23.md (návrh, neodesláno)."
+  }
 }

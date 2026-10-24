@@ -1,5 +1,6 @@
 {
  "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "x-data-files": ["data/analyzy/llm/nesoulady_*.json", "ai/test/vysledek_slepy_test_*.json"],
  "title": "Nesoulady k vysvětlení (výstup LLM vrstvy)",
  "description": "Výstup plánované úlohy: data/analyzy/llm/nesoulady_<YYYY-MM-DD>.json. Každý nesoulad musí mít alespoň dvě citace ze dvou různých dokumentů; jinak se zahazuje.",
  "type": "object",

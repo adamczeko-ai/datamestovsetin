@@ -1,0 +1,108 @@
+{
+  "schema": "vsetin-osint/kauza@1",
+  "id": "K-004",
+  "nazev": "Zrušení Agentury pro ekonomický rozvoj Vsetínska, o.p.s. (AERV) – vypořádání s městem 2023–2024",
+  "subjekty": [
+    {
+      "ico": "26863081",
+      "nazev": "Agentura pro ekonomický rozvoj Vsetínska, o.p.s. (v likvidaci, vymazána 18. 12. 2024)",
+      "role": "městská o.p.s., jediný zakladatel město"
+    },
+    {
+      "ico": "00304450",
+      "nazev": "Město Vsetín",
+      "role": "zakladatel, pronajímatel, poskytovatel příspěvků"
+    }
+  ],
+  "predmet": "Budova č.p. 3, Horní náměstí, Vsetín (Maštalisko) – projekt „Revitalizace objektu Maštaliska na Podnikatelský inkubátor kombinovaný s Centrem pro Transfer Technologií“; nájem nebytových prostor č.p. 187.",
+  "ucel": "Agentura poskytovala služby obecného hospodářského zájmu (podnikatelský inkubátor) s každoroční kompenzací od města; v roce 2023 byla zrušena a její vztahy s městem vypořádány.",
+  "casova_osa": [
+    {
+      "datum": "2012-12-19",
+      "popis": "Dohoda o převzetí plnění s dohodou o narovnání mezi městem a AERV (dodatek č. 1 ze dne 20. 5. 2015): ke 30. 6. 2023 se započte pohledávka města z titulu náhrady za splacení úvěru u ČSOB, a.s. na pohledávku AERV za zhodnocení předmětu nájmu (č.p. 3).",
+      "zdroj": "https://mestovsetin.cz/assets/File.ashx?id_org=18676&id_dokumenty=554130"
+    },
+    {
+      "datum": "2016–2023",
+      "popis": "Každoroční veřejnoprávní smlouvy o finančním příspěvku na kompenzaci nákladů závazku veřejné služby (SOHZ): 2 591 000 Kč (2016–2019, 2023), 2 141 322 Kč bez DPH (2020–2022).",
+      "zdroj": "https://smlouvy.gov.cz/smlouva/23015445"
+    },
+    {
+      "datum": "2023-05-29",
+      "popis": "ZM schválilo dodatek č. 2 k Dohodě o převzetí plnění s dohodou o narovnání (usn. 11/6/ZM/2023) a RO 8/2023 (usn. 12/6/ZM/2023): původní dohoda opomněla daňový dopad, cena vyrovnání 18 328 000 Kč se navyšuje o DPH 3 848 880 Kč (21 %), kterou město uhradí agentuře k odvodu finančnímu úřadu; krytí uplatněním nároku města na plný odpočet DPH.",
+      "zdroj": "https://mestovsetin.cz/assets/File.ashx?id_org=18676&id_dokumenty=554168"
+    },
+    {
+      "datum": "2023-06-28",
+      "popis": "Registr smluv: Dodatek č. 2 k nájemní smlouvě 4836/1S/2012 – Zhodnocení předmětu nájmu – rekonstrukce, 18 328 000 Kč bez DPH.",
+      "zdroj": "https://smlouvy.gov.cz/smlouva/24977135"
+    },
+    {
+      "datum": "2023-10-11",
+      "popis": "Správní rada AERV rozhodla o zrušení společnosti k 31. 12. 2023 (ARES-VR; výpis usnesení ZM uvádí oznámení správní rady ze dne 12. 10. 2023).",
+      "zdroj": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty-vr/26863081"
+    },
+    {
+      "datum": "2023-10-30",
+      "popis": "ZM bere na vědomí oznámení správní rady a schvaluje zrušení AERV k 31. 12. 2023 (usn. 10/9/ZM/2023).",
+      "zdroj": "https://mestovsetin.cz/assets/File.ashx?id_org=18676&id_dokumenty=555955"
+    },
+    {
+      "datum": "2023-11-23",
+      "popis": "Dodatek č. 11 k 3137/1S/2008 – dohoda na ukončení nájmu.",
+      "zdroj": "https://smlouvy.gov.cz/smlouva/26636603"
+    },
+    {
+      "datum": "2023-12-18",
+      "popis": "ZM schvaluje změnu zakládací listiny AERV a smlouvu o poskytnutí vkladu, pověřuje starostu dojednáním podmínek (usn. 1/10/ZM/2023); RO 21/2023: vklad 3 600 000 Kč „z důvodu dofinancování nákladů spojených s likvidací“, má krýt zvýšenou daňovou povinnost za 2023 i ostatní náklady likvidace, protože společnost již nebude generovat příjmy.",
+      "zdroj": "https://mestovsetin.cz/assets/File.ashx?id_org=18676&id_dokumenty=556699"
+    },
+    {
+      "datum": "2023-12-21",
+      "popis": "Smlouva o poskytnutí vkladu 714/1S/2023 – 3 600 000 Kč.",
+      "zdroj": "https://smlouvy.gov.cz/smlouva/27076075"
+    },
+    {
+      "datum": "2024-01-01",
+      "popis": "Začátek likvidace (likvidátor jmenován správní radou 22. 11. 2023).",
+      "zdroj": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty-vr/26863081"
+    },
+    {
+      "datum": "2024-03-18",
+      "popis": "Smlouva o výpůjčce movitých věcí od AERV v likvidaci (bez hodnoty).",
+      "zdroj": "https://smlouvy.gov.cz/smlouva/28019327"
+    },
+    {
+      "datum": "2024-11-18",
+      "popis": "Smlouva o převodu likvidačního zůstatku obecně prospěšné společnosti obci (0740 2024), hodnota v registru neuvedena.",
+      "zdroj": "https://smlouvy.gov.cz/smlouva/31146484"
+    },
+    {
+      "datum": "2024-12-18",
+      "popis": "Výmaz z veřejného rejstříku po skončené likvidaci (KS Ostrava, O 200).",
+      "zdroj": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty-vr/26863081"
+    }
+  ],
+  "penize": {
+    "2023_kompenzace_SOHZ": 2591000,
+    "2023_DPH_k_narovnani": 3848880,
+    "2023_vklad_likvidace": 3600000,
+    "2023_penezni_vydaje_celkem": 10039880,
+    "zapocet_zhodnoceni_predmetu_najmu_bez_DPH": 18328000,
+    "kontrola_DPH": "18 328 000 × 21 % = 3 848 880 Kč (sedí na Kč)",
+    "ZU_2023_transfery": "Agentura … – činnost 2 591 000; – dofinancování 3 600 000 (ZÚ 2023, neinvestiční transfery o.p.s.)",
+    "likvidacni_zustatek": null,
+    "pozn": "DPH 3 848 880 Kč mělo být podle RO 8/2023 kryto nárokem města na odpočet – čistý dopad na rozpočet by tak byl nulový; ověřit v ZÚ/daňových přiznáních."
+  },
+  "zdroje": [
+    "https://mestovsetin.cz/assets/File.ashx?id_org=18676&id_dokumenty=554130",
+    "https://mestovsetin.cz/assets/File.ashx?id_org=18676&id_dokumenty=554168",
+    "https://mestovsetin.cz/assets/File.ashx?id_org=18676&id_dokumenty=555955",
+    "https://mestovsetin.cz/assets/File.ashx?id_org=18676&id_dokumenty=556699",
+    "https://mestovsetin.cz/assets/File.ashx?id_org=18676&id_dokumenty=556719",
+    "https://mestovsetin.cz/assets/File.ashx?id_org=18676&id_dokumenty=557961",
+    "https://smlouvy.gov.cz/smlouva/24977135",
+    "https://smlouvy.gov.cz/smlouva/27076075",
+    "https://smlouvy.gov.cz/smlouva/31146484"
+  ]
+}

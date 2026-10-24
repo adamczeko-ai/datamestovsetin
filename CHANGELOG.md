@@ -120,9 +120,39 @@
 
 ## 2026-10-23 (várka p – párování IČO se smlouvami)
 - `data/smlouvy/parovani_ico.json`: 73 ověřených IČO × registr smluv (obousměrně) → 60 IČO, 767 smluv; součty, dodatky, dary, největší smlouvy; skript `scripts/registr_smluv_parovani_ico.js`; schéma + validace.
-- Signály P-01 (dary 4 dodavatelů projektu MVK, smlouvy 0781–0784 2025), P-02 (AERV: vklad 3,6 mil. 10 dní před zrušením), P-03 (podíl dodatků Martin Urban, TM Stav).
+- Signály P-01 (dary 4 dodavatelů projektu MVK, smlouvy 0781–0784 2025), P-02 (AERV: vklad 3,6 mil. 10 dní před zrušením), P-03 (podíl dodatků [FO-004], TM Stav).
 - K-003: 39830353 = Dodatek č. 1 k SoD Vs-04-Bel, +641 950,51 Kč bez DPH, cena díla 69,63 mil. bez DPH.
 
 ## 2026-10-23 (várka q – kauza K-004 AERV)
 - `data/kauzy/K-004_AERV_zruseni.json`: řetězec dohoda 2012 → narovnání DPH 3 848 880 Kč (= 21 % z 18 328 000) → zrušení (usn. 10/9/ZM/2023) → vklad 3,6 mil. na likvidaci (usn. 1/10/ZM/2023) → převod likvidačního zůstatku (2024) → výmaz.
 - Signál P-02 „zčásti vysvětleno“; otevřené: výše likvidačního zůstatku.
+
+## 2026-10-23 (várka r – podklady k AERV)
+- Důvodové zprávy ZM 2023 k AERV nejsou na webu města dostupné (materiály ZM jen od 2/2025, archiv prázdný, zápisy ZM nezveřejněny).
+- K-004 doplněna o usnesení RM 11/29/RM/2023, 12/29/RM/2023 (ukončení nájmu a výpůjček) a 4/53/RM/2024 (převod likvidačního zůstatku, výše neuvedena); `dostupnost_podkladu`.
+- Návrh žádosti dle zák. 106/1999 Sb. (`docs/ZADOST_106_AERV_2026-10-23.md`, neodesláno).
+
+## 2026-10-23 (model: R17/R18, analytické signály, nesoulady@2, opravy dat)
+- Pravidla R17 (prodleva usnesení → smlouva, smlouva před usnesením) a R18 (nárůst ceny v řetězci smluv téže akce); vstup `data/analyzy/vazby_rozhodnuti.json` s pointery do zdrojů, testy původu hodnot.
+- `signaly.json`: + ruční signály analytiků P-01–P-04 z `parovani_ico.json` (zdroj „analytik“; stav z textu se nepřebírá); celkem 127 signálů.
+- Prompt LLM `nesoulady@2`: systematický kontrolní seznam (cena napříč kroky vč. první × poslední, čas mezi kroky, orgán, rozsah, zakázka, chybějící údaj, DPH, vazby subjektů); holdout test na K-004.
+- ZÚ 2023–2025: `pol_8115.skutecnost` označeno jako 8115 + 8117 + 8118 s rozkladem z MONITORu (původní hodnota beze změny); ZÚ 2023 doplněna skutečnost příjmů a výdajů z MONITORu (`skutecnost_monitor`, se zdrojem).
+- K-002: režim DPH „osvobozeno“ doložen citací z kupní smlouvy (registr 34141081, s. 4, SHA-256 přílohy).
+
+## 2026-10-23 (kontrola konzistence dat, větev claude/auto-konzistence-2026-10-23)
+- `scripts/kontrola_konzistence.py` → `data/analyzy/konzistence.json` (schéma `konzistence.schema.json`): K1 RO JSON × CSV × souhrnné CSV, K2 bilance a aritmetika RO, K3 subjekty × ARES, K4 kontrolní číslice IČO, K5 datum RO × index zasedání ZM/RM, K6 FO jménem v kurátorovaných datech. Zdrojová data se nemění; rozpor = obě hodnoty se zdrojem, stav „ke_kontrole“ (stav od člověka se zachová).
+- Výsledek 23. 10. 2026: K1–K3, K5 bez rozporu (K5 porovnala 35 RO); K4 2× (zástupná IČO 00000000, 00000111); K6 6× (3 IČO FO jménem v `parovani_ico.json`, `nipez_vz_okruh_mesta_2024_2026.json`, `verejne_zakazky.json`).
+- Kontrola konzistence rozšířena o K7–K13 (`scripts/kontrola_konzistence_krizova.py`): odvozené soubory × přegenerování, částky téže smlouvy napříč soubory, odkazy a JSON pointery, osiřelé stavy signálů a ID anomálií, data a časové osy kauz, ZÚ × MONITOR, duplicitní ID.
+
+## 2026-10-24 (schémata zakázek, smluv a vazeb usnesení, větev claude/auto-schemata-zakazky-smlouvy-2026-10-24)
+- 9 nových JSON Schema pro 10 souborů bez schématu: `data/zakazky/` (NIPEZ okruh města, průchod NIPEZ, svoz odpadu, Senior taxi, zrušené VZ), `data/smlouvy/` (oprava hodnot registru, párování akcí, 2× řetězec úvěru) a `data/usneseni/usneseni_vazby_RO.json`; zařazeno do `validate_schemas.py`, test `tests/test_schemata_zakazky_smlouvy.py`.
+- Nedestruktivní normalizace dat `scripts/normalizace_dat.py`: `oprava_hodnot_registru_2026-10-23.json` (`datum_uzavreni` je ve tvaru DD.MM.RRRR) doplněn o `datum_uzavreni_iso` (215×), řetězce úvěrů o `datum_iso` (12×; text „neuvedeno (…)“ → `null`). Původní pole beze změny; schémata nové pole vyžadují; test `tests/test_normalizace_dat.py`.
+
+## 2026-10-24 (integrace PR – decentralizovaná registrace schémat, větev claude/integrace-2026-10-24)
+- `scripts/validate_schemas.py` bez centrálního slovníku `M`: každé `data/schema/*.schema.json` nese klíč `x-data-files` (soubory/globy), skript schémata objeví sám; `*.jsonl` validuje po řádcích včetně kontroly sha256 a duplicit (id, sha256).
+- Chybou je schéma bez `x-data-files` nebo bez odpovídajícího souboru a datový soubor (`data/**/*.json`, `data/**/*.jsonl`) bez schématu; výjimky ke dni zavedení v `data/schema/bez_schematu.txt` (37 souborů, seznam se smí jen zmenšovat). Test `tests/test_validate_schemas.py`.
+- `nesoulady-llm.schema.json` validuje i reálné výstupy slepého testu `ai/test/vysledek_slepy_test_*.json` (adresář `data/analyzy/llm/` zatím neexistuje).
+- `.gitattributes`: `CHANGELOG.md merge=union` (souběžné PR přidávající oddíl na konec nekolidují).
+- Integrace PR #9, #12, #11, #13, #15 (nahrazuje je PR z této větve); PR #14 byl sloučen dříve. Z integrace vynechány: #5 (nasazení na server, cron, GitHub token, merge s `--admin` mimo ochranu větve) a #8 (pseudonymizace nesplňuje § 5 protokolu: IČO OSVČ, bydliště a data narození v 28 záznamech, jména v testech; návrh opravy na větvi `claude/integrace-2026-10-24-pr8-navrh`).
+- Kolize #9 × #12: #9 vložil událost do `K-004 casova_osa`, pointery z `data/analyzy/vazby_rozhodnuti.json` posunuty (`/7`→`/8`, `/8`→`/9`); nové schéma `vazby-rozhodnuti.schema.json`.
+- Ochrana osobních údajů (§ 5): 8 soukromých fyzických osob (OSVČ, příjemci podpory, protistrana smlouvy, právní zástupce) nahrazeno stabilními kódy `[FO-001]`–`[FO-008]`, sídlo OSVČ „[FO – neuvedeno]“; osoby ve veřejné funkci beze změny. IČO OSVČ zatím zůstává (rozhodnutí vlastníka). `konzistence.json` přegenerován: K6 6→0, K12 3→0, zbývá K4 2×.

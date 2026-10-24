@@ -1,5 +1,6 @@
 {
  "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "x-data-files": ["data/analyzy/signaly_stavy.json"],
  "title": "Stavy ověření signálů",
  "description": "Soubor data/analyzy/signaly_stavy.json. Edituje ho pouze člověk (vlastník/ověřovatel). AI a generátory ho nikdy nepřepisují; AI smí jen navrhnout změnu v popisu PR.",
  "type": "object",
@@ -9,7 +10,7 @@
   "vyznam_stavu": {"type": "object"},
   "stavy": {
    "type": "object",
-   "propertyNames": {"pattern": "^(S-[0-9a-f]{10}(-\\d+)?|A-\\d{4}-\\d{2})$"},
+   "propertyNames": {"pattern": "^(S-[0-9a-f]{10}(-\\d+)?|A-\\d{4}-\\d{2}|P-\\d{2,3})$"},
    "additionalProperties": {
     "type": "object",
     "required": ["stav", "overil", "datum", "oduvodneni"],

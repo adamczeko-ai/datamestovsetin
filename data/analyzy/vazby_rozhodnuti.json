@@ -1,0 +1,59 @@
+{
+ "schema": "vsetin-osint/vazby-rozhodnuti@1",
+ "poznamka": "Normalizovaný vstup pro pravidla R17 (prodleva usnesení → smlouva) a R18 (vývoj ceny v řetězci smluv téže akce). Hodnoty jsou PŘEVZATY z existujících souborů repa; každá má 'zdroj' = soubor#/json/pointer a test tests/test_pravidla_nesoulady.py ověřuje, že hodnota na pointeru je shodná (datum: začátek řetězce, částka: číslo v textu nebo hodnota).",
+ "usneseni_smlouva": [
+  {
+   "akce": "K-002 Tribuna Na Ohradě – nabytí od TJ MEZ",
+   "usneseni": "34/18/ZM/2025",
+   "datum_usneseni": "2025-04-07",
+   "datum_usneseni_zdroj": "data/kauzy/K-002_tribuna_ohrada_TJ_MEZ.json#/casova_osa/6/datum",
+   "smlouva": "https://www.hlidacstatu.cz/Detail/34141081",
+   "datum_smlouvy": "2025-07-17",
+   "datum_smlouvy_zdroj": "data/kauzy/K-002_tribuna_ohrada_TJ_MEZ.json#/casova_osa/8/datum"
+  },
+  {
+   "akce": "Úvěrový rámec ČSOB 500 mil. Kč",
+   "usneseni": "23/26/ZM/2026",
+   "datum_usneseni": "2026-06-22",
+   "datum_usneseni_zdroj": "data/smlouvy/uver_CSOB_2026.json#/retezec/1/datum",
+   "smlouva": "https://smlouvy.gov.cz/smlouva/38540900",
+   "datum_smlouvy": "2026-06-26",
+   "datum_smlouvy_zdroj": "data/smlouvy/uver_CSOB_2026.json#/retezec/3/datum"
+  },
+  {
+   "akce": "K-004 AERV – smlouva o poskytnutí vkladu",
+   "usneseni": "1/10/ZM/2023",
+   "datum_usneseni": "2023-12-18",
+   "datum_usneseni_zdroj": "data/kauzy/K-004_AERV_zruseni.json#/casova_osa/8/datum",
+   "smlouva": "https://smlouvy.gov.cz/smlouva/27076075",
+   "datum_smlouvy": "2023-12-21",
+   "datum_smlouvy_zdroj": "data/kauzy/K-004_AERV_zruseni.json#/casova_osa/9/datum"
+  }
+ ],
+ "retezce_smluv": [
+  {
+   "akce": "K-003 Lávka Vs-04-Bel",
+   "kauza": "K-003",
+   "smlouvy": [
+    {
+     "popis": "SoD TM Stav, spol. s r.o. č. 197/1S/2022",
+     "datum": "2022-04-08",
+     "datum_zdroj": "data/kauzy/K-003_lavka_Vs-04-Bel.json#/casova_osa/0/datum",
+     "castka": 19483170,
+     "zaklad": "bez_DPH",
+     "castka_zdroj": "data/kauzy/K-003_lavka_Vs-04-Bel.json#/penize/puvodni_SoD_bez_DPH",
+     "ref": "https://www.hlidacstatu.cz/Detail/19955007"
+    },
+    {
+     "popis": "SoD Mitrenga-stavby, spol. s r.o. č. 0138 2025",
+     "datum": "2025-10-14",
+     "datum_zdroj": "data/kauzy/K-003_lavka_Vs-04-Bel.json#/casova_osa/10/datum",
+     "castka": 68983751,
+     "zaklad": "bez_DPH",
+     "castka_zdroj": "data/kauzy/K-003_lavka_Vs-04-Bel.json#/penize/nova_SoD_bez_DPH",
+     "ref": "https://www.hlidacstatu.cz/Detail/35219709"
+    }
+   ]
+  }
+ ]
+}

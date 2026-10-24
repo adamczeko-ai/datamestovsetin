@@ -2842,7 +2842,7 @@
     "Přednádražní prostor +16 mil. → 52,4 mil.",
     "Lávka Vs-02-Bel +0,3 mil.",
     "Snížení/odklad 8 akcí (−19,3 mil.)",
-    "MUDr. Adéla Jenerál Chmelařová – příspěvek 300 tis. (psychiatrie)",
+    "[FO-005] – příspěvek 300 tis. (psychiatrie)",
     "TJ Zbrojovka – asfaltový kurt 500 tis.",
     "Zakládání energetických společenství 1,0 mil.",
     "Fond sociálních služeb – rozdělení dotací",
@@ -3646,7 +3646,7 @@
      "pred": 0.0,
      "zmena": 300000.0,
      "po": 300000.0,
-     "popis": "Finanční příspěvek - MUDr. Adéla Jenerál Chmelařová"
+     "popis": "Finanční příspěvek - [FO-005]"
     },
     {
      "typ": "V",

@@ -47,7 +47,7 @@ class NadRepem(unittest.TestCase):
         with open("data/analyzy/red_flags.json", encoding="utf-8") as fh:
             rf = json.load(fh)["signaly"]
         out = s.sestav()
-        puvodni = [x["puvodni"] for x in out["signaly"] if x["zdroj_signalu"] == "pravidlo" and not x["kod"].startswith(("R13", "R14", "R15", "R16"))]
+        puvodni = [x["puvodni"] for x in out["signaly"] if x["zdroj_signalu"] == "pravidlo" and not x["kod"].startswith(("R13", "R14", "R15", "R16", "R17", "R18"))]
         self.assertEqual(len(puvodni), len(rf))
         key = lambda f: json.dumps(f, sort_keys=True, ensure_ascii=False)  # noqa: E731
         self.assertEqual(sorted(map(key, puvodni)), sorted(map(key, rf)))

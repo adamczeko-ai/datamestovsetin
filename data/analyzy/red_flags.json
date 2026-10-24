@@ -968,7 +968,7 @@
   {
    "kod": "R5-dotace-subjektu",
    "zavaznost": "nizka",
-   "popis": "Finanční podpora na vybavení zubní ordinace MDDr. Kozárková: +500 000 Kč",
+   "popis": "Finanční podpora na vybavení zubní ordinace [FO-001]: +500 000 Kč",
    "castka_Kc": 500000.0,
    "odkazy": [
     "RO-2025-08",
@@ -1017,7 +1017,7 @@
   {
    "kod": "R5-dotace-subjektu",
    "zavaznost": "nizka",
-   "popis": "Finanční příspěvek - MUDr. Adéla Jenerál Chmelařová: +300 000 Kč",
+   "popis": "Finanční příspěvek - [FO-005]: +300 000 Kč",
    "castka_Kc": 300000.0,
    "odkazy": [
     "RO-2024-15",

@@ -31,7 +31,7 @@
     {
      "id": "38819378",
      "podpis": "2026-07-16",
-     "dodavatel": "Ing. Miroslav Macek",
+     "dodavatel": "[FO-006]",
      "Kc": 217800,
      "url": "https://www.hlidacstatu.cz/Detail/38819378"
     },
@@ -45,7 +45,7 @@
     {
      "id": "39554985",
      "podpis": "2026-09-15",
-     "dodavatel": "Ing. Miroslav Macek",
+     "dodavatel": "[FO-006]",
      "Kc": 78650,
      "url": "https://www.hlidacstatu.cz/Detail/39554985"
     }
@@ -62,7 +62,7 @@
     {
      "id": "39450769",
      "podpis": "2026-09-07",
-     "dodavatel": "Martin Urban",
+     "dodavatel": "[FO-004]",
      "Kc": 46920679,
      "pozn": "Max. hodnota smlouvy 46,9 mil. Kč vs. rozpočet 2026 po RO 12: 26,2 mil. Kč (1. etapa) – ověřit vícelet. financování/etapy",
      "url": "https://www.hlidacstatu.cz/Detail/39450769",
@@ -70,7 +70,7 @@
      "bez_DPH": 38777420,
      "s_DPH": 46920679,
      "ico_dodavatele": "73257958",
-     "sidlo": "Lhota u Vsetína 10",
+     "sidlo": "[FO – neuvedeno]",
      "schvalil": "Čunek Jiří",
      "nazev": "Smlouva o dílo – Rozšíření hřbitova ve Vsetíně – kolumbárium"
     },
@@ -329,7 +329,7 @@
     {
      "id": "25984079",
      "podpis": "2023-10-05",
-     "nazev": "DN Vsetín → Igor Hendrych",
+     "nazev": "DN Vsetín → [FO-007]",
      "Kc": 1118040
     }
    ],

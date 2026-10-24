@@ -9,7 +9,7 @@ Profil eviduje 267 zakázek v plnění, 178 ukončených a **84 zrušených**.
 | Zakázka | Předp. hodnota | Nabídek | Vítěz | Cena bez DPH | Poměr |
 |---|---|---|---|---|---|
 | Oprava lávky Lázky (design & build) | 12,0 mil. | **2** | Mitrenga-stavby | 9,44 mil. | 78,7 % |
-| Kolumbárium | 46,0 mil. | 4 | Martin Urban | 38,78 mil. | 84,3 % |
+| Kolumbárium | 46,0 mil. | 4 | [FO-004] | 38,78 mil. | 84,3 % |
 | Hřiště Pod Pecníkem | 12,0 mil. | 3 | SPORT Construction | **11 999 917** | **99,9993 %** |
 | VZT Městské lázně | 11,0 mil. | 3 | JASY Vsetín | 9,38 mil. | 85,3 % |
 | Přednádražní prostor I.B | **257,6 mil.** | – | – | – | stále „vyhodnocování“ (lhůta 19. 2. 2024) |

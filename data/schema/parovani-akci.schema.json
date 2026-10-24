@@ -1,0 +1,128 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "x-data-files": ["data/smlouvy/parovani_akci.json"],
+ "title": "Párování akcí rozpočtu se smlouvami",
+ "description": "data/smlouvy/parovani_akci.json",
+ "type": "object",
+ "required": [
+  "schema",
+  "zdroj",
+  "akce"
+ ],
+ "properties": {
+  "schema": {
+   "type": "string"
+  },
+  "zdroj": {
+   "type": "string"
+  },
+  "stav_k": {
+   "type": "string"
+  },
+  "metoda": {
+   "type": "string"
+  },
+  "upozorneni": {
+   "type": "string"
+  },
+  "akce": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "required": [
+     "akce",
+     "org",
+     "nalezeno"
+    ],
+    "properties": {
+     "akce": {
+      "type": "string"
+     },
+     "org": {
+      "type": "string"
+     },
+     "dotaz": {
+      "type": "string"
+     },
+     "nalezeno": {
+      "type": "integer"
+     },
+     "klicove": {
+      "type": "array"
+     },
+     "chybi": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "oprava": {
+      "type": "string"
+     }
+    }
+   },
+   "minItems": 1
+  },
+  "vazby_k_overeni": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "required": [
+     "typ",
+     "ico",
+     "popis"
+    ],
+    "properties": {
+     "typ": {
+      "type": "string"
+     },
+     "nazev": {
+      "type": "string"
+     },
+     "ico": {
+      "type": "string",
+      "pattern": "^\\d{8}$"
+     },
+     "popis": {
+      "type": "string"
+     }
+    }
+   }
+  },
+  "dalsi_smlouvy_subjektu": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "required": [
+     "subjekt",
+     "ico",
+     "smlouvy"
+    ],
+    "properties": {
+     "subjekt": {
+      "type": "string"
+     },
+     "ico": {
+      "type": "string",
+      "pattern": "^\\d{8}$"
+     },
+     "sidlo": {
+      "type": "string"
+     },
+     "skutecny_majitel": {
+      "type": "string"
+     },
+     "smlouvy": {
+      "type": "array"
+     },
+     "vazba_RO": {
+      "type": "string"
+     },
+     "hypoteza": {
+      "type": "string"
+     }
+    }
+   }
+  }
+ }
+}

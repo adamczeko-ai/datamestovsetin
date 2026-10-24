@@ -13,9 +13,9 @@
 3. **Huslenky:** náklady na odstranění stavby 2,24 mil. Kč. Jde o výkon rozhodnutí stavebního úřadu z roku 2020 (RO 10).
 4. **Velké investice:** Zanádražní prostor +13 mil. (na 63 mil. Kč), Přednádražní prostor +16 mil. (na 52,4 mil. Kč) a k tomu dotace na podchod 17,76 mil. Kč (RO 15, 18).
 5. **Podpora lékařů** podle Pravidel podpory společensky potřebných profesí (ZM 2022):
-   - MUDr. Jenerál Chmelařová (psychiatrie) 300 tis. Kč
+   - [FO-005] (psychiatrie) 300 tis. Kč
    - Stomatologické centrum Univerzitní s.r.o. 500 tis. Kč
-   - v roce 2025 navazuje MDDr. Kozárková 500 tis. Kč
+   - v roce 2025 navazuje [FO-001] 500 tis. Kč
 6. **Vratka ze služeb obecného hospodářského zájmu (SOHZ) za rok 2023:** Vsetínská sportovní vrátila 12,31 mil. Kč, převedeno do rezervy (RO 7).
 
 ## Anomálie

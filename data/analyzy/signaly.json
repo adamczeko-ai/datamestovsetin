@@ -1,14 +1,16 @@
 {
  "schema": "vsetin-osint/signaly@2",
- "vygenerovano": "2026-10-23T10:35:33+02:00",
+ "vygenerovano": "2026-10-23T21:34:10+02:00",
  "upozorneni": "Signály a nesoulady slouží k prioritizaci ověřování. Nejsou zjištěním pochybení ani obviněním. Stav 'potvrzeno' znamená, že nesoulad v datech byl potvrzen nezávislým zdrojem, nikoli že došlo k porušení předpisů.",
  "souhrn": {
   "podle_kodu": {
    "A-anomalie-dat": 15,
    "R1-velke-navyseni": 44,
    "R10-narust-ceny-proti-rozpoctu": 1,
+   "R18-narust-ceny-v-retezci-smluv": 1,
    "R6-soudni-spory": 3,
    "R7-dofinancovani-PO": 2,
+   "P-analyticky-signal": 4,
    "R15-zruseni-VZ-a-prodlouzeni": 1,
    "R16-smlouva-nad-rozpoctem": 1,
    "R2-opakovane-navysovani": 10,
@@ -17,15 +19,16 @@
    "R12-opakovane-zruseni-VZ": 4,
    "R14-tesne-pod-limitem-VZMR": 3,
    "R16-cena-navrh-vs-schvaleno": 1,
+   "R17-prodleva-usneseni-smlouva": 1,
    "R3-RM-velka-investice": 9,
    "R5-dotace-subjektu": 19,
    "R8-malo-nabidek": 1
   },
   "podle_stavu": {
    "potvrzeno": 3,
-   "novy": 118
+   "novy": 124
   },
-  "celkem": 121
+  "celkem": 127
  },
  "osirele_stavy": [],
  "signaly": [
@@ -350,6 +353,70 @@
     "castka_Kc": 68983751,
     "odkazy": [
      "https://www.hlidacstatu.cz/Detail/35219709"
+    ]
+   }
+  },
+  {
+   "id": "S-4f3ea8458e",
+   "kod": "R18-narust-ceny-v-retezci-smluv",
+   "zdroj_signalu": "pravidlo",
+   "zavaznost": "vysoka",
+   "popis": "K-003 Lávka Vs-04-Bel: cena první smlouvy 19 483 170 Kč (2022-04-08) → poslední 68 983 751 Kč (2025-10-14), bez_DPH, nárůst 254 % (2 smlouvy) – ověřit změnu rozsahu a zdůvodnění.",
+   "castka_Kc": 49500581,
+   "dukazy": [
+    {
+     "typ": "smlouva",
+     "ref": "https://www.hlidacstatu.cz/Detail/19955007",
+     "url": "https://www.hlidacstatu.cz/Detail/19955007",
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "datovy_soubor",
+     "ref": "data/kauzy/K-003_lavka_Vs-04-Bel.json#/penize/puvodni_SoD_bez_DPH",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "smlouva",
+     "ref": "https://www.hlidacstatu.cz/Detail/35219709",
+     "url": "https://www.hlidacstatu.cz/Detail/35219709",
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "datovy_soubor",
+     "ref": "data/kauzy/K-003_lavka_Vs-04-Bel.json#/penize/nova_SoD_bez_DPH",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    }
+   ],
+   "stav": "novy",
+   "stav_detail": null,
+   "puvodni": {
+    "kod": "R18-narust-ceny-v-retezci-smluv",
+    "zavaznost": "vysoka",
+    "popis": "K-003 Lávka Vs-04-Bel: cena první smlouvy 19 483 170 Kč (2022-04-08) → poslední 68 983 751 Kč (2025-10-14), bez_DPH, nárůst 254 % (2 smlouvy) – ověřit změnu rozsahu a zdůvodnění.",
+    "castka_Kc": 49500581,
+    "odkazy": [
+     "https://www.hlidacstatu.cz/Detail/19955007",
+     "data/kauzy/K-003_lavka_Vs-04-Bel.json#/penize/puvodni_SoD_bez_DPH",
+     "https://www.hlidacstatu.cz/Detail/35219709",
+     "data/kauzy/K-003_lavka_Vs-04-Bel.json#/penize/nova_SoD_bez_DPH"
     ]
    }
   },
@@ -749,6 +816,248 @@
     "zavaznost": "stredni",
     "popis": "RO 1/2025 je zveřejněno jako 'neschváleno', ale PDF je prázdná stránka – obsah neschváleného návrhu není dohledatelný.",
     "dalsi_krok": "Dohledat v materiálech RM (leden 2025)."
+   }
+  },
+  {
+   "id": "P-01",
+   "kod": "P-analyticky-signal",
+   "zdroj_signalu": "analytik",
+   "zavaznost": "stredni",
+   "popis": "dárce → dodavatel (projekt MVK 1356): Čtyři dodavatelé stavebních úprav a vybavení Masarykovy veřejné knihovny a TIC č.p. 1356 uzavřeli s městem darovací smlouvy s po sobě jdoucími čísly 0781–0784 2025 (uzavřeny 12.–15. 12. 2025, podepsal starosta): FUSION ARCHITECTS 15 000 Kč, FORM 20 000 Kč, LPT System 10 000 Kč, H & B delta 25 000 Kč. Jejich zakázky: FUSION ARCHITECTS – PD knihovny 4,18 mil. + 3 dodatky; FORM – interiér 24,77 mil. + 2 cenové dodatky; LPT – IT vybavení 3,48 mil.; H & B delta – střecha 3,42 mil. + dodatek ceny. Malé částky, zřejmě hromadná akce (účel darů neuveden v metadatech). K ověření: účel darů, pravidla přijímání darů od dodavatelů.",
+   "castka_Kc": null,
+   "dukazy": [
+    {
+     "typ": "smlouva",
+     "ref": "36123905",
+     "url": "https://smlouvy.gov.cz/smlouva/36123905",
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "smlouva",
+     "ref": "36254269",
+     "url": "https://smlouvy.gov.cz/smlouva/36254269",
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "smlouva",
+     "ref": "36254273",
+     "url": "https://smlouvy.gov.cz/smlouva/36254273",
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "smlouva",
+     "ref": "36254277",
+     "url": "https://smlouvy.gov.cz/smlouva/36254277",
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "datovy_soubor",
+     "ref": "data/smlouvy/parovani_ico.json",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    }
+   ],
+   "stav": "novy",
+   "stav_detail": null,
+   "puvodni": {
+    "id": "P-01",
+    "typ": "dárce → dodavatel (projekt MVK 1356)",
+    "ico": [
+     "24726443",
+     "43964532",
+     "25845420",
+     "25835661"
+    ],
+    "popis": "Čtyři dodavatelé stavebních úprav a vybavení Masarykovy veřejné knihovny a TIC č.p. 1356 uzavřeli s městem darovací smlouvy s po sobě jdoucími čísly 0781–0784 2025 (uzavřeny 12.–15. 12. 2025, podepsal starosta): FUSION ARCHITECTS 15 000 Kč, FORM 20 000 Kč, LPT System 10 000 Kč, H & B delta 25 000 Kč. Jejich zakázky: FUSION ARCHITECTS – PD knihovny 4,18 mil. + 3 dodatky; FORM – interiér 24,77 mil. + 2 cenové dodatky; LPT – IT vybavení 3,48 mil.; H & B delta – střecha 3,42 mil. + dodatek ceny. Malé částky, zřejmě hromadná akce (účel darů neuveden v metadatech). K ověření: účel darů, pravidla přijímání darů od dodavatelů.",
+    "zdroje": [
+     "36123905",
+     "36254269",
+     "36254273",
+     "36254277"
+    ]
+   }
+  },
+  {
+   "id": "P-02",
+   "kod": "P-analyticky-signal",
+   "zdroj_signalu": "analytik",
+   "zavaznost": "stredni",
+   "popis": "městská o.p.s. – vklad po rozhodnutí o zrušení: AERV o.p.s.: Dodatek č. 2 k nájemní smlouvě 4836/1S/2012 'Zhodnocení předmětu nájmu – rekonstrukce' 18 328 000 Kč bez DPH (uzavřen 28. 6. 2023); rozhodnutí správní rady o zrušení 11. 10. 2023 (ARES-VR); dodatek č. 11 k 3137/1S/2008 – ukončení nájmu (23. 11. 2023); Smlouva o poskytnutí vkladu 714/1S/2023, 3 600 000 Kč (uzavřena 21. 12. 2023, 10 dní před dnem zrušení 31. 12. 2023); výpůjčka movitých věcí od AERV v likvidaci (3/2024); Smlouva o převodu likvidačního zůstatku obci 0740 2024 (18. 11. 2024, hodnota neuvedena). K ověření: účel vkladu do rušené společnosti, výše likvidačního zůstatku, vztah narovnání 3,85 mil. (RO 8/2023) ke zhodnocení předmětu nájmu.",
+   "castka_Kc": null,
+   "dukazy": [
+    {
+     "typ": "smlouva",
+     "ref": "24977135",
+     "url": "https://smlouvy.gov.cz/smlouva/24977135",
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "smlouva",
+     "ref": "26636603",
+     "url": "https://smlouvy.gov.cz/smlouva/26636603",
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "smlouva",
+     "ref": "27076075",
+     "url": "https://smlouvy.gov.cz/smlouva/27076075",
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "smlouva",
+     "ref": "28019327",
+     "url": "https://smlouvy.gov.cz/smlouva/28019327",
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "smlouva",
+     "ref": "31146484",
+     "url": "https://smlouvy.gov.cz/smlouva/31146484",
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "datovy_soubor",
+     "ref": "data/smlouvy/parovani_ico.json",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    }
+   ],
+   "stav": "novy",
+   "stav_detail": null,
+   "puvodni": {
+    "id": "P-02",
+    "typ": "městská o.p.s. – vklad po rozhodnutí o zrušení",
+    "ico": [
+     "26863081"
+    ],
+    "popis": "AERV o.p.s.: Dodatek č. 2 k nájemní smlouvě 4836/1S/2012 'Zhodnocení předmětu nájmu – rekonstrukce' 18 328 000 Kč bez DPH (uzavřen 28. 6. 2023); rozhodnutí správní rady o zrušení 11. 10. 2023 (ARES-VR); dodatek č. 11 k 3137/1S/2008 – ukončení nájmu (23. 11. 2023); Smlouva o poskytnutí vkladu 714/1S/2023, 3 600 000 Kč (uzavřena 21. 12. 2023, 10 dní před dnem zrušení 31. 12. 2023); výpůjčka movitých věcí od AERV v likvidaci (3/2024); Smlouva o převodu likvidačního zůstatku obci 0740 2024 (18. 11. 2024, hodnota neuvedena). K ověření: účel vkladu do rušené společnosti, výše likvidačního zůstatku, vztah narovnání 3,85 mil. (RO 8/2023) ke zhodnocení předmětu nájmu.",
+    "zdroje": [
+     "24977135",
+     "26636603",
+     "27076075",
+     "28019327",
+     "31146484"
+    ],
+    "stav": "zčásti vysvětleno – viz kauza K-004",
+    "vysvetleni": "RO 21/2023 a usn. 1/10/ZM/2023: vklad 3,6 mil. Kč byl schválen ZM 18. 12. 2023 k dofinancování nákladů likvidace a daňové povinnosti 2023. Narovnání 3 848 880 Kč (RO 8/2023, usn. 11/6/ZM/2023) = 21 % DPH ze zhodnocení předmětu nájmu 18 328 000 Kč, opomenuté v dohodě z 19. 12. 2012. Otevřené: výše likvidačního zůstatku."
+   }
+  },
+  {
+   "id": "P-03",
+   "kod": "P-analyticky-signal",
+   "zdroj_signalu": "analytik",
+   "zavaznost": "stredni",
+   "popis": "vysoký podíl dodatků: [FO-004]: 37 smluv, 14 dodatků (11 se změnou ceny). TM Stav: 71 smluv (259 mil. Kč bez DPH, 2016–2024), 31 dodatků. Doplňuje pravidlo R13 (kumulace dodatků).",
+   "castka_Kc": null,
+   "dukazy": [
+    {
+     "typ": "datovy_soubor",
+     "ref": "data/smlouvy/parovani_ico.json",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    }
+   ],
+   "stav": "novy",
+   "stav_detail": null,
+   "puvodni": {
+    "id": "P-03",
+    "typ": "vysoký podíl dodatků",
+    "ico": [
+     "73257958",
+     "48399477"
+    ],
+    "popis": "[FO-004]: 37 smluv, 14 dodatků (11 se změnou ceny). TM Stav: 71 smluv (259 mil. Kč bez DPH, 2016–2024), 31 dodatků. Doplňuje pravidlo R13 (kumulace dodatků)."
+   }
+  },
+  {
+   "id": "P-04",
+   "kod": "P-analyticky-signal",
+   "zdroj_signalu": "analytik",
+   "zavaznost": "stredni",
+   "popis": "oprava/doplnění K-003: Smlouva 39830353 (dříve 'k ověření, zda dodatek') je Dodatek č. 1 'D1 0138 2025' k SoD 0138 2025 na lávku Vs-04-Bel (ID návazné smlouvy 33033369): změna termínu plnění a ceny díla +641 950,51 Kč bez DPH (776 760 Kč s DPH), uzavřen 5. 10. 2026. Cena díla tím 69 625 701 Kč bez DPH (+0,93 %).",
+   "castka_Kc": null,
+   "dukazy": [
+    {
+     "typ": "smlouva",
+     "ref": "39830353",
+     "url": "https://smlouvy.gov.cz/smlouva/39830353",
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "datovy_soubor",
+     "ref": "data/smlouvy/parovani_ico.json",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    }
+   ],
+   "stav": "novy",
+   "stav_detail": null,
+   "puvodni": {
+    "id": "P-04",
+    "typ": "oprava/doplnění K-003",
+    "ico": [
+     "26944022"
+    ],
+    "popis": "Smlouva 39830353 (dříve 'k ověření, zda dodatek') je Dodatek č. 1 'D1 0138 2025' k SoD 0138 2025 na lávku Vs-04-Bel (ID návazné smlouvy 33033369): změna termínu plnění a ceny díla +641 950,51 Kč bez DPH (776 760 Kč s DPH), uzavřen 5. 10. 2026. Cena díla tím 69 625 701 Kč bez DPH (+0,93 %).",
+    "zdroje": [
+     "39830353"
+    ]
    }
   },
   {
@@ -4134,6 +4443,70 @@
    }
   },
   {
+   "id": "S-686b0bbac3",
+   "kod": "R17-prodleva-usneseni-smlouva",
+   "zdroj_signalu": "pravidlo",
+   "zavaznost": "nizka",
+   "popis": "K-002 Tribuna Na Ohradě – nabytí od TJ MEZ: smlouva podepsána 101 dní po usnesení 34/18/ZM/2025 (2025-04-07 → 2025-07-17) – ověřit důvod prodlevy a shodu podmínek se schváleným zněním.",
+   "castka_Kc": null,
+   "dukazy": [
+    {
+     "typ": "usneseni",
+     "ref": "34/18/ZM/2025",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "smlouva",
+     "ref": "https://www.hlidacstatu.cz/Detail/34141081",
+     "url": "https://www.hlidacstatu.cz/Detail/34141081",
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "datovy_soubor",
+     "ref": "data/kauzy/K-002_tribuna_ohrada_TJ_MEZ.json#/casova_osa/6/datum",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    },
+    {
+     "typ": "datovy_soubor",
+     "ref": "data/kauzy/K-002_tribuna_ohrada_TJ_MEZ.json#/casova_osa/8/datum",
+     "url": null,
+     "strana": null,
+     "citace": null,
+     "sha256": null,
+     "stazeno": null,
+     "overeno": false
+    }
+   ],
+   "stav": "novy",
+   "stav_detail": null,
+   "puvodni": {
+    "kod": "R17-prodleva-usneseni-smlouva",
+    "zavaznost": "nizka",
+    "popis": "K-002 Tribuna Na Ohradě – nabytí od TJ MEZ: smlouva podepsána 101 dní po usnesení 34/18/ZM/2025 (2025-04-07 → 2025-07-17) – ověřit důvod prodlevy a shodu podmínek se schváleným zněním.",
+    "castka_Kc": null,
+    "odkazy": [
+     "34/18/ZM/2025",
+     "https://www.hlidacstatu.cz/Detail/34141081",
+     "data/kauzy/K-002_tribuna_ohrada_TJ_MEZ.json#/casova_osa/6/datum",
+     "data/kauzy/K-002_tribuna_ohrada_TJ_MEZ.json#/casova_osa/8/datum"
+    ]
+   }
+  },
+  {
    "id": "S-f41d313450",
    "kod": "R3-RM-velka-investice",
    "zdroj_signalu": "pravidlo",
@@ -4894,7 +5267,7 @@
    "kod": "R5-dotace-subjektu",
    "zdroj_signalu": "pravidlo",
    "zavaznost": "nizka",
-   "popis": "Finanční podpora na vybavení zubní ordinace MDDr. Kozárková: +500 000 Kč",
+   "popis": "Finanční podpora na vybavení zubní ordinace [FO-001]: +500 000 Kč",
    "castka_Kc": 500000.0,
    "dukazy": [
     {
@@ -4923,7 +5296,7 @@
    "puvodni": {
     "kod": "R5-dotace-subjektu",
     "zavaznost": "nizka",
-    "popis": "Finanční podpora na vybavení zubní ordinace MDDr. Kozárková: +500 000 Kč",
+    "popis": "Finanční podpora na vybavení zubní ordinace [FO-001]: +500 000 Kč",
     "castka_Kc": 500000.0,
     "odkazy": [
      "RO-2025-08",
@@ -5230,7 +5603,7 @@
    "kod": "R5-dotace-subjektu",
    "zdroj_signalu": "pravidlo",
    "zavaznost": "nizka",
-   "popis": "Finanční příspěvek - MUDr. Adéla Jenerál Chmelařová: +300 000 Kč",
+   "popis": "Finanční příspěvek - [FO-005]: +300 000 Kč",
    "castka_Kc": 300000.0,
    "dukazy": [
     {
@@ -5259,7 +5632,7 @@
    "puvodni": {
     "kod": "R5-dotace-subjektu",
     "zavaznost": "nizka",
-    "popis": "Finanční příspěvek - MUDr. Adéla Jenerál Chmelařová: +300 000 Kč",
+    "popis": "Finanční příspěvek - [FO-005]: +300 000 Kč",
     "castka_Kc": 300000.0,
     "odkazy": [
      "RO-2024-15",

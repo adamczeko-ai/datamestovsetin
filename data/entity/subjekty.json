@@ -98,7 +98,7 @@
     },
     {
       "ico": "70322783",
-      "nazev": "Ing. Jiří Macháček – INPRAISE",
+      "nazev": "[FO-003]",
       "role": "dodavatel (nabídka)",
       "adresa": "Bratří Hlaviců 80, Vsetín",
       "vyskyt_RO_2026": [
@@ -106,9 +106,9 @@
       ],
       "ares": {
         "stav": "aktivní",
-        "obchodni_jmeno": "Jiří Macháček",
+        "obchodni_jmeno": "[FO-003]",
         "pravni_forma": "105",
-        "sidlo": "Bratří Hlaviců 80, 75501 Vsetín"
+        "sidlo": "[FO – neuvedeno]"
       }
     },
     {
@@ -240,7 +240,7 @@
     },
     {
       "ico": "68349742",
-      "nazev": "Pavel Škrabánek",
+      "nazev": "[FO-002]",
       "role": "dodavatel (oprava kanalizace ZŠ Sychrov)",
       "adresa": null,
       "vyskyt_RO_2026": [
@@ -248,9 +248,9 @@
       ],
       "ares": {
         "stav": "aktivní",
-        "obchodni_jmeno": "Pavel Škrabánek",
+        "obchodni_jmeno": "[FO-002]",
         "pravni_forma": "101",
-        "sidlo": "Rokytnice 240, Rokytnice, 75501 Vsetín"
+        "sidlo": "[FO – neuvedeno]"
       }
     },
     {
@@ -434,7 +434,7 @@
     },
     {
       "ico": "02536986",
-      "nazev": "MDDr. Helena Kozárková",
+      "nazev": "[FO-001]",
       "role": "příjemkyně podpory – vybavení zubní ordinace (500 tis.)",
       "adresa": "Rokytnice 413, Vsetín",
       "vyskyt_RO_2025": [
@@ -442,9 +442,9 @@
       ],
       "ares": {
         "stav": "aktivní",
-        "obchodni_jmeno": "MDDr. Helena Kozárková",
+        "obchodni_jmeno": "[FO-001]",
         "pravni_forma": "105",
-        "sidlo": "Rokytnice 413, Rokytnice, 75501 Vsetín"
+        "sidlo": "[FO – neuvedeno]"
       }
     },
     {
@@ -762,14 +762,14 @@
     },
     {
       "ico": "73257958",
-      "nazev": "Martin Urban",
+      "nazev": "[FO-004]",
       "role": "zhotovitel – rozšíření hřbitova/kolumbárium, SoD 46 920 679 Kč s DPH (2026)",
       "adresa": "Lhota u Vsetína 10",
       "ares": {
         "stav": "aktivní",
-        "obchodni_jmeno": "Martin Urban",
+        "obchodni_jmeno": "[FO-004]",
         "pravni_forma": "107",
-        "sidlo": "Horní Jasenka 315, 75501 Vsetín"
+        "sidlo": "[FO – neuvedeno]"
       }
     },
     {
@@ -862,12 +862,12 @@
   ],
   "osoby_z_verejnych_dokumentu": [
     {
-      "jmeno": "MUDr. Adéla Jenerál Chmelařová",
+      "jmeno": "[FO-005]",
       "role": "příjemkyně příspěvku 300 tis. Kč na rekonstrukci psychiatrické ordinace (Pravidla podpory společensky potřebných profesí, ZM 2022)",
       "zdroj": "RO 15/2024"
     },
     {
-      "jmeno": "MDDr. Helena Kozárková",
+      "jmeno": "[FO-001]",
       "role": "příjemkyně podpory 500 tis. Kč – zubní ordinace",
       "zdroj": "RO 8/2025"
     }

@@ -1,5 +1,6 @@
 {
  "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "x-data-files": ["data/analyzy/signaly.json"],
  "title": "Signály k ověření (v2)",
  "description": "Generovaný soubor data/analyzy/signaly.json. Stav ověření se NEukládá sem, ale do data/analyzy/signaly_stavy.json (vlastní ho člověk) a při generování se jen připojí.",
  "type": "object",
@@ -33,9 +34,9 @@
    "required": ["id", "kod", "zdroj_signalu", "zavaznost", "popis", "dukazy", "stav"],
    "additionalProperties": false,
    "properties": {
-    "id": {"type": "string", "pattern": "^(S-[0-9a-f]{10}(-\\d+)?|A-\\d{4}-\\d{2})$"},
+    "id": {"type": "string", "pattern": "^(S-[0-9a-f]{10}(-\\d+)?|A-\\d{4}-\\d{2}|P-\\d{2,3})$"},
     "kod": {"type": "string"},
-    "zdroj_signalu": {"enum": ["pravidlo", "anomalie", "llm"]},
+    "zdroj_signalu": {"enum": ["pravidlo", "anomalie", "analytik", "llm"]},
     "zavaznost": {"enum": ["vysoka", "stredni", "nizka"]},
     "popis": {"type": "string"},
     "castka_Kc": {"type": ["number", "null"]},

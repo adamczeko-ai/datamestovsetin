@@ -1,0 +1,110 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "x-data-files": ["data/smlouvy/oprava_hodnot_registru_2026-10-23.json"],
+ "title": "Ověření hodnot verzí registru smluv („nezjištěno“)",
+ "description": "data/smlouvy/oprava_hodnot_registru_2026-10-23.json. datum_uzavreni = původní hodnota ze zdroje (DD.MM.RRRR), datum_uzavreni_iso = ISO 8601 (scripts/normalizace_dat.py).",
+ "type": "object",
+ "required": [
+  "schema",
+  "zdroj",
+  "verze"
+ ],
+ "properties": {
+  "schema": {
+   "type": "string"
+  },
+  "zdroj": {
+   "type": "string"
+  },
+  "stazeno": {
+   "type": "string"
+  },
+  "vstup": {
+   "type": "string"
+  },
+  "souhrn": {
+   "type": "object",
+   "required": [
+    "unikatnich"
+   ],
+   "properties": {
+    "unikatnich": {
+     "type": "integer"
+    }
+   }
+  },
+  "pozor": {
+   "type": "string"
+  },
+  "verze": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "required": [
+     "version_id",
+     "value_kind_navrh",
+     "datum_uzavreni_iso"
+    ],
+    "properties": {
+     "version_id": {
+      "type": "string",
+      "pattern": "^\\d+$"
+     },
+     "bez_dph": {
+      "type": [
+       "number",
+       "null"
+      ]
+     },
+     "s_dph": {
+      "type": [
+       "number",
+       "null"
+      ]
+     },
+     "mena": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "cizi_mena": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "predmet": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "datum_uzavreni": {
+      "type": [
+       "string",
+       "null"
+      ],
+      "pattern": "^(\\d{2}\\.\\d{2}\\.\\d{4}|\\d{4}-\\d{2}-\\d{2})$"
+     },
+     "value_kind_navrh": {
+      "enum": [
+       "bez_dph",
+       "s_dph",
+       "cizi_mena",
+       "nezjisteno"
+      ]
+     },
+     "datum_uzavreni_iso": {
+      "type": [
+       "string",
+       "null"
+      ],
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+     }
+    }
+   },
+   "minItems": 1
+  }
+ }
+}

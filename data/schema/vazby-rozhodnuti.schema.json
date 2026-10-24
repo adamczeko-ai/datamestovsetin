@@ -1,0 +1,46 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "x-data-files": ["data/analyzy/vazby_rozhodnuti.json"],
+ "title": "Vazby rozhodnutí → smlouvy (vstup pravidel R17/R18)",
+ "description": "Hodnoty jsou převzaté z jiných souborů repa; každé pole *_zdroj je soubor#/json/pointer, shodu hodnot ověřuje tests/test_pravidla_nesoulady.py.",
+ "type": "object",
+ "required": ["schema", "usneseni_smlouva", "retezce_smluv"],
+ "$defs": {
+  "datum": {"type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$"},
+  "zdroj": {"type": "string", "pattern": "^data/[^#]+\\.json#/.+$"}
+ },
+ "properties": {
+  "schema": {"const": "vsetin-osint/vazby-rozhodnuti@1"},
+  "poznamka": {"type": "string"},
+  "usneseni_smlouva": {"type": "array", "items": {"type": "object",
+   "required": ["akce", "usneseni", "datum_usneseni", "datum_usneseni_zdroj", "smlouva", "datum_smlouvy", "datum_smlouvy_zdroj"],
+   "additionalProperties": false,
+   "properties": {
+    "akce": {"type": "string"},
+    "usneseni": {"type": "string", "pattern": "/(ZM|RM)/\\d{4}$"},
+    "datum_usneseni": {"$ref": "#/$defs/datum"},
+    "datum_usneseni_zdroj": {"$ref": "#/$defs/zdroj"},
+    "smlouva": {"type": "string", "format": "uri"},
+    "datum_smlouvy": {"$ref": "#/$defs/datum"},
+    "datum_smlouvy_zdroj": {"$ref": "#/$defs/zdroj"}
+   }}},
+  "retezce_smluv": {"type": "array", "items": {"type": "object",
+   "required": ["akce", "smlouvy"],
+   "properties": {
+    "akce": {"type": "string"},
+    "kauza": {"type": "string", "pattern": "^K-\\d{3}$"},
+    "smlouvy": {"type": "array", "minItems": 2, "items": {"type": "object",
+     "required": ["popis", "datum", "datum_zdroj", "castka", "zaklad", "castka_zdroj"],
+     "additionalProperties": false,
+     "properties": {
+      "popis": {"type": "string"},
+      "datum": {"$ref": "#/$defs/datum"},
+      "datum_zdroj": {"$ref": "#/$defs/zdroj"},
+      "castka": {"type": "number"},
+      "zaklad": {"enum": ["bez_DPH", "s_DPH", "neurceno"]},
+      "castka_zdroj": {"$ref": "#/$defs/zdroj"},
+      "ref": {"type": "string"}
+     }}}
+   }}}
+ }
+}

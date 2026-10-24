@@ -1,0 +1,66 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "x-data-files": ["data/zakazky/nipez_vz_pruchod_2026-10-23.json"],
+ "title": "NIPEZ RVZ – záznam průchodu open daty",
+ "description": "data/zakazky/nipez_vz_pruchod_2026-10-23.json",
+ "type": "object",
+ "required": [
+  "schema",
+  "stav",
+  "provedeno",
+  "zdroj",
+  "sledovana_ico"
+ ],
+ "properties": {
+  "schema": {
+   "type": "string"
+  },
+  "stav": {
+   "type": "string"
+  },
+  "provedeno": {
+   "type": "string"
+  },
+  "zdroj": {
+   "type": "string"
+  },
+  "sledovana_ico": {
+   "type": "array",
+   "items": {
+    "type": "string",
+    "pattern": "^\\d{8}$"
+   },
+   "minItems": 1
+  },
+  "kriterium": {
+   "type": "string"
+  },
+  "soubory": {
+   "type": "object"
+  },
+  "overena_struktura": {
+   "type": "object"
+  },
+  "jediny_preneseny_nalez": {
+   "type": "object",
+   "required": [
+    "id",
+    "popis"
+   ],
+   "properties": {
+    "id": {
+     "type": "string"
+    },
+    "typ": {
+     "type": "string"
+    },
+    "popis": {
+     "type": "string"
+    }
+   }
+  },
+  "dalsi_krok": {
+   "type": "string"
+  }
+ }
+}

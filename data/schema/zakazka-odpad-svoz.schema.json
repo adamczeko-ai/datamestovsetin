@@ -1,0 +1,94 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "x-data-files": ["data/zakazky/odpad_svoz.json"],
+ "title": "Svoz odpadu – hlavní smlouva a dodatky",
+ "description": "data/zakazky/odpad_svoz.json",
+ "type": "object",
+ "required": [
+  "zdroj",
+  "hlavni_smlouva"
+ ],
+ "properties": {
+  "zdroj": {
+   "type": "string"
+  },
+  "zjisteni": {
+   "type": "string"
+  },
+  "k_overeni": {
+   "type": "array",
+   "items": {
+    "type": "string"
+   }
+  },
+  "hlavni_smlouva": {
+   "type": "object",
+   "required": [
+    "cislo",
+    "predmet",
+    "dodavatel",
+    "hs"
+   ],
+   "properties": {
+    "cislo": {
+     "type": "string"
+    },
+    "predmet": {
+     "type": "string"
+    },
+    "dodavatel": {
+     "type": "string"
+    },
+    "hodnota": {
+     "type": "string"
+    },
+    "hs": {
+     "type": "string",
+     "pattern": "^\\d+$"
+    },
+    "url": {
+     "type": "string",
+     "pattern": "^https?://"
+    },
+    "dodatky": {
+     "type": "array",
+     "items": {
+      "type": "object",
+      "required": [
+       "c",
+       "hs"
+      ],
+      "properties": {
+       "c": {
+        "type": "integer"
+       },
+       "hs": {
+        "type": "string",
+        "pattern": "^\\d+$"
+       },
+       "podpis": {
+        "type": [
+         "string",
+         "null"
+        ],
+        "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+       },
+       "schvalil": {
+        "type": [
+         "string",
+         "null"
+        ]
+       },
+       "hodnota": {
+        "type": [
+         "number",
+         "null"
+        ]
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}

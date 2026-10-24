@@ -1,0 +1,123 @@
+{
+ "schema": "vsetin-osint/konzistence@1",
+ "stav_k": "2026-10-24T08:24:51+02:00",
+ "poznamka": "Rozpory k ověření, nejsou zjištěním pochybení. Zdrojová data se nemění; stav upravuje člověk.",
+ "souhrn": [
+  {
+   "kontrola": "K1",
+   "popis": "RO: řádky JSON vs roční CSV vs souhrnné CSV",
+   "pocet": 0
+  },
+  {
+   "kontrola": "K2",
+   "popis": "RO: bilance a aritmetika řádků",
+   "pocet": 0
+  },
+  {
+   "kontrola": "K3",
+   "popis": "subjekty.json vs ares_overeni.json",
+   "pocet": 0
+  },
+  {
+   "kontrola": "K4",
+   "popis": "IČO – kontrolní číslice",
+   "pocet": 2
+  },
+  {
+   "kontrola": "K5",
+   "popis": "RO: datum vs index zasedání ZM / schůzí RM",
+   "pocet": 0
+  },
+  {
+   "kontrola": "K6",
+   "popis": "FO jménem v kurátorovaných datech (zakázky, smlouvy)",
+   "pocet": 0
+  },
+  {
+   "kontrola": "K7",
+   "popis": "odvozené soubory odpovídají přegenerování ze zdrojů",
+   "pocet": 0
+  },
+  {
+   "kontrola": "K8",
+   "popis": "tatáž smlouva má všude stejnou částku (stejný základ DPH)",
+   "pocet": 0
+  },
+  {
+   "kontrola": "K9",
+   "popis": "odkazy na soubory a JSON pointery v datech",
+   "pocet": 0
+  },
+  {
+   "kontrola": "K10",
+   "popis": "ruční stavy signálů a jednoznačnost ID anomálií",
+   "pocet": 0
+  },
+  {
+   "kontrola": "K11",
+   "popis": "data minulých událostí a pořadí časové osy kauz",
+   "pocet": 0
+  },
+  {
+   "kontrola": "K12",
+   "popis": "závěrečný účet × MONITOR FIN 2-12 M",
+   "pocet": 0
+  },
+  {
+   "kontrola": "K13",
+   "popis": "duplicitní ID v seznamech",
+   "pocet": 0
+  }
+ ],
+ "zmizele_od_minula": [
+  "K12-2093fbc5e3",
+  "K12-2592f244bb",
+  "K12-f8b9cecc35",
+  "K6-3f56155957",
+  "K6-76ab3a63a2",
+  "K6-cb9708b195",
+  "K6-cd931afed0",
+  "K6-d63ad2406b",
+  "K6-e7fd9810eb"
+ ],
+ "rozpory": [
+  {
+   "id": "K4-ad888ee547",
+   "kontrola": "K4",
+   "popis": "IČO 00000000 nemá platnou kontrolní číslici (mod 11) – překlep nebo zástupná hodnota",
+   "a": {
+    "soubor": "data/zakazky/nipez_vz_okruh_mesta_2024_2026.json",
+    "cesta": "$.zakazky[0].zadavatele[1].ico",
+    "hodnota": "00000000"
+   },
+   "b": {
+    "soubor": "výpočet mod 11",
+    "cesta": "scripts/ares_overeni.ico_ok",
+    "hodnota": false
+   },
+   "vyskyty": 1,
+   "dalsi_mista": [],
+   "zjisteno": "2026-10-23T21:26:21+02:00",
+   "stav": "ke_kontrole"
+  },
+  {
+   "id": "K4-09705f121b",
+   "kontrola": "K4",
+   "popis": "IČO 00000111 nemá platnou kontrolní číslici (mod 11) – překlep nebo zástupná hodnota",
+   "a": {
+    "soubor": "data/transfery/transfery_mesta_2026_08.json",
+    "cesta": "$.prijemci[16].ico",
+    "hodnota": "00000111"
+   },
+   "b": {
+    "soubor": "výpočet mod 11",
+    "cesta": "scripts/ares_overeni.ico_ok",
+    "hodnota": false
+   },
+   "vyskyty": 1,
+   "dalsi_mista": [],
+   "zjisteno": "2026-10-23T21:26:21+02:00",
+   "stav": "ke_kontrole"
+  }
+ ]
+}

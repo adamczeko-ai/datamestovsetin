@@ -1,5 +1,6 @@
 {
  "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "x-data-files": ["data/smlouvy/parovani_ico.json"],
  "title": "Párování IČO se smlouvami (registr smluv)",
  "type": "object",
  "required": ["schema", "zdroj", "stav_k", "metoda", "subjekty", "signaly_k_overeni"],
