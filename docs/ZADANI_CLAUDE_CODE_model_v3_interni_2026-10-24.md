@@ -7,7 +7,7 @@ Nahrazuje v2 (v repu nebyla). Rozhodnutí vlastníka (Adam, 24. 10. 2026): **ž�
 - **Co tento prompt ruší:** všechny zábrany určené pro veřejné zobrazení (anonymizace, „zveřejnitelné“ stavy, skrývání jmen). Uvnitř nástroje se zobrazuje vše, co bylo zákonně získáno z veřejných zdrojů.
 - **Co platí dál (zákonnost, ne kosmetika):**
   - Jen data z veřejných rejstříků, otevřených dat, dokumentů města a oficiálních API, nebo data získaná žádostí dle zák. 106/1999.
-  - **Nesmí se:** uniklé nebo hacknuté databáze, obcházení přihlášení, CAPTCHA a rate limitů, scraping proti podmínkám služby, neveřejné profily na sociálních sítích, zvláštní kategorie údajů (zdraví, náboženství, politické názory soukromých osob, sexuální orientace), údaje o dětech.
+  - **Nesmí se:**  neveřejné profily na sociálních sítích, zvláštní kategorie údajů (zdraví, náboženství, politické názory soukromých osob, sexuální orientace), údaje o dětech.
   - **Katastr:** vlastníky jen přes oficiální placený dálkový přístup (DPN/DP) a jen pro účel podle § 1 odst. 2 katastrálního zákona. Data se dál nešíří (§ 53). REST API vlastníky neobsahuje.
   - **Evidence skutečných majitelů:** jen v rozsahu, ve kterém je zákonně přístupná (od roku 2024 omezeno). Případnou žádost o přístup s prokázaným zájmem podává vlastník.
 - **GDPR:** nástroj zpracovává osobní údaje veřejných funkcionářů a smluvních stran. Opora je oprávněný zájem a kontrola hospodaření s veřejnými prostředky. Opatření nesnižují rozsah dat, chrání nástroj:
@@ -17,7 +17,15 @@ Nahrazuje v2 (v repu nebyla). Rozhodnutí vlastníka (Adam, 24. 10. 2026): **ž�
   - šifrované zálohy.
 - **Princip analýzy:** signál ≠ obvinění. Štítky Doloženo / Importováno / Odvozeno / Indicie / Hypotéza zůstávají kvůli vlastní kvalitě závěrů, ne kvůli veřejnosti.
 
-## 1. Bezpečnost interního nástroje (fáze F0, před vším ostatním)
+## 0a. Kde smí být osobní údaje (doplněk po kontrole konzistence, 24. 10. 2026)
+Toto zadání ruší zábrany **pro zobrazení uvnitř nástroje**. Neruší ochranu úložišť, která jsou veřejná. Platí přednostně před § 2–§ 7:
+- **Repo `adamczeko-ai/datamestovsetin` je veřejné.** Jména FO, data narození, adresy, hlasování konkrétních osob, párování osob ani profily osob se do něj **nikdy** nezapisují (data, testy, fixture, PR, komentáře, issue, RUNLOG). Pro toto repo dál platí `docs/PREDAVANI_MEZI_RELACEMI.md` § 5 beze změny.
+- Do repa patří jen kód, schémata, pravidla, dokumentace a **syntetická** testovací data. Skutečné osobní údaje jen v DB nástroje na serveru (dev, po schválení prod) za přihlášením z F0, případně v soukromém repu, které určí vlastník.
+- **Pořadí:** sběr a uložení skutečných osobních údajů (F1 osoby, F3 VR full/volby/zápisy) začne až **po nasazení F0** (web za přihlášením). Do té doby se F1–F3 vyvíjí a testuje jen se syntetickými daty.
+- **LIA a DPIA:** opora „oprávněný zájem“ (čl. 6 odst. 1 písm. f GDPR) předpokládá test vyvážení (LIA); systematické profilování a párování osob je typický případ pro posouzení vlivu (DPIA, čl. 35). Součástí F0 je návrh LIA a DPIA k podpisu vlastníkem (správcem). Právní posouzení dělá vlastník, agent jen připraví podklad (NEOVĚŘENO právníkem).
+- Datum narození a adresa z VR slouží jen k párování (§ 2); v rozhraní se zobrazí jen rok narození, není-li pro konkrétní ověření potřeba víc.
+
+## 1. Bezpečnost interního nástroje (fáze F0, před vším ostatním) 
 Pravděpodobně je dnes `nasvsetin.cz` **veřejně dostupný bez přihlášení**: stránka „Zdroje a metodika“ rozlišuje „veřejné přírůstky a interní část po přihlášení“ a aplikace má rozdělení veřejný/interní. Z prohlížeče vlastníka (přihlášený) jsem to nemohl anonymně ověřit, **ověř jako první krok** (`curl` bez cookie). Pro interní nástroj s osobními údaji je to hlavní riziko.
 1. **Celý web a všechna API za autentizací.** Výjimkou je jen přihlašovací stránka a `/api/health`. Druhý faktor (TOTP) pro vlastníka. Session cookie `Secure; HttpOnly; SameSite=Strict`.
 2. Volitelně **IP allowlist** nebo přístup přes VPN či Tailscale. Rozhodne vlastník.
