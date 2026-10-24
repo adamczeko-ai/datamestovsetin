@@ -127,6 +127,13 @@
 - `data/monitor/monitor_vs_ro2026_par_pol_2026-08.csv` + `scripts/kontrola_monitor_vs_ro2026_polozky.py`: součet rozdílů 0,00 Kč, 61/172 položek shoda; ~2,99 mil. Kč z rezerv (5901) rozděleno mimo zveřejněná RO 1–15 (indicie k vysvětlení).
 - RO 7: 850 000 Kč schváleno na ODPA 3635, účtováno v 3613 (ověřeno v PDF) – signál k vysvětlení.
 
+## 2026-10-23 (integrace – akceptace a první živý běh na dev)
+- Diagnóza: zdroje dostupné, kód hotový; MONITOR/RÚIAN/RVZ nikdy neběžely živě (cloud blokován, dev bez spouštěcího skriptu). Dnešní HEAD: žádná nová verze → nic nestaženo znovu.
+- `integrace/sources/rvz.py`: roční soubor `VZ-2024_rocni.zip` (2024 dosud nedostupný), zpětné doplnění `rvz --od 2024`, role účastník (`role_okruhu`), výchozí měsíc podle publikace k 5. dni.
+- `integrace/db.py`: idempotentní migrace sloupců. `integrace/akceptace.py` + `python -m integrace akceptace`: 21 kontrol hodnot + 4 kontroly idempotence.
+- `scripts/nasazeni_integrace_dev.sh`: testy → běh 1 → běh 2 → akceptace (JSON report); bez cronu, Dockeru a /opt.
+- Testy: 64 OK (8 nových). Předávka: `docs/HANDOFF_2026-10-23_integrace_akceptace.md`.
+
 ## 2026-10-23 (várka q – kauza K-004 AERV)
 - `data/kauzy/K-004_AERV_zruseni.json`: řetězec dohoda 2012 → narovnání DPH 3 848 880 Kč (= 21 % z 18 328 000) → zrušení (usn. 10/9/ZM/2023) → vklad 3,6 mil. na likvidaci (usn. 1/10/ZM/2023) → převod likvidačního zůstatku (2024) → výmaz.
 - Signál P-02 „zčásti vysvětleno“; otevřené: výše likvidačního zůstatku.

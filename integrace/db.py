@@ -75,7 +75,7 @@ CREATE TABLE IF NOT EXISTS ruian_ulice (
 CREATE TABLE IF NOT EXISTS rvz_zakazka (
   identifikator_nipez TEXT PRIMARY KEY, nazev TEXT, druh TEXT, rezim TEXT,
   predpokladana_hodnota_czk REAL, casova_znacka TEXT, zdroj_dat TEXT,
-  zadavatele_ico TEXT, raw_json TEXT, source_file TEXT, imported_at TEXT NOT NULL
+  zadavatele_ico TEXT, role_okruhu TEXT, raw_json TEXT, source_file TEXT, imported_at TEXT NOT NULL
 );
 CREATE TABLE IF NOT EXISTS rvz_smlouva (
   identifikator_nipez TEXT NOT NULL, cast_nipez TEXT NOT NULL, poradi INTEGER NOT NULL,
@@ -117,9 +117,18 @@ CREATE TABLE IF NOT EXISTS dotace_statni (
 """
 
 
+MIGRACE = [  # (tabulka, sloupec, definice) – doplnění sloupců do již existující DB
+    ("rvz_zakazka", "role_okruhu", "TEXT"),
+]
+
+
 def connect(path: str) -> sqlite3.Connection:
     con = sqlite3.connect(path)
     con.executescript(SCHEMA)
+    for tab, col, typ in MIGRACE:
+        if col not in {r[1] for r in con.execute(f"PRAGMA table_info({tab})")}:
+            con.execute(f"ALTER TABLE {tab} ADD COLUMN {col} {typ}")
+    con.commit()
     return con
 
 

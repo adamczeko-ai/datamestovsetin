@@ -4,6 +4,8 @@ Příklady (vývoj):
   python -m integrace monitor --od 2020 --db /home/administrator/vsetin-osint-dev/data/integrace.db
   python -m integrace ruian
   python -m integrace rvz --rok 2026 --mesic 9
+  python -m integrace rvz --od 2024            # zpětné doplnění (2024 roční + měsíce 2025…)
+  python -m integrace akceptace                # kontrolní hodnoty po prvním živém běhu
   python -m integrace vr
   python -m integrace smlouvy --verze-soubor verze.txt
   python -m integrace dotace --allow-undocumented
@@ -20,6 +22,7 @@ from datetime import date
 
 from . import db
 from .http import Http, now_utc
+from . import akceptace
 from .sources import monitor_finm, ruian_vfr, rvz, vr, registr_smluv, monitor_dotace, dokumenty
 
 HERE = os.path.dirname(__file__)
@@ -35,11 +38,11 @@ def load_config(path: str | None) -> dict:
 
 def main(argv=None):
     ap = argparse.ArgumentParser(prog="integrace")
-    ap.add_argument("zdroj", choices=["monitor", "ruian", "rvz", "vr", "smlouvy", "dotace", "dokumenty", "stav"])
+    ap.add_argument("zdroj", choices=["monitor", "ruian", "rvz", "vr", "smlouvy", "dotace", "dokumenty", "stav", "akceptace"])
     ap.add_argument("--db", default=os.environ.get("INTEGRACE_DB", "integrace.db"))
     ap.add_argument("--cache", default=os.environ.get("INTEGRACE_CACHE", "integrace_cache"))
     ap.add_argument("--config")
-    ap.add_argument("--od", type=int, help="MONITOR: první rok (výchozí 2020)")
+    ap.add_argument("--od", type=int, help="MONITOR: první rok (výchozí 2020); RVZ: zpětné doplnění od roku")
     ap.add_argument("--rok", type=int)
     ap.add_argument("--mesic", type=int)
     ap.add_argument("--verze-soubor", help="registr smluv: soubor s idVerze (1 na řádek)")
@@ -47,6 +50,12 @@ def main(argv=None):
     ap.add_argument("--texty", default=os.environ.get("INTEGRACE_TEXTY", "raw/texty"), help="dokumenty: cílová složka textů")
     ap.add_argument("--allow-undocumented", action="store_true", help="povolit nedokumentované API Registru dotací")
     a = ap.parse_args(argv)
+
+    if a.zdroj == "akceptace":  # jen čtení DB, nezapisuje sync_run
+        con = db.connect(a.db)
+        rep = akceptace.run(con)
+        print(json.dumps(rep, ensure_ascii=False, indent=1))
+        return 0 if rep["selhalo"] == 0 else 1
 
     cfg = load_config(a.config)
     icos = set(cfg["sledovana_ico"])
@@ -72,9 +81,14 @@ def main(argv=None):
                 status = "chyba"
         elif a.zdroj == "ruian":
             res = ruian_vfr.sync(con, http, cfg.get("obec_kod", 541630))
+        elif a.zdroj == "rvz" and a.od:
+            res = rvz.sync_range(con, http, icos, a.od)
+            if res and all(r["status"] == "chyba" for r in res):
+                status = "chyba"
         elif a.zdroj == "rvz":
             t = date.today()
-            y, m = a.rok or (t.year if t.month > 1 else t.year - 1), a.mesic or ((t.month - 2) % 12 + 1)
+            py, pm = rvz.periods(t.year - 1, t)[-1]  # poslední publikovaný soubor (ISVZ k 5. dni)
+            y, m = a.rok or py, a.mesic if a.mesic is not None else pm
             res = rvz.sync_month(con, http, y, m, icos)
         elif a.zdroj == "vr":
             res = vr.sync(con, http, sorted(cfg.get("vr_ico", cfg["sledovana_ico"])))
@@ -101,6 +115,9 @@ def main(argv=None):
                 "SELECT source_id, status, COUNT(*) FROM sync_ledger GROUP BY 1,2")]})
     except Exception as e:  # zaznamenat a vrátit nenulový kód
         status, res = "chyba", f"{type(e).__name__}: {e}"
+    # konektor vrátil chybu ve výsledku (např. RÚIAN/RVZ bez spojení) → běh nesmí být evidován jako „ok“
+    if status == "ok" and isinstance(res, dict) and res.get("status") == "chyba":
+        status = "chyba"
     con.execute("UPDATE sync_run SET finished_at=?, status=?, detail=? WHERE id=?",
                 (now_utc(), status, json.dumps(res, ensure_ascii=False)[:20000], run))
     con.commit()

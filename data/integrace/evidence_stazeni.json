@@ -262,6 +262,71 @@
    "cas_utc": "2026-10-23T05:00Z",
    "http": 200,
    "vysledek": "kontrola hodnot u vzorku verzí z nasvsetin.cz, 1 req/s"
+  },
+  {
+   "source_id": "monitor.finm",
+   "url": "https://monitor.statnipokladna.gov.cz/data/extrakty/csv/FinM2026/2026_08_Data_CSUIS_FINM2026.zip",
+   "cas_utc": "2026-10-23T10:50Z",
+   "metoda": "HEAD",
+   "http": 200,
+   "etag": "\"6ab496d0-17be1a8\"",
+   "size": 24895912,
+   "vysledek": "ETag shodný s importem 22. 10. → nestahováno"
+  },
+  {
+   "source_id": "monitor.finm",
+   "url": "https://monitor.statnipokladna.gov.cz/data/extrakty/csv/FinM2026/2026_09_Data_CSUIS_FINM2026.zip",
+   "cas_utc": "2026-10-23T10:50Z",
+   "metoda": "HEAD",
+   "http": 404,
+   "vysledek": "09/2026 zatím nepublikováno (RSS: poslední publikace ÚSC 24. 9. 2026 za srpen)"
+  },
+  {
+   "source_id": "ruian.vfr",
+   "url": "https://vdp.cuzk.gov.cz/vymenny_format/soucasna/20260930_OB_541630_UKSH.xml.zip",
+   "cas_utc": "2026-10-23T10:51Z",
+   "metoda": "HEAD",
+   "http": 200,
+   "etag": "\"121f426b3751dd1:0\"",
+   "last_modified": "Wed, 30 Sep 2026 23:57:15 GMT",
+   "size": 6178614,
+   "vysledek": "beze změny → nestahováno"
+  },
+  {
+   "source_id": "ruian.vfr",
+   "url": "https://vdp.cuzk.gov.cz/vymenny_format/soucasna/20261031_OB_541630_UKSH.xml.zip",
+   "cas_utc": "2026-10-23T10:51Z",
+   "metoda": "HEAD",
+   "http": 404,
+   "vysledek": "říjnová verze zatím neexistuje (očekávána po 31. 10.)"
+  },
+  {
+   "source_id": "nipez.rvz",
+   "url": "https://isvz.nipez.cz/sites/default/files/content/opendata-rvz/VZ-09-2026.zip",
+   "cas_utc": "2026-10-23T10:52Z",
+   "metoda": "HEAD",
+   "http": 200,
+   "etag": "\"ae80849-65cd3913ebec4\"",
+   "size": 182978633,
+   "vysledek": "beze změny → nestahováno"
+  },
+  {
+   "source_id": "nipez.rvz",
+   "url": "https://isvz.nipez.cz/sites/default/files/content/opendata-rvz/VZ-10-2026.zip",
+   "cas_utc": "2026-10-23T10:52Z",
+   "metoda": "HEAD",
+   "http": 404,
+   "vysledek": "očekáváno k 5. 11. 2026"
+  },
+  {
+   "source_id": "nipez.rvz",
+   "url": "https://isvz.nipez.cz/sites/default/files/content/opendata-rvz/VZ-08-2026.zip",
+   "cas_utc": "2026-10-23T10:52Z",
+   "metoda": "HEAD",
+   "http": 200,
+   "etag": "\"1c2b32f-65a7811d5b513\"",
+   "size": 29537071,
+   "vysledek": "jen metadata"
   }
  ]
 }
