@@ -173,5 +173,14 @@
     "id": "36673621"
    }
   ]
+ },
+ "dph": {
+  "rezim": "osvobozeno",
+  "vyznam": "Kupní cena 33 150 000 Kč je konečná; údaj registru 'hodnota vč. DPH' se rovná ceně bez DPH.",
+  "citace": "Smluvní strany shodně konstatují, že převod předmětu převodu (touto smlouvou), resp. dodání předmětu převodu jakožto nemovitých věcí je osvobozeno od daně z přidané hodnoty",
+  "zdroj": "Kupní smlouva č. 56/4 - 29v/25, čl. 3 odst. 2, s. 4; registr smluv, verze 34141081, příloha 0535_2025_A.pdf",
+  "url": "https://smlouvy.gov.cz/smlouva/34141081",
+  "sha256_prilohy": "def98de85edbeda3956ecf2ccb9abcc5fb401a7218979096905c7a8b40d06770",
+  "overeno": "2026-10-23 – SHA-256 přílohy = hash publikovaný registrem; text vytažen nástrojem integrace dokumenty"
  }
 }

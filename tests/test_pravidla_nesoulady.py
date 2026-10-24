@@ -132,5 +132,62 @@ class PuvodCenovychBodu(unittest.TestCase):
                     self.assertIn(f"{b['castka']:.0f}", cisla, msg=b["zdroj"])
 
 
+class R17(unittest.TestCase):
+    def v(self, du, ds):
+        return {"akce": "A", "usneseni": "1/1/ZM/2025", "datum_usneseni": du, "smlouva": "x", "datum_smlouvy": ds}
+
+    def test_prodleva(self):
+        f = p.r17_prodleva(self.v("2025-04-07", "2025-07-17"), KONF)
+        self.assertEqual((f[0]["kod"], f[0]["zavaznost"]), ("R17-prodleva-usneseni-smlouva", "nizka"))
+        self.assertIn("101 dní", f[0]["popis"])
+
+    def test_bez_signalu(self):
+        self.assertEqual(p.r17_prodleva(self.v("2026-06-22", "2026-06-26"), KONF), [])
+
+    def test_smlouva_pred_usnesenim(self):
+        f = p.r17_prodleva(self.v("2025-04-07", "2025-04-01"), KONF)
+        self.assertEqual((f[0]["kod"], f[0]["zavaznost"]), ("R17-smlouva-pred-usnesenim", "stredni"))
+
+
+class R18(unittest.TestCase):
+    def r(self, *smlouvy):
+        return {"akce": "A", "smlouvy": [dict(zip(("datum", "castka", "zaklad"), s)) for s in smlouvy]}
+
+    def test_narust_vysoky(self):
+        f = p.r18_vyvoj_ceny(self.r(("2025-10-14", 68983751, "bez_DPH"), ("2022-04-08", 19483170, "bez_DPH")), KONF)
+        self.assertEqual(f[0]["zavaznost"], "vysoka")  # řadí se podle data, ne podle pořadí v seznamu
+        self.assertIn("254 %", f[0]["popis"])
+
+    def test_maly_narust_a_ruzny_zaklad(self):
+        self.assertEqual(p.r18_vyvoj_ceny(self.r(("2022-01-01", 100, "bez_DPH"), ("2023-01-01", 140, "bez_DPH")), KONF), [])
+        self.assertEqual(p.r18_vyvoj_ceny(self.r(("2022-01-01", 100, "bez_DPH"), ("2023-01-01", 300, "s_DPH")), KONF), [])
+
+    def test_jedna_smlouva(self):
+        self.assertEqual(p.r18_vyvoj_ceny(self.r(("2022-01-01", 100, "bez_DPH")), KONF), [])
+
+
+class PuvodVazeb(unittest.TestCase):
+    """Data a částky ve vazby_rozhodnuti.json odpovídají hodnotám na uvedených pointerech."""
+
+    def hodnota(self, zdroj):
+        soubor, ptr = zdroj.split("#")
+        with open(os.path.join(ROOT, soubor), encoding="utf-8") as fh:
+            v = json.load(fh)
+        for k in ptr.strip("/").split("/"):
+            v = v[int(k)] if isinstance(v, list) else v[k]
+        return v
+
+    def test_pointery(self):
+        with open(os.path.join(ROOT, "data/analyzy/vazby_rozhodnuti.json"), encoding="utf-8") as fh:
+            d = json.load(fh)
+        for v in d["usneseni_smlouva"]:
+            for k in ("datum_usneseni", "datum_smlouvy"):
+                self.assertTrue(str(self.hodnota(v[k + "_zdroj"])).startswith(v[k]), v[k + "_zdroj"])
+        for r in d["retezce_smluv"]:
+            for s in r["smlouvy"]:
+                self.assertTrue(str(self.hodnota(s["datum_zdroj"])).startswith(s["datum"]), s["datum_zdroj"])
+                self.assertAlmostEqual(float(self.hodnota(s["castka_zdroj"])), s["castka"], places=0)
+
+
 if __name__ == "__main__":
     unittest.main()

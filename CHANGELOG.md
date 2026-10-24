@@ -136,3 +136,9 @@
 - Důvodové zprávy ZM 2023 k AERV nejsou na webu města dostupné (materiály ZM jen od 2/2025, archiv prázdný, zápisy ZM nezveřejněny).
 - K-004 doplněna o usnesení RM 11/29/RM/2023, 12/29/RM/2023 (ukončení nájmu a výpůjček) a 4/53/RM/2024 (převod likvidačního zůstatku, výše neuvedena); `dostupnost_podkladu`.
 - Návrh žádosti dle zák. 106/1999 Sb. (`docs/ZADOST_106_AERV_2026-10-23.md`, neodesláno).
+## 2026-10-23 (model: R17/R18, analytické signály, nesoulady@2, opravy dat)
+- Pravidla R17 (prodleva usnesení → smlouva, smlouva před usnesením) a R18 (nárůst ceny v řetězci smluv téže akce); vstup `data/analyzy/vazby_rozhodnuti.json` s pointery do zdrojů, testy původu hodnot.
+- `signaly.json`: + ruční signály analytiků P-01–P-04 z `parovani_ico.json` (zdroj „analytik“; stav z textu se nepřebírá); celkem 127 signálů.
+- Prompt LLM `nesoulady@2`: systematický kontrolní seznam (cena napříč kroky vč. první × poslední, čas mezi kroky, orgán, rozsah, zakázka, chybějící údaj, DPH, vazby subjektů); holdout test na K-004.
+- ZÚ 2023–2025: `pol_8115.skutecnost` označeno jako 8115 + 8117 + 8118 s rozkladem z MONITORu (původní hodnota beze změny); ZÚ 2023 doplněna skutečnost příjmů a výdajů z MONITORu (`skutecnost_monitor`, se zdrojem).
+- K-002: režim DPH „osvobozeno“ doložen citací z kupní smlouvy (registr 34141081, s. 4, SHA-256 přílohy).

@@ -39,7 +39,11 @@
     "pol_8115": {
      "schvaleny": 79553052.0,
      "upraveny": 207352097.86,
-     "skutecnost": 78581756.03
+     "skutecnost": 78581756.03,
+     "skutecnost_zahrnuje_8117_8118": true,
+     "skutecnost_jen_8115": 28581756.03,
+     "skutecnost_8117_8118": 50000000,
+     "pozn_rozklad": "Hodnota 'skutecnost' = 8115 + 8117 + 8118 (vč. krátkodobých operací řízení likvidity); rozklad z MONITOR FIN 2-12 M 12/2025 (data/monitor/finm_rada_2020_2025_vsetin.json, ETag \"69a182db-177042c\"). Doplněno 2026-10-23 kontrolou konzistence K09; původní hodnota nezměněna."
     },
     "pol_8213_kratkodoby_uver": {
      "upraveny": 200000000.0,
@@ -96,7 +100,11 @@
     "pol_8115": {
      "schvaleny": 73032416.0,
      "upraveny": 113021554.53,
-     "skutecnost": -20876063.32
+     "skutecnost": -20876063.32,
+     "skutecnost_zahrnuje_8117_8118": true,
+     "skutecnost_jen_8115": -30876063.32,
+     "skutecnost_8117_8118": 10000000,
+     "pozn_rozklad": "Hodnota 'skutecnost' = 8115 + 8117 + 8118 (vč. krátkodobých operací řízení likvidity); rozklad z MONITOR FIN 2-12 M 12/2024 (data/monitor/finm_rada_2020_2025_vsetin.json, ETag \"67ed1383-17384b6\"). Doplněno 2026-10-23 kontrolou konzistence K09; původní hodnota nezměněna."
     },
     "pol_8213_kratkodoby_uver": {
      "upraveny": 200000000.0,
@@ -131,17 +139,25 @@
      "schvaleny": 673778000.0,
      "zmeny_tisk": 108879329.93,
      "zmeny_spravne": 42078329.93,
-     "upraveny": 715856329.93
+     "upraveny": 715856329.93,
+     "skutecnost_monitor": 831043154.89,
+     "skutecnost_monitor_zdroj": "MONITOR FIN 2-12 M 12/2023 (data/monitor/finm_rada_2020_2025_vsetin.json, ETag \"65e6cb29-16a9f19\"), řádek 4200"
     },
     "vydaje": {
      "schvaleny": 799729000.0,
      "zmeny": 153797840.42,
-     "upraveny": 953526840.42
+     "upraveny": 953526840.42,
+     "skutecnost_monitor": 781237772.74,
+     "skutecnost_monitor_zdroj": "MONITOR FIN 2-12 M 12/2023 (data/monitor/finm_rada_2020_2025_vsetin.json, ETag \"65e6cb29-16a9f19\"), řádek 4430"
     },
     "pol_8115": {
      "schvaleny": 25951000.0,
      "upraveny": 137670510.49,
-     "skutecnost": -50139639.56
+     "skutecnost": -50139639.56,
+     "skutecnost_zahrnuje_8117_8118": true,
+     "skutecnost_jen_8115": 9860360.44,
+     "skutecnost_8117_8118": -60000000,
+     "pozn_rozklad": "Hodnota 'skutecnost' = 8115 + 8117 + 8118 (vč. krátkodobých operací řízení likvidity); rozklad z MONITOR FIN 2-12 M 12/2023 (data/monitor/finm_rada_2020_2025_vsetin.json, ETag \"65e6cb29-16a9f19\"). Doplněno 2026-10-23 kontrolou konzistence K09; původní hodnota nezměněna."
     },
     "pol_8213_kratkodoby_uver": {
      "upraveny": 100000000.0,

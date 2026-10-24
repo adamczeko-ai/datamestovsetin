@@ -1,0 +1,15 @@
+{
+ "schema": "vsetin-osint/llm-test-ocekavane@1",
+ "poznamka": "Holdout test (kauza, která NEsloužila k ladění promptu nesoulady@2). Sepsáno PŘED během z polí 'otazky' a 'pozorovani' kauzy K-004, která byla ze vstupu ai/test/slepy/K-004.json odstraněna. Pozor: vstup obsahuje pole penize.pozn a penize.kontrola_DPH s částečnou interpretací – test proto měří hlavně schopnost formulovat otevřené body, ne objevit DPH vazbu.",
+ "vstupy": ["ai/test/slepy/K-004.json"],
+ "jadro": [
+  {"id": "H1", "typ": "chybejici_udaj", "popis": "Výše likvidačního zůstatku převedeného městu (smlouva 0740 2024) není uvedena."},
+  {"id": "H2", "typ": "cena/postup", "popis": "Vklad 3,6 mil. Kč do společnosti v procesu zrušení (smlouva 21. 12. 2023, 10 dní před dnem zrušení) – vrácení / zúčtování vkladu."},
+  {"id": "H3", "typ": "chybejici_udaj", "popis": "Odpočet DPH 3 848 880 Kč (čistý dopad nula) není doložen."}
+ ],
+ "volitelne": [
+  {"id": "H4", "popis": "Pohledávka města z titulu náhrady za splacení úvěru ČSOB / zápočtu."},
+  {"id": "H5", "popis": "Nesoulad typu dokumentu: ZM 29. 5. 2023 schválilo dodatek č. 2 k Dohodě o převzetí plnění, registr 28. 6. 2023 uvádí Dodatek č. 2 k nájemní smlouvě 4836/1S/2012."},
+  {"id": "H6", "popis": "Provozovatel podnikatelského inkubátoru č.p. 3 po zrušení AERV."}
+ ]
+}
