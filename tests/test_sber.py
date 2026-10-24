@@ -197,10 +197,10 @@ class TestRegistr(unittest.TestCase):
 
 class TestPseudo(unittest.TestCase):
     def test_text(self):
-        t = ("na základě žádosti paní Mirgové Denisy\nnájemní smlouvu s Pavlem Valigurou, se sídlem …\n"
-             "Bc. Iveta Táborská\nstarostka města Vsetín\nZpracoval/a: Klára Juřicová, DiS.\nkupující ABC s.r.o.")
+        t = ("na základě žádosti paní Ukázkové Denisy\nnájemní smlouvu s Pavlem Valigurou, se sídlem …\n"
+             "Bc. Iveta Táborská\nstarostka města Vsetín\nZpracoval/a: Klára Pokusová, DiS.\nkupující ABC s.r.o.")
         out = pseudo.text(t)
-        for jm in ("Mirgov", "Valigur", "Táborsk", "Juřicov"):
+        for jm in ("Ukázkov", "Valigur", "Táborsk", "Pokusov"):
             self.assertNotIn(jm, out)
         self.assertIn("ABC s.r.o.", out)
         self.assertIn("se sídlem", out)
@@ -211,16 +211,16 @@ class TestPseudo(unittest.TestCase):
             self.assertEqual(pseudo.text(s), s)
 
     def test_nazev_a_subjekt(self):
-        self.assertEqual(pseudo.nazev("Dražební vyhláška, Škabraha Tomáš"), "Dražební vyhláška, [FO]")
+        self.assertEqual(pseudo.nazev("Dražební vyhláška, Pokusný Tomáš"), "Dražební vyhláška, [FO]")
         self.assertEqual(pseudo.nazev_subjektu("Jan Novák"), pseudo.FO_ARES)
         self.assertEqual(pseudo.nazev_subjektu("Firma X", pravni_forma="101"), pseudo.FO_ARES)
         self.assertEqual(pseudo.nazev_subjektu("SMO a.s."), "SMO a.s.")
 
     def test_jmena_z_pseudonymu(self):
-        self.assertEqual(pseudo.jmena_z_pseudonymu("Žádost o splátkový kalendář-Mirgová Denisa",
-                                                   "Žádost o splátkový kalendář-[FO]"), ["Mirgová Denisa"])
-        self.assertIn("Mirgov", pseudo.text("paní Mirgové", []) + "Mirgov")  # sanity
-        self.assertNotIn("Mirgov", pseudo.text("dluh Mirgové", ["Mirgová Denisa"]))
+        self.assertEqual(pseudo.jmena_z_pseudonymu("Žádost o splátkový kalendář-Ukázková Denisa",
+                                                   "Žádost o splátkový kalendář-[FO]"), ["Ukázková Denisa"])
+        self.assertIn("Ukázkov", pseudo.text("paní Ukázkové", []) + "Ukázkov")  # sanity
+        self.assertNotIn("Ukázkov", pseudo.text("dluh Ukázkové", ["Ukázková Denisa"]))
 
 
 class TestPseudoZnameUniky(unittest.TestCase):
@@ -234,9 +234,25 @@ class TestPseudoZnameUniky(unittest.TestCase):
         return out
 
     def test_cizi_a_mene_casta_krestni_jmena(self):
-        self.assertBezJmena("ve výši 15.000 Kč na účast Natalie Ellen Testerová na soustředění", "Natalie", "Ellen", "Tester")
+        self.assertBezJmena("ve výši 15.000 Kč na účast Natalie Zkouškový Testerová na soustředění", "Natalie", "Zkouškový", "Tester")
         for jm in ("Erik", "Jonáš", "Bořek", "Lumír", "Evžen", "Alexander"):
             self.assertBezJmena(f"smlouva, kterou uzavřel {jm} Fiktivní", jm, "Fiktivní")
+
+    def test_datum_narozeni_a_bydliste(self):
+        """Datum narození (i slovní měsíc) a adresa za „bytem“ se neuvádějí; sídlo právnické osoby zůstává."""
+        out = pseudo.text("prominutí dluhu [FO], nar. 17. října 1987, bytem Na Vzorku 1235, 755 01\nVsetín.")
+        self.assertNotIn("1987", out)
+        self.assertNotIn("1235", out)
+        self.assertIn("nar. …, bytem …", out)
+        out = pseudo.text("proti povinnému: [FO]\nbytem Lhota č.p. 655, Lhota, dat. nar. 22.03.1980\nt a k o")
+        self.assertNotIn("655", out)
+        self.assertNotIn("1980", out)
+        out = pseudo.text("[FO], nar. …, a [FO], nar. …, oba trvale bytem Vzorová 1484/25,\n755 01 Vsetín, dle podmínek")
+        self.assertNotIn("1484", out)
+        self.assertIn("dle podmínek", out)
+        s = "Město Vsetín, se sídlem Svárov 1080, 755 01 Vsetín, IČ: 003 04 450"
+        self.assertEqual(pseudo.text(s), s)
+        self.assertIn("celoročním pobytem občana", pseudo.text("s celoročním pobytem občana města"))
 
     def test_prijemce_dotace_bytem_nar(self):
         self.assertBezJmena("Žadatel/investor: Erik Zkušební, nar. ░░░░ , bytem ░░░░", "Zkušební")
@@ -245,7 +261,7 @@ class TestPseudoZnameUniky(unittest.TestCase):
         self.assertBezJmena("Rada města Vsetín schvaluje poskytnutí dotace Ivě Vymyšlené, se sídlem Vsetín", "Vymyšlen")
         self.assertEqual(pseudo.text("poskytnutí dotace Centru Áčko, p.o., se sídlem"), "poskytnutí dotace Centru Áčko, p.o., se sídlem")
         self.assertBezJmena("dohoda o uznání dluhu s [FO] a Ruprechtem Vymyšleným", "Ruprecht", "Vymyšlen")
-        self.assertBezJmena("sleva z nájemného nájemci Thi Lan Vymyšlená, Jasenická 1, Vsetín", "Lan", "Vymyšlen")
+        self.assertBezJmena("sleva z nájemného nájemci Thi Vzorkový Vymyšlená, Jasenická 1, Vsetín", "Vzorkový", "Vymyšlen")
         self.assertBezJmena("Paní Vymyšlená se zněním materiálů souhlasí", "Vymyšlen")
         # nález z kontroly PR #8 (syntetická data): strana smlouvy „jméno, nar. rok“, iniciály s rokem narození
         self.assertEqual(pseudo.nazev_subjektu("Kvido Neznámý, nar. 1971"), pseudo.FO_ARES)

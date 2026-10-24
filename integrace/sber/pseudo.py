@@ -6,7 +6,8 @@ Heuristika (není zaručená – výstup před zveřejněním kontroluje člově
 3. akademické tituly (Ing., Mgr., MUDr., …) + jména,
 4. řádek se jménem bez titulu před funkcí (starosta, místostarostka, tajemník, vedoucí …),
 5. křestní jméno ze slovníku (i skloňované: Pavlem, Janou, Zdeňkovi) + slovo s velkým písmenem, i obráceně,
-6. jméno před „bytem“, „nar.“, „r. č.“ (typicky příjemce dotace – fyzická osoba) se nahradí vždy,
+6. jméno před „bytem“, „nar.“, „r. č.“ (typicky příjemce dotace – fyzická osoba) se nahradí vždy;
+   datum narození (i „17. října 1987“) a adresa za „bytem“ se nahradí „…“,
 7. dokumenty o volbách (zápis o výsledku voleb, kandidátní listiny): všechna víceslovná jména celoplošně,
 8. v názvech: úsek za čárkou/pomlčkou ve tvaru „Příjmení Jméno“ bez právní formy a bez slov instituce.
 Ulice (ul., třída, nábřeží, „Tomáše Bati 21, …“), instituce pojmenované po osobě (škola, nadace,
@@ -153,8 +154,16 @@ RE_OSLOVENI = re.compile(rf"\b((?i:{OSLOVENI}))\s+({JMENO}(?:\s+a\s+{JMENO})?)")
 # iniciály osoby: „pány R.K (rok nar. 1965)“, „J. N., nar.“
 RE_INICIALY = re.compile(rf"(\b(?i:{OSLOVENI}|pány|pánům|pánech|paním)\s+)([{V}]\.\s?[{V}]\.?(?:\s?[{V}]\.?)?)(?![{M}])"
                          rf"|\b([{V}]\.\s?[{V}]\.?)(?=,?\s*\(?(?:rok\s+)?nar)")
-# rok/datum narození fyzické osoby se neuvádí (minimalizace): „nar. 1971“ -> „nar. …“
-RE_NAR = re.compile(r"((?:rok\s+)?nar(?:\.|ozen[aáýé]?)\s*)(?:\d{1,2}\.\s?\d{1,2}\.\s?)?\d{4}")
+# rok/datum narození fyzické osoby se neuvádí (minimalizace): „nar. 1971“, „nar. 17. října 1987“ -> „nar. …“
+_MESICE = "ledna|února|března|dubna|května|června|července|srpna|září|října|listopadu|prosince"
+RE_NAR = re.compile(rf"((?:rok\s+|dat\.\s*)?(?:nar(?:\.|ozen[aáýé]?)|datum narození:?)\s*(?:dne\s*)?)"
+                    rf"(?:\d{{1,2}}\.\s?(?:\d{{1,2}}\.|(?:{_MESICE}))\s?)?\d{{4}}")
+# adresa bydliště fyzické osoby se neuvádí: „bytem Na Příkopě 1235, 755 01 Vsetín“ -> „bytem …“
+# (ulice s číslem domu, pak nejvýše 3 úseky PSČ / obec; „se sídlem“ právnických osob se nemění)
+_OBEC = rf"[{V}][{M}]+(?:\s+(?:pod|nad|u|v)\s+[{V}][{M}]+|-[{V}][{M}]+)?(?![.{M}])"
+RE_BYDLISTE = re.compile(
+    rf"(\b(?:trvale\s+)?bytem\s+)(?![…░\[])[^,;()\[\]]{{0,40}}?(?:č\.\s?p\.\s?)?\d+(?:/\d+)?[a-zA-Z]?\b"
+    rf"(?:\s*,?\s*(?:PSČ:?\s*\d{{3}}\s?\d{{2}}(?:\s+{_OBEC})?|\d{{3}}\s?\d{{2}}(?:\s+{_OBEC})?|{_OBEC})){{0,3}}")
 RE_FUNKCE = re.compile(
     rf"(?m)^({JMENO})[ \t]*\n(?=[ \t]*(?:I+\.\s*)?(?:starost|místostarost|tajemn|vedouc|předsed|ředitel|"
     rf"jednatel|referent|zpracoval|člen))")
@@ -259,6 +268,7 @@ def text(t: str | None, znama_jmena: list[str] | tuple = ()) -> str | None:
     t = RE_FYZ_OSOBA.sub(lambda m: m.group(1) + FO, t)
     t = RE_INICIALY.sub(lambda m: (m.group(1) + FO) if m.group(1) else FO, t)
     t = RE_NAR.sub(lambda m: m.group(1) + "…", t)
+    t = RE_BYDLISTE.sub(lambda m: m.group(1) + "…", t)
     t = RE_PRIJEMCE.sub(lambda m: m.group(0) if je_pravnicka(m.group(2)) or any(
         w in NE_JMENO for w in m.group(2).split()) else m.group(1) + FO, t)
     if RE_VOLBY.search(t):
