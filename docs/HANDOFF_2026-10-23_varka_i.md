@@ -11,7 +11,7 @@
   - V roce 2023 navíc vklad 3,6 mil. Kč a „narovnání“ 3,85 mil. Kč.
   - Skutečný majitel **není evidován**.
 - **FC Vsetín, z.s.** (= FC Fastav, IČO 62334697): smlouva o smlouvě budoucí o nájmu a provozu sportovního areálu, **36,3 mil. Kč** (2021).
-- **Kolumbárium:** zhotovitel Martin Urban (IČO 73257958, Lhota u Vsetína), 38,78 mil. Kč bez DPH.
+- **Kolumbárium:** zhotovitel [FO-004] (IČO 73257958, Lhota u Vsetína), 38,78 mil. Kč bez DPH.
 - Smlouva na **stavbu lávky Vs-01-Bel** v registru stále není.
 
 ## Rozpočtová opatření 2022

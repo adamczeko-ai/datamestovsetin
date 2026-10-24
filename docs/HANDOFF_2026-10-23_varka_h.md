@@ -17,7 +17,7 @@ Ve složce ds-19121 jsou dostupné jen balíčky ze zasedání 17–27 (únor 20
 
 ## 3. Párování akcí se smlouvami (`data/smlouvy/parovani_akci.json`)
 - **Lávka Vs-01-Bel:** smlouva s Damostis s.r.o. na **532 279 Kč** přesně odpovídá nabídce diagnostiky z RO 2/2026. Smlouva na stavební práce za 12,8 mil. Kč zatím **v registru není**.
-- **Kolumbárium:** smlouva s Martinem Urbanem má hodnotu **46,9 mil. Kč**, rozpočet 2026 je 26,2 mil. Kč. Je potřeba ověřit etapy a víceleté financování.
+- **Kolumbárium:** smlouva s [FO-004] má hodnotu **46,9 mil. Kč**, rozpočet 2026 je 26,2 mil. Kč. Je potřeba ověřit etapy a víceleté financování.
 - **Městské lázně VZT:** smlouva s JASY Vsetín na 11,36 mil. Kč odpovídá RO 11/2026.
 - **FVE ZŠ Ohrada:** dodavatelem je H & B delta, s.r.o., která v prosinci 2025 darovala peníze MVK. Je to druhý případ vzorce „dárce → dodavatel“ (po LPT System). Jen evidujeme, bez závěru.
 

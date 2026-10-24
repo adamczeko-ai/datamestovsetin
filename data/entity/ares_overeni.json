@@ -115,12 +115,12 @@
     "data/entity/subjekty.json"
    ],
    "nazvy_v_datech": [
-    "MDDr. Helena Kozárková"
+    "[FO-001]"
    ],
    "ares_http": 200,
-   "obchodni_jmeno": "MDDr. Helena Kozárková",
+   "obchodni_jmeno": "[FO-001]",
    "pravni_forma": "105",
-   "sidlo": "Rokytnice 413, Rokytnice, 75501 Vsetín",
+   "sidlo": "[FO – neuvedeno]",
    "datum_vzniku": "2014-03-01",
    "datum_zaniku": null,
    "datum_aktualizace_ares": "2025-11-16"
@@ -1175,12 +1175,12 @@
     "data/entity/subjekty.json"
    ],
    "nazvy_v_datech": [
-    "Pavel Škrabánek"
+    "[FO-002]"
    ],
    "ares_http": 200,
-   "obchodni_jmeno": "Pavel Škrabánek",
+   "obchodni_jmeno": "[FO-002]",
    "pravni_forma": "101",
-   "sidlo": "Rokytnice 240, Rokytnice, 75501 Vsetín",
+   "sidlo": "[FO – neuvedeno]",
    "datum_vzniku": "1998-09-23",
    "datum_zaniku": null,
    "datum_aktualizace_ares": "2026-05-05"
@@ -1209,12 +1209,12 @@
     "data/entity/subjekty.json"
    ],
    "nazvy_v_datech": [
-    "Ing. Jiří Macháček – INPRAISE"
+    "[FO-003]"
    ],
    "ares_http": 200,
-   "obchodni_jmeno": "Jiří Macháček",
+   "obchodni_jmeno": "[FO-003]",
    "pravni_forma": "105",
-   "sidlo": "Bratří Hlaviců 80, 75501 Vsetín",
+   "sidlo": "[FO – neuvedeno]",
    "datum_vzniku": "2000-04-26",
    "datum_zaniku": null,
    "datum_aktualizace_ares": "2025-04-02"
@@ -1277,12 +1277,12 @@
     "data/zakazky/verejne_zakazky.json"
    ],
    "nazvy_v_datech": [
-    "Martin Urban"
+    "[FO-004]"
    ],
    "ares_http": 200,
-   "obchodni_jmeno": "Martin Urban",
+   "obchodni_jmeno": "[FO-004]",
    "pravni_forma": "107",
-   "sidlo": "Horní Jasenka 315, 75501 Vsetín",
+   "sidlo": "[FO – neuvedeno]",
    "datum_vzniku": "2003-08-13",
    "datum_zaniku": null,
    "datum_aktualizace_ares": "2026-09-04"

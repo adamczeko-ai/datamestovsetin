@@ -1,6 +1,6 @@
 {
  "schema": "vsetin-osint/konzistence@1",
- "stav_k": "2026-10-23T21:35:56+02:00",
+ "stav_k": "2026-10-24T08:24:51+02:00",
  "poznamka": "Rozpory k ověření, nejsou zjištěním pochybení. Zdrojová data se nemění; stav upravuje člověk.",
  "souhrn": [
   {
@@ -31,7 +31,7 @@
   {
    "kontrola": "K6",
    "popis": "FO jménem v kurátorovaných datech (zakázky, smlouvy)",
-   "pocet": 6
+   "pocet": 0
   },
   {
    "kontrola": "K7",
@@ -61,7 +61,7 @@
   {
    "kontrola": "K12",
    "popis": "závěrečný účet × MONITOR FIN 2-12 M",
-   "pocet": 3
+   "pocet": 0
   },
   {
    "kontrola": "K13",
@@ -69,7 +69,17 @@
    "pocet": 0
   }
  ],
- "zmizele_od_minula": [],
+ "zmizele_od_minula": [
+  "K12-2093fbc5e3",
+  "K12-2592f244bb",
+  "K12-f8b9cecc35",
+  "K6-3f56155957",
+  "K6-76ab3a63a2",
+  "K6-cb9708b195",
+  "K6-cd931afed0",
+  "K6-d63ad2406b",
+  "K6-e7fd9810eb"
+ ],
  "rozpory": [
   {
    "id": "K4-ad888ee547",
@@ -107,165 +117,6 @@
    "vyskyty": 1,
    "dalsi_mista": [],
    "zjisteno": "2026-10-23T21:26:21+02:00",
-   "stav": "ke_kontrole"
-  },
-  {
-   "id": "K6-76ab3a63a2",
-   "kontrola": "K6",
-   "popis": "IČO 73257958: fyzická osoba (právní forma 107) uvedena jménem",
-   "a": {
-    "soubor": "data/smlouvy/parovani_ico.json",
-    "cesta": "$.subjekty[7].nazev",
-    "hodnota": "(jméno – neuvádí se)"
-   },
-   "b": {
-    "soubor": "data/entity/ares_overeni.json",
-    "cesta": "subjekty[ico=73257958].pravni_forma",
-    "hodnota": "107"
-   },
-   "navrh": "pseudonymizovat jméno v odvozených datech (rozhodne vlastník dat)",
-   "zjisteno": "2026-10-23T21:26:21+02:00",
-   "stav": "ke_kontrole"
-  },
-  {
-   "id": "K6-e7fd9810eb",
-   "kontrola": "K6",
-   "popis": "IČO 02536986: fyzická osoba (právní forma 105) uvedena jménem",
-   "a": {
-    "soubor": "data/smlouvy/parovani_ico.json",
-    "cesta": "$.subjekty[37].nazev",
-    "hodnota": "(jméno – neuvádí se)"
-   },
-   "b": {
-    "soubor": "data/entity/ares_overeni.json",
-    "cesta": "subjekty[ico=02536986].pravni_forma",
-    "hodnota": "105"
-   },
-   "navrh": "pseudonymizovat jméno v odvozených datech (rozhodne vlastník dat)",
-   "zjisteno": "2026-10-23T21:26:21+02:00",
-   "stav": "ke_kontrole"
-  },
-  {
-   "id": "K6-cd931afed0",
-   "kontrola": "K6",
-   "popis": "IČO 68349742: fyzická osoba (právní forma 101) uvedena jménem",
-   "a": {
-    "soubor": "data/smlouvy/parovani_ico.json",
-    "cesta": "$.subjekty[50].nazev",
-    "hodnota": "(jméno – neuvádí se)"
-   },
-   "b": {
-    "soubor": "data/entity/ares_overeni.json",
-    "cesta": "subjekty[ico=68349742].pravni_forma",
-    "hodnota": "101"
-   },
-   "navrh": "pseudonymizovat jméno v odvozených datech (rozhodne vlastník dat)",
-   "zjisteno": "2026-10-23T21:26:21+02:00",
-   "stav": "ke_kontrole"
-  },
-  {
-   "id": "K6-3f56155957",
-   "kontrola": "K6",
-   "popis": "IČO 73257958: fyzická osoba (právní forma 107) uvedena jménem",
-   "a": {
-    "soubor": "data/zakazky/nipez_vz_okruh_mesta_2024_2026.json",
-    "cesta": "$.zakazky[5].smlouvy[0].dodavatele[0].nazev",
-    "hodnota": "(jméno – neuvádí se)"
-   },
-   "b": {
-    "soubor": "data/entity/ares_overeni.json",
-    "cesta": "subjekty[ico=73257958].pravni_forma",
-    "hodnota": "107"
-   },
-   "navrh": "pseudonymizovat jméno v odvozených datech (rozhodne vlastník dat)",
-   "zjisteno": "2026-10-23T21:26:21+02:00",
-   "stav": "ke_kontrole"
-  },
-  {
-   "id": "K6-d63ad2406b",
-   "kontrola": "K6",
-   "popis": "IČO 73257958: fyzická osoba (právní forma 107) uvedena jménem",
-   "a": {
-    "soubor": "data/zakazky/nipez_vz_okruh_mesta_2024_2026.json",
-    "cesta": "$.zakazky[61].smlouvy[0].dodavatele[0].nazev",
-    "hodnota": "(jméno – neuvádí se)"
-   },
-   "b": {
-    "soubor": "data/entity/ares_overeni.json",
-    "cesta": "subjekty[ico=73257958].pravni_forma",
-    "hodnota": "107"
-   },
-   "navrh": "pseudonymizovat jméno v odvozených datech (rozhodne vlastník dat)",
-   "zjisteno": "2026-10-23T21:26:21+02:00",
-   "stav": "ke_kontrole"
-  },
-  {
-   "id": "K6-cb9708b195",
-   "kontrola": "K6",
-   "popis": "IČO 73257958: fyzická osoba (právní forma 107) uvedena jménem",
-   "a": {
-    "soubor": "data/zakazky/verejne_zakazky.json",
-    "cesta": "$.zakazky[1].ucastnici[1].nazev",
-    "hodnota": "(jméno – neuvádí se)"
-   },
-   "b": {
-    "soubor": "data/entity/ares_overeni.json",
-    "cesta": "subjekty[ico=73257958].pravni_forma",
-    "hodnota": "107"
-   },
-   "navrh": "pseudonymizovat jméno v odvozených datech (rozhodne vlastník dat)",
-   "zjisteno": "2026-10-23T21:26:21+02:00",
-   "stav": "ke_kontrole"
-  },
-  {
-   "id": "K12-f8b9cecc35",
-   "kontrola": "K12",
-   "popis": "ZÚ 2023 pol_8115.skutecnost ≠ MONITOR 8115",
-   "a": {
-    "soubor": "data/zaverecny_ucet/zaverecny_ucet_2023_2025.json",
-    "cesta": "/roky/2023/rozpocet/pol_8115/skutecnost",
-    "hodnota": -50139639.56
-   },
-   "b": {
-    "soubor": "data/monitor/finm_rada_2020_2025_vsetin.json",
-    "cesta": "/roky/2023/8115/2",
-    "hodnota": 9860360.44
-   },
-   "zjisteno": "2026-10-23T21:35:56+02:00",
-   "stav": "ke_kontrole"
-  },
-  {
-   "id": "K12-2093fbc5e3",
-   "kontrola": "K12",
-   "popis": "ZÚ 2024 pol_8115.skutecnost ≠ MONITOR 8115",
-   "a": {
-    "soubor": "data/zaverecny_ucet/zaverecny_ucet_2023_2025.json",
-    "cesta": "/roky/2024/rozpocet/pol_8115/skutecnost",
-    "hodnota": -20876063.32
-   },
-   "b": {
-    "soubor": "data/monitor/finm_rada_2020_2025_vsetin.json",
-    "cesta": "/roky/2024/8115/2",
-    "hodnota": -30876063.32
-   },
-   "zjisteno": "2026-10-23T21:35:56+02:00",
-   "stav": "ke_kontrole"
-  },
-  {
-   "id": "K12-2592f244bb",
-   "kontrola": "K12",
-   "popis": "ZÚ 2025 pol_8115.skutecnost ≠ MONITOR 8115",
-   "a": {
-    "soubor": "data/zaverecny_ucet/zaverecny_ucet_2023_2025.json",
-    "cesta": "/roky/2025/rozpocet/pol_8115/skutecnost",
-    "hodnota": 78581756.03
-   },
-   "b": {
-    "soubor": "data/monitor/finm_rada_2020_2025_vsetin.json",
-    "cesta": "/roky/2025/8115/2",
-    "hodnota": 28581756.03
-   },
-   "zjisteno": "2026-10-23T21:35:56+02:00",
    "stav": "ke_kontrole"
   }
  ]

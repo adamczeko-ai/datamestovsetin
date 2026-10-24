@@ -1821,7 +1821,7 @@
    "hlavni_body": [
     "Daň z příjmu PO hrazená městem (+6,74 mil.)",
     "Nabytí spoluvlastnických podílů k pozemkům",
-    "Zubní ordinace: MDDr. Kozárková 500 tis., MDDr. Sušeň s.r.o.",
+    "Zubní ordinace: [FO-001] 500 tis., MDDr. Sušeň s.r.o.",
     "Redigitalizace kina",
     "FC Fastav – dotace (+600 tis.)",
     "DPS Pod Žamboškou (+4,5 mil.)",
@@ -2211,7 +2211,7 @@
      "pred": 0.0,
      "zmena": 500000.0,
      "po": 500000.0,
-     "popis": "Finanční podpora na vybavení zubní ordinace MDDr. Kozárková"
+     "popis": "Finanční podpora na vybavení zubní ordinace [FO-001]"
     },
     {
      "typ": "V",

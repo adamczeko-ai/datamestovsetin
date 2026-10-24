@@ -991,7 +991,7 @@
    "kod": "P-analyticky-signal",
    "zdroj_signalu": "analytik",
    "zavaznost": "stredni",
-   "popis": "vysoký podíl dodatků: Martin Urban: 37 smluv, 14 dodatků (11 se změnou ceny). TM Stav: 71 smluv (259 mil. Kč bez DPH, 2016–2024), 31 dodatků. Doplňuje pravidlo R13 (kumulace dodatků).",
+   "popis": "vysoký podíl dodatků: [FO-004]: 37 smluv, 14 dodatků (11 se změnou ceny). TM Stav: 71 smluv (259 mil. Kč bez DPH, 2016–2024), 31 dodatků. Doplňuje pravidlo R13 (kumulace dodatků).",
    "castka_Kc": null,
    "dukazy": [
     {
@@ -1014,7 +1014,7 @@
      "73257958",
      "48399477"
     ],
-    "popis": "Martin Urban: 37 smluv, 14 dodatků (11 se změnou ceny). TM Stav: 71 smluv (259 mil. Kč bez DPH, 2016–2024), 31 dodatků. Doplňuje pravidlo R13 (kumulace dodatků)."
+    "popis": "[FO-004]: 37 smluv, 14 dodatků (11 se změnou ceny). TM Stav: 71 smluv (259 mil. Kč bez DPH, 2016–2024), 31 dodatků. Doplňuje pravidlo R13 (kumulace dodatků)."
    }
   },
   {
@@ -5267,7 +5267,7 @@
    "kod": "R5-dotace-subjektu",
    "zdroj_signalu": "pravidlo",
    "zavaznost": "nizka",
-   "popis": "Finanční podpora na vybavení zubní ordinace MDDr. Kozárková: +500 000 Kč",
+   "popis": "Finanční podpora na vybavení zubní ordinace [FO-001]: +500 000 Kč",
    "castka_Kc": 500000.0,
    "dukazy": [
     {
@@ -5296,7 +5296,7 @@
    "puvodni": {
     "kod": "R5-dotace-subjektu",
     "zavaznost": "nizka",
-    "popis": "Finanční podpora na vybavení zubní ordinace MDDr. Kozárková: +500 000 Kč",
+    "popis": "Finanční podpora na vybavení zubní ordinace [FO-001]: +500 000 Kč",
     "castka_Kc": 500000.0,
     "odkazy": [
      "RO-2025-08",
@@ -5603,7 +5603,7 @@
    "kod": "R5-dotace-subjektu",
    "zdroj_signalu": "pravidlo",
    "zavaznost": "nizka",
-   "popis": "Finanční příspěvek - MUDr. Adéla Jenerál Chmelařová: +300 000 Kč",
+   "popis": "Finanční příspěvek - [FO-005]: +300 000 Kč",
    "castka_Kc": 300000.0,
    "dukazy": [
     {
@@ -5632,7 +5632,7 @@
    "puvodni": {
     "kod": "R5-dotace-subjektu",
     "zavaznost": "nizka",
-    "popis": "Finanční příspěvek - MUDr. Adéla Jenerál Chmelařová: +300 000 Kč",
+    "popis": "Finanční příspěvek - [FO-005]: +300 000 Kč",
     "castka_Kc": 300000.0,
     "odkazy": [
      "RO-2024-15",

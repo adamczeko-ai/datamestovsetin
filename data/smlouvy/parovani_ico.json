@@ -293,7 +293,7 @@
   },
   {
    "ico": "73257958",
-   "nazev": "Martin Urban",
+   "nazev": "[FO-004]",
    "pocet_smluv": 37,
    "pocet_vicestranne": 0,
    "pocet_publikuje_protistrana": 0,
@@ -1451,7 +1451,7 @@
   },
   {
    "ico": "02536986",
-   "nazev": "MDDr. Helena Kozárková",
+   "nazev": "[FO-001]",
    "pocet_smluv": 3,
    "pocet_vicestranne": 0,
    "pocet_publikuje_protistrana": 0,
@@ -1895,7 +1895,7 @@
   },
   {
    "ico": "68349742",
-   "nazev": "Pavel Škrabánek",
+   "nazev": "[FO-002]",
    "pocet_smluv": 2,
    "pocet_vicestranne": 0,
    "pocet_publikuje_protistrana": 0,
@@ -2215,7 +2215,7 @@
     "73257958",
     "48399477"
    ],
-   "popis": "Martin Urban: 37 smluv, 14 dodatků (11 se změnou ceny). TM Stav: 71 smluv (259 mil. Kč bez DPH, 2016–2024), 31 dodatků. Doplňuje pravidlo R13 (kumulace dodatků)."
+   "popis": "[FO-004]: 37 smluv, 14 dodatků (11 se změnou ceny). TM Stav: 71 smluv (259 mil. Kč bez DPH, 2016–2024), 31 dodatků. Doplňuje pravidlo R13 (kumulace dodatků)."
   },
   {
    "id": "P-04",

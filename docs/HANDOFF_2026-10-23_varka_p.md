@@ -27,7 +27,7 @@ Roadmapa P1, automatické párování subjektů se smlouvami podle IČO. Ruční
 |---|---|
 | P-01 | Čtyři dodavatelé projektu MVK č.p. 1356 (FUSION ARCHITECTS, FORM, LPT System, H & B delta) uzavřeli s městem darovací smlouvy s po sobě jdoucími čísly 0781–0784 2025, ve dnech 12.–15. 12. 2025, na 10–25 tis. Kč. Ověřit účel darů a pravidla přijímání darů od dodavatelů. |
 | P-02 | AERV o.p.s.: smlouvu o vkladu 3,6 mil. Kč (714/1S/2023) město uzavřelo 21. 12. 2023, tedy 10 dní před dnem zrušení společnosti. Předtím: zhodnocení předmětu nájmu 18,33 mil. Kč bez DPH (6/2023) a ukončení nájmu (11/2023). Likvidační zůstatek byl převeden obci smlouvou 0740 2024, hodnota v registru není uvedena. |
-| P-03 | Vysoký podíl dodatků: Martin Urban má 14 dodatků na 37 smluv (11 mění cenu), TM Stav 31 dodatků na 71 smluv (259 mil. Kč, 2016–2024). |
+| P-03 | Vysoký podíl dodatků: [FO-004] má 14 dodatků na 37 smluv (11 mění cenu), TM Stav 31 dodatků na 71 smluv (259 mil. Kč, 2016–2024). |
 | P-04 | Oprava K-003 (viz výše). |
 
 ## Omezení

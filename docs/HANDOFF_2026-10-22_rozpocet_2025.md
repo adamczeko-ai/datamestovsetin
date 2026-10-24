@@ -18,7 +18,7 @@ Počty řádků, součty i aritmetika řádků souhlasí s PDF u všech RO. Řad
 ## Hlavní toky 2025
 - **Financování (pol. 8115):** 79,6 mil. Kč (po RO 2) → 207,4 mil. Kč (po RO 24)
 - **RO 4 (ZM):** výkup pozemku s tribunou na Ohradě od TJ Mez +10,15 mil.; stavební úpravy MVK/TIC na Dolním náměstí; odstranění lávky VS-01-Bol +5 mil. Kč
-- **RO 8 (ZM):** podpora zubních ordinací (MDDr. Kozárková 500 tis.; MDDr. Sušeň s.r.o.); DPS Pod Žamboškou +4,5 mil.; VZT v DK 12 mil.; FVE ZŠ Ohrada přesunuta do 2026 (−18,2 mil.)
+- **RO 8 (ZM):** podpora zubních ordinací ([FO-001] 500 tis.; MDDr. Sušeň s.r.o.); DPS Pod Žamboškou +4,5 mil.; VZT v DK 12 mil.; FVE ZŠ Ohrada přesunuta do 2026 (−18,2 mil.)
 - **RO 13 (ZM):** Přednádražní prostor +20 mil. → 80 mil. Kč; studie nové lávky v Panské zahradě 0,8 mil.; vánoční osvětlení 5 mil. (pak +0,37 a +0,13 mil. v RO 23/24)
 - **RO 24:** opravy dotací podle skutečnosti, MVK/TIC pol. 4216 −15,3 mil.; nevyúčtovaná dotace 4,36 mil. Kč
 
