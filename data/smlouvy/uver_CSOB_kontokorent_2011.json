@@ -6,6 +6,7 @@
  "retezec": [
   {
    "datum": "2011-01-05",
+   "datum_iso": "2011-01-05",
    "typ": "smlouva",
    "id": "č. 2053/10/5625 (interně 611/1S/2011)",
    "text": "Kontokorentní úvěr, úvěrový limit 100 000 000 Kč; úrok 7denní PRIBOR + marže 0,6 % p.a.; bez zajištění; na dobu neurčitou s výpovědí (konečná splatnost = konec 3měsíční výpovědní lhůty)",
@@ -15,6 +16,7 @@
   },
   {
    "datum": "2023-02-24",
+   "datum_iso": "2023-02-24",
    "typ": "dodatek č. 1",
    "id": "registr smluv verze 23638677 (zveřejněno 3. 3. 2023)",
    "text": "marže se mění na 0,3 % p.a.; doplněno prohlášení o povinnosti uveřejnění v registru smluv. Výše limitu se dodatkem č. 1 NEMĚNÍ.",
@@ -24,6 +26,7 @@
   },
   {
    "datum": "neuvedeno (mezi 2023-02-24 a 2026-09)",
+   "datum_iso": null,
    "typ": "dodatek č. 2",
    "id": "není v registru smluv",
    "text": "limit kontokorentu zvýšen na 200 000 000 Kč „s ohledem na plánovaný vysoký objem připravovaných investičních akcí“ (podle důvodové zprávy k 23/27/ZM/2026)",
@@ -32,6 +35,7 @@
   },
   {
    "datum": "2026-09-21",
+   "datum_iso": "2026-09-21",
    "typ": "usnesení ZM",
    "id": "23/27/ZM/2026",
    "text": "ZM schvaluje uzavření Dodatku č. 3 ke smlouvě o úvěru č. 2053/10/5625. Podle důvodové zprávy dodatek č. 3 SNIŽUJE limit kontokorentu z 200 000 000 na 100 000 000 Kč (ostatní podmínky beze změny), protože město uzavřelo investiční úvěrový rámec 500 mil. Kč.",
@@ -41,6 +45,7 @@
   },
   {
    "datum": "2026-09-21",
+   "datum_iso": "2026-09-21",
    "typ": "rozpočtové opatření",
    "id": "RO-2026-17 (24/27/ZM/2026)",
    "text": "financování schodku: krátkodobé prostředky (8113) 200 → 100 mil. Kč, investiční úvěrový rámec (8123) +100 mil. Kč; podle důvodové zprávy budou z úvěru v případě nutnosti dofinancovány akce „Lávka Vs-04-Bel přes Bečvu u SPŠS“ a „Přednádražní prostor, etapa 1.B“",

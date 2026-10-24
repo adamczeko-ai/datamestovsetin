@@ -6,6 +6,7 @@
  "retezec": [
   {
    "datum": "2026-03-30",
+   "datum_iso": "2026-03-30",
    "typ": "usnesení ZM",
    "id": "25/24/ZM/2026",
    "text": "závazek financování akce „Fotovoltaická elektrárna na budově ZŠ Ohrada“ v roce 2026 v objemu 32 880 000 Kč připravovaným investičním úvěrem",
@@ -14,6 +15,7 @@
   },
   {
    "datum": "2026-06-22",
+   "datum_iso": "2026-06-22",
    "typ": "usnesení ZM",
    "id": "23/26/ZM/2026",
    "text": "ZM schvaluje přijetí investičního úvěrového rámce ve výši 500 000 000 Kč a uzavření smlouvy o úvěru č. 2026006012 s ČSOB, a.s. (IČO 00001350); ukládá starostovi podepsat",
@@ -22,6 +24,7 @@
   },
   {
    "datum": "2026-06-22",
+   "datum_iso": "2026-06-22",
    "typ": "rozpočtové opatření",
    "id": "RO-2026-12 (24,38/26/ZM/2026)",
    "text": "pol. 8123 dlouhodobé úvěry 0 → 107 500 000 Kč",
@@ -29,6 +32,7 @@
   },
   {
    "datum": "2026-06-26",
+   "datum_iso": "2026-06-26",
    "typ": "smlouva",
    "id": "registr smluv – verze 38540900 (ID smlouvy 36214340), č. 0485 2026",
    "text": "Smlouva o úvěru č. 2026006012 – úvěrový limit 500 000 000 Kč, účelový (probíhající a připravované investiční akce), sazba 3M PRIBOR + 0,001 % p.a. (záporný PRIBOR = 0), čerpání do 31. 12. 2029, splatnost do 31. 12. 2049, splátky 6 250 000 Kč čtvrtletně od 29. 3. 2030 (80 splátek), dluhy nezajištěny; podmínka čerpání: projekt zahrnut ve schváleném rozpočtu",
@@ -38,6 +42,7 @@
   },
   {
    "datum": "2026-08-31",
+   "datum_iso": "2026-08-31",
    "typ": "MONITOR FIN 2-12 M",
    "id": "2026_08_Data_CSUIS_FINM2026",
    "text": "pol. 8123: rozpočet po změnách 107 500 000 Kč, čerpáno od počátku roku 2 439 797 Kč",
@@ -46,6 +51,7 @@
   },
   {
    "datum": "2026-09-21",
+   "datum_iso": "2026-09-21",
    "typ": "rozpočtové opatření",
    "id": "RO-2026-17 (24/27/ZM/2026)",
    "text": "pol. 8113 −100 mil., pol. 8123 +100 mil. → úvěr v rozpočtu 207 500 000 Kč",
@@ -53,6 +59,7 @@
   },
   {
    "datum": "2026-09-21",
+   "datum_iso": "2026-09-21",
    "typ": "usnesení ZM",
    "id": "23/27/ZM/2026",
    "text": "ZM schvaluje Dodatek č. 3 ke smlouvě o úvěru č. 2053/10/5625 s ČSOB (jiný, starší úvěr; obsah dodatku nevytěžen)",

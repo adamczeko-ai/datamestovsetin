@@ -1,7 +1,7 @@
 {
  "$schema": "https://json-schema.org/draft/2020-12/schema",
  "title": "Ověření hodnot verzí registru smluv („nezjištěno“)",
- "description": "data/smlouvy/oprava_hodnot_registru_2026-10-23.json. Pozor: datum_uzavreni je ve zdroji ve tvaru DD.MM.RRRR (jinde ISO) – ponecháno, viz nález ve PR.",
+ "description": "data/smlouvy/oprava_hodnot_registru_2026-10-23.json. datum_uzavreni = původní hodnota ze zdroje (DD.MM.RRRR), datum_uzavreni_iso = ISO 8601 (scripts/normalizace_dat.py).",
  "type": "object",
  "required": [
   "schema",
@@ -41,7 +41,8 @@
     "type": "object",
     "required": [
      "version_id",
-     "value_kind_navrh"
+     "value_kind_navrh",
+     "datum_uzavreni_iso"
     ],
     "properties": {
      "version_id": {
@@ -92,6 +93,13 @@
        "cizi_mena",
        "nezjisteno"
       ]
+     },
+     "datum_uzavreni_iso": {
+      "type": [
+       "string",
+       "null"
+      ],
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
      }
     }
    },

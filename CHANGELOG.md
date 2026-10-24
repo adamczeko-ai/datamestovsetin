@@ -129,4 +129,4 @@
 
 ## 2026-10-24 (schémata zakázek, smluv a vazeb usnesení, větev claude/auto-schemata-zakazky-smlouvy-2026-10-24)
 - 9 nových JSON Schema pro 10 souborů bez schématu: `data/zakazky/` (NIPEZ okruh města, průchod NIPEZ, svoz odpadu, Senior taxi, zrušené VZ), `data/smlouvy/` (oprava hodnot registru, párování akcí, 2× řetězec úvěru) a `data/usneseni/usneseni_vazby_RO.json`; zařazeno do `validate_schemas.py`, test `tests/test_schemata_zakazky_smlouvy.py`.
-- Nálezy formátu (data beze změny): `oprava_hodnot_registru_2026-10-23.json` má `datum_uzavreni` ve tvaru DD.MM.RRRR (jinde ISO), `uver_CSOB_kontokorent_2011.json` má v poli `datum` text „neuvedeno (…)“.
+- Nedestruktivní normalizace dat `scripts/normalizace_dat.py`: `oprava_hodnot_registru_2026-10-23.json` (`datum_uzavreni` je ve tvaru DD.MM.RRRR) doplněn o `datum_uzavreni_iso` (215×), řetězce úvěrů o `datum_iso` (12×; text „neuvedeno (…)“ → `null`). Původní pole beze změny; schémata nové pole vyžadují; test `tests/test_normalizace_dat.py`.
