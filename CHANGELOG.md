@@ -132,3 +132,7 @@
 - Chybou je schéma bez `x-data-files` nebo bez odpovídajícího souboru a datový soubor (`data/**/*.json`, `data/**/*.jsonl`) bez schématu; výjimky ke dni zavedení v `data/schema/bez_schematu.txt` (37 souborů, seznam se smí jen zmenšovat). Test `tests/test_validate_schemas.py`.
 - `nesoulady-llm.schema.json` validuje i reálné výstupy slepého testu `ai/test/vysledek_slepy_test_*.json` (adresář `data/analyzy/llm/` zatím neexistuje).
 - `.gitattributes`: `CHANGELOG.md merge=union` (souběžné PR přidávající oddíl na konec nekolidují).
+## 2026-10-23 (várka r – podklady k AERV)
+- Důvodové zprávy ZM 2023 k AERV nejsou na webu města dostupné (materiály ZM jen od 2/2025, archiv prázdný, zápisy ZM nezveřejněny).
+- K-004 doplněna o usnesení RM 11/29/RM/2023, 12/29/RM/2023 (ukončení nájmu a výpůjček) a 4/53/RM/2024 (převod likvidačního zůstatku, výše neuvedena); `dostupnost_podkladu`.
+- Návrh žádosti dle zák. 106/1999 Sb. (`docs/ZADOST_106_AERV_2026-10-23.md`, neodesláno).
