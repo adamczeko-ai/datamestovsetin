@@ -197,10 +197,10 @@ class TestRegistr(unittest.TestCase):
 
 class TestPseudo(unittest.TestCase):
     def test_text(self):
-        t = ("na základě žádosti paní Ukázkové Denisy\nnájemní smlouvu s Pavlem Valigurou, se sídlem …\n"
-             "Bc. Iveta Táborská\nstarostka města Vsetín\nZpracoval/a: Klára Pokusová, DiS.\nkupující ABC s.r.o.")
+        t = ("na základě žádosti paní Ukázkové Denisy\nnájemní smlouvu s Pavlem Vymyšleným, se sídlem …\n"
+             "Bc. Iveta Fiktivní\nstarostka města Vsetín\nZpracoval/a: Klára Pokusová, DiS.\nkupující ABC s.r.o.")
         out = pseudo.text(t)
-        for jm in ("Ukázkov", "Valigur", "Táborsk", "Pokusov"):
+        for jm in ("Ukázkov", "Vymyšlen", "Fiktivn", "Pokusov"):
             self.assertNotIn(jm, out)
         self.assertIn("ABC s.r.o.", out)
         self.assertIn("se sídlem", out)
@@ -270,6 +270,14 @@ class TestPseudoZnameUniky(unittest.TestCase):
         self.assertNotIn("Q.Z", out)
         self.assertNotIn("1965", out)
         self.assertIn("k.ú. Vsetín", pseudo.text("pozemek p.č. 12, k.ú. Vsetín"))
+        self.assertBezJmena("od 1. 7. bude pozici vykonávat interní pracovnice školy Iva Vymyšlená, zástupkyně", "Vymyšlen")
+        self.assertBezJmena("smlouvu s Evou Testovou", "Testov")
+        out = pseudo.text("kontakt: kvido.neznamy@example.cz, podatelna: e-podatelna@example.cz, info@example.cz")
+        self.assertNotIn("kvido.neznamy", out)
+        self.assertIn("e-podatelna@example.cz", out)
+        self.assertIn("info@example.cz", out)
+        self.assertEqual(pseudo.text("pište na kvidon@seznam.cz"), "pište na [e-mail FO]")
+        self.assertEqual(pseudo.text("Evropská unie a Evropa"), "Evropská unie a Evropa")
         self.assertBezJmena("dlužník KVIDO NEZNÁMÝ, Testovací 298, 75604 Testov, nar. 1960", "KVIDO", "NEZNÁMÝ")
         for s in ("ZÁKLADNÍ ŠKOLA JANA PIVEČKY", "ROZŠÍŘENÍ HŘBITOVA VE VSETÍNĚ", "LÁVKA PŘES BEČVU", "TM STAV SPOL. S R.O."):
             self.assertEqual(pseudo.text(s), s)

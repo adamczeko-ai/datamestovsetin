@@ -1,7 +1,7 @@
 {
- "aktualizovano": "2026-10-24T00:43:37+02:00",
+ "aktualizovano": "2026-10-24T08:41:26+02:00",
  "import_inbox": {
-  "cas": "2026-10-24T00:41:42+02:00",
+  "cas": "2026-10-24T08:40:51+02:00",
   "neprevzato": [
    "ico_frekvence a ico_jmeno_heuristika (usnesení; odvoditelné, heuristika obsahuje jména)",
    "plný raw text výpisů usnesení (text je u jednotlivých usnesení, originál na source_url)",
@@ -380,32 +380,20 @@
   }
  },
  "posledni_beh": {
-  "konec": "2026-10-24T00:43:37+02:00",
+  "konec": "2026-10-24T08:39:09+02:00",
   "limity": {
    "limit": 2,
-   "limit_ares": 5,
-   "limit_rs": 5,
-   "max_stranek": 1
+   "limit_ares": 200,
+   "limit_rs": 500,
+   "max_stranek": 5
   },
   "rezim": "ostry",
   "stav": {
-   "ares": "ok",
-   "materialy_zm": "unreachable",
-   "profil_zadavatele": "ok",
-   "registr_smluv": "unreachable",
-   "rozpoctova_opatreni": "unreachable",
-   "uredni_deska": "unreachable",
-   "usneseni": "unreachable"
+   "profil_zadavatele": "unreachable"
   },
-  "zacatek": "2026-10-24T00:41:54+02:00",
+  "zacatek": "2026-10-24T08:39:03+02:00",
   "zdroje": [
-   "usneseni",
-   "materialy_zm",
-   "rozpoctova_opatreni",
-   "uredni_deska",
-   "profil_zadavatele",
-   "registr_smluv",
-   "ares"
+   "profil_zadavatele"
   ]
  },
  "schema": "vsetin-osint/manifest@1",
@@ -417,7 +405,7 @@
   },
   "data/dokumenty.jsonl": {
    "radku": 921,
-   "sha256_souboru": "018eb4bae13e85c77c83b39a22a7de9c33ee031667fabaad4675d304a2cf86aa",
+   "sha256_souboru": "7b59583f6eed3da22ca8e06ca39c4696d688d6d0e8138fb79e65ac3f7a19c533",
    "unikatnich_id": 921
   },
   "data/graf_hrany.jsonl": {
@@ -436,8 +424,8 @@
    "unikatnich_id": 279
   },
   "data/registr_smluv.jsonl": {
-   "radku": 4614,
-   "sha256_souboru": "526187fa3a7532c301760089b9125f2f13b638dca30214ef9cb70f2494f0b6b0",
+   "radku": 4616,
+   "sha256_souboru": "e32f94160575a892a0d7c112dec86e9a9ecc3afa47f6a3049831b9624429ba26",
    "unikatnich_id": 4614
   },
   "data/rozpoctova_opatreni.jsonl": {
@@ -447,17 +435,17 @@
   },
   "data/stranky.jsonl": {
    "radku": 45,
-   "sha256_souboru": "7f9cd8c9c3bba0b007bc97038909150ced30e68bfabe047df6f1631eb3fb0e14",
+   "sha256_souboru": "fae0bafbdee60436cd628d72ebb4f97bd29e9049441d9dc2a0dbe041357c5aee",
    "unikatnich_id": 45
   },
   "data/subjekty_ares.jsonl": {
    "radku": 767,
-   "sha256_souboru": "f5c2a5f644c352c1c92555f2b45e09e69dc7b0013e7b1c2866f476127da1506c",
+   "sha256_souboru": "05b427819370f76b96dd20d4e322e2e7ef9aaac37216604f989262e38fe73bc6",
    "unikatnich_id": 767
   },
   "data/uredni_deska.jsonl": {
    "radku": 71,
-   "sha256_souboru": "c7b7b4f14bff479dcaed364bbfc345a6f85075777bb06cd121fb0dbea1df160c",
+   "sha256_souboru": "5826c6889a1e6ba7e8f8b2c2460377d4bdbe98288a974f8428a9a03eba288270",
    "unikatnich_id": 71
   },
   "data/uredni_deska_snimky.jsonl": {
@@ -467,7 +455,7 @@
   },
   "data/usneseni.jsonl": {
    "radku": 6864,
-   "sha256_souboru": "f1f6757d4c36d63889efc4e09a491df906c4f085a9a08bb250a5a23d1369350d",
+   "sha256_souboru": "b3d3cb38daf9c24232a68fa4b0519c11fb90dfff0c49b39dd160fce497e26180",
    "unikatnich_id": 6864
   },
   "data/verejne_zakazky.jsonl": {
@@ -485,8 +473,8 @@
   "ares": {
    "chyby": [],
    "kurzor": {
-    "ceka_na_overeni": 191,
-    "posledni_kontrola": "2026-10-24T00:43:37+02:00"
+    "ceka_na_overeni": 176,
+    "posledni_kontrola": "2026-10-24T08:38:54+02:00"
    },
    "pocty_posledniho_behu": {
     "chyby": 0,
@@ -494,8 +482,8 @@
     "nove": 5,
     "zmeneno": 0
    },
-   "posledni_beh": "2026-10-24T00:43:29+02:00",
-   "posledni_uspech": "2026-10-24T00:43:29+02:00",
+   "posledni_beh": "2026-10-24T08:38:46+02:00",
+   "posledni_uspech": "2026-10-24T08:38:46+02:00",
    "soubory": [
     "data/subjekty_ares.jsonl"
    ],
@@ -504,10 +492,10 @@
   "materialy_zm": {
    "chyby": [],
    "nedosazitelny": {
-    "cas": "2026-10-24T00:42:02+02:00",
+    "cas": "2026-10-24T08:37:38+02:00",
     "duvod": "HostUnreachable: robots.txt hostitele www.mestovsetin.cz nedostupný – stahování vynecháno"
    },
-   "posledni_beh": "2026-10-24T00:42:02+02:00",
+   "posledni_beh": "2026-10-24T08:37:38+02:00",
    "stav": "unreachable"
   },
   "profil_zadavatele": {
@@ -516,27 +504,32 @@
     "posledni_kontrola": "2026-10-24T00:43:25+02:00",
     "stazeno_do": "2024-06-30"
    },
-   "pocty_posledniho_behu": {
-    "chyby": 0,
-    "nezmeneno": 0,
-    "nove": 20,
-    "zmeneno": 12
+   "nedosazitelny": {
+    "cas": "2026-10-24T08:39:03+02:00",
+    "duvod": "HostUnreachable: robots.txt hostitele www.vhodne-uverejneni.cz nedostupný – stahování vynecháno"
    },
-   "posledni_beh": "2026-10-24T00:42:02+02:00",
-   "posledni_uspech": "2026-10-24T00:42:02+02:00",
-   "soubory": [
-    "data/verejne_zakazky.jsonl"
-   ],
-   "stav": "ok"
+   "posledni_beh": "2026-10-24T08:39:03+02:00",
+   "poznamka": "2026-10-24: záznamy z běhu 23. 10. převzaty z předchozí verze větve (profil při přegenerování nedostupný)",
+   "stav": "unreachable"
   },
   "registr_smluv": {
    "chyby": [],
-   "nedosazitelny": {
-    "cas": "2026-10-24T00:43:25+02:00",
-    "duvod": "HostUnreachable: robots.txt hostitele smlouvy.gov.cz nedostupný – stahování vynecháno"
+   "kurzor": {
+    "ceka_na_detail": 4612,
+    "posledni_kontrola": "2026-10-24T08:38:46+02:00"
    },
-   "posledni_beh": "2026-10-24T00:43:25+02:00",
-   "stav": "unreachable"
+   "pocty_posledniho_behu": {
+    "chyby": 3,
+    "nezmeneno": 0,
+    "nove": 0,
+    "zmeneno": 2
+   },
+   "posledni_beh": "2026-10-24T08:37:45+02:00",
+   "posledni_uspech": "2026-10-24T08:37:45+02:00",
+   "soubory": [
+    "data/registr_smluv.jsonl"
+   ],
+   "stav": "ok"
   },
   "rozpoctova_opatreni": {
    "chyby": [],
@@ -555,10 +548,10 @@
     }
    },
    "nedosazitelny": {
-    "cas": "2026-10-24T00:42:02+02:00",
+    "cas": "2026-10-24T08:37:38+02:00",
     "duvod": "HostUnreachable: robots.txt hostitele www.mestovsetin.cz nedostupný – stahování vynecháno"
    },
-   "posledni_beh": "2026-10-24T00:42:02+02:00",
+   "posledni_beh": "2026-10-24T08:37:38+02:00",
    "stav": "unreachable"
   },
   "uredni_deska": {
@@ -567,19 +560,19 @@
     "url": "https://www.mestovsetin.cz/vismo/zobraz_dok.asp?ud=2&p1=72363"
    },
    "nedosazitelny": {
-    "cas": "2026-10-24T00:42:02+02:00",
+    "cas": "2026-10-24T08:37:38+02:00",
     "duvod": "HostUnreachable: robots.txt hostitele www.mestovsetin.cz nedostupný – stahování vynecháno"
    },
-   "posledni_beh": "2026-10-24T00:42:02+02:00",
+   "posledni_beh": "2026-10-24T08:37:38+02:00",
    "stav": "unreachable"
   },
   "usneseni": {
    "chyby": [],
    "nedosazitelny": {
-    "cas": "2026-10-24T00:41:54+02:00",
+    "cas": "2026-10-24T08:37:26+02:00",
     "duvod": "HostUnreachable: robots.txt hostitele www.mestovsetin.cz nedostupný – stahování vynecháno"
    },
-   "posledni_beh": "2026-10-24T00:41:54+02:00",
+   "posledni_beh": "2026-10-24T08:37:26+02:00",
    "stav": "unreachable"
   }
  }

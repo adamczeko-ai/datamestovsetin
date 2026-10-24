@@ -117,7 +117,10 @@ def _kmeny(j: str) -> set[str]:
 
 KRESTNI_SET = set(KRESTNI)
 _KM = sorted({k for j in KRESTNI for k in _kmeny(j)}, key=len, reverse=True)
-KRESTNI_RX = rf"(?:{'|'.join(_KM)})[{M}]{{0,4}}"
+# krátká jména (Eva, Iva, Ema, Ivo): kmen < 3 znaky by zachytil i „Evropa“ -> jen výčet tvarů
+_KRATKA = sorted({j[:-1] + k for j in KRESTNI if len(j) <= 3 and j[-1] in "aeiouy"
+                  for k in ("a", "y", "ě", "e", "ou", "u", "o", "i")} | {j for j in KRESTNI if len(j) <= 3})
+KRESTNI_RX = rf"(?:(?:{'|'.join(_KM)})[{M}]{{0,4}}|(?:{'|'.join(_KRATKA)})(?![{M}]))"
 RE_KRESTNI = (re.compile(rf"\b{KRESTNI_RX}(?:\s+{SLOVO}){{1,2}}\b"), re.compile(rf"\b{SLOVO}\s+{KRESTNI_RX}\b"),
               # ženské příjmení na -ová/-ové/-ovou s dalším slovem s velkým písmenem
               re.compile(rf"\b{SLOVO}\s+[{V}][{M}]+ov(?:á|é|ou)\b"),
@@ -130,6 +133,30 @@ RE_BYTEM = re.compile(rf"\b({SLOVO}(?:\s+{SLOVO}){{1,3}})(?=,?\s*(?:trvale\s+)?(
 RE_PRIJEMCE = re.compile(rf"((?:poskytnutí|poskytnout|poskytuje|schvaluje)\s+(?:neinvestiční\s+|investiční\s+|individuální\s+)?"
                          rf"(?:dotace|dotaci|daru|dar|finančního daru|příspěvku|příspěvek|zápůjčky|zápůjčku)\s+)"
                          rf"({SLOVO}(?:\s+{SLOVO}){{1,2}})(?=\s*,)")
+# pracovní role osoby: „interní pracovnice školy Eva Nováková“ (kontext instituce jméno nechrání)
+RE_ROLE_OSOBY = re.compile(rf"(\b(?:pracovnice|pracovník|pracovníka|pracovnici|zaměstnanec|zaměstnankyně|zaměstnance|"
+                           rf"zástupkyně|zástupce|učitelka|učitel|asistentka|asistent|ředitelka|ředitel)"
+                           rf"(?:\s+[{M}]+){{0,3}}\s+)({SLOVO}\s+{SLOVO})\b")
+# osobní e-mail „jmeno.prijmeni@domena“ (křestní jméno ze slovníku); obecné adresy (podatelna, info) zůstávají
+RE_EMAIL = re.compile(r"\b([A-Za-z0-9]+)[._-]([A-Za-z0-9]+)@[A-Za-z0-9.-]+\.[a-z]{2,}\b")
+
+
+def _bez_diakritiky(s: str) -> str:
+    import unicodedata
+    return "".join(c for c in unicodedata.normalize("NFD", s) if unicodedata.category(c) != "Mn")
+
+
+# soukromé (freemail) schránky jsou osobní údaj vždy
+RE_FREEMAIL = re.compile(r"\b[A-Za-z0-9._%+-]+@(?:seznam|email|centrum|post|volny|atlas|tiscali|quick|gmail|googlemail|"
+                         r"outlook|hotmail|live|yahoo|icloud|me|proton|protonmail)\.[a-z]{2,3}\b", re.I)
+_KRESTNI_ASCII = {_bez_diakritiky(j).lower() for j in KRESTNI}
+
+
+def _email(m: re.Match) -> str:
+    a, b = m.group(1).lower(), m.group(2).lower()
+    return "[e-mail FO]" if a in _KRESTNI_ASCII or b in _KRESTNI_ASCII else m.group(0)
+
+
 RE_FYZ_OSOBA = re.compile(rf"(fyzick\w+\s+osob\w+\s*:?\s*)({SLOVO}(?:\s+{SLOVO}){{1,2}})")
 
 # jméno verzálkami: „VÁCLAV NOVÁK“ / „NOVÁK VÁCLAV“ (jedno slovo = křestní jméno ze slovníku)
@@ -203,7 +230,7 @@ def nazev_subjektu(nazev: str | None, pravni_forma: str | None = None) -> str | 
 
 
 def _tvary(jmeno: str) -> list[str]:
-    """Kmeny slov jména pro skloňované tvary (Mirgová -> Mirgov…, Denisa -> Denis…)."""
+    """Kmeny slov jména pro skloňované tvary (Nováková -> Novákov…, Denisa -> Denis…)."""
     out = []
     for w in re.findall(rf"[{V}][{M}]+", jmeno):
         if len(w) >= 4 and w not in NE_JMENO:
@@ -263,9 +290,13 @@ def text(t: str | None, znama_jmena: list[str] | tuple = ()) -> str | None:
     for jm in znama_jmena:
         for kmen in _tvary(jm):
             t = re.sub(rf"\b{re.escape(kmen)}[{M}]{{0,4}}\b", FO, t)
+    t = RE_FREEMAIL.sub("[e-mail FO]", t)
+    t = RE_EMAIL.sub(_email, t)
     t = RE_TITUL.sub(_titul, t)
     t = RE_BYTEM.sub(_bytem, t)
     t = RE_FYZ_OSOBA.sub(lambda m: m.group(1) + FO, t)
+    t = RE_ROLE_OSOBY.sub(lambda m: m.group(0) if (je_pravnicka(m.group(2)) or any(
+        w in NE_JMENO for w in m.group(2).split())) else m.group(1) + FO, t)
     t = RE_INICIALY.sub(lambda m: (m.group(1) + FO) if m.group(1) else FO, t)
     t = RE_NAR.sub(lambda m: m.group(1) + "…", t)
     t = RE_BYDLISTE.sub(lambda m: m.group(1) + "…", t)
