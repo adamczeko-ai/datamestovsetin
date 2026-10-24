@@ -1,0 +1,72 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "Služba Senior taxi – smlouvy 2018–2026",
+ "description": "data/zakazky/sluzba_senior_taxi.json",
+ "type": "object",
+ "required": [
+  "schema",
+  "nazev",
+  "smlouvy"
+ ],
+ "properties": {
+  "schema": {
+   "type": "string"
+  },
+  "nazev": {
+   "type": "string"
+  },
+  "popis": {
+   "type": "string"
+  },
+  "zrusene_vz": {
+   "type": "integer"
+  },
+  "signal": {
+   "type": "string"
+  },
+  "smlouvy": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "required": [
+     "rok",
+     "dodavatel",
+     "hs"
+    ],
+    "properties": {
+     "rok": {
+      "type": "integer",
+      "minimum": 2000
+     },
+     "dodavatel": {
+      "type": "string"
+     },
+     "Kc": {
+      "type": [
+       "integer",
+       "null"
+      ]
+     },
+     "hs": {
+      "type": "string",
+      "pattern": "^\\d+$"
+     },
+     "vz": {
+      "type": "string"
+     },
+     "podpis": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+     },
+     "cislo": {
+      "type": "string"
+     },
+     "schvalil": {
+      "type": "string"
+     }
+    }
+   },
+   "minItems": 1
+  }
+ }
+}

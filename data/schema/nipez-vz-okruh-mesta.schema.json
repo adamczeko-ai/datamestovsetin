@@ -1,0 +1,237 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "NIPEZ RVZ – zakázky okruhu města 2024–2026",
+ "description": "data/zakazky/nipez_vz_okruh_mesta_2024_2026.json",
+ "type": "object",
+ "required": [
+  "schema",
+  "zdroj",
+  "vytezeno",
+  "zakazky"
+ ],
+ "properties": {
+  "schema": {
+   "type": "string"
+  },
+  "zdroj": {
+   "type": "string"
+  },
+  "vytezeno": {
+   "type": "string"
+  },
+  "souhrn": {
+   "type": "object"
+  },
+  "omezeni": {
+   "type": "array",
+   "items": {
+    "type": "string"
+   }
+  },
+  "zakazky": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "required": [
+     "id",
+     "posledni_verze",
+     "role_okruhu_mesta",
+     "druh",
+     "zadavatele",
+     "nazev_zkraceny",
+     "smlouvy"
+    ],
+    "properties": {
+     "id": {
+      "type": "string",
+      "pattern": "^RVZ\\d+$"
+     },
+     "posledni_verze": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+     },
+     "role_okruhu_mesta": {
+      "type": "array",
+      "items": {
+       "enum": [
+        "zadavatel",
+        "ucastnik",
+        "dodavatel"
+       ]
+      },
+      "minItems": 1
+     },
+     "druh": {
+      "type": "string"
+     },
+     "rezim": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "stav": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "zahajeni": {
+      "type": [
+       "string",
+       "null"
+      ],
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+     },
+     "zadavatele": {
+      "type": "array",
+      "items": {
+       "type": "object",
+       "required": [
+        "ico",
+        "role"
+       ],
+       "properties": {
+        "ico": {
+         "type": "string",
+         "pattern": "^\\d{8}$"
+        },
+        "role": {
+         "type": [
+          "string",
+          "null"
+         ]
+        },
+        "nazev": {
+         "type": [
+          "string",
+          "null"
+         ]
+        }
+       }
+      },
+      "minItems": 1
+     },
+     "nazev_zkraceny": {
+      "type": "string"
+     },
+     "smlouvy": {
+      "type": "array",
+      "items": {
+       "type": "object",
+       "required": [
+        "datum_uzavreni",
+        "dodavatele"
+       ],
+       "properties": {
+        "datum_uzavreni": {
+         "type": [
+          "string",
+          "null"
+         ],
+         "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+        },
+        "cena_bez_dph": {
+         "type": [
+          "number",
+          "null"
+         ]
+        },
+        "dodavatel_bez_ico": {
+         "type": "boolean"
+        },
+        "pocet_ucastniku": {
+         "type": [
+          "integer",
+          "null"
+         ]
+        },
+        "dodavatele": {
+         "type": "array",
+         "items": {
+          "type": "object",
+          "required": [
+           "ico"
+          ],
+          "properties": {
+           "ico": {
+            "type": "string",
+            "pattern": "^\\d{8}$"
+           },
+           "nazev": {
+            "type": [
+             "string",
+             "null"
+            ]
+           },
+           "pravni_forma": {
+            "type": [
+             "string",
+             "null"
+            ]
+           }
+          }
+         }
+        }
+       }
+      }
+     },
+     "dalsich_smluv_neprenseno": {
+      "type": "integer"
+     },
+     "predpokladana_hodnota_bez_dph": {
+      "type": [
+       "number",
+       "null"
+      ]
+     },
+     "druh_rizeni": {
+      "type": "string"
+     },
+     "nabidky_casti": {
+      "type": "array",
+      "items": {
+       "type": "object",
+       "required": [],
+       "properties": {
+        "celkem_nabidek": {
+         "type": [
+          "integer",
+          "null"
+         ]
+        },
+        "elektronicky": {
+         "type": [
+          "integer",
+          "null"
+         ]
+        },
+        "vyloucenych": {
+         "type": [
+          "integer",
+          "null"
+         ]
+        },
+        "zadosti_o_ucast": {
+         "type": [
+          "integer",
+          "null"
+         ]
+        }
+       }
+      }
+     },
+     "dalsich_casti": {
+      "type": "integer"
+     },
+     "pocet_nabidek_odhad": {
+      "type": [
+       "integer",
+       "null"
+      ]
+     }
+    }
+   }
+  }
+ }
+}
