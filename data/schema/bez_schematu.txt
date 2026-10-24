@@ -1,0 +1,40 @@
+# Datové soubory BEZ JSON Schema ke dni zavedení x-data-files (2026-10-24).
+# Seznam se smí jen zmenšovat: nový datový soubor musí mít schéma (klíč x-data-files).
+# Řádek odeber, až soubor pokryje schéma (validate_schemas.py na to upozorní) – PR přidávající schéma ho měnit nemusí.
+data/analyzy/akce_timeline.json
+data/analyzy/cenove_body.json
+data/analyzy/pravidla_konfigurace.json
+data/analyzy/red_flags.json
+data/dotace/dotace_statni_okruh_mesta_2014_2026.json
+data/dotace/statni_registr_vsetin_souhrn.json
+data/dotace/uzemni_registr_vsetin_2026_souhrn.json
+data/dotace/uzemni_registr_vsetin_prijemce_2026.json
+data/entity/ares_overeni_2026-10-23.json
+data/entity/spolecnosti_mesta.json
+data/entity/vr_organy_mestske_spolecnosti_2026-10-23.json
+data/integrace/evidence_stazeni.json
+data/integrace/stav_zdroju_2026-10-23.json
+data/kauzy/doplneni/K-003_doplneni_dotace_ZK_2026-10-23.json
+data/monitor/finm_2026_08_vsetin_souhrn.json
+data/monitor/finm_rada_2020_2025_vsetin.json
+data/monitor/finm_vsetin_2010_2026.json
+data/monitor/kontrola_RO_8115_monitor.json
+data/monitor/manifest_doplneni_2026-10-23.json
+data/monitor/rozpocet_rada_2010_2026.json
+data/monitor/ukazatele_organizaci_mesta_2024_2025.json
+data/rozpocet/2022/rozpoctova_opatreni_2022_narativ.json
+data/rozpocet/2026/vazba_lavka_Vs-01-Bel.json
+data/rozpocet/index_schvalene_rozpocty.json
+data/rozpocet/rekonciliace_ro_monitor.json
+data/smlouvy/oprava_hodnot_registru_2026-10-23.json
+data/smlouvy/parovani_akci.json
+data/smlouvy/uver_CSOB_2026.json
+data/smlouvy/uver_CSOB_kontokorent_2011.json
+data/transfery/transfery_mesta_2026_08.json
+data/usneseni/usneseni_vazby_RO.json
+data/zakazky/nipez_vz_okruh_mesta_2024_2026.json
+data/zakazky/nipez_vz_pruchod_2026-10-23.json
+data/zakazky/odpad_svoz.json
+data/zakazky/sluzba_senior_taxi.json
+data/zakazky/verejne_zakazky_zrusene.json
+data/zaverecny_ucet/zaverecny_ucet_2023_2025.json

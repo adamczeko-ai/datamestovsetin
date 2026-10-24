@@ -1,5 +1,6 @@
 {
  "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "x-data-files": ["data/entity/ares_overeni.json"],
  "title": "Ověření IČO v ARES",
  "type": "object",
  "required": ["schema", "zdroj", "stav_k", "subjekty"],

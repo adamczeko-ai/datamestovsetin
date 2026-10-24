@@ -1,5 +1,6 @@
 {
  "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "x-data-files": ["data/analyzy/signaly_stavy.json"],
  "title": "Stavy ověření signálů",
  "description": "Soubor data/analyzy/signaly_stavy.json. Edituje ho pouze člověk (vlastník/ověřovatel). AI a generátory ho nikdy nepřepisují; AI smí jen navrhnout změnu v popisu PR.",
  "type": "object",

@@ -126,3 +126,9 @@
 ## 2026-10-23 (várka q – kauza K-004 AERV)
 - `data/kauzy/K-004_AERV_zruseni.json`: řetězec dohoda 2012 → narovnání DPH 3 848 880 Kč (= 21 % z 18 328 000) → zrušení (usn. 10/9/ZM/2023) → vklad 3,6 mil. na likvidaci (usn. 1/10/ZM/2023) → převod likvidačního zůstatku (2024) → výmaz.
 - Signál P-02 „zčásti vysvětleno“; otevřené: výše likvidačního zůstatku.
+
+## 2026-10-24 (integrace PR – decentralizovaná registrace schémat, větev claude/integrace-2026-10-24)
+- `scripts/validate_schemas.py` bez centrálního slovníku `M`: každé `data/schema/*.schema.json` nese klíč `x-data-files` (soubory/globy), skript schémata objeví sám; `*.jsonl` validuje po řádcích včetně kontroly sha256 a duplicit (id, sha256).
+- Chybou je schéma bez `x-data-files` nebo bez odpovídajícího souboru a datový soubor (`data/**/*.json`, `data/**/*.jsonl`) bez schématu; výjimky ke dni zavedení v `data/schema/bez_schematu.txt` (37 souborů, seznam se smí jen zmenšovat). Test `tests/test_validate_schemas.py`.
+- `nesoulady-llm.schema.json` validuje i reálné výstupy slepého testu `ai/test/vysledek_slepy_test_*.json` (adresář `data/analyzy/llm/` zatím neexistuje).
+- `.gitattributes`: `CHANGELOG.md merge=union` (souběžné PR přidávající oddíl na konec nekolidují).

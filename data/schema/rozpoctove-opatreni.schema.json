@@ -1,5 +1,6 @@
 {
  "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "x-data-files": ["data/rozpocet/20??/rozpoctova_opatreni_20??.json"],
  "title": "Rozpočtová opatření (rok)",
  "type": "object",
  "required": [
