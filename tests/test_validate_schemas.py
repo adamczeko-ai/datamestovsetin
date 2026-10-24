@@ -75,6 +75,25 @@ class TestMechanismus(unittest.TestCase):
         zapis(self.root, "data/schema/c.schema.json", {"type": "object"})
         self.assertEqual(len(vs.pokryti(self.root)), 2)
 
+    def test_jsonl_sha256_a_duplicity(self):
+        zapis(self.root, "data/schema/j.schema.json",
+              {"x-data-files": ["data/j.jsonl"], "type": "object", "required": ["id", "sha256"]})
+        r = {"id": "a", "x": 1, "source_url": "u", "retrieved_at": "t"}
+        r["sha256"] = vs.otisk(r)
+        radek = json.dumps(r, ensure_ascii=False)
+        zapis(self.root, "data/j.jsonl", radek + "\n")
+        self.assertEqual(vs.main(self.root), 0)
+        zapis(self.root, "data/j.jsonl", radek + "\n" + radek + "\n")  # duplicitní (id, sha256)
+        self.assertEqual(vs.main(self.root), 1)
+        zapis(self.root, "data/j.jsonl", radek.replace('"x": 1', '"x": 2') + "\n")  # sha256 neodpovídá obsahu
+        self.assertEqual(vs.main(self.root), 1)
+
+    def test_otisk_ignoruje_metadata(self):
+        a = {"id": "a", "x": 1, "source_url": "u1", "retrieved_at": "t1", "puvod": {}}
+        b = dict(a, source_url="u2", retrieved_at="t2", sha256="cokoli")
+        self.assertEqual(vs.otisk(a), vs.otisk(b))
+        self.assertNotEqual(vs.otisk(a), vs.otisk(dict(a, x=2)))
+
     def test_stara_vyjimka(self):
         zapis(self.root, vs.VYJIMKY, "data/neexistuje.json\n")
         self.assertIn("neexistuje", vs.pokryti(self.root)[0])

@@ -11,6 +11,7 @@ Chybou je také: schéma bez "x-data-files", schéma, kterému neodpovídá žá
 data/schema/bez_schematu.txt (soubory bez schématu ke dni zavedení; seznam se smí jen zmenšovat).
 """
 import glob
+import hashlib
 import json
 import os
 import sys
@@ -76,14 +77,24 @@ def pokryti(root=ROOT):
     return chyby
 
 
-def _otisk():
-    sys.path.insert(0, ROOT)
-    from integrace.sber.store import otisk  # jediná definice obsahového otisku (sběr i validace)
-    return otisk
+OTISK_METADATA = ("sha256", "retrieved_at", "puvod", "source_url")  # původ, ne obsah (shodně s integrace/sber/store.py)
+
+
+def otisk(rec):
+    """SHA-256 kanonického JSON obsahu záznamu bez metadat. Je-li k dispozici integrace.sber.store, platí jeho
+    definice (sběr i validace musí počítat stejně); tato je pro repo bez modulu sběru."""
+    try:
+        if ROOT not in sys.path:
+            sys.path.insert(0, ROOT)
+        from integrace.sber.store import otisk as o
+        return o(rec)
+    except ImportError:
+        obsah = {k: v for k, v in rec.items() if k not in OTISK_METADATA}
+        s = json.dumps(obsah, ensure_ascii=False, sort_keys=True, separators=(",", ":"))
+        return hashlib.sha256(s.encode("utf-8")).hexdigest()
 
 
 def validuj_jsonl(v, cesta):
-    otisk = _otisk()
     errs, seen, n = [], set(), 0
     with open(cesta, encoding="utf-8") as fh:
         for i, line in enumerate(fh, 1):
