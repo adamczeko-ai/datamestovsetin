@@ -87,7 +87,7 @@
    "type": "array",
    "items": {
     "type": "string",
-    "pattern": "^\\d{8}$"
+    "pattern": "^(\\d{8}|FO-[0-9a-f]{12}|FO-\\d{4,})$"
    }
   },
   "castky": {

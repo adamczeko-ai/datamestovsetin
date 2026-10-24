@@ -83,3 +83,5 @@
 | profil_zadavatele | unreachable | 0 | 0 | 0 | HostUnreachable: robots.txt hostitele www.vhodne-uverejneni.cz nedostupný – stahování vynecháno |
 
 > 2026-10-24 09:20 (Europe/Prague): data `data/*.jsonl` znovu přegenerována po kontrole ochrany osobních údajů v PR #8 (datum narození se slovním měsícem, bydliště za „bytem“, krátká křestní jména, pracovní role + jméno, osobní a freemailové e-maily). Záznamy z živého sběru (zakázky z profilu 23. 10., ARES, 2 detaily registru smluv 24. 10.) převzaty z předchozí verze a znovu prošly aktuálními pravidly; žádné id se neztratilo. Profil zadavatele byl v tomto běhu z cloudu nedostupný (unreachable).
+
+> 2026-10-24 12:45 (Europe/Prague): IČO OSVČ pseudonymizována (§ 5 protokolu, režim `poradi` – klíč `VSETIN_PSEUDO_KLIC` není nastaven). Data přegenerována stejně jako v 09:20 (import + převzetí záznamů živého sběru), poté jeden průchod `ico_fo.aplikuj` nad všemi soubory a manifestem.

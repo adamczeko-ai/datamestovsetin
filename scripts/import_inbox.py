@@ -21,7 +21,7 @@ from datetime import datetime, timezone
 ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..")
 sys.path.insert(0, ROOT)
 
-from integrace.sber import pseudo, store, vismo  # noqa: E402
+from integrace.sber import ico_fo, pseudo, store, vismo  # noqa: E402
 from integrace.sber.profil import PROFIL  # noqa: E402
 from integrace.sber.zdroje import ARES_URL, RO_ROKY, SLOZKY  # noqa: E402
 
@@ -273,6 +273,8 @@ def main(argv=None) -> int:
     ap.add_argument("--handoff", required=True, help="klon adamczeko-ai/vsetin-osint-handoff (jen čtení)")
     ap.add_argument("--data-dir", default=os.path.join(ROOT, "data"))
     ap.add_argument("--dry-run", action="store_true")
+    ap.add_argument("--bez-ico-fo", action="store_true",
+                    help="servisní: nepseudonymizovat IČO OSVČ (spustit ico_fo.aplikuj až po sloučení s dalšími daty)")
     a = ap.parse_args(argv)
     sklad = store.Sklad(a.data_dir)
     im = Import(sklad, a.handoff)
@@ -303,7 +305,10 @@ def main(argv=None) -> int:
     for z, k in kurzory.items():
         zz = man.setdefault("zdroje", {}).setdefault(z, {"chyby": []})
         zz["kurzor"] = {**k, **(zz.get("kurzor") or {})}
-    store.zapis_manifest(man_path, man, sklad, a.data_dir)
+    # § 5 protokolu: IČO OSVČ pseudonymizovat (po zápisu, přes všechny soubory najednou)
+    if not a.bez_ico_fo:
+        man["pseudonymizace_ico_fo"] = ico_fo.aplikuj(a.data_dir, objekty=[man])
+    store.zapis_manifest(man_path, man, None, a.data_dir)
     print(json.dumps({"pocty": im.pocty, "vetve": im.vetve}, ensure_ascii=False, indent=1))
     return 0
 

@@ -1,7 +1,7 @@
 {
- "aktualizovano": "2026-10-24T08:41:26+02:00",
+ "aktualizovano": "2026-10-24T12:40:05+02:00",
  "import_inbox": {
-  "cas": "2026-10-24T08:40:51+02:00",
+  "cas": "2026-10-24T12:39:46+02:00",
   "neprevzato": [
    "ico_frekvence a ico_jmeno_heuristika (usnesení; odvoditelné, heuristika obsahuje jména)",
    "plný raw text výpisů usnesení (text je u jednotlivých usnesení, originál na source_url)",
@@ -311,7 +311,7 @@
      "pocet": 1
     },
     {
-     "ico": "73257958",
+     "ico": "FO-0001",
      "nazev": "[FO – pseudonymizováno]",
      "objem_bez_dph": 17216618,
      "pocet": 12
@@ -396,11 +396,18 @@
    "profil_zadavatele"
   ]
  },
+ "pseudonymizace_ico_fo": {
+  "pocet_fo_ico_v_behu": 117,
+  "posledni_poradi": 117,
+  "rezim": "poradi",
+  "zmenenych_radku": 629,
+  "zmenenych_souboru": 9
+ },
  "schema": "vsetin-osint/manifest@1",
  "soubory": {
   "data/casove_osy.jsonl": {
    "radku": 330,
-   "sha256_souboru": "230e449584596142c66527192efd4baeb858c0e2a413c3d0ab6f777725531ce3",
+   "sha256_souboru": "0b8717a7f35021123a00bfe214b66db024f7512c5881b8d5312fcb2792734fe0",
    "unikatnich_id": 330
   },
   "data/dokumenty.jsonl": {
@@ -410,17 +417,17 @@
   },
   "data/graf_hrany.jsonl": {
    "radku": 5188,
-   "sha256_souboru": "2f6b12d051b22f6d36c7d47f1523155151bd1270c30873ec404d6e88b047a74d",
+   "sha256_souboru": "3687cc3a6f709fa5f445398d2df8351684e8ccd5d904db5d22d37a4f186dcdb1",
    "unikatnich_id": 5188
   },
   "data/graf_uzly.jsonl": {
    "radku": 8119,
-   "sha256_souboru": "8f21a2c098d6df580c58e7624b1f580c4fbe0b87cded0b97bea2a69db371c1cc",
+   "sha256_souboru": "0b1b615f5e714fa632526f8f074aad5b4ffaafbc5c0674e1fdd35f2ada4fef62",
    "unikatnich_id": 8119
   },
   "data/materialy_zm.jsonl": {
    "radku": 279,
-   "sha256_souboru": "3b2df12203b2b530bdcaa9dcfa77de99d1d2d3d435d85a0586116bc6b17b5889",
+   "sha256_souboru": "4af3bc5bb36aa2bcdfde000b00a9c705a451c38934edc4a22a440227e0a13ed5",
    "unikatnich_id": 279
   },
   "data/registr_smluv.jsonl": {
@@ -430,7 +437,7 @@
   },
   "data/rozpoctova_opatreni.jsonl": {
    "radku": 193,
-   "sha256_souboru": "542f42188dfa0965351661572db2d8de74bf19c5225c3946334ebc0508870983",
+   "sha256_souboru": "511b87c1800efc398e9fd922ccac4e3c1422bf77385b9dddbb2eee37653e9a9b",
    "unikatnich_id": 193
   },
   "data/stranky.jsonl": {
@@ -440,7 +447,7 @@
   },
   "data/subjekty_ares.jsonl": {
    "radku": 767,
-   "sha256_souboru": "05b427819370f76b96dd20d4e322e2e7ef9aaac37216604f989262e38fe73bc6",
+   "sha256_souboru": "b19f6ee4258c195277c26cb3317dc03299f7baff8667fff0fe1817609c7c1765",
    "unikatnich_id": 767
   },
   "data/uredni_deska.jsonl": {
@@ -455,17 +462,17 @@
   },
   "data/usneseni.jsonl": {
    "radku": 6864,
-   "sha256_souboru": "b3d3cb38daf9c24232a68fa4b0519c11fb90dfff0c49b39dd160fce497e26180",
+   "sha256_souboru": "f74693111f211a3ecd25abd2d1399d507e3205fbb14cd85f0cd2ef454b5cd209",
    "unikatnich_id": 6864
   },
   "data/verejne_zakazky.jsonl": {
    "radku": 346,
-   "sha256_souboru": "8cf91e6b9c8b767a5ed6d4be550f66769ccc745badfb8fd9ed982e6ad5dbb10c",
+   "sha256_souboru": "823aa5d87ad702794d4e11b531212597e434f14c53fcc7a580e16c904eef45f7",
    "unikatnich_id": 334
   },
   "data/vyber_dodavatele.jsonl": {
    "radku": 377,
-   "sha256_souboru": "c0744d620f7cd163cb4c26805b0b85803a1304772f64758e7b2fbddd55fb2b37",
+   "sha256_souboru": "da0f6df4acfd6275f2a77826f3155250440e77d373392ce9d4665c93d84f98dc",
    "unikatnich_id": 377
   }
  },

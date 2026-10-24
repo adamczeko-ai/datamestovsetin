@@ -83,6 +83,20 @@ Cloudový běh je přeskočí bez chyby (stav `unreachable`). Ostatní zdroje (`
 - U subjektu FO z ARES se nepřebírá jméno ani sídlo (právní formy 100–108, 424, 425).
 - Data nejsou zjištěním pochybení. Jakákoli interpretace (souvislost, podezření) se označuje jako **HYPOTÉZA** a ověřuje ji člověk.
 
+## Pseudonymizace IČO OSVČ (§ 5 protokolu `docs/PREDAVANI_MEZI_RELACEMI.md`)
+
+IČO podnikajících fyzických osob se po každém importu a sběru nahradí kódem (`integrace/sber/ico_fo.py`). Nahrazuje se všude: pole `ico`, id záznamů (`ico:…`, `subjekt:…`), hrany grafu, URL ARES, výskyty v textu včetně tvaru „123 45 678“ a manifest.
+
+| Režim | Kdy | Kód | Vlastnosti |
+|---|---|---|---|
+| `hmac` (doporučený) | je nastavena proměnná prostředí `VSETIN_PSEUDO_KLIC` | `FO-` + 12 hex znaků HMAC-SHA256 | stabilní napříč běhy a soubory; bez klíče nevratný |
+| `poradi` (výchozí bez klíče) | klíč chybí | `FO-0001`, `FO-0002`, … podle pořadí výskytu | na IČO nezávisí; propojení napříč běhy se neudrží (stejná OSVČ může dostat další kód) |
+
+- Prostý hash IČO bez klíče se nepoužívá. Osmimístné IČO by šlo zpětně dohledat hrubou silou.
+- Klíč patří jen do proměnných prostředí (nastavení prostředí VSETIN-OSINT nebo serveru). Nikdy do repa, PR ani logu.
+- Po nastavení klíče přegenerujte data: `python3 scripts/import_inbox.py --handoff …`, potom `python3 scripts/sber.py`. Tím vzniknou stabilní kódy.
+- Manifest obsahuje jen režim a počty (`pseudonymizace_ico_fo`), žádná IČO.
+
 ## Zdroje a inkrementalita
 
 | Zdroj | Co dělá běh | Kurzor v manifestu |

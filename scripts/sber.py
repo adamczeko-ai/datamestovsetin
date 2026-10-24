@@ -32,7 +32,7 @@ sys.path.insert(0, ROOT)
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 from integrace.http import Http  # noqa: E402
-from integrace.sber import store, zdroje  # noqa: E402
+from integrace.sber import ico_fo, store, zdroje  # noqa: E402
 from integrace.sber.registr import LIMIT_DETAILU  # noqa: E402
 import ares_overeni  # noqa: E402
 
@@ -106,7 +106,8 @@ def main(argv=None, http: Http | None = None, dnes: date | None = None) -> int:
         beh["zapsano_radku"] = zapsano
         man["posledni_beh"] = {k: beh[k] for k in ("zacatek", "konec", "rezim", "zdroje", "limity")}
         man["posledni_beh"]["stav"] = {z: v["stav"] for z, v in beh["vysledky"].items()}
-        store.zapis_manifest(man_path, man, sklad, a.data_dir)
+        man["pseudonymizace_ico_fo"] = ico_fo.aplikuj(a.data_dir, objekty=[man])  # § 5: IČO OSVČ
+        store.zapis_manifest(man_path, man, None, a.data_dir)
         store.zapis_runlog(a.runlog, beh)
     else:
         beh["by_bylo_zapsano_radku"] = {n: len(f.pending) for n, f in sklad.files.items()}

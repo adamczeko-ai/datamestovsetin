@@ -15,7 +15,7 @@
  "properties": {
   "id": {
    "type": "string",
-   "pattern": "^ico:\\d{8}$"
+   "pattern": "^ico:(\\d{8}|FO-[0-9a-f]{12}|FO-\\d{4,})$"
   },
   "source_url": {
    "type": "string",
@@ -46,7 +46,8 @@
   },
   "ico": {
    "type": "string",
-   "pattern": "^\\d{8}$"
+   "pattern": "^(\\d{8}|FO-[0-9a-f]{12}|FO-\\d{4,})$",
+   "description": "IČO; u OSVČ pseudonym FO-… (§ 5, integrace/sber/ico_fo.py)"
   },
   "kontrolni_cislice_ok": {
    "type": "boolean"
