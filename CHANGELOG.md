@@ -126,3 +126,7 @@
 ## 2026-10-23 (várka q – kauza K-004 AERV)
 - `data/kauzy/K-004_AERV_zruseni.json`: řetězec dohoda 2012 → narovnání DPH 3 848 880 Kč (= 21 % z 18 328 000) → zrušení (usn. 10/9/ZM/2023) → vklad 3,6 mil. na likvidaci (usn. 1/10/ZM/2023) → převod likvidačního zůstatku (2024) → výmaz.
 - Signál P-02 „zčásti vysvětleno“; otevřené: výše likvidačního zůstatku.
+
+## 2026-10-24 (schémata zakázek, smluv a vazeb usnesení, větev claude/auto-schemata-zakazky-smlouvy-2026-10-24)
+- 9 nových JSON Schema pro 10 souborů bez schématu: `data/zakazky/` (NIPEZ okruh města, průchod NIPEZ, svoz odpadu, Senior taxi, zrušené VZ), `data/smlouvy/` (oprava hodnot registru, párování akcí, 2× řetězec úvěru) a `data/usneseni/usneseni_vazby_RO.json`; zařazeno do `validate_schemas.py`, test `tests/test_schemata_zakazky_smlouvy.py`.
+- Nedestruktivní normalizace dat `scripts/normalizace_dat.py`: `oprava_hodnot_registru_2026-10-23.json` (`datum_uzavreni` je ve tvaru DD.MM.RRRR) doplněn o `datum_uzavreni_iso` (215×), řetězce úvěrů o `datum_iso` (12×; text „neuvedeno (…)“ → `null`). Původní pole beze změny; schémata nové pole vyžadují; test `tests/test_normalizace_dat.py`.

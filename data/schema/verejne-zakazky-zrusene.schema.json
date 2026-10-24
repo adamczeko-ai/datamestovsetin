@@ -1,0 +1,124 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "Zrušené veřejné zakázky z profilu zadavatele",
+ "description": "data/zakazky/verejne_zakazky_zrusene.json",
+ "type": "object",
+ "required": [
+  "schema",
+  "zdroj",
+  "stav_k",
+  "zakazky"
+ ],
+ "properties": {
+  "schema": {
+   "type": "string"
+  },
+  "zdroj": {
+   "type": "string"
+  },
+  "stav_k": {
+   "type": "string"
+  },
+  "pocet_v_profilu": {
+   "type": "integer"
+  },
+  "vytezeno": {
+   "type": "integer"
+  },
+  "soucet_predp_hodnot_Kc": {
+   "type": "integer"
+  },
+  "opakovana_zruseni": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "required": [
+     "zakazka",
+     "pocet_zruseni"
+    ],
+    "properties": {
+     "zakazka": {
+      "type": "string"
+     },
+     "pocet_zruseni": {
+      "type": "integer",
+      "minimum": 2
+     },
+     "terminy": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "predp_hodnoty": {
+      "type": "array",
+      "items": {
+       "type": [
+        "integer",
+        "null"
+       ]
+      }
+     }
+    }
+   }
+  },
+  "vybrane": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "required": [
+     "nazev",
+     "uverejneno"
+    ],
+    "properties": {
+     "nazev": {
+      "type": "string"
+     },
+     "predp_hodnota": {
+      "type": "integer"
+     },
+     "uverejneno": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+     },
+     "lhuta": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+     },
+     "navaznost": {
+      "type": "string"
+     }
+    }
+   }
+  },
+  "zakazky": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "required": [
+     "nazev",
+     "predp_hodnota",
+     "lhuta",
+     "uverejneno"
+    ],
+    "properties": {
+     "nazev": {
+      "type": "string"
+     },
+     "predp_hodnota": {
+      "type": "integer"
+     },
+     "lhuta": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+     },
+     "uverejneno": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+     }
+    }
+   },
+   "minItems": 1
+  }
+ }
+}
