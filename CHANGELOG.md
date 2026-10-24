@@ -123,6 +123,10 @@
 - Signály P-01 (dary 4 dodavatelů projektu MVK, smlouvy 0781–0784 2025), P-02 (AERV: vklad 3,6 mil. 10 dní před zrušením), P-03 (podíl dodatků Martin Urban, TM Stav).
 - K-003: 39830353 = Dodatek č. 1 k SoD Vs-04-Bel, +641 950,51 Kč bez DPH, cena díla 69,63 mil. bez DPH.
 
+## 2026-10-24 (RO 2026 × MONITOR – paragraf/položka, Claude in Chrome)
+- `data/monitor/monitor_vs_ro2026_par_pol_2026-08.csv` + `scripts/kontrola_monitor_vs_ro2026_polozky.py`: součet rozdílů 0,00 Kč, 61/172 položek shoda; ~2,99 mil. Kč z rezerv (5901) rozděleno mimo zveřejněná RO 1–15 (indicie k vysvětlení).
+- RO 7: 850 000 Kč schváleno na ODPA 3635, účtováno v 3613 (ověřeno v PDF) – signál k vysvětlení.
+
 ## 2026-10-23 (várka q – kauza K-004 AERV)
 - `data/kauzy/K-004_AERV_zruseni.json`: řetězec dohoda 2012 → narovnání DPH 3 848 880 Kč (= 21 % z 18 328 000) → zrušení (usn. 10/9/ZM/2023) → vklad 3,6 mil. na likvidaci (usn. 1/10/ZM/2023) → převod likvidačního zůstatku (2024) → výmaz.
 - Signál P-02 „zčásti vysvětleno“; otevřené: výše likvidačního zůstatku.
