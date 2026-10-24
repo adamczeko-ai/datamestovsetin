@@ -67,36 +67,47 @@ def ares_reg(reg, ico):
         return e.code, None
 
 
+def overit_ico(ico, get=ares, get_reg=ares_reg, pauza=0.25) -> dict:
+    """Ověří jedno IČO: kontrolní číslice, základní registr, u 404 dílčí registry RŽP/RES.
+
+    get(ico) -> (http_kód, json|None), get_reg(registr, ico) -> totéž (lze podstrčit, např. pro scripts/sber.py).
+    """
+    row = {"kontrolni_cislice_ok": ico_ok(ico)}
+    if not row["kontrolni_cislice_ok"]:
+        return row
+    code, d = get(ico)
+    time.sleep(pauza)
+    row["ares_http"] = code
+    if code == 404:  # vymazané z OR vrací základní endpoint 404 -> dílčí registry
+        for reg in ("ekonomicke-subjekty-rzp", "ekonomicke-subjekty-res"):
+            c2, d2 = get_reg(reg, ico)
+            if d2 and d2.get("zaznamy"):
+                z = d2["zaznamy"][0]
+                row.update({"zdroj_detail": f"{reg}/{ico}", "stav": "ZANIKLY" if z.get("datumZaniku") else None,
+                            "obchodni_jmeno": z.get("obchodniJmeno"), "pravni_forma": z.get("pravniForma"),
+                            "datum_zaniku": z.get("datumZaniku")})
+                break
+    if d:
+        row.update({
+            "obchodni_jmeno": d.get("obchodniJmeno"),
+            "pravni_forma": d.get("pravniForma"),
+            "sidlo": (d.get("sidlo") or {}).get("textovaAdresa"),
+            "datum_vzniku": d.get("datumVzniku"),
+            "datum_zaniku": d.get("datumZaniku"),
+            "datum_aktualizace_ares": d.get("datumAktualizace"),
+        })
+    return row
+
+
 def main():
     found = collect()
     now = datetime.datetime.now(zoneinfo.ZoneInfo("Europe/Prague")).strftime("%Y-%m-%d %H:%M")
     rows = []
     for ico in sorted(found):
         src = found[ico]
-        row = {"ico": ico, "kontrolni_cislice_ok": ico_ok(ico),
-               "soubory": sorted(src["soubory"]), "nazvy_v_datech": sorted(src["nazvy_v_datech"])}
-        if row["kontrolni_cislice_ok"]:
-            code, d = ares(ico)
-            time.sleep(0.25)
-            row["ares_http"] = code
-            if code == 404:  # vymazané z OR vrací základní endpoint 404 -> dílčí registry
-                for reg in ("ekonomicke-subjekty-rzp", "ekonomicke-subjekty-res"):
-                    c2, d2 = ares_reg(reg, ico)
-                    if d2 and d2.get("zaznamy"):
-                        z = d2["zaznamy"][0]
-                        row.update({"zdroj_detail": f"{reg}/{ico}", "stav": "ZANIKLY" if z.get("datumZaniku") else None,
-                                    "obchodni_jmeno": z.get("obchodniJmeno"), "pravni_forma": z.get("pravniForma"),
-                                    "datum_zaniku": z.get("datumZaniku")})
-                        break
-            if d:
-                row.update({
-                    "obchodni_jmeno": d.get("obchodniJmeno"),
-                    "pravni_forma": d.get("pravniForma"),
-                    "sidlo": (d.get("sidlo") or {}).get("textovaAdresa"),
-                    "datum_vzniku": d.get("datumVzniku"),
-                    "datum_zaniku": d.get("datumZaniku"),
-                    "datum_aktualizace_ares": d.get("datumAktualizace"),
-                })
+        r = overit_ico(ico, ares, ares_reg)
+        row = {"ico": ico, "kontrolni_cislice_ok": r.pop("kontrolni_cislice_ok"),
+               "soubory": sorted(src["soubory"]), "nazvy_v_datech": sorted(src["nazvy_v_datech"]), **r}
         rows.append(row)
     stav = {"v_ares": sum(1 for r in rows if r.get("ares_http") == 200),
             "nenalezeno": [r["ico"] for r in rows if r.get("ares_http") == 404 and not r.get("obchodni_jmeno")],

@@ -1,0 +1,93 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "Manifest sběru (data/manifest.json)",
+ "type": "object",
+ "required": [
+  "schema",
+  "zdroje",
+  "soubory",
+  "aktualizovano"
+ ],
+ "properties": {
+  "schema": {
+   "const": "vsetin-osint/manifest@1"
+  },
+  "aktualizovano": {
+   "type": "string",
+   "pattern": "^\\d{4}-\\d\\d-\\d\\dT\\d\\d:\\d\\d:\\d\\d[+-]\\d\\d:\\d\\d$"
+  },
+  "zdroje": {
+   "type": "object",
+   "additionalProperties": {
+    "type": "object",
+    "required": [
+     "chyby"
+    ],
+    "properties": {
+     "stav": {
+      "enum": [
+       "ok",
+       "chyba",
+       "unreachable"
+      ]
+     },
+     "posledni_beh": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d\\d-\\d\\dT\\d\\d:\\d\\d:\\d\\d[+-]\\d\\d:\\d\\d$"
+     },
+     "posledni_uspech": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d\\d-\\d\\dT\\d\\d:\\d\\d:\\d\\d[+-]\\d\\d:\\d\\d$"
+     },
+     "kurzor": {
+      "type": "object"
+     },
+     "pocty_posledniho_behu": {
+      "type": "object"
+     },
+     "chyby": {
+      "type": "array",
+      "maxItems": 20,
+      "items": {
+       "type": "object",
+       "required": [
+        "cas",
+        "chyba"
+       ]
+      }
+     }
+    }
+   }
+  },
+  "soubory": {
+   "type": "object",
+   "additionalProperties": {
+    "type": "object",
+    "required": [
+     "radku",
+     "unikatnich_id",
+     "sha256_souboru"
+    ]
+   }
+  },
+  "posledni_beh": {
+   "type": "object",
+   "required": [
+    "zacatek",
+    "konec",
+    "rezim",
+    "zdroje",
+    "stav"
+   ]
+  },
+  "import_inbox": {
+   "type": "object",
+   "required": [
+    "cas",
+    "repo",
+    "vetve",
+    "pocty"
+   ]
+  }
+ }
+}

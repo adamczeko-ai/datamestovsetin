@@ -1,0 +1,81 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "Veřejná zakázka z profilu zadavatele (vhodne-uverejneni.cz)",
+ "description": "Jeden řádek data/verejne_zakazky.jsonl. Společná pole: id, source_url, retrieved_at (Europe/Prague), sha256 (obsahový otisk, integrace/sber/store.py).",
+ "type": "object",
+ "required": [
+  "id",
+  "source_url",
+  "retrieved_at",
+  "sha256",
+  "kod",
+  "ucastnici",
+  "dodavatele"
+ ],
+ "properties": {
+  "id": {
+   "type": "string",
+   "pattern": "^vz:([A-Z0-9]+|bez-kodu:[0-9a-f]{12})$"
+  },
+  "source_url": {
+   "type": "string",
+   "pattern": "^https://"
+  },
+  "retrieved_at": {
+   "type": "string",
+   "pattern": "^\\d{4}-\\d\\d-\\d\\dT\\d\\d:\\d\\d:\\d\\d[+-]\\d\\d:\\d\\d$"
+  },
+  "sha256": {
+   "type": "string",
+   "pattern": "^[0-9a-f]{64}$"
+  },
+  "puvod": {
+   "type": "object",
+   "required": [
+    "repo",
+    "vetev",
+    "commit",
+    "soubor"
+   ],
+   "properties": {
+    "commit": {
+     "type": "string",
+     "pattern": "^[0-9a-f]{40}$"
+    }
+   }
+  },
+  "kod": {
+   "type": [
+    "string",
+    "null"
+   ]
+  },
+  "nazev": {
+   "type": [
+    "string",
+    "null"
+   ]
+  },
+  "stav": {
+   "type": [
+    "string",
+    "null"
+   ]
+  },
+  "ucastnici": {
+   "type": "array"
+  },
+  "dodavatele": {
+   "type": "array"
+  },
+  "pocet_nabidek": {
+   "type": [
+    "integer",
+    "null"
+   ]
+  },
+  "format_zdroje": {
+   "type": "string"
+  }
+ }
+}

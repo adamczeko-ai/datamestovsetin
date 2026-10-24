@@ -1,0 +1,586 @@
+{
+ "aktualizovano": "2026-10-24T12:40:05+02:00",
+ "import_inbox": {
+  "cas": "2026-10-24T12:39:46+02:00",
+  "neprevzato": [
+   "ico_frekvence a ico_jmeno_heuristika (usnesení; odvoditelné, heuristika obsahuje jména)",
+   "plný raw text výpisů usnesení (text je u jednotlivých usnesení, originál na source_url)",
+   "vyber_dodavatele v1 (nahrazeno v2 z PR #4)",
+   "fakta/statistika grafu (odvoditelné z uzlů a hran)",
+   "RUNLOG a průzkum konkurence (Markdown, ponecháno v handoff repu)"
+  ],
+  "pocty": {
+   "casove_osy": {
+    "nezmeneno": 0,
+    "nove": 330,
+    "zmeneno": 0
+   },
+   "dokumenty": {
+    "nezmeneno": 0,
+    "nove": 921,
+    "zmeneno": 0
+   },
+   "graf_hrany": {
+    "nezmeneno": 0,
+    "nove": 5188,
+    "zmeneno": 0
+   },
+   "graf_uzly": {
+    "nezmeneno": 0,
+    "nove": 8119,
+    "zmeneno": 0
+   },
+   "materialy_zm": {
+    "nezmeneno": 0,
+    "nove": 279,
+    "zmeneno": 0
+   },
+   "registr_smluv": {
+    "nezmeneno": 0,
+    "nove": 4614,
+    "zmeneno": 0
+   },
+   "rozpoctova_opatreni": {
+    "nezmeneno": 0,
+    "nove": 193,
+    "zmeneno": 0
+   },
+   "stranky": {
+    "nezmeneno": 0,
+    "nove": 45,
+    "zmeneno": 0
+   },
+   "subjekty_ares": {
+    "nezmeneno": 0,
+    "nove": 762,
+    "zmeneno": 0
+   },
+   "uredni_deska": {
+    "nezmeneno": 0,
+    "nove": 71,
+    "zmeneno": 0
+   },
+   "uredni_deska_snimky": {
+    "nezmeneno": 0,
+    "nove": 1,
+    "zmeneno": 0
+   },
+   "usneseni": {
+    "nezmeneno": 0,
+    "nove": 6864,
+    "zmeneno": 0
+   },
+   "verejne_zakazky": {
+    "nezmeneno": 0,
+    "nove": 314,
+    "zmeneno": 0
+   },
+   "vyber_dodavatele": {
+    "nezmeneno": 0,
+    "nove": 377,
+    "zmeneno": 0
+   }
+  },
+  "qa_p1": {
+   "cislovani": {
+    "bez_der": 284,
+    "problemy": [
+     {
+      "chybi": [
+       12,
+       13,
+       14,
+       15,
+       16,
+       17,
+       18,
+       19,
+       20,
+       21,
+       22,
+       23,
+       24,
+       25,
+       26,
+       27,
+       28,
+       29,
+       30,
+       31,
+       32,
+       33,
+       34,
+       35,
+       36,
+       37,
+       38,
+       39,
+       40,
+       41,
+       42,
+       43,
+       44,
+       45,
+       46,
+       47,
+       48,
+       49,
+       50,
+       51,
+       52,
+       53,
+       54,
+       55,
+       56,
+       57,
+       58,
+       59,
+       60,
+       61,
+       62,
+       63,
+       64,
+       65,
+       66,
+       67,
+       68
+      ],
+      "duplicity": [],
+      "id": 531059,
+      "titul": "81. schůze rady města 11.7.2018"
+     },
+     {
+      "chybi": [
+       32
+      ],
+      "duplicity": [],
+      "id": 541566,
+      "titul": "41. schůze rady města 24.06.2020"
+     },
+     {
+      "id": 552173,
+      "problem": "0 usnesení",
+      "titul": "4. schůze rady města 05.12.2022"
+     },
+     {
+      "id": 552345,
+      "problem": "0 usnesení",
+      "titul": "5. schůze rady města 19.12.2022"
+     },
+     {
+      "chybi": [],
+      "duplicity": [
+       10
+      ],
+      "id": 559961,
+      "titul": "51. schůze rady města 14.10.2024"
+     },
+     {
+      "chybi": [
+       23
+      ],
+      "duplicity": [],
+      "id": 561491,
+      "titul": "17. zasedání ZMV 03.02.2025"
+     },
+     {
+      "chybi": [
+       3
+      ],
+      "duplicity": [],
+      "id": 569002,
+      "titul": "26. zasedání ZMV 22.06.2026"
+     },
+     {
+      "chybi": [
+       3
+      ],
+      "duplicity": [],
+      "id": 570501,
+      "titul": "27. zasedání ZMV 21.09.2026"
+     }
+    ]
+   },
+   "kategorizace": {
+    "kontrolor": "Claude (ruční posouzení názvů bodů), nikoli člověk",
+    "metoda": "regex + klíčová slova, priorita pravidel, název má přednost před textem; bez LLM",
+    "vzorek_A": {
+     "n": 50,
+     "seed": 42,
+     "v1_presnost": "41/50 = 82 %",
+     "v2_presnost_na_stejnem_vzorku": "48/50 = 96 % (zkreslené – pravidla laděna na tomto vzorku)"
+    },
+    "vzorek_B": {
+     "n": 30,
+     "seed": 7,
+     "v2_presnost": "25/30 = 83,3 % (nezávislý odhad)",
+     "v3_opravy": "5 chyb opraveno; v3 na novém nezávislém vzorku NEOVĚŘENO"
+    }
+   },
+   "ocr_potreba": [
+    525023,
+    525025,
+    525027,
+    525149,
+    527018,
+    527019,
+    528686,
+    528970,
+    529745,
+    530037,
+    530742,
+    552173,
+    552345
+   ],
+   "pseudonymizace": "131 názvů bodů s pravděpodobnou FO nahrazeno [FO] (heuristika)",
+   "vyber_dodavatele": {
+    "ceny": "jen 29 cen – ceny bývají v důvodových zprávách RM, které nejsou veřejné; 75 hodnot vyřazeno jako limity (200 001 Kč apod.)",
+    "radku": 377,
+    "zdroj_viteze": {
+     "neurceno": 67,
+     "poradi_1": 19,
+     "prvni_ico_v_textu (nejisté)": 40,
+     "veta_s_dodavatelem": 251
+    }
+   }
+  },
+  "repo": "adamczeko-ai/vsetin-osint-handoff",
+  "ukazatele_vz_p2f": {
+   "druhy_rizeni": {
+    "jednací řízení bez uveřejnění": 16,
+    "jednací řízení s uveřejněním (bez uveřejnění) - §61 odst. 3": 1,
+    "null": 1,
+    "otevřené řízení": 14,
+    "zakázka malého rozsahu": 224,
+    "zjednodušené podlimitní řízení": 58
+   },
+   "hhi_dodavatelu": 690,
+   "objem_smluv_bez_dph": 533956494,
+   "pocet_zakazek": 314,
+   "podil_jedna_nabidka": 0.254,
+   "prumer_nabidek": 3.64,
+   "s_ucastniky": 228,
+   "stavy": {
+    "null": 1,
+    "ukončeno plnění smlouvy na základě veřejné zakázky": 108,
+    "zakázka byla zadána": 156,
+    "zakázka byla zrušena": 48,
+    "zakázka neukončena": 1
+   },
+   "top_dodavatele_dle_objemu": [
+    {
+     "ico": "48399477",
+     "nazev": "TM Stav, spol. s r.o.",
+     "objem_bez_dph": 86073984,
+     "pocet": 23
+    },
+    {
+     "ico": "26850648",
+     "nazev": "TESP Contract,s.r.o.",
+     "objem_bez_dph": 54496967,
+     "pocet": 6
+    },
+    {
+     "ico": "28315669",
+     "nazev": "Zlínstav a.s.",
+     "objem_bez_dph": 49501237,
+     "pocet": 1
+    },
+    {
+     "ico": "26782596",
+     "nazev": "Technické služby Vsetín, s.r.o.",
+     "objem_bez_dph": 49260176,
+     "pocet": 2
+    },
+    {
+     "ico": "48035599",
+     "nazev": "SWIETELSKY stavební s.r.o. odštěpný závod Dopravní stavby MORAVA",
+     "objem_bez_dph": 36033006,
+     "pocet": 13
+    },
+    {
+     "ico": "45192588",
+     "nazev": "Zásobování teplem Vsetín a.s.",
+     "objem_bez_dph": 23567690,
+     "pocet": 1
+    },
+    {
+     "ico": "15526691",
+     "nazev": "KDZ, spol. s r. o.",
+     "objem_bez_dph": 21219881,
+     "pocet": 1
+    },
+    {
+     "ico": "FO-0001",
+     "nazev": "[FO – pseudonymizováno]",
+     "objem_bez_dph": 17216618,
+     "pocet": 12
+    },
+    {
+     "ico": "25835661",
+     "nazev": "H & B delta, s.r.o.",
+     "objem_bez_dph": 17206092,
+     "pocet": 2
+    },
+    {
+     "ico": "04929845",
+     "nazev": "sport cité + s.r.o.",
+     "objem_bez_dph": 16616006,
+     "pocet": 2
+    },
+    {
+     "ico": "60838744",
+     "nazev": "STRABAG a.s.",
+     "objem_bez_dph": 16424912,
+     "pocet": 8
+    },
+    {
+     "ico": "43005560",
+     "nazev": "Porr a.s.",
+     "objem_bez_dph": 14056688,
+     "pocet": 5
+    },
+    {
+     "ico": "27772179",
+     "nazev": "EMPEMONT s.r.o.",
+     "objem_bez_dph": 10157527,
+     "pocet": 1
+    },
+    {
+     "ico": "41035933",
+     "nazev": "RADEKOV spol. s r.o.",
+     "objem_bez_dph": 9848743,
+     "pocet": 3
+    },
+    {
+     "ico": "27796477",
+     "nazev": "OPEN RE-ECO. s.r.o.",
+     "objem_bez_dph": 9665251,
+     "pocet": 11
+    }
+   ]
+  },
+  "vetve": {
+   "osint/2026-10-23-davka-p2": {
+    "commit": "ad0714238123d2ec9b50608cb2e52fb8f60f4ed5",
+    "pr": 4
+   },
+   "osint/2026-10-23-davka-p3-graf": {
+    "commit": "d1389579d2c66bae6cbb060478573b594e95046e",
+    "pr": 5
+   },
+   "osint/2026-10-23-inbox-davka-p1": {
+    "commit": "d64ef02c55f89295a8445d9bda10eccbb98ef7fa",
+    "pr": 3
+   },
+   "osint/2026-10-23-registr-smluv": {
+    "commit": "0c6a5d1ffe9a4d3cf7b1a4ac4bb7c53c90c964c6",
+    "pr": 7
+   }
+  }
+ },
+ "posledni_beh": {
+  "konec": "2026-10-24T08:39:09+02:00",
+  "limity": {
+   "limit": 2,
+   "limit_ares": 200,
+   "limit_rs": 500,
+   "max_stranek": 5
+  },
+  "rezim": "ostry",
+  "stav": {
+   "profil_zadavatele": "unreachable"
+  },
+  "zacatek": "2026-10-24T08:39:03+02:00",
+  "zdroje": [
+   "profil_zadavatele"
+  ]
+ },
+ "pseudonymizace_ico_fo": {
+  "pocet_fo_ico_v_behu": 117,
+  "posledni_poradi": 117,
+  "rezim": "poradi",
+  "zmenenych_radku": 629,
+  "zmenenych_souboru": 9
+ },
+ "schema": "vsetin-osint/manifest@1",
+ "soubory": {
+  "data/casove_osy.jsonl": {
+   "radku": 330,
+   "sha256_souboru": "0b8717a7f35021123a00bfe214b66db024f7512c5881b8d5312fcb2792734fe0",
+   "unikatnich_id": 330
+  },
+  "data/dokumenty.jsonl": {
+   "radku": 921,
+   "sha256_souboru": "7b59583f6eed3da22ca8e06ca39c4696d688d6d0e8138fb79e65ac3f7a19c533",
+   "unikatnich_id": 921
+  },
+  "data/graf_hrany.jsonl": {
+   "radku": 5188,
+   "sha256_souboru": "3687cc3a6f709fa5f445398d2df8351684e8ccd5d904db5d22d37a4f186dcdb1",
+   "unikatnich_id": 5188
+  },
+  "data/graf_uzly.jsonl": {
+   "radku": 8119,
+   "sha256_souboru": "0b1b615f5e714fa632526f8f074aad5b4ffaafbc5c0674e1fdd35f2ada4fef62",
+   "unikatnich_id": 8119
+  },
+  "data/materialy_zm.jsonl": {
+   "radku": 279,
+   "sha256_souboru": "4af3bc5bb36aa2bcdfde000b00a9c705a451c38934edc4a22a440227e0a13ed5",
+   "unikatnich_id": 279
+  },
+  "data/registr_smluv.jsonl": {
+   "radku": 4616,
+   "sha256_souboru": "e32f94160575a892a0d7c112dec86e9a9ecc3afa47f6a3049831b9624429ba26",
+   "unikatnich_id": 4614
+  },
+  "data/rozpoctova_opatreni.jsonl": {
+   "radku": 193,
+   "sha256_souboru": "511b87c1800efc398e9fd922ccac4e3c1422bf77385b9dddbb2eee37653e9a9b",
+   "unikatnich_id": 193
+  },
+  "data/stranky.jsonl": {
+   "radku": 45,
+   "sha256_souboru": "fae0bafbdee60436cd628d72ebb4f97bd29e9049441d9dc2a0dbe041357c5aee",
+   "unikatnich_id": 45
+  },
+  "data/subjekty_ares.jsonl": {
+   "radku": 767,
+   "sha256_souboru": "b19f6ee4258c195277c26cb3317dc03299f7baff8667fff0fe1817609c7c1765",
+   "unikatnich_id": 767
+  },
+  "data/uredni_deska.jsonl": {
+   "radku": 71,
+   "sha256_souboru": "5826c6889a1e6ba7e8f8b2c2460377d4bdbe98288a974f8428a9a03eba288270",
+   "unikatnich_id": 71
+  },
+  "data/uredni_deska_snimky.jsonl": {
+   "radku": 1,
+   "sha256_souboru": "f5c1e733863f7e500dda0760f00c2f5b6147bfbf1358c83db7cfef0338ae27df",
+   "unikatnich_id": 1
+  },
+  "data/usneseni.jsonl": {
+   "radku": 6864,
+   "sha256_souboru": "f74693111f211a3ecd25abd2d1399d507e3205fbb14cd85f0cd2ef454b5cd209",
+   "unikatnich_id": 6864
+  },
+  "data/verejne_zakazky.jsonl": {
+   "radku": 346,
+   "sha256_souboru": "823aa5d87ad702794d4e11b531212597e434f14c53fcc7a580e16c904eef45f7",
+   "unikatnich_id": 334
+  },
+  "data/vyber_dodavatele.jsonl": {
+   "radku": 377,
+   "sha256_souboru": "da0f6df4acfd6275f2a77826f3155250440e77d373392ce9d4665c93d84f98dc",
+   "unikatnich_id": 377
+  }
+ },
+ "zdroje": {
+  "ares": {
+   "chyby": [],
+   "kurzor": {
+    "ceka_na_overeni": 176,
+    "posledni_kontrola": "2026-10-24T08:38:54+02:00"
+   },
+   "pocty_posledniho_behu": {
+    "chyby": 0,
+    "nezmeneno": 0,
+    "nove": 5,
+    "zmeneno": 0
+   },
+   "posledni_beh": "2026-10-24T08:38:46+02:00",
+   "posledni_uspech": "2026-10-24T08:38:46+02:00",
+   "soubory": [
+    "data/subjekty_ares.jsonl"
+   ],
+   "stav": "ok"
+  },
+  "materialy_zm": {
+   "chyby": [],
+   "nedosazitelny": {
+    "cas": "2026-10-24T08:37:38+02:00",
+    "duvod": "HostUnreachable: robots.txt hostitele www.mestovsetin.cz nedostupný – stahování vynecháno"
+   },
+   "posledni_beh": "2026-10-24T08:37:38+02:00",
+   "stav": "unreachable"
+  },
+  "profil_zadavatele": {
+   "chyby": [],
+   "kurzor": {
+    "posledni_kontrola": "2026-10-24T00:43:25+02:00",
+    "stazeno_do": "2024-06-30"
+   },
+   "nedosazitelny": {
+    "cas": "2026-10-24T08:39:03+02:00",
+    "duvod": "HostUnreachable: robots.txt hostitele www.vhodne-uverejneni.cz nedostupný – stahování vynecháno"
+   },
+   "posledni_beh": "2026-10-24T08:39:03+02:00",
+   "poznamka": "2026-10-24: záznamy z běhu 23. 10. převzaty z předchozí verze větve (profil při přegenerování nedostupný)",
+   "stav": "unreachable"
+  },
+  "registr_smluv": {
+   "chyby": [],
+   "kurzor": {
+    "ceka_na_detail": 4612,
+    "posledni_kontrola": "2026-10-24T08:38:46+02:00"
+   },
+   "pocty_posledniho_behu": {
+    "chyby": 3,
+    "nezmeneno": 0,
+    "nove": 0,
+    "zmeneno": 2
+   },
+   "posledni_beh": "2026-10-24T08:37:45+02:00",
+   "posledni_uspech": "2026-10-24T08:37:45+02:00",
+   "soubory": [
+    "data/registr_smluv.jsonl"
+   ],
+   "stav": "ok"
+  },
+  "rozpoctova_opatreni": {
+   "chyby": [],
+   "kurzor": {
+    "rocni_slozky": {
+     "2017": 19252,
+     "2018": 19318,
+     "2019": 19393,
+     "2020": 19502,
+     "2021": 19587,
+     "2022": 19647,
+     "2023": 19725,
+     "2024": 19802,
+     "2025": 19876,
+     "2026": 19928
+    }
+   },
+   "nedosazitelny": {
+    "cas": "2026-10-24T08:37:38+02:00",
+    "duvod": "HostUnreachable: robots.txt hostitele www.mestovsetin.cz nedostupný – stahování vynecháno"
+   },
+   "posledni_beh": "2026-10-24T08:37:38+02:00",
+   "stav": "unreachable"
+  },
+  "uredni_deska": {
+   "chyby": [],
+   "kurzor": {
+    "url": "https://www.mestovsetin.cz/vismo/zobraz_dok.asp?ud=2&p1=72363"
+   },
+   "nedosazitelny": {
+    "cas": "2026-10-24T08:37:38+02:00",
+    "duvod": "HostUnreachable: robots.txt hostitele www.mestovsetin.cz nedostupný – stahování vynecháno"
+   },
+   "posledni_beh": "2026-10-24T08:37:38+02:00",
+   "stav": "unreachable"
+  },
+  "usneseni": {
+   "chyby": [],
+   "nedosazitelny": {
+    "cas": "2026-10-24T08:37:26+02:00",
+    "duvod": "HostUnreachable: robots.txt hostitele www.mestovsetin.cz nedostupný – stahování vynecháno"
+   },
+   "posledni_beh": "2026-10-24T08:37:26+02:00",
+   "stav": "unreachable"
+  }
+ }
+}

@@ -130,3 +130,15 @@
 ## 2026-10-23 (várka q – kauza K-004 AERV)
 - `data/kauzy/K-004_AERV_zruseni.json`: řetězec dohoda 2012 → narovnání DPH 3 848 880 Kč (= 21 % z 18 328 000) → zrušení (usn. 10/9/ZM/2023) → vklad 3,6 mil. na likvidaci (usn. 1/10/ZM/2023) → převod likvidačního zůstatku (2024) → výmaz.
 - Signál P-02 „zčásti vysvětleno“; otevřené: výše likvidačního zůstatku.
+
+## 2026-10-23 (fáze 1 – sběr do data/*.jsonl, větev claude/osint-sber-init)
+- Import předávky data/inbox z handoff repa (PR #3, #4, #5, #7) do 15 souborů `data/*.jsonl` (id, source_url, retrieved_at, sha256, puvod); skript `scripts/import_inbox.py`, opakování nic nezdvojí.
+- `scripts/sber.py`: inkrementální sběr usnesení RM/ZM, materiálů ZM, RO, úřední desky (snímek při každém běhu), profilu zadavatele (XMLdataVZ), registru smluv (detail ≤ 500 za běh) a ARES pro nová IČO; `--source`, `--dry-run`; stav v `data/manifest.json`, log `docs/RUNLOG.md`.
+- `integrace/sber/` (úložiště, pseudonymizace FO, parsery); `integrace/http.py` + robots.txt/Crawl-delay a volitelný User-Agent; `ares_overeni.overit_ico()`.
+- Schémata `data/schema/jsonl-*.schema.json`, `manifest.schema.json`; `validate_schemas.py` kontroluje i JSONL (sha256, duplicity).
+- Zjištění: předávka P2f má zakázky jen 2017–2023 (export od 2024 mísí dvě struktury XML); portál odmítá export přes 1. 7. 2024 (HTTP 400). Kurzor profilu = 2023-12-31.
+- Oprava pseudonymizace po kontrole: rozšířený slovník jmen (česká, slovenská, cizí), příjemci dotací FO („bytem/nar.“, dativ po „poskytnutí dotace“), celoplošně dokumenty o volbách, ochrana ulic a institucí; slova institucí jen jako celá slova. Kontrola zúženým vzorcem: 0 osob.
+- `sber.py`: síťově nedosažitelný zdroj = stav `unreachable` (není chyba běhu); web města (www, mapy) z cloudu nedosažitelný – zdroje webu města spouštět mimo cloud (`docs/SBER.md`).
+- Oprava pseudonymizace po kontrole PR #8 (24. 10. 2026): strana smlouvy „jméno, nar. rok“ → FO, iniciály s rokem narození, rok narození FO minimalizován („nar. …“), jména verzálkami (křestní jméno ze slovníku). Data přegenerována; kontrola: 0 jmen s „nar. rok“, 0 iniciál po oslovení, 0 jmen verzálkami.
+- Oprava pseudonymizace po kontrole PR #8 (24. 10. 2026, 2. kolo): převzata oprava 7ffc9de (datum narození se slovním měsícem, adresa za „bytem“, smyšlená jména v testech) a doplněno pravidly v kódu: krátká křestní jména (Eva, Iva…), pracovní role + jméno („pracovnice školy …“), osobní e-maily `jmeno.prijmeni@` a freemailové adresy. Kontrola dat: 0 dat narození, 0 adres za „bytem“, 0 osobních e-mailů, 0 jmen verzálkami; testy bez skutečných jmen. Otevřené: pseudonymizace IČO OSVČ (rozhodnutí vlastníka, klíčovaný pseudonym).
+- IČO OSVČ pseudonymizována podle § 5 protokolu (24. 10. 2026): `integrace/sber/ico_fo.py` po importu i sběru nahradí 117 IČO podnikajících FO kódem `FO-…` ve všech `data/*.jsonl` i v manifestu (629 řádků v 9 souborech; graf bez osiřelých hran). Režim `hmac` s klíčem `VSETIN_PSEUDO_KLIC` (stabilní), bez klíče `poradi`. Schémata `subjekty_ares` a `usneseni` přijímají kód `FO-…`; test `tests/test_ico_fo.py`.
