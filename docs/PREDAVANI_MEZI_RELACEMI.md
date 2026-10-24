@@ -44,6 +44,7 @@ Postup je v `ai/ULOHA_predani_integrace.md`. Stručně:
 O merge rozhoduje vlastník.
 
 ## 5. Ochrana osobních údajů
-- Fyzické osoby: jen jméno, funkce a období.
-- Nikdy bydliště, datum narození, rodné číslo.
-- Podnikající fyzická osoba v datech o příjemcích se anonymizuje.
+- Jména fyzických osob se do dat ani dokumentů nezapisují, dokud správce nepodepíše LIA a DPIA. Do té doby se fyzické osoby pseudonymizují (stabilní kód místo jména).
+- Nikdy bydliště, datum narození ani rodné číslo.
+- Podnikající fyzická osoba (OSVČ) v datech o dodavatelích a příjemcích se pseudonymizuje včetně IČO.
+- Najde-li kontrola jméno fyzické osoby, necituje ho v PR, komentáři ani issue (repo je veřejné); uvede jen soubor, počet a id záznamu.
