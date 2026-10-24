@@ -1,0 +1,74 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "x-data-files": ["data/uredni_deska.jsonl"],
+ "title": "Dokument z úřední desky",
+ "description": "Jeden řádek data/uredni_deska.jsonl. Společná pole: id, source_url, retrieved_at (Europe/Prague), sha256 (obsahový otisk, integrace/sber/store.py).",
+ "type": "object",
+ "required": [
+  "id",
+  "source_url",
+  "retrieved_at",
+  "sha256",
+  "id_dokumenty"
+ ],
+ "properties": {
+  "id": {
+   "type": "string",
+   "pattern": "^ud:\\d+$"
+  },
+  "source_url": {
+   "type": "string",
+   "pattern": "^https://"
+  },
+  "retrieved_at": {
+   "type": "string",
+   "pattern": "^\\d{4}-\\d\\d-\\d\\dT\\d\\d:\\d\\d:\\d\\d[+-]\\d\\d:\\d\\d$"
+  },
+  "sha256": {
+   "type": "string",
+   "pattern": "^[0-9a-f]{64}$"
+  },
+  "puvod": {
+   "type": "object",
+   "required": [
+    "repo",
+    "vetev",
+    "commit",
+    "soubor"
+   ],
+   "properties": {
+    "commit": {
+     "type": "string",
+     "pattern": "^[0-9a-f]{40}$"
+    }
+   }
+  },
+  "id_dokumenty": {
+   "type": "integer"
+  },
+  "titul": {
+   "type": [
+    "string",
+    "null"
+   ]
+  },
+  "vyveseno": {
+   "type": [
+    "string",
+    "null"
+   ]
+  },
+  "sejmuto": {
+   "type": [
+    "string",
+    "null"
+   ]
+  },
+  "text": {
+   "type": [
+    "string",
+    "null"
+   ]
+  }
+ }
+}

@@ -5,6 +5,9 @@ Pravidla (ověřeno 22.–23. 10. 2026):
 - RÚIAN VFR, RVZ: ETag i Last-Modified platné, 304 funguje.
 - dataor.justice.cz: bez ETag/Last-Modified → rozhoduje SHA-256.
 - 429/5xx: exponenciální prodleva, respektuje Retry-After.
+- robots=True: před prvním požadavkem na hostitele načte robots.txt; zakázané URL nestahuje
+  a Crawl-delay prodlouží interval mezi požadavky. Nedostupný robots.txt (síť, 5xx) = hostitel
+  zakázán (konzervativní pravidlo); 404 = vše povoleno.
 """
 from __future__ import annotations
 
@@ -15,6 +18,7 @@ import tempfile
 import time
 import urllib.error
 import urllib.request
+import urllib.robotparser
 from dataclasses import dataclass
 from datetime import datetime, timezone
 
@@ -40,11 +44,68 @@ class Fetched:
         return self.status == "downloaded"
 
 
+def robots_pravidla(lines: list[str], user_agent: str) -> list[tuple[bool, str]]:
+    """Allow/Disallow pravidla skupiny pro náš User-Agent (jinak „*“). Podporuje * a $ (RFC 9309);
+    urllib.robotparser v Pythonu < 3.13 zástupné znaky nevyhodnocuje."""
+    skupiny, aktualni, ua_rezim = [], None, False
+    for raw in lines:
+        line = raw.split("#", 1)[0].strip()
+        if ":" not in line:
+            continue
+        k, v = (x.strip() for x in line.split(":", 1))
+        k = k.lower()
+        if k == "user-agent":
+            if not ua_rezim:
+                aktualni = {"ua": [], "pravidla": []}
+                skupiny.append(aktualni)
+                ua_rezim = True
+            aktualni["ua"].append(v.lower())
+        elif k in ("allow", "disallow") and aktualni is not None:
+            ua_rezim = False
+            if v:
+                aktualni["pravidla"].append((k == "allow", v))
+        else:
+            ua_rezim = False
+    nazev = user_agent.split("/")[0].split("(")[0].strip().lower()
+    vlastni = [g for g in skupiny if any(u != "*" and u in nazev for u in g["ua"])]
+    vybrane = vlastni or [g for g in skupiny if "*" in g["ua"]]
+    return [p for g in vybrane for p in g["pravidla"]]
+
+
+def robots_povoleno(pravidla: list[tuple[bool, str]], url: str) -> bool:
+    """Nejdelší shodné pravidlo rozhoduje; při shodě délky vyhrává Allow."""
+    import re
+    from urllib.parse import urlsplit
+    u = urlsplit(url)
+    cesta = (u.path or "/") + ("?" + u.query if u.query else "")
+    nejlepsi = None
+    for allow, vzor in pravidla:
+        rx = "^" + re.escape(vzor).replace(r"\*", ".*")
+        rx = rx[:-2] + "$" if rx.endswith(r"\$") else rx
+        if re.match(rx, cesta):
+            kandidat = (len(vzor), allow)
+            if nejlepsi is None or kandidat > nejlepsi:
+                nejlepsi = kandidat
+    return True if nejlepsi is None else nejlepsi[1]
+
+
+class RobotsDenied(Exception):
+    """URL zakázaná v robots.txt (nebo robots.txt nedostupný)."""
+
+
+class HostUnreachable(RobotsDenied):
+    """Hostitel síťově nedosažitelný (robots.txt nešel načíst: timeout, reset, 5xx brány)."""
+
+
 class Http:
-    def __init__(self, con: sqlite3.Connection, cache_dir: str, *, min_interval: float = 1.0,
+    def __init__(self, con: sqlite3.Connection | None, cache_dir: str, *, min_interval: float = 1.0,
                  max_attempts: int = 5, base_delay: float = 2.0, timeout: float = 300.0, sleep=time.sleep,
-                 opener=None):
-        self.con = con
+                 opener=None, user_agent: str = USER_AGENT, robots: bool = False):
+        self.con = con  # None = bez evidence v SQLite (sběr do JSONL, scripts/sber.py)
+        self.user_agent = user_agent
+        self.robots = robots
+        self._robots: dict[str, urllib.robotparser.RobotFileParser | None] = {}
+        self._interval: dict[str, float] = {}
         self.cache_dir = cache_dir
         self.min_interval = min_interval
         self.max_attempts = max_attempts
@@ -58,18 +119,58 @@ class Http:
     # --- rate limit na hostitele ---
     def _throttle(self, url: str):
         host = url.split("/")[2]
-        wait = self._last.get(host, 0) + self.min_interval - time.monotonic()
+        wait = self._last.get(host, 0) + self._interval.get(host, self.min_interval) - time.monotonic()
         if wait > 0:
             self.sleep(wait)
         self._last[host] = time.monotonic()
 
+    # --- robots.txt ---
+    def _robots_for(self, url: str):
+        scheme, _, host = url.split("/")[:3]
+        if host not in self._robots:
+            rp = urllib.robotparser.RobotFileParser()
+            robots_url = f"{scheme}//{host}/robots.txt"
+            try:
+                self._throttle(robots_url)
+                req = urllib.request.Request(robots_url, headers={"User-Agent": self.user_agent})
+                with self.opener.open(req, timeout=min(self.timeout, 60)) as r:
+                    lines = r.read().decode("utf-8", "replace").splitlines()
+                    rp.parse(lines)
+                    rp.vsetin_pravidla = robots_pravidla(lines, self.user_agent)
+            except urllib.error.HTTPError as e:
+                if 400 <= e.code < 500:
+                    rp.parse([])  # robots.txt neexistuje -> vše povoleno
+                else:
+                    rp = None
+            except (urllib.error.URLError, TimeoutError, ConnectionError, OSError):
+                rp = None
+            self._robots[host] = rp
+            if rp is not None:
+                cd = rp.crawl_delay(self.user_agent)
+                if cd:
+                    self._interval[host] = max(self.min_interval, float(cd))
+        return self._robots[host]
+
+    def check_robots(self, url: str):
+        """Vyvolá RobotsDenied, pokud robots.txt URL zakazuje nebo není dostupný."""
+        if not self.robots:
+            return
+        rp = self._robots_for(url)
+        if rp is None:
+            raise HostUnreachable(f"robots.txt hostitele {url.split('/')[2]} nedostupný – stahování vynecháno")
+        pravidla = getattr(rp, "vsetin_pravidla", None)
+        ok = robots_povoleno(pravidla, url) if pravidla is not None else rp.can_fetch(self.user_agent, url)
+        if not ok:
+            raise RobotsDenied(f"zakázáno v robots.txt: {url}")
+
     def _open(self, url: str, headers: dict, method: str = "GET"):
         """Otevře URL s opakováním při 429/5xx a síťových chybách. Vrací (resp|HTTPError, attempts)."""
+        self.check_robots(url)
         attempt = 0
         while True:
             attempt += 1
             self._throttle(url)
-            req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT, **headers}, method=method)
+            req = urllib.request.Request(url, headers={"User-Agent": self.user_agent, **headers}, method=method)
             try:
                 return self.opener.open(req, timeout=self.timeout), attempt
             except urllib.error.HTTPError as e:
@@ -86,12 +187,16 @@ class Http:
 
     # --- evidence ---
     def _last_ok(self, source_id: str, url: str):
+        if self.con is None:
+            return None
         return self.con.execute(
             """SELECT etag, last_modified, sha256, local_path FROM sync_ledger
                WHERE source_id=? AND url=? AND status IN ('downloaded','not_modified','unchanged_hash')
                  AND sha256 IS NOT NULL ORDER BY id DESC LIMIT 1""", (source_id, url)).fetchone()
 
     def _log(self, source_id, url, **kw):
+        if self.con is None:
+            return
         cols = ["source_id", "url", "checked_at", *kw]
         self.con.execute(f"INSERT INTO sync_ledger ({','.join(cols)}) VALUES ({','.join('?' * len(cols))})",
                          [source_id, url, now_utc(), *kw.values()])

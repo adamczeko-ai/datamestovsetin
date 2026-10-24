@@ -14,7 +14,8 @@ Ověřitelná paměť rozhodnutí města Vsetín: **rozhodnutí → peníze → 
 | `data/monitor/` | open data MF MONITOR: FIN 2-12 M (řada, souhrn 2026, transfery podle příjemce a období), účetní výkazy města a PO |
 | `data/smlouvy/` | párování IČO se smlouvami v registru smluv (`parovani_ico.json`), párování akcí, úvěr |
 | `data/analyzy/` | časová osa akcí, signály k ověření |
-| `scripts/` | `validate_ro.py <rok>`, `analyzy.py`, `validate_schemas.py`, `ares_overeni.py` |
+| `data/*.jsonl` | surová vrstva se zdrojem u každého záznamu: usnesení RM/ZM, materiály ZM, RO, úřední deska, zakázky z profilu zadavatele, registr smluv, ARES (stav sběru `data/manifest.json`, viz `docs/SBER.md`) |
+| `scripts/` | `validate_ro.py <rok>`, `analyzy.py`, `validate_schemas.py`, `ares_overeni.py`, `sber.py` (inkrementální sběr), `import_inbox.py` |
 | `docs/` | předávací zprávy, roadmapa |
 
 **Metoda:** PDF se čtou v prohlížeči (pdf.js), tabulky parsuje regex a výsledek prochází validací (počty řádků, součty P + F = V, aritmetika řádků, návaznost rezerv) a rekonciliací se závěrečným účtem.

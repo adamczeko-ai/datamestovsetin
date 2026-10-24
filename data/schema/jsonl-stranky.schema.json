@@ -1,0 +1,55 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "x-data-files": ["data/stranky.jsonl"],
+ "title": "Textová stránka webu města (předávka P1)",
+ "description": "Jeden řádek data/stranky.jsonl. Společná pole: id, source_url, retrieved_at (Europe/Prague), sha256 (obsahový otisk, integrace/sber/store.py).",
+ "type": "object",
+ "required": [
+  "id",
+  "source_url",
+  "retrieved_at",
+  "sha256"
+ ],
+ "properties": {
+  "id": {
+   "type": "string",
+   "pattern": "^stranka:.+$"
+  },
+  "source_url": {
+   "type": "string",
+   "pattern": "^https://"
+  },
+  "retrieved_at": {
+   "type": "string",
+   "pattern": "^\\d{4}-\\d\\d-\\d\\dT\\d\\d:\\d\\d:\\d\\d[+-]\\d\\d:\\d\\d$"
+  },
+  "sha256": {
+   "type": "string",
+   "pattern": "^[0-9a-f]{64}$"
+  },
+  "puvod": {
+   "type": "object",
+   "required": [
+    "repo",
+    "vetev",
+    "commit",
+    "soubor"
+   ],
+   "properties": {
+    "commit": {
+     "type": "string",
+     "pattern": "^[0-9a-f]{40}$"
+    }
+   }
+  },
+  "text": {
+   "type": [
+    "string",
+    "null"
+   ]
+  },
+  "odkazy_dokumenty": {
+   "type": "array"
+  }
+ }
+}

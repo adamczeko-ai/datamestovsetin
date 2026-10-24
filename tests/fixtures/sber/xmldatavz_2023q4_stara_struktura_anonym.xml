@@ -1,0 +1,1943 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<profil xmlns="urn:cz:isvz:mmr:schemas:vz-z-profilu-zadavatele:v100" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<profil_kod>60056921</profil_kod>
+<zadavatel>
+<nazev_zadavatele>Město Vsetín</nazev_zadavatele>
+<ico_vlastni>00304450</ico_vlastni>    
+</zadavatel>          <zakazka>
+<VZ>
+<kod_vz_na_profilu>P23V00007760</kod_vz_na_profilu>
+<nazev_vz>ZRUŠENA DODAVATEL TECHNICKÉ PŘÍPRAVY VÝROBY, TISKU A KNIHAŘSKÝCH PRACÍ PERIODIKA VSETÍNSKÉ NOVINY</nazev_vz>
+<stav_vz>zakázka byla zrušena</stav_vz>
+<druh_zadavaciho_rizeni>zakázka malého rozsahu</druh_zadavaciho_rizeni>
+<delena_na_casti>0</delena_na_casti>
+<ramcova_dohoda>0</ramcova_dohoda>
+<zavedeni_dns>0</zavedeni_dns>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3148269</url>
+<typ_dokumentu>Písemná zpráva (podle § 217 zákona)</typ_dokumentu>
+<cas_vlozeni_na_profil>2023-12-28T14:21:44+01:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3148270</url>
+<typ_dokumentu>Jiný dokument (zadavatel uvede název tohoto typu dokumentu)</typ_dokumentu>
+<cas_vlozeni_na_profil>2023-12-06T14:19:05+01:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3148271</url>
+<typ_dokumentu>Výzva k podání nabídek</typ_dokumentu>
+<cas_vlozeni_na_profil>2023-11-16T08:53:08+01:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3148272</url>
+<typ_dokumentu>Zadávací dokumentace (podle § 53 odstavce 3, § 96 odstavce 1 a § 164 odstavce 2 zákona)</typ_dokumentu>
+<cas_vlozeni_na_profil>2023-11-16T08:53:08+01:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<datum_cas_zverejneni>2023-11-16T08:53:08+01:00</datum_cas_zverejneni>
+<datum_zruseni>2023-12-06T00:00:00+01:00</datum_zruseni>
+</VZ>              </zakazka>
+<zakazka>
+<VZ>
+<kod_vz_na_profilu>P24V00000975</kod_vz_na_profilu>
+<kod_vz_na_vvz>Z2024-007101</kod_vz_na_vvz>
+<nazev_vz>INTERIÉR MASARYKOVY VEŘEJNÉ KNIHOVNY A TURISTICKÉHO INFORMAČNÍHO CENTRA VSETÍN V OBJEKTU Č.P. 1356</nazev_vz>
+<stav_vz>zakázka byla zadána</stav_vz>
+<druh_zadavaciho_rizeni>otevřené řízení</druh_zadavaciho_rizeni>
+<delena_na_casti>0</delena_na_casti>
+<ramcova_dohoda>0</ramcova_dohoda>
+<zavedeni_dns>0</zavedeni_dns>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3258359</url>
+<typ_dokumentu>Písemná zpráva (podle § 217 zákona)</typ_dokumentu>
+<cas_vlozeni_na_profil>2024-05-21T13:05:43+02:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3258360</url>
+<typ_dokumentu>Písemná zpráva (podle § 217 zákona)</typ_dokumentu>
+<cas_vlozeni_na_profil>2024-05-21T13:05:43+02:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3258361</url>
+<typ_dokumentu>Jiný dokument (zadavatel uvede název tohoto typu dokumentu)</typ_dokumentu>
+<cas_vlozeni_na_profil>2024-04-10T09:39:19+02:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3258362</url>
+<typ_dokumentu>Vysvětlení zadávací dokumentace (podle § 98 zákona)</typ_dokumentu>
+<cas_vlozeni_na_profil>2024-03-12T13:37:45+01:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3258363</url>
+<typ_dokumentu>Vysvětlení zadávací dokumentace (podle § 98 zákona)</typ_dokumentu>
+<cas_vlozeni_na_profil>2024-03-12T13:37:45+01:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3258364</url>
+<typ_dokumentu>Vysvětlení zadávací dokumentace (podle § 98 zákona)</typ_dokumentu>
+<cas_vlozeni_na_profil>2024-03-12T13:37:45+01:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3258365</url>
+<typ_dokumentu>Zadávací dokumentace (podle § 53 odstavce 3, § 96 odstavce 1 a § 164 odstavce 2 zákona)</typ_dokumentu>
+<cas_vlozeni_na_profil>2024-02-14T14:45:05+01:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3258366</url>
+<typ_dokumentu>Zadávací dokumentace (podle § 53 odstavce 3, § 96 odstavce 1 a § 164 odstavce 2 zákona)</typ_dokumentu>
+<cas_vlozeni_na_profil>2024-02-14T14:45:06+01:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3258367</url>
+<typ_dokumentu>Zadávací dokumentace (podle § 53 odstavce 3, § 96 odstavce 1 a § 164 odstavce 2 zákona)</typ_dokumentu>
+<cas_vlozeni_na_profil>2024-02-14T14:45:07+01:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3258368</url>
+<typ_dokumentu>Výzva k podání nabídek</typ_dokumentu>
+<cas_vlozeni_na_profil>2024-02-14T14:45:07+01:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<datum_cas_zverejneni>2024-02-14T14:45:05+01:00</datum_cas_zverejneni>
+<datum_uzavreni_smlouvy>2024-05-09T00:00:00+02:00</datum_uzavreni_smlouvy>  
+</VZ>            <ucastnik>
+<ico>43964532</ico>
+<nazev_ucastnika>FORM, spol. s r. o.</nazev_ucastnika>
+<misto_podnikani>CZ</misto_podnikani>
+<cena_bez_dph></cena_bez_dph>
+<sdruzeni>0</sdruzeni>
+</ucastnik>            </zakazka>
+<zakazka>
+<VZ>
+<kod_vz_na_profilu>P24V00000416</kod_vz_na_profilu>
+<nazev_vz>STAVEBNÍ ÚPRAVY LÁVKY EV. Č. VS-02-BEL</nazev_vz>
+<stav_vz>zakázka byla zadána</stav_vz>
+<druh_zadavaciho_rizeni>zjednodušené podlimitní řízení</druh_zadavaciho_rizeni>
+<delena_na_casti>0</delena_na_casti>
+<ramcova_dohoda>0</ramcova_dohoda>
+<zavedeni_dns>0</zavedeni_dns>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3525972</url>
+<typ_dokumentu>Písemná zpráva (podle § 217 zákona)</typ_dokumentu>
+<cas_vlozeni_na_profil>2024-05-21T13:07:20+02:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3525973</url>
+<typ_dokumentu>Písemná zpráva (podle § 217 zákona)</typ_dokumentu>
+<cas_vlozeni_na_profil>2024-05-21T13:07:20+02:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3525974</url>
+<typ_dokumentu>Jiný dokument (zadavatel uvede název tohoto typu dokumentu)</typ_dokumentu>
+<cas_vlozeni_na_profil>2024-04-10T08:54:17+02:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3525975</url>
+<typ_dokumentu>Jiný dokument (zadavatel uvede název tohoto typu dokumentu)</typ_dokumentu>
+<cas_vlozeni_na_profil>2024-02-09T13:34:33+01:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3525976</url>
+<typ_dokumentu>Výzva k podání nabídek</typ_dokumentu>
+<cas_vlozeni_na_profil>2024-01-22T14:31:26+01:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3525977</url>
+<typ_dokumentu>Zadávací dokumentace (podle § 53 odstavce 3, § 96 odstavce 1 a § 164 odstavce 2 zákona)</typ_dokumentu>
+<cas_vlozeni_na_profil>2024-01-22T14:31:26+01:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<datum_cas_zverejneni>2024-01-22T14:31:26+01:00</datum_cas_zverejneni>
+<datum_uzavreni_smlouvy>2024-05-03T00:00:00+02:00</datum_uzavreni_smlouvy>  
+</VZ>            <ucastnik>
+<ico>48399477</ico>
+<nazev_ucastnika>TM  Stav, spol. s r.o.</nazev_ucastnika>
+<misto_podnikani>CZ</misto_podnikani>
+<cena_bez_dph></cena_bez_dph>
+<sdruzeni>0</sdruzeni>
+</ucastnik>      <ucastnik>
+<ico>48035599</ico>
+<nazev_ucastnika>SWIETELSKY stavební s.r.o.</nazev_ucastnika>
+<misto_podnikani>CZ</misto_podnikani>
+<cena_bez_dph></cena_bez_dph>
+<sdruzeni>0</sdruzeni>
+</ucastnik>      <ucastnik>
+<ico>05249643</ico>
+<nazev_ucastnika>Benpra servis s.r.o.</nazev_ucastnika>
+<misto_podnikani>CZ</misto_podnikani>
+<cena_bez_dph></cena_bez_dph>
+<sdruzeni>0</sdruzeni>
+</ucastnik>      <ucastnik>
+<ico>26850648</ico>
+<nazev_ucastnika>TESP Contract s.r.o.</nazev_ucastnika>
+<misto_podnikani>CZ</misto_podnikani>
+<cena_bez_dph></cena_bez_dph>
+<sdruzeni>0</sdruzeni>
+</ucastnik>        <dodavatel>
+<ico>48399477</ico>
+<nazev_dodavatele>TM  Stav, spol. s r.o.</nazev_dodavatele>
+<misto_podnikani_dodavatele>CZ</misto_podnikani_dodavatele>
+<sdruzeni_dodavatelu>0</sdruzeni_dodavatelu>
+<rozpad>
+<rok_smlouvy>2024</rok_smlouvy>
+<cena_za_rok_bez_dph>7478610.00</cena_za_rok_bez_dph>
+<cena_za_rok_s_dph>9105101.56</cena_za_rok_s_dph>
+</rozpad>
+</dodavatel>          </zakazka>
+<zakazka>
+<VZ>
+<kod_vz_na_profilu>P23V00007839</kod_vz_na_profilu>
+<nazev_vz>DEMOLICE OBJEKTŮ NA PARCELE Č. 494/1 K.Ú. ROKYTNICE U VSETÍNA</nazev_vz>
+<stav_vz>zakázka byla zadána</stav_vz>
+<druh_zadavaciho_rizeni>zakázka malého rozsahu</druh_zadavaciho_rizeni>
+<delena_na_casti>0</delena_na_casti>
+<ramcova_dohoda>0</ramcova_dohoda>
+<zavedeni_dns>0</zavedeni_dns>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3525929</url>
+<typ_dokumentu>Písemná zpráva (podle § 217 zákona)</typ_dokumentu>
+<cas_vlozeni_na_profil>2024-05-21T07:10:45+02:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3525930</url>
+<typ_dokumentu>Jiný dokument (zadavatel uvede název tohoto typu dokumentu)</typ_dokumentu>
+<cas_vlozeni_na_profil>2024-01-15T07:56:33+01:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3525931</url>
+<typ_dokumentu>Jiný dokument (zadavatel uvede název tohoto typu dokumentu)</typ_dokumentu>
+<cas_vlozeni_na_profil>2023-12-07T10:12:14+01:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3525932</url>
+<typ_dokumentu>Vysvětlení zadávací dokumentace (podle § 98 zákona)</typ_dokumentu>
+<cas_vlozeni_na_profil>2023-11-29T16:07:21+01:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3525933</url>
+<typ_dokumentu>Výzva k podání nabídek</typ_dokumentu>
+<cas_vlozeni_na_profil>2023-11-20T15:43:01+01:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3525934</url>
+<typ_dokumentu>Jiný dokument (zadavatel uvede název tohoto typu dokumentu)</typ_dokumentu>
+<cas_vlozeni_na_profil>2023-11-20T15:43:01+01:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<datum_cas_zverejneni>2023-11-20T15:43:01+01:00</datum_cas_zverejneni>
+<datum_uzavreni_smlouvy>2024-04-23T00:00:00+02:00</datum_uzavreni_smlouvy>  
+</VZ>            <ucastnik>
+<ico>10856137</ico>
+<nazev_ucastnika>EKOREMA stavební s.r.o.</nazev_ucastnika>
+<misto_podnikani>CZ</misto_podnikani>
+<cena_bez_dph></cena_bez_dph>
+<sdruzeni>0</sdruzeni>
+</ucastnik>      <ucastnik>
+<ico>25397087</ico>
+<nazev_ucastnika>PB SCOM s.r.o.</nazev_ucastnika>
+<misto_podnikani>CZ</misto_podnikani>
+<cena_bez_dph></cena_bez_dph>
+<sdruzeni>0</sdruzeni>
+</ucastnik>      <ucastnik>
+<ico>73257958</ico>
+<nazev_ucastnika>Petr Zkušební</nazev_ucastnika>
+<misto_podnikani>CZ</misto_podnikani>
+<cena_bez_dph></cena_bez_dph>
+<sdruzeni>0</sdruzeni>
+</ucastnik>      <ucastnik>
+<ico>25917838</ico>
+<nazev_ucastnika>TREPART s.r.o.</nazev_ucastnika>
+<misto_podnikani>CZ</misto_podnikani>
+<cena_bez_dph></cena_bez_dph>
+<sdruzeni>0</sdruzeni>
+</ucastnik>      <ucastnik>
+<ico>71820035</ico>
+<nazev_ucastnika>Adam Vzorový</nazev_ucastnika>
+<misto_podnikani>CZ</misto_podnikani>
+<cena_bez_dph></cena_bez_dph>
+<sdruzeni>0</sdruzeni>
+</ucastnik>      <ucastnik>
+<ico>48399477</ico>
+<nazev_ucastnika>TM  Stav, spol. s r.o.</nazev_ucastnika>
+<misto_podnikani>CZ</misto_podnikani>
+<cena_bez_dph></cena_bez_dph>
+<sdruzeni>0</sdruzeni>
+</ucastnik>      <ucastnik>
+<ico>25860852</ico>
+<nazev_ucastnika>JASY Vsetín s.r.o.</nazev_ucastnika>
+<misto_podnikani>CZ</misto_podnikani>
+<cena_bez_dph></cena_bez_dph>
+<sdruzeni>0</sdruzeni>
+</ucastnik>      <ucastnik>
+<ico>27844935</ico>
+<nazev_ucastnika>DEMSTAV group, s.r.o.</nazev_ucastnika>
+<misto_podnikani>CZ</misto_podnikani>
+<cena_bez_dph></cena_bez_dph>
+<sdruzeni>0</sdruzeni>
+</ucastnik>        <dodavatel>
+<ico>73257958</ico>
+<nazev_dodavatele>Petr Zkušební</nazev_dodavatele>
+<misto_podnikani_dodavatele>CZ</misto_podnikani_dodavatele>
+<sdruzeni_dodavatelu>0</sdruzeni_dodavatelu>
+<rozpad>
+<rok_smlouvy>2024</rok_smlouvy>
+<cena_za_rok_bez_dph>979426.93</cena_za_rok_bez_dph>
+<cena_za_rok_s_dph>11185106.59</cena_za_rok_s_dph>
+</rozpad>
+</dodavatel>          </zakazka>
+<zakazka>
+<VZ>
+<kod_vz_na_profilu>P24V00002686</kod_vz_na_profilu>
+<nazev_vz>Autobusová zastávka ulice Jasenická, Climax – směr město</nazev_vz>
+<stav_vz>zakázka byla zadána</stav_vz>
+<druh_zadavaciho_rizeni>zakázka malého rozsahu</druh_zadavaciho_rizeni>
+<delena_na_casti>0</delena_na_casti>
+<ramcova_dohoda>0</ramcova_dohoda>
+<zavedeni_dns>0</zavedeni_dns>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3525924</url>
+<typ_dokumentu>Písemná zpráva (podle § 217 zákona)</typ_dokumentu>
+<cas_vlozeni_na_profil>2024-07-04T08:03:49+02:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3525925</url>
+<typ_dokumentu>Jiný dokument (zadavatel uvede název tohoto typu dokumentu)</typ_dokumentu>
+<cas_vlozeni_na_profil>2024-05-21T12:47:14+02:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3525926</url>
+<typ_dokumentu>Jiný dokument (zadavatel uvede název tohoto typu dokumentu)</typ_dokumentu>
+<cas_vlozeni_na_profil>2024-04-24T12:40:23+02:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3525927</url>
+<typ_dokumentu>Výzva k podání nabídek</typ_dokumentu>
+<cas_vlozeni_na_profil>2024-04-09T13:01:13+02:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3525928</url>
+<typ_dokumentu>Zadávací dokumentace (podle § 53 odstavce 3, § 96 odstavce 1 a § 164 odstavce 2 zákona)</typ_dokumentu>
+<cas_vlozeni_na_profil>2024-04-09T13:01:13+02:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<datum_cas_zverejneni>2024-04-09T13:01:13+02:00</datum_cas_zverejneni>
+<datum_uzavreni_smlouvy>2024-06-04T00:00:00+02:00</datum_uzavreni_smlouvy>  
+</VZ>            <ucastnik>
+<ico>25860852</ico>
+<nazev_ucastnika>JASY Vsetín s.r.o.</nazev_ucastnika>
+<misto_podnikani>CZ</misto_podnikani>
+<cena_bez_dph></cena_bez_dph>
+<sdruzeni>0</sdruzeni>
+</ucastnik>      <ucastnik>
+<ico>48035599</ico>
+<nazev_ucastnika>SWIETELSKY stavební s.r.o.</nazev_ucastnika>
+<misto_podnikani>CZ</misto_podnikani>
+<cena_bez_dph></cena_bez_dph>
+<sdruzeni>0</sdruzeni>
+</ucastnik>        <dodavatel>
+<ico>48035599</ico>
+<nazev_dodavatele>SWIETELSKY stavební s.r.o.</nazev_dodavatele>
+<misto_podnikani_dodavatele>CZ</misto_podnikani_dodavatele>
+<sdruzeni_dodavatelu>0</sdruzeni_dodavatelu>
+<rozpad>
+<rok_smlouvy>2024</rok_smlouvy>
+<cena_za_rok_bez_dph>2105080.30</cena_za_rok_bez_dph>
+<cena_za_rok_s_dph>2547147.17</cena_za_rok_s_dph>
+</rozpad>
+</dodavatel>          </zakazka>
+<zakazka>
+<VZ>
+<kod_vz_na_profilu>P24V00001242</kod_vz_na_profilu>
+<nazev_vz>Rekonstrukce VS Zimní stadion a instalace OPS Sportovní hala</nazev_vz>
+<stav_vz>zakázka byla zadána</stav_vz>
+<druh_zadavaciho_rizeni>zakázka malého rozsahu</druh_zadavaciho_rizeni>
+<delena_na_casti>0</delena_na_casti>
+<ramcova_dohoda>0</ramcova_dohoda>
+<zavedeni_dns>0</zavedeni_dns>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3525919</url>
+<typ_dokumentu>Písemná zpráva (podle § 217 zákona)</typ_dokumentu>
+<cas_vlozeni_na_profil>2024-05-21T07:13:03+02:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3525920</url>
+<typ_dokumentu>Jiný dokument (zadavatel uvede název tohoto typu dokumentu)</typ_dokumentu>
+<cas_vlozeni_na_profil>2024-04-05T10:50:05+02:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3525921</url>
+<typ_dokumentu>Výzva k podání nabídek</typ_dokumentu>
+<cas_vlozeni_na_profil>2024-02-23T12:39:54+01:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3525922</url>
+<typ_dokumentu>Zadávací dokumentace (podle § 53 odstavce 3, § 96 odstavce 1 a § 164 odstavce 2 zákona)</typ_dokumentu>
+<cas_vlozeni_na_profil>2024-02-23T12:39:54+01:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<datum_cas_zverejneni>2024-02-23T12:39:54+01:00</datum_cas_zverejneni>
+<datum_uzavreni_smlouvy>2024-04-16T00:00:00+02:00</datum_uzavreni_smlouvy>  
+</VZ>            <ucastnik>
+<ico>07087896</ico>
+<nazev_ucastnika>4mont elektric s.r.o.</nazev_ucastnika>
+<misto_podnikani>CZ</misto_podnikani>
+<cena_bez_dph></cena_bez_dph>
+<sdruzeni>0</sdruzeni>
+</ucastnik>      <ucastnik>
+<ico>60748982</ico>
+<nazev_ucastnika>AVOS VYŠKOV měřící a regulační technika, s.r.o.</nazev_ucastnika>
+<misto_podnikani>CZ</misto_podnikani>
+<cena_bez_dph></cena_bez_dph>
+<sdruzeni>0</sdruzeni>
+</ucastnik>      <ucastnik>
+<ico>28651103</ico>
+<nazev_ucastnika>VT HRANICE s.r.o.</nazev_ucastnika>
+<misto_podnikani>CZ</misto_podnikani>
+<cena_bez_dph></cena_bez_dph>
+<sdruzeni>0</sdruzeni>
+</ucastnik>        <dodavatel>
+<ico>60748982</ico>
+<nazev_dodavatele>AVOS VYŠKOV měřící a regulační technika, s.r.o.</nazev_dodavatele>
+<misto_podnikani_dodavatele>CZ</misto_podnikani_dodavatele>
+<sdruzeni_dodavatelu>0</sdruzeni_dodavatelu>
+<rozpad>
+<rok_smlouvy>2024</rok_smlouvy>
+<cena_za_rok_bez_dph>1678493.21</cena_za_rok_bez_dph>
+<cena_za_rok_s_dph>2030976.78</cena_za_rok_s_dph>
+</rozpad>
+</dodavatel>          </zakazka>
+<zakazka>
+<VZ>
+<kod_vz_na_profilu>P24V00001173</kod_vz_na_profilu>
+<kod_vz_na_vvz>Z2024-008020</kod_vz_na_vvz>
+<nazev_vz>DODÁVKA PRUŽNÝCH MANTINELŮ A OCHRANNÝCH PLEXISKEL</nazev_vz>
+<stav_vz>zakázka byla zadána</stav_vz>
+<druh_zadavaciho_rizeni>otevřené řízení</druh_zadavaciho_rizeni>
+<delena_na_casti>0</delena_na_casti>
+<ramcova_dohoda>0</ramcova_dohoda>
+<zavedeni_dns>0</zavedeni_dns>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3525882</url>
+<typ_dokumentu>Písemná zpráva (podle § 217 zákona)</typ_dokumentu>
+<cas_vlozeni_na_profil>2024-05-21T07:09:05+02:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3525883</url>
+<typ_dokumentu>Písemná zpráva (podle § 217 zákona)</typ_dokumentu>
+<cas_vlozeni_na_profil>2024-05-21T07:09:05+02:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3525884</url>
+<typ_dokumentu>Písemná zpráva (podle § 217 zákona)</typ_dokumentu>
+<cas_vlozeni_na_profil>2024-04-18T08:02:29+02:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3525885</url>
+<typ_dokumentu>Vysvětlení zadávací dokumentace (podle § 98 zákona)</typ_dokumentu>
+<cas_vlozeni_na_profil>2024-03-21T10:35:33+01:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3525886</url>
+<typ_dokumentu>Vysvětlení zadávací dokumentace (podle § 98 zákona)</typ_dokumentu>
+<cas_vlozeni_na_profil>2024-03-14T13:23:41+01:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3525887</url>
+<typ_dokumentu>Vysvětlení zadávací dokumentace (podle § 98 zákona)</typ_dokumentu>
+<cas_vlozeni_na_profil>2024-03-01T13:45:10+01:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3525888</url>
+<typ_dokumentu>Vysvětlení zadávací dokumentace (podle § 98 zákona)</typ_dokumentu>
+<cas_vlozeni_na_profil>2024-03-01T13:45:10+01:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3525889</url>
+<typ_dokumentu>Výzva k podání nabídek</typ_dokumentu>
+<cas_vlozeni_na_profil>2024-02-21T14:52:06+01:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3525890</url>
+<typ_dokumentu>Zadávací dokumentace (podle § 53 odstavce 3, § 96 odstavce 1 a § 164 odstavce 2 zákona)</typ_dokumentu>
+<cas_vlozeni_na_profil>2024-02-21T14:52:06+01:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<datum_cas_zverejneni>2024-02-21T14:52:05+01:00</datum_cas_zverejneni>
+<datum_uzavreni_smlouvy>2024-05-03T00:00:00+02:00</datum_uzavreni_smlouvy>  
+</VZ>            <ucastnik>
+<ico>27860221</ico>
+<nazev_ucastnika>PERFECT ICE s.r.o.</nazev_ucastnika>
+<misto_podnikani>CZ</misto_podnikani>
+<cena_bez_dph></cena_bez_dph>
+<sdruzeni>0</sdruzeni>
+</ucastnik>      <ucastnik>
+<ico>49436686</ico>
+<nazev_ucastnika>H + H TECHNIKA, spol. s r.o.</nazev_ucastnika>
+<misto_podnikani>CZ</misto_podnikani>
+<cena_bez_dph></cena_bez_dph>
+<sdruzeni>0</sdruzeni>
+</ucastnik>        <dodavatel>
+<ico>27860221</ico>
+<nazev_dodavatele>PERFECT ICE s.r.o.</nazev_dodavatele>
+<misto_podnikani_dodavatele>CZ</misto_podnikani_dodavatele>
+<sdruzeni_dodavatelu>0</sdruzeni_dodavatelu>
+<rozpad>
+<rok_smlouvy>2024</rok_smlouvy>
+<cena_za_rok_bez_dph>7473112.11</cena_za_rok_bez_dph>
+</rozpad>
+</dodavatel>          </zakazka>
+<zakazka>
+<VZ>
+<kod_vz_na_profilu>P24V00000582</kod_vz_na_profilu>
+<nazev_vz>OPRAVA MÍSTNÍ KOMUNIKACE OHRADA – II. ETAPA</nazev_vz>
+<stav_vz>zakázka byla zadána</stav_vz>
+<druh_zadavaciho_rizeni>zjednodušené podlimitní řízení</druh_zadavaciho_rizeni>
+<delena_na_casti>0</delena_na_casti>
+<ramcova_dohoda>0</ramcova_dohoda>
+<zavedeni_dns>0</zavedeni_dns>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3525833</url>
+<typ_dokumentu>Písemná zpráva (podle § 217 zákona)</typ_dokumentu>
+<cas_vlozeni_na_profil>2024-05-27T14:26:05+02:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3525834</url>
+<typ_dokumentu>Písemná zpráva (podle § 217 zákona)</typ_dokumentu>
+<cas_vlozeni_na_profil>2024-05-27T14:26:05+02:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3525835</url>
+<typ_dokumentu>Jiný dokument (zadavatel uvede název tohoto typu dokumentu)</typ_dokumentu>
+<cas_vlozeni_na_profil>2024-04-10T09:30:25+02:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3525836</url>
+<typ_dokumentu>Jiný dokument (zadavatel uvede název tohoto typu dokumentu)</typ_dokumentu>
+<cas_vlozeni_na_profil>2024-02-16T10:23:52+01:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3525837</url>
+<typ_dokumentu>Výzva k podání nabídek</typ_dokumentu>
+<cas_vlozeni_na_profil>2024-01-29T15:36:35+01:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3525838</url>
+<typ_dokumentu>Zadávací dokumentace (podle § 53 odstavce 3, § 96 odstavce 1 a § 164 odstavce 2 zákona)</typ_dokumentu>
+<cas_vlozeni_na_profil>2024-01-29T15:36:35+01:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<datum_cas_zverejneni>2024-01-29T15:36:35+01:00</datum_cas_zverejneni>
+<datum_uzavreni_smlouvy>2024-04-22T00:00:00+02:00</datum_uzavreni_smlouvy>  
+</VZ>            <ucastnik>
+<ico>48035599</ico>
+<nazev_ucastnika>SWIETELSKY stavební s.r.o.</nazev_ucastnika>
+<misto_podnikani>CZ</misto_podnikani>
+<cena_bez_dph></cena_bez_dph>
+<sdruzeni>0</sdruzeni>
+</ucastnik>      <ucastnik>
+<ico>60838744</ico>
+<nazev_ucastnika>STRABAG a.s.</nazev_ucastnika>
+<misto_podnikani>CZ</misto_podnikani>
+<cena_bez_dph></cena_bez_dph>
+<sdruzeni>0</sdruzeni>
+</ucastnik>      <ucastnik>
+<ico>26177005</ico>
+<nazev_ucastnika>COLAS CZ, a.s.</nazev_ucastnika>
+<misto_podnikani>CZ</misto_podnikani>
+<cena_bez_dph></cena_bez_dph>
+<sdruzeni>0</sdruzeni>
+</ucastnik>      <ucastnik>
+<ico>43005560</ico>
+<nazev_ucastnika>PORR a.s.</nazev_ucastnika>
+<misto_podnikani>CZ</misto_podnikani>
+<cena_bez_dph></cena_bez_dph>
+<sdruzeni>0</sdruzeni>
+</ucastnik>      <ucastnik>
+<ico>25860852</ico>
+<nazev_ucastnika>JASY Vsetín s.r.o.</nazev_ucastnika>
+<misto_podnikani>CZ</misto_podnikani>
+<cena_bez_dph></cena_bez_dph>
+<sdruzeni>0</sdruzeni>
+</ucastnik>      <ucastnik>
+<ico>73257958</ico>
+<nazev_ucastnika>Petr Zkušební</nazev_ucastnika>
+<misto_podnikani>CZ</misto_podnikani>
+<cena_bez_dph></cena_bez_dph>
+<sdruzeni>0</sdruzeni>
+</ucastnik>        <dodavatel>
+<ico>43005560</ico>
+<nazev_dodavatele>PORR a.s.</nazev_dodavatele>
+<misto_podnikani_dodavatele>CZ</misto_podnikani_dodavatele>
+<sdruzeni_dodavatelu>0</sdruzeni_dodavatelu>
+<rozpad>
+<rok_smlouvy>2024</rok_smlouvy>
+<cena_za_rok_bez_dph>3399215.02</cena_za_rok_bez_dph>
+<cena_za_rok_s_dph>4113050.17</cena_za_rok_s_dph>
+</rozpad>
+</dodavatel>          </zakazka>
+<zakazka>
+<VZ>
+<kod_vz_na_profilu>P24V00000135</kod_vz_na_profilu>
+<nazev_vz>STĚHOVÁNÍ MASARYKOVY VEŘEJNÉ KNIHOVNY A TURISTICKÉHO INFORMAČNÍHO CENTRA VSETÍN V OBJEKTU Č.P. 1356</nazev_vz>
+<stav_vz>zakázka byla zadána</stav_vz>
+<druh_zadavaciho_rizeni>zakázka malého rozsahu</druh_zadavaciho_rizeni>
+<delena_na_casti>0</delena_na_casti>
+<ramcova_dohoda>0</ramcova_dohoda>
+<zavedeni_dns>0</zavedeni_dns>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3525781</url>
+<typ_dokumentu>Písemná zpráva (podle § 217 zákona)</typ_dokumentu>
+<cas_vlozeni_na_profil>2024-03-27T13:43:37+01:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3525782</url>
+<typ_dokumentu>Jiný dokument (zadavatel uvede název tohoto typu dokumentu)</typ_dokumentu>
+<cas_vlozeni_na_profil>2024-02-27T13:23:21+01:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3525783</url>
+<typ_dokumentu>Výzva k podání nabídek</typ_dokumentu>
+<cas_vlozeni_na_profil>2024-01-10T09:51:30+01:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3525784</url>
+<typ_dokumentu>Zadávací dokumentace (podle § 53 odstavce 3, § 96 odstavce 1 a § 164 odstavce 2 zákona)</typ_dokumentu>
+<cas_vlozeni_na_profil>2024-01-10T09:51:30+01:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<datum_cas_zverejneni>2024-01-10T09:51:30+01:00</datum_cas_zverejneni>
+<datum_uzavreni_smlouvy>2024-02-29T00:00:00+01:00</datum_uzavreni_smlouvy>  
+</VZ>            <ucastnik>
+<ico>28517679</ico>
+<nazev_ucastnika>HrubyMOVING TRANSPORT, a.s.</nazev_ucastnika>
+<misto_podnikani>CZ</misto_podnikani>
+<cena_bez_dph></cena_bez_dph>
+<sdruzeni>0</sdruzeni>
+</ucastnik>        <dodavatel>
+<ico>28517679</ico>
+<nazev_dodavatele>HrubyMOVING TRANSPORT, a.s.</nazev_dodavatele>
+<misto_podnikani_dodavatele>CZ</misto_podnikani_dodavatele>
+<sdruzeni_dodavatelu>0</sdruzeni_dodavatelu>
+<rozpad>
+<rok_smlouvy>2024</rok_smlouvy>
+<cena_za_rok_bez_dph>537000.00</cena_za_rok_bez_dph>
+<cena_za_rok_s_dph>649770.00</cena_za_rok_s_dph>
+</rozpad>
+</dodavatel>          </zakazka>
+<zakazka>
+<VZ>
+<kod_vz_na_profilu>P23V00007842</kod_vz_na_profilu>
+<nazev_vz>STAVEBNÍ ÚPRAVY DPS 1579, STAVEBNÍ ÚPRAVY BYTŮ 3x2+KK - 2024</nazev_vz>
+<stav_vz>zakázka byla zadána</stav_vz>
+<druh_zadavaciho_rizeni>zjednodušené podlimitní řízení</druh_zadavaciho_rizeni>
+<delena_na_casti>0</delena_na_casti>
+<ramcova_dohoda>0</ramcova_dohoda>
+<zavedeni_dns>0</zavedeni_dns>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3525746</url>
+<typ_dokumentu>Písemná zpráva (podle § 217 zákona)</typ_dokumentu>
+<cas_vlozeni_na_profil>2024-02-23T13:41:34+01:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3525747</url>
+<typ_dokumentu>Písemná zpráva (podle § 217 zákona)</typ_dokumentu>
+<cas_vlozeni_na_profil>2024-02-23T13:41:34+01:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3525748</url>
+<typ_dokumentu>Písemná zpráva (podle § 217 zákona)</typ_dokumentu>
+<cas_vlozeni_na_profil>2023-12-22T12:13:09+01:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3525749</url>
+<typ_dokumentu>Zadávací dokumentace (podle § 53 odstavce 3, § 96 odstavce 1 a § 164 odstavce 2 zákona)</typ_dokumentu>
+<cas_vlozeni_na_profil>2023-11-20T16:15:32+01:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3525750</url>
+<typ_dokumentu>Zadávací dokumentace (podle § 53 odstavce 3, § 96 odstavce 1 a § 164 odstavce 2 zákona)</typ_dokumentu>
+<cas_vlozeni_na_profil>2023-11-20T16:15:32+01:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<datum_cas_zverejneni>2023-11-20T16:15:32+01:00</datum_cas_zverejneni>
+<datum_uzavreni_smlouvy>2024-01-29T00:00:00+01:00</datum_uzavreni_smlouvy>  
+</VZ>            <ucastnik>
+<ico>05931738</ico>
+<nazev_ucastnika>ADAR ing s.r.o.</nazev_ucastnika>
+<misto_podnikani>CZ</misto_podnikani>
+<cena_bez_dph></cena_bez_dph>
+<sdruzeni>0</sdruzeni>
+</ucastnik>      <ucastnik>
+<ico>15547906</ico>
+<nazev_ucastnika>ZESS, a.s.</nazev_ucastnika>
+<misto_podnikani>CZ</misto_podnikani>
+<cena_bez_dph></cena_bez_dph>
+<sdruzeni>0</sdruzeni>
+</ucastnik>      <ucastnik>
+<ico>48395242</ico>
+<nazev_ucastnika>STABET, spol. s r. o.</nazev_ucastnika>
+<misto_podnikani>CZ</misto_podnikani>
+<cena_bez_dph></cena_bez_dph>
+<sdruzeni>0</sdruzeni>
+</ucastnik>      <ucastnik>
+<ico>41084900</ico>
+<nazev_ucastnika>1. VASTO spol. s r.o.</nazev_ucastnika>
+<misto_podnikani>CZ</misto_podnikani>
+<cena_bez_dph></cena_bez_dph>
+<sdruzeni>0</sdruzeni>
+</ucastnik>      <ucastnik>
+<ico>49583743</ico>
+<nazev_ucastnika>Vladimír Ukázkový</nazev_ucastnika>
+<misto_podnikani>CZ</misto_podnikani>
+<cena_bez_dph></cena_bez_dph>
+<sdruzeni>0</sdruzeni>
+</ucastnik>      <ucastnik>
+<ico>28645006</ico>
+<nazev_ucastnika>HERYÁN RECONSTRUCTIONS s.r.o.</nazev_ucastnika>
+<misto_podnikani>CZ</misto_podnikani>
+<cena_bez_dph></cena_bez_dph>
+<sdruzeni>0</sdruzeni>
+</ucastnik>        <dodavatel>
+<ico>05931738</ico>
+<nazev_dodavatele>ADAR ing s.r.o.</nazev_dodavatele>
+<misto_podnikani_dodavatele>CZ</misto_podnikani_dodavatele>
+<sdruzeni_dodavatelu>0</sdruzeni_dodavatelu>
+<rozpad>
+<rok_smlouvy>2024</rok_smlouvy>
+<cena_za_rok_bez_dph>1999634.90</cena_za_rok_bez_dph>
+</rozpad>
+</dodavatel>          </zakazka>
+<zakazka>
+<VZ>
+<kod_vz_na_profilu>P23V00007844</kod_vz_na_profilu>
+<nazev_vz>STAVEBNÍ ÚPRAVY DPS 1846 UL. GENERÁLA KLAPÁLKA -  SO 04 - STAVEBNÍ ÚPRAVY BYTŮ 1+KK - 2024</nazev_vz>
+<stav_vz>zakázka byla zadána</stav_vz>
+<druh_zadavaciho_rizeni>zjednodušené podlimitní řízení</druh_zadavaciho_rizeni>
+<delena_na_casti>0</delena_na_casti>
+<ramcova_dohoda>0</ramcova_dohoda>
+<zavedeni_dns>0</zavedeni_dns>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3525740</url>
+<typ_dokumentu>Písemná zpráva (podle § 217 zákona)</typ_dokumentu>
+<cas_vlozeni_na_profil>2024-02-23T13:44:06+01:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3525741</url>
+<typ_dokumentu>Písemná zpráva (podle § 217 zákona)</typ_dokumentu>
+<cas_vlozeni_na_profil>2024-02-23T13:44:06+01:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3525742</url>
+<typ_dokumentu>Písemná zpráva (podle § 217 zákona)</typ_dokumentu>
+<cas_vlozeni_na_profil>2023-12-22T12:14:31+01:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3525743</url>
+<typ_dokumentu>Zadávací dokumentace (podle § 53 odstavce 3, § 96 odstavce 1 a § 164 odstavce 2 zákona)</typ_dokumentu>
+<cas_vlozeni_na_profil>2023-11-20T16:24:17+01:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3525744</url>
+<typ_dokumentu>Zadávací dokumentace (podle § 53 odstavce 3, § 96 odstavce 1 a § 164 odstavce 2 zákona)</typ_dokumentu>
+<cas_vlozeni_na_profil>2023-11-20T16:24:17+01:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<datum_cas_zverejneni>2023-11-20T16:24:17+01:00</datum_cas_zverejneni>
+<datum_uzavreni_smlouvy>2024-01-29T00:00:00+01:00</datum_uzavreni_smlouvy>  
+</VZ>            <ucastnik>
+<ico>05931738</ico>
+<nazev_ucastnika>ADAR ing s.r.o.</nazev_ucastnika>
+<misto_podnikani>CZ</misto_podnikani>
+<cena_bez_dph></cena_bez_dph>
+<sdruzeni>0</sdruzeni>
+</ucastnik>      <ucastnik>
+<ico>48395242</ico>
+<nazev_ucastnika>STABET, spol. s r. o.</nazev_ucastnika>
+<misto_podnikani>CZ</misto_podnikani>
+<cena_bez_dph></cena_bez_dph>
+<sdruzeni>0</sdruzeni>
+</ucastnik>        <dodavatel>
+<ico>05931738</ico>
+<nazev_dodavatele>ADAR ing s.r.o.</nazev_dodavatele>
+<misto_podnikani_dodavatele>CZ</misto_podnikani_dodavatele>
+<sdruzeni_dodavatelu>0</sdruzeni_dodavatelu>
+<rozpad>
+<rok_smlouvy>2024</rok_smlouvy>
+<cena_za_rok_bez_dph>3820943.47</cena_za_rok_bez_dph>
+</rozpad>
+</dodavatel>          </zakazka>
+<zakazka>
+<VZ>
+<kod_vz_na_profilu>P24V00002246</kod_vz_na_profilu>
+<nazev_vz>Cyklostezka včetně lávky VS-03-ROL (lávka u SBD) – PD</nazev_vz>
+<stav_vz>zakázka byla zadána</stav_vz>
+<druh_zadavaciho_rizeni>zakázka malého rozsahu</druh_zadavaciho_rizeni>
+<delena_na_casti>0</delena_na_casti>
+<ramcova_dohoda>0</ramcova_dohoda>
+<zavedeni_dns>0</zavedeni_dns>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3292401</url>
+<typ_dokumentu>Písemná zpráva (podle § 217 zákona)</typ_dokumentu>
+<cas_vlozeni_na_profil>2024-07-04T08:51:40+02:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3292402</url>
+<typ_dokumentu>Jiný dokument (zadavatel uvede název tohoto typu dokumentu)</typ_dokumentu>
+<cas_vlozeni_na_profil>2024-05-20T15:50:00+02:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3292403</url>
+<typ_dokumentu>Výzva k podání nabídek</typ_dokumentu>
+<cas_vlozeni_na_profil>2024-03-26T06:54:59+01:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3292404</url>
+<typ_dokumentu>Zadávací dokumentace (podle § 53 odstavce 3, § 96 odstavce 1 a § 164 odstavce 2 zákona)</typ_dokumentu>
+<cas_vlozeni_na_profil>2024-03-26T06:54:59+01:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<datum_cas_zverejneni>2024-03-26T06:54:58+01:00</datum_cas_zverejneni>
+<datum_uzavreni_smlouvy>2024-06-18T00:00:00+02:00</datum_uzavreni_smlouvy>  
+</VZ>            <ucastnik>
+<ico>26849836</ico>
+<nazev_ucastnika>MSS - projekt s.r.o.</nazev_ucastnika>
+<misto_podnikani>CZ</misto_podnikani>
+<cena_bez_dph></cena_bez_dph>
+<sdruzeni>0</sdruzeni>
+</ucastnik>            </zakazka>
+<zakazka>
+<VZ>
+<kod_vz_na_profilu>P24V00002249</kod_vz_na_profilu>
+<nazev_vz>Odstranění lávky ev.č. Vs-01-Bol přes silnici I/57 a III/05736 ve Vsetíně, část Bobrky</nazev_vz>
+<stav_vz>zakázka byla zadána</stav_vz>
+<druh_zadavaciho_rizeni>zakázka malého rozsahu</druh_zadavaciho_rizeni>
+<delena_na_casti>0</delena_na_casti>
+<ramcova_dohoda>0</ramcova_dohoda>
+<zavedeni_dns>0</zavedeni_dns>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3292362</url>
+<typ_dokumentu>Písemná zpráva (podle § 217 zákona)</typ_dokumentu>
+<cas_vlozeni_na_profil>2024-07-04T08:24:18+02:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3292363</url>
+<typ_dokumentu>Jiný dokument (zadavatel uvede název tohoto typu dokumentu)</typ_dokumentu>
+<cas_vlozeni_na_profil>2024-05-20T15:48:45+02:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3292364</url>
+<typ_dokumentu>Výzva k podání nabídek</typ_dokumentu>
+<cas_vlozeni_na_profil>2024-03-26T07:22:57+01:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3292365</url>
+<typ_dokumentu>Zadávací dokumentace (podle § 53 odstavce 3, § 96 odstavce 1 a § 164 odstavce 2 zákona)</typ_dokumentu>
+<cas_vlozeni_na_profil>2024-03-26T07:22:57+01:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<datum_cas_zverejneni>2024-03-26T07:22:57+01:00</datum_cas_zverejneni>
+<datum_uzavreni_smlouvy>2024-06-18T00:00:00+02:00</datum_uzavreni_smlouvy>  
+</VZ>            <ucastnik>
+<ico>26849836</ico>
+<nazev_ucastnika>MSS - projekt s.r.o.</nazev_ucastnika>
+<misto_podnikani>CZ</misto_podnikani>
+<cena_bez_dph></cena_bez_dph>
+<sdruzeni>0</sdruzeni>
+</ucastnik>            </zakazka>
+<zakazka>
+<VZ>
+<kod_vz_na_profilu>P24V00002833</kod_vz_na_profilu>
+<nazev_vz>Zpracování Průkazu energetické náročnosti budov v majetku města Vsetín 2024-2026</nazev_vz>
+<stav_vz>zakázka byla zadána</stav_vz>
+<druh_zadavaciho_rizeni>zakázka malého rozsahu</druh_zadavaciho_rizeni>
+<delena_na_casti>0</delena_na_casti>
+<ramcova_dohoda>0</ramcova_dohoda>
+<zavedeni_dns>0</zavedeni_dns>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3292356</url>
+<typ_dokumentu>Písemná zpráva (podle § 217 zákona)</typ_dokumentu>
+<cas_vlozeni_na_profil>2024-07-04T08:18:18+02:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3292357</url>
+<typ_dokumentu>Jiný dokument (zadavatel uvede název tohoto typu dokumentu)</typ_dokumentu>
+<cas_vlozeni_na_profil>2024-05-27T12:35:33+02:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3292358</url>
+<typ_dokumentu>Jiný dokument (zadavatel uvede název tohoto typu dokumentu)</typ_dokumentu>
+<cas_vlozeni_na_profil>2024-05-03T10:44:21+02:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3292359</url>
+<typ_dokumentu>Vysvětlení zadávací dokumentace (podle § 98 zákona)</typ_dokumentu>
+<cas_vlozeni_na_profil>2024-04-19T13:02:00+02:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3292360</url>
+<typ_dokumentu>Výzva k podání nabídek</typ_dokumentu>
+<cas_vlozeni_na_profil>2024-04-12T13:30:17+02:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3292361</url>
+<typ_dokumentu>Zadávací dokumentace (podle § 53 odstavce 3, § 96 odstavce 1 a § 164 odstavce 2 zákona)</typ_dokumentu>
+<cas_vlozeni_na_profil>2024-04-12T13:30:17+02:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<datum_cas_zverejneni>2024-04-12T13:30:17+02:00</datum_cas_zverejneni>
+<datum_uzavreni_smlouvy>2024-06-21T00:00:00+02:00</datum_uzavreni_smlouvy>  
+</VZ>            <ucastnik>
+<ico>28149785</ico>
+<nazev_ucastnika>PKV BUILD s.r.o.</nazev_ucastnika>
+<misto_podnikani>CZ</misto_podnikani>
+<cena_bez_dph></cena_bez_dph>
+<sdruzeni>0</sdruzeni>
+</ucastnik>      <ucastnik>
+<ico>27787591</ico>
+<nazev_ucastnika>STRONG ENCO s.r.o.</nazev_ucastnika>
+<misto_podnikani>CZ</misto_podnikani>
+<cena_bez_dph></cena_bez_dph>
+<sdruzeni>0</sdruzeni>
+</ucastnik>      <ucastnik>
+<ico>17178991</ico>
+<nazev_ucastnika>Kenergen s.r.o.</nazev_ucastnika>
+<misto_podnikani>CZ</misto_podnikani>
+<cena_bez_dph></cena_bez_dph>
+<sdruzeni>0</sdruzeni>
+</ucastnik>      <ucastnik>
+<ico>25015516</ico>
+<nazev_ucastnika>Středisko pro úspory energie s.r.o.</nazev_ucastnika>
+<misto_podnikani>CZ</misto_podnikani>
+<cena_bez_dph></cena_bez_dph>
+<sdruzeni>0</sdruzeni>
+</ucastnik>      <ucastnik>
+<ico>09692142</ico>
+<nazev_ucastnika>Moore Advisory CZ</nazev_ucastnika>
+<misto_podnikani>CZ</misto_podnikani>
+<cena_bez_dph></cena_bez_dph>
+<sdruzeni>0</sdruzeni>
+</ucastnik>      <ucastnik>
+<ico>29194911</ico>
+<nazev_ucastnika>Alumbrado s.r.o.</nazev_ucastnika>
+<misto_podnikani>CZ</misto_podnikani>
+<cena_bez_dph></cena_bez_dph>
+<sdruzeni>0</sdruzeni>
+</ucastnik>            </zakazka>
+<zakazka>
+<VZ>
+<kod_vz_na_profilu>P24V00002838</kod_vz_na_profilu>
+<nazev_vz>ZRUŠENA STAVEBNÍ ÚPRAVY ELEKTRÁRENSKÉHO NÁHONU VE VSETÍNĚ - PD</nazev_vz>
+<stav_vz>zakázka byla zadána</stav_vz>
+<druh_zadavaciho_rizeni>zakázka malého rozsahu</druh_zadavaciho_rizeni>
+<delena_na_casti>0</delena_na_casti>
+<ramcova_dohoda>0</ramcova_dohoda>
+<zavedeni_dns>0</zavedeni_dns>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3257784</url>
+<typ_dokumentu>Písemná zpráva (podle § 217 zákona)</typ_dokumentu>
+<cas_vlozeni_na_profil>2024-05-21T07:15:27+02:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3257785</url>
+<typ_dokumentu>Jiný dokument (zadavatel uvede název tohoto typu dokumentu)</typ_dokumentu>
+<cas_vlozeni_na_profil>2024-05-13T09:07:09+02:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3257786</url>
+<typ_dokumentu>Výzva k podání nabídek</typ_dokumentu>
+<cas_vlozeni_na_profil>2024-04-12T13:39:32+02:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3257787</url>
+<typ_dokumentu>Zadávací dokumentace (podle § 53 odstavce 3, § 96 odstavce 1 a § 164 odstavce 2 zákona)</typ_dokumentu>
+<cas_vlozeni_na_profil>2024-04-12T13:39:32+02:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<datum_cas_zverejneni>2024-04-12T13:39:31+02:00</datum_cas_zverejneni>
+<datum_uzavreni_smlouvy>2024-07-02T00:00:00+02:00</datum_uzavreni_smlouvy>  
+</VZ>                  </zakazka>
+<zakazka>
+<VZ>
+<kod_vz_na_profilu>P23V00008012</kod_vz_na_profilu>
+<nazev_vz>Reklama a propagace města Vsetín 2023</nazev_vz>
+<stav_vz>zakázka byla zadána</stav_vz>
+<druh_zadavaciho_rizeni>jednací řízení bez uveřejnění</druh_zadavaciho_rizeni>
+<delena_na_casti>0</delena_na_casti>
+<ramcova_dohoda>0</ramcova_dohoda>
+<zavedeni_dns>0</zavedeni_dns>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3150431</url>
+<typ_dokumentu>Písemná zpráva (podle § 217 zákona)</typ_dokumentu>
+<cas_vlozeni_na_profil>2024-01-03T16:08:10+01:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3150432</url>
+<typ_dokumentu>Písemná zpráva (podle § 217 zákona)</typ_dokumentu>
+<cas_vlozeni_na_profil>2024-01-03T16:08:10+01:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3150433</url>
+<typ_dokumentu>Výzva k podání nabídek</typ_dokumentu>
+<cas_vlozeni_na_profil>2023-12-29T08:58:30+01:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3150434</url>
+<typ_dokumentu>Zadávací dokumentace (podle § 53 odstavce 3, § 96 odstavce 1 a § 164 odstavce 2 zákona)</typ_dokumentu>
+<cas_vlozeni_na_profil>2023-12-29T08:58:30+01:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<datum_cas_zverejneni>2023-12-29T08:58:30+01:00</datum_cas_zverejneni>
+<datum_uzavreni_smlouvy>2023-12-13T00:00:00+01:00</datum_uzavreni_smlouvy>  
+</VZ>            <ucastnik>
+<ico>25399985</ico>
+<nazev_ucastnika>VHK Vsetín s.r.o.</nazev_ucastnika>
+<misto_podnikani>CZ</misto_podnikani>
+<cena_bez_dph></cena_bez_dph>
+<sdruzeni>0</sdruzeni>
+</ucastnik>            </zakazka>
+<zakazka>
+<VZ>
+<kod_vz_na_profilu>P24V00002097</kod_vz_na_profilu>
+<nazev_vz>OPRAVA MÍSTNÍ KOMUNIKACE POTŮČKY, II. ETAPA – 2.ČÁST</nazev_vz>
+<stav_vz>zakázka byla zadána</stav_vz>
+<druh_zadavaciho_rizeni>zakázka malého rozsahu</druh_zadavaciho_rizeni>
+<delena_na_casti>0</delena_na_casti>
+<ramcova_dohoda>0</ramcova_dohoda>
+<zavedeni_dns>0</zavedeni_dns>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3257778</url>
+<typ_dokumentu>Písemná zpráva (podle § 217 zákona)</typ_dokumentu>
+<cas_vlozeni_na_profil>2024-05-21T07:14:14+02:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3257779</url>
+<typ_dokumentu>Jiný dokument (zadavatel uvede název tohoto typu dokumentu)</typ_dokumentu>
+<cas_vlozeni_na_profil>2024-04-10T09:42:08+02:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3257780</url>
+<typ_dokumentu>Jiný dokument (zadavatel uvede název tohoto typu dokumentu)</typ_dokumentu>
+<cas_vlozeni_na_profil>2024-04-04T07:18:44+02:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3257781</url>
+<typ_dokumentu>Vysvětlení zadávací dokumentace (podle § 98 zákona)</typ_dokumentu>
+<cas_vlozeni_na_profil>2024-03-26T07:32:19+01:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3257782</url>
+<typ_dokumentu>Výzva k podání nabídek</typ_dokumentu>
+<cas_vlozeni_na_profil>2024-03-21T11:35:54+01:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3257783</url>
+<typ_dokumentu>Zadávací dokumentace (podle § 53 odstavce 3, § 96 odstavce 1 a § 164 odstavce 2 zákona)</typ_dokumentu>
+<cas_vlozeni_na_profil>2024-03-21T11:35:54+01:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<datum_cas_zverejneni>2024-03-21T11:35:54+01:00</datum_cas_zverejneni>
+<datum_uzavreni_smlouvy>2024-04-22T00:00:00+02:00</datum_uzavreni_smlouvy>  
+</VZ>            <ucastnik>
+<ico>60838744</ico>
+<nazev_ucastnika>STRABAG a.s.</nazev_ucastnika>
+<misto_podnikani>CZ</misto_podnikani>
+<cena_bez_dph></cena_bez_dph>
+<sdruzeni>0</sdruzeni>
+</ucastnik>      <ucastnik>
+<ico>48035599</ico>
+<nazev_ucastnika>SWIETELSKY stavební s.r.o.</nazev_ucastnika>
+<misto_podnikani>CZ</misto_podnikani>
+<cena_bez_dph></cena_bez_dph>
+<sdruzeni>0</sdruzeni>
+</ucastnik>      <ucastnik>
+<ico>29183294</ico>
+<nazev_ucastnika>PSM plus s.r.o.</nazev_ucastnika>
+<misto_podnikani>CZ</misto_podnikani>
+<cena_bez_dph></cena_bez_dph>
+<sdruzeni>0</sdruzeni>
+</ucastnik>      <ucastnik>
+<ico>25860852</ico>
+<nazev_ucastnika>JASY Vsetín s.r.o.</nazev_ucastnika>
+<misto_podnikani>CZ</misto_podnikani>
+<cena_bez_dph></cena_bez_dph>
+<sdruzeni>0</sdruzeni>
+</ucastnik>      <ucastnik>
+<ico>43005560</ico>
+<nazev_ucastnika>PORR a.s.</nazev_ucastnika>
+<misto_podnikani>CZ</misto_podnikani>
+<cena_bez_dph></cena_bez_dph>
+<sdruzeni>0</sdruzeni>
+</ucastnik>            </zakazka>
+<zakazka>
+<VZ>
+<kod_vz_na_profilu>P24V00001692</kod_vz_na_profilu>
+<nazev_vz>PROVOZOVÁNÍ SLUŽBY SENIOR TAXI</nazev_vz>
+<stav_vz>zakázka byla zadána</stav_vz>
+<druh_zadavaciho_rizeni>zakázka malého rozsahu</druh_zadavaciho_rizeni>
+<delena_na_casti>0</delena_na_casti>
+<ramcova_dohoda>0</ramcova_dohoda>
+<zavedeni_dns>0</zavedeni_dns>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3257767</url>
+<typ_dokumentu>Písemná zpráva (podle § 217 zákona)</typ_dokumentu>
+<cas_vlozeni_na_profil>2024-05-21T07:11:59+02:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3257768</url>
+<typ_dokumentu>Jiný dokument (zadavatel uvede název tohoto typu dokumentu)</typ_dokumentu>
+<cas_vlozeni_na_profil>2024-04-30T13:31:41+02:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3257769</url>
+<typ_dokumentu>Výzva k podání nabídek</typ_dokumentu>
+<cas_vlozeni_na_profil>2024-03-08T10:25:20+01:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3257770</url>
+<typ_dokumentu>Zadávací dokumentace (podle § 53 odstavce 3, § 96 odstavce 1 a § 164 odstavce 2 zákona)</typ_dokumentu>
+<cas_vlozeni_na_profil>2024-03-08T10:25:20+01:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<datum_cas_zverejneni>2024-03-08T10:25:19+01:00</datum_cas_zverejneni>
+<datum_uzavreni_smlouvy>2024-05-30T00:00:00+02:00</datum_uzavreni_smlouvy>  
+</VZ>            <ucastnik>
+<ico>19868677</ico>
+<nazev_ucastnika>OGITIC s.r.o.</nazev_ucastnika>
+<misto_podnikani>CZ</misto_podnikani>
+<cena_bez_dph></cena_bez_dph>
+<sdruzeni>0</sdruzeni>
+</ucastnik>      <ucastnik>
+<ico>04598695</ico>
+<nazev_ucastnika>ROSI LOGISTIK s.r.o.</nazev_ucastnika>
+<misto_podnikani>CZ</misto_podnikani>
+<cena_bez_dph></cena_bez_dph>
+<sdruzeni>0</sdruzeni>
+</ucastnik>            </zakazka>
+<zakazka>
+<VZ>
+<kod_vz_na_profilu>P24V00000973</kod_vz_na_profilu>
+<kod_vz_na_vvz>Z2024-007101</kod_vz_na_vvz>
+<nazev_vz>STAVEBNÍ ÚPRAVY MASARYKOVY VEŘEJNÉ KNIHOVNY A TURISTICKÉHO INFORMAČNÍHO CENTRA VSETÍN V OBJEKTU Č.P. 1356</nazev_vz>
+<stav_vz>zakázka byla zadána</stav_vz>
+<druh_zadavaciho_rizeni>otevřené řízení</druh_zadavaciho_rizeni>
+<delena_na_casti>0</delena_na_casti>
+<ramcova_dohoda>0</ramcova_dohoda>
+<zavedeni_dns>0</zavedeni_dns>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3251682</url>
+<typ_dokumentu>Písemná zpráva (podle § 217 zákona)</typ_dokumentu>
+<cas_vlozeni_na_profil>2024-05-13T08:59:21+02:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3251683</url>
+<typ_dokumentu>Písemná zpráva (podle § 217 zákona)</typ_dokumentu>
+<cas_vlozeni_na_profil>2024-05-13T08:59:21+02:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3251684</url>
+<typ_dokumentu>Jiný dokument (zadavatel uvede název tohoto typu dokumentu)</typ_dokumentu>
+<cas_vlozeni_na_profil>2024-04-10T09:33:55+02:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3251685</url>
+<typ_dokumentu>Jiný dokument (zadavatel uvede název tohoto typu dokumentu)</typ_dokumentu>
+<cas_vlozeni_na_profil>2024-04-02T11:10:42+02:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3251686</url>
+<typ_dokumentu>Vysvětlení zadávací dokumentace (podle § 98 zákona)</typ_dokumentu>
+<cas_vlozeni_na_profil>2024-03-21T14:27:19+01:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3251687</url>
+<typ_dokumentu>Vysvětlení zadávací dokumentace (podle § 98 zákona)</typ_dokumentu>
+<cas_vlozeni_na_profil>2024-03-15T21:19:39+01:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3251688</url>
+<typ_dokumentu>Vysvětlení zadávací dokumentace (podle § 98 zákona)</typ_dokumentu>
+<cas_vlozeni_na_profil>2024-03-14T13:53:02+01:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3251689</url>
+<typ_dokumentu>Vysvětlení zadávací dokumentace (podle § 98 zákona)</typ_dokumentu>
+<cas_vlozeni_na_profil>2024-03-11T13:49:55+01:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3251690</url>
+<typ_dokumentu>Vysvětlení zadávací dokumentace (podle § 98 zákona)</typ_dokumentu>
+<cas_vlozeni_na_profil>2024-02-27T13:19:11+01:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3251691</url>
+<typ_dokumentu>Vysvětlení zadávací dokumentace (podle § 98 zákona)</typ_dokumentu>
+<cas_vlozeni_na_profil>2024-02-23T12:26:49+01:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3251692</url>
+<typ_dokumentu>Vysvětlení zadávací dokumentace (podle § 98 zákona)</typ_dokumentu>
+<cas_vlozeni_na_profil>2024-02-20T12:55:30+01:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3251693</url>
+<typ_dokumentu>Vysvětlení zadávací dokumentace (podle § 98 zákona)</typ_dokumentu>
+<cas_vlozeni_na_profil>2024-02-20T12:55:30+01:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3251694</url>
+<typ_dokumentu>Zadávací dokumentace (podle § 53 odstavce 3, § 96 odstavce 1 a § 164 odstavce 2 zákona)</typ_dokumentu>
+<cas_vlozeni_na_profil>2024-02-14T14:42:05+01:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3251695</url>
+<typ_dokumentu>Zadávací dokumentace (podle § 53 odstavce 3, § 96 odstavce 1 a § 164 odstavce 2 zákona)</typ_dokumentu>
+<cas_vlozeni_na_profil>2024-02-14T14:42:05+01:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3251696</url>
+<typ_dokumentu>Výzva k podání nabídek</typ_dokumentu>
+<cas_vlozeni_na_profil>2024-02-14T14:42:06+01:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<datum_cas_zverejneni>2024-02-14T14:42:04+01:00</datum_cas_zverejneni>
+<datum_uzavreni_smlouvy>2024-05-03T00:00:00+02:00</datum_uzavreni_smlouvy>  
+</VZ>            <ucastnik>
+<ico>25301144</ico>
+<nazev_ucastnika>Navláčil stavební firma, s.r.o.</nazev_ucastnika>
+<misto_podnikani>CZ</misto_podnikani>
+<cena_bez_dph></cena_bez_dph>
+<sdruzeni>0</sdruzeni>
+</ucastnik>      <ucastnik>
+<ico>25021915</ico>
+<nazev_ucastnika>Metrostav DIZ s.r.o.</nazev_ucastnika>
+<misto_podnikani>CZ</misto_podnikani>
+<cena_bez_dph></cena_bez_dph>
+<sdruzeni>0</sdruzeni>
+</ucastnik>      <ucastnik>
+<ico>28169522</ico>
+<nazev_ucastnika>GEOSAN GROUP a.s.</nazev_ucastnika>
+<misto_podnikani>CZ</misto_podnikani>
+<cena_bez_dph></cena_bez_dph>
+<sdruzeni>0</sdruzeni>
+</ucastnik>      <ucastnik>
+<ico>47671416</ico>
+<nazev_ucastnika>NOSTA, s.r.o.</nazev_ucastnika>
+<misto_podnikani>CZ</misto_podnikani>
+<cena_bez_dph></cena_bez_dph>
+<sdruzeni>0</sdruzeni>
+</ucastnik>      <ucastnik>
+<ico>27737209</ico>
+<nazev_ucastnika>MAMUT - THERM PRO s.r.o.</nazev_ucastnika>
+<misto_podnikani>CZ</misto_podnikani>
+<cena_bez_dph></cena_bez_dph>
+<sdruzeni>0</sdruzeni>
+</ucastnik>            </zakazka>
+<zakazka>
+<VZ>
+<kod_vz_na_profilu>P24V00001067</kod_vz_na_profilu>
+<nazev_vz>OPRAVA MK A PARKOVIŠŤ VČETNĚ NAVÝŠENÍ PARKOVACÍCH STÁNÍ A ZPEVNĚNÝCH PLOCH, OHRADA - PD</nazev_vz>
+<stav_vz>zakázka byla zadána</stav_vz>
+<druh_zadavaciho_rizeni>zakázka malého rozsahu</druh_zadavaciho_rizeni>
+<delena_na_casti>0</delena_na_casti>
+<ramcova_dohoda>0</ramcova_dohoda>
+<zavedeni_dns>0</zavedeni_dns>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3231771</url>
+<typ_dokumentu>Písemná zpráva (podle § 217 zákona)</typ_dokumentu>
+<cas_vlozeni_na_profil>2024-04-15T11:02:59+02:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3231772</url>
+<typ_dokumentu>Jiný dokument (zadavatel uvede název tohoto typu dokumentu)</typ_dokumentu>
+<cas_vlozeni_na_profil>2024-03-22T12:45:09+01:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3231773</url>
+<typ_dokumentu>Výzva k podání nabídek</typ_dokumentu>
+<cas_vlozeni_na_profil>2024-02-19T09:36:35+01:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3231774</url>
+<typ_dokumentu>Zadávací dokumentace (podle § 53 odstavce 3, § 96 odstavce 1 a § 164 odstavce 2 zákona)</typ_dokumentu>
+<cas_vlozeni_na_profil>2024-02-19T09:36:35+01:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<datum_cas_zverejneni>2024-02-19T09:36:35+01:00</datum_cas_zverejneni>
+<datum_uzavreni_smlouvy>2024-04-05T00:00:00+02:00</datum_uzavreni_smlouvy>  
+</VZ>            <ucastnik>
+<ico>04650263</ico>
+<nazev_ucastnika>DRAWINGS s.r.o.</nazev_ucastnika>
+<misto_podnikani>CZ</misto_podnikani>
+<cena_bez_dph></cena_bez_dph>
+<sdruzeni>0</sdruzeni>
+</ucastnik>      <ucastnik>
+<ico>29209081</ico>
+<nazev_ucastnika>NELL PROJEKT s.r.o.</nazev_ucastnika>
+<misto_podnikani>CZ</misto_podnikani>
+<cena_bez_dph></cena_bez_dph>
+<sdruzeni>0</sdruzeni>
+</ucastnik>      <ucastnik>
+<ico>06409393</ico>
+<nazev_ucastnika>Zdeněk Vladyka s.r.o.</nazev_ucastnika>
+<misto_podnikani>CZ</misto_podnikani>
+<cena_bez_dph></cena_bez_dph>
+<sdruzeni>0</sdruzeni>
+</ucastnik>      <ucastnik>
+<ico>48476684</ico>
+<nazev_ucastnika>Ing. Jiří Testovací</nazev_ucastnika>
+<misto_podnikani>CZ</misto_podnikani>
+<cena_bez_dph></cena_bez_dph>
+<sdruzeni>0</sdruzeni>
+</ucastnik>            </zakazka>
+<zakazka>
+<VZ>
+<kod_vz_na_profilu>P23V00006029</kod_vz_na_profilu>
+<nazev_vz>ALCEDO Vsetín – studie zateplení budov</nazev_vz>
+<stav_vz>zakázka byla zadána</stav_vz>
+<druh_zadavaciho_rizeni>zakázka malého rozsahu</druh_zadavaciho_rizeni>
+<delena_na_casti>0</delena_na_casti>
+<ramcova_dohoda>0</ramcova_dohoda>
+<zavedeni_dns>0</zavedeni_dns>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3217301</url>
+<typ_dokumentu>Písemná zpráva (podle § 217 zákona)</typ_dokumentu>
+<cas_vlozeni_na_profil>2023-11-20T17:24:26+01:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3217302</url>
+<typ_dokumentu>Jiný dokument (zadavatel uvede název tohoto typu dokumentu)</typ_dokumentu>
+<cas_vlozeni_na_profil>2023-11-20T17:24:26+01:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3217303</url>
+<typ_dokumentu>Výzva k podání nabídek</typ_dokumentu>
+<cas_vlozeni_na_profil>2023-11-20T17:24:26+01:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3217304</url>
+<typ_dokumentu>Zadávací dokumentace (podle § 53 odstavce 3, § 96 odstavce 1 a § 164 odstavce 2 zákona)</typ_dokumentu>
+<cas_vlozeni_na_profil>2023-11-20T17:24:26+01:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<datum_cas_zverejneni>2023-11-20T17:24:26+01:00</datum_cas_zverejneni>
+<datum_uzavreni_smlouvy>2023-10-13T00:00:00+02:00</datum_uzavreni_smlouvy>  
+</VZ>            <ucastnik>
+<ico>47667109</ico>
+<nazev_ucastnika>IPR spol. s r.o.</nazev_ucastnika>
+<misto_podnikani>CZ</misto_podnikani>
+<cena_bez_dph></cena_bez_dph>
+<sdruzeni>0</sdruzeni>
+</ucastnik>      <ucastnik>
+<ico>01643541</ico>
+<nazev_ucastnika>CENTROPROJEKT GROUP a.s.</nazev_ucastnika>
+<misto_podnikani>CZ</misto_podnikani>
+<cena_bez_dph></cena_bez_dph>
+<sdruzeni>0</sdruzeni>
+</ucastnik>        <dodavatel>
+<ico>47667109</ico>
+<nazev_dodavatele>IPR spol. s r.o.</nazev_dodavatele>
+<misto_podnikani_dodavatele>CZ</misto_podnikani_dodavatele>
+<sdruzeni_dodavatelu>0</sdruzeni_dodavatelu>
+<rozpad>
+<rok_smlouvy>2023</rok_smlouvy>
+<cena_za_rok_bez_dph>338000.00</cena_za_rok_bez_dph>
+</rozpad>
+</dodavatel>          </zakazka>
+<zakazka>
+<VZ>
+<kod_vz_na_profilu>P23V00006030</kod_vz_na_profilu>
+<nazev_vz>Přednádražní prostor – I. etapa – Vsetín, SO 105 – Úprava ulice Nemocniční II</nazev_vz>
+<stav_vz>zakázka byla zadána</stav_vz>
+<druh_zadavaciho_rizeni>zakázka malého rozsahu</druh_zadavaciho_rizeni>
+<delena_na_casti>0</delena_na_casti>
+<ramcova_dohoda>0</ramcova_dohoda>
+<zavedeni_dns>0</zavedeni_dns>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3216324</url>
+<typ_dokumentu>Písemná zpráva (podle § 217 zákona)</typ_dokumentu>
+<cas_vlozeni_na_profil>2023-11-20T17:23:24+01:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3216325</url>
+<typ_dokumentu>Jiný dokument (zadavatel uvede název tohoto typu dokumentu)</typ_dokumentu>
+<cas_vlozeni_na_profil>2023-11-20T17:23:24+01:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3216326</url>
+<typ_dokumentu>Výzva k podání nabídek</typ_dokumentu>
+<cas_vlozeni_na_profil>2023-11-20T17:23:24+01:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3216327</url>
+<typ_dokumentu>Zadávací dokumentace (podle § 53 odstavce 3, § 96 odstavce 1 a § 164 odstavce 2 zákona)</typ_dokumentu>
+<cas_vlozeni_na_profil>2023-11-20T17:23:24+01:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<datum_cas_zverejneni>2023-11-20T17:23:24+01:00</datum_cas_zverejneni>
+<datum_uzavreni_smlouvy>2023-10-09T00:00:00+02:00</datum_uzavreni_smlouvy>  
+</VZ>            <ucastnik>
+<ico>46342796</ico>
+<nazev_ucastnika>OHLA ŽS, a.s.</nazev_ucastnika>
+<misto_podnikani>CZ</misto_podnikani>
+<cena_bez_dph>2929047.03</cena_bez_dph>
+<cena_s_dph>3544147.00</cena_s_dph>
+<sdruzeni>0</sdruzeni>
+</ucastnik>        <dodavatel>
+<ico>46342796</ico>
+<nazev_dodavatele>OHLA ŽS, a.s.</nazev_dodavatele>
+<misto_podnikani_dodavatele>CZ</misto_podnikani_dodavatele>
+<cena_celkem_dle_smlouvy_DPH>3544147.00</cena_celkem_dle_smlouvy_DPH>
+<cena_celkem_dle_smlouvy_bez_DPH>2929047.03</cena_celkem_dle_smlouvy_bez_DPH>
+<sdruzeni_dodavatelu>0</sdruzeni_dodavatelu>
+<rozpad>
+<rok_smlouvy>2023</rok_smlouvy>
+<cena_za_rok_bez_dph>2837985.18</cena_za_rok_bez_dph>
+<cena_za_rok_s_dph>3433962.07</cena_za_rok_s_dph>
+</rozpad>
+</dodavatel>          </zakazka>
+<zakazka>
+<VZ>
+<kod_vz_na_profilu>P24V00000393</kod_vz_na_profilu>
+<nazev_vz>ZRUŠENA DODÁNÍ OSOBNÍHO VOZIDLA PRO MĚSTO VSETÍN 2024</nazev_vz>
+<stav_vz>zakázka byla zrušena</stav_vz>
+<druh_zadavaciho_rizeni>zakázka malého rozsahu</druh_zadavaciho_rizeni>
+<delena_na_casti>0</delena_na_casti>
+<ramcova_dohoda>0</ramcova_dohoda>
+<zavedeni_dns>0</zavedeni_dns>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3201170</url>
+<typ_dokumentu>Písemná zpráva (podle § 217 zákona)</typ_dokumentu>
+<cas_vlozeni_na_profil>2024-03-11T09:22:01+01:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3201171</url>
+<typ_dokumentu>Jiný dokument (zadavatel uvede název tohoto typu dokumentu)</typ_dokumentu>
+<cas_vlozeni_na_profil>2024-02-23T13:14:21+01:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3201172</url>
+<typ_dokumentu>Výzva k podání nabídek</typ_dokumentu>
+<cas_vlozeni_na_profil>2024-01-22T09:10:15+01:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3201173</url>
+<typ_dokumentu>Zadávací dokumentace (podle § 53 odstavce 3, § 96 odstavce 1 a § 164 odstavce 2 zákona)</typ_dokumentu>
+<cas_vlozeni_na_profil>2024-01-22T09:10:15+01:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<datum_cas_zverejneni>2024-01-22T09:10:15+01:00</datum_cas_zverejneni>
+<datum_zruseni>2024-02-23T00:00:00+01:00</datum_zruseni>
+</VZ>              </zakazka>
+<zakazka>
+<VZ>
+<kod_vz_na_profilu>P23V00007743</kod_vz_na_profilu>
+<nazev_vz>Chodník pod zámkem - projektová dokumentace</nazev_vz>
+<stav_vz>zakázka byla zadána</stav_vz>
+<druh_zadavaciho_rizeni>zakázka malého rozsahu</druh_zadavaciho_rizeni>
+<delena_na_casti>0</delena_na_casti>
+<ramcova_dohoda>0</ramcova_dohoda>
+<zavedeni_dns>0</zavedeni_dns>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3171631</url>
+<typ_dokumentu>Písemná zpráva (podle § 217 zákona)</typ_dokumentu>
+<cas_vlozeni_na_profil>2024-01-30T10:48:15+01:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3171632</url>
+<typ_dokumentu>Jiný dokument (zadavatel uvede název tohoto typu dokumentu)</typ_dokumentu>
+<cas_vlozeni_na_profil>2023-12-19T08:35:31+01:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3171633</url>
+<typ_dokumentu>Jiný dokument (zadavatel uvede název tohoto typu dokumentu)</typ_dokumentu>
+<cas_vlozeni_na_profil>2023-12-07T10:24:02+01:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3171634</url>
+<typ_dokumentu>Výzva k podání nabídek</typ_dokumentu>
+<cas_vlozeni_na_profil>2023-11-15T16:01:45+01:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3171635</url>
+<typ_dokumentu>Zadávací dokumentace (podle § 53 odstavce 3, § 96 odstavce 1 a § 164 odstavce 2 zákona)</typ_dokumentu>
+<cas_vlozeni_na_profil>2023-11-15T16:01:45+01:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<datum_cas_zverejneni>2023-11-15T16:01:45+01:00</datum_cas_zverejneni>
+<datum_uzavreni_smlouvy>2024-01-08T00:00:00+01:00</datum_uzavreni_smlouvy>  
+</VZ>            <ucastnik>
+<ico>28597044</ico>
+<nazev_ucastnika>AGPOL s.r.o.</nazev_ucastnika>
+<misto_podnikani>CZ</misto_podnikani>
+<cena_bez_dph></cena_bez_dph>
+<sdruzeni>0</sdruzeni>
+</ucastnik>      <ucastnik>
+<ico>26849836</ico>
+<nazev_ucastnika>MSS - projekt s.r.o.</nazev_ucastnika>
+<misto_podnikani>CZ</misto_podnikani>
+<cena_bez_dph></cena_bez_dph>
+<sdruzeni>0</sdruzeni>
+</ucastnik>            </zakazka>
+<zakazka>
+<VZ>
+<kod_vz_na_profilu>P23V00007650</kod_vz_na_profilu>
+<nazev_vz>„Parkoviště pod nadjezdem, Vsetín“ – projektová dokumentace, autorský dozor II.</nazev_vz>
+<stav_vz>zakázka byla zadána</stav_vz>
+<druh_zadavaciho_rizeni>zakázka malého rozsahu</druh_zadavaciho_rizeni>
+<delena_na_casti>0</delena_na_casti>
+<ramcova_dohoda>0</ramcova_dohoda>
+<zavedeni_dns>0</zavedeni_dns>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3171627</url>
+<typ_dokumentu>Písemná zpráva (podle § 217 zákona)</typ_dokumentu>
+<cas_vlozeni_na_profil>2024-01-30T10:46:28+01:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3171628</url>
+<typ_dokumentu>Písemná zpráva (podle § 217 zákona)</typ_dokumentu>
+<cas_vlozeni_na_profil>2023-12-22T11:28:41+01:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3171629</url>
+<typ_dokumentu>Výzva k podání nabídek</typ_dokumentu>
+<cas_vlozeni_na_profil>2023-11-13T13:54:58+01:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3171630</url>
+<typ_dokumentu>Zadávací dokumentace (podle § 53 odstavce 3, § 96 odstavce 1 a § 164 odstavce 2 zákona)</typ_dokumentu>
+<cas_vlozeni_na_profil>2023-11-13T13:54:58+01:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<datum_cas_zverejneni>2023-11-13T13:54:58+01:00</datum_cas_zverejneni>
+<datum_uzavreni_smlouvy>2024-01-12T00:00:00+01:00</datum_uzavreni_smlouvy>  
+</VZ>            <ucastnik>
+<ico>26849836</ico>
+<nazev_ucastnika>MSS - projekt s.r.o.</nazev_ucastnika>
+<misto_podnikani>CZ</misto_podnikani>
+<cena_bez_dph></cena_bez_dph>
+<sdruzeni>0</sdruzeni>
+</ucastnik>      <ucastnik>
+<ico>44961944</ico>
+<nazev_ucastnika>HBH Projekt spol. s r.o.</nazev_ucastnika>
+<misto_podnikani>CZ</misto_podnikani>
+<cena_bez_dph></cena_bez_dph>
+<sdruzeni>0</sdruzeni>
+</ucastnik>      <ucastnik>
+<ico>06409393</ico>
+<nazev_ucastnika>Zdeněk Vladyka s.r.o.</nazev_ucastnika>
+<misto_podnikani>CZ</misto_podnikani>
+<cena_bez_dph></cena_bez_dph>
+<sdruzeni>0</sdruzeni>
+</ucastnik>            </zakazka>
+<zakazka>
+<VZ>
+<kod_vz_na_profilu>P23V00007928</kod_vz_na_profilu>
+<nazev_vz>Technický dozor stavebníka na akci „STAVEBNÍ ÚPRAVY A INTERIÉR MASARYKOVY VEŘEJNÉ KNIHOVNY A TURISTICKÉHO INFORMAČNÍHO CENTRA VSETÍN V OBJEKTU Č.P. 1356“</nazev_vz>
+<stav_vz>zakázka byla zadána</stav_vz>
+<druh_zadavaciho_rizeni>zakázka malého rozsahu</druh_zadavaciho_rizeni>
+<delena_na_casti>0</delena_na_casti>
+<ramcova_dohoda>0</ramcova_dohoda>
+<zavedeni_dns>0</zavedeni_dns>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3171620</url>
+<typ_dokumentu>Písemná zpráva (podle § 217 zákona)</typ_dokumentu>
+<cas_vlozeni_na_profil>2024-01-30T10:44:48+01:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3171621</url>
+<typ_dokumentu>Písemná zpráva (podle § 217 zákona)</typ_dokumentu>
+<cas_vlozeni_na_profil>2023-12-22T11:27:03+01:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3171622</url>
+<typ_dokumentu>Vysvětlení zadávací dokumentace (podle § 98 zákona)</typ_dokumentu>
+<cas_vlozeni_na_profil>2023-11-29T16:03:55+01:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3171623</url>
+<typ_dokumentu>Zadávací dokumentace (podle § 53 odstavce 3, § 96 odstavce 1 a § 164 odstavce 2 zákona)</typ_dokumentu>
+<cas_vlozeni_na_profil>2023-11-24T13:37:46+01:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3171624</url>
+<typ_dokumentu>Zadávací dokumentace (podle § 53 odstavce 3, § 96 odstavce 1 a § 164 odstavce 2 zákona)</typ_dokumentu>
+<cas_vlozeni_na_profil>2023-11-24T13:37:46+01:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3171625</url>
+<typ_dokumentu>Zadávací dokumentace (podle § 53 odstavce 3, § 96 odstavce 1 a § 164 odstavce 2 zákona)</typ_dokumentu>
+<cas_vlozeni_na_profil>2023-11-24T13:37:46+01:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3171626</url>
+<typ_dokumentu>Výzva k podání nabídek</typ_dokumentu>
+<cas_vlozeni_na_profil>2023-11-24T13:37:46+01:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<datum_cas_zverejneni>2023-11-24T13:37:46+01:00</datum_cas_zverejneni>
+<datum_uzavreni_smlouvy>2024-01-19T00:00:00+01:00</datum_uzavreni_smlouvy>  
+</VZ>            <ucastnik>
+<ico>27858952</ico>
+<nazev_ucastnika>LAVI ENGINEERING s.r.o.</nazev_ucastnika>
+<misto_podnikani>CZ</misto_podnikani>
+<cena_bez_dph></cena_bez_dph>
+<sdruzeni>0</sdruzeni>
+</ucastnik>      <ucastnik>
+<ico>47667109</ico>
+<nazev_ucastnika>IPR spol. s r.o.</nazev_ucastnika>
+<misto_podnikani>CZ</misto_podnikani>
+<cena_bez_dph></cena_bez_dph>
+<sdruzeni>0</sdruzeni>
+</ucastnik>      <ucastnik>
+<ico>67768288</ico>
+<nazev_ucastnika>Václav Fiktivní</nazev_ucastnika>
+<misto_podnikani>CZ</misto_podnikani>
+<cena_bez_dph></cena_bez_dph>
+<sdruzeni>0</sdruzeni>
+</ucastnik>      <ucastnik>
+<ico>28571690</ico>
+<nazev_ucastnika>SAFETY PRO s.r.o.</nazev_ucastnika>
+<misto_podnikani>CZ</misto_podnikani>
+<cena_bez_dph></cena_bez_dph>
+<sdruzeni>0</sdruzeni>
+</ucastnik>      <ucastnik>
+<ico>06662439</ico>
+<nazev_ucastnika>Ing. Lukáš Zkušební</nazev_ucastnika>
+<misto_podnikani>CZ</misto_podnikani>
+<cena_bez_dph></cena_bez_dph>
+<sdruzeni>0</sdruzeni>
+</ucastnik>      <ucastnik>
+<ico>18188711</ico>
+<nazev_ucastnika>FAKO spol. s r.o.</nazev_ucastnika>
+<misto_podnikani>CZ</misto_podnikani>
+<cena_bez_dph></cena_bez_dph>
+<sdruzeni>0</sdruzeni>
+</ucastnik>            </zakazka>
+<zakazka>
+<VZ>
+<kod_vz_na_profilu>P23V00008011</kod_vz_na_profilu>
+<nazev_vz>DODÁVKA ZÁLOHOVACÍHO SERVERU PRO MĚSTO VSETÍN 2023</nazev_vz>
+<stav_vz>zakázka byla zadána</stav_vz>
+<druh_zadavaciho_rizeni>zakázka malého rozsahu</druh_zadavaciho_rizeni>
+<delena_na_casti>0</delena_na_casti>
+<ramcova_dohoda>0</ramcova_dohoda>
+<zavedeni_dns>0</zavedeni_dns>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3157965</url>
+<typ_dokumentu>Písemná zpráva (podle § 217 zákona)</typ_dokumentu>
+<cas_vlozeni_na_profil>2024-01-12T12:36:28+01:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3157966</url>
+<typ_dokumentu>Jiný dokument (zadavatel uvede název tohoto typu dokumentu)</typ_dokumentu>
+<cas_vlozeni_na_profil>2023-12-28T08:13:01+01:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3157967</url>
+<typ_dokumentu>Výzva k podání nabídek</typ_dokumentu>
+<cas_vlozeni_na_profil>2023-11-28T13:21:22+01:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3157968</url>
+<typ_dokumentu>Zadávací dokumentace (podle § 53 odstavce 3, § 96 odstavce 1 a § 164 odstavce 2 zákona)</typ_dokumentu>
+<cas_vlozeni_na_profil>2023-11-28T13:21:22+01:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<datum_cas_zverejneni>2023-11-28T13:21:22+01:00</datum_cas_zverejneni>
+<datum_uzavreni_smlouvy>2023-12-30T00:00:00+01:00</datum_uzavreni_smlouvy>  
+</VZ>            <ucastnik>
+<ico>47916745</ico>
+<nazev_ucastnika>K-net Technical International Group, s.r.o.</nazev_ucastnika>
+<misto_podnikani>CZ</misto_podnikani>
+<cena_bez_dph></cena_bez_dph>
+<sdruzeni>0</sdruzeni>
+</ucastnik>      <ucastnik>
+<ico>03431045</ico>
+<nazev_ucastnika>IT AWACS SOLUTION s.r.o.</nazev_ucastnika>
+<misto_podnikani>CZ</misto_podnikani>
+<cena_bez_dph></cena_bez_dph>
+<sdruzeni>0</sdruzeni>
+</ucastnik>            </zakazka>
+<zakazka>
+<VZ>
+<kod_vz_na_profilu>P23V00007847</kod_vz_na_profilu>
+<nazev_vz>STUDIE MěÚ VSETÍN – SNÍŽENÍ ENERGETICKÉ NÁROČNOSTI</nazev_vz>
+<stav_vz>zakázka byla zadána</stav_vz>
+<druh_zadavaciho_rizeni>zakázka malého rozsahu</druh_zadavaciho_rizeni>
+<delena_na_casti>0</delena_na_casti>
+<ramcova_dohoda>0</ramcova_dohoda>
+<zavedeni_dns>0</zavedeni_dns>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3150439</url>
+<typ_dokumentu>Písemná zpráva (podle § 217 zákona)</typ_dokumentu>
+<cas_vlozeni_na_profil>2024-01-03T16:13:08+01:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3150440</url>
+<typ_dokumentu>Jiný dokument (zadavatel uvede název tohoto typu dokumentu)</typ_dokumentu>
+<cas_vlozeni_na_profil>2024-01-03T16:13:03+01:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3150441</url>
+<typ_dokumentu>Výzva k podání nabídek</typ_dokumentu>
+<cas_vlozeni_na_profil>2024-01-03T16:13:03+01:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3150442</url>
+<typ_dokumentu>Zadávací dokumentace (podle § 53 odstavce 3, § 96 odstavce 1 a § 164 odstavce 2 zákona)</typ_dokumentu>
+<cas_vlozeni_na_profil>2024-01-03T16:13:03+01:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<datum_cas_zverejneni>2024-01-03T16:13:08+01:00</datum_cas_zverejneni>
+<datum_uzavreni_smlouvy>2023-12-22T00:00:00+01:00</datum_uzavreni_smlouvy>  
+</VZ>            <ucastnik>
+<ico>25368931</ico>
+<nazev_ucastnika>ATELIER SIMONA - projekce a inženýrská činnost, s.r.o.</nazev_ucastnika>
+<misto_podnikani>CZ</misto_podnikani>
+<cena_bez_dph></cena_bez_dph>
+<sdruzeni>0</sdruzeni>
+</ucastnik>            </zakazka>
+<zakazka>
+<VZ>
+<kod_vz_na_profilu>P23V00007474</kod_vz_na_profilu>
+<kod_vz_na_vvz>Z2023-050405</kod_vz_na_vvz>
+<nazev_vz>Přednádražní prostor - I.B etapa - Vsetín</nazev_vz>
+<stav_vz>zakázka neukončena</stav_vz>
+<druh_zadavaciho_rizeni>otevřené řízení</druh_zadavaciho_rizeni>
+<delena_na_casti>0</delena_na_casti>
+<ramcova_dohoda>0</ramcova_dohoda>
+<zavedeni_dns>0</zavedeni_dns>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3802093</url>
+<typ_dokumentu>Smlouva (uzavřená na veřejnou zakázku včetně všech jejích změn a dodatků a rámcová dohoda podle § 219 zákona)</typ_dokumentu>
+<cas_vlozeni_na_profil>2024-05-10T10:31:21+02:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3802094</url>
+<typ_dokumentu>Písemná zpráva (podle § 217 zákona)</typ_dokumentu>
+<cas_vlozeni_na_profil>2024-05-10T10:31:21+02:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3802095</url>
+<typ_dokumentu>Vysvětlení zadávací dokumentace (podle § 98 zákona)</typ_dokumentu>
+<cas_vlozeni_na_profil>2024-01-31T16:01:06+01:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3802096</url>
+<typ_dokumentu>Vysvětlení zadávací dokumentace (podle § 98 zákona)</typ_dokumentu>
+<cas_vlozeni_na_profil>2024-01-24T14:01:55+01:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3802097</url>
+<typ_dokumentu>Vysvětlení zadávací dokumentace (podle § 98 zákona)</typ_dokumentu>
+<cas_vlozeni_na_profil>2024-01-08T10:25:41+01:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3802098</url>
+<typ_dokumentu>Vysvětlení zadávací dokumentace (podle § 98 zákona)</typ_dokumentu>
+<cas_vlozeni_na_profil>2023-12-21T14:51:11+01:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3802099</url>
+<typ_dokumentu>Vysvětlení zadávací dokumentace (podle § 98 zákona)</typ_dokumentu>
+<cas_vlozeni_na_profil>2023-12-19T15:46:54+01:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3802100</url>
+<typ_dokumentu>Vysvětlení zadávací dokumentace (podle § 98 zákona)</typ_dokumentu>
+<cas_vlozeni_na_profil>2023-12-13T11:36:34+01:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3802101</url>
+<typ_dokumentu>Vysvětlení zadávací dokumentace (podle § 98 zákona)</typ_dokumentu>
+<cas_vlozeni_na_profil>2023-12-06T12:33:00+01:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3802102</url>
+<typ_dokumentu>Vysvětlení zadávací dokumentace (podle § 98 zákona)</typ_dokumentu>
+<cas_vlozeni_na_profil>2023-12-01T14:50:10+01:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3802103</url>
+<typ_dokumentu>Vysvětlení zadávací dokumentace (podle § 98 zákona)</typ_dokumentu>
+<cas_vlozeni_na_profil>2023-11-28T12:29:01+01:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3802104</url>
+<typ_dokumentu>Vysvětlení zadávací dokumentace (podle § 98 zákona)</typ_dokumentu>
+<cas_vlozeni_na_profil>2023-11-21T09:31:26+01:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3802105</url>
+<typ_dokumentu>Zadávací dokumentace (podle § 53 odstavce 3, § 96 odstavce 1 a § 164 odstavce 2 zákona)</typ_dokumentu>
+<cas_vlozeni_na_profil>2023-11-06T13:47:05+01:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3802106</url>
+<typ_dokumentu>Zadávací dokumentace (podle § 53 odstavce 3, § 96 odstavce 1 a § 164 odstavce 2 zákona)</typ_dokumentu>
+<cas_vlozeni_na_profil>2023-11-06T13:47:05+01:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3802107</url>
+<typ_dokumentu>Zadávací dokumentace (podle § 53 odstavce 3, § 96 odstavce 1 a § 164 odstavce 2 zákona)</typ_dokumentu>
+<cas_vlozeni_na_profil>2023-11-06T13:47:06+01:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3802108</url>
+<typ_dokumentu>Zadávací dokumentace (podle § 53 odstavce 3, § 96 odstavce 1 a § 164 odstavce 2 zákona)</typ_dokumentu>
+<cas_vlozeni_na_profil>2023-11-06T13:47:06+01:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3802109</url>
+<typ_dokumentu>Zadávací dokumentace (podle § 53 odstavce 3, § 96 odstavce 1 a § 164 odstavce 2 zákona)</typ_dokumentu>
+<cas_vlozeni_na_profil>2023-11-06T13:47:07+01:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<dokument>
+<url>https://www.vhodne-uverejneni.cz/index.php?m=xenorders&amp;h=orderdocument&amp;a=detail&amp;document=3802110</url>
+<typ_dokumentu>Zadávací dokumentace (podle § 53 odstavce 3, § 96 odstavce 1 a § 164 odstavce 2 zákona)</typ_dokumentu>
+<cas_vlozeni_na_profil>2023-11-06T13:47:07+01:00</cas_vlozeni_na_profil>
+<cislo_verze>1</cislo_verze>
+</dokument>
+<datum_cas_zverejneni>2023-11-06T13:47:04+01:00</datum_cas_zverejneni>
+</VZ>              </zakazka>
+</profil>
