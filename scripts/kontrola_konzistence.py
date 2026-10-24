@@ -13,6 +13,8 @@ Kontroly:
   K4  IČO s chybnou kontrolní číslicí (mod 11) ve všech data/**/*.json
   K5  RO schválené ZM/RM: datum RO vs datum zasedání/schůze v data/usneseni/usneseni_vazby_RO.json
   K6  fyzická osoba jako dodavatel/účastník v kurátorovaných datech (právní forma FO dle ARES) – k pseudonymizaci
+  K7–K13 v scripts/kontrola_konzistence_krizova.py (odvozené soubory, částky smluv, odkazy, stavy signálů,
+         data a časové osy, ZÚ × MONITOR, duplicitní ID)
 Návratový kód 0 (nálezy nejsou chyba běhu); 2 = chyba vstupních dat (nečitelný soubor).
 """
 from __future__ import annotations
@@ -209,6 +211,10 @@ KONTROLY = [("K1", "RO: řádky JSON vs roční CSV vs souhrnné CSV", k1_ro_jso
             ("K4", "IČO – kontrolní číslice", k4_ico),
             ("K5", "RO: datum vs index zasedání ZM / schůzí RM", k5_ro_datum),
             ("K6", "FO jménem v kurátorovaných datech (zakázky, smlouvy)", k6_fo_v_kuratorovanych)]
+
+import kontrola_konzistence_krizova as _krizova  # noqa: E402  K7–K13 (odvozené soubory, smlouvy, odkazy, …)
+_krizova.kk = sys.modules[__name__]
+KONTROLY += _krizova.KONTROLY_DALSI
 
 
 def main(argv=None):
