@@ -32,11 +32,11 @@ class TestRepo(unittest.TestCase):
             self.assertNotRegex(f.read(), r"(?m)^M\s*=")
 
     def test_vyjimky_se_jen_zmensuji(self):
-        """Výjimky = soubory bez schématu ke dni zavedení (37). Nový soubor bez schématu do nich nepatří."""
+        """Výjimky = soubory bez schématu ke dni zavedení (37, po integraci 27). Nový soubor bez schématu do nich nepatří."""
         pokryto = {f for _, s in vs.schemata().values() for f in s}
         nepokryte = vs.vyjimky() - pokryto
         self.assertTrue(all(f.startswith("data/") for f in vs.vyjimky()))
-        self.assertLessEqual(len(nepokryte), 37, sorted(nepokryte))
+        self.assertLessEqual(len(nepokryte), 27, sorted(nepokryte))
 
 
 class TestMechanismus(unittest.TestCase):

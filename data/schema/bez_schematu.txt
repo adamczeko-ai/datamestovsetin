@@ -26,15 +26,5 @@ data/rozpocet/2022/rozpoctova_opatreni_2022_narativ.json
 data/rozpocet/2026/vazba_lavka_Vs-01-Bel.json
 data/rozpocet/index_schvalene_rozpocty.json
 data/rozpocet/rekonciliace_ro_monitor.json
-data/smlouvy/oprava_hodnot_registru_2026-10-23.json
-data/smlouvy/parovani_akci.json
-data/smlouvy/uver_CSOB_2026.json
-data/smlouvy/uver_CSOB_kontokorent_2011.json
 data/transfery/transfery_mesta_2026_08.json
-data/usneseni/usneseni_vazby_RO.json
-data/zakazky/nipez_vz_okruh_mesta_2024_2026.json
-data/zakazky/nipez_vz_pruchod_2026-10-23.json
-data/zakazky/odpad_svoz.json
-data/zakazky/sluzba_senior_taxi.json
-data/zakazky/verejne_zakazky_zrusene.json
 data/zaverecny_ucet/zaverecny_ucet_2023_2025.json
